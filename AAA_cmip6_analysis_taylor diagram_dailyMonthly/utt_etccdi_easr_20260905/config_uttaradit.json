@@ -1,0 +1,48 @@
+{
+  "province_name": "Uttaradit",
+  "input": {
+    "observed_file": "Observed_Rain_daily_198101_201412_Uttaradit.csv",
+    "coordinates_file": "station_coordinates.xlsx",
+    "boundary_file": "75 pbound.shp",
+    "boundary_filter": [
+      {"field": "PROV_CODE", "value": "53"},
+      {"field": "PROV_NAME", "value": "UTTARADIT"}
+    ]
+  },
+  "cmip6": {
+    "directory": "."
+  },
+  "models": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "EC-Earth3",
+    "FGOALS-g3",
+    "MIROC6",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": {
+    "ssp245": "SSP2-4.5",
+    "ssp585": "SSP5-8.5"
+  },
+  "periods": {
+    "observed_start": 1981,
+    "observed_end": 2014,
+    "baseline_start": 1995,
+    "baseline_end": 2014,
+    "future_start": 2021,
+    "future_end": 2050
+  },
+  "settings": {
+    "alpha": 0.05,
+    "min_trend_n": 10,
+    "annual_completeness": 0.9,
+    "wet_day_threshold_mm": 1.0,
+    "r10_threshold_mm": 10.0,
+    "r20_threshold_mm": 20.0,
+    "r50_threshold_mm": 50.0,
+    "p95": 95.0,
+    "p99": 99.0,
+    "idw_power": 2.0
+  }
+}

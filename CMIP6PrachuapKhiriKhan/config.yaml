@@ -1,0 +1,29 @@
+# ==============================================================================
+# CMIP6 Prachuap Khiri Khan - Modernized Portable Configuration (v3.0)
+# ==============================================================================
+
+project:
+  name: "CMIP6_PrachuapKhiriKhan_Rainfall_Trend_Analysis"
+  version: "3.0.0"
+  seed: 42
+
+data:
+  observed_csv: "data/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv"
+  station_coords_csv: "data/station_coordinates_PrachuapKhiriKhan.csv"
+  date_columns: ["YEAR", "MONTH", "DAY"]
+  expected_station_count: 12
+  analysis_period: [1981, 2014]
+
+analysis:
+  primary_method: "yue_wang_2004"
+  secondary_method: "standard_mk"
+  sensitivity_method: "tfpw_mk"
+  alpha: 0.05
+  r1_significance_alpha: 0.05
+
+output:
+  output_dir: "output"
+  tables_dir: "output/tables"
+  figures_dir: "output/figures"
+  manifests_dir: "output/manifests"
+  logs_dir: "output/logs"

@@ -1,0 +1,1044 @@
+
+
+===== PAGE 1 =====
+
+Tung et al. 
+Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8  
+https://doi.org/10.1007/s44195-022-00009-z
+REVIEW ARTICLE
+Extreme index trends of daily gridded 
+rainfall dataset (1960–2017) in Taiwan
+Yu‑Shiang Tung1* , Chun‑Yu Wang1, Shu‑Ping Weng2 and Chen‑Dau Yang2 
+Abstract 
+Previous lectures have shown that to effectively explore Taiwan’s climate change or other relevant topics, long‑
+term and stable observation datasets are required. We introduce the high‑resolution grided precipitation dataset 
+(TCCIP_PR), which was constructed by the Taiwan Climate Change projection and adaptation Information Platform 
+(TCCIP) program from thousands of station records. Although, a high spatial‑time relationship exists between the 
+TCCIP_PR and the stations, a large uncertainty occurs over the complex terrain on the southwest windward side dur‑
+ing the summer, due to sparse stations. To better understand the change in the extreme rainfall trends, we analyze 9 
+suitable indices from the Expert Team on Climate Change Detection and Indices (ETCCDI). Our result show that the 
+extreme rainfall intensity and frequency have continuously increased for a long time, and the consecutive dry days 
+have decreased in recent decades, particularly over southwest Taiwan. The regime change evaluations agree that the 
+precipitation characteristics were amplified and become more unpredictable from the early (1960–2002) to the late 
+(2003–2017) period. For future applications or research, the calculated results of the extreme indices can be found in 
+the printed documentation and the online retrieval system.
+Key Points 
+• High resolution grid rainfall data established by thousands of station records
+• Extreme indices long-term trend detection
+• Extreme rainfall regime change evaluation
+Keywords: Climate change, Extreme index, TCCIP grided dataset
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this 
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+1 Introduction
+Due to the natural climate variability and industrial 
+development in recent years, the emission of greenhouse 
+gases has caused the global average temperature to rise. 
+The scientific evidence has been very well presented and 
+is mostly accepted by climate researchers. The positive 
+effect on the precipitation changes has also been proved 
+(Kharin et al. 2013). IPCC AR5 (Intergovernmental Panel 
+on Climate Change, Fifth Assessment Report) (Inter -
+governmental Panel on Climate Change 2014) showed 
+that the global extreme rainfall events have generally 
+increased over the past years. Many studies have also 
+confirmed from the analysis of observations that the 
+global average temperature rise will cause the frequency 
+of extreme weather events to increase (Sillmann et  al. 
+2013; Kharin et  al. 2013; Liu et  al. 2009). The global 
+average temperature rise represents that the air mois -
+ture vapor content has increased, rendering the water 
+vapor transfer to become strong. This extreme rainfall 
+phenomenon will exhibit specific regional parameters 
+for different large scale atmospheric systems, land-sea 
+Open Access
+Terrestrial, Atmospheric
+and Oceanic Sciences
+*Correspondence:  yushiangtom@gmail.com
+1 National Science and Technology Center for Disaster Reduction, 9F., 
+No.200, Sec. 3, Beisin Rd., Xindian District, New Taipei City 23143, Taiwan
+Full list of author information is available at the end of the article
+
+===== PAGE 2 =====
+
+Page 2 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+distribution, and topography. (Donat et  al. 2013) intro -
+duced the extreme index ETCCDI (Expert Team on Cli -
+mate Change Detection and Indices) by HadEX2 (Met 
+Office Hadley Centre Global land-based gridded data -
+sets of climate extremes indices version 2) to monitor the 
+global climate extreme rainfall trend.
+Taiwan has many unfavorable natural conditions, a 
+complex topography, short and rapid rivers, and is also 
+located in the East Asian monsoon region and north -
+west Pacific storm track. Moreover, Taiwan is affected 
+by the frontal systems of the Mei-Yu Rain Season in May 
+and June, and 3–4 typhoons hit the island annually (Wu 
+and Kuo 1999; Central Weather Bureau). These extreme 
+meteorological events can cause short-term and rapid 
+heavy rainfall, resulting in flooding, landslides, slope col -
+lapse, etc. On the other hand, the southwest region of 
+Taiwan during the dry season from September to April 
+often experience many rainless days, which could cause 
+droughts. As the extreme weather and climate in Taiwan 
+may also be accompanied by natural disasters, the impact 
+of the hydrological environment changes are impor -
+tant issues to understand. (Lu et al. 2012) used six daily 
+weather station data to demonstrate the long-term trends 
+of extreme indices, but it lacked the information regard -
+ing the dominated topographical regions. To satisfy the 
+analysis, it would have been better if the reliable high spa-
+tial-time resolution grided dataset was used.
+Starting from 1997, satellites have helped to collect 
+high-resolution meteorological data related to the tem -
+perature, rainfall, radiation, etc. However, proving the 
+argument that the trend in the data is related to climate 
+changes requires long-term and stable station observed 
+records. Previous studies of extreme climate literatures 
+(Kharin et  al. 2013; Donat et  al. 2013; Sillmann et  al. 
+2013; Endo et al. 2009) have focused on global or conti -
+nental spatial scales, and the resolution has reached up 
+to 50 or even 200 km. Even APHRODITE (Asian Precipi -
+tation—Highly-Resolved Observational Data Integration 
+Towards Evaluation) (Yatagai et  al. 2012) has provided 
+the daily rainfall data in recent years covering a 25  km 
+high-resolution over the Asian monsoon region. It is 
+still difficult to show the small-regional based and high 
+impact of extreme rainfall spatial distribution and inten -
+sity variation over Taiwan.
+In addition to trying to understand the disasters 
+accompanying Taiwan’s extreme climate, we also study 
+the geographical distribution characteristics and regime 
+changes, which is conducive to conduct impact assess -
+ments and other application in different fields. Many 
+studies used the dynamical and statistical downscal -
+ing with 5  km resolution grid data of Taiwan Climate 
+Change projection and adaptation Information Platform 
+(TCCIP) (Chen et al. 2016; Huang et al. 2016; Lee Yu-Chi 
+et al. 2019; Teng et al. 2021; Tung et al. 2016) for climate 
+research, the evaluation of consistent regular observed 
+dataset is worth for future reference. Considering the 
+extreme rainfall trend, this study will make use of the sta-
+tion data and TCCIP gridded rainfall data to establish 
+extreme indices database, and analyze its trend change. 
+Sections  1 and 2 explain the source of the data and the 
+analysis methods. Section  3 studies the results of the 
+study, and Sect. 4 discusses the theory behind the results. 
+The final section presents the conclusion of the study.
+2  Data and methods
+2.1  Data collection and gridding methodology
+The establishment of ground observation stations in 
+Taiwan stems from various requirements, such as dis -
+aster prevention, weather forecast, crop protection, etc. 
+Many synoptic or automatic rainfall observation stations 
+have been established in various places at different time 
+points. TCCIP collects observational daily rainfall data 
+from various units, digitizes the historical paper records, 
+checks, filters, and homogenizes the data at the same 
+time to obtain a reasonable digitization station data -
+set (Hung 2012). The dataset was updated regularly and 
+extended to 2017. Since 1960, a total of 2203 stations 
+have been set up throughout Taiwan, which contains 
+CWB (Central Weather Bureau) and CAA (Civil Aero -
+nautics Administration) synoptic stations (41 stations); 
+automatic weather station (651 stations); WRA (Water 
+Resources Agency) and agriculture hydrology stations 
+(1337 stations); EPA (Environmental Protection Admin -
+istration) air quality station (78 stations); TFRI (Taiwan 
+Forestry Research Institute) stations (14 stations). The 
+spatial location distribution can be found in Fig. 1.
+However, the data quality of each station is unhomog -
+enized, due to complex factors, such as funding mainte -
+nance and natural disasters. In addition, Fig. 2 shows that 
+the complete and stable historical records are synoptic 
+stations. Most of the older station records are hydrologi -
+cal stations that were set up for agriculture needs. After 
+1980, to better understand and forecast the weather, and 
+thanks to the advancement of automatic observation 
+techniques, CWB began to set up automatic stations to 
+collect various atmospheric variables. To make up for 
+the insufficient records covering the mountainous areas, 
+the TFRI meteorological observation records that is used 
+for ecological research was employed beginning from 
+2016. The raw data collected from the various sources 
+were checked for the data integrity during the first stage. 
+Before interpolating to the grids, the data was further 
+checked for consistency and accuracy during the second 
+stage. Even if only the station used a short-term record 
+length in the background database, a regular 5 km resolu-
+tion of the daily rainfall database (henceforth TCCIP_PR) 
+
+===== PAGE 3 =====
+
+Page 3 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+could be established by the methodology of Weng and 
+Yang (2018). TCCIP_PR collected all QA (Quality Assur -
+ance)/QC (Quality Control) stations data and updated 
+1 km and 5 km resolution versions annually for variable 
+requirements. We also chose 24 stable and long-term 
+synoptic stations (Fig.  1 dark-black solid points) that was 
+representative of Taiwan’s daily rainfall data to compare 
+with the TCCIP_RR to check the extreme index results. 
+The red-colored points in Fig.  1 show five of the stations 
+that were used to evaluate the extreme indices.
+2.2  Extreme indices
+The extreme indices (Sillmann et  al. 2013) used in this 
+study were developed by the ETCCDI experts who are 
+under the WMO to analyze the long-term rainfall data 
+can also be utilized to monitor and evaluate the global 
+extreme climate changes. This paper focuses on the 
+regional characteristics of rainfall extremes in Taiwan, 
+and thus we select 9 indices for the long-term trends 
+analysis. The definitions are described in Table  1. These 
+indices are used to evaluate the precipitation and can be 
+classified to intensity-based indices by RX1day, RX5day 
+and SDII; total amount by R99pTOT, PrcpTOT; event 
+type or relative to a fixed threshold value by RR1 and 
+R80mm, which can be used to describe the extreme fre -
+quency events. Furthermore, the CWD and CDD can be 
+used to describe the annually longest continuous events.
+Fig. 1 Station description. a Demonstrated the location of Taiwan in East‑Asia and station records station distribution. Red circles represent 5 major 
+stations (Taipei, Taichung, Kaohsiung, Hualien, and Penghu) selected in the following validation. b Shows station records used to grid annually
+Fig. 2 Statists station record numbers used to TCCIP_PR grid data 
+annually. Purple line shows FRI (Taiwan Forestry Research Institute) 
+and ARI; green line is HYDRO included WRA (Water Resources 
+Agency) and agriculture hydrology station
+
+===== PAGE 4 =====
+
+Page 4 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+2.3  Evaluation methods
+For the purpose to evaluate the annual extreme indices 
+with large variance, (Taylor 2001) used statistical meth -
+ods to evaluate the model performance. In this study, 
+we set the station record data as the reference value to 
+quantify the extreme indices analysis results of the grid 
+data. The normalized root mean square error (NRMSE) 
+is defined as
+where RMSE is the index root mean square error of grids 
+and stations, and σ is the standard deviation of the refer -
+ence data (station record data).
+The daily rainfall data from the station database 
+underwent an imputation process when aligning to a 
+grid. Still, the large fluctuation of the annual extreme 
+indices affected the stability of the trend detection. 
+Thus, during the trend evaluation of the extreme indi -
+ces, to correctly evaluate the historical long-term 
+change trend, the hydrological analysis common evalu -
+ation method of Theil-Sen (Yeh et  al. 2016) was used. 
+This method can calculate the reasonable linear trend 
+and make the value less susceptible to outliers. More -
+over, we also used the Mann–Kendall practices linear 
+trend test to assume the data was a non-parametric and 
+non-specific predetermined statistical distribution, and 
+to test whether there were any significant trends (Yeh 
+et  al. 2016). Due to the large variance of the extreme 
+index, the climate regime change evaluation used 
+the U-T est (the Mann–Whitney-the Wilcoxon T est) 
+(Pfeifer et  al. 2015). This assumes the sample data is 
+nonparametric when two climate periods are signifi -
+cantly different. According to the sorted data and the 
+statistic scores level classification, the U value was less 
+than 0.05, which can be viewed as passing the signifi -
+cant test.
+(1)NRMSE = RMSE
+σ
+3  Results
+3.1  Data evaluation and verification
+Before applying TCCIP_PR, we evaluated the uncertainty 
+between the grid and the station data over the respec -
+tive 5  km region. The article by Weng and Yang (2018) 
+used rigorous methods and processes to conduct the 
+evaluation. Errors could be generated during the data 
+constructed process, which included the following: a. 
+Optimized parameter algorithm, b. Station records impu-
+tation, and c. Distribution density of stations. The grid is 
+representative of the entire coverage area, and may differ 
+from the ground truth provided by the stations.
+We used data that covered the 1960–2017 time period 
+and evaluated the seasonal confidence between the sta -
+tion data and the recent grid, computing RMSE during 
+the four respective seasons (spring MAM, summer JJA, 
+autumn SON and winter DJF). In the wet season, the 
+heavy rainfall is mostly contributed by typhoons, the 
+southwesterly flow and other large-scale systems over 
+the southwest windward side of mountainous areas. The 
+errors in JJA will be 30–50 mm/day on average (Fig.  3b), 
+and in SON presents a small region over the mountain 
+area that exceeds 30  mm/day (Fig.  3c). By contrast, the 
+small amount of rainfall during the dry season reveals 
+fewer errors. The MAM rainfall patterns will only cause 
+15–20  mm/day errors over the mountainous area, and 
+the DJF is not obvious (Fig. 3a, d).
+Overall, the high distribution density and the stable 
+quality of the station data over flat areas gives it a higher 
+credibility than mountainous areas. Unfortunately, it 
+is difficult to set up stations in mountainous areas due 
+to logistics and funding reasons, thus causing the data 
+quality to be less stable. Furthermore, the synoptic or 
+small-scale systems (ex: summer afternoon convection) 
+and extreme rainfall events (ex: southwest flow) that are 
+windward to the mountains are likely to cause grid bias. 
+Even so, it is worthy to note that compared to other 
+Table 1 Extreme indices description
+Index Full name definition
+RX1day Max 1‑day precipitation amount yearly maximum precipitation value of daily rainfall (mm)
+RX5day Max 5‑day precipitation amount The annual maximum accumulated precipitation for 5 consecutive days (mm)
+R80mm Heavy precipitation days Daily precipitation value is greater than 80 mm This threshold definition comes from the disaster 
+prevention application of CWB (day)
+RR1 Rainy days Daily precipitation above 1 mm (RR ≥ 1 mm) (day)
+CDD Consecutive dry days Continuous accumulated daily precipitation less than 1 mm (RR < 1 mm) (day)
+CWD Consecutive wet days Continuous accumulated daily precipitation more than 1 mm (RR ≥ 1 mm) (day)
+R99pTOT Annual total Precipitation when RR > 99p Cumulative total precipitation that RR reaches the 99th percentile threshold in period of 
+1961–1990. Where RR is daily precipitation above 1 mm (mm)
+PrcpTOT Annual total precipitation in wet days Cumulative total precipitation of RR. Where RR is daily precipitation above 1 mm (mm)
+SDII Simple precipitation intensity index Simple daily rainfall intensity, annual cumulative rainfall/rainy day (mm/day)
+
+===== PAGE 5 =====
+
+Page 5 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+high-resolution rainfall grid data that have been com -
+monly used in previous lectures (Tang et al. 2019; Thanh 
+2019; Yatagai et  al. 2014), the grid data in this study is 
+unique and provides many details. Though TCCIP_PR 
+spans 5  km and 1  km versions and constructs by the 
+same methodology, the slight difference was represented 
+(Additional file  1: Fig. S1). The 5 km version spatial pat -
+tern of precipitation character consistent with 1  km 
+Fig. 3 TCCIP_PR uncertainty description. Seasonal RMSE mean between 5 km resolution grid with the stations
+
+===== PAGE 6 =====
+
+Page 6 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+version. To evaluate the difference of time series, the 
+monthly total precipitation is revealed the daily cumu -
+lated bias. Over the nearest grid point at Taipei station, 
+the fluctuation is similar excepted the extreme precipita -
+tion contributed by typhoon events at the specific month 
+(Additional file 1: Fig. S1b).
+3.2  Extreme index
+The rising trend of the average temperature can lead to 
+changes in the extreme rainfall trend. Westra et al. (2013) 
+applied 1960–2009 global ground station information 
+and showed that a 1 deg.C global temperature rise would 
+result in the maximum rainfall (the RX1day) to increase 
+7.2%. To understand the regional condition, the grid 
+observation data can describe the climate and geographic 
+distribution characteristics of the extreme indices in 
+detail as opposed to the weather stations, which can only 
+roughly describe the local environment. These two kinds 
+of datasets provide different significance. By taking the 
+rainfall intensity as an example, a single grid point value 
+only describes the average condition of a 5 km grid area, 
+while the position of the weather station represents the 
+actual geographic location of the rainfall intensity. We 
+used the grid observation data 1960–2017 as the his -
+torical base period to describe the spatial distribution of 
+extreme indices, and split Taiwan into four geographic 
+regions: North (NOR), Center (CEN), South (SOU) 
+and East (EAS). We also used 24 stations to explain the 
+extreme climate variability caused by global warming for 
+the long-term trend analysis of Taiwan in recent years.
+3.2.1  Climatology
+The annual maximum rainfall (RX1day) was distrib -
+uted in the Yilan and Hualien mountainous areas, and is 
+mainly affected by the northeasterly monsoon in the win-
+ter or the northwest track of typhoons. Meanwhile, the 
+Kaohsiung and Pingtung mountainous areas is affected 
+by the southwesterly stream in the summer. In addition, 
+the topographic effect induced large precipitation was 
+also likely to cause by the typhoon circulation (Fig.  4a). 
+Even from the annual continuous 5 daily maximum 
+cumulative rainfall (RX5day), similar climatic character -
+istics could be found (Fig.  4b), but the additional rainfall 
+from the seasonal large-scale system needed to be sus -
+tained. The amount of precipitation was large enough to 
+contribute to the RX5day. Specifically, the north, north -
+east, and eastern mountainous areas are vulnerable to 
+the northeasterly monsoon on the windward side, and 
+the southwest mountainous areas were contributed by 
+the stream of the southwesterly monsoon and typhoon 
+induced rainfall.
+The extreme accumulated rainfall (R99pTOT) of 
+the desired 99 percentile threshold rainfall, and the 
+reference ETCCDI (Sillmann et  al. 2013) of WMO 
+defined the 1961–1990 period as a historical refer -
+ence climate. The computed rainy days (greater than 
+or equal 1 [mm]) of the 99th percentile rainfall thresh -
+old and the yearly rainfall that exceeded the threshold 
+were conducted via cumulative calculation. Thus, the 
+R99pTOT will present nearly 30  years of contribution 
+of the extreme rainfall (Fig.  4c). As for the definition of 
+the current heavy rainfall event frequency, according to 
+the Taiwan precipitation characteristics by the CWB, 
+the daily rainfall was greater than 80 [mm] (R80mm) 
+(Fig.  4d). The large value position of R80mm was simi -
+lar to those occurred in RX1day, RX5day and R99pTOT 
+in the northeastern. Over southwestern mountainous 
+area, the R80mm is annually 8–9 days.
+The following indices are often used in agriculture 
+and water resources fields. The number of raining days 
+(RR1) is defined as the daily rainfall ≥ 1 [mm] and is 
+statistically calculated once in each year (Fig.  4e). More 
+than 140  days (approximately 4.5  months) in north 
+EAS Yilan every year is mainly due to the contribution 
+of the northeasterly monsoon in the winter (Chen and 
+Tu 2017; Hung and Kao 2010). Secondly, the typhoons 
+in autumn or the ones that pass near Taiwan can also 
+easily cause abundant rainfall due to the coupled 
+effects (Chen 2011; Su et al. 2012; Wu and Kuo 1999). 
+The southwest is a relatively dry region, excluding the 
+time points when the summer monsoon accompanied 
+by southwestern streams, afternoon convections, or 
+typhoon circulation systems are present.
+The total annual rainfall (PrcpTOT) is consistent 
+with the RR1 (daily rainfall amount ≥ 1 [mm]) of the 
+accumulated rainfall amount. Figure  4f shows that the 
+annual reservoir inflow contributed by rainfall is most 
+abundant over the northern region. The northern catch -
+ment area is on average contributed by the atmospheric 
+rainfall at around 3000 [mm], Taoyuan catchment is 
+1800–2400 [mm] and the southern catchment area 
+is 1800–2100 [mm] per year. The simple day rainfall 
+intensity (SDII) (Fig.  4g) represents the PrcpTOT was 
+equally distributed with the rainy days (RR1). The high-
+value area falls in the southwestern mountainous area 
+at about 36 [mm/day], while the northeast area with the 
+largest PrcpTOT is only 20 [mm/day] of SDII. The rea -
+son is that although the PrcpTOT in the southwestern 
+region is more than the northeast area, the annual rainy 
+day, compared with 4.5 months (130 days) above, repre -
+sents the northern catchment rich water resource and 
+the daily rainfall was evenly distributed (except some 
+extreme weather events). By contrast, the PrcpTOT 
+of the southwest mountain areas saw 3000 [mm], but 
+the rainfall was concentrated at 1.5  months (80  days). 
+This shows that the region tends to experience heavy 
+
+===== PAGE 7 =====
+
+Page 7 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+Fig. 4 Extreme indices special distribution of TCCIP_PR including RX1 day (a), RX5day (b), R99pTOT (c), R80 mm (d), RR1 (e), PrecpTOT (f), SDII (g), 
+CWD (h), and CDD (i) in the period of 1960–2017
+
+===== PAGE 8 =====
+
+Page 8 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+rainfall during short time patterns, rendering the water 
+resource to be relatively unstable.
+The index of consecutive wet days (CWD) where the 
+daily precipitation required ≥ 1 [mm] was the calculated 
+annual maximum. It represents the rain spell related to 
+agriculture, which may affect the crop production. Fig -
+ure 4h shows the northeastern region to be more associ -
+ated with the large value and exhibiting an annual average 
+of 12–14  days. Meanwhile, the main crop-producing 
+areas of the western flat field were 6–7  days. When a 
+large-scale system approaches, the southwest mountain 
+area tends to rain for long consecutive days, due to the 
+uplift of the terrain, ex: Mei-Yu front or southwesterly 
+flow, etc. The definition of the longest consecutive dry 
+day (CDD) (daily rainfall < 1[mm]), which could simply 
+show the occurrence of meteorological drought, is oppo -
+site to that of CWD. Figure  4i shows the southwestern 
+high and northeastern low. The west flat area from Tai -
+chung to Pingtung revealed consecutive 60 rainless days 
+(approximately 2 months) per year at least.
+Since the observation grid data and the station 
+records have significant different characteristics, we 
+will evaluate the data represented extreme indices. 
+Figure  5 selects 5 representative stations in each area 
+(the red dots in Fig.  1) and compare the time series 
+correlation coefficients corresponding to the closest 
+grid points (Fig.  5a). The normalized root mean square 
+error (NRMSE) (Fig.  5b) shows data applied to the grid 
+terminal of indices capacity assessment. While the 
+NRMSE value of the grid data is closer to 1, the devia -
+tion between the two is smaller.
+The correlation coefficient of most indices at each 
+station exceeds 0.7 and the NRMSE is less than 0.2, 
+which reveals a high correlation and low bias. Because 
+the grid value reveals a regional homogenized effect 
+relative to the station data, the number of events 
+obtained by the application calculation will mostly be 
+different from the analysis results of the station, espe -
+cially for the event type of extreme indices, which was 
+calculated by threshold (R80mm, RR1, CDD, CWD), 
+and the grid value was often lower than the position 
+closest to the station. However, the spatial distribution 
+and geographic characteristics tend to be consistent. 
+Considering the varying technical performance for dif -
+ferent regions, the correlation coefficient and NRMSE 
+was close to 1 for the grid of Taichung and Penghu, due 
+to a more homogeneous rainfall feature. As the grids 
+of the TCCIP_PR precipitation came from the rainfall 
+gauges within the vicinity (Weng and Yang 2018), the 
+more simple and consistent region resulted in a bet -
+ter relationship. By contrast, the precipitation of the 
+Taipei grid, which was contributed by variable rainfall 
+stations over a more complex topographic surround -
+ing, revealed a weaker technical performance. This was 
+similar to the Hualien grid. The seasonal RMSE mean 
+evaluation between the grid and stations in the cor -
+responding regions demonstrated consistent results 
+(Fig. 3).
+Fig. 5 Nine extreme indices validation of the nearest grid at 5 main stations (red circle in Fig. 1) from correlation coefficient (a) and normalized root 
+mean square difference (b). The black cross marker represents Taipei, the blue upward triangle is Taichung, the green plus is Kaohsiung, the orange 
+square is Hualien and the red downward triangle is Penghu
+
+===== PAGE 9 =====
+
+Page 9 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+3.2.2  Long‑term trend
+3.2.2.1 Time series To assess the long-term trend of 
+extreme indices, the major analysis dataset of the TCCIP_
+PR came from 24 stations, which was distributed through-
+out Taiwan (the location of the stations is denoted by the 
+black filled dots in Fig. 1). This allowed the annual average 
+of Taiwan to be calculated. Figure 6 shows the 1960–2017 
+extreme indices trends by the 30/50 years long-term linear 
+trend and the 11 years running mean slowly fluctuating. 
+The time series correlation coefficient of all the indices at 
+the stations is significantly consistent (demonstrated at 
+upper left legend of each plot). In the following paragraph, 
+the trends are described in more detail.
+The RX1day (Fig.  6a) 11-year running mean slowly 
+rose, the 50-year trend presentation increased 10.92 
+[mm] per decade (pass significant test), and the 30-year 
+trend increased more obviously. The RX5day 50-year and 
+30-year trend slowly rose (reject significant test) (Fig. 6b). 
+The R99pTOT 11-year running mean revealed a decadal 
+oscillation. The variation during the period of 1980–1990 
+was relatively low, while the 2000–2010 period was high 
+and was decreasing in recent years. The trend of the 
+50-year was 30.6 [mm/Decade] (pass significant test). 
+Figure  6d shows the R80mm 50/30-year linear trend 
+slightly increased (reject significant test).
+As the RX1day and RX5day are unable to distinguish 
+between the seasons, the maximum value of whole year 
+was used. Additionally, there was no direct relationship 
+with the number and intensity of typhoons, resulting in 
+only the climate change to be assessed. The heavy rainfall 
+pattern increased significantly. R80mm did not change, 
+but the R99pTOT showed an increasing trend, indicat -
+ing that the intensity of a single extreme rainfall event 
+increased. The aforementioned four indices associated 
+Fig. 6 The configuration is similar with Fig. 4 but demonstrated the extreme indices long‑term liner trend of 24 stations (marker) and reflective 
+TCCIP_PR grids(bar). The red line represents 30‑year trend of TCCIP_PR, blue one is 50‑year (solid line represents passed 95% significant test), and the 
+black solid line shows 11 years running mean
+
+===== PAGE 10 =====
+
+Page 10 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+Fig. 7 The indices configuration is similar with Fig. 4 but the 50‑year long‑term decade (10‑years) trend map. Dash pattern represented pass 95% 
+significant test
+
+===== PAGE 11 =====
+
+Page 11 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+with the heavy rainfall (Fig.  7a–d) of the 11-year running 
+mean showed that the situation significantly increased 
+around 2000, which is similar with previous studies 
+(Tung et al. 2016).
+The SDII calculation involves a comprehensive index, 
+where RR1 is divided by PrcpTOT. The annual value rep-
+resents the daily precipitation distribution in Taiwan, and 
+the long-term steady change of RR1 matches the slowly 
+increasing trend of PrcpTOT. Furthermore, as mentioned 
+previously, the grid and station data exhibit significantly 
+different features. The indices of PrcpTOT and RR1 cal -
+culated by TCCIP_PR are more underestimated when 
+compared with the station data. However, SDII results 
+from the precipitation ratio. As long as TCCIP_PR of the 
+PrcpTOT and RR1 own a stronger relationship with the 
+annual variation of the station, SDII will be consistent 
+with the trend of the station analysis results (Fig. 6g).
+As the main contribution to the CWD annual vari -
+ance is from the north/north-east (Fig.  4h), the continu-
+ous rainfall is dependent on the strength of the northeast 
+monsoon and winter frontal systems. Previous lecture 
+(Hung and Kao 2010) suggests the long-term downward 
+trend of the precipitation reflects that the winter mon -
+soon strength in East Asia significantly reduced after 
+1980. Although the CDD (Fig.  6i) 50-year trend declined 
+(reject significant test), the 30-year trend significantly 
+decreased (4.3[days/decade]) (pass significant test). The 
+ETCCDI definition of CDD in an annual Julian day may 
+underestimate the duration of the exact drought events 
+during the dry season in Taiwan. The area average, which 
+was above 40 days, indicated the extreme drought events 
+could be attributed by the conditions of lacked precipita -
+tion during the spring time, even extended to Mei-Yu or 
+typhoon season. This is a long-day phenomenon, which is 
+not easy to rain (Cho and Lu 2013; Hung and Shih 2017; 
+Weng and Yang 2018; Yang et al. 2019). Although the fac-
+tors causing drought are considered complicated, CDD 
+reflects the most basic risk factors of a meteorological 
+drought.
+TCCIP_PR grid data shows a homogeneous regional 
+precipitation. Some unexpected results appeared when 
+comparing these two datasets, due to the generation of 
+extreme indices. The TCCIP_PR of the annual extreme 
+precipitation indices of RX1day, RX5day, and R99pTOT 
+will be underestimated. However, the large deviation of 
+PrecpTOT comes from the accumulated daily precipita -
+tion bias. The key difference is if the grid and station data 
+applied 1 [mm] as the index threshold value, there will be 
+a systematic erroneous tendency of CDD overestimation. 
+Since many dry days appear, but the precipitation can’t 
+attend to 1 [mm] threshold, the opposite index of RR1 
+becomes underestimated. This is despite the fact that the 
+fluctuations and long-term trends are consistent.
+3.2.2.2 Spatial distribution Figure  7 used the recent 
+50  years (1968–2017) daily rainfall data to analyze each 
+extreme index decade trend. Considering the regions 
+passed the significant test, the RX1day (Fig.  7a) and 
+RX5day (Fig.  7b) had similar geographic distribution 
+over the SOU areas, including Kaohsiung and Pingtung 
+mountain area, where the rainfall respectively increased 
+by 30 [mm] and 40 [mm]. The declining trend is mainly 
+distributed in the north EAS flat region (Yilan) (6 and 12 
+[mm], pass significant test), EAS central region (Hual -
+ien and Taitung), as well as the NOR of the coastal areas 
+(Taoyuan, Hsinchu and Miaoli) (reject significant test). 
+R99pTOT (Fig. 7c) represents a weakly trend over the flat 
+areas in the west, except CEN and SOU mountain regions 
+(pass significant test), despite Fig.  3 suggesting a large 
+uncertainty over this region. From the R80mm (Fig.  7d) 
+perspective, Taiwan showed a slight increase (not to 1 
+[day]/decade).
+RR1 (Fig. 7e) showed an increase of 4[day] in the NOR, 
+EAS, and SOU coastal areas, but a decreasing trend in 
+other areas. PrcpTOT (Fig.  7f) increased 210–240 [mm] 
+in the NOR and sporadic decreased in the EAS moun -
+tainous area. According to the aforementioned analy -
+sis, the application of the comprehensive index of SDII 
+on TCCIP_PR has high credibility. Figure  7g shows 
+an increasing trend in most of the mountain areas that 
+are higher than 500 m in Taiwan. Over the SOU moun -
+tainous area, there was an increase of 3 [mm/day] (pass 
+significant test), and a decrease of 1 [mm/day] in EAS 
+mountainous areas and NOR coastal areas, respectively. 
+The CWD (Fig. 7h) in most high mountains area showed 
+a decreasing 0.8–1 [day] trend (pass significant test). The 
+CDD (Fig. 7i) in the SOU region markedly reduce 5 [day], 
+and the EAS region sporadically decrease 4 [day] (pass 
+significant test).
+3.2.3  Regime changes
+It is well known that the intensity, extension and variation 
+of the western Pacific subtropical high (WPSH) affects 
+the East Asian Summer monsoon rainfall and typhoon 
+activity (Chen et  al. 2010; Hung et  al. 2020). Many lec -
+tures suggested the variation of WPSH had changed 
+in the late 1990s (Huang et  al. 2018, 2020). (Tung et  al. 
+2016) pointed out the extreme rainfall long-term trends 
+and mean state abruptly changed over Taiwan. Whether 
+from the station or grid data, it was found that a “criti -
+cal change point” in the extreme rainfall occurred in the 
+2002–2003 period. The climate pattern before and after 
+the period differed notably. The intensity in the early 
+period was relatively small, but increased more evidently 
+in the later period.
+In order to understand the statistical distribution of 
+the indices in the two periods, this study continued to 
+
+===== PAGE 12 =====
+
+Page 12 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+apply the relative analysis results to all the extreme indi -
+ces and divides 1960–2002 (P1) and 2003–2017 (P2) 
+two climatic periods. At the same time, each time step 
+and grid was sample calculated cumulative distribution 
+function (CDF). The following four indices with signifi -
+cant signals are selected for illustration (Fig.  8). The P2 of 
+RX1day shows a shift to the right, however, the median 
+(50 percentile) intensity from 170 [mm] (P1) increased to 
+230 [mm] (P2) (Fig.  8a). The median of R80mm from 4 
+[day] increased to 5.5 [day] (Fig. 8b); PrcpTOT from 1760 
+increased to 2000 [mm] (Fig.  8c). If the case of CDD is 
+not considered, the P2 curve shifted to the left, and the 
+median dropped from 41 to 34 [day] (Fig. 8d).
+By looking at the changes in the spatial distribution, a 
+different regional climate regime shift can be seen. Fig -
+ure 9 shows the calculated extreme index difference from 
+P1 to P2 (P2–P1) in each grid, along with the applied 
+nonparametric statistics tests (U-test). The shaded areas 
+show the statistically significant and climate variability 
+analysis results. The RX1day in CEN and SOU showed a 
+Fig. 8 The CDF curve of the selected extreme indices (a RX1day; b R80 mm; c PrcpTOT; d CDD) in the period of 1960–2002 (red line) and 2003–
+2017(blue line)
+
+===== PAGE 13 =====
+
+Page 13 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+higher increase in precipitation 30–60 [mm], and most of 
+the SOU region may increase to 240 [mm] (pass signifi -
+cant test) (Fig. 9a). The R80 mm showed increased cases, 
+and the CEN and SOU consistency increased 1–2 [day], 
+and the pass significant test mountainous areas added 
+about 2–3 [day] (Fig.  9b). PrcpTOT also increased 800 
+[mm] or more over the mountainous areas (pass signifi -
+cant test) (Fig.  9c). On the CDD, most regions presented 
+Fig. 9 Similar Fig. 8 but regime change map from 1960–2002 to 2003–2017. Red shaded area shows positive change and blue one is negative 
+change. The dash pattern represents passed 95% significant test
+
+===== PAGE 14 =====
+
+Page 14 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+reduced cases, and the SOU decreased 20 [day] or more 
+(pass significant test) (Fig.  9d). From the long-term trend 
+(Fig.  7), regime shift (Fig.  9) and spatial distribution of 
+indices, it is found that the increase or reduction in the 
+analysis results were consistent.
+4  Discussion
+Due to the lack of historical long-term stable and dense 
+observation station data in Taiwan, this paper tried to 
+analyze the long-term historical changes in the past, 
+which requires stable and accurate data sources for cli -
+mate change research. In terms of the space density 
+distribution over mountainous areas, the grid data limi -
+tation is more evident when compared to the inconsist -
+ent time length. Despite the effort to maximize the use of 
+all possible records, using the 5 km resolution grid data 
+to assess extreme rainfall still yields notable differences, 
+because of the complex terrain. The same grid may cover 
+both the windward and leeward side of the terrain, which 
+shows obvious rainfall distribution differences. This 
+introduces greater uncertainty to the mesh data that cov -
+ers mountainous regions.
+Prior to this, the studying of the natural variability of 
+extreme rainfall indices will help provide evidence for 
+future climate change research. Our analysis found that 
+the RX1day, RX5day, R99pTOT exhibited strong changes 
+and a linear upward trend. This is consistent with the lit -
+erature (Henny et  al. 2021). The change in the RX1day 
+and RX5day spatial distribution trend showed that the 
+area with the most obvious extreme rainfall increase was 
+SOU. According to the trend analysis of SDII, the average 
+rainfall intensity has also been increasing year by year.
+In the wet season (from May to Oct.) of Taiwan, the 
+extreme rainfall mainly comes from the Mei-Yu monsoon 
+and typhoons. The Mei-Yu and summer southwest air 
+streams are susceptible to the water vapor from the trop -
+ics/sub-tropics transport accompanied by strong rain -
+fall. Another important rainfall contribution comes from 
+typhoons, but the uncertainty in the path change is even 
+more important. All these phenomena affect the horizon-
+tal position and intensity of WPSH. Hung et  al. (2020) 
+demonstrated the steering flow of WPSH dominated the 
+typhoon tracks in the vicinity of Taiwan. Huang et  al. 
+(2020) presented the feature of WPSH began to change in 
+the late 1990s by the ENSO event types. Tu et al. (2009) 
+found that after the year 2000, the typhoon path of the 
+Northwest Pacific followed a more northern trend, while 
+the SOU was located at the windward side of the typhoon 
+circulation. The airflow upwell, which was due to the ter-
+rain slope, also likely caused extreme rainfall.
+In the dry season (from Sep. to Apr.), the climatol -
+ogy pattern of CDD (consecutive dry day) (Fig.  4i) 
+presented severe no-rainfall conditions over south -
+west Taiwan, which contributed a long-term decreas -
+ing trend (Fig.  6i). Kim and Kim (2020) suggested the 
+EASM (East Asian Summer Monsoon) regional warm -
+ing induced the rainband of the Mei-Yu front to shift 
+southward to Taiwan in the early summer, which indi -
+cates that the dry season will withdraw earlier. More -
+over, the atmosphere environment becomes more 
+favourable to the diurnal convection, which cut-offs 
+the CDD. Huang et al. (2019) used dynamic downscal -
+ing simulation data analysis under warming scenarios 
+and indicated that the non-largescale weather system 
+dominates the environmental airflow mechanisms.
+To evaluate the evidence of the global climate regime 
+change, long-term historical observations were used 
+to describe the change frequencies, characteristics, 
+and patterns of the average climate by rigorous inspec -
+tion procedures (Lo and Hsu 2008). However, research 
+(Allen et  al. 2018) suggested that the climate trend of 
+extreme rainfall has changed from a stable (or slight 
+change) mode to a more variable (amplifying intensity 
+and rainless) climate mode. Under the circumstances, 
+it will take a longer time to revise (or no longer) the 
+current climate that is prone to extreme weather pat -
+terns. This study indicates the climate regime shifted 
+by RX1day, R80mm and PrcpTOT that tend to enhance 
+the precipitation and amplify the intensity in the sec -
+ond epoch. Meanwhile, the CDD analysis reflected the 
+annual dry season ended sooner. Although it is diffi -
+cult to identify the actual cause of the extreme events 
+atmospheric condition modes, the provision of the cli -
+mate phenomenon information can be used for further 
+research evidence.
+Global warming leads to climate change, which has 
+already been verified by the relevant literature provided 
+by IPCC AR5 (Intergovernmental Panel on Climate 
+Change 2014). Many studies (Li et  al. 2019; Kusunoki 
+and Arakawa 2012; Tung et  al. 2020) suggest that the 
+surface temperature rise enhances the east Asian 
+summer monsoon circulation and precipitation. The 
+temperature rise also leads to an increased evapo -
+transpiration from the ocean, which is reflected in the 
+circulation of water vapor. Conditions are more condu -
+cive for the occurrence of heavy rainfall driven by the 
+large-scale severe weather systems. Compared with the 
+pre-industrial revolution, the global average tempera -
+ture has risen by 1 degree Celsius, and the atmosphere 
+physical phenomena are also reflected in the rainfall 
+(Allen et al. 2018). However, there is still no complete 
+discussion and verification of the issues related to Tai -
+wan’s extreme rainfall changes and the contribution of 
+anthropogenic greenhouse gas emissions.
+
+===== PAGE 15 =====
+
+Page 15 of 16
+Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+ 
+5  Conclusion
+The TCCIP_PR data collection spanned from 1960 to 
+2017. A total of 2203 station ground truth data which 
+was scattered throughout Taiwan, produced 5 km high-
+resolution grid rainfall information. At present, the 
+establishment of a grid data set by such a high-density 
+station network to monitor the changes of regional cli -
+mate rainfall for a long time is unique and rare. Regard -
+less of the timing or average climate variation, the 
+position of the corresponding station grid points is with 
+high consistency and confidence. However, the complex 
+terrain area exhibits a lower density spatial distribution 
+of stations. In the summer, as the southwest windward 
+side is particularly associated with extreme rainfall, this 
+also induces a large uncertainty in the grid data.
+This study demonstrates the extreme rainfall charac -
+teristics and climatology seasonal patterns over Taiwan. 
+The extreme rainfall hot spots are over the northeast 
+and southwest windward side mountain areas (e.g., 
+RX1day, RX5day, R99pTOT and R80mm). The water 
+resources are distributed from the abundant northeast 
+to the inadequate southwest (e.g., RR1, PrcpTOT, CWD 
+and CDD). The homogeneous precipitation feature is at 
+the northeast, but the heavy rainfall is at the southwest 
+(e.g., SDII). The extreme rainfall indices of the 50-year 
+long-term trend shows that the total rainfall (Precp -
+TOT) continued to increase, but the number of rainy 
+days (RR1) did not change, which signals that the aver -
+age rainfall intensity (SDII) slightly increased. The fre -
+quency of heavy precipitation days (R80mm) did not 
+show an obvious change, but the intensity of the annual 
+maximum precipitation (RX1day/RX5day) significantly 
+increased, as reflected by the R99pTOT, especially in 
+the southwest region. Although some of the factors that 
+affect the number of consecutive dry days (CDD) has 
+weakened in recent years, it is still worthy to conduct 
+further research to fully understand the mechanisms.
+The climate regime changes of extreme indices vali -
+dation compared the early (1960–2002) and late (2003–
+2017) time periods. It was found that the extreme 
+rainfall intensity (RX1day), frequency (R80mm) and 
+total amount (PrcpTOT) showed a rising trend. Mean -
+while, the number of consecutive dry days (CDD) 
+exhibited a decreasing trend. In particular, the south -
+westerly flow regime change induced all the indices sig -
+nificant regime to shift to the windward side.
+The nine indices used in this study provide reader 
+credibility and the climate regime change evaluations 
+have been statistically verified. These results can be 
+obtained at an online data archive (https:// tccip. ncdr.  
+nat. gov. tw/). The TCCIP_PR continues to be extended 
+and updated.
+Supplementary Information
+The online version contains supplementary material available at https:// doi. 
+org/ 10. 1007/ s44195‑ 022‑ 00009‑z. 
+Additional file 1. The comparison of different resolutions of TCCIP_PR.
+Acknowledgements
+Comments from the Anonymous Reviewers are much appreciated. We are 
+also appreciated CWB (Central Weather Bureau), CAA (Civil Aeronautics 
+Administration), WRA (Water Resources Agency), EPA (Environmental Protec‑
+tion Administration), TFRI (Taiwan Forestry Research Institute) proved the 
+station historical records. This paper is supported by Taiwan Climate Change 
+projection and adaptation Information Platform (TCCIP) program (MOST 
+110‑2621‑M‑865‑001).
+Authors’ contributions
+All authors contributed to the study conception and design. Material prepara‑
+tion, data collection and analysis were performed by Yu‑Shiang Tung, Chun‑Yu 
+Wang and Chen‑Dau Yang. Methodology was performed by Shu‑Ping Weng. 
+The first draft of the manuscript was written by Yu‑Shiang Tung and all authors 
+commented on previous versions of the manuscript. All authors read and 
+approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Author details
+1 National Science and Technology Center for Disaster Reduction, 9F., No.200, 
+Sec. 3, Beisin Rd., Xindian District, New Taipei City 23143, Taiwan. 2 Department 
+of Geography, National Taiwan Normal University, Taipei, Taiwan. 
+Received: 29 January 2022   Accepted: 15 March 2022
+References
+Central Weather Bureau. FAQ for Typhoon. https:// www. cwb. gov. tw/ V8/E/ K/ 
+Encyc loped ia/ typho on/ index_ all. html.
+Chen C‑An (2011) The influence of typhoon tracks on Taiwan Precipitation. 
+Master
+Chen H‑F, Jien‑Yi Tu (2017) The climatology and long‑term changes of rainfall 
+in Taiwan using TCCIP dataset. Bull Geogr Soc China 59:1–20. https:// doi. 
+org/ 10. 29972/ BGSC. 201712_ (59). 0001
+Chen J‑M, Li T, Shih C‑F (2010) Tropical cyclone– and monsoon‑induced 
+rainfall variability in Taiwan. J Clim 23(15):4107–4120. https:// doi. org/ 10. 
+1175/ 2010J CLI33 55.1
+Chen YJ, Chu JL, Tung CP , Yeh KC (2016) Climate change impacts on stream‑
+flow in Taiwan catchments based on statistical downscaling data. Terr 
+Atmos Ocean Sci 27(5):741–755. https:// doi. org/ 10. 3319/ TAO. 2016. 07. 
+20. 01
+Cho Y‑M, Mong‑Ming Lu (2013) An analysis of the extreme dry spells in 
+Taiwan and its variations during the recent one hundred years. Atmos Sci 
+42(2):171–188
+Donat MG, Alexander LV, Yang H, Durre I, Vose R, Dunn RJH, Willett KM, Aguilar 
+E, Brunet M, Caesar J, Hewitson B, Jack C, Klein Tank AMG, Kruger AC, 
+Marengo J, Peterson TC, Renom M, Oria Rojas C, Rusticucci M, Salinger J, 
+Elrayah AS, Sekele SS, Srivastava AK, Trewin B, Villarroel C, Vincent LA, Zhai 
+P , Zhang X, Kitching S (2013) Updated analyses of temperature and pre‑
+cipitation extreme indices since the beginning of the twentieth century: 
+the HadEX2 dataset. J Geophys Res Atmos 118(5):2098–2118. https:// doi. 
+org/ 10. 1002/ jgrd. 50150
+Endo N, Matsumoto J, Lwin T (2009) Trends in precipitation extremes over 
+Southeast Asia. SOLA 5:168–171. https:// doi. org/ 10. 2151/ sola. 2009‑ 043
+Henny L, Thorncroft CD, Hsu H‑H, Bosart LF (2021) Extreme Rainfall in 
+Taiwan: seasonal statistics and trends. J Clim. https:// doi. org/ 10. 1175/ 
+JCLI‑D‑ 20‑ 0999.1
+Huang WR, Chang YH, Cheng CT, Hsu HH, Tu CY, Kitoh A (2016) Summer 
+convective afternoon rainfall simulation and projection using WRF 
+
+===== PAGE 16 =====
+
+Page 16 of 16Tung et al. Terrestrial, Atmospheric and Oceanic Sciences            (2022) 33:8 
+driven by global climate model. Part I: over Taiwan. Terr Atmos Ocean Sci 
+27(5):659–671. https:// doi. org/ 10. 3319/ TAO. 2016. 05. 02. 01
+Huang Y, Wang B, Li X, Wang H (2018) Changes in the influence of the 
+western Pacific subtropical high on Asian summer monsoon rainfall 
+in the late 1990s. Clim Dyn 51(1–2):443–455. https:// doi. org/ 10. 1007/ 
+s00382‑ 017‑ 3933‑1
+Huang W‑R, Huang P‑H, Chang Y‑H, Cheng C‑T, Hsu H‑H, Tu C‑Y, Kitoh A (2019) 
+Dynamical downscaling simulation and future projection of extreme 
+precipitation activities in Taiwan during the Mei‑Yu seasons. J Meteorol 
+Soc Jpn Ser II 97(2):481–499. https:// doi. org/ 10. 2151/ jmsj. 2019‑ 028
+Huang Z, Zhang W, Geng X, Jin F‑F (2020) Recent shift in the state of the west‑
+ern pacific subtropical high due to ENSO change. J Clim 33(1):229–241. 
+https:// doi. org/ 10. 1175/ JCLI‑D‑ 18‑ 0873.1
+Hung C‑W (2012) The constructionof TCCIP Taiwan rainfall index (TRI) and its 
+applications. J Geogr Sci 67:73–96
+Hung C‑W, Kao P‑K (2010) Weakening of the winter monsoon and abrupt 
+increase of winter rainfalls over northern Taiwan and Southern China in 
+the early 1980s. J Clim 23(9):2357–2367. https:// doi. org/ 10. 1175/ 2009J 
+CLI31 82.1
+Hung C‑W, Shih M‑f (2017) Construction of the Taiwan meteorological drought 
+index and the analysis of severe drought cases. Atmos Sci 45(2):145–166
+Hung C‑W, Shih M‑f, Lin T‑Y (2020) The climatological analysis of typhoon 
+tracks, steering flow, and the pacific subtropical high in the vicinity of 
+Taiwan and the Western North Pacific. Atmosphere 11(5):543. https:// doi. 
+org/ 10. 3390/ atmos 11050 543
+Intergovernmental Panel on Climate Change (2014) Climate change 2013—
+the physical science basis. Cambridge University Press, Cambridge
+Kharin VV, Zwiers FW, Zhang X, Wehner M (2013) Changes in temperature and 
+precipitation extremes in the CMIP5 ensemble. Clim Change 119(2):345–
+357. https:// doi. org/ 10. 1007/ s10584‑ 013‑ 0705‑8
+Kim K‑Y, Kim B‑S (2020) The effect of regional warming on the East Asian sum‑
+mer monsoon. Clim Dyn 54(7–8):3259–3277. https:// doi. org/ 10. 1007/ 
+s00382‑ 020‑ 05169‑7
+Kusunoki S, Arakawa O (2012) Change in the precipitation intensity of the 
+East Asian summer monsoon projected by CMIP3 models. Clim Dyn 
+38(9–10):2055–2072. https:// doi. org/ 10. 1007/ s00382‑ 011‑ 1234‑7
+Li Z, Sun Y, Li T, Ding Y, Ting H (2019) Future changes in east Asian summer 
+monsoon circulation and precipitation under 15 to 5 °C of warming. 
+Earth’s Future 7(12):1391–1406. https:// doi. org/ 10. 1029/ 2019E F0012 76
+Liu SC, Fu C, Shiu C‑J, Chen J‑P , Wu F (2009) Temperature dependence of 
+global precipitation extremes. Geophys Res Lett. https:// doi. org/ 10. 1029/ 
+2009G L0402 18
+Lo T‑T, Hsu H‑H (2008) The early 1950s regime shift in temperature in 
+Taiwan and East Asia. Clim Dyn 31(4):449–461. https:// doi. org/ 10. 1007/ 
+s00382‑ 007‑ 0311‑4
+Lu M‑M, Cho Y‑M, Lee S‑Y, Lee C‑T, Lin Y‑C (2012) Climate variations in Taiwan 
+during 1911–2009. Atmos Sci 40(3):297–322
+Pfeifer S, Bülow K, Gobiet A, Hänsler A, Mudelsee M, Otto J, Rechid D, Teich‑
+mann C, Jacob D (2015) Robustness of ensemble climate projections 
+analyzed with climate signal maps: seasonal and extreme precipitation 
+for Germany. Atmosphere 6(5):677–698. https:// doi. org/ 10. 3390/ atmos 
+60506 77
+Sillmann J, Kharin VV, Zhang X, Zwiers FW, Bronaugh D (2013) Climate 
+extremes indices in the CMIP5 multimodel ensemble: part 1. Model 
+evaluation in the present climate. J Geophys Res Atmos 118(4):1716–
+1733. https:// doi. org/ 10. 1002/ jgrd. 50203
+Su S‑H, Kuo H‑C, Hsu L‑H, Yang Y‑T (2012) Temporal and spatial character‑
+istics of typhoon extreme rainfall in Taiwan. J Meteorol Soc Jpn Ser II 
+90(5):721–736. https:// doi. org/ 10. 2151/ jmsj. 2012‑ 510
+Tang X, Zhang J, Wang G, Yang Q, Yang Y, Guan T, Liu C, Jin J, Liu Y, Bao Z (2019) 
+Evaluating suitability of multiple precipitation products for the Lancang 
+River Basin. Chin Geogra Sci 29(1):37–57. https:// doi. org/ 10. 1007/ 
+s11769‑ 019‑ 1015‑5
+Taylor KE (2001) Summarizing multiple aspects of model performance in a 
+single diagram. J Geophys Res Atmos 106(D7):7183–7192. https:// doi. 
+org/ 10. 1029/ 2000J D9007 19
+Teng T‑Y, Liu T‑M, Tung Y‑S, Cheng K‑S (2021) Converting climate change 
+gridded daily rainfall to station daily rainfall‑a case study at Zengwen 
+reservoir. Water. https:// doi. org/ 10. 3390/ w1311 1516
+Thanh NT (2019) Evaluation of multi‑precipitation products for multi‑time 
+scales and spatial distribution during 2007–2015. Civil Eng J 5(1):255. 
+https:// doi. org/ 10. 28991/ cej‑ 2019‑ 03091 242
+Tu J‑Y, Chou C, Chu P‑S (2009) The abrupt shift of typhoon activity in the vicin‑
+ity of Taiwan and its association with western north pacific‑east Asian 
+climate change. J Clim 22(13):3617–3628. https:// doi. org/ 10. 1175/ 2009J 
+CLI24 11.1
+Tung Y‑S, Chen C‑T, Min S‑K, Lin L‑Y (2016a) Evaluating extreme rainfall 
+changes over Taiwan using a standardized index. Terr Atmos Ocean Sci 
+27(5):705–715. https:// doi. org/ 10. 3319/ TAO. 2016. 06. 13. 03
+Tung Y‑S, Simon Wang S‑Y, Chu J‑L, Wu C‑H, Chen Y‑M, Cheng C‑T, Lin L‑Y 
+(2020) Projected increase of the East Asian summer monsoon (Meiyu) 
+in Taiwan by climate models with variable performance. Meteorol Appl. 
+https:// doi. org/ 10. 1002/ met. 1886
+Weng S‑P , Yang C‑D (2012) The construction of monthly rainfall and tempera‑
+ture datasets with 1km gridded resolution over Taiwan Area (1960–2009) 
+and its application to climate projection in the near future (2015–2039). 
+Atmos Sci 40(4):349–369
+Weng S‑P , Yang C‑D (2018) The construction and verification of daily grid‑
+ded rainfall dataset (1960–2015) in Taiwan. Taiwan Water Conservancy 
+66(4):33–52
+Westra S, Alexander LV, Zwiers FW (2013) Global increasing trends in annual 
+maximum daily precipitation. J Clim 26(11):3904–3918. https:// doi. org/ 10. 
+1175/ JCLI‑D‑ 12‑ 00502.1
+Wu C‑C, Kuo Y‑H (1999) Typhoons affecting Taiwan: current understanding and 
+future challenges. Bull Am Meteor Soc 80(1):67–80. https:// doi. org/ 10. 
+1175/ 1520‑ 0477(1999) 080% 3c0067: TAT CUA % 3e2.0. CO;2
+Yang T‑C, Chen J‑M, Yu P‑S, Kuo C‑M, Tsai M‑Y, Chen H (2019) Investigation of 
+climatic teleconnection and predictability for spring rainfall in Taiwan. J 
+Taiwan Agric Eng. https:// doi. org/ 10. 29974/ JTAE. 20191 265(4). 0001
+Yatagai A, Kamiguchi K, Arakawa O, Hamada A, Yasutomi N, Kitoh A (2012) 
+APHRODITE: constructing a long‑term daily gridded precipitation dataset 
+for Asia based on a dense network of rain gauges. Bull Am Meteor Soc 
+93(9):1401–1415. https:// doi. org/ 10. 1175/ BAMS‑D‑ 11‑ 00122.1
+Yatagai A, Krishnamurti TN, Kumar V, Mishra AK, Simon A (2014) Use of 
+APHRODITE Rain Gauge‑Based Precipitation and TRMM 3B43 Products 
+for Improving Asian Monsoon Seasonal Precipitation Forecasts by the 
+Superensemble Method. J Clim 27(3):1062–1069. https:// doi. org/ 10. 1175/ 
+JCLI‑D‑ 13‑ 00332.1
+Yeh C‑F, Yeh H‑F, Lee C‑H (2016) Mann‑Kendall test and Theil‑Sen estimator for 
+long‑term spatial and temporal trends of streamflow in Taiwan. J Chin 
+Soil Water Conservat 47:73–83
+Yu‑Chi L, Chia‑Chi W, Shu‑Ping W, Cheng‑Ta C, Chao‑Tzuen C (2019) Future 
+projections of meteorological drought characteristics in Taiwan. Atmos 
+Sci 47(1):66–93. https:// doi. org/ 10. 3966/ 02540 00220 19034 701003
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+lished maps and institutional affiliations.

@@ -1,0 +1,18 @@
+{
+  "source_organization": "NOAA Climate Prediction Center",
+  "index": "Oceanic Nino Index (ONI)",
+  "version": "ERSSTv6 historical ONI table",
+  "canonical_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v6/",
+  "access_date_local": "2026-09-01",
+  "capture_time_utc": "2026-08-31T18:52:33.4690474Z",
+  "frozen_file": "noaa_cpc_oni_ersstv6_2026-09-01.html",
+  "file_format": "HTML",
+  "file_size_bytes": 162846,
+  "sha256": "0eacd96fe0e29f658f2ab190620f436d5c51294c190e0d082ef2f4b42c218768",
+  "primary_rows_used": "centred three-month ONI windows with centre months January 1981 through December 2014",
+  "primary_columns_used": ["Year", "DJF", "JFM", "FMA", "MAM", "AMJ", "MJJ", "JJA", "JAS", "ASO", "SON", "OND", "NDJ"],
+  "threshold_c": 0.5,
+  "persistence_rule": "at least five consecutive overlapping three-month seasons",
+  "known_page_inconsistency": "The frozen page heading/method identify ERSSTv6, while one warning paragraph retains the text ERSSTv5; the archived ERSSTv6 table and URL are the pinned analytical source.",
+  "operational_index_note": "NOAA CPC operational monitoring changed to RONI in 2026; this historical study remains frozen to ONI and does not mix index definitions."
+}

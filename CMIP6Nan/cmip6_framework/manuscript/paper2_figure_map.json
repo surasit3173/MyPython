@@ -1,0 +1,13 @@
+{
+  "_comment": "Single source of truth for which rendered figure is which manuscript figure. The Word builder and the publication-asset exporter both read this file, so a figure cannot be numbered one way in the text and another way in the export.",
+  "main": {
+    "1": "Paper2_Figure_01_study_area.png",
+    "2": "Paper2_Figure_03_validation_methods.png",
+    "3": "Paper2_Figure_04_signal_bulk_quantile.png",
+    "4": "Paper2_Figure_05_signal_extremes.png",
+    "5": "Paper2_Figure_06_synthesis.png"
+  },
+  "supplementary": {
+    "S1": "Paper2_Figure_02_calibration_methods.png"
+  }
+}

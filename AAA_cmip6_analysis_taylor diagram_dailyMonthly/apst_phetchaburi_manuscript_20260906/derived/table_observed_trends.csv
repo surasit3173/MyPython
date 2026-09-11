@@ -1,0 +1,12 @@
+Index,Unit,Sen_slope_unit,Increasing_MK,Decreasing_MK,Not_significant_MK,Increasing_BH_FDR,Decreasing_BH_FDR,Not_significant_BH_FDR,Median_Sen_slope_per_year,Median_Sen_slope_per_decade
+PRCPTOT,mm,mm year-1,0,9,4,0,9,4,-16.4875,-164.875
+SDII,mm day-1,mm day-1 year-1,9,1,3,9,1,3,0.053838,0.538383
+Rx1day,mm,mm year-1,7,1,5,7,1,5,0.768421,7.684211
+Rx5day,mm,mm year-1,0,2,11,0,2,11,0.453846,4.538462
+CDD,days,days year-1,10,0,3,9,0,4,0.923077,9.230769
+CWD,days,days year-1,1,11,1,1,11,1,-2.703704,-27.037037
+R10mm,days,days year-1,0,5,8,0,4,9,-0.315789,-3.157895
+R20mm,days,days year-1,8,2,3,7,1,5,0.111111,1.111111
+R50mm,days,days year-1,7,1,5,6,1,6,0.0,0.0
+R95p,mm,mm year-1,8,1,4,8,1,4,5.153333,51.533333
+R99p,mm,mm year-1,9,1,3,9,1,3,3.209524,32.095238

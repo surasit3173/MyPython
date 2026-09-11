@@ -1,0 +1,43 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\journal_revision_20260910\\additional_references.docx",
+  "fonts_by_char_count": {
+    "Microsoft JhengHei": 286,
+    "MS Gothic": 144
+  },
+  "direct_run_formatting_runs": 108,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 43,
+        "run_text": "\u4e8c\u3001\u5404\u6587\u732e\u5728\u6587\u7a3f\u4e2d\u7684\u63a8\u8350\u63d2\u5165\u4f4d\u7f6e",
+        "style": "Normal"
+      },
+      {
+        "para_index": 45,
+        "run_text": "\u5e8f\u53f7",
+        "style": "Normal"
+      },
+      {
+        "para_index": 45,
+        "run_text": "\u6587\u732e",
+        "style": "Normal"
+      },
+      {
+        "para_index": 45,
+        "run_text": "\u63a8\u8350\u63d2\u5165\u7ae0",
+        "style": "Normal"
+      },
+      {
+        "para_index": 45,
+        "run_text": "\u8282",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

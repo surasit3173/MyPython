@@ -1,0 +1,266 @@
+﻿Total pages: 10
+=== PAGE 6 ===
+5260.9
+4760.9
+4260.9
+3760.9
+3260.9
+seires
+emit
+eht
+fo flah
+dnoceS
+3386.1
+3186.1
+2986.1
+2786.1
+2760.9
+2760.9 3260.9 3760.9 4260.9
+First half of the time series
+(g)
+seires
+emit
+eht
+fo flah
+dnoceS
+2586.1
+2386.1
+2186.1
+1986.1
+1786.1
+1586.1
+1386.1
+1386.1 1886.1 2386.1 2886.1
+First half of the time series
+(h)
+7031.6
+6531.6
+6031.6
+seires
+emit
+eht
+fo
+flah
+dnoceS
+3855.6
+3655.6
+3455.6
+3255.6 5531.6
+5031.6
+4531.6
+4031.6
+3531.6
+3031.6
+2531.6
+2531.6 3531.6 4531.6 5531.6
+First half of the time series
+(i)
+seires
+emit
+eht
+fo
+flah
+dnoceS
+3055.6
+2855.6
+2655.6
+2455.6
+2255.6
+2055.6
+1855.6
+1855.8 2355.8 2855.8 3355.8
+First half of the time series
+(j)
+Figure2:Graphicaltrendsforannual rainfall.(a)Colombo.(b) Angoda.(c)Avissawella.(d) Dehiwala.(e)Hanwella.(f) Homagama.
+(g)Labugama.(h) Oruwala.(i) Padukka.(j) Rathmalana.
+Table 3:Trend analysisresultsforseasonalrainfallvariationat 5%significancelevel.
+Test
+Station Season
+MK SR GM
+Colombo NEMS Upwardtrend(7.39mm) Upwardtrend(7.39mm) Upwardtrend
+Avissawella SWMS Notrend Downward trend(12.33mm) Downwardtrend
+Dehiwala NEMS Upwardtrend(8.57mm) Upwardtrend(7.39mm) Notrend
+Labugama FIMS Notrend Upwardtrend(8.20mm) Notrend
+Oruwala NEMS Upwardtrend(7.16mm) Upwardtrend(7.16mm) Notrend
+NEMS Notrend Upwardtrend(10.23mm) Notrend
+FIMS Upwardtrend(18.52mm) Upwardtrend(18.52mm) Upwardtrend
+Padukka
+SWMS Notrend Upwardtrend(22.85mm) Notrend
+SIMS Notrend Upwardtrend(11.22mm) Upwardtrend
+1860.0
+1660.0
+1460.0
+1260.0
+seires
+emit
+eht
+fo
+flah
+dnoceS
+1450.0
+1250.0
+1050.0
+850.0
+1060.0
+860.0
+660.0
+460.0
+460.0 660.0 860.0 1060.0 1260.0 1460.0 1660.0
+First half of the time series
+(a)
+seires
+emit
+eht
+fo
+flah
+dnoceS
+6 AdvancesinMeteorology
+650.0
+450.0
+250.0
+250.0 450.0 650.0 850.0 1050.0 1250.0
+First half of the time series
+(b)
+Figure3:Trend analysisresultsusingthe graphicalmethodforseasonalrainfallforPadukka(a) inSIMS and(b)in FIMS.
+1306,
+2020,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1155/2020/8844052
+by
+SEA
+ORCHID
+(Thailand),
+Wiley
+Online
+Library
+on
+[1
+=== PAGE 7 ===
+AdvancesinMeteorology 7
+Table4: Trendanalysisresultsformonthly variation at5%significance level.
+Station Month MK SR GM
+Colombo July Downwardtrend(2.87mm) Downwardtrend(2.87mm) Notrend
+Angoda July Downwardtrend(3.60mm) Downwardtrend(3.60mm) DWtrend
+Avissawella July Downwardtrend(4.91mm) Downwardtrend(4.91mm) Notrend
+Dehiwala February Upwardtrend(2.85mm) Upwardtrend(2.85mm) Notrend
+Hanwella July Downwardtrend(5.05mm) Downwardtrend(5.05mm) Notrend
+at1%significancelevel.GaugingstationsAngoda,Dehiwala, foundthatthereisapositivecorrelationinbetweenthetrend
+Hanwella, Homagama, Oruwala, Labugama, and Rathma- analysis results of MK test and ITA using SpearmanΓÇÖs rho
+lana have not shown rainfall trend. However, interestingly, correlationcoefficient.Inaddition,theyhavefound80%of
+some of the rainfall trends shown in 5% significant levels agreementofgraphicaltrendanalysisresultstotheMKtest
+have disappeared in the 1% significant level. For example, results. )erefore, they have concluded that the graphical
+Colombo has shown an upward trend in NEMS for 5% method can be less complicatedly used in identification of
+significancelevel;however,ithasnotshownanytrendin1% the rainfall trends.
+significance level. )is is interesting, and therefore, further As it was stated in Section 8, a downward rainfall
+investigation is required in this case. Similar cases can be trend was identified in the month of July in Colombo.
+found in Avissawella and Padukka too. )iswassupportedbytheannualscaleinNissansalaetal.
+Monthly trend analysis and its comparison show some [23]. Nevertheless, Jayawardene et al. [17] have con-
+interesting results. Comparable results were obtained for trasting results from the MK test. )ey have found a
+several stations for both monthly and seasonally rainfall positive rainfall trend in Colombo in the annual scale.
+trends. For example, Avissawella has downward trends in More importantly, they have analyzed rainfall data from
+the month of July whereas it was reflected in the sout
+=== PAGE 8 ===
+8 AdvancesinMeteorology
+10.Conclusions [4] T.LebelandA.Ali,ΓÇ£Recenttrendsinthecentralandwestern
+Sahel rainfall regime (1990ΓÇô2007),ΓÇ¥ Journal of Hydrology,
+Comparisonofthreeclimatictrendanalyses(MannKendall vol. 375,no.1-2,pp. 52ΓÇô64,2009.
+test,SpearmanΓÇÖsrhotest,andgraphicaltest)wascarriedout [5] K.E.Trenberth,ΓÇ£)eimpactofclimatechangeandvariability
+in this paper. )e rainfall trends obtained from these three onheavyprecipitation,floods,anddroughts,ΓÇ¥inEncyclopedia
+resultswerecomparedwitheachotherfor10rainfallstations ofHydrologicalSciencesJohn Wiley,Chichester, UK,2008.
+in Colombo. )ree resolution levels, including annual, [6] I. Hassan, R. M. Kalin, J. A. Aladejana, and C. J. White,
+ΓÇ£Potential impacts of climate change on extreme weather
+seasonal, and monthly rainfall, were tested under the three
+eventsintheNigerdeltapartofNigeria,ΓÇ¥Hydrology,vol.7,
+methods. Trend analysis results conclude that these three
+no.1, p.19, 2020.
+methodsproducecomparableresults.)eMannKendalltest
+[7] F.DePaola,M.Giugni,F.Pugliese,A.Annis,andF.Nardi,
+andSpearmanΓÇÖsrhotestsproducealmostsimilartrendswith
+ΓÇ£GEVparameterestimationandstationaryvs.non-stationary
+trend magnitudes. However, the graphical method some-
+analysisofextremerainfallinAfricantestcities,ΓÇ¥Hydrology,
+timesproducedcontrastingresultscomparedwithothertwo
+vol. 5, no.2,p. 28,2018.
+nonparametric tests. )erefore, it can be concluded herein [8] J. E. Bullard, A. Ockelford, C. L. Strong, and H. Aubault,
+that careful use of the graphical method is essential in ΓÇ£Impactofmulti-dayrainfalleventsonsurfaceroughnessand
+important planning related work. In addition, it is always physical crusting of very fine soils,ΓÇ¥ Geoderma, vol. 313,
+bettertoconsideranothertrendanalysisapproachwiththe pp.181ΓÇô192, 2018.
+graphical method; thus, there is always a comparison of [9] S.Nandargi,A.Gaur,andS.S.Mulye,ΓÇ£Hydrologicalanalysis
+results. )is process leads to better achievements. Never- of extreme rainfall events and severe rainstorms over
+theless, it was found tha
+=== PAGE 9 ===
+AdvancesinMeteorology 9
+[21] B. A. Malmgren, R. Hulugalla, Y. Hayashi, and T. Mikami, 0eoretical and Applied Climatology, vol. 65, no. 3-4,
+ΓÇ£Precipitation trends in Sri Lanka since the 1870s and rela- pp.165ΓÇô174, 2000.
+tionships to El Ni├▒o-southern oscillation,ΓÇ¥ International [39] M. G. Kendall, Rank Correlation Methods, University of
+JournalofClimatology,vol. 23,no.10, pp.1235ΓÇô1252,2003. Michigan, Ann Arbor, MI, USA, 1975, ISBN 0852641990
+[22] A. )evakaran, R. Suppiah, and U. Sonnadara, ΓÇ£Trends in 9780852641996.
+extreme rainfall events in Sri Lanka, 1961ΓÇô2010,ΓÇ¥ Journal of [40] R. M. Hirsch, J. R. Slack, and R. A. Smith, ΓÇ£Techniques of
+theNationalScienceFoundationofSriLanka,vol.47,no.3, trend analysis for monthly water quality data,ΓÇ¥ Water Re-
+pp.285ΓÇô295, 2019. sources Research,vol.18, no.1, pp.107ΓÇô121,1982.
+[23] W. D. S. Nisansala, N. S. Abeysingha, A. Islam, and [41] E. Kahya and S. Kalayc─▒, ΓÇ£Trend analysis of streamflow in
+A. M. K. R. Bandara, ΓÇ£Recent rainfall trend over Sri Lanka Turkey,ΓÇ¥JournalofHydrology,vol.289,no.1ΓÇô4,pp.128ΓÇô144,
+(1987ΓÇô2017),ΓÇ¥ International Journal of Climatology, vol. 40, 2004.
+no.7,pp. 3417ΓÇô3435,2019. [42] P.S.Porter,S.T.Rao,andC.Hogrefe,ΓÇ£Lineartrendanalysis:
+[24] U. Rathnayake, ΓÇ£Comparison of statistical methods to acomparisonofmethods,ΓÇ¥AtmosphericEnvironment,vol.36,
+graphicalmethodsinrainfalltrendanalysis:casestudiesfrom pp. 6ΓÇô8,2002.
+tropical catchments,ΓÇ¥ Advances in Meteorology, vol. 2019, [43] I. Ahmad, D. Tang, T. Wang, M. Wang, and B. Wagan,
+ΓÇ£Precipitation trends over time using mann-kendall and ArticleID8603586,10 pages,2019.
+[25] H. Alexandersson, ΓÇ£A homogeneity test applied to precipi- spearmanΓÇÖsrhotestsinSwatriverbasin,Pakistan,ΓÇ¥Advances
+inMeteorology,vol.2015,ArticleID431860,15pages,2015. tationdata,ΓÇ¥JournalofClimatology,vol.6,no.6,pp.661ΓÇô675,
+[44] E.R.DahmenandM.J.Hall,ScreeningofHydrologicalData:
+1986.
+Tests for Stationarity and Relative Consistency, Wageningen
+[26] H.M.KangandF.Yusof,ΓÇ£Homogeneitytestsondailyrainfall
+Universit
+=== PAGE 10 ===
+10 AdvancesinMeteorology
+[57] T.Caloiero,R.Coscarelli,andE.Ferrari,ΓÇ£Analysisofmonthly
+rainfall trend in calabria (southern Italy) through the appli-
+cation of statistical and graphical techniques,ΓÇ¥ Proceedings,
+vol. 2,no.11, pp.629ΓÇô637, 2018.
+[58] M. Gedefaw, D. Yan, H. Wang et al., ΓÇ£Innovative trend
+analysisofannualandseasonalrainfallvariabilityinAmhara
+regional state, Ethiopia,ΓÇ¥ Atmosphere, vol. 9, no. 9,
+pp.326ΓÇô335, 2018.
+1306,
+2020,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1155/2020/8844052
+by
+SEA
+ORCHID
+(Thailand),
+Wiley
+Online
+Library
+on
+[10/09/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License

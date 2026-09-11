@@ -1,0 +1,710 @@
+[0] 
+[1] Ella, Francis Agbam1, Normala Halimoon1*, Ferdaus Mohamat Yusuff1, Wan Lutfi Wan Johari1, Abdulwakil Olawale Saba2, Ella, Adakole Boniface3, Effiong, Mmandu Uwem4
+[2] 1Department of Environmental Science and Technology, Faculty of Forestry and Environment, Universiti Putra Malaysia, 43300 Serdang, Selangor, Malaysia.
+[3] 2Department of Fisheries, Faculty of Science, Lagos State University, Ojo, Lagos, Nigeria
+[4] 3Affiliation: Department of Environment Science and Management, Faculty of Science, National Open University of Nigeria.
+[5] 4Department of Animal and Environmental Biology, University of Uyo, Uyo, Akwa-Ibom, State, Nigeria
+[6] *Corresponding author: mala_upm@upm.edu.my
+[7]  Abstract
+[8] Conventional trace element pollution-index studies characterize chemical contamination but rarely test whether it structures biological communities, leaving risk classifications unvalidated. This study integrates trace element, physicochemical, and macroinvertebrate data across five Kuyoh River stations (Control, S1–S4), sampled monthly across dry and wet seasons, three replicates per station per visit (physicochemical n = 24 per station; trace elements n = 12 per station, dry season). Separating raw variables from indices avoided circular correlation. Physicochemical PCA (KMO = 0.844, Bartlett's χ²(15) = 677.75, p < 0.001) resolved an organic pollution gradient (PC1: 69.9%; NH₃-N, DO, BOD₅) and a pH-associated axis (PC2: 16.3%). Trace element PCA (KMO = 0.656, Bartlett's χ²(15) = 153.36, p < 0.001) resolved an As–Zn–Mn gradient (PC1: 53.0%) and a Cd–Cu point-source factor (PC2: 16.8%). HPI, ERI, and MPI rose monotonically from Control to S3/S4; ERI classified S3/S4 as very high risk (1099, 1189), while HPI stayed below its critical value of 100 at every station (2.11–9.58). CCA of dry-season data linked family abundance to the twelve-variable dataset, confirming organic enrichment as the dominant gradient (CCA1: 89.3%), while cadmium and copper loaded independently on a secondary axis (CCA2: 9.2%), orthogonal to organic pollution. Trace element contamination thus produced a biological structuring effect distinguishable from organic stress, providing validated evidence of independent point-source effects and a transferable framework for source apportionment in tropical urban catchments.
+[9] Keywords : Cadmium and Copper; Macroinvertebrate Assemblage; Organic Enrichment; Tropical Urban River.
+[10] 
+[11] 1-Introduction
+[12] Trace element contamination of urban rivers is well-documented, with tools such as the Heavy Metal Pollution Index (HPI), Metal Pollution Index (MPI), Ecological Risk Index (ERI), and Principal Component Analysis (PCA) widely applied (Ahmad et al., 2026; Castro-Elenes et al., 2021; Dheeraj et al., 2024). Studies in Malaysia, Vietnam, and China show elevated downstream contamination at industrial stations versus upstream references (Bian et al., 2016; Hoang et al., 2024; Bahri et al., 2024), yet often cannot determine whether contamination independently structures biological communities (Let et al., 2022; Mohd Najib et al., 2025).
+[13] Two gaps motivate this study, one interpretive and one methodological, requiring chemical and biological response be treated as independent evidence, not substituted by indices (Moulinec et al., 2025). Indices quantify exceedance against thresholds but do not confirm measurable community effects (Cuss et al., 2020; Posthuma et al., 2020) and may be classified without testing organism response (Friberg, 2010; Hering et al., 2006). High ERI values may occur without compositional response, while moderate values may coincide with taxa restructuring, especially for Cd and Cu (Clements et al., 2000; Clements & Rohr, 2009; Liang et al., 2024).
+[14] This framework is fragile in tropical urban rivers for three reasons: First, indices carry toxicological weightings from other systems: the ERI weights cadmium thirty times more than zinc or manganese, derived from temperate lake sediments (Hakanson, 1980), causing high-factor elements to dominate scores regardless of impact, a weakness K. R. Singh et al. (2020) identify, addressed via integrated biological terms (Jaiswal & Pandey, 2019). Second, dissolved-phase concentrations in monsoonal catchments are strongly seasonal, so a single-sample index may reflect hydrology, not exposure (Pakoksung et al., 2025). Third, urban rivers are multi-stressor systems where trace elements co-occur with organic enrichment and hypoxia along collinear gradients; chemical pollution constrains ecological status, but its effect is confounded with hydromorphological/nutrient pressures (Feld et al., 2014; Johnson & Hering, 2009; Posthuma et al., 2020).
+[15] Bioassessment faces a mirror limitation: Clements et al. (2000) showed heavy metals structure benthic communities independently of nutrients generalized by Clements & Rohr, (2009). Let et al. (2022) documented EPT loss under combined metal-wastewater exposure while Moulinec et al. (2025) confirmed biomonitoring detects pressure chemical monitoring classifies acceptable. Cuss et al. (2020) showed speciation, not total concentration, governs relevance. Cd disrupts calcium transport and displaces Zn at enzyme sites independent of oxygen depletion, predicting Cd and Cu structure assemblages orthogonal to organic enrichment.
+[16] Most evidence comes from mining-influenced temperate streams without sewage, and whether this separation persists in tropical rivers remains untested. CCA offers a methodological bridge, yet its combination with pollution indices remains rare in Southeast Asia, where studies focus on sediment-phase links (Bian et al., 2016; Jumaat & Hamid, 2023) rather than dissolved-phase concentrations structuring assemblages independently of organic gradients. Liang et al. (2024) and Zhang et al. (2023) linked assemblages to sediment metals or bioaccumulation without assemblage-level testing, while chemical-only studies (Sama et al., 2024; Mazilamani et al., 2025) leave Cd and Cu's contribution unresolved.
+[17] A second limitation is weak statistical robustness: studies report correlation/PCA results from station-mean values without replicates or seasonal support (Singh et al., 2024; Snousy et al., 2021), and composite indices can inflate PCA variance via circularity. This study addresses both identified gaps with an integrated framework, directly linking replicate-based trace element and physicochemical data to macroinvertebrate composition through CCA, distinguishing trace-element from organic-pollution signals, with raw-variable/index separation ensuring robust, transparent HPI, ERI, and MPI reporting (Haque et al., 2022; Jaiswal & Pandey, 2019).
+[18] Three questions guide the study: Does contamination follow index-predicted spatial patterns? Does macroinvertebrate composition respond to a metal gradient separable from organic enrichment? Which elements drive this, matching index-dominant ones? We hypothesize organic enrichment accounts for most assemblage variance, but Cd and Cu define a secondary, orthogonal gradient establishing ecological relevance beyond chemical detectability.
+[19] The Kuyoh River, a Klang River tributary draining 83 km² of mixed land use in Selangor, Malaysia, spans a gradient from reference reaches to impacted residential, commercial, and industrial stations. Prior studies modeled water quality without trace element speciation or biological data (Hashim & Teo, 2014); this study positions the Kuyoh River as a model for evaluating chemical and biological response as independent evidence in multi-stressor catchments.
+[20] 
+[21] 2. Materials and Methods
+[22] 2.1 Study Area and Sampling Design
+[23] The Kuyoh River, a 12.5 km Klang River tributary, drains an 83 km² catchment in Selangor and Kuala Lumpur, Malaysia. Five stations were established along an upstream-to-downstream gradient: Control (Lat 3.00542°N, Long 101.710185°E), minimally disturbed, and S1–S4 representing residential, commercial, industrial/sewage, and mixed impacts (Table 1). Monthly sampling occurred during dry (May–August) and wet (November–February) seasons, with three replicate water samples per station per month for physicochemical and trace element analyses. This replicate-and-seasonal design provides robust statistical power for multivariate inference (Hashim & Teo, 2014). The study area, sampling stations, and their surrounding land use are illustrated in Figures 1 and 2
+[24] 
+[25] https://desktop.arcgis.com/Figure 1: Sample locations in the Kuyoh River, Selangor, Malaysia. (a) Klang Basin location in Selangor State, Peninsular Malaysia; (b) Klang Basin river network showing the Kuyoh River; (c) sampling sites (Control = upstream reference; S1-S2 midstream; S3-S4 downstream). Map created using ArcMap 10.8.2 (Esri Inc., Redlands, CA, USA).
+[26]  
+[27]  
+[28] 
+[29] Figure 2: Satellite image (Google Earth, 2025) of the five sampling stations along the Kuyoh River, showing spatial relationship to surrounding residential, commercial, and institutional land uses.
+[30]  
+[31] Table 1. Summary of sampling station characteristics.
+[32]  
+[33] 2.2 Physicochemical and Trace Element Analysis
+[34] In-situ DO and pH were measured using calibrated portable meters (YSI 52CE; Eutech pH 450). Laboratory analyses followed APHA (2012): TSS (2540D), COD (HACH DR2800 reactor digestion), BOD₅ (5-day, 20°C, 5210B), NH₃-N (Nessler method, HACH DR2800). Six potentially toxic elements (PTEs: Cd, Cu, Zn, Pb, As, Mn) were determined via ICP-MS (ELAN DRC-II) after acidification (HNO₃, pH <2) and 0.45 µm filtration within 24 hours of collection. 'PTEs' replaces 'heavy metals' per current best practice (Sama et al., 2024; Pakoksung et al., 2025).
+[35] 2.3 Quality Assurance and Quality Control
+[36] 
+[37] 2.4 Pollution and Ecological Risk Indices
+[38] Three pollution indices were calculated from station-mean PTE concentrations, kept separate from raw-variable correlation/PCA (Section 2.5) to avoid circularity. The Heavy Metal Pollution Index (Mohan et al., 2024) was computed as HPI = Σ(WᵢQᵢ)/ΣWᵢ, with Wᵢ = k/Sᵢ (k = 1; Sᵢ = WHO/Malaysian guideline: Cd 3 µg/L, Cu 2000 µg/L, Zn 3000 µg/L, Pb 10 µg/L, As 10 µg/L, Mn 100 µg/L). The Metal Pollution Index MPI (Haque et al., 2022) is the geometric mean of all PTEs per station. The Ecological Risk Index ERI (Hakanson, 1980) is ERI = ΣEᵣⁱ, with Eᵣⁱ = Tᵣⁱ × Cfⁱ; toxic-response factors Tᵣ: Cd 30, Cu 5, Pb 5, As 10, Zn 1, Mn 1; Cfⁱ = Cᵢ(measured)/Cᵢ(background). Background values were mean dry-season PTEs at Control (Cd 0.038, Cu 1.041, Zn 55.21, Pb 2.537, As 4.418, Mn 26.80 µg/L), the least-disturbed local baseline. ERI values here are relative, catchment-specific rankings for dissolved metals, not absolute sediment-based classifications; Control's ERI thus carries no information, while other stations express enrichment relative to it.
+[39] 2.5 Multivariate Statistical Analysis
+[40] 
+[41] 2.6 Macroinvertebrate Sampling and Community Analysis
+[42] Macroinvertebrates were collected via 500 micron D-frame kick-sampling across riffle, run, and pool microhabitats, five replicates/station, pooled per trip; (Merritt and Cummins, 1997), identified to family level. Taxon richness, EPT richness, Shannon diversity, and Family Biotic Index were tested by Kruskal-Wallis with Dunn's Holm-corrected post-hoc (Gill , 1998; Young, 2004). CCA in PAST v4.03 related family abundance to twelve environmental variables, testing whether PTEs structure assemblages independently of organic pollution, using dry-season data (Cd, Cu, Pb, As were below detection in wet season). Rare-species downweighting and Monte Carlo permutation (999) tested significance; partial CCA isolated trace-element-attributable variance.
+[43] 
+[44] 3. Results and Discussion
+[45] 3.1 Spatial Variation in Physicochemical Parameters and Trace Elements
+[46] Physicochemical parameters deteriorated significantly and progressively from Control to S3–S4 (Table 2): DO declined from 6.24 ± 0.74 mg/L (Class I) to 1.42 ± 0.90 mg/L (Class IV), while NH₃-N rose from 0.06 ± 0.02 mg/L (Class I) to 3.86 ± 1.19 mg/L (Class V). Mean PTE concentrations increased downstream for all six elements (Table 3): manganese (26.80–240.36 µg/L) exceeded Class II at S1–S4 and Class III at S3; arsenic exceeded the 10 µg/L drinking-water guideline at S1–S4 (14.65–23.92 µg/L). Cd, Cu, Pb, and As were below detection in the wet season; Zn/Mn remained detectable at impacted stations. Kruskal-Wallis or Welch's ANOVA confirmed significant spatial variation for all six parameters, with post-hoc tests identifying pairwise differences.
+[47]  
+[48] Table 2. Mean ± SD physicochemical water quality parameters by station (both seasons combined, n = 24 per station).
+[49] Different superscript letters indicate statistically significant differences between stations (p < 0.05). DO, NH₃-N, TSS: Kruskal-Wallis + Dunn's post-hoc (Holm); BOD₅, COD, pH: Welch's ANOVA + Games-Howell.
+[50]  
+[51] This downstream pattern of oxygen depletion and NH₃-N enrichment mirrors other Klang River tributaries, where NH₃-N similarly rose from low upstream concentrations to Class IV under urban/industrial pressure (Jesi et al., 2024), indicating organic wastewater and non-point urban discharge drive deterioration rather than a site-specific anomaly, consistent with other rapidly urbanizing Malaysian rivers (Wan Abdul Ghani et al., 2018).
+[52] 
+[53]  
+[54] Table 3. Mean ± SD dissolved potentially toxic element (PTE) concentrations (µg/L) at each station, dry season (n = 12 per station).
+[55]  
+[56] 
+[57] Arsenic and manganese showed the clearest station separation, increasing roughly 5-fold and 9-fold respectively, consistent with redox-sensitive contamination in Southeast Asian rivers (Hoang et al., 2024; Niampradit et al., 2024). Cd and Cu remained comparable through S1–S2, then rose sharply at S3–S4, indicating localized industrial discharge (Bahri et al., 2024), while Zn and Pb rose gradually, consistent with diffuse runoff and infrastructure corrosion.
+[58] 3.2 Raw-Variable Correlation Matrices
+[59] 
+[60]  
+[61] Table 4. Pearson correlation matrix: raw physicochemical variables.
+[62] *** p < 0.001; ** p < 0.01; ns = not significant.
+[63] The PTE correlation matrix (Table 5) showed a similarly realistic range (|r| = 0.04–0.77): Cd showed almost no linear association with Cu (r = 0.036, ns), consistent with their separate PC loadings (Section 3.3), while As–Mn (r = 0.765) and As–Zn (r = 0.726) showed the strongest associations, supporting co-loading on the primary contamination gradient.
+[64] Table 5. Pearson correlation matrix: raw PTE variables.
+[65] *** p < 0.001; ** p < 0.01; ns = not significant.
+[66]  
+[67] Moderate correlations are consistent with heterogeneous associations elsewhere (Dutta et al., 2018). Analyses based on few spatial units can inflate relationships when nested observations are treated as independent, constituting pseudoreplication (Hurlbert, 1984); using independent replicate-level observations instead preserves degrees of freedom and better represents genuine covariation.
+[68] 3.3 Principal Component Analysis of Raw Variables
+[69] 
+[70] Table 6. PCA results for raw physicochemical variables (varimax-rotated loadings).
+[71] KMO = 0.844; Bartlett's χ²(15) = 677.75, p < 0.001.
+[72]  
+[73] 
+[74] Table 7. PCA results for raw PTE variables (varimax-rotated loadings).
+[75] KMO = 0.656; Bartlett's χ²(15) = 153.36, p < 0.001.
+[76] Separating raw-variable analysis from index reporting improved validity (Hurlbert, 1984): PTE correlations were plausible (r = 0.04–0.77), unlike r > 0.99 from station means with n = 5 (Schönbrodt & Perugini, 2013), and the 69.8% variance solution, below the 87–98% typical of station-mean PCA, avoids high-dimensional, low-sample instability, supporting reproducible source apportionment (Björklund, 2019).
+[77] 3.4 Pollution and Ecological Risk Indices
+[78] HPI, ERI, and MPI increased from Control to S3/S4 (Table 8): ERI reached 1099 at S3 and 1189 at S4, exceeding the very high-risk threshold of 600 (Hakanson, 1980), largely due to Cd's Tᵣ = 30. HPI stayed below 100 (2.11 at Control, 9.58 at S3, 9.06 at S4; Mohan et al., 2024), and MPI rose more than fivefold (2.95 to 15.4, 15.2). ERI thus indicated very high risk, MPI cumulative loading, and HPI acceptable water, a divergence reflecting index weighting: HPI dilutes Mn/As exceedances at S1-S4, whereas ERI is Cd-dominated.
+[79] Table 8. Pollution and ecological risk indices by station (dry season). All indices computed from station-mean PTE concentrations, kept analytically separate from raw-variable PCA.
+[80] ERI classification thresholds follow Hakanson (1980): <150 low risk, 150–300 moderate, 300–600 considerable, >600 very high. Background values for ERI: Control-station mean dry-season concentrations (Section 2.4).
+[81] This disagreement is not unique: Edet & Offiong (2002) found two heavy-metal indices applied to the same Nigerian samples produced contradictory classifications, prompting a third index. Its persistence for two decades shows no single index should define severity without cross-validation against alternatives or, preferably, biological data.
+[82] 3.5 Macroinvertebrate Assemblage Structure
+[83] Assemblage conditions declined with deterioration, though responses varied: taxon richness decreased from Control to S4, while EPT taxa, present at Control and S1, were absent from S3/S4 throughout. Impacted stations were dominated by Oligochaetes (Tubificidae, Naididae, Lumbriculidae), tolerant of low DO and organic enrichment, so abundance remained high despite low richness/diversity. Shannon diversity and FBI tracked richness, with all three metrics differing significantly (Kruskal-Wallis, p < 0.05; Dunn's Holm post-hoc), Control distinct from S3/S4. This pattern matches responses to organic enrichment (Eriksen et al., 2021) and downstream biotic decline in the Penchala River (Wan Abdul Ghani et al., 2018).
+[84] 3.6 Biological Validation: CCA of Macroinvertebrate Assemblages Against Combined Environmental Variables
+[85] 
+[86] Table 9. CCA eigenvalues and variance explained: combined twelve-variable model.
+[87]  
+[88] Table 10. CCA scores of environmental variables on Axes 1 and 2 (combined model).
+[89] 
+[90]  
+[91] Three findings support a genuine ecological signal: Axis 2 significance (p = 0.004), VIFs < 10, and a partial CCA controlling six physicochemical covariables (p = 0.006) (ter Braak & te Beest, 2022). Despite right-skewed Cd at S3/S4 (1.292 ± 1.891; 1.402 ± 1.848 µg/L), CCA2 (9.2%) identified Cd–Cu effects independent of CCA1 organic pollution (89.3%). HPI/ERI/MPI (Table 8) quantify station-level contamination but cannot resolve distinct biological pathways among the six PTEs; constrained ordination thus strengthens risk assessment by linking contaminants directly to assemblage composition (Peng et al., 2021; Peng et al., 2020).
+[92] Cd and Cu's independent CCA2 position is mechanistically plausible: Cd at S3–S4 (1.29–1.40 µg/L) can interact with calcium-related uptake pathways and induce oxidative stress (Cuypers et al., 2010; Järup, 2003; Peeters et al., 2000; Poteat & Buchwalter, 2014), while Cu at S3 (4.4–5.3 µg/L) can impair respiratory and neurological function independent of organic oxygen demand (Clements et al., 2000; O’Gara et al., 2004; Wang et al., 2023). Their near-zero correlation (r = 0.036; Table 5), despite shared PC2/CCA2 loadings, suggests a localized S3–S4 source distinct from diffuse As/Mn/Zn/Pb inputs, consistent with other effluent-impacted rivers (Arimoro et al., 2021); management should combine catchment controls with source tracing upstream of S3.
+[93] PTE patterns matched Asian urban rivers: Hanoi Mn (23.9–307 µg/L) and As near/exceeding limits (Hoang et al., 2024) paralleled Mn's PC1 dominance (0.792) and the S3 peak, consistent with redox-mediated Mn release. Bahri et al. (2024) reported higher Tengi River Zn/Pb (As avg. 10.87 µg/L); Niampradit et al. (2024) likewise found Mn predominant in the Chao Phraya. Yet ERI underweights Mn (Tᵣ = 1) versus Cd (Tᵣ = 30) (Hakanson, 1980): ERI classified S3/S4 very high risk, HPI rated all stations acceptable, and CCA identified a significant Cd–Cu gradient, with Mn/As breaching NWQS/drinking-water guidelines while Cd/Cu stayed compliant despite driving ERI and assemblage responses.
+[94] Sediment-dwelling Tubificidae, Naididae, and Lumbriculidae experience exposure via porewater, sediment ingestion, and dermal contact; sediment-phase measurements should complement dissolved PTEs to test whether the CCA2 Cd-Cu signal persists without seasonal dilution (Biedunkova et al., 2025; Dalu et al., 2017). This framework of raw-variable separation, replicate-level analysis, and biological validation improves inference beyond station-mean indices.
+[95] 3.7 Limitations
+[96] Several limitations constrain interpretation. Only dissolved trace elements were measured; since sediment-dwelling oligochaetes are exposed mainly through porewater and particle-bound metals, total exposure is underestimated, making the dissolved Cd-Cu signal conservative. Family-level identification may mask genus- or species-level losses. Cd-Cu separation relied on dry-season data, since Cd, Cu, Pb, and As were below detection in the wet season, leaving wet-season persistence untested. ERI used dissolved concentrations with sediment-derived toxic-response factors, interpreted only as a relative within-catchment ranking. Finally, one catchment and one annual cycle limit generalisation, requiring confirmation across other tropical urban rivers.
+[97] 4. Conclusion
+[98] Pollution indices alone provide a misleading picture of ecological risk, since they cannot test whether contamination is biologically detectable. Integrating raw-variable PCA with CCA-based validation reveals cadmium and copper structure the Kuyoh River's macroinvertebrate assemblage independently of the organic pollution gradient. The three approaches disagreed: HPI rated all stations acceptable, ERI flagged downstream stations very high risk, while biology implicated Cd and Cu, neither exceeding regulatory thresholds. Manganese, the only threshold-breaching element, carries negligible ERI weighting and remains invisible to it. This framework raw-variable separation, adequately powered analysis, justified background values, and biological validation offers a transferable template for trace element assessment.
+[99]  
+[100] Use of AI tools declaration
+[101] The authors used editGPT and Grammarly for language clarity.
+[102] Acknowledgment
+[103] The authors wish to convey their heartfelt thanks to Universiti Putra Malaysia for its technical and administrative assistance during this research. We also appreciate the valuable feedback from the anonymous reviewers, which contributed to enhancing the quality of this manuscript
+[104] Funding This study was supported by Geran Putra, GP-IPS (UPM Reference Code: UPM.RMC.800-3/3/1/2024/GP-IPS/9785800) through Universiti Putra Malaysia (UPM).
+[105] Conflict of Interest The authors declare no conflict of interest.
+[106] Author Contributions EFA: Conceptualization, Methodology, Data curation, Writing -Original draft preparation. NH: Conceptualization, Writing -Reviewing, Editing and Supervision. FMY: Conceptualization, Methodology, Writing -Reviewing, Editing. WLWJ: Conceptualization, Methodology, Investigation, Writing -Reviewing and Editing. AOS: Editing and proofreading, Analysis, R software, EAB: Resources, visualization, data curation and analysis. EMU: Reviewing, software, Editing and Project administration.
+[107]  
+[108] Reference
+[109] Abu Sama, H., Yuzir, M. A., & Azman, S. (2024). Water Quality Assessment using Selected Macroinvertebrate Based Indices and Water Quality Index of Sungai Air Hitam Selangor. Tropical Aquatic and Soil Pollution, 4(2), 143–156. https://doi.org/10.53623/tasp.v4i2.505
+[110] Ahmad, T., Usman, M., Almeetani, M., Ahmed, A., Qadir, A., Hakeem, M. K., Shah, I., & Iltaf, K. H. (2026). Heavy Metal(loid) Contamination in Groundwater of the Eastern Salt Range, Pakistan: Source Apportionment and Ecological-Human Health Risk Assessment. Earth Systems and Environment. https://doi.org/10.1007/s41748-026-01187-3
+[111] Arimoro, F. O., Meme, F. K., & Keke, U. N. (2021). Effects of effluent discharges from a cement factory on the ecology of macroinvertebrates in an Afrotropical River. Environmental Science and Pollution Research, 28(38), 53444–53457. https://doi.org/10.1007/s11356-021-14514-0
+[112] Bian, B., Zhou, Y., & Fang, B. Bin. (2016). Distribution of heavy metals and benthic macroinvertebrates: Impacts from typical inflow river sediments in the Taihu Basin, China. Ecological Indicators, 69, 348–359. https://doi.org/10.1016/j.ecolind.2016.04.048
+[113] Biedunkova, O., Kuznietsov, P., & Mandryk, O. (2025). Study of the dominant modes of formation and variability of potentially toxic element concentrations and their impact on environmental quality. Chemosphere, 388. https://doi.org/10.1016/j.chemosphere.2025.144688
+[114] Björklund, M. (2019). Be careful with your principal components. In Evolution (Vol. 73, Number 10, pp. 2151–2158). Society for the Study of Evolution. https://doi.org/10.1111/evo.13835
+[115] Castro-Elenes, M., Rodríguez-Meza, G. D., Pérez-González, E., & González-Ocampo, H. A. (2021). Trace Metal Residues in Swimming Warrior Crab Callinectes bellicosus: A Consumption Risk. Frontiers in Environmental Science, 9. https://doi.org/10.3389/fenvs.2021.772221
+[116] Clements, W. H., Carlisle, D. M., Lazorchak, J. M., & Johnson, P. C. (2000). Heavy metals structure benthic communities in Colorado mountain streams. In Ecological Applications (Vol. 10, Number 2).
+[117] Clements, W. H., & Rohr, J. R. (2009). Critical review community responses to contaminants: Using basic ecological principles to predict ecotoxicological effects. http://www.epa.gov/
+[118] Cuss, C. W., Glover, C. N., Javed, M. B., Nagel, A., Shotyk, W., Nagel, ( A, Glover, ( C N, Muhammad, (, & Javed, B. (2020). Geochemical and biological controls on the ecological relevance of total, dissolved and colloidal forms of trace elements in large boreal rivers: review and case studies. www.nrcresearchpress.com
+[119] Cuypers, A., Plusquin, M., Remans, T., Jozefczak, M., Keunen, E., Gielen, H., Opdenakker, K., Nair, A. R., Munters, E., Artois, T. J., Nawrot, T., Vangronsveld, J., & Smeets, K. (2010). Cadmium stress: An oxidative challenge. In BioMetals (Vol. 23, Number 5, pp. 927–940). https://doi.org/10.1007/s10534-010-9329-x
+[120] Dalu, T., Wasserman, R. J., Tonkin, J. D., Alexander, M. E., Dalu, M. T. B., Motitsoe, S. N., Manungo, K. I., Bepe, O., & Dube, T. (2017). Assessing drivers of benthic macroinvertebrate community structure in African highland streams: An exploration using multivariate analysis. Science of the Total Environment, 601–602, 1340–1348. https://doi.org/10.1016/j.scitotenv.2017.06.023
+[121] Dheeraj, V. P., Singh, C. S., Sonkar, A. K., & Kishore, N. (2024). Heavy metal pollution indices estimation and principal component analysis to evaluate the groundwater quality for drinking purposes in coalfield region, India. Sustainable Water Resources Management, 10(1). https://doi.org/10.1007/s40899-023-01013-y
+[122] Dutta, S., Dwivedi, A., & Suresh Kumar, M. (2018). Use of water quality index and multivariate statistical techniques for the assessment of spatial variations in water quality of a small river. Environmental Monitoring and Assessment, 190(12). https://doi.org/10.1007/s10661-018-7100-x
+[123] Edet, A. E., & Offiong, O. E. (2002). Evaluation of water quality pollution indices for heavy metal contamination monitoring. A study case from Akpabuyo-Odukpani area, Lower Cross River Basin (southeastern Nigeria). In GeoJournal (Vol. 57).
+[124] Eriksen, T. E., Brittain, J. E., Søli, G., Jacobsen, D., Goethals, P., & Friberg, N. (2021). A global perspective on the application of riverine macroinvertebrates as biological indicators in Africa, South-Central America, Mexico and Southern Asia. Ecological Indicators, 126. https://doi.org/10.1016/j.ecolind.2021.107609
+[125] Feld, C. K., de Bello, F., & Dolédec, S. (2014). Biodiversity of traits and species both show weak responses to hydromorphological alteration in lowland river macroinvertebrates. Freshwater Biology, 59(2), 233–248. https://doi.org/10.1111/fwb.12260
+[126] FRIBERG, N. (2010). Pressure‐response relationships in stream ecology: introduction and synthesis. Freshwater Biology, 55(7), 1367–1381. https://doi.org/10.1111/j.1365-2427.2010.02442.x
+[127] Gill K. (1998). Identification Guide to Freshwater Macroinvertebrates. 1998.
+[128] Hakanson, L. (1980). An ecological risk index for aquatic pollution control. A sedimentological approach. In Water Research (Vol. 14).
+[129] Hammer, D. A. T., Ryan, P. D., Hammer, Ø., & Harper, D. A. T. (2001). Past: Paleontological Statistics Software Package for Education and Data Analysis. In Palaeontologia Electronica  
+[130] Haque, M. R., Ali, M. M., Ahmed, W., & Rahman, M. M. (2022). Assessment of metal(loid)s pollution in water and sediment from an urban river in Bangladesh: An ecological and health risk appraisals. Case Studies in Chemical and Environmental Engineering, 6. https://doi.org/10.1016/j.cscee.2022.100272
+[131] Hashim, N., & Yenn Teo, F. (2014). Water quality modeling of Kuyoh River basin, Malaysia. https://www.researchgate.net/publication/259874150
+[132] Hering, D., Johnson, R. K., Kramm, S., Schmutz, S., Szoszkiewicz, K., & Verdonschot, P. F. M. (2006). Assessment of European streams with diatoms, macrophytes, macroinvertebrates and fish: a comparative metric‐based analysis of organism response to stress. Freshwater Biology, 51(9), 1757–1785. https://doi.org/10.1111/j.1365-2427.2006.01610.x
+[133] Hoang, A. Q., Tran, G. H., Dinh, C. V., Trinh, M. H., Kieu, H. T., Nguyen, H. T., Nguyen, T. X., Nguyen, D. T., To, A. H., Nguyen, D. H., Nguyen, H. D., Nguyen, H. L. T., Luu, A. M., Dinh, A. H., & Nguyen, H. T. A. (2024). Contamination status of surface water from urban rivers and lakes in Hanoi, Vietnam: Pollution parameters and concentrations of selected elements. Science & Technology Development Journal. https://doi.org/10.32508/stdj.v27i4.4387
+[134] Hurlbert, S. H. (1984). Pseudoreplication and the Design of Ecological Field Experiments. In Source: Ecological Monographs (Vol. 54, Number 2).
+[135] Jaiswal, D., & Pandey, J. (2019). An ecological response index for simultaneous prediction of eutrophication and metal pollution in large rivers. Water Research, 161, 423–438. https://doi.org/10.1016/j.watres.2019.06.030
+[136] Järup, L. (2003). Hazards of heavy metal contamination. In British Medical Bulletin (Vol. 68, pp. 167–182). https://doi.org/10.1093/bmb/ldg032
+[137] Jesi, A. A., Feisal, N. A. S., Windusari, Y., Samat, N. A., Kamaludin, N. H., Derahim, N., Ahmad, M. A., Azhar, T. N. T., & Ibrahim, T. N. B. T. (2024). Klang river water quality assessment and its effects on human health using chemometric analysis. Jurnal Kesehatan Lingkungan, 16(2), 125–136. https://doi.org/10.20473/jkl.v16i2.2024.125-136
+[138] Johnson, R. K., & Hering, D. (2009). Response of taxonomic groups in streams to gradients in resource and habitat characteristics. Journal of Applied Ecology, 46(1), 175–186. https://doi.org/10.1111/j.1365-2664.2008.01583.x
+[139] Jumaat, A. H., & Hamid, S. A. (2023). Monitoring Heavy Metal Bioaccumulation in Rivers Using Damselflies (Insecta: Odonata, Zygoptera) as Biological Indicator. Sains Malaysiana, 52(2), 321–331. https://doi.org/10.17576/jsm-2023-5202-01
+[140] Let, M., Černý, J., Nováková, P., Ložek, F., & Bláha, M. (2022). Effects of Trace Metals and Municipal Wastewater on the Ephemeroptera, Plecoptera, and Trichoptera of a Stream Community. Biology, 11(5), 648. https://doi.org/10.3390/biology11050648
+[141] Liang, J., Ma, C. W., & Kim, K. B. (2024). Ecological risk assessment of heavy metals in surface sediments and their impact on macrobenthos in Asan Bay, South Korea. Frontiers in Marine Science, 11. https://doi.org/10.3389/fmars.2024.1450396
+[142] Mazilamani, L. S., Annammala, K. V., Martin, P., Qi, L. Y., Sugumaran, D., Ling, Y. E., Reynard, P. S., Nurhidayat, A., Syawal, M. S., & Sutapa, I. D. A. (2025). Comprehensive assessment of water and sediment quality to support sustainable management practices and mitigate potential risks of trace metal pollution in the Johor River Basin, South Peninsular Malaysia. 	 https://doi.org/10.1016/J.ECOHYD.2024.04.009
+[143] Merritt and Cummins. (1997). Field and Laboratory Methods for Macroinvertebrate and Habitat Assessment of Low Gradient, Nontidal Streams.
+[144] Mohan, I., Jasrotia, R., Dhar, S., Bhau, B. S., Pathania, D., Khargotra, R., & singh, T. (2024). Pollution indices and correlation of heavy metals contamination in the groundwater around brick kilns in Jammu and Kashmir, India. Heliyon, 10(6). https://doi.org/10.1016/j.heliyon.2024.e27869
+[145] Mohd Najib, S. A., Zainal, N. A., Jupinis, J. N., Shaharudin, S. M., Tan, M. L., & Jamru, L. R. (2025). Assessment of heavy metal content in Bernam River catchment, Selangor, Malaysia. Water Science, 39(1), 254–266. https://doi.org/10.1080/23570008.2025.2479909
+[146] Moulinec, A., Arle, J., Hollert, H., Hörchner, S., Johann, S., Kienle, C., Oetken, M., & Sundermann, A. (2025). Assessing chemical pollution with biomonitoring approaches in streams and rivers: a critical review. In Environmental Sciences Europe (Vol. 37, Number 1). Springer. https://doi.org/10.1186/s12302-025-01110-z
+[147] Niampradit, S., Kiangkoo, N., Mingkhwan, R., Kliengchuay, W., Worakhunpiset, S., Limpananont, Y., Hongsibsong, S., Inthorn, D., & Tantrakarnapa, K. (2024). Occurrence, distribution, and ecological risk assessment of heavy metals in Chao Phraya River, Thailand. Scientific Reports, 14(1). https://doi.org/10.1038/s41598-024-59133-0
+[148] O’Gara, B. A., Bohannon, V. K., Teague, M. W., & Smeaton, M. B. (2004). Copper-induced changes in locomotor behaviors and neuronal physiology of the freshwater oligochaete, Lumbriculus variegatus. Aquatic Toxicology, 69(1), 51–66. https://doi.org/10.1016/j.aquatox.2004.04.006
+[149] Pakoksung, K., Inseeyong, N., Chawaloesphonsiya, N., Punyapalakul, P., Chaiwiwatworakul, P., Xu, M., & Chuenchum, P. (2025). Seasonal dynamics of water quality in response to land use changes in the Chi and Mun River Basins Thailand. Scientific Reports, 15(1). https://doi.org/10.1038/s41598-025-91820-4
+[150] Peeters, E. T. H. M., Gardeniers, J. J. P., & Koelmans, A. A. (2000). Contribution of trace metals in structuring macroinvertebrate community composition along a salinity gradient. In Environmental Toxicology and Chemistry (Vol. 19, Number 4).
+[151] Peng, C., Huang, Y., Yan, X., Jiang, L., Wu, X., Zhang, W., & Wang, X. (2021). Effect of overlying water pH, temperature, and hydraulic disturbance on heavy metal and nutrient release from drinking water reservoir sediments. Water Environment Research, 93(10), 2135–2148. https://doi.org/10.1002/wer.1587
+[152] Peng, F. J., Pan, C. G., Zhang, N. S., ter Braak, C. J. F., Salvito, D., Selck, H., Ying, G. G., & Van den Brink, P. J. (2020). Benthic invertebrate and microbial biodiversity in sub-tropical urban rivers: Correlations with environmental variables and emerging chemicals. Science of the Total Environment, 709. https://doi.org/10.1016/j.scitotenv.2019.136281
+[153] Posthuma, L., Zijp, M. C., De Zwart, D., Van de Meent, D., Globevnik, L., Koprivsek, M., Focks, A., Van Gils, J., & Birk, S. (2020). Chemical pollution imposes limitations to the ecological status of European surface waters. Scientific Reports, 10(1). https://doi.org/10.1038/s41598-020-71537-2
+[154] Poteat, M. D., & Buchwalter, D. B. (2014). Four reasons why traditional metal toxicity testing with aquatic insects is irrelevant. In Environmental Science and Technology (Vol. 48, Number 2, pp. 887–888). https://doi.org/10.1021/es405529n
+[155] Schönbrodt, F. D., & Perugini, M. (2013). At what sample size do correlations stabilize? Journal of Research in Personality, 47(5), 609–612. https://doi.org/10.1016/j.jrp.2013.05.009
+[156] Singh, K. R., Dutta, R., Kalamdhad, A. S., & Kumar, B. (2020). Review of existing heavy metal contamination indices and development of an entropy-based improved indexing approach. Environment, Development and Sustainability, 22(8), 7847–7864. https://doi.org/10.1007/s10668-019-00549-4
+[157] Singh, S., Das, A., Sharma, P., Sudheer, A. K., Gaddam, M., & Ranjan, R. (2024). Spatiotemporal variations, sources, pollution status and health risk assessment of dissolved trace elements in a major Arabian Sea draining river: insights from multivariate statistical and machine learning approaches. Environmental Geochemistry and Health, 46(4). https://doi.org/10.1007/s10653-024-01885-9
+[158] Snousy, M. G., Li, P., & Ismail, E. (2021). Trace elements speciation and sources characterization in the main watercourses, middle-upper Egypt. Human and Ecological Risk Assessment, 27(7), 1764–1785. https://doi.org/10.1080/10807039.2021.1902265
+[159] Syazwa Tasnim Saipul Bahri, N., Mohd Saidi, N., Azlin Nik Ariffin, N., Md Yunus, S., Alam Selangor, S., Urus Air Selangor, L., & Alam, S. (2024). Application of Heavy Metal Pollution Index (HPI) of Water Quality Assessment in Tengi River. In Malaysian Journal of Chemistry (Vol. 26, Number 5).
+[160] ter Braak, C. J. F., & te Beest, D. E. (2022). Testing environmental effects on taxonomic composition with canonical correspondence analysis: alternative permutation tests are not equal. Environmental and Ecological Statistics, 29(4), 849–868. https://doi.org/10.1007/s10651-022-00545-4
+[161] Wan Abdul Ghani, W. M. H., Abas Kutty, A., Mahazar, M. A., Al-Shami, S. A., & Ab Hamid, S. (2018). Performance of biotic indices in comparison to chemical-based Water Quality Index (WQI) in evaluating the water quality of urban river. Environmental Monitoring and Assessment, 190(5). https://doi.org/10.1007/s10661-018-6675-6
+[162] Wang, D., Huang, G., Ding, H., Zhang, X., Wang, H., Zhang, Z., Li, D., & Zhao, J. (2023). Effects of Hydrological Season on the Relationship between Land Use and Surface Water Quality. Water (Switzerland), 15(13). https://doi.org/10.3390/w15132351
+[163] Young, C. W. (2004). Insecta: Diptera, Tipulidae.
+[164] Zhang, M., Liu, C., Zhang, C., Zhu, H., Wan, J., & Liu, X. (2023). Response of macrofaunal assemblages to different pollution pressures of two types of ports. Ecological Indicators, 146. https://doi.org/10.1016/j.ecolind.2022.109858
+[165]  
+[166] 
+
+TABLES
+[
+  [
+    [
+      "Station",
+      "Coordinates",
+      "Land Use"
+    ],
+    [
+      "Control",
+      "3.00542°N, 101.710185°E",
+      "Vegetated, minimal disturbance"
+    ],
+    [
+      "S1",
+      "3.005191°N, 101.713381°E",
+      "Dense residential; restaurant discharges"
+    ],
+    [
+      "S2",
+      "3.009975°N, 101.710210°E",
+      "Urban commercial; channel discharges"
+    ],
+    [
+      "S3",
+      "3.013789°N, 101.715048°E",
+      "Industrial hub; sewage and industrial effluents"
+    ],
+    [
+      "S4",
+      "3.020926°N, 101.708694°E",
+      "Residential-commercial; inlet flows"
+    ]
+  ],
+  [
+    [
+      "Parameter",
+      "Control",
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    [
+      "DO (mg/L)",
+      "6.24±0.74ᵃ",
+      "3.18±0.58ᵇ",
+      "2.07±1.07ᶜ",
+      "1.55±0.93ᶜ",
+      "1.42±0.90ᶜ"
+    ],
+    [
+      "BOD₅ (mg/L)",
+      "0.47±0.27ᵃ",
+      "1.36±0.52ᵇ",
+      "2.53±0.95ᶜ",
+      "3.14±1.00ᶜ",
+      "3.98±1.39ᵈ"
+    ],
+    [
+      "COD (mg/L)",
+      "7.50±1.82ᵃ",
+      "20.93±7.06ᵇ",
+      "29.56±8.50ᶜ",
+      "39.62±9.44ᵈ",
+      "47.88±16.10ᵈ"
+    ],
+    [
+      "NH₃-N (mg/L)",
+      "0.06±0.02ᵃ",
+      "1.83±0.58ᵇ",
+      "2.56±0.64ᵇ",
+      "3.23±0.91ᶜ",
+      "3.86±1.19ᶜ"
+    ],
+    [
+      "TSS (mg/L)",
+      "7.90±2.33ᵃ",
+      "11.75±2.51ᵇ",
+      "11.44±2.85ᵇ",
+      "18.00±5.23ᶜ",
+      "19.12±5.10ᶜ"
+    ],
+    [
+      "pH",
+      "7.00±0.12ᵃ",
+      "7.18±0.23ᵇ",
+      "7.21±0.29ᵇ",
+      "7.20±0.27ᵇ",
+      "7.19±0.29ᵇ"
+    ]
+  ],
+  [
+    [
+      "PTE",
+      "Control",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "H (4)",
+      "p"
+    ],
+    [
+      "Cd",
+      "0.038±0.019a",
+      "0.059±0.026a",
+      "0.142±0.150ab",
+      "1.292±1.891bc",
+      "1.402±1.848c",
+      "34.04",
+      "< 0.001"
+    ],
+    [
+      "Cu",
+      "1.041±0.107a",
+      "1.383±0.231ab",
+      "1.712±0.447bc",
+      "5.287±5.617c",
+      "4.397±2.394c",
+      "45.44",
+      "< 0.001"
+    ],
+    [
+      "Zn",
+      "55.212±12.833a",
+      "76.948±16.840ab",
+      "93.333±11.386bc",
+      "104.452±10.126c",
+      "122.211±47.70c",
+      "37.60",
+      "< 0.001"
+    ],
+    [
+      "Pb",
+      "2.537±0.851a",
+      "3.255±0.717ab",
+      "3.694±1.057ab",
+      "3.947±1.316ab",
+      "4.253±0.915b",
+      "14.86",
+      " 0.005"
+    ],
+    [
+      "As",
+      "4.418±0.595a",
+      "14.645±1.385ab",
+      "16.753±1.037bc",
+      "19.481±2.038cd",
+      "23.922±3.031d",
+      "53.89",
+      "< 0.001"
+    ],
+    [
+      "Mn",
+      "26.804±15.820a",
+      "131.231±15.86ab",
+      "149.917±12.298b",
+      "240.359±34.932c",
+      "160.491±8.30bc",
+      "52.43",
+      "< 0.001\n "
+    ]
+  ],
+  [
+    [
+      " ",
+      "DO",
+      "BOD₅",
+      "COD",
+      "NH₃-N",
+      "TSS",
+      "pH"
+    ],
+    [
+      "DO",
+      "1.000",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "BOD₅",
+      "",
+      "1.000",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "COD",
+      "",
+      "0.762***",
+      "1.000",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "NH₃-N",
+      "",
+      "0.907***",
+      "0.804***",
+      "1.000",
+      " ",
+      " "
+    ],
+    [
+      "TSS",
+      "",
+      "0.516***",
+      "0.606***",
+      "0.609***",
+      "1.000",
+      " "
+    ],
+    [
+      "pH",
+      "",
+      "0.542***",
+      "0.247**",
+      "0.546***",
+      "0.093 ns",
+      "1.000"
+    ]
+  ],
+  [
+    [
+      " ",
+      "Cd",
+      "Cu",
+      "Zn",
+      "Pb",
+      "As",
+      "Mn"
+    ],
+    [
+      "Cd",
+      "1.000",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "Cu",
+      "0.036 ns",
+      "1.000",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "Zn",
+      "0.220 ns",
+      "0.336**",
+      "1.000",
+      " ",
+      " ",
+      " "
+    ],
+    [
+      "Pb",
+      "0.382**",
+      "0.361**",
+      "0.548***",
+      "1.000",
+      " ",
+      " "
+    ],
+    [
+      "As",
+      "0.383**",
+      "0.506***",
+      "0.726***",
+      "0.463***",
+      "1.000",
+      " "
+    ],
+    [
+      "Mn",
+      "0.244 ns",
+      "0.441***",
+      "0.483***",
+      "0.341**",
+      "0.765***",
+      "1.000"
+    ]
+  ],
+  [
+    [
+      "Variable",
+      "PC1",
+      "PC2"
+    ],
+    [
+      "DO",
+      "",
+      ""
+    ],
+    [
+      "BOD₅",
+      "0.934",
+      "0.118"
+    ],
+    [
+      "COD",
+      "0.869",
+      ""
+    ],
+    [
+      "NH₃-N",
+      "0.977",
+      "0.052"
+    ],
+    [
+      "TSS",
+      "0.682",
+      ""
+    ],
+    [
+      "pH",
+      "0.550",
+      "0.776"
+    ],
+    [
+      "Eigenvalue",
+      "4.229",
+      "0.986"
+    ],
+    [
+      "Variance explained (%)",
+      "69.9",
+      "16.3"
+    ],
+    [
+      "Cumulative (%)",
+      "69.9",
+      "86.2"
+    ]
+  ],
+  [
+    [
+      "PTE",
+      "PC1",
+      "PC2"
+    ],
+    [
+      "Cd",
+      "0.467",
+      "0.792"
+    ],
+    [
+      "Cu",
+      "0.624",
+      ""
+    ],
+    [
+      "Zn",
+      "0.804",
+      ""
+    ],
+    [
+      "Pb",
+      "0.707",
+      "0.281"
+    ],
+    [
+      "As",
+      "0.923",
+      ""
+    ],
+    [
+      "Mn",
+      "0.792",
+      ""
+    ],
+    [
+      "Eigenvalue",
+      "3.233",
+      "1.025"
+    ],
+    [
+      "Variance explained (%)",
+      "53.0",
+      "16.8"
+    ],
+    [
+      "Cumulative (%)",
+      "53.0",
+      "69.8"
+    ]
+  ],
+  [
+    [
+      "Station",
+      "HPI",
+      "MPI",
+      "ERI",
+      "ERI classification"
+    ],
+    [
+      "Control",
+      "1.83",
+      "2.95",
+      "52.0",
+      "Low risk (<150)"
+    ],
+    [
+      "S1",
+      "5.79",
+      "5.83",
+      "98.8",
+      "Low risk (<150)"
+    ],
+    [
+      "S2",
+      "6.66",
+      "7.72",
+      "172.2",
+      "Moderate risk (150–300)"
+    ],
+    [
+      "S3",
+      "9.58",
+      "15.37",
+      "1099.0",
+      "Very high risk (>600)"
+    ],
+    [
+      "S4",
+      "9.06",
+      "15.19",
+      "1188.8",
+      "Very high risk (>600)"
+    ]
+  ],
+  [
+    [
+      "CCA Axis",
+      "Eigenvalue",
+      "Variance Explained (%)",
+      "Cumulative (%)"
+    ],
+    [
+      "Axis 1",
+      "0.2935",
+      "89.29",
+      "89.29"
+    ],
+    [
+      "Axis 2",
+      "0.0303",
+      "9.22",
+      "98.51"
+    ],
+    [
+      "Axis 3",
+      "0.0034",
+      "1.04",
+      "99.55"
+    ],
+    [
+      "Axis 4",
+      "0.0015",
+      "0.45",
+      "100.00"
+    ]
+  ],
+  [
+    [
+      "Variable",
+      "Axis 1",
+      "Axis 2"
+    ],
+    [
+      "DO",
+      "",
+      "0.5530"
+    ],
+    [
+      "BOD₅",
+      "0.5848",
+      ""
+    ],
+    [
+      "COD",
+      "0.5070",
+      ""
+    ],
+    [
+      "NH₃-N",
+      "0.7389",
+      ""
+    ],
+    [
+      "TSS",
+      "0.1362",
+      ""
+    ],
+    [
+      "pH",
+      "",
+      "0.4878"
+    ],
+    [
+      "Cd",
+      "0.8731",
+      ""
+    ],
+    [
+      "Cu",
+      "0.1612",
+      ""
+    ],
+    [
+      "Zn",
+      "",
+      "0.4693"
+    ],
+    [
+      "Pb",
+      "",
+      "0.3711"
+    ],
+    [
+      "As",
+      "0.0312",
+      "0.5078"
+    ],
+    [
+      "Mn",
+      "",
+      "0.5183"
+    ]
+  ]
+]

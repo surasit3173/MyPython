@@ -1,0 +1,51 @@
+{
+  "project": "CMIP6Uttaradit",
+  "run_id": "PROJECT2_PRODUCTION_RUN_FINAL_V2",
+  "timestamp_utc": "2026-09-09T01:23:15.706809+00:00",
+  "system": {
+    "python_version": "3.14.0",
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+  },
+  "provenance": {
+    "observed_csv": "C:\\MyPython\\CMIP6Uttaradit\\Data_Uttaradit/Observed_Rain_daily_198101_201412_Uttaradit.csv",
+    "observed_sha256": "1621f8f9c15884c3a4deb33c8bea0d070a1639b70790cfc8f0695e3ca4befbe2",
+    "coords_csv": "C:\\MyPython\\CMIP6Uttaradit\\Data_Uttaradit/station_coordinates_Uttaradit.csv",
+    "coords_sha256": "852ac008480f934f29d65f0ed7bbc2f563cc21c4915b346bb7fc26dd205872d1",
+    "config_yaml": "C:\\MyPython\\CMIP6Uttaradit\\config\\config.yaml",
+    "config_sha256": "1747a2d7118c192ed4dcaffc9b22d230a11158c86018797a0f029bf90321a5b5",
+    "main_script": "C:\\MyPython\\CMIP6Uttaradit\\main.py",
+    "main_sha256": "4bb2710cab5f413d6bf91638671cbccb3ddf732096bc95e2beb50bead4935f1a"
+  },
+  "parameters": {
+    "baseline_period": [
+      1995,
+      2014
+    ],
+    "future_period": [
+      2021,
+      2050
+    ],
+    "wet_day_threshold_mm": 1.0,
+    "observed_stations": 13,
+    "gcms_count": 7
+  },
+  "validation_status": "PASS",
+  "tables": {
+    "table1": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\station_metadata.csv",
+    "table2": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\seasonal_climatology.csv",
+    "table3": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\observed_etccdi_1995_2014.csv",
+    "table4": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\baseline_sensitivity_comparison.csv",
+    "table5": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\gcm_evaluation_bias.csv",
+    "table6": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\future_projections_ssp.csv",
+    "tableS1": "C:\\MyPython\\CMIP6Uttaradit\\output\\tables\\supplementary_stn_etccdi.csv"
+  },
+  "figures": {
+    "figure1": "C:\\MyPython\\CMIP6Uttaradit\\output\\figures\\Figure1_study_area_stations.png",
+    "figure2": "C:\\MyPython\\CMIP6Uttaradit\\output\\figures\\Figure2_IDW_mean_annual_rainfall.png",
+    "figure3": "C:\\MyPython\\CMIP6Uttaradit\\output\\figures\\Figure3_observed_etccdi_indices.png",
+    "figure4": "C:\\MyPython\\CMIP6Uttaradit\\output\\figures\\Figure4_model_bias_evaluation.png",
+    "figure5": "C:\\MyPython\\CMIP6Uttaradit\\output\\figures\\Figure5_projected_extremes_ssp.png",
+    "figure6": "OMITTED_NO_ANOVA_CODE"
+  }
+}

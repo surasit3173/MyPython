@@ -1,0 +1,39 @@
+{
+  "model": "EC-Earth3",
+  "source_file": "data/pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv",
+  "calendar": "standard",
+  "unit_factor_applied": 1.0,
+  "calibration_years": [
+    1981,
+    2000
+  ],
+  "validation_years": [
+    2001,
+    2014
+  ],
+  "grouping": {
+    "primary": "annual",
+    "sensitivity": "monthly"
+  },
+  "frequency_adaptation": true,
+  "delta_bounds": [
+    0.2,
+    5.0
+  ],
+  "tail_extrapolation": "constant",
+  "stations": [
+    "500001",
+    "500002",
+    "500003",
+    "500004",
+    "500005",
+    "500006",
+    "500007",
+    "500008",
+    "500009",
+    "500201",
+    "500202",
+    "500301"
+  ],
+  "protocol": "transfer functions estimated on calibration years only; no validation-period observation used at any stage"
+}

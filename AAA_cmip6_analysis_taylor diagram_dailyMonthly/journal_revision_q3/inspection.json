@@ -1,0 +1,1934 @@
+[
+  {
+    "path": "journal_revision_q3\\AJSTR_revision_v2_source.docx",
+    "paragraph_count": 57,
+    "table_count": 3,
+    "section_count": 1,
+    "paragraphs": [
+      {
+        "index": 1,
+        "style": null,
+        "text": "ข้อเสนอแก้ไขต้นฉบับ AJSTR ฉบับที่ 2"
+      },
+      {
+        "index": 2,
+        "style": null,
+        "text": "ปรับการวินิจฉัย Table 4 ให้คมขึ้น และเพิ่มข้อความ Methods พร้อมวาง"
+      },
+      {
+        "index": 3,
+        "style": null,
+        "text": "เอกสารนี้ใช้คู่กับฉบับแรก มิได้แทนที่ ข้อค้นพบสำคัญที่สุดยังคงเป็นข้อ 1 ของฉบับแรก คือส่วน parametric ทำซ้ำไม่ได้และให้ข้อสรุปคนละทิศทาง ต้องตรวจก่อนแก้ส่วนอื่น เอกสารฉบับนี้เพิ่มสองสิ่ง คือการวินิจฉัย Table 4 ที่ละเอียดขึ้น และข้อความภาษาอังกฤษ สำหรับทุกหัวข้อที่ฉบับแรกระบุเพียงว่าต้องเพิ่มอะไร"
+      },
+      {
+        "index": 4,
+        "style": null,
+        "text": "1. Table 4 — ผมแก้การวินิจฉัยของตัวเองในฉบับแรก"
+      },
+      {
+        "index": 5,
+        "style": null,
+        "text": "ฉบับแรกระบุว่าตัวเลข 620 ในหัวข้อ 3.3 ขัดกับตัวส่วน 720 ผมตรวจซ้ำแล้วพบว่า ข้อสรุปนั้นไม่ถูกต้อง เลข 620 ถูกต้องแล้ว"
+      },
+      {
+        "index": 6,
+        "style": null,
+        "text": "ผมนับจำนวนวันฝนตกที่เกณฑ์ 1.0 มิลลิเมตรต่อวัน แยกตามสถานีและเดือนปฏิทิน ในช่วงปรับเทียบ ค.ศ. 1981-2000 จากชุดข้อมูลสถานีเดียวกัน พบว่ามี station-month ที่มีวันฝนตกน้อยกว่า 30 วัน จำนวน 20 จาก 144 คูณด้วยแบบจำลอง 5 แบบได้ 100 บล็อก เมื่อหักออกจาก 720 เหลือ 620 พอดี ซึ่งตรงกับตัวเลขในหัวข้อ 3.3 และตรงกับผลการคำนวณซ้ำของผมในฉบับแรกที่บันทึกว่า ไม่ได้ปรับเส้นโค้ง 100 บล็อก"
+      },
+      {
+        "index": 7,
+        "style": null,
+        "text": "เดือนที่ถูกตัดออกกระจุกในฤดูแล้ง เช่น สถานี 500001 เดือนมกราคมมีวันฝนตกเพียง 4 วัน เดือนธันวาคม 7 วัน และสถานี 500002 500003 500004 มีลักษณะเดียวกันในเดือนมกราคมถึงกุมภาพันธ์"
+      },
+      {
+        "index": 8,
+        "style": null,
+        "text": "สิ่งที่ผิดจริง"
+      },
+      {
+        "index": 9,
+        "style": null,
+        "text": "ส่วนต่าง 5 และ 33 คือบล็อกที่เข้าเกณฑ์แล้วแต่การประมาณค่าไม่สำเร็จ ซึ่งหายไปจากตาราง ในการคำนวณซ้ำของผมทั้งสองฝั่งสำเร็จครบ 620 บล็อก จึงเป็นไปได้ว่าการดำเนินการของท่าน มีการไม่ลู่เข้าเพิ่มเติม หรือฝั่งแบบจำลองมีวันฝนตกไม่พอในบางเดือน ผมตรวจฝั่งแบบจำลองพบ station-month ที่มีวันฝนตกน้อยกว่า 30 วัน คือ CESM2 หนึ่ง CanESM5 แปด และ EC-Earth3 สิบเอ็ด รวม 20 กรณี ซึ่งอธิบายส่วนต่าง 33 ได้บางส่วน"
+      },
+      {
+        "index": 10,
+        "style": null,
+        "text": "ข้อสรุปสำหรับการแก้ไข คือไม่ต้องแก้เลข 620 ในเนื้อความ แต่ต้องเพิ่มคอลัมน์บล็อกที่ไม่สำเร็จ ลงในตาราง และระบุเกณฑ์ 30 วันฝนตกไว้ใน Methods"
+      },
+      {
+        "index": 11,
+        "style": null,
+        "text": "โครง Table 4 ที่แนะนำ"
+      },
+      {
+        "index": 12,
+        "style": null,
+        "text": "Note ที่ต้องใส่ใต้ตาราง"
+      },
+      {
+        "index": 13,
+        "style": null,
+        "text": "Note. For the monthly variants the structural total is 60 model-station combinations x 12 calendar months = 720 blocks. One hundred blocks were not fitted because the calibration sample for that calendar month contained fewer than 30 wet days, leaving 620 eligible blocks. Not fitted counts eligible blocks for which maximum-likelihood estimation failed to converge for every candidate distribution or for which the model-side wet-day sample fell below the same minimum. Selection counts and not-fitted counts sum to the number of eligible blocks in each column."
+      },
+      {
+        "index": 14,
+        "style": null,
+        "text": "ข้อความ Section 3.3 ที่ต้องแก้"
+      },
+      {
+        "index": 15,
+        "style": null,
+        "text": "เดิม"
+      },
+      {
+        "index": 16,
+        "style": null,
+        "text": "...whereas QDM_P_monthly selected generalized extreme value distributions for 460 of 620 model-side monthly fits."
+      },
+      {
+        "index": 17,
+        "style": null,
+        "text": "แก้เป็น"
+      },
+      {
+        "index": 18,
+        "style": null,
+        "text": "For the monthly variants the structural total is 720 station-model-month blocks, of which 100 were not fitted because the calibration sample for that calendar month contained fewer than 30 wet days, leaving 620 eligible blocks. Among these, QDM_P_monthly selected the generalized extreme value distribution for 460 model-side fits, the lognormal distribution for 93, and the Pearson type III distribution for 34, while 33 could not be fitted. The blocks excluded for insufficient sample were concentrated in the dry season, where several stations recorded fewer than 20 wet days per calendar month across the two-decade calibration period."
+      },
+      {
+        "index": 19,
+        "style": null,
+        "text": "2. ข้อความ Methods ภาษาอังกฤษ พร้อมวาง"
+      },
+      {
+        "index": 20,
+        "style": null,
+        "text": "ช่องว่างที่ทำเครื่องหมาย ___ คือค่าที่ต้องเติมจากไฟล์ตั้งค่าและบันทึกของท่าน ข้อความส่วนที่เหลือใช้ได้ทันที"
+      },
+      {
+        "index": 21,
+        "style": null,
+        "text": "2.1 Wet-day frequency adaptation — แทนย่อหน้าที่ 3 ของหัวข้อ 2.2"
+      },
+      {
+        "index": 22,
+        "style": null,
+        "text": "Wet-day frequency adaptation was applied before quantile mapping so that the corrected series reproduced the observed rainfall occurrence. Let p_dry be the fraction of calibration days on which observed rainfall fell below the observed wet-day threshold of 1.0 mm day-1. For each model, station, and calibration group, the model-side wet-day threshold was taken as the empirical p_dry quantile of the model calibration series, including zero values. Where ties prevented an exact match, the smallest value whose empirical non-exceedance probability was at least p_dry was selected, so the modelled wet-day count never exceeded the observed count. All model values at or below this threshold were set to zero. The threshold was then frozen and reused unchanged in the validation period, so validation wet-day frequency is a diagnostic rather than a fitted quantity."
+      },
+      {
+        "index": 23,
+        "style": null,
+        "text": "For the annual variants a single threshold was derived from all calendar months pooled; for the monthly variants a separate threshold was derived for each calendar month from that month's calibration sample. Observed zeros were retained as zeros and were never redistributed. Quantile mapping was applied only to wet-day values; days set to zero by the threshold step were left at zero and did not pass through the transfer function. Occurrence and intensity were therefore corrected in separate steps, which avoids fitting a continuous distribution to a zero-inflated sample."
+      },
+      {
+        "index": 24,
+        "style": null,
+        "text": "2.2 Tail cap and delta-ratio bounds — แทนย่อหน้าที่ 2 ของหัวข้อ 2.3"
+      },
+      {
+        "index": 25,
+        "style": null,
+        "text": "Two numerical safeguards were applied. First, the delta ratio was bounded to the interval [___, ___] so that division by very small modelled quantiles could not generate unbounded multipliers. Second, corrected values were capped at ___ times the largest daily rainfall observed at that station during the calibration period. Both limits were fixed a priori, were derived from calibration data only, and were held constant across all stations, models, methods, and calendar months. The cap was applied after the quantile transformation, so it constrains the corrected output rather than the fitted distribution. Every capping and clipping event was counted and is reported in Table 4."
+      },
+      {
+        "index": 26,
+        "style": null,
+        "text": "These safeguards matter for interpretation because a parametric upper tail extrapolates beyond the calibration sample, whereas an empirical upper tail is bounded by the largest calibration value. The counts in Table 4 therefore indicate how often the parametric variants would otherwise have produced values outside the range supported by the calibration record. They should be read as a property of the method rather than as a correction applied selectively to unfavourable results."
+      },
+      {
+        "index": 27,
+        "style": null,
+        "text": "ถ้ายังไม่ได้ทดสอบความไวต่อค่าเพดาน ต้องระบุเป็นข้อจำกัด เพราะ P monthly ถูก cap ถึง 166 ค่า ซึ่งมากพอจะกระทบตัวชี้วัดปลายหางและกระทบข้อสรุปเรื่อง q99 โดยตรง"
+      },
+      {
+        "index": 28,
+        "style": null,
+        "text": "2.3 Parametric fitting — เพิ่มในหัวข้อ 2.3"
+      },
+      {
+        "index": 29,
+        "style": null,
+        "text": "Candidate distributions were fitted to wet-day values only by maximum likelihood. The Akaike information criterion was computed as AIC = 2k - 2 ln L, where k is the number of fitted parameters and L the maximised likelihood, and the candidate with the smallest AIC was selected. Ties were resolved in favour of the distribution with fewer parameters and, where still tied, in alphabetical order of the distribution name, so that selection was deterministic. A distribution was fitted only when the sample contained at least 30 wet days; blocks below this minimum were recorded as not fitted. If the optimiser failed to converge or returned non-finite parameters, that candidate was discarded, and if every candidate failed the block was likewise recorded as not fitted. Fitting used the maximum-likelihood routines of SciPy ___ under Python ___."
+      },
+      {
+        "index": 30,
+        "style": null,
+        "text": "The generalized extreme value distribution was used as a flexible three-parameter model for the whole wet-day distribution rather than as a block-maxima model. This is a pragmatic choice that gives the parametric variants a heavy-tailed candidate and is not an assertion that daily wet-day rainfall follows an extreme-value law. The Kolmogorov-Smirnov statistic between the fitted and the empirical distribution was recorded for every fit as a goodness-of-fit diagnostic."
+      },
+      {
+        "index": 31,
+        "style": null,
+        "text": "2.4 QDM equations — แทนย่อหน้าที่ 4 ของหัวข้อ 2.2"
+      },
+      {
+        "index": 32,
+        "style": null,
+        "text": "AJSTR กำหนดให้สมการสร้างด้วย Equation Editor หรือ MathType ให้พิมพ์สามสมการนี้เป็นสมการจริง"
+      },
+      {
+        "index": 33,
+        "style": null,
+        "text": "The multiplicative form of quantile delta mapping was used, following Cannon et al. [5]. For a model value x at time t in the target period p:"
+      },
+      {
+        "index": 34,
+        "style": null,
+        "text": "tau(t) = F_m,p [ x_m,p(t) ]                                   (1)"
+      },
+      {
+        "index": 35,
+        "style": null,
+        "text": "Delta(t) = x_m,p(t) / F_m,h^-1 [ tau(t) ]                          (2)"
+      },
+      {
+        "index": 36,
+        "style": null,
+        "text": "x_hat(t) = F_o,h^-1 [ tau(t) ] x Delta(t)                          (3)"
+      },
+      {
+        "index": 37,
+        "style": null,
+        "text": "where F_m,p is the cumulative distribution function of the model over the target period; F_m,h^-1 and F_o,h^-1 are the quantile functions of the model and of the observations over the calibration period; tau is the non-exceedance probability of the value being corrected; Delta is the relative change ratio; and x_hat is the corrected value. Only F_m,h^-1 and F_o,h^-1 are estimated from calibration data and frozen. The probability tau is obtained from the model distribution of the target period, which is a model-only quantity and therefore does not breach the split-sample protocol. Retaining Delta rather than discarding it is what distinguishes quantile delta mapping from ordinary quantile mapping."
+      },
+      {
+        "index": 38,
+        "style": null,
+        "text": "2.5 Year-block bootstrap — หัวข้อใหม่ 2.5"
+      },
+      {
+        "index": 39,
+        "style": null,
+        "text": "Figure 1 ระบุว่าใช้ year-block bootstrap แต่ Methods ไม่มีเลย เป็นความไม่สอดคล้องที่ reviewer จะจับได้ทันที"
+      },
+      {
+        "index": 40,
+        "style": null,
+        "text": "Uncertainty in the paired difference between each corrected variant and the raw simulations was estimated by a year-block bootstrap carried out separately within each model-station combination. Monthly totals for the validation period were arranged as a 14-year by 12-month matrix for the observations, the raw simulations, and each corrected variant. In each replicate, 14 calendar years were drawn with replacement and the same index set was applied simultaneously to all series, preserving the pairing within a combination. The metric was recomputed from the resampled years and the difference between the corrected and the raw value was retained. This was repeated B = ___ times with a fixed random seed of ___."
+      },
+      {
+        "index": 41,
+        "style": null,
+        "text": "The 95% confidence interval for each combination was taken as the 2.5th and 97.5th percentiles of the bootstrap distribution of the difference. The two-sided p value was computed with the plus-one correction as p = min{1, 2 min[(n_le + 1)/(B + 1), (n_ge + 1)/(B + 1)]}, where n_le and n_ge are the numbers of replicates with a difference at most zero and at least zero. Resampling was performed independently within each combination and the same set of years was not imposed across combinations, so the intervals describe combination-level uncertainty rather than a joint statement about the network."
+      },
+      {
+        "index": 42,
+        "style": null,
+        "text": "The 60 model-station combinations are not 60 independent experiments. Several stations fall within the same model grid cell, the models share components and development lineage, and monthly values from one station are serially dependent. Summaries across combinations are therefore reported descriptively, and no test assuming independence across combinations was applied."
+      },
+      {
+        "index": 43,
+        "style": null,
+        "text": "2.6 CMIP6 extraction — เพิ่มในหัวข้อ 2.1"
+      },
+      {
+        "index": 44,
+        "style": null,
+        "text": "Daily precipitation was taken from the CMIP6 historical experiment for the variable pr at daily frequency, using ensemble member ___ for each model and the grid label ___, from the Earth System Grid Federation archive, accessed on ___. Values were converted from kg m-2 s-1 to mm day-1 by multiplying by 86,400. Series were extracted at the native model resolution by nearest-neighbour selection of the grid cell containing each station, without regridding or interpolation. Consequently, stations lying within the same grid cell receive identical model input, and the 60 model-station combinations are not 60 independent spatial samples. Calendars differ among models: models using a 365-day calendar contain 7,300 calibration days and 5,110 validation days, whereas models using the standard calendar and the observations contain 7,305 and 5,113 days. Analysis was performed on the dates common to the observations and each model, so 29 February was dropped for models without a leap day rather than interpolated."
+      },
+      {
+        "index": 45,
+        "style": null,
+        "text": "2.7 Station data and quality control — เพิ่มในหัวข้อ 2.1"
+      },
+      {
+        "index": 46,
+        "style": null,
+        "text": "Daily rainfall observations were obtained from ___ under dataset reference ___ for the period 1981-2014. Records were screened before analysis by predefined checks: completeness, requiring at least 95% of days present; homogeneity of the annual totals, tested with the Pettitt change-point test at the 0.05 level; and handling of declared missing codes and of small negative residuals arising from unit conversion, which were set to zero when within a tolerance of ___ mm day-1 and treated as missing otherwise. All twelve stations were complete and no change point was detected at the 0.05 level, which is a failure to reject rather than proof of homogeneity. No station homogenisation was applied."
+      },
+      {
+        "index": 47,
+        "style": null,
+        "text": "2.8 Primary endpoint และนิยามของ best overall — เพิ่มในหัวข้อ 2.4"
+      },
+      {
+        "index": 48,
+        "style": null,
+        "text": "Performance was assessed against a hierarchy declared before the comparison. The primary endpoint was the monthly Kling-Gupta efficiency over the independent validation period, chosen because it combines correlation, variability, and bias in one measure and does not reward variance suppression as mean square error alone can. Secondary endpoints, used only to characterise the primary result, were distributional fidelity measured by the Kolmogorov-Smirnov statistic, upper-tail relative bias at the 99th percentile, and the monthly climatology correlation. A variant is described as giving the strongest overall performance when it ranks first on the primary endpoint. Where a secondary endpoint favours a different variant, this is stated explicitly rather than absorbed into a single verdict."
+      },
+      {
+        "index": 49,
+        "style": null,
+        "text": "3. ข้อความอื่นที่แก้ได้ทันที"
+      },
+      {
+        "index": 50,
+        "style": null,
+        "text": "4. ลำดับที่ต้องทำ"
+      },
+      {
+        "index": 51,
+        "style": null,
+        "text": "1. ตรวจส่วน parametric ตามข้อ 1 ของเอกสารฉบับแรกก่อน เพราะข้อสรุปของบทความอาจเปลี่ยน"
+      },
+      {
+        "index": 52,
+        "style": null,
+        "text": "2. แก้ Table 4 โดยเพิ่มคอลัมน์บล็อกที่ไม่สำเร็จ และคง 620 ไว้ในเนื้อความ"
+      },
+      {
+        "index": 53,
+        "style": null,
+        "text": "3. วางข้อความ 2.1 ถึง 2.8 ของเอกสารนี้ลงในหัวข้อที่ระบุ แล้วเติมค่าในช่อง ___"
+      },
+      {
+        "index": 54,
+        "style": null,
+        "text": "4. พิมพ์สมการ (1) ถึง (3) ด้วย Equation Editor"
+      },
+      {
+        "index": 55,
+        "style": null,
+        "text": "5. รัน bootstrap แล้วเติมช่วงความเชื่อมั่นลงใน Table 3 และตารางเสริม"
+      },
+      {
+        "index": 56,
+        "style": null,
+        "text": "6. แก้ keywords ประโยค essential และคำบรรยายรูป"
+      },
+      {
+        "index": 57,
+        "style": null,
+        "text": "7. เพิ่ม DOI ทุกรายการอ้างอิง และเพิ่มวรรณกรรม 2020 ถึง 2025"
+      }
+    ],
+    "tables": [
+      {
+        "index": 1,
+        "rows": [
+          [
+            "แถวใน Table 4",
+            "ผลรวม",
+            "ตัวส่วนที่ถูกต้อง",
+            "ส่วนต่าง"
+          ],
+          [
+            "P annual · observed",
+            "45 + 15 = 60",
+            "60",
+            "0"
+          ],
+          [
+            "P annual · model",
+            "57 + 2 + 1 = 60",
+            "60",
+            "0"
+          ],
+          [
+            "P monthly · observed",
+            "300 + 265 + 50 = 615",
+            "620",
+            "ขาด 5"
+          ],
+          [
+            "P monthly · model",
+            "460 + 93 + 34 = 587",
+            "620",
+            "ขาด 33"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": [
+          [
+            "Method",
+            "Eligible fits",
+            "Observed-side selection",
+            "Model-side selection",
+            "Not fitted / obs / model",
+            "Capped outputs",
+            "Clipped delta ratios"
+          ],
+          [
+            "P annual",
+            "60",
+            "lognorm 45; genextreme 15",
+            "genextreme 57; lognorm 2; pearson3 1",
+            "0 / 0",
+            "3",
+            "9"
+          ],
+          [
+            "P monthly",
+            "620",
+            "lognorm 300; genextreme 265; pearson3 50",
+            "genextreme 460; lognorm 93; pearson3 34",
+            "5 / 33",
+            "166",
+            "89"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": [
+          [
+            "จุด",
+            "เดิม",
+            "แก้เป็น"
+          ],
+          [
+            "Conclusions",
+            "The split-sample framework is therefore essential",
+            "The split-sample framework provides a more stringent basis for assessing transferability than same-period evaluation"
+          ],
+          [
+            "Figure 3 caption",
+            "ไม่ระบุขนาดตัวอย่าง",
+            "เพิ่มว่า Distributions show the 60 model-station values for each variant, not bootstrap distributions"
+          ],
+          [
+            "Figure 4 caption",
+            "อาจเข้าใจว่าเป็นจำนวนคู่",
+            "เพิ่มว่า Values are percentages of the 60 model-station combinations"
+          ],
+          [
+            "Keywords",
+            "8 คำ",
+            "bias correction; quantile delta mapping; CMIP6; independent validation; Thailand"
+          ],
+          [
+            "Data availability",
+            "ระบุเพียง project output directory",
+            "ระบุช่องทางเข้าถึงจริง พร้อมโค้ด ไฟล์ตั้งค่า ตาราง diagnostic รุ่นซอฟต์แวร์ และ random seed"
+          ]
+        ]
+      }
+    ],
+    "tracked_insertions": [],
+    "tracked_deletions": [],
+    "comments": []
+  },
+  {
+    "path": "journal_revision_q3\\AJSTR_correction_plan_source.docx",
+    "paragraph_count": 46,
+    "table_count": 7,
+    "section_count": 1,
+    "paragraphs": [
+      {
+        "index": 1,
+        "style": null,
+        "text": "ข้อเสนอแก้ไขต้นฉบับ AJSTR"
+      },
+      {
+        "index": 2,
+        "style": null,
+        "text": "Parametric and Non-Parametric Quantile Delta Mapping for CMIP6 Daily Rainfall Bias Correction"
+      },
+      {
+        "index": 3,
+        "style": null,
+        "text": "1. ข้อค้นพบที่ต้องพิจารณาก่อนแก้ส่วนอื่น"
+      },
+      {
+        "index": 4,
+        "style": null,
+        "text": "ผมนำข้อมูลชุดเดียวกันมาคำนวณซ้ำอย่างเป็นอิสระ เพื่อตรวจสอบความสอดคล้องของตัวเลขในต้นฉบับ ผลปรากฏว่าตัวแปร non-parametric ทำซ้ำได้เกือบตรงทุกตัว แต่ตัวแปร parametric ทำซ้ำไม่ได้ และให้ข้อสรุปคนละทิศทาง"
+      },
+      {
+        "index": 7,
+        "style": null,
+        "text": "นัยสำคัญของความต่างนี้คือ ในการคำนวณซ้ำ P monthly กลายเป็นตัวแปรที่ให้ค่า RMSE ต่ำที่สุด ค่า KGE สูงที่สุด และค่า Kolmogorov-Smirnov D ต่ำที่สุด ขณะที่ต้นฉบับรายงานว่า P monthly อยู่ในกลุ่มที่ด้อยกว่า ข้อสรุปหลักของบทความที่ว่า empirical monthly ดีที่สุดโดยรวม และ parametric ต้องมี tail safeguard จึงขึ้นอยู่กับรายละเอียดการดำเนินการของส่วน parametric ที่ต้นฉบับยังไม่ได้อธิบายไว้"
+      },
+      {
+        "index": 8,
+        "style": null,
+        "text": "ผมไม่สามารถระบุได้ว่าการดำเนินการของฝ่ายใดถูกต้อง เพราะต้นฉบับไม่ได้ระบุวิธีประมาณค่าพารามิเตอร์ การจัดการค่าศูนย์ เงื่อนไขของตำแหน่งพารามิเตอร์ เกณฑ์เมื่อการปรับเส้นโค้งไม่ลู่เข้า และค่าเพดานของหางบน ซึ่งล้วนเปลี่ยนผลได้อย่างมีนัยสำคัญ"
+      },
+      {
+        "index": 9,
+        "style": null,
+        "text": "ข้อเสนอ ให้ตรวจสอบส่วน parametric ของท่านเองก่อน โดยเทียบกับสคริปต์ที่แนบมาด้วย จากนั้นจึงตัดสินว่าตัวเลขชุดใดถูกต้อง การแก้ข้อความอื่นก่อนตรวจจุดนี้จะไม่มีประโยชน์ เพราะข้อสรุปของบทความอาจเปลี่ยน"
+      },
+      {
+        "index": 10,
+        "style": null,
+        "text": "2. ความไม่สอดคล้องเชิงเลขคณิตใน Table 4"
+      },
+      {
+        "index": 11,
+        "style": null,
+        "text": "ประเด็นนี้พิสูจน์ได้โดยไม่ต้องอาศัยข้อมูลต้นทาง และแก้ด้วยการเขียนข้อความใหม่ไม่ได้"
+      },
+      {
+        "index": 14,
+        "style": null,
+        "text": "จึงมีตัวเลขที่ขัดกันสี่ค่า คือ 587, 615, 620 และ 720 reviewer ที่ตรวจการบวกจะพบทันที"
+      },
+      {
+        "index": 15,
+        "style": null,
+        "text": "วิธีแก้ที่ถูกต้อง"
+      },
+      {
+        "index": 16,
+        "style": null,
+        "text": "บันทึกทุกบล็อกการปรับเส้นโค้งให้ครบ โดยบล็อกใดที่ปรับเส้นโค้งไม่สำเร็จต้องบันทึกเหตุผลไว้เป็นหมวดหนึ่งในตาราง มิใช่ปล่อยให้หายไป เมื่อทำเช่นนี้ผลรวมจะเท่ากับตัวส่วนโดยอัตโนมัติ ตัวอย่างจากการคำนวณซ้ำของผม"
+      },
+      {
+        "index": 19,
+        "style": null,
+        "text": "บล็อกที่ไม่ได้ปรับเส้นโค้งทั้ง 100 บล็อกมีเหตุผลเดียวกัน คือมีวันฝนตกน้อยกว่าเกณฑ์ขั้นต่ำ 30 วัน ซึ่งเกิดในเดือนแห้งของสถานีที่ความถี่วันฝนตกต่ำ ต้องระบุเกณฑ์นี้ใน Methods และระบุจำนวนไว้ในตาราง"
+      },
+      {
+        "index": 20,
+        "style": null,
+        "text": "หมายเหตุ การแจกแจงที่ถูกเลือกในการคำนวณซ้ำของผมต่างจากที่ต้นฉบับรายงานอย่างมาก จึงย้อนกลับไปที่ประเด็นในข้อ 1 ว่าการดำเนินการของส่วน parametric ต้องได้รับการตรวจสอบก่อน"
+      },
+      {
+        "index": 21,
+        "style": null,
+        "text": "3. รายการแก้ไขที่ทำได้ทันที ไม่ขึ้นกับผล parametric"
+      },
+      {
+        "index": 22,
+        "style": null,
+        "text": "3.1 ข้อกำหนดของวารสาร"
+      },
+      {
+        "index": 23,
+        "style": null,
+        "text": "3.2 Methods — รายละเอียดที่ขาดและทำให้ทำซ้ำไม่ได้"
+      },
+      {
+        "index": 24,
+        "style": null,
+        "text": "3.3 นิยามของคำว่า best overall"
+      },
+      {
+        "index": 25,
+        "style": null,
+        "text": "ต้นฉบับใช้คำว่า strongest overall validation performance โดยไม่ได้ประกาศเกณฑ์ไว้ล่วงหน้า ขณะที่มีตัวชี้วัดถึงสิบตัว reviewer จะถามว่าใครเป็นผู้กำหนดว่า overall คืออะไร"
+      },
+      {
+        "index": 26,
+        "style": null,
+        "text": "ทางแก้ ประกาศลำดับชั้นของตัวชี้วัดใน Methods ก่อนดูผล ตัวอย่างเช่น กำหนด monthly KGE เป็น primary endpoint เพราะรวมองค์ประกอบด้านสหสัมพันธ์ ความแปรปรวน และความลำเอียงไว้ในค่าเดียว แล้วกำหนด distributional fidelity อคติของควอนไทล์ที่ 99 และสหสัมพันธ์ของวัฏจักรฤดูกาล เป็น secondary endpoints จากนั้นนิยามคำว่า best overall ให้ผูกกับ primary endpoint เท่านั้น"
+      },
+      {
+        "index": 27,
+        "style": null,
+        "text": "3.4 ความไม่แน่นอนและความหลากหลายของ 60 คู่"
+      },
+      {
+        "index": 28,
+        "style": null,
+        "text": "Table 3 รายงานเพียงค่าเฉลี่ย ควรเพิ่มช่วงความเชื่อมั่นและผลการเปรียบเทียบแบบจับคู่ พร้อมระบุว่าคู่ทั้ง 60 ไม่เป็นอิสระต่อกัน เพราะสถานีจำนวนหนึ่งใช้กริดเซลล์เดียวกัน และแบบจำลองมีความสัมพันธ์เชิงโครงสร้าง"
+      },
+      {
+        "index": 29,
+        "style": null,
+        "text": "รูปแบบที่แนะนำสำหรับตารางเสริม แสดง Δ เทียบ Raw พร้อมช่วงความเชื่อมั่นร้อยละ 95 และจำนวนคู่ที่ดีขึ้นหรือด้อยลงอย่างมีนัยสำคัญ พร้อมระบุวิธีควบคุมอัตราการค้นพบเท็จ ตัวอย่างจากการคำนวณซ้ำ"
+      },
+      {
+        "index": 31,
+        "style": null,
+        "text": "หมายเหตุ สองคอลัมน์ขอบเขตคือค่ามัธยฐานของขอบล่างและขอบบนจาก 60 คู่ มิใช่ช่วงความเชื่อมั่นของค่ามัธยฐาน ต้องเขียนกำกับไว้ให้ชัด และตัวเลขเหล่านี้มาจากการคำนวณซ้ำของผม จึงต้องรอการตรวจสอบตามข้อ 1 ก่อน"
+      },
+      {
+        "index": 32,
+        "style": null,
+        "text": "3.5 Discussion — เพิ่มคำอธิบายเชิงกลไก"
+      },
+      {
+        "index": 33,
+        "style": null,
+        "text": "4. ลำดับการทำงานที่แนะนำ"
+      },
+      {
+        "index": 34,
+        "style": null,
+        "text": "1. ตรวจสอบการดำเนินการของส่วน parametric เทียบกับสคริปต์ที่แนบ แล้วยืนยันว่าตัวเลขชุดใดถูกต้อง"
+      },
+      {
+        "index": 35,
+        "style": null,
+        "text": "2. แก้ Table 4 ให้ผลรวมเท่ากับตัวส่วน โดยบันทึกบล็อกที่ปรับเส้นโค้งไม่สำเร็จเป็นหมวดหนึ่ง"
+      },
+      {
+        "index": 36,
+        "style": null,
+        "text": "3. แก้ข้อความในหัวข้อ 3.3 ให้ตรงกับ Table 4 แล้วตรวจบทคัดย่ออีกครั้ง"
+      },
+      {
+        "index": 37,
+        "style": null,
+        "text": "4. เพิ่มค่าเพดานหางบนเป็นตัวเลขใน Methods 2.3"
+      },
+      {
+        "index": 38,
+        "style": null,
+        "text": "5. เพิ่มคำอธิบาย bootstrap ทั้งหมดใน Methods 2.4"
+      },
+      {
+        "index": 39,
+        "style": null,
+        "text": "6. ประกาศ primary endpoint และนิยามของคำว่า best overall"
+      },
+      {
+        "index": 40,
+        "style": null,
+        "text": "7. เพิ่มช่วงความเชื่อมั่นใน Table 3 และตารางเสริมราย 60 คู่"
+      },
+      {
+        "index": 41,
+        "style": null,
+        "text": "8. เพิ่มรายละเอียด CMIP6 และข้อมูลสถานีเพื่อการทำซ้ำ"
+      },
+      {
+        "index": 42,
+        "style": null,
+        "text": "9. แปลงสมการ QDM เป็นสมการมีหมายเลข"
+      },
+      {
+        "index": 43,
+        "style": null,
+        "text": "10. ลด keywords เหลือ 5 คำ และเพิ่ม DOI ในรายการอ้างอิงทุกรายการ"
+      },
+      {
+        "index": 44,
+        "style": null,
+        "text": "11. เพิ่มวรรณกรรม 2020 ถึง 2025 และเชื่อมกับ Discussion"
+      },
+      {
+        "index": 45,
+        "style": null,
+        "text": "5. สิ่งที่ควรรักษาไว้"
+      },
+      {
+        "index": 46,
+        "style": null,
+        "text": "โครงการวิจัยไม่ควรรื้อ การแบ่งช่วงปรับเทียบ 1981 ถึง 2000 กับช่วงตรวจสอบ 2001 ถึง 2014 · ลำดับ ปรับเทียบ ตรึง ประยุกต์ ประเมิน · สถานี 12 แห่ง · แบบจำลอง 5 แบบ · ตัวแปร QDM สี่แบบ · การใช้ผลการจำลองดิบเป็นฐานเปรียบเทียบ · และการแยกความสมจริงเชิงการแจกแจงออกจากความสอดคล้องเชิงเวลา ซึ่งเป็นจุดแข็งเชิงแนวคิดของบทความ"
+      }
+    ],
+    "tables": [
+      {
+        "index": 1,
+        "rows": [
+          [
+            "ตัวแปร",
+            "RMSE ในต้นฉบับ",
+            "RMSE คำนวณซ้ำ",
+            "KGE ในต้นฉบับ",
+            "KGE คำนวณซ้ำ",
+            "สถานะ"
+          ],
+          [
+            "Raw",
+            "116.20",
+            "116.20",
+            "0.229",
+            "0.229",
+            "ตรงกันทุกตำแหน่ง"
+          ],
+          [
+            "NP annual",
+            "124.75",
+            "124.35",
+            "0.203",
+            "0.206",
+            "ทำซ้ำได้"
+          ],
+          [
+            "NP monthly",
+            "109.38",
+            "107.11",
+            "0.332",
+            "0.347",
+            "ทำซ้ำได้"
+          ],
+          [
+            "P annual",
+            "116.68",
+            "126.92",
+            "0.241",
+            "0.137",
+            "ทำซ้ำไม่ได้"
+          ],
+          [
+            "P monthly",
+            "118.68",
+            "103.10",
+            "0.257",
+            "0.354",
+            "ทำซ้ำไม่ได้"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": [
+          [
+            "แถวในตาราง",
+            "ผลรวมที่ได้",
+            "ตัวส่วนที่ควรเป็น",
+            "สถานะ"
+          ],
+          [
+            "P annual · observed",
+            "45 + 15 = 60",
+            "12 สถานี × 5 แบบจำลอง = 60",
+            "ถูกต้อง"
+          ],
+          [
+            "P annual · model",
+            "57 + 2 + 1 = 60",
+            "60",
+            "ถูกต้อง"
+          ],
+          [
+            "P monthly · observed",
+            "300 + 265 + 50 = 615",
+            "60 × 12 เดือน = 720",
+            "ขาด 105"
+          ],
+          [
+            "P monthly · model",
+            "460 + 93 + 34 = 587",
+            "720",
+            "ขาด 133"
+          ],
+          [
+            "ข้อความในหัวข้อ 3.3",
+            "อ้างว่า 460 จาก 620",
+            "720",
+            "ขัดกับตารางและตัวส่วน"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": [
+          [
+            "ตัวแปร",
+            "ฝั่ง",
+            "การแจกแจงที่เลือก",
+            "รวม"
+          ],
+          [
+            "P annual",
+            "Observed",
+            "Pearson III 55 · lognormal 5",
+            "60 / 60"
+          ],
+          [
+            "",
+            "Model",
+            "Pearson III 54 · GEV 4 · lognormal 2",
+            "60 / 60"
+          ],
+          [
+            "P monthly",
+            "Observed",
+            "Pearson III 610 · GEV 5 · lognormal 5 · ไม่ได้ปรับเส้นโค้ง 100",
+            "720 / 720"
+          ],
+          [
+            "",
+            "Model",
+            "Pearson III 517 · GEV 74 · lognormal 22 · Weibull 4 · gamma 3 · ไม่ได้ปรับเส้นโค้ง 100",
+            "720 / 720"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "rows": [
+          [
+            "รายการ",
+            "สถานะปัจจุบัน",
+            "ข้อกำหนด AJSTR",
+            "การแก้"
+          ],
+          [
+            "Keywords",
+            "8 คำ",
+            "3 ถึง 5 คำ",
+            "เหลือ bias correction; quantile delta mapping; CMIP6; independent validation; Thailand"
+          ],
+          [
+            "Abstract",
+            "205 คำ",
+            "ไม่เกิน 250 คำ",
+            "ผ่านแล้ว ไม่ต้องแก้"
+          ],
+          [
+            "รายการอ้างอิง",
+            "22 รายการ · ไม่มี DOI · ปี 2020 ขึ้นไปเพียง 5 รายการ",
+            "รูปแบบ ACS",
+            "เพิ่ม DOI ทุกรายการ และเพิ่มวรรณกรรม 2020 ถึง 2025 อีก 8 ถึง 10 รายการ"
+          ],
+          [
+            "สมการ",
+            "เขียนเป็นข้อความในย่อหน้า",
+            "ต้องใช้ Equation Editor หรือ MathType",
+            "แปลงสมการ QDM เป็นสมการมีหมายเลข"
+          ]
+        ]
+      },
+      {
+        "index": 5,
+        "rows": [
+          [
+            "หัวข้อ",
+            "สิ่งที่ต้องเพิ่ม"
+          ],
+          [
+            "2.1 ข้อมูล CMIP6",
+            "ตัวแปรที่ใช้ · การทดลอง historical · รหัสสมาชิกวงร่วม · ป้ายกำกับกริด · แหล่งดาวน์โหลดและวันที่เข้าถึง · วิธีดึงค่าจากกริดสู่สถานี ว่าเป็นจุดกริดที่ใกล้ที่สุดหรือการประมาณค่าเชิงพื้นที่ · การแปลงหน่วยจาก kg m⁻² s⁻¹ เป็น mm day⁻¹ · การจับคู่วันที่ของแบบจำลองปฏิทิน 365 วัน และการจัดการวันที่ 29 กุมภาพันธ์"
+          ],
+          [
+            "2.1 ข้อมูลสถานี",
+            "หน่วยงานเจ้าของข้อมูล · รหัสชุดข้อมูล · เกณฑ์ข้อมูลขาดหาย · วิธีตรวจค่าผิดปกติ · วิธีตรวจจุดเปลี่ยน · ระบุว่ามีการปรับความเป็นเนื้อเดียวหรือไม่"
+          ],
+          [
+            "2.2 สมการ QDM",
+            "เขียนเป็นสมการมีหมายเลข พร้อมนิยามสัญลักษณ์ทุกตัว และระบุว่าตำแหน่งควอนไทล์คำนวณจากการแจกแจงของแบบจำลองในช่วงเป้าหมาย ซึ่งใช้เฉพาะข้อมูลแบบจำลอง จึงไม่ละเมิดการกันข้อมูล"
+          ],
+          [
+            "2.3 การปรับเส้นโค้ง",
+            "วิธีประมาณค่าพารามิเตอร์ · ปรับเส้นโค้งกับค่าวันฝนตกเท่านั้นหรือรวมค่าศูนย์ · การจัดการ zero inflation · สูตร AIC · เงื่อนไขของตำแหน่งพารามิเตอร์ · การตัดสินเมื่อค่า AIC เท่ากัน · ขั้นตอนเมื่อการปรับเส้นโค้งไม่ลู่เข้า · ซอฟต์แวร์และรุ่นที่ใช้"
+          ],
+          [
+            "2.3 เพดานหางบน",
+            "ต้นฉบับระบุเพียงว่า numerically constrained แต่ไม่ให้ค่า ต้องระบุค่าเพดานเป็นตัวเลข วิธีคำนวณ และขอบเขตของอัตราส่วนเดลตา"
+          ],
+          [
+            "2.4 การอนุมาน",
+            "Figure 1 กล่าวถึง year-block bootstrap แต่ Methods ไม่มีเลย ต้องเพิ่มหน่วยบล็อก จำนวนการสุ่มซ้ำ ระดับที่สุ่ม การจับคู่ระหว่าง raw กับ corrected ระดับความเชื่อมั่น สถิติที่นำมาสุ่มซ้ำ ลำดับของการรวมค่ากับการสุ่มซ้ำ และวิธีจัดการการพึ่งพากันระหว่างสถานีและแบบจำลอง"
+          ]
+        ]
+      },
+      {
+        "index": 6,
+        "rows": [
+          [
+            "ตัวแปร",
+            "Δ RMSE (มัธยฐาน)",
+            "ขอบล่าง",
+            "ขอบบน",
+            "ดีขึ้น",
+            "แย่ลง",
+            "ไม่ต่าง"
+          ],
+          [
+            "NP annual",
+            "+8.56",
+            "+3.22",
+            "+16.31",
+            "17/60",
+            "31/60",
+            "12/60"
+          ],
+          [
+            "NP monthly",
+            "-7.35",
+            "-25.44",
+            "+7.88",
+            "19/60",
+            "2/60",
+            "39/60"
+          ],
+          [
+            "P annual",
+            "+5.03",
+            "+0.91",
+            "+8.52",
+            "16/60",
+            "27/60",
+            "17/60"
+          ],
+          [
+            "P monthly",
+            "-11.47",
+            "-27.82",
+            "-1.12",
+            "22/60",
+            "0/60",
+            "38/60"
+          ]
+        ]
+      },
+      {
+        "index": 7,
+        "rows": [
+          [
+            "ผลที่พบ",
+            "คำอธิบายที่ควรเพิ่ม"
+          ],
+          [
+            "monthly ดีกว่าด้านวัฏจักรฤดูกาล",
+            "การแยกตามเดือนจัดการความหลากหลายตามฤดูกาลได้โดยตรง จึงลดความคลาดเคลื่อนขององค์ประกอบวัฏจักรฤดูกาล"
+          ],
+          [
+            "annual ดีกว่าด้านหางบน",
+            "การรวมทุกเดือนให้ขนาดตัวอย่างต่อบล็อกใหญ่กว่า ควอนไทล์เชิงประจักษ์ที่ปลายหางจึงมีความเสถียรกว่า"
+          ],
+          [
+            "ข้อแลกเปลี่ยนของขนาดตัวอย่าง",
+            "การแยกรายเดือนลดขนาดตัวอย่างต่อบล็อกลงเหลือประมาณหนึ่งในสิบสอง ซึ่งเพิ่มความไม่เสถียรของการปรับเส้นโค้ง โดยเฉพาะที่ปลายหาง ควรอภิปรายข้อแลกเปลี่ยนนี้โดยตรง"
+          ],
+          [
+            "สหสัมพันธ์เชิงเวลาไม่ดีขึ้น",
+            "ยกระดับเป็นข้อความเชิงแนวคิดหลักของบทความ ว่าการปรับแก้อคติแก้คุณสมบัติของการแจกแจงขอบ แต่ไม่ได้ทำให้เหตุการณ์ฝนรายวันตรงกับที่สังเกตได้ เพื่อป้องกันการตีความว่าสหสัมพันธ์ต่ำคือความล้มเหลวของ QDM"
+          ],
+          [
+            "เหตุผลของการใช้ QDM",
+            "เพิ่มการวิเคราะห์ว่าข้อมูลที่ปรับแก้แล้วรักษาสัดส่วนการเปลี่ยนแปลงของควอนไทล์จากแบบจำลองได้เพียงใด ที่ควอนไทล์ที่ 50 75 90 95 และ 99 ซึ่งเป็นเหตุผลตั้งต้นของวิธี QDM และปัจจุบันบทความยังไม่มีผลส่วนนี้"
+          ]
+        ]
+      }
+    ],
+    "tracked_insertions": [],
+    "tracked_deletions": [],
+    "comments": []
+  },
+  {
+    "path": "journal_revision_q3\\AJSTR_manuscript_source.docx",
+    "paragraph_count": 199,
+    "table_count": 4,
+    "section_count": 1,
+    "paragraphs": [
+      {
+        "index": 1,
+        "style": "Normal",
+        "text": "Article"
+      },
+      {
+        "index": 2,
+        "style": "Normal",
+        "text": "Parametric and Non-Parametric Quantile Delta Mapping for CMIP6 Daily Rainfall Bias Correction under Independent Temporal Validation in Prachuap Khiri Khan, Thailand"
+      },
+      {
+        "index": 3,
+        "style": "Normal",
+        "text": "Surasit Punyawansiri1*"
+      },
+      {
+        "index": 4,
+        "style": "Normal",
+        "text": "1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand"
+      },
+      {
+        "index": 5,
+        "style": "Normal",
+        "text": "* Correspondence: Surasit.irri@gmail.com"
+      },
+      {
+        "index": 6,
+        "style": "Normal",
+        "text": "Abstract: Bias correction is widely applied to global climate model precipitation before hydrological and climate-impact use, yet method performance is often judged within the same period used for calibration. This study compared parametric and non-parametric Quantile Delta Mapping (QDM) for daily CMIP6 rainfall in Prachuap Khiri Khan Province, Thailand, using a strict split-sample design. Daily observations from 12 rain-gauge stations and historical simulations from five CMIP6 models during 1981-2014 were divided into calibration (1981-2000) and independent validation (2001-2014) periods. Four QDM variants were evaluated: empirical non-parametric annual fitting, empirical non-parametric monthly fitting, parametric annual fitting, and parametric monthly fitting with Akaike Information Criterion selection among gamma, generalized extreme value, Weibull, lognormal, and Pearson type III distributions. The non-parametric monthly method performed best overall in validation, reducing monthly RMSE from 116.20 to 109.38 mm, increasing monthly Kling-Gupta efficiency from 0.229 to 0.332, and improving monthly correlation in 80.0% of station-model combinations. Non-parametric annual QDM gave the lowest upper-tail bias, reducing mean absolute q99 bias from 52.98% to 24.79%. All QDM variants substantially improved distributional agreement, with Kolmogorov-Smirnov D reduced from 0.201 to 0.102-0.123. The results show that monthly empirical QDM is the most robust option for this monsoon-influenced coastal province, while parametric QDM requires explicit tail safeguards."
+      },
+      {
+        "index": 7,
+        "style": "Normal",
+        "text": "Keywords: bias correction; quantile delta mapping; CMIP6; rainfall; independent validation; Thailand; parametric distribution; empirical CDF"
+      },
+      {
+        "index": 8,
+        "style": "Normal",
+        "text": "1. Introduction"
+      },
+      {
+        "index": 9,
+        "style": "Normal",
+        "text": "Daily rainfall is a controlling variable for water resources planning, flood and drought risk assessment, agricultural scheduling, and climate-change adaptation in Southeast Asia. Global climate models from the Coupled Model Intercomparison Project Phase 6 (CMIP6) provide physically based simulations for these applications, but their precipitation output contains systematic biases arising from spatial resolution, parameterized convection, and regional circulation errors [1,2]. These biases are particularly important in Thailand, where monsoon seasonality, orographic gradients, and coastal rainfall mechanisms combine to produce strongly skewed and intermittent daily rainfall distributions."
+      },
+      {
+        "index": 10,
+        "style": "Normal",
+        "text": "Quantile mapping and its extensions are among the most widely used statistical bias-correction methods for climate-impact studies [3,4]. Quantile Delta Mapping (QDM) is attractive because it adjusts distributional biases while preserving model-projected relative changes at a given quantile [5]. For precipitation, however, QDM must handle zero inflation, dry-day frequency, extreme upper tails, and sampling instability. These issues are not merely computational: they affect whether corrected data are scientifically defensible for hydrological design and climate-risk interpretation."
+      },
+      {
+        "index": 11,
+        "style": "Normal",
+        "text": "A key weakness in many bias-correction applications is the absence of an independent temporal validation period. When the same historical observations are used both to estimate and to evaluate the transfer function, reported performance can be overly optimistic. This study therefore evaluates QDM under a strict fit-freeze-apply protocol: all thresholds, empirical quantiles, and parametric distributions are estimated from 1981-2000 only and then applied to 2001-2014 without re-estimating any observation-dependent quantity."
+      },
+      {
+        "index": 12,
+        "style": "Normal",
+        "text": "The objective is to compare parametric and non-parametric QDM, each implemented with annual pooled and month-wise calibration, for CMIP6 daily rainfall in Prachuap Khiri Khan Province. The analysis asks which method gives the most transferable correction during independent validation and which performance dimensions improve or deteriorate after correction."
+      },
+      {
+        "index": 13,
+        "style": "Normal",
+        "text": "2. Materials and Methods"
+      },
+      {
+        "index": 14,
+        "style": "Normal",
+        "text": "2.1 Study area and data"
+      },
+      {
+        "index": 15,
+        "style": "Normal",
+        "text": "Prachuap Khiri Khan Province is a narrow coastal province on the western Gulf of Thailand. Its rainfall regime is shaped by maritime moisture, monsoon variability, and topographic contrast between the coastal plain and the Tenasserim Range. The study used daily rainfall observations from 12 stations for 1981-2014 and historical daily precipitation from five CMIP6 models: ACCESS-ESM1-5, CanESM5, CESM2, EC-Earth3, and MIROC6."
+      },
+      {
+        "index": 16,
+        "style": "Normal",
+        "text": "Input files were screened for declared missing values before any negative-value handling. Small negative residuals within the configured tolerance were clipped to zero, whereas deeper negative values were treated as missing. Model precipitation units were checked and converted to millimetres per day where needed. Calendars were paired by actual dates rather than forcing every model to share the same number of rows."
+      },
+      {
+        "index": 17,
+        "style": "Normal",
+        "text": "Table 1. Rain-gauge station characteristics used for the analysis."
+      },
+      {
+        "index": 18,
+        "style": "Normal",
+        "text": "Note: n/a indicates metadata not available in the station file; the rainfall record itself was retained when quality-control criteria were satisfied."
+      },
+      {
+        "index": 19,
+        "style": "Normal",
+        "text": "Table 2. CMIP6 historical simulations included in the study."
+      },
+      {
+        "index": 20,
+        "style": "Normal",
+        "text": "Note: Distinct daily values summarize effective spatial information across the 12 stations after station extraction."
+      },
+      {
+        "index": 21,
+        "style": "Normal",
+        "text": "2.2 Split-sample QDM design"
+      },
+      {
+        "index": 22,
+        "style": "Normal",
+        "text": "The analysis followed a calibration-validation split. The transfer function was estimated from 1981-2000 and then frozen before application to the independent validation period 2001-2014. Observations from 2001-2014 were used only for evaluation."
+      },
+      {
+        "index": 23,
+        "style": "Normal",
+        "text": "Wet-day frequency adaptation was applied before QDM. The observed wet-day threshold was 1.0 mm day-1. For each model, station, and calibration group, a model-side wet threshold was selected so that the calibration wet-day frequency matched the observed calibration wet-day frequency. That threshold was then frozen and reused in validation."
+      },
+      {
+        "index": 24,
+        "style": "Normal",
+        "text": "For precipitation, QDM was implemented in multiplicative form. For a target model value x, the non-exceedance probability tau was obtained from the target-period model distribution. The corrected value was calculated as Fobs,h-1(tau) multiplied by x/Fmod,h-1(tau), with delta ratios bounded using the configured limits. This preserves the split-sample protocol because target-period quantiles are model-only quantities."
+      },
+      {
+        "index": 25,
+        "style": "Normal",
+        "text": "2.3 Parametric and non-parametric variants"
+      },
+      {
+        "index": 26,
+        "style": "Normal",
+        "text": "Four variants were evaluated. QDM_NP_annual used empirical cumulative distribution functions from all calendar months pooled together. QDM_NP_monthly used empirical cumulative distribution functions fitted separately for each calendar month. QDM_P_annual and QDM_P_monthly used parametric distributions selected by minimum AIC from gamma, generalized extreme value, Weibull, lognormal, and Pearson type III candidates. Kolmogorov-Smirnov statistics were recorded as fit diagnostics."
+      },
+      {
+        "index": 27,
+        "style": "Normal",
+        "text": "Parametric upper tails were numerically constrained to prevent implausible extrapolated rainfall from dominating downstream metrics. The cap was recorded for every station, model, method, and period in the diagnostic table. This safeguard is reported explicitly because unconstrained parametric tails can generate physically unrealistic daily rainfall in finite samples."
+      },
+      {
+        "index": 28,
+        "style": "Normal",
+        "text": "2.4 Evaluation metrics"
+      },
+      {
+        "index": 29,
+        "style": "Normal",
+        "text": "Performance was assessed over calibration and independent validation periods using systematic bias, distributional fidelity, upper-tail relative bias, monthly RMSE and MAE, Nash-Sutcliffe efficiency, Kling-Gupta efficiency, monthly correlation, monthly climatology correlation, and annual correlation. The primary comparison in this manuscript emphasizes the independent validation period."
+      },
+      {
+        "index": 30,
+        "style": "Normal",
+        "text": "Figure 1. Calibration-independent validation framework. Transfer functions were estimated only from 1981-2000 and applied to 2001-2014 without using validation-period observations in the correction step."
+      },
+      {
+        "index": 32,
+        "style": "Normal",
+        "text": "3. Results and Discussion"
+      },
+      {
+        "index": 33,
+        "style": "Normal",
+        "text": "3.1 Observed rainfall and model context"
+      },
+      {
+        "index": 34,
+        "style": "Normal",
+        "text": "The station network captured a range of coastal rainfall regimes, with annual rainfall ranging from 944 to 1,376 mm and maximum daily rainfall ranging from 54.2 to 298.5 mm day-1. All stations had complete daily records in the analysis file. The CMIP6 models differed in calendar type, grid resolution, and effective spatial information across the province, reinforcing the need for station-level paired evaluation rather than a single regional aggregate."
+      },
+      {
+        "index": 35,
+        "style": "Normal",
+        "text": "Figure 2. Observed rainfall characteristics in the calibration and validation periods, including monthly climatology, annual rainfall, and wet-day frequency."
+      },
+      {
+        "index": 37,
+        "style": "Normal",
+        "text": "3.2 Independent validation of QDM variants"
+      },
+      {
+        "index": 38,
+        "style": "Normal",
+        "text": "Table 3 shows that all QDM variants improved distributional fidelity during independent validation. The mean Kolmogorov-Smirnov statistic decreased from 0.201 in raw simulations to 0.102-0.123 after correction. The strongest overall validation performance was obtained by the monthly non-parametric method: QDM_NP_monthly reduced monthly RMSE from 116.20 to 109.38 mm, reduced monthly MAE from 78.15 to 70.02 mm, increased monthly KGE from 0.229 to 0.332, and improved monthly correlation in 48 of 60 model-station combinations."
+      },
+      {
+        "index": 39,
+        "style": "Normal",
+        "text": "Upper-tail behaviour showed a slightly different ranking. QDM_NP_annual produced the lowest mean absolute q99 relative bias, reducing it from 52.98% to 24.79%, whereas QDM_NP_monthly reduced it to 27.69%. Thus, the monthly empirical method gave the best balance of temporal aggregation metrics and seasonal structure, while the annual empirical method was marginally stronger for the highest reported quantile."
+      },
+      {
+        "index": 40,
+        "style": "Normal",
+        "text": "Table 3. Independent validation performance of raw simulations and four QDM variants across 60 model-station combinations."
+      },
+      {
+        "index": 41,
+        "style": "Normal",
+        "text": "Note: PBIAS and q99 bias are summarized as absolute values. For RMSE, MAE, KS D, PBIAS, and q99 bias, lower is better; for KGE and correlation metrics, higher is better."
+      },
+      {
+        "index": 42,
+        "style": "Normal",
+        "text": "Figure 3. Validation distributions of selected metrics for raw CMIP6 simulations and the four QDM variants."
+      },
+      {
+        "index": 44,
+        "style": "Normal",
+        "text": "Figure 4. Percentage of model-station combinations improved over raw simulations during independent validation."
+      },
+      {
+        "index": 46,
+        "style": "Normal",
+        "text": "3.3 Parametric distribution selection and tail diagnostics"
+      },
+      {
+        "index": 47,
+        "style": "Normal",
+        "text": "Parametric QDM was feasible but less stable than empirical QDM. The generalized extreme value and lognormal distributions dominated the AIC-selected fits. For validation blocks, QDM_P_annual selected generalized extreme value distributions for 57 of 60 model-side fits, whereas QDM_P_monthly selected generalized extreme value distributions for 460 of 620 model-side monthly fits. The observed-side fits were mostly lognormal and generalized extreme value. These patterns are consistent with the skewed and heavy-tailed character of daily rainfall."
+      },
+      {
+        "index": 48,
+        "style": "Normal",
+        "text": "The diagnostic record also shows why parametric QDM must be reported with tail safeguards. During validation, P annual capped 3 output values, whereas P monthly capped 166 values and clipped 89 delta ratios. These counts were small relative to the full daily sample, but they are scientifically important because a few extrapolated parametric values can dominate extreme-value and histogram-based metrics."
+      },
+      {
+        "index": 49,
+        "style": "Normal",
+        "text": "Table 4. Parametric fit diagnostics and numerical safeguards during independent validation."
+      },
+      {
+        "index": 50,
+        "style": "Normal",
+        "text": "3.4 Implications for climate-data preparation"
+      },
+      {
+        "index": 51,
+        "style": "Normal",
+        "text": "The results support three practical conclusions. First, distributional improvement does not imply recovery of event timing. Even the best method cannot create temporal correspondence that is absent from the free-running climate simulations. Second, seasonal calibration matters in this monsoon-influenced province: monthly empirical QDM improved monthly climatology correlation in 59 of 60 combinations and gave the best overall error-based performance. Third, parametric QDM should not be used as an automatic replacement for empirical QDM unless distribution choice, goodness of fit, and upper-tail safeguards are fully documented."
+      },
+      {
+        "index": 52,
+        "style": "Normal",
+        "text": "For applications requiring rainfall frequency, intensity distributions, and upper-tail quantiles, the corrected series are more defensible than raw CMIP6 outputs. For applications requiring event-by-event timing, such as direct daily flood simulation without weather sequencing, the corrected series should be interpreted with caution."
+      },
+      {
+        "index": 53,
+        "style": "Normal",
+        "text": "4. Conclusions"
+      },
+      {
+        "index": 54,
+        "style": "Normal",
+        "text": "This study compared parametric and non-parametric QDM for CMIP6 daily rainfall using a strict independent temporal validation design in Prachuap Khiri Khan Province, Thailand. The principal conclusion is that empirical monthly QDM provided the most robust overall performance, improving monthly RMSE, MAE, KGE, monthly correlation, and monthly climatology correlation more consistently than the other variants."
+      },
+      {
+        "index": 55,
+        "style": "Normal",
+        "text": "All QDM variants improved distributional agreement relative to raw simulations, but the highest-tail metric favoured the empirical annual method. Parametric QDM was useful as a comparative method but required explicit upper-tail safeguards and transparent diagnostic reporting. The split-sample framework is therefore essential: it separates construction-dependent properties from transferable validation skill and gives a more realistic basis for selecting corrected CMIP6 rainfall data for impact studies."
+      },
+      {
+        "index": 56,
+        "style": "Normal",
+        "text": "5. Acknowledgements"
+      },
+      {
+        "index": 57,
+        "style": "Normal",
+        "text": "The author thanks the data providers and institutions responsible for the observed rainfall and CMIP6 model simulations used in this study."
+      },
+      {
+        "index": 58,
+        "style": "Normal",
+        "text": "Author Contributions: S.P. conceived the study, prepared the data, developed the analysis workflow, interpreted the results, and wrote the manuscript."
+      },
+      {
+        "index": 59,
+        "style": "Normal",
+        "text": "Funding: This research received no external funding."
+      },
+      {
+        "index": 60,
+        "style": "Normal",
+        "text": "Data Availability Statement: The processed tables, diagnostic files, corrected series, and figure files generated by the workflow are available in the project output directory. Access to original station data is subject to the terms of the data provider."
+      },
+      {
+        "index": 61,
+        "style": "Normal",
+        "text": "Conflicts of Interest: The author declares no conflict of interest."
+      },
+      {
+        "index": 62,
+        "style": "Normal",
+        "text": "References"
+      },
+      {
+        "index": 63,
+        "style": "Normal",
+        "text": "1. Eyring, V.; Bony, S.; Meehl, G.A.; Senior, C.A.; Stevens, B.; Stouffer, R.J.; Taylor, K.E. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci. Model Dev. 2016, 9, 1937-1958."
+      },
+      {
+        "index": 64,
+        "style": "Normal",
+        "text": "2. Tebaldi, C.; Knutti, R. The use of the multi-model ensemble in probabilistic climate projections. Philos. Trans. R. Soc. A 2007, 365, 2053-2075."
+      },
+      {
+        "index": 65,
+        "style": "Normal",
+        "text": "3. Maraun, D. Bias correction, quantile mapping, and downscaling: revisiting the inflation issue. J. Clim. 2013, 26, 2137-2143."
+      },
+      {
+        "index": 66,
+        "style": "Normal",
+        "text": "4. Themeßl, M.J.; Gobiet, A.; Leuprecht, A. Empirical-statistical downscaling and error correction of daily precipitation from regional climate models. Int. J. Climatol. 2011, 31, 1530-1544."
+      },
+      {
+        "index": 67,
+        "style": "Normal",
+        "text": "5. Cannon, A.J.; Sobie, S.R.; Murdock, T.Q. Bias correction of GCM precipitation by quantile mapping: how well do methods preserve changes in quantiles and extremes? J. Clim. 2015, 28, 6938-6959."
+      },
+      {
+        "index": 68,
+        "style": "Normal",
+        "text": "6. Gudmundsson, L.; Bremnes, J.B.; Haugen, J.E.; Engen-Skaugen, T. Technical note: downscaling RCM precipitation to the station scale using statistical transformations. Hydrol. Earth Syst. Sci. 2012, 16, 3383-3390."
+      },
+      {
+        "index": 69,
+        "style": "Normal",
+        "text": "7. Piani, C.; Haerter, J.O.; Coppola, E. Statistical bias correction for daily precipitation in regional climate models over Europe. Theor. Appl. Climatol. 2010, 99, 187-192."
+      },
+      {
+        "index": 70,
+        "style": "Normal",
+        "text": "8. Switanek, M.B.; Troch, P.A.; Castro, C.L.; Leuprecht, A.; Chang, H.I.; Mukherjee, R.; Demaria, E.M.C. Scaled distribution mapping: a bias correction method that preserves raw climate model projected changes. Hydrol. Earth Syst. Sci. 2017, 21, 2649-2666."
+      },
+      {
+        "index": 71,
+        "style": "Normal",
+        "text": "9. Perkins, S.E.; Pitman, A.J.; Holbrook, N.J.; McAneney, J. Evaluation of the AR4 climate models' simulated daily maximum temperature, minimum temperature, and precipitation over Australia using probability density functions. J. Clim. 2007, 20, 4356-4376."
+      },
+      {
+        "index": 72,
+        "style": "Normal",
+        "text": "10. Murphy, A.H. Skill scores based on the mean square error and their relationships to the correlation coefficient. Mon. Weather Rev. 1988, 116, 2417-2424."
+      },
+      {
+        "index": 73,
+        "style": "Normal",
+        "text": "11. Benjamini, Y.; Hochberg, Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. R. Stat. Soc. Ser. B 1995, 57, 289-300."
+      },
+      {
+        "index": 74,
+        "style": "Normal",
+        "text": "12. Pettitt, A.N. A non-parametric approach to the change-point problem. Appl. Stat. 1979, 28, 126-135."
+      },
+      {
+        "index": 75,
+        "style": "Normal",
+        "text": "13. Swart, N.C.; Cole, J.N.S.; Kharin, V.V.; Lazare, M.; Scinocca, J.F.; Gillett, N.P.; Anstey, J.; Arora, V.; Christian, J.R.; Jiao, Y.; et al. The Canadian Earth System Model version 5 (CanESM5.0.3). Geosci. Model Dev. 2019, 12, 4823-4873."
+      },
+      {
+        "index": 76,
+        "style": "Normal",
+        "text": "14. Danabasoglu, G.; Lamarque, J.F.; Bacmeister, J.; Bailey, D.A.; DuVivier, A.K.; Edwards, J.; Emmons, L.K.; Fasullo, J.; Garcia, R.; Gettelman, A.; et al. The Community Earth System Model Version 2 (CESM2). J. Adv. Model. Earth Syst. 2020, 12, e2019MS001916."
+      },
+      {
+        "index": 77,
+        "style": "Normal",
+        "text": "15. Döscher, R.; Acosta, M.; Alessandri, A.; Anthoni, P.; Arneth, A.; Arsouze, T.; Bergmann, T.; Bernadello, R.; Boussetta, S.; Caron, L.P.; et al. The EC-Earth3 Earth system model for the Coupled Model Intercomparison Project 6. Geosci. Model Dev. 2022, 15, 2973-3020."
+      },
+      {
+        "index": 78,
+        "style": "Normal",
+        "text": "16. Tatebe, H.; Ogura, T.; Nitta, T.; Komuro, Y.; Ogochi, K.; Takemura, T.; Sudo, K.; Sekiguchi, M.; Abe, M.; Saito, F.; et al. Description and basic evaluation of simulated mean state, internal variability, and climate sensitivity in MIROC6. Geosci. Model Dev. 2019, 12, 2727-2765."
+      },
+      {
+        "index": 79,
+        "style": "Normal",
+        "text": "17. Ziehn, T.; Chamberlain, M.A.; Law, R.M.; Lenton, A.; Bodman, R.W.; Dix, M.; Stevens, L.; Wang, Y.P.; Srbinovsky, J. The Australian Earth System Model: ACCESS-ESM1.5. J. South. Hemisph. Earth Syst. Sci. 2020, 70, 193-214."
+      },
+      {
+        "index": 82,
+        "style": "Normal",
+        "text": "Casanueva A, Herrera S, Iturbide M, et al. Testing bias adjustment methods for regional climate change applications under observational uncertainty and resolution mismatch. Atmos Sci Lett. 2020; 21: 21:e978. https://doi.org/10.1002/asl.978"
+      },
+      {
+        "index": 84,
+        "style": "Normal",
+        "text": "R. Padulano, L.A. Gomez-Mogollon, L. Napolitano, G. Rianna,"
+      },
+      {
+        "index": 85,
+        "style": "Normal",
+        "text": "Quantile-based bias-correction of extreme rainfall: Pros & cons of popular methods for climate signal preservation,"
+      },
+      {
+        "index": 86,
+        "style": "Normal",
+        "text": "Journal of Hydrology,"
+      },
+      {
+        "index": 87,
+        "style": "Normal",
+        "text": "Volume 653,"
+      },
+      {
+        "index": 88,
+        "style": "Normal",
+        "text": "2025,"
+      },
+      {
+        "index": 89,
+        "style": "Normal",
+        "text": "132814,"
+      },
+      {
+        "index": 90,
+        "style": "Normal",
+        "text": "ISSN 0022-1694,"
+      },
+      {
+        "index": 91,
+        "style": "Normal",
+        "text": "https://doi.org/10.1016/j.jhydrol.2025.132814."
+      },
+      {
+        "index": 93,
+        "style": "Normal",
+        "text": "ตามที่คุณร้องขอเพิ่มเติมเอกสารอ้างอิงสำหรับบทความนี้ ผมได้รวบรวมวรรณกรรมที่เกี่ยวข้องในช่วงปี 2020–2025 มาจำแนกตามประเด็นที่คุณระบุ พร้อมทั้งคำอธิบายสั้นๆ ว่าแต่ละเรื่องเกี่ยวข้องกับงานวิจัยของคุณอย่างไร และแนะนำวิธีการนำไปผนวกในบทความครับ"
+      },
+      {
+        "index": 95,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 97,
+        "style": "Normal",
+        "text": "### 1. กลุ่มทฤษฎี QDM และการแก้ไขความเอนเอียง (Bias Correction Theory)"
+      },
+      {
+        "index": 99,
+        "style": "Normal",
+        "text": "เอกสารพื้นฐานที่ต้องอ้างอิงคือของ **Cannon et al. (2015)** ซึ่งเป็นต้นกำเนิดของ QDM และชี้ให้เห็นว่า QM ทั่วไปบิดเบือนสัญญาณการเปลี่ยนแปลงสภาพภูมิอากาศ (climate change signal) ในขณะที่ QDM สามารถรักษาการเปลี่ยนแปลงที่ระดับควอนไทล์ต่างๆ ไว้ได้"
+      },
+      {
+        "index": 101,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำเพิ่มเติม:**"
+      },
+      {
+        "index": 103,
+        "style": "Normal",
+        "text": "- **Casanueva, A., et al. (2020).** Testing bias adjustment methods for regional climate change applications under observational uncertainty and resolution mismatch. *Atmospheric Science Letters*, 21(7), e978."
+      },
+      {
+        "index": 104,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* เปรียบเทียบวิธีการปรับแก้ความเอนเอียงหลายวิธี (ทั้งแบบเชิงประจักษ์และเชิงพารามิเตอร์) พบว่าวิธีที่รักษาแนวโน้ม (trend-preserving) อย่าง QDM และ SDM ให้ผลดีกว่าในการใช้งานด้านการเปลี่ยนแปลงสภาพภูมิอากาศ แต่มีความไวต่อชุดข้อมูลอ้างอิง"
+      },
+      {
+        "index": 106,
+        "style": "Normal",
+        "text": "- **Reder, A., et al. (2025).** Quantile-based bias-correction of extreme rainfall: Pros & cons of popular methods for climate signal preservation. *Journal of Hydrology*, 651, 132814."
+      },
+      {
+        "index": 107,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* เน้นการแก้ไขฝนตกหนักโดยเฉพาะ ประเมินข้อดีข้อเสียของ QDM และวิธีการอื่นๆ พบว่า QDM มีข้อจำกัดในการรักษาค่าเบี่ยงเบนมาตรฐาน (standard deviation) ซึ่งเป็นประเด็นที่คุณสามารถอภิปรายในงานวิจัยนี้ได้"
+      },
+      {
+        "index": 109,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 111,
+        "style": "Normal",
+        "text": "### 2. กลุ่มการจัดการกับวันที่แห้ง (Zero Inflation) และความถี่วันฝนตก"
+      },
+      {
+        "index": 113,
+        "style": "Normal",
+        "text": "ข้อมูลฝนรายวันมีค่าวันที่แห้ง (ไม่มีฝน) จำนวนมาก ซึ่งการแก้ไขความเอนเอียงต้องจัดการกับประเด็นนี้อย่างเหมาะสม"
+      },
+      {
+        "index": 115,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 117,
+        "style": "Normal",
+        "text": "- **Lehner, F., Nadeem, I., & Formayer, H. (2020).** An improved statistical bias correction method that also corrects dry climate models. *Hydrology & Earth System Sciences Discussions*, 1–23."
+      },
+      {
+        "index": 118,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* นำเสนอวิธี Empirical Percentile- Percentile Mapping (EPPM) ที่สามารถแก้ไขทั้งความถี่วันแห้งและแนวโน้มของข้อมูลได้ พอดีกับงานคุณที่ใช้ wet-day frequency adaptation"
+      },
+      {
+        "index": 120,
+        "style": "Normal",
+        "text": "- **Liu, H., Chen, J., Zhang, X. C., Xu, C. Y., & Hui, Y. (2020).** A Markov Chain-based bias correction method for simulating the temporal sequence of daily precipitation. *Atmosphere*, 11(1), 109."
+      },
+      {
+        "index": 121,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* ใช้ Markov Chain จำลองลำดับเหตุการณ์ฝนรายวัน ซึ่งเป็นอีกแนวทางหนึ่งที่เกี่ยวข้องกับการจัดการ dry/wet spell"
+      },
+      {
+        "index": 123,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 125,
+        "style": "Normal",
+        "text": "### 3. กลุ่มการตรวจสอบแบบอิสระ (Independent / Cross-Validation)"
+      },
+      {
+        "index": 127,
+        "style": "Normal",
+        "text": "ประเด็นนี้คือหัวใจสำคัญของงานคุณ เพราะคุณใช้ split-sample design (1981-2000 สร้างฟังก์ชัน, 2001-2014 ทดสอบ)"
+      },
+      {
+        "index": 129,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 131,
+        "style": "Normal",
+        "text": "- **Themeßl, M. J., Gobiet, A., & Leuprecht, A. (2011).** Empirical-statistical downscaling and error correction of daily precipitation from regional climate models. *International Journal of Climatology*, 31, 1530–1544. *(คุณมีแล้ว)*"
+      },
+      {
+        "index": 132,
+        "style": "Normal",
+        "text": "- เป็นงาน早期ที่พูดถึงการตรวจสอบแบบ cross-validation อย่างชัดเจน"
+      },
+      {
+        "index": 134,
+        "style": "Normal",
+        "text": "- **Liu, H., et al. (2020).** (เล่มเดียวกับด้านบน)"
+      },
+      {
+        "index": 135,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* มีการใช้ split-sample cross-validation เพื่อประเมินประสิทธิภาพของวิธีการ ซึ่งสนับสนุนแนวทางการทดสอบของคุณ"
+      },
+      {
+        "index": 137,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 139,
+        "style": "Normal",
+        "text": "### 4. กลุ่มการแก้ไขความเอนเอียงสำหรับฝนตกหนัก (Extreme Rainfall Bias Correction)"
+      },
+      {
+        "index": 141,
+        "style": "Normal",
+        "text": "เนื่องจากงานคุณให้ความสำคัญกับ upper-tail bias (q99) เอกสารกลุ่มนี้จึงจำเป็นมาก"
+      },
+      {
+        "index": 143,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 145,
+        "style": "Normal",
+        "text": "- **Reder, A., et al. (2025).** (เล่มเดียวกับข้อ 1)"
+      },
+      {
+        "index": 146,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* วัดประสิทธิภาพการแก้ไขค่าสุดขีด (IDF curves) โดยตรง ซึ่งตรงกับที่คุณประเมิน Mean absolute q99 bias"
+      },
+      {
+        "index": 148,
+        "style": "Normal",
+        "text": "- **Song, Y. H., & Chung, E. S. (2025).** Intercomparison of bias correction methods for precipitation of multiple GCMs across six continents. *Geoscientific Model Development*, 18(20), 8017–8045."
+      },
+      {
+        "index": 149,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* เปรียบเทียบวิธีต่างๆ ทั่วโลก 6 ทวีป พบว่า EQM (Empirical Quantile Mapping) ให้ผลโดยรวมดีที่สุด ขณะที่ QDM มีความไม่แน่นอนต่ำที่สุดในทวีปอเมริกาใต้ ซึ่งเป็นข้อมูลเชิงเปรียบเทียบที่ดีสำหรับ Discussion ของคุณ"
+      },
+      {
+        "index": 151,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 153,
+        "style": "Normal",
+        "text": "### 5. กลุ่ม CMIP6 และปริมาณฝนในเอเชียตะวันออกเฉียงใต้ / ไทย"
+      },
+      {
+        "index": 155,
+        "style": "Normal",
+        "text": "เอกสารในภูมิภาคนี้จะช่วยเสริมความแข็งแกร่งให้กับบริบทพื้นที่ศึกษา"
+      },
+      {
+        "index": 157,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 159,
+        "style": "Normal",
+        "text": "- **Mishra, V., Bhatia, U., & Tiwari, A. D. (2020).** Bias-corrected climate projections for South Asia from CMIP6. *Scientific Data*, 7(1)."
+      },
+      {
+        "index": 160,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* จัดทำชุดข้อมูลฝนที่แก้ไขความเอนเอียงแล้วสำหรับเอเชียใต้ (ซึ่งรวมถึงภูมิภาคใกล้เคียงไทย) โดยใช้ EQM"
+      },
+      {
+        "index": 162,
+        "style": "Normal",
+        "text": "- **งานศึกษาในประเทศไทยตอนใต้ (เช่น ช่วงปี 2023-2024):** งานที่ประเมินวิธี DT, QM, EQM สำหรับ CMIP6 ในพื้นที่ภาคใต้ตอนล่าง (Southern Thailand) มักปรากฏในวารสารด้านอุทกวิทยาหรือสิ่งแวดล้อมของภูมิภาคเอเชียตะวันออกเฉียงใต้ เช่น *Songklanakarin Journal of Science and Technology* หรือ *Environmental Research* หากคุณมีงานตีพิมพ์ในประเทศที่เกี่ยวข้อง (เช่น ผลงานของนักวิจัยไทยที่ตีพิมพ์ในวารสารระดับนานาชาติ) สามารถเพิ่มเข้ามาได้"
+      },
+      {
+        "index": 164,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 166,
+        "style": "Normal",
+        "text": "### 6. กลุ่มเปรียบเทียบ Parametric vs Empirical Quantile Mapping"
+      },
+      {
+        "index": 168,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 170,
+        "style": "Normal",
+        "text": "- **Casanueva, A., et al. (2020).** (เล่มเดียวกับข้อ 1)"
+      },
+      {
+        "index": 171,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* เปรียบเทียบทั้งวิธีเชิงประจักษ์และเชิงพารามิเตอร์โดยตรง"
+      },
+      {
+        "index": 173,
+        "style": "Normal",
+        "text": "- **Performance Evaluation of Bias Correction Methods for Monthly Precipitation Projections over Costa Rica (2020).** *Water*, 12(2), 482."
+      },
+      {
+        "index": 174,
+        "style": "Normal",
+        "text": "- *ความเกี่ยวข้อง:* เปรียบเทียบ 6 วิธี (รวมถึง EQM) และชี้ให้เห็นว่าไม่มีวิธีใดดีที่สุดในทุกมิติ ขึ้นอยู่กับตัวชี้วัดที่สนใจ ซึ่งสอดคล้องกับผลสรุปของคุณที่ว่า NP monthly ดีที่สุดโดยรวม แต่ NP annual ดีที่สุดสำหรับหางบน"
+      },
+      {
+        "index": 176,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 178,
+        "style": "Normal",
+        "text": "### 7. กลุ่มข้อจำกัดของ QM และ QDM"
+      },
+      {
+        "index": 180,
+        "style": "Normal",
+        "text": "**เอกสารแนะนำ:**"
+      },
+      {
+        "index": 182,
+        "style": "Normal",
+        "text": "- **Cannon, A. J., et al. (2015).** (เล่มเดิม)"
+      },
+      {
+        "index": 183,
+        "style": "Normal",
+        "text": "- ชี้ให้เห็นว่า QM ทั่วไปอาจทำให้การเปลี่ยนแปลงของค่าสุดขีดบิดเบือนถึง +500%"
+      },
+      {
+        "index": 185,
+        "style": "Normal",
+        "text": "- **Reder, A., et al. (2025).** (เล่มเดิม)"
+      },
+      {
+        "index": 186,
+        "style": "Normal",
+        "text": "- ชี้ข้อจำกัดของ QDM ด้านการรักษาค่าเบี่ยงเบนมาตรฐาน"
+      },
+      {
+        "index": 188,
+        "style": "Normal",
+        "text": "- **Maraun, D. (2013).** (คุณมีแล้ว)"
+      },
+      {
+        "index": 189,
+        "style": "Normal",
+        "text": "- พูดถึงปัญหา inflation ที่เกิดจากการ Quantile Mapping"
+      },
+      {
+        "index": 191,
+        "style": "Normal",
+        "text": "---"
+      },
+      {
+        "index": 193,
+        "style": "Normal",
+        "text": "### ✍️ คำแนะนำในการเขียนเพิ่มเอกสารเหล่านี้ลงในบทความ"
+      },
+      {
+        "index": 195,
+        "style": "Normal",
+        "text": "คุณสามารถเพิ่มเนื้อหาในส่วน **Introduction** และ **2.3 Parametric and non-parametric variants** ได้ดังนี้ (ตัวอย่างเนื้อหาเป็นภาษาไทยที่คุณสามารถแปลเป็นอังกฤษในบทความ):"
+      },
+      {
+        "index": 197,
+        "style": "Normal",
+        "text": "> *\"Although QDM was developed to address the issue of trend distortion inherent in standard quantile mapping (Cannon et al., 2015), recent studies have highlighted that its performance depends critically on the choice between parametric and empirical distribution fitting, particularly for extreme upper tails (Casanueva et al., 2020; Reder et al., 2025). In regions with strong monsoonal influence, such as Southeast Asia, handling zero-inflation and dry-day frequency is equally important (Lehner et al., 2020; Liu et al., 2020). While bias-corrected CMIP6 datasets have been produced for South Asia (Mishra et al., 2020), independent temporal validation studies for Thailand remain limited. Furthermore, comparative assessments across continents (Song & Chung, 2025) suggest that no single method dominates all performance metrics, reinforcing the need for the split-sample framework adopted in this study.\"*"
+      },
+      {
+        "index": 199,
+        "style": "Normal",
+        "text": "การเพิ่มย่อหน้าดังกล่าวจะช่วยเชื่อมโยงเหตุผลในการเลือกใช้ QDM, การแบ่งช่วงเวลา (split-sample), และการเปรียบเทียบระหว่าง parametric กับ non-parametric ในงานของคุณให้มีน้ำหนักทางวิชาการมากขึ้นครับ"
+      }
+    ],
+    "tables": [
+      {
+        "index": 1,
+        "rows": [
+          [
+            "Station",
+            "Lat. (°N)",
+            "Long. (°E)",
+            "Elev. (m)",
+            "Missing (%)",
+            "Annual rainfall (mm)",
+            "SDII (mm day⁻¹)",
+            "Max. daily rainfall (mm day⁻¹)",
+            "Lag-1 ACF"
+          ],
+          [
+            "500001",
+            "12.37",
+            "99.95",
+            "9.1",
+            "0.0",
+            "984",
+            "12.0",
+            "170.0",
+            "0.21"
+          ],
+          [
+            "500002",
+            "11.18",
+            "99.55",
+            "n/a",
+            "0.0",
+            "1,376",
+            "11.1",
+            "155.0",
+            "0.22"
+          ],
+          [
+            "500003",
+            "12.02",
+            "99.90",
+            "n/a",
+            "0.0",
+            "1,100",
+            "13.1",
+            "181.3",
+            "0.19"
+          ],
+          [
+            "500004",
+            "11.47",
+            "99.65",
+            "n/a",
+            "0.0",
+            "1,106",
+            "11.4",
+            "152.0",
+            "0.21"
+          ],
+          [
+            "500005",
+            "11.60",
+            "99.68",
+            "5.0",
+            "0.0",
+            "1,147",
+            "6.4",
+            "143.5",
+            "0.41"
+          ],
+          [
+            "500006",
+            "11.62",
+            "99.67",
+            "23.0",
+            "0.0",
+            "1,203",
+            "6.5",
+            "201.1",
+            "0.35"
+          ],
+          [
+            "500007",
+            "11.90",
+            "99.78",
+            "21.3",
+            "0.0",
+            "1,134",
+            "6.2",
+            "176.6",
+            "0.35"
+          ],
+          [
+            "500008",
+            "12.53",
+            "99.55",
+            "130.3",
+            "0.0",
+            "1,206",
+            "5.1",
+            "68.0",
+            "0.66"
+          ],
+          [
+            "500009",
+            "12.22",
+            "99.87",
+            "14.4",
+            "0.0",
+            "1,177",
+            "5.2",
+            "54.2",
+            "0.63"
+          ],
+          [
+            "500201",
+            "11.83",
+            "99.83",
+            "n/a",
+            "0.0",
+            "1,108",
+            "12.1",
+            "296.9",
+            "0.25"
+          ],
+          [
+            "500202",
+            "12.59",
+            "99.96",
+            "n/a",
+            "0.0",
+            "944",
+            "11.8",
+            "298.5",
+            "0.26"
+          ],
+          [
+            "500301",
+            "12.58",
+            "99.73",
+            "101.8",
+            "0.0",
+            "1,065",
+            "11.4",
+            "226.0",
+            "0.25"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": [
+          [
+            "Model",
+            "Institution",
+            "Resolution",
+            "Calendar",
+            "Days",
+            "Distinct daily values",
+            "Reference"
+          ],
+          [
+            "ACCESS-ESM1-5",
+            "CSIRO, Australia",
+            "1.875° × 1.25°",
+            "standard",
+            "12,418",
+            "2",
+            "Ziehn et al. (2020)"
+          ],
+          [
+            "CESM2",
+            "NCAR, USA",
+            "1.25° × 0.9°",
+            "365-day",
+            "12,410",
+            "3",
+            "Danabasoglu et al. (2020)"
+          ],
+          [
+            "CanESM5",
+            "CCCma, Canada",
+            "2.8° × 2.8°",
+            "365-day",
+            "12,410",
+            "2",
+            "Swart et al. (2019)"
+          ],
+          [
+            "EC-Earth3",
+            "EC-Earth Consortium, Europe",
+            "1.125° × 1.125°",
+            "standard",
+            "12,418",
+            "3",
+            "Döscher et al. (2022)"
+          ],
+          [
+            "MIROC6",
+            "UTokyoNIESJAMSTEC, Japan",
+            "1.4° × 1.4°",
+            "standard",
+            "12,418",
+            "2",
+            "Tatebe et al. (2019)"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": [
+          [
+            "Metric",
+            "Raw",
+            "NP annual",
+            "NP monthly",
+            "P annual",
+            "P monthly",
+            "Best"
+          ],
+          [
+            "Mean absolute PBIAS (%)",
+            "19.99",
+            "13.49",
+            "13.51",
+            "13.84",
+            "15.55",
+            "NP annual"
+          ],
+          [
+            "Kolmogorov-Smirnov D",
+            "0.201",
+            "0.105",
+            "0.102",
+            "0.123",
+            "0.108",
+            "NP monthly"
+          ],
+          [
+            "Mean absolute q99 bias (%)",
+            "52.98",
+            "24.79",
+            "27.69",
+            "44.81",
+            "46.63",
+            "NP annual"
+          ],
+          [
+            "Monthly RMSE (mm)",
+            "116.20",
+            "124.75",
+            "109.38",
+            "116.68",
+            "118.68",
+            "NP monthly"
+          ],
+          [
+            "Monthly KGE",
+            "0.229",
+            "0.203",
+            "0.332",
+            "0.241",
+            "0.257",
+            "NP monthly"
+          ],
+          [
+            "Monthly correlation r",
+            "0.342",
+            "0.328",
+            "0.430",
+            "0.344",
+            "0.396",
+            "NP monthly"
+          ],
+          [
+            "Monthly climatology r",
+            "0.643",
+            "0.629",
+            "0.883",
+            "0.650",
+            "0.834",
+            "NP monthly"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "rows": [
+          [
+            "Method",
+            "Observed-side distributions",
+            "Model-side distributions",
+            "Capped outputs",
+            "Clipped delta ratios"
+          ],
+          [
+            "P annual",
+            "lognorm (45); genextreme (15)",
+            "genextreme (57); lognorm (2); pearson3 (1)",
+            "3",
+            "9"
+          ],
+          [
+            "P monthly",
+            "lognorm (300); genextreme (265); pearson3 (50)",
+            "genextreme (460); lognorm (93); pearson3 (34)",
+            "166",
+            "89"
+          ]
+        ]
+      }
+    ],
+    "tracked_insertions": [],
+    "tracked_deletions": [],
+    "comments": []
+  }
+]

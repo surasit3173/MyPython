@@ -1,0 +1,11 @@
+{
+  "config": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\paper3_execution\\config\\paper3_enso.yaml",
+  "config_sha256": "95809e909f887d9571331e243be632d6e38cc206a37c10cba71526ab9674a24c",
+  "analysis_mode": "full_frozen",
+  "observed_oni_sha256": "0eacd96fe0e29f658f2ab190620f436d5c51294c190e0d082ef2f4b42c218768",
+  "model_nino34_manifest_sha256": "27ce1dff3aa090c1ec2dc2c4894abc218feb048411dde1058635670b451ce76f",
+  "hierarchy": "daily -> management season -> station -> unique raw-grid signature -> model -> ensemble",
+  "resampling_unit": "management-season climate year; independently within model for model ensembles",
+  "gates_passed": 8,
+  "gates_total": 8
+}

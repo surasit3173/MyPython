@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "main": {
+    "paragraphs": 109,
+    "tables": 3,
+    "table_rows": [
+      12,
+      5,
+      12
+    ],
+    "inline_shapes": 4,
+    "sections": 1,
+    "highlighted_runs": [
+      "[Author 1 full name]1, [Author 2 full name]1 and [Corresponding author full name]1,",
+      "1 [Department, Institution, City, Postal code, Country]",
+      "Corresponding author: [email address]",
+      "[Author confirmation required before submission.]",
+      "[Author input required: identify data providers and facilities, and provide the funding agency and grant number or state that no specific funding was received.]",
+      "[Author input required: insert verified CRediT roles for every named author. Do not assign roles until the author list is confirmed.]",
+      "[Author confirmation required: declare all competing interests or state that the authors have no competing interests.]",
+      "[Before submission, the corresponding author must provide a repository URL/DOI or a justified access statement, the software environment, and the correction provenance.]"
+    ],
+    "invalid_highlights": [],
+    "has_comments_part": false,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "unresolved_insert_markers": [],
+    "abstract_words": 231,
+    "references": 20,
+    "citation_numbers_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "pdf_pages": 15,
+    "rendered_pages": 15,
+    "bytes": 1703760,
+    "sha256": "0d9e42315f27c565af3d9b2ef13b1b46df92c31e96b9b0f34f86fe40e0e439e2"
+  },
+  "supplement": {
+    "paragraphs": 30,
+    "tables": 6,
+    "table_rows": [
+      34,
+      34,
+      5,
+      3,
+      12,
+      5
+    ],
+    "inline_shapes": 0,
+    "sections": 2,
+    "highlighted_runs": [
+      "[Author list identical to the main manuscript]",
+      "[Corresponding author and email]"
+    ],
+    "invalid_highlights": [],
+    "has_comments_part": false,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "unresolved_insert_markers": [],
+    "pdf_pages": 6,
+    "rendered_pages": 6,
+    "bytes": 194887,
+    "sha256": "0a34a626cb4c79e44c2a6dceed65582547ecd499f2d0c6aeaaaeca3ea08e6270"
+  },
+  "visual_review": {
+    "main_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "supplement_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "issues_after_final_render": []
+  }
+}

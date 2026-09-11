@@ -1,0 +1,45 @@
+================================================================================
+INVERSE DISTANCE WEIGHTING (IDW) SPATIAL INTERPOLATION PARAMETERS & QA REPORT
+Project 1: Observed Rainfall Climatology (Prachuap Khiri Khan Province, Thailand)
+Standard: Scopus Q1-Q2 (Atmospheric Research / Theoretical & Applied Climatology)
+================================================================================
+
+1. METHODOLOGICAL SPECIFICATIONS
+--------------------------------------------------------------------------------
+Interpolation Algorithm   : 2D Inverse Distance Weighting (Shepard's Method)
+Target Hydrological Field : 34-Year Mean Annual Precipitation (mm/year, 1981-2014)
+Input Sample Size         : N = 12 Ground Meteorological Stations (Authentic Records)
+Distance Power (p)        : 2.0 (Inverse distance squared weighting)
+Search Neighborhood       : Global (k = 12 stations, all active gauges utilized)
+Coordinate System         : WGS84 Geographic (EPSG:4326)
+Spatial Extent (WGS84)    : Longitude 99.14°E - 100.02°E, Latitude 10.95°N - 12.65°N
+Grid Cell Resolution      : 0.005° x 0.005° (approximately 500 m x 500 m)
+Grid Matrix Dimensions    : 345 rows x 184 columns (63480 nodes)
+Active Provincial Cells   : 23011 raster cells within provincial polygon
+Interpolated Surface Range: Min = 944.15 mm/yr, Max = 1373.81 mm/yr
+Spatial Boundary Masking  : Strict polygon clipping via Natural Earth 10m Provincial Polygon
+
+2. LEAVE-ONE-OUT CROSS-VALIDATION (LOOCV) ERROR METRICS
+--------------------------------------------------------------------------------
+Mean Absolute Error (MAE) : 86.14 mm/year
+Root Mean Square Error    : 107.33 mm/year
+Mean Bias Error (MBE)     : -9.57 mm/year
+
+3. STATION-BY-STATION CROSS-VALIDATION RESIDUALS
+--------------------------------------------------------------------------------
+Station ID   Latitude   Longitude  Observed (mm)   IDW Pred (mm)   Residual (mm)  
+500001       12.37      99.95      983.66          1102.21         +118.55        
+500002       11.18      99.55      1376.19         1129.34         -246.85        
+500003       12.02      99.90      1100.02         1126.95         +26.93         
+500004       11.47      99.65      1106.00         1179.15         +73.15         
+500005       11.60      99.68      1147.21         1199.36         +52.15         
+500006       11.62      99.67      1203.06         1146.24         -56.82         
+500007       11.90      99.78      1133.56         1115.30         -18.26         
+500008       12.53      99.55      1206.31         1068.61         -137.70        
+500009       12.22      99.87      1176.53         1061.93         -114.60        
+500201       11.83      99.83      1108.24         1134.29         +26.05         
+500202       12.59      99.96      944.14          1074.89         +130.75        
+500301       12.58      99.73      1064.85         1096.69         +31.84         
+--------------------------------------------------------------------------------
+Interpretation: IDW surface strictly visualizes spatial gradient of discrete stations.
+All statistical inferences in the manuscript rely solely on discrete station observations.

@@ -1,0 +1,11 @@
+{
+  "paper": "paper2",
+  "area": "Uttaradit",
+  "generated_utc": "2026-09-01T20:40:24+00:00",
+  "figures": 5,
+  "tables": 3,
+  "raster_dpi": 1200,
+  "target_figure_width_mm": 129.0,
+  "numbering_source": "manuscript/Paper2_AER_manuscript.md",
+  "supplementary_figures": {}
+}

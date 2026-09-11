@@ -1,0 +1,8 @@
+คำสั่งรัน เพิ่มตาราง แยกรายสถานี
+
+C:\MyPython\QDM 12sta>python Comparative_4MMK_PrachuapKhiriKhanV1.py
+
+เปลี่ยนไฟล์ ที่ บรรทัด 99 เปลี่ยน 2 ไฟล์ หรือใช้ ค่าความสูงสถานีอุตุนิยมวิทยา.xlsx
+
+RAIN_FILE    = "Observed_Rain_daily_198101_201412_Prachuap Khiri Khan.xlsx"
+DEM_FILE     = "ค่าความสูงจากDEM 30m.xlsx"

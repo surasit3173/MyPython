@@ -1,0 +1,13 @@
+﻿station,lat,lon,elev_m,inside_province,district,dist_coast_km,note,topography_rule_based,rule,quality_tier
+500001,12.37,99.95,9.127316385,True,,3.79,,Coastal,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,A
+500002,11.18,99.55,,False,,33.19,อยู่นอกขอบเขตจังหวัด,Undetermined (elevation missing),Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,B
+500003,12.02,99.9,,False,,1.1,อยู่นอกขอบเขตจังหวัด,Undetermined (elevation missing),Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,B
+500004,11.47,99.65,,False,,5.74,อยู่นอกขอบเขตจังหวัด,Undetermined (elevation missing),Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,B
+500005,11.6,99.68,4.998713833,True,,0.12,,Coastal,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,C
+500006,11.62,99.67,23.0072715,True,,2.08,,Coastal,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,C
+500007,11.9,99.78,21.27561878,True,,3.73,,Coastal,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,C
+500008,12.53,99.55,130.2602983,True,,10.67,,Mountainous,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,C
+500009,12.22,99.87,14.44780313,True,,4.37,,Coastal,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,C
+500201,11.83,99.83,,True,,0.14,,Undetermined (elevation missing),Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,A
+500202,12.59,99.96,,False,,0.43,อยู่นอกขอบเขตจังหวัด,Undetermined (elevation missing),Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,A
+500301,12.58,99.73,101.8465795,True,,2.7,,Mountainous,Coastal: dist<15.0 km; Mountainous: elev>=100.0 m; else Inland plain,A

@@ -1,0 +1,4 @@
+,Series,n,r1,Class,LjungBox_p,Sig_LB,DW,ADF_p,Stationary,VIF,n_eff
+0,Annual,34,0.2021,Low,0.1644,False,1.5796,0.0002,True,0.055,614.9
+1,Wet Season,34,0.217,Low,0.6664,False,1.5473,0.0003,True,0.884,38.5
+2,Dry Season,35,-0.1938,Low,0.864,False,2.3117,0.0,True,0.879,39.8

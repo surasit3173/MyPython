@@ -1,0 +1,68 @@
+{
+  "cal": [
+    1981,
+    2000
+  ],
+  "val": [
+    2001,
+    2014
+  ],
+  "wet_threshold": 1.0,
+  "window_days": 30,
+  "n_quantiles": 200,
+  "delta_clip": [
+    0.2,
+    5.0
+  ],
+  "bootstrap_n": 500,
+  "block_len_days": 20,
+  "fdr_q": 0.05,
+  "stations": [
+    "500001",
+    "500002",
+    "500003",
+    "500004",
+    "500005",
+    "500006",
+    "500007",
+    "500008",
+    "500009",
+    "500201",
+    "500202",
+    "500301"
+  ],
+  "models": [
+    "ACCESS-ESM1-5",
+    "CESM2",
+    "CanESM5",
+    "EC-Earth3",
+    "MIROC6"
+  ],
+  "model_meta": {
+    "ACCESS-ESM1-5": {
+      "exp": "historical",
+      "variant": "r1i1p1f1",
+      "grid": "gn"
+    },
+    "CanESM5": {
+      "exp": "historical",
+      "variant": "r1i1p1f1",
+      "grid": "gn"
+    },
+    "CESM2": {
+      "exp": "historical",
+      "variant": "r11i1p1f1",
+      "grid": "gn"
+    },
+    "EC-Earth3": {
+      "exp": "historical",
+      "variant": "r1i1p1f1",
+      "grid": "gr"
+    },
+    "MIROC6": {
+      "exp": "historical",
+      "variant": "r1i1p1f1",
+      "grid": "gn"
+    }
+  }
+}

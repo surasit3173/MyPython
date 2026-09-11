@@ -1,0 +1,102 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  cmip6bc — template for a new province or river basin
+#
+#  คัดลอกไฟล์นี้เป็น config.yaml แล้วแก้เฉพาะบรรทัดที่มีเครื่องหมาย  <<< แก้
+#  ไม่ต้องแตะโค้ดใด ๆ ทั้งสิ้น
+# ═══════════════════════════════════════════════════════════════════════════
+
+project:
+  id: "MYSTUDY"                                    # <<< แก้
+  title: "QDM bias correction under a split-sample design"
+
+region:
+  name: "Chiang Mai"                               # <<< แก้ ชื่อที่ใช้แสดงผล
+  # tag ใช้กรองไฟล์เมื่อโฟลเดอร์เดียวมีข้อมูลหลายพื้นที่ปนกัน
+  # ต้องตรงกับส่วนหนึ่งของชื่อไฟล์ · ตั้งเป็น null เพื่อรับทุกไฟล์
+  tag: "Chiang_Mai"                                # <<< แก้
+
+paths:
+  data_dir: "./data"
+  station_meta: "./data/stations.csv"
+  station_meta_verified: "./data/station_metadata_verified.csv"
+  out_dir: "./out"
+
+discovery:
+  # ชื่อไฟล์ต้องเข้ากับรูปแบบนี้ ถ้าตั้งชื่อต่างออกไปให้แก้ glob และ regex
+  #   ตรวจวัด : *Observed*<tag>.csv
+  #   ดิบ     : pr_day_<MODEL>_historical_<variant>_<grid>_<dates>_<tag>.csv
+  observed_glob: "*Observed*.csv"
+  raw_glob: "pr_*.csv"
+  raw_model_regex: "^pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_"
+  legacy_bc_glob: "bc_pr_*.csv"
+  legacy_bc_model_regex: "^bc_pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_"
+
+time:
+  year_col: "YEAR"
+  month_col: "MONTH"
+  day_col: "DAY"
+
+periods:
+  # แบ่งประมาณ 60/40 และให้ช่วงตรวจสอบยาวอย่างน้อย 10 ปี
+  calibration: [1981, 2000]                        # <<< แก้
+  validation:  [2001, 2014]                        # <<< แก้
+
+data:
+  wet_threshold_mm: 1.0
+  nodata_values: [-99, -999, -9999, -9.99e20, 9.99e20, 1.0e20,
+                  1.15031e38, 1.70141e38]          # <<< เพิ่มรหัสของหน่วยงานท่าน
+  negative_handling: "clip_to_zero"
+  negative_tolerance_mm: 0.1
+  unit_autodetect: true
+  flux_detect_threshold: 1.0e-3
+  flux_to_mmday: 86400.0
+
+qdm:
+  grouping:
+    primary: "annual"
+    sensitivity: "monthly"
+  n_quantiles: 100
+  frequency_adaptation: true
+  tail_extrapolation: "constant"
+  max_delta_ratio: 5.0
+  min_delta_ratio: 0.2
+  min_wet_days_calibration: 30
+  emit_eqm: true
+  upper_tail_cap_factor: null
+  sensitivity_cap_factor: 1.5
+
+station_screening:
+  # เกณฑ์ด้านล่างตั้งจากภูมิอากาศแบบมรสุมเขตร้อน
+  # พื้นที่แห้งแล้งหรือเขตอบอุ่นต้องปรับใหม่ และต้องประกาศเกณฑ์ก่อนดูผล
+  physical_plausibility:
+    min_sdii_mm: 8.0                               # <<< ตรวจให้เหมาะกับพื้นที่
+    min_max_daily_mm: 100.0                        # <<< ตรวจให้เหมาะกับพื้นที่
+  temporal_structure:
+    max_lag1_acf: 0.30
+  homogeneity:
+    pettitt_alpha: 0.05
+    max_wetfreq_rel_change: 0.30
+
+seasons:
+  method: "climatological_annual_cycle"
+  smoothing: "rolling_30day"
+  wet_definition: "longest_contiguous_above_annual_mean"
+  min_duration_days: 90
+
+reproducibility:
+  random_seed: 42
+
+evaluate:
+  primary_station_set: "all"
+  sensitivity_station_set: ["A", "B"]
+  bootstrap:
+    n_replicates: 2000
+    block: "year"
+  fdr_alpha: 0.05
+  quantiles_reported: [0.50, 0.90, 0.95, 0.99]
+
+figures:
+  font_family: ["Cordia New", "Garuda", "Waree", "DejaVu Sans"]
+  base_font_pt: 11.0
+  width_mm: 160
+  dpi: 600

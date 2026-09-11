@@ -1,0 +1,111 @@
+{
+  "document": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\ennrj_uttaradit_manuscript_20260906\\EnNRJ_Uttaradit_Precipitation_Extremes_Manuscript.docx",
+  "geometry": {
+    "page_width_cm": 21.0,
+    "page_height_cm": 29.7,
+    "left_margin_cm": 2.54,
+    "right_margin_cm": 2.54,
+    "top_margin_cm": 1.9,
+    "bottom_margin_cm": 1.9
+  },
+  "abstract_words": 199,
+  "keywords": "Keywords: precipitation extremes; climate projections; CMIP6; SSP scenarios; Uttaradit Province; model uncertainty",
+  "highlight_characters": [
+    66,
+    46,
+    60,
+    63,
+    64
+  ],
+  "main_text_words_excluding_references": 3240,
+  "reference_count": 28,
+  "table_shapes": [
+    [
+      14,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      23,
+      6
+    ]
+  ],
+  "embedded_figure_count": 3,
+  "native_math_count": 10,
+  "figure_files": {
+    "Figure1_Uttaradit_study_area.tif": {
+      "pixels": [
+        3867,
+        3500
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figure2_future_model_changes.tif": {
+      "pixels": [
+        7283,
+        5006
+      ],
+      "dpi": [
+        1000.0,
+        1000.0
+      ]
+    },
+    "Figure3_prcptot_idw_fields.tif": {
+      "pixels": [
+        4242,
+        1901
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  },
+  "forbidden_hits": [],
+  "missing_citation_families": [],
+  "checks": {
+    "file_exists": true,
+    "exact_title": true,
+    "a4_portrait": true,
+    "margins": true,
+    "line_numbering": true,
+    "page_number_field": true,
+    "abstract_within_250": true,
+    "keyword_count_six": true,
+    "highlight_count_3_to_5": true,
+    "highlights_within_85_characters": true,
+    "main_text_within_4000_words": true,
+    "five_tables_with_expected_shapes": true,
+    "three_embedded_figures": true,
+    "ten_native_math_objects": true,
+    "references_at_least_15": true,
+    "forbidden_terms_absent": true,
+    "zero_baseline_disclosed": true,
+    "idw_limit_disclosed": true,
+    "all_separate_tiffs_at_least_600_dpi": true,
+    "table_1_caption_and_citation": true,
+    "table_2_caption_and_citation": true,
+    "table_3_caption_and_citation": true,
+    "table_4_caption_and_citation": true,
+    "table_5_caption_and_citation": true,
+    "figure_1_caption_and_citation": true,
+    "figure_2_caption_and_citation": true,
+    "figure_3_caption_and_citation": true,
+    "all_reference_families_cited": true
+  },
+  "all_checks_passed": true
+}

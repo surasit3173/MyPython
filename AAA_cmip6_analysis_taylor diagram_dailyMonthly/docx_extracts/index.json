@@ -1,0 +1,23 @@
+[
+  {
+    "file": "D:\\วารสารบูรพา\\ID1558_Manuscript_BSJ (11).docx",
+    "out": "docx_extracts\\ID1558_Manuscript_BSJ_(11).json",
+    "paragraphs": 180,
+    "tables": 5,
+    "images": 6
+  },
+  {
+    "file": "D:\\วารสารบูรพา\\ID1558_correction_plan (1).docx",
+    "out": "docx_extracts\\ID1558_correction_plan_(1).json",
+    "paragraphs": 49,
+    "tables": 17,
+    "images": 0
+  },
+  {
+    "file": "D:\\วารสารบูรพา\\Evaluation of Quantile Delta Mapping for Bias Correction of CMIP6 Daily Rainfall Using Independent Temporal Cross-Validation in Prachuap Khiri Khan Province.docx",
+    "out": "docx_extracts\\Evaluation_of_Quantile_Delta_Mapping_for_Bias_Correction_of_CMIP6_Daily_Rainfall.json",
+    "paragraphs": 235,
+    "tables": 5,
+    "images": 7
+  }
+]

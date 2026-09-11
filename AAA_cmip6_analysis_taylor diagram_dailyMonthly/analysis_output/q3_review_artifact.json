@@ -1,0 +1,325 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "บทวิเคราะห์และแผนต่อยอดงาน CMIP6 อุตรดิตถ์สู่บทความ Q3",
+    "description": "การตรวจต้นฉบับ โค้ด ตารางผลลัพธ์ และบทความอ้างอิงสองบท พร้อมแนวคิดบทความใหม่และลำดับปรับปรุงโค้ด",
+    "generatedAt": "2026-08-31T00:00:00+07:00",
+    "filters": [],
+    "cards": [
+      {
+        "id": "card_gauges",
+        "description": "จำนวนสถานีฝนที่ใช้ในต้นฉบับอุตรดิตถ์",
+        "dataset": "audit_summary",
+        "sourceId": "src_archive",
+        "metrics": [{"label": "สถานีตรวจวัด", "field": "gauges", "format": "number"}]
+      },
+      {
+        "id": "card_gcms",
+        "description": "จำนวนแบบจำลอง CMIP6 ในต้นฉบับ",
+        "dataset": "audit_summary",
+        "sourceId": "src_archive",
+        "metrics": [{"label": "CMIP6 GCMs", "field": "gcms", "format": "number"}]
+      },
+      {
+        "id": "card_code",
+        "description": "ไฟล์ Python ที่ตรวจในกรอบงาน",
+        "dataset": "audit_summary",
+        "sourceId": "src_archive",
+        "metrics": [{"label": "ไฟล์ Python", "field": "python_files", "format": "number"}]
+      },
+      {
+        "id": "card_raw",
+        "description": "ชุดข้อมูลรายวันดิบที่แนบมาและใช้คำนวณผลใหม่ได้",
+        "dataset": "audit_summary",
+        "sourceId": "src_archive",
+        "metrics": [{"label": "ข้อมูลดิบที่แนบ", "field": "raw_daily_datasets", "format": "number"}]
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_priority_counts",
+        "title": "จำนวนประเด็นโค้ดและระเบียบวิธีตามระดับความเร่งด่วน",
+        "subtitle": "ประเด็น Critical ต้องปิดก่อนใช้ผลเชิงตัวเลขในบทความใหม่",
+        "type": "bar",
+        "dataset": "priority_counts",
+        "sourceId": "src_audit",
+        "encodings": {
+          "x": {"field": "severity", "type": "ordinal", "label": "ระดับความเร่งด่วน"},
+          "y": {"field": "count", "type": "quantitative", "label": "จำนวนประเด็น"},
+          "tooltip": [
+            {"field": "severity", "type": "ordinal", "label": "ระดับ"},
+            {"field": "count", "type": "quantitative", "label": "จำนวน"}
+          ]
+        },
+        "xAxisTitle": "ระดับความเร่งด่วน",
+        "yAxisTitle": "จำนวนประเด็น",
+        "valueFormat": "number",
+        "layout": "full",
+        "maxRows": 3
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_findings",
+        "title": "ประเด็นที่ต้องแก้ก่อนวิเคราะห์บทความใหม่",
+        "subtitle": "เรียงจากผลกระทบต่อความถูกต้องและการทำซ้ำ",
+        "dataset": "findings",
+        "sourceId": "src_audit",
+        "density": "comfortable",
+        "layout": "full",
+        "defaultSort": {"field": "rank", "direction": "asc"},
+        "columns": [
+          {"field": "rank", "label": "ลำดับ", "type": "number", "align": "right"},
+          {"field": "severity", "label": "ระดับ", "type": "text"},
+          {"field": "finding", "label": "ข้อค้นพบ", "type": "text"},
+          {"field": "effect", "label": "ผลกระทบ", "type": "text"},
+          {"field": "action", "label": "การแก้ไข", "type": "text"}
+        ]
+      },
+      {
+        "id": "table_comparison",
+        "title": "ช่องว่างจากงานเดิมและสิ่งที่บทความใหม่ต้องเพิ่ม",
+        "subtitle": "เปรียบเทียบคำถาม ข้อมูล วิธี และข้อจำกัด",
+        "dataset": "study_comparison",
+        "sourceId": "src_reference_review",
+        "density": "comfortable",
+        "layout": "full",
+        "defaultSort": {"field": "order", "direction": "asc"},
+        "columns": [
+          {"field": "order", "label": "ลำดับ", "type": "number", "align": "right"},
+          {"field": "study", "label": "งานศึกษา", "type": "text"},
+          {"field": "strength", "label": "จุดแข็ง", "type": "text"},
+          {"field": "gap", "label": "ช่องว่าง", "type": "text"},
+          {"field": "carry_forward", "label": "สิ่งที่นำไปต่อยอด", "type": "text"}
+        ]
+      },
+      {
+        "id": "table_design",
+        "title": "แบบการวิเคราะห์สำหรับบทความใหม่",
+        "subtitle": "ทุกองค์ประกอบเชื่อมกับข้ออ้างที่ตรวจสอบได้",
+        "dataset": "research_design",
+        "sourceId": "src_method_literature",
+        "density": "comfortable",
+        "layout": "full",
+        "defaultSort": {"field": "order", "direction": "asc"},
+        "columns": [
+          {"field": "order", "label": "ลำดับ", "type": "number", "align": "right"},
+          {"field": "component", "label": "องค์ประกอบ", "type": "text"},
+          {"field": "method", "label": "วิธีที่เสนอ", "type": "text"},
+          {"field": "validation", "label": "หลักฐานผ่านเกณฑ์", "type": "text"},
+          {"field": "paper_output", "label": "ผลลัพธ์ในบทความ", "type": "text"}
+        ]
+      },
+      {
+        "id": "table_implementation",
+        "title": "ลำดับปรับปรุงโค้ด",
+        "subtitle": "แต่ละระยะมีเกณฑ์หยุดที่ตรวจสอบได้",
+        "dataset": "implementation_plan",
+        "sourceId": "src_audit",
+        "density": "comfortable",
+        "layout": "full",
+        "defaultSort": {"field": "phase", "direction": "asc"},
+        "columns": [
+          {"field": "phase", "label": "ระยะ", "type": "number", "align": "right"},
+          {"field": "focus", "label": "เป้าหมาย", "type": "text"},
+          {"field": "files", "label": "โมดูลหลัก", "type": "text"},
+          {"field": "deliverable", "label": "สิ่งส่งมอบ", "type": "text"},
+          {"field": "exit", "label": "เกณฑ์ผ่าน", "type": "text"}
+        ]
+      },
+      {
+        "id": "table_pages",
+        "title": "งบหน้าบทความไม่เกิน 15 หน้า",
+        "subtitle": "ย้ายรายละเอียดสถานี แบบจำลอง และ sensitivity เต็มไป Supplement",
+        "dataset": "page_budget",
+        "sourceId": "src_apst_guidelines",
+        "density": "compact",
+        "layout": "full",
+        "defaultSort": {"field": "order", "direction": "asc"},
+        "columns": [
+          {"field": "order", "label": "ลำดับ", "type": "number", "align": "right"},
+          {"field": "section", "label": "ส่วน", "type": "text"},
+          {"field": "pages", "label": "หน้า", "type": "number", "align": "right"},
+          {"field": "content", "label": "เนื้อหาหลัก", "type": "text"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_archive",
+        "label": "Future Changes Uttaradit.zip และตารางผลลัพธ์ที่แนบ",
+        "path": "archive_manifest.csv"
+      },
+      {
+        "id": "src_audit",
+        "label": "บันทึกตรวจโค้ดและการทดลองสังเคราะห์",
+        "path": "research_record.md"
+      },
+      {
+        "id": "src_reference_review",
+        "label": "ต้นฉบับอุตรดิตถ์และบทความ PDF สองบทที่ผู้ใช้ให้",
+        "path": "source_archive/Paper1_APST_manuscript.docx"
+      },
+      {
+        "id": "src_method_literature",
+        "label": "งานวิธี bias adjustment, model weighting และ ENSO-CMIP6",
+        "href": "https://gmd.copernicus.org/articles/15/6165/2022/"
+      },
+      {
+        "id": "src_apst_guidelines",
+        "label": "APST Instructions for Authors",
+        "href": "https://apst.kku.ac.th/instructions-for-authors/"
+      },
+      {
+        "id": "src_apst_metrics",
+        "label": "APST official journal metrics",
+        "href": "https://apst.kku.ac.th/"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# บทวิเคราะห์และแผนต่อยอดงาน CMIP6 อุตรดิตถ์สู่บทความ Q3\n\n**ข้อสรุป:** โครงการเดิมมีฐานที่ดีด้าน split-sample validation, model-consistent baseline, QDM และการเปิดเผยข้อจำกัดของดัชนีเชิงลำดับเวลา แต่ยังไม่พร้อมใช้เป็นฐานคำนวณบทความใหม่จนกว่าจะเติมข้อมูลดิบ แก้ปัญหาปฏิทิน/วันที่หาย/QDM ties และทำ provenance ให้ผลทุกตารางย้อนกลับถึง input และ commit ได้"
+      },
+      {
+        "id": "headline_metrics",
+        "type": "metric-strip",
+        "cardIds": ["card_gauges", "card_gcms", "card_code", "card_raw"]
+      },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "body": "## คำตัดสินเชิงวิชาการ\n\nควรต่อยอดเป็นงาน **ENSO-conditioned compound rainfall extremes** ไม่ควรทำซ้ำเป็นเพียงแผนที่ค่าเฉลี่ยหรือเพิ่มช่วงเวลา งานใหม่ต้องตอบคำถามเดียวให้ชัดว่า: ภายใต้ ENSO และภาวะโลกร้อน ความเสี่ยงของช่วงแห้งยาวที่เปลี่ยนฉับพลันไปเป็นฝนหนักในฤดูมรสุมอุตรดิตถ์เปลี่ยนอย่างไร และความไม่แน่นอนมาจากแบบจำลอง สถานการณ์ สมาชิกเริ่มต้น และวิธีปรับอคติเท่าใด\n\nชื่อที่แนะนำ: **ENSO-Conditioned Seasonal Rainfall Extremes over Uttaradit, Thailand: Dependence-Preserving CMIP6 Projections**"
+      },
+      {
+        "id": "manuscript_strengths",
+        "type": "markdown",
+        "sourceId": "src_reference_review",
+        "body": "## จุดแข็งและจุดที่ผลเดิมเตือนเรา\n\nต้นฉบับเดิมใช้ 13 สถานี 7 CMIP6 GCMs, SSP2-4.5/SSP5-8.5, calibration 1981–2002, validation 2003–2014 และ near future 2021–2050 เทียบ baseline 1995–2014 การแยก calibration/validation และการใช้ baseline ของแบบจำลองเดียวกันเป็นจุดแข็งชัดเจน อย่างไรก็ตาม ในช่วง validation QDM ยังมี mean absolute bias สูง เช่น PRCPTOT 15.82%, Rx5day 31.52% และ CDD แย่ลงจาก raw 48.43% เป็น 49.84% จึงห้ามตีความดัชนี spell/sequence เสมือนว่าได้รับการแก้เพียงเพราะ marginal distribution ดีขึ้น"
+      },
+      {
+        "id": "priority_intro",
+        "type": "markdown",
+        "body": "## สิ่งที่ต้องแก้ก่อนเชื่อผลใหม่\n\nกราฟนับเฉพาะข้อค้นพบที่มีผลต่อความถูกต้อง การทำซ้ำ หรือการสื่อสารข้ออ้าง ไม่รวมข้อเสนอปรับรูปแบบเล็กน้อย"
+      },
+      {"id": "priority_chart", "type": "chart", "chartId": "chart_priority_counts"},
+      {"id": "findings_table", "type": "table", "tableId": "table_findings"},
+      {
+        "id": "reference_synthesis",
+        "type": "markdown",
+        "body": "## บทเรียนจากบทความอ้างอิงสองบท\n\nบทความปี 2023 ให้บริบทการฉายภาพภูมิอากาศภาคตะวันออกเฉียงเหนือ แต่รายละเอียด bias correction และ precipitation validation ไม่พอให้ทำซ้ำ ส่วนบทความปี 2026 เพิ่มมิติฤดูกาลและ ENSO ซึ่งเหมาะต่อยอดมากกว่า แต่ต้องแก้ phase alignment ข้ามปี รายงานขนาดตัวอย่าง ควบคุม multiple testing และแยกความสามารถจับ seasonal cycle ออกจาก interannual anomaly skill"
+      },
+      {"id": "comparison_table", "type": "table", "tableId": "table_comparison"},
+      {
+        "id": "novelty",
+        "type": "markdown",
+        "body": "## แนวคิดบทความใหม่และ novelty\n\n**คำถามหลัก:** ENSO เปลี่ยนความน่าจะเป็นของเหตุการณ์ compound dry-to-wet transition—เช่น CDD ตามด้วยฝนเกิน percentile 95 ภายใน 3–5 วัน—อย่างไรในอดีตและอนาคตใกล้ และผลนั้นยังคงอยู่หรือไม่เมื่อใช้วิธี bias adjustment ที่รักษาลำดับเวลา\n\n**novelty ที่ขายได้:** (1) เปลี่ยนจาก marginal QDM เป็นการเปรียบเทียบ QDM กับ dependence-preserving adjustment; (2) ประเมิน ENSO teleconnection fidelity ของแต่ละ GCM ก่อนถ่วงน้ำหนัก; (3) ใช้ nested blocked/leave-event-out validation; (4) แยก uncertainty ของ model–scenario–member–method; และ (5) สรุปผลเป็น risk metric ที่ใช้กับการจัดการน้ำได้โดยไม่สร้างรายละเอียดเชิงพื้นที่เกินข้อมูล 13 สถานี"
+      },
+      {"id": "design_table", "type": "table", "tableId": "table_design"},
+      {
+        "id": "code_plan_intro",
+        "type": "markdown",
+        "body": "## แผนปรับปรุงโค้ด\n\nลำดับนี้ตั้งใจหยุดความเสี่ยงจากข้อมูลและปฏิทินก่อนเพิ่มวิธีใหม่ ทุกระยะต้องสร้าง machine-readable manifest, test report และตาราง trace จากผลกลับไปยังไฟล์ต้นทาง"
+      },
+      {"id": "implementation_table", "type": "table", "tableId": "table_implementation"},
+      {
+        "id": "paper_structure",
+        "type": "markdown",
+        "body": "## โครงบทความ 15 หน้า\n\nใช้รูปหลักไม่เกิน 5 รูป: workflow/provenance, cross-validation performance, historical ENSO-conditioned anomalies, future compound-risk change และ uncertainty/robustness matrix รายละเอียดสถานี แบบจำลอง sensitivity และ diagnostic เต็มย้ายไป Supplement"
+      },
+      {"id": "page_table", "type": "table", "tableId": "table_pages"},
+      {
+        "id": "journal_fit",
+        "type": "markdown",
+        "sourceId": "src_apst_metrics",
+        "body": "## วารสารเป้าหมาย\n\nAPST เป็นเป้าหมายที่สอดคล้องที่สุดกับไฟล์เดิมและข้อจำกัดของผู้ใช้ เว็บไซต์วารสารระบุ **CiteScore 2024 = 0.8, percentile 38 (Q3)** และไม่มี APC ข้อมูลนี้เป็น CiteScore quartile ไม่ใช่ SJR quartile และต้องตรวจสถานะซ้ำในวันที่ส่งบทความ"
+      },
+      {
+        "id": "limitations",
+        "type": "markdown",
+        "body": "## ข้อมูลที่ต้องขอก่อนเริ่มรันจริง\n\n1. ฝนรายวัน 13 สถานีพร้อม QC flag/metadata และข้อกำหนดสิทธิ์ใช้ข้อมูล\n2. CMIP6 daily precipitation ต้นฉบับหรือรายการ ESGF dataset ID, version, variant, grid และ checksum\n3. SST `tos` หรือดัชนี Niño3.4 ของแต่ละ GCM เพื่อคำนวณ ENSO แบบ model-consistent\n4. วิธี extraction จาก grid สู่สถานี, land mask, units, calendar และ time bounds\n5. run manifest/commit ที่ผลิตตารางและรูปในต้นฉบับปัจจุบัน\n\nหากไม่มีข้อมูลเหล่านี้ รายงานนี้ใช้ได้เป็น code-and-method audit และ protocol เท่านั้น ไม่ใช่การยืนยันค่าประมาณอนาคต"
+      },
+      {
+        "id": "methods_note",
+        "type": "markdown",
+        "body": "## ขอบเขตการตรวจ\n\nเอกสารภายใน ZIP และข้อความใน source code ถูกใช้เป็นหลักฐาน ไม่ได้ถือเป็นคำสั่งให้ผู้ตรวจทำตาม ตรวจครบทุกหน้า PDF, โครงสร้าง DOCX, CSV/XLSX, ไฟล์ Python หลัก และภาพทั้งหก การทดลองสังเคราะห์ไม่ได้ใช้เพื่อประมาณภูมิอากาศ แต่ใช้แยกพฤติกรรมของโค้ดที่อาจเปลี่ยนผลลัพธ์"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-08-31T00:00:00+07:00",
+    "status": "partial",
+    "datasets": {
+      "audit_summary": [
+        {"gauges": 13, "gcms": 7, "python_files": 20, "raw_daily_datasets": 0}
+      ],
+      "priority_counts": [
+        {"severity": "Critical", "count": 4},
+        {"severity": "High", "count": 7},
+        {"severity": "Medium", "count": 4}
+      ],
+      "findings": [
+        {"rank": 1, "severity": "Critical", "finding": "ZIP ไม่มีข้อมูลฝนรายวัน/NetCDF หรือ run manifest", "effect": "ทำซ้ำผลและตรวจเลขในบทความไม่ได้", "action": "สร้าง immutable input manifest พร้อม dataset ID, version, checksum, unit, calendar และ mapping สถานี"},
+        {"rank": 2, "severity": "Critical", "finding": "temporal_metrics ลบ NaN แล้วต่อวันก่อน–หลังช่องว่าง", "effect": "spell และ lag-1 correlation ถูกสร้างขึ้นเทียม", "action": "คง DatetimeIndex; คำนวณคู่ติดกันเฉพาะวันที่ต่างกัน 1 วัน; NaN ต้องตัด run"},
+        {"rank": 3, "severity": "Critical", "finding": "annual_indices แทรก 29 ก.พ. ให้ no-leap models", "effect": "Rx5day/CDD/CWD เปลี่ยนเพราะปฏิทิน ไม่ใช่ภูมิอากาศ", "action": "ใช้ cftime/native calendar หรือ harmonization policy ที่มี unit tests"},
+        {"rank": 4, "severity": "Critical", "finding": "config มี Near เท่านั้น แต่ output/scripts กล่าวถึง Mid/Late และ SSP5-8.5 Late", "effect": "ไม่ทราบว่าไฟล์ผลมาจาก run/config ใด", "action": "ฝัง config hash, code commit และ input hashes ในทุก output; fail หาก provenance ไม่ตรง"},
+        {"rank": 5, "severity": "High", "finding": "QDM ใช้ np.interp บนค่าฝน target ที่ซ้ำ", "effect": "ค่าผูกกันได้ last rank แทน midrank และเปลี่ยน quantile delta", "action": "ใช้ empirical CDF ที่รองรับ ties เช่น average rank/unique-value CDF พร้อม property tests"},
+        {"rank": 6, "severity": "High", "finding": "ไม่มี annual/seasonal completeness rule", "effect": "ปีข้อมูลไม่ครบยังถูกรวมใน PRCPTOT, counts และ extremes", "action": "กำหนด coverage และ maximum-gap threshold; รายงาน n_valid_days/n_years ทุกสถิติ"},
+        {"rank": 7, "severity": "High", "finding": "Gate H คำนวณ missing_calendar_days แต่ไม่เพิ่มเป็น error", "effect": "ไฟล์มีช่องว่างภายในยังผ่าน gate ได้", "action": "ทำ gap/duplicate/calendar mismatch เป็น blocking error ตามนโยบายที่กำหนด"},
+        {"rank": 8, "severity": "High", "finding": "Gate H เปรียบเทียบ R20/R50 ทั้งช่วง 20 ปีกับ 30 ปีและเปรียบเทียบ maxima", "effect": "จำนวนเหตุการณ์เพิ่มเชิงกลเพราะหน้าต่างยาวกว่า และ maximum มี sample-size bias", "action": "คำนวณ annual indices ก่อน แล้วใช้ equal-length block bootstrap/annual-rate changes"},
+        {"rank": 9, "severity": "High", "finding": "_load_source_trace ให้ verdict=True เมื่อพบ findings CSV", "effect": "ผล BLOCKED ภายใน trace อาจถูกตีความว่าผ่าน", "action": "อ่าน gate_h_verdict.csv และ require PASS ทุกเงื่อนไข"},
+        {"rank": 10, "severity": "High", "finding": "discover_raw เก็บไฟล์แรกเมื่อ model/scenario ซ้ำ", "effect": "variant/grid/version อาจเลือกโดยลำดับไฟล์โดยไม่ตั้งใจ", "action": "fail on ambiguity และบังคับ unique tuple model-scenario-member-grid-version"},
+        {"rank": 11, "severity": "High", "finding": "คู่มือกล่าวว่ารองรับ 360_day แต่ parser ใช้ pandas datetime", "effect": "วันที่เช่น 30 ก.พ. ไม่สามารถแทนได้", "action": "ใช้ xarray/cftime ตั้งแต่ ingestion ถึง metrics และเพิ่ม 360_day fixture"},
+        {"rank": 12, "severity": "Medium", "finding": "ensemble และ station aggregation ใช้น้ำหนักเท่ากัน", "effect": "model families และสถานีที่แชร์ grid cell อาจถูกนับซ้ำ", "action": "รายงาน equal-weight เป็น baseline แล้วเพิ่ม independence/performance weights และ spatial cluster weights"},
+        {"rank": 13, "severity": "Medium", "finding": "variance decomposition รวม station/interactions ไว้ใน residual", "effect": "สัดส่วน uncertainty ตีความแหล่งที่มาได้ไม่ตรง", "action": "ใช้ hierarchical mixed-effects/ANOVA ที่ระบุ model, scenario, member, method, station และ interactions"},
+        {"rank": 14, "severity": "Medium", "finding": "ไม่มี test suite และ dependency ใช้ lower bounds", "effect": "ผลอาจเปลี่ยนตาม package version โดยไม่ตรวจพบ", "action": "เพิ่ม pytest/property tests, lockfile และบันทึก environment digest"},
+        {"rank": 15, "severity": "Medium", "finding": "Figure 6 ใช้ผิว IDW เรียบจาก 13 สถานีและบางโมเดลมี series ซ้ำ", "effect": "สร้างรายละเอียดเชิงพื้นที่เกินความละเอียดข้อมูล", "action": "ใช้ station-point/Voronoi/native-grid map พร้อม uncertainty และจำนวน unique grid cells"}
+      ],
+      "study_comparison": [
+        {"order": 1, "study": "Northeast Thailand (2023)", "strength": "ให้บริบท RCP4.5/RCP8.5 และผลรายจังหวัด", "gap": "bias correction/validation ไม่ทำซ้ำได้; uncertainty และ trend inference จำกัด", "carry_forward": "เก็บบริบทภูมิภาค แต่ไม่ใช้วิธี validation เดิม"},
+        {"order": 2, "study": "Thailand seasonal rainfall–ENSO (2026)", "strength": "เพิ่มฤดูกาล ENSO และการสื่อสารเชิงพื้นที่", "gap": "4 สถานี, phase alignment ไม่ชัด, ไม่มี field significance; Table 2 ไม่ reconcile", "carry_forward": "ใช้ ENSO เป็นตัวปรับสภาพ แต่ต้อง leave-event-out validation และ FDR"},
+        {"order": 3, "study": "Uttaradit CMIP6 manuscript", "strength": "split sample, QDM, 7 GCMs, diagnostics และ model-consistent baseline", "gap": "marginal adjustment ไม่แก้ sequence; provenance/data package ไม่ครบ", "carry_forward": "ใช้เป็น benchmark และเปลี่ยน primary question ไปที่ compound/sequence risk"},
+        {"order": 4, "study": "Proposed new paper", "strength": "ENSO-conditioned, dependence-preserving, uncertainty-explicit", "gap": "ต้องมี raw daily data และ model SST/member data เพิ่ม", "carry_forward": "ผลลัพธ์เป็น risk ratio/return period พร้อม robustness และ decision relevance"}
+      ],
+      "research_design": [
+        {"order": 1, "component": "Data contract", "method": "Gauge QC + CMIP6 pr/tos manifest; native calendar; station-to-grid trace", "validation": "checksum, unit/calendar tests, no ambiguous tuples", "paper_output": "Figure 1 workflow และ Table 1 data/models"},
+        {"order": 2, "component": "Bias adjustment", "method": "Benchmark raw/QDM เทียบ temporal-cascade หรือ occurrence-Markov + QDM intensity", "validation": "nested blocked CV และ leave-ENSO-event-out", "paper_output": "Figure 2 marginal/spell/tail skill"},
+        {"order": 3, "component": "ENSO conditioning", "method": "ONI สำหรับ observations และ model-consistent Niño3.4 จาก tos; cross-year seasons explicit", "validation": "phase sample size, permutation/event bootstrap, FDR field control", "paper_output": "Figure 3 historical conditional anomalies"},
+        {"order": 4, "component": "Compound extremes", "method": "CDD-to-R95p transition within 3–5 days; onset/cessation; R95p/R99p sensitivity", "validation": "threshold/window sensitivity และ block bootstrap confidence interval", "paper_output": "Figure 4 future risk ratio"},
+        {"order": 5, "component": "Ensemble uncertainty", "method": "Equal-weight baseline + performance/independence weighting; members if available", "validation": "perfect-model/leave-one-model-out test และ weight sensitivity", "paper_output": "Figure 5 robustness matrix"},
+        {"order": 6, "component": "Spatial aggregation", "method": "unique-grid/station-cluster weights; no smooth IDW field", "validation": "leave-one-station-out และ alternative weights", "paper_output": "compact table + station point map in Supplement"}
+      ],
+      "implementation_plan": [
+        {"phase": 0, "focus": "ปิดช่องว่างข้อมูล", "files": "new data_manifest.py; schemas", "deliverable": "input_manifest.parquet/json + checksums", "exit": "ผลทุกชุดย้อนกลับถึง input/version ได้"},
+        {"phase": 1, "focus": "แก้ correctness", "files": "io_data.py, metrics.py, temporal.py, bc.py, gate_h_source_trace.py", "deliverable": "calendar/missingness/tie-safe core", "exit": "synthetic Gregorian/noleap/360_day/ties/gaps tests ผ่าน"},
+        {"phase": 2, "focus": "สร้าง validation harness", "files": "new cv.py, tests/, run_pipeline.py", "deliverable": "blocked CV + leave-event-out report", "exit": "ไม่มี leakage และผล benchmark ทำซ้ำได้จาก clean run"},
+        {"phase": 3, "focus": "เพิ่ม dependence-preserving method", "files": "new occurrence.py/temporal_adjust.py", "deliverable": "QDM vs temporal method comparison", "exit": "marginal skillไม่ถดถอยอย่างมีนัยสำคัญและ spell/tail skill ดีขึ้น"},
+        {"phase": 4, "focus": "เพิ่ม ENSO และ compound indices", "files": "new enso.py, compound.py", "deliverable": "phase-conditioned historical/future estimates", "exit": "phase alignment, sample size, bootstrap และ FDR audit ผ่าน"},
+        {"phase": 5, "focus": "uncertainty/weighting", "files": "analysis.py, new weighting.py", "deliverable": "model-scenario-member-method decomposition", "exit": "weight sensitivity และ leave-one-model-out ไม่พลิกข้อสรุปหลัก"},
+        {"phase": 6, "focus": "สร้าง manuscript outputs", "files": "figures.py, build_new_paper.py", "deliverable": "5 figures, 4 tables, supplement, provenance bundle", "exit": "ตัวเลขใน text/table/figure สร้างจาก artifact เดียวกันและครบ ≤15 หน้า"}
+      ],
+      "page_budget": [
+        {"order": 1, "section": "Title, abstract, keywords", "pages": 0.75, "content": "คำถาม วิธี ผลหลัก และ implication"},
+        {"order": 2, "section": "Introduction", "pages": 1.25, "content": "ช่องว่าง sequence–ENSO–uncertainty และสมมติฐาน"},
+        {"order": 3, "section": "Materials and methods", "pages": 3.0, "content": "data contract, CV, adjustment, ENSO, compound metric, uncertainty"},
+        {"order": 4, "section": "Results", "pages": 5.0, "content": "validation, historical ENSO, future compound risk, robustness"},
+        {"order": 5, "section": "Discussion", "pages": 2.0, "content": "กลไก ข้อจำกัด เทียบวรรณกรรม และการใช้ประโยชน์"},
+        {"order": 6, "section": "Conclusion", "pages": 0.5, "content": "คำตอบ 3–4 ข้อโดยไม่กล่าวเกินข้อมูล"},
+        {"order": 7, "section": "References", "pages": 2.0, "content": "อ้างอิงเฉพาะงานจำเป็น; รวมทั้งสิ้น 14.5 หน้า"}
+      ]
+    },
+    "accessIssues": [
+      {
+        "id": "missing_raw_inputs",
+        "scope": "numerical reproduction",
+        "severity": "blocking",
+        "message": "ZIP ไม่มี gauge daily series, CMIP6 raw/extracted daily data, SST/ENSO data และ run manifest จึงไม่สามารถรันซ้ำหรือยืนยันตัวเลขอนาคตได้"
+      }
+    ]
+  },
+  "sources": []
+}

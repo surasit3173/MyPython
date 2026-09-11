@@ -1,0 +1,2741 @@
+{
+  "path": "C:\\Users\\PC\\Downloads\\EnNRJ_Uttaradit_CMIP6_Precipitation_Extremes_Revised.docx",
+  "metadata": {
+    "title": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios",
+    "subject": "CMIP6 precipitation-extreme projections for Uttaradit Province",
+    "author": "Surasit Punyawansiri",
+    "last_modified_by": "Dr.Surasit Punyawansiri",
+    "created": "2026-09-06T11:53:00+00:00",
+    "modified": "2026-09-06T11:54:00+00:00"
+  },
+  "paragraph_count": 118,
+  "table_count": 5,
+  "inline_shape_count": 3,
+  "word_counts": {
+    "paragraphs": 4663,
+    "tables": 860,
+    "total": 5523
+  },
+  "sections": [
+    {
+      "index": 0,
+      "page_width_in": 8.268055555555556,
+      "page_height_in": 11.693055555555556,
+      "top_margin_in": 0.7479166666666667,
+      "bottom_margin_in": 0.7479166666666667,
+      "left_margin_in": 1.0,
+      "right_margin_in": 1.0
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios",
+      "total_chars": 82,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*",
+      "total_chars": 23,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand",
+      "total_chars": 96,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "*Corresponding author: Surasit.pu@ku.th",
+      "total_chars": 39,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 1,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Abstract",
+      "total_chars": 8,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "Projected changes in precipitation extremes were assessed for Uttaradit Province, northern Thailand, using daily series at 13 rain gauges from seven bias-corrected Coupled Model Intercomparison Project Phase 6 (CMIP6) models under SSP2-4.5 and SSP5-8.5. Eleven annual indices were calculated for 2021–2050 and compared with each model’s 1995–2014 baseline. A model-first scheme summarized station medians within each model before estimating the seven-model median, interquartile range, range, and sign agreement. Station-referenced inverse-distance weighting described spatial contrasts in annual total wet-day precipitation (PRCPTOT). Under SSP2-4.5, median changes were +2.9% for PRCPTOT, +6.1% for maximum 1-day precipitation (Rx1day), +4.2% for maximum 5-day precipitation (Rx5day), and +26.7% for extremely wet-day precipitation (R99p). All seven models indicated increases in Rx1day and R99p, and six indicated higher Rx5day. Under SSP5-8.5, corresponding medians were +0.9%, +12.3%, +2.9%, and +14.4%, respectively, although model ranges crossed zero. PRCPTOT changes were weakly positive at most stations, with localized negative areas under both scenarios. The results suggest possible intensification of short-duration and upper-tail rainfall without a comparably robust increase in annual total. Wide inter-model spread, model non-independence, and the descriptive nature of the spatial interpolation limit deterministic interpretation.",
+      "total_chars": 1447,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Keywords: rainfall extremes; climate projections; ETCCDI; CMIP6; SSP scenarios; Uttaradit Province",
+      "total_chars": 98,
+      "bold_fraction": 0.10204081632653061,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Highlights",
+      "total_chars": 10,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "• Seven CMIP6 models projected near-term extremes at 13 rain gauges.",
+      "total_chars": 68,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "• Rx1day increased in all models under SSP2-4.5.",
+      "total_chars": 48,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "• R99p median change reached 26.7%, but model spread was wide.",
+      "total_chars": 62,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "• PRCPTOT change was weakly positive with local negative pockets.",
+      "total_chars": 65,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "• IDW maps depict station contrast, not gridded climate forecasts.",
+      "total_chars": 66,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 1,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "1. Introduction",
+      "total_chars": 15,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "Precipitation extremes influence flood generation, soil erosion, reservoir operation, agricultural water demand, and drought exposure. A warmer atmosphere can hold more moisture, but regional circulation and monsoon variability determine whether this thermodynamic potential appears as higher event intensity, altered wet-day frequency, or longer dry and wet spells. Consequently, changes in annual precipitation totals alone do not describe the full hydroclimatic response (Alexander et al., 2006; Intergovernmental Panel on Climate Change, 2021; Zhang et al., 2011). A coordinated set of intensity, duration, frequency, and percentile-based indices is therefore required to identify potentially important changes in both rainfall accumulation and distribution.",
+      "total_chars": 762,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) and Scenario Model Intercomparison Project provide a coordinated framework for examining future climate under alternative forcing pathways (Eyring et al., 2016; O’Neill et al., 2016). SSP2-4.5 represents an intermediate pathway approaching 4.5 W/m² of radiative forcing by 2100, whereas SSP5-8.5 represents a very high-forcing, fossil-fueled pathway approaching 8.5 W/m² (Riahi et al., 2017). These scenarios are conditional pathways, not forecasts of a single future. Multi-model ensembles reveal structural differences among models, but their members are neither independent nor equally credible at every location. Ensemble summaries are therefore interpreted here as descriptive evidence conditioned on the selected models, scenarios, and processing chain rather than as calibrated probabilities (Knutti et al., 2017; Sillmann et al., 2013a; Sillmann et al., 2013b). This distinction is especially important for precipitation tails, for which model spread and small baseline values can produce large relative changes.",
+      "total_chars": 1078,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "Local applications also depend on downscaling and bias correction. These procedures can improve the representation of observed distributions, but they may alter temporal dependence, wet-day occurrence, and event sequencing if not evaluated for the target statistic (Cannon et al., 2015; Maraun, 2016; Maraun et al., 2017). Regional studies over Southeast Asia and Thailand indicate spatially heterogeneous future rainfall extremes, substantial inter-model spread, and sensitivity to model or method selection (Humphries et al., 2024; Kuinkel et al., 2024; Nontikansak et al., 2022; Try and Qin, 2024; Waqas and Humphries, 2025; Zhang et al., 2024). Recent observational syntheses likewise show that Thai rainfall variability cannot be represented by one national trend (Chaiwino et al., 2025; de Oliveira-Júnior et al., 2025; Madolli et al., 2025). Province-scale, station-referenced evidence remains useful for planning when its uncertainty and spatial support are stated explicitly.",
+      "total_chars": 984,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "Uttaradit Province lies in upper northern Thailand and contains a rain-gauge network spanning low-elevation and upland settings. The available projections support a near-term comparison for 2021–2050, a period directly relevant to infrastructure and water-management decisions. However, a defensible provincial assessment must preserve station-level information, apply a consistent historical baseline within each model, and distinguish spatial visualization from independently validated gridded projection.",
+      "total_chars": 507,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "This study evaluated projected changes in 11 annual precipitation-extreme indices at 13 stations in Uttaradit Province under SSP2-4.5 and SSP5-8.5. The objectives were to (1) quantify model-first changes for 2021–2050 relative to 1995–2014, including interquartile range, full model range, and sign agreement; (2) describe the spatial pattern of station-level PRCPTOT changes using inverse-distance weighting (IDW); and (3) provide concise observational and future-window trend diagnostics without conflating them with baseline-to-future climatological change. The primary contribution is a transparent, projection-focused synthesis in which ensemble spread and limits of spatial inference are treated as results rather than ancillary qualifications.",
+      "total_chars": 750,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "2. Methodology",
+      "total_chars": 14,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "2.1 Study area and data",
+      "total_chars": 23,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "The analysis used 13 rain gauges distributed across Uttaradit Province (Figure 1 and Table 1). Station coordinates ranged from 17.2300°N to 18.0200°N and from 100.0500°E to 101.0700°E; supplied station elevations ranged from 54.57 to 427.85 m MSL. Coordinates used for analysis were read directly from the validated station input. Elevation was retained as descriptive metadata and did not enter the statistical or IDW calculations.",
+      "total_chars": 432,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "Table 1. Rain-gauge stations used in the Uttaradit analysis.",
+      "total_chars": 60,
+      "bold_fraction": 0.15,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "Note: Station IDs and coordinates are the inputs used in the analysis. Elevation is supplied station metadata and was not used to calculate the indices, trends, changes, or IDW weights. Station names were not created because the analytical input identifies gauges by ID only.",
+      "total_chars": 275,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "Figure 1. Location of Uttaradit Province and the 13 rain gauges used in the analysis. The inset identifies the province within Thailand. Station labels are gauge IDs; no station names were inferred.",
+      "total_chars": 198,
+      "bold_fraction": 0.050505050505050504,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "The observed input comprised daily precipitation from 1 January 1981 to 31 December 2014. Seven supplied bias-corrected CMIP6 daily precipitation series were analyzed (Table 2). For each model, 1995–2014 was used as the model-consistent historical baseline, and 2021–2050 was used as the future period. The 1995–2014 interval was selected as a recent-past reference because it is widely used in the Intergovernmental Panel on Climate Change Sixth Assessment Report, ends with the final year of the CMIP6 historical experiment, and facilitates comparison with assessments framed against the AR6 reference period (Intergovernmental Panel on Climate Change, 2021). CMIP6 scenario simulations begin in 2015; 2015–2020 was excluded to retain a discrete 30-year future window. The file inventory included one ensemble member and a native or regridded grid label for each model. Because the supplied daily files did not contain complete metadata for the preceding bias-correction implementation, that procedure was neither reconstructed nor independently validated; all conclusions are conditional on the supplied corrected series.",
+      "total_chars": 1124,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "Table 2. CMIP6 global climate models used in the study.",
+      "total_chars": 55,
+      "bold_fraction": 0.16363636363636364,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "Note: Historical files span 1981–2014; 1995–2014 was the model baseline. Future files cover 2021–2050 under SSP2-4.5 and SSP5-8.5. Bias-correction metadata were incomplete.",
+      "total_chars": 172,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "2.2 Precipitation indices and quality control",
+      "total_chars": 45,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "Eleven annual precipitation indices represented wet-day amount and intensity, annual maxima, spell duration, fixed-threshold frequency, and percentile exceedance totals (Table 3). These follow the Expert Team on Climate Change Detection and Indices framework except R50mm, which is a study-specific fixed-threshold count (Alexander et al., 2006; Zhang et al., 2011). A wet day was defined as daily precipitation RR≥1 mm. The station-specific 95th- and 99th-percentile thresholds were estimated from all observed wet days during 1981–2014 and held fixed for observed and model calculations. This fixed-reference construction prevents the percentile threshold itself from changing between periods.",
+      "total_chars": 695,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "Table 3. Definitions of precipitation-extreme indices.",
+      "total_chars": 54,
+      "bold_fraction": 0.16666666666666666,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "Note: RR denotes daily precipitation. A wet day was RR≥1 mm. Station-specific P95 and P99 thresholds were estimated from observed wet days during 1981–2014 and then held fixed. R50mm is a study-specific fixed-threshold index.",
+      "total_chars": 225,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "Daily records were converted to numeric values after explicit removal of predefined missing-value flags. Invalid dates, duplicate dates, negative precipitation, duplicate normalized station IDs, and nonnumeric values were rejected rather than silently repaired. Each series was reindexed to the complete Gregorian calendar. No missing precipitation was imputed; a missing date interrupted a consecutive spell and invalidated any five-day window containing it. An annual index was retained only when at least 90% of calendar days were valid. All 442 observed station-years and all 5,460 future station-model-scenario-years passed this criterion. The minimum completeness was 100% for observations and 99.73% for model series. The resulting data contained 4,862 observed and 60,060 future annual-index values. Observed station thresholds ranged from 12.700 to 43.370 mm for P95 and from 19.723 to 89.553 mm for P99.",
+      "total_chars": 913,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "2.3 Trend inference and multiplicity",
+      "total_chars": 36,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "The standard two-sided Mann–Kendall (MK) test was the primary trend inference for the 1981–2014 observed annual series (Mann, 1945). For n observations, the score S was calculated by Equation 1, with ties included in the variance in Equation 2. The continuity-corrected standardized statistic in Equation 3 was evaluated against the standard normal distribution at α=0.05.",
+      "total_chars": 372,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "(1)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "(2)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "(3)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "Trend magnitude was estimated with Sen’s median pairwise slope (Equation 4), where t denotes year (Sen, 1968). Because 13 stations and 11 indices produced 143 simultaneous observed tests, the Benjamini–Hochberg false-discovery-rate (BH-FDR) procedure was applied as one family at q=0.05. Ordered p-values were compared with the criterion in Equation 5, where m=143 and k is the largest passing rank (Benjamini and Hochberg, 1995). Both unadjusted MK counts and BH-FDR-retained counts were reported so that multiplicity control is transparent.",
+      "total_chars": 542,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "(4)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "(5)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "Serial dependence was examined using the Yue–Wang detrended effective-sample-size formulation as a sensitivity diagnostic, not as the primary decision rule (Yue and Wang, 2004). After removal of the Sen trend, the full-lag factor and adjusted variance were calculated by Equation 6. This implementation differs from the rank-autocorrelation modification of Hamed and Rao (1998). Factors below one occurred frequently in the short annual series and can reduce the variance; therefore, sensitivity-test significance was not interpreted as confirmatory evidence.",
+      "total_chars": 559,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "(6)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "2.4 Projection-change aggregation",
+      "total_chars": 33,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "For model m, scenario s, index i, and station j, the relative change compared the future-period mean with the same model’s historical mean (Equation 7). Using a model-consistent baseline avoids combining observed and modeled climatologies in the denominator. If the baseline mean was zero, relative change was undefined and recorded as missing; no arbitrary denominator or offset was introduced. This occurred for R99p at station 351011 in seven models under both scenarios (14 station-level rows). Those values were excluded from the relevant station-median calculation, leaving 12 stations for each model’s R99p summary.",
+      "total_chars": 622,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "(7)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "Aggregation was model-first. Equation 8 took the median across stations within each model. Equation 9 then took the median across the seven model-level values; the interquartile range (IQR), full range, and counts of positive, negative, and zero model medians were calculated from the same seven values. This order gives every model one contribution to the ensemble summary, regardless of the magnitude of its within-province spatial variation. The seven-model median is a descriptive measure of central tendency and not an estimate of event probability or formal model independence.",
+      "total_chars": 583,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "(8)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "(9)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "A standard MK test was also applied separately to each 2021–2050 model–station–scenario–index annual series. These 2,002 tests were retained only as unadjusted within-window diagnostics. They answer whether an index changed monotonically during 2021–2050, whereas Equations 7–9 answer whether its future climatological level differed from the 1995–2014 baseline. No field-significance claim was made from the diagnostic counts.",
+      "total_chars": 427,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "2.5 Spatial depiction",
+      "total_chars": 21,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "For PRCPTOT, the relative change was first summarized as the median across seven models at each station and scenario. IDW with power p=2 was then applied using great-circle distances in kilometers (Equation 10), where zⱼ is the station value and dⱼ is its distance to an interpolation point (Shepard, 1968). The surface was evaluated on a regular grid and clipped to the Uttaradit provincial polygon. The same symmetric percentage scale was used for both scenarios. Values outside the station convex hull, including the far northern part of the polygon, are spatial extrapolations. The maps are descriptive station-referenced depictions, not dynamically downscaled or independently validated continuous-resolution climate projections.",
+      "total_chars": 734,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "(10)",
+      "total_chars": 6,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "3. Results and Discussion",
+      "total_chars": 25,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "3.1 Data readiness and historical context",
+      "total_chars": 41,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "Quality control retained the complete intended station network and all required model–scenario files. The standard MK test identified significant trends in 30 of 143 observed station–index series; BH-FDR retained 14. No station showed a significant PRCPTOT trend by either decision rule, and the station-median Sen slope was −6.75 mm/decade (Table 4). The BH-FDR results were spatially heterogeneous: retained changes included three decreases in CDD, three R50mm changes in opposing directions, and mixed R95p and R99p directions. The observed period therefore provides local context but does not establish a uniform historical trajectory from which future changes can be extrapolated.",
+      "total_chars": 685,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "Table 4. Observed precipitation-index trends at 13 stations during 1981–2014.",
+      "total_chars": 77,
+      "bold_fraction": 0.11688311688311688,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "Note: MK inc., MK dec., and MK NS are counts from the standard two-sided Mann–Kendall test at α=0.05. BH inc. and BH dec. are counts retained after Benjamini–Hochberg false-discovery-rate control across all 143 station–index tests. Sen slopes retain the index unit per decade.",
+      "total_chars": 276,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "3.2 Projected changes across precipitation indices",
+      "total_chars": 50,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "The model-first ensemble showed that projected changes in event maxima and upper-tail totals were generally larger than the change in annual wet-day precipitation (Table 5 and Figure 2). Under SSP2-4.5, the median PRCPTOT change was +2.9% (IQR −4.0% to +4.9%; range −5.4% to +18.1%), with four model medians positive and three negative. By contrast, Rx1day increased by a median of 6.1% (IQR +0.5% to +15.4%) and R99p by 26.7% (IQR +13.7% to +33.5%); all seven model-level medians were positive for both indices. Rx5day increased by 4.2%, with six of seven models positive. These sign patterns provide stronger ensemble evidence for intensified short-duration and upper-tail precipitation than for a uniform increase in annual total.",
+      "total_chars": 733,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Under SSP5-8.5, median PRCPTOT change remained weakly positive at +0.9% (IQR −5.0% to +5.5%; range −9.9% to +15.3%), again with a four-to-three split in sign. Rx1day had the largest scenario amplification among the headline indices, with a median increase of 12.3% compared with 6.1% under SSP2-4.5. Nevertheless, its model range extended from −10.6% to +23.4%, and only five models were positive. Median changes in Rx5day and R99p were +2.9% and +14.4%, respectively, but their IQRs crossed zero and sign agreement weakened to five of seven and four of seven models. The higher forcing scenario therefore did not yield a uniformly larger median response across all indices.",
+      "total_chars": 674,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "The remaining indices reinforced the mixed character of the projections. Under SSP2-4.5, CDD had a median change of −2.1% with six models negative, while R10mm and R20mm had small negative medians of −0.9% and −2.6%. R50mm increased by a median of 24.4%, and R95p by 4.5%, but their ranges crossed zero. Under SSP5-8.5, median changes were −2.4% for SDII, −3.0% for R10mm, −3.1% for R20mm, +17.5% for R50mm, and +4.3% for R95p. R50mm and R99p displayed particularly broad ranges because rare-event totals or counts can have small baseline means. Their percentage changes should therefore be read together with ensemble spread rather than treated as typical deterministic outcomes.",
+      "total_chars": 680,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "Table 5. Model-first relative changes in annual precipitation indices for 2021–2050 relative to 1995–2014.",
+      "total_chars": 106,
+      "bold_fraction": 0.08490566037735849,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "Note: For each model, station-level relative changes were summarized by the station median; the displayed median, IQR, and range were then calculated across the seven model-level values. +/−/0 denotes the number of model-level station medians above/below/equal to zero. Undefined R99p relative changes at station 351011 (zero baseline) were excluded, so the within-model R99p median used 12 stations. The ensemble statistics are descriptive and do not assume model independence.",
+      "total_chars": 478,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "Figure 2. Model-first relative changes in annual precipitation indices for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. Each open circle represents one model after its station median was calculated; the black point is the seven-model median and the thick horizontal segment is the interquartile range. A common x-axis permits direct scenario comparison.",
+      "total_chars": 377,
+      "bold_fraction": 0.026525198938992044,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "3.3 Spatial pattern of projected PRCPTOT change",
+      "total_chars": 47,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "Station-level ensemble medians showed broadly weak positive PRCPTOT changes under both scenarios (Figure 3). Under SSP2-4.5, 12 of 13 stations were positive and one was negative; station medians ranged from −1.0% to +3.4%. Under SSP5-8.5, 10 stations were positive and three were negative, with a range from −1.7% to +4.8%. The IDW field under SSP2-4.5 was consequently positive across most of the province, with a localized negative pocket near station 351011. Under SSP5-8.5, weak positive values persisted across much of the network, while negative pockets occurred toward the southwestern and eastern station locations and near-neutral values occurred around station 351201.",
+      "total_chars": 678,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "These fields communicate broad spatial contrast rather than resolved climate dynamics. Station density is lower toward the provincial margins, and the entire northern tip lies outside the gauge convex hull. The continuous colors in those areas are therefore generated by the IDW distance rule, not by independent observations or model-grid validation. Topography may contribute to real rainfall gradients, but the present analysis did not test an elevation–change relationship. The maps should be used to identify where station-referenced ensemble medians differ, not to assign precise changes at ungauged locations.",
+      "total_chars": 616,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "Figure 3. Spatial distribution of projected changes in annual total wet-day precipitation (PRCPTOT) over Uttaradit Province for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. IDW with power 2 was applied to station-level seven-model medians, and the same percentage scale was used in both panels. White areas outside the provincial boundary are masked. Areas within the polygon but outside the station convex hull are extrapolations rather than independently validated gridded projections.",
+      "total_chars": 511,
+      "bold_fraction": 0.019569471624266144,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "3.4 Within-window trend diagnostics",
+      "total_chars": 35,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "The unadjusted standard MK diagnostic identified significant trends in 79 of 1,001 SSP2-4.5 annual series: five were increasing and 74 decreasing. For SSP5-8.5, 71 of 1,001 series were significant, comprising 57 increases and 14 decreases. These counts concern the slope within 2021–2050 and do not contradict the baseline-to-future changes in Table 5. For example, an index may have a future-period mean above its 1995–2014 baseline while declining within the future window. Because no multiplicity correction was applied to these 2,002 diagnostic tests and each series spans only 30 years, their significance counts were not used to rank scenarios or claim ensemble robustness.",
+      "total_chars": 679,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "3.5 Discussion",
+      "total_chars": 14,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "The clearest projected signal is a possible redistribution toward heavier individual events without a comparably robust increase in annual wet-day precipitation. Under SSP2-4.5, unanimous positive model signs for Rx1day and R99p and six-of-seven agreement for Rx5day contrast with the split PRCPTOT response. Under SSP5-8.5, the larger Rx1day median suggests stronger short-duration intensity, but agreement is weaker for most other indices. Similar regional assessments have found that precipitation-total and extreme-event signals can differ and that their magnitudes depend on model and processing choices (Kuinkel et al., 2024; Nontikansak et al., 2022; Try and Qin, 2024; Zhang et al., 2024). For water management, this pattern means that flood and erosion hazard may intensify even where annual totals change little; realized impacts will also depend on event timing, antecedent moisture, catchment response, drainage capacity, and exposure.",
+      "total_chars": 947,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "3.6 Limitations and future research",
+      "total_chars": 35,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "Four limitations constrain interpretation. First, the seven models form a selected, non-independent ensemble, so the median and sign counts do not define probabilities. Second, the supplied bias-corrected series could not be independently audited against complete correction metadata; precipitation extremes may be sensitive to wet-day adjustment and temporal sequencing (Cannon et al., 2015; Maraun, 2016; Maraun et al., 2017). Third, relative changes in rare-event indices are unstable when baseline values are small or zero, as illustrated by the undefined R99p changes at one station and the broad R50mm and R99p ranges. Fourth, IDW represents geographic proximity only and cannot resolve orographic gradients, convective organization, or model physics absent from the station values. Future work should compare fully documented bias-correction methods, evaluate additional observational references, and test terrain-aware or dynamical downscaling before the fields are used for site-specific design.",
+      "total_chars": 1004,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "4. Conclusions",
+      "total_chars": 14,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "This study assessed projected changes in 11 precipitation-extreme indices over Uttaradit Province using a seven-model CMIP6 ensemble under SSP2-4.5 and SSP5-8.5 for 2021–2050 relative to 1995–2014. The ensemble results showed a consistent signal of intensified short-duration and upper-tail rainfall, despite modest and uncertain changes in annual wet-day totals. Under SSP2-4.5, median changes were +2.9% for PRCPTOT, +6.1% for Rx1day, +4.2% for Rx5day, and +26.7% for R99p; all seven models agreed on positive changes for both Rx1day and R99p. Under SSP5-8.5, corresponding medians were +0.9%, +12.3%, +2.9%, and +14.4%, with wider sign disagreement. The higher forcing pathway amplified the ensemble-median Rx1day response but did not uniformly increase all indices.",
+      "total_chars": 769,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "Fixed-threshold indices displayed broad inter-model ranges, underscoring the sensitivity of rare-event percentages to small baselines. The absence of significant historical PRCPTOT trends does not contradict the projected changes, and within-window trend diagnostics should remain separate from baseline-to-future climatological differences. For planning, the results support adaptation across a range of plausible futures because flood and erosion hazards may intensify even where annual rainfall changes little and station support is sparse.",
+      "total_chars": 543,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "5. Acknowledgments",
+      "total_chars": 18,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "The author acknowledges the Office of Water Management and Hydrology, Royal Irrigation Department, for institutional support.",
+      "total_chars": 125,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "6. Author Contributions",
+      "total_chars": 23,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "S.P.: Conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, writing—original draft, and writing—review and editing.",
+      "total_chars": 177,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "7. Declaration of Competing Interest",
+      "total_chars": 36,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "The author declares no conflict of interest.",
+      "total_chars": 44,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "8. References",
+      "total_chars": 13,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "Alexander LV, Zhang X, Peterson TC, Caesar J, Gleason B, Klein Tank AMG, et al. Global observed changes in daily climate extremes of temperature and precipitation. J Geophys Res Atmos. 2006;111:D05109. doi:10.1029/2005JD006290.",
+      "total_chars": 227,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B Stat Methodol. 1995;57(1):289–300. doi:10.1111/j.2517-6161.1995.tb02031.x.",
+      "total_chars": 214,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28(17):6938–6959. doi:10.1175/JCLI-D-14-00754.1.",
+      "total_chars": 216,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 93,
+      "style": "Normal",
+      "text": "Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380. doi:10.1038/s41598-025-18217-1.",
+      "total_chars": 181,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, et al. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501. doi:10.1038/s41598-025-86826-x.",
+      "total_chars": 289,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 95,
+      "style": "Normal",
+      "text": "Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937–1958. doi:10.5194/gmd-9-1937-2016.",
+      "total_chars": 242,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 96,
+      "style": "Normal",
+      "text": "Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol. 1998;204(1–4):182–196. doi:10.1016/S0022-1694(97)00125-X.",
+      "total_chars": 145,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417. doi:10.1016/j.rineng.2024.102417.",
+      "total_chars": 242,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press; 2021. doi:10.1017/9781009157896.",
+      "total_chars": 276,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Knutti R, Sedláček J, Sanderson BM, Lorenz R, Fischer EM, Eyring V. A climate model projection weighting scheme accounting for performance and interdependence. Geophys Res Lett. 2017;44(4):1909–1918. doi:10.1002/2016GL072012.",
+      "total_chars": 225,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol. 2024;155:8703–8716. doi:10.1007/s00704-024-05150-y.",
+      "total_chars": 202,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102. doi:10.1016/j.earscirev.2025.105102.",
+      "total_chars": 240,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 102,
+      "style": "Normal",
+      "text": "Mann HB. Nonparametric tests against trend. Econometrica. 1945;13(3):245–259. doi:10.2307/1907187.",
+      "total_chars": 98,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211–220. doi:10.1007/s40641-016-0050-x.",
+      "total_chars": 140,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "Maraun D, Shepherd TG, Widmann M, Zappa G, Walton D, Gutiérrez JM, et al. Towards process-informed bias correction of climate change simulations. Nat Clim Chang. 2017;7:764–773. doi:10.1038/nclimate3418.",
+      "total_chars": 203,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232.",
+      "total_chars": 205,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482. doi:10.5194/gmd-9-3461-2016.",
+      "total_chars": 214,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153–168. doi:10.1016/j.gloenvcha.2016.05.009.",
+      "total_chars": 270,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389. doi:10.1080/01621459.1968.10480934.",
+      "total_chars": 148,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–524. doi:10.1145/800186.810616.",
+      "total_chars": 193,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "Sillmann J, Kharin VV, Zhang X, Zwiers FW, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 1. Model evaluation in the present climate. J Geophys Res Atmos. 2013;118(4):1716–1733. doi:10.1002/jgrd.50203.",
+      "total_chars": 230,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "Sillmann J, Kharin VV, Zwiers FW, Zhang X, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 2. Future climate projections. J Geophys Res Atmos. 2013;118(6):2473–2493. doi:10.1002/jgrd.50188.",
+      "total_chars": 217,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "Tebaldi C, Debeire K, Eyring V, Fischer E, Fyfe J, Friedlingstein P, et al. Climate model projections from the Scenario Model Intercomparison Project (ScenarioMIP) of CMIP6. Earth Syst Dyn. 2021;12:253–293. doi:10.5194/esd-12-253-2021.",
+      "total_chars": 235,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207. doi:10.3390/w16152207.",
+      "total_chars": 166,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500.",
+      "total_chars": 207,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201–218. doi:10.1023/B:WARM.0000043140.61082.60.",
+      "total_chars": 208,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4.",
+      "total_chars": 242,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "Zhang X, Alexander L, Hegerl GC, Jones P, Tank AMGK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870. doi:10.1002/wcc.147.",
+      "total_chars": 241,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Station ID",
+            "Latitude (°N)",
+            "Longitude (°E)",
+            "Elevation (m MSL)"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "351001",
+            "17.2300",
+            "100.1000",
+            "54.57"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "351002",
+            "17.4200",
+            "100.1300",
+            "62.02"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "351003",
+            "17.6700",
+            "100.6800",
+            "371.77"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "351004",
+            "17.6500",
+            "100.3800",
+            "115.76"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "351005",
+            "17.6000",
+            "100.0500",
+            "81.47"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "351006",
+            "17.9200",
+            "100.8800",
+            "348.79"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "351007",
+            "18.0200",
+            "101.0700",
+            "427.85"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "351008",
+            "17.4700",
+            "100.3700",
+            "82.43"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "351009",
+            "17.7500",
+            "100.2800",
+            "95.27"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "351010",
+            "17.9000",
+            "100.8200",
+            "214.69"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "351011",
+            "17.5600",
+            "100.1100",
+            "65.37"
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            "351012",
+            "17.7500",
+            "100.9200",
+            "415.07"
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            "351201",
+            "17.6200",
+            "100.1000",
+            "67.05"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Model",
+            "Institution/consortium",
+            "Country/region",
+            "Member/grid",
+            "Data used"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "ACCESS-ESM1-5",
+            "CSIRO and ARCCSS",
+            "Australia",
+            "r1i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "CanESM5",
+            "CCCma",
+            "Canada",
+            "r1i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "CESM2",
+            "NCAR",
+            "United States",
+            "r11i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "EC-Earth3",
+            "EC-Earth Consortium",
+            "Europe",
+            "r1i1p1f1 / gr",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "FGOALS-g3",
+            "IAP, Chinese Academy of Sciences",
+            "China",
+            "r1i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "MIROC6",
+            "MIROC Consortium",
+            "Japan",
+            "r1i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "MRI-ESM2-0",
+            "Meteorological Research Institute",
+            "Japan",
+            "r1i1p1f1 / gn",
+            "Baseline; SSP2-4.5; SSP5-8.5"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Index",
+            "Name",
+            "Operational definition",
+            "Unit"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "PRCPTOT",
+            "Annual total wet-day precipitation",
+            "Sum of RR on days with RR≥1 mm",
+            "mm"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SDII",
+            "Simple daily intensity index",
+            "PRCPTOT divided by the number of wet days",
+            "mm/day"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "Rx1day",
+            "Maximum 1-day precipitation",
+            "Annual maximum 1-day precipitation",
+            "mm"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "Rx5day",
+            "Maximum 5-day precipitation",
+            "Annual maximum consecutive 5-day precipitation total",
+            "mm"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "CDD",
+            "Consecutive dry days",
+            "Maximum consecutive days with RR<1 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "CWD",
+            "Consecutive wet days",
+            "Maximum consecutive days with RR≥1 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "R10mm",
+            "Heavy precipitation days",
+            "Number of days with RR≥10 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "R20mm",
+            "Very heavy precipitation days",
+            "Number of days with RR≥20 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "R50mm",
+            "Extremely heavy precipitation days",
+            "Number of days with RR≥50 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "R95p",
+            "Very wet-day precipitation",
+            "Annual precipitation total from wet days exceeding the fixed station P95 threshold",
+            "mm"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "R99p",
+            "Extremely wet-day precipitation",
+            "Annual precipitation total from wet days exceeding the fixed station P99 threshold",
+            "mm"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Index",
+            "Unit",
+            "MK inc.",
+            "MK dec.",
+            "MK NS",
+            "BH inc.",
+            "BH dec.",
+            "Median Sen slope/decade"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "PRCPTOT",
+            "mm",
+            "0",
+            "0",
+            "13",
+            "0",
+            "0",
+            "-6.75"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SDII",
+            "mm/day",
+            "2",
+            "2",
+            "9",
+            "2",
+            "1",
+            "-0.09"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "Rx1day",
+            "mm",
+            "3",
+            "1",
+            "9",
+            "1",
+            "0",
+            "0.44"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "Rx5day",
+            "mm",
+            "1",
+            "1",
+            "11",
+            "0",
+            "0",
+            "0.47"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "CDD",
+            "days",
+            "1",
+            "3",
+            "9",
+            "0",
+            "3",
+            "-0.67"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "CWD",
+            "days",
+            "2",
+            "2",
+            "9",
+            "1",
+            "0",
+            "0.00"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "R10mm",
+            "days",
+            "0",
+            "1",
+            "12",
+            "0",
+            "0",
+            "0.00"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "R20mm",
+            "days",
+            "2",
+            "1",
+            "10",
+            "0",
+            "0",
+            "0.00"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "R50mm",
+            "days",
+            "2",
+            "1",
+            "10",
+            "2",
+            "1",
+            "0.00"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "R95p",
+            "mm",
+            "1",
+            "1",
+            "11",
+            "0",
+            "1",
+            "-0.28"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "R99p",
+            "mm",
+            "2",
+            "1",
+            "10",
+            "1",
+            "1",
+            "0.00"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Scenario",
+            "Index",
+            "Median (%)",
+            "IQR (%)",
+            "Range (%)",
+            "Models +/−/0"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "SSP2-4.5",
+            "PRCPTOT",
+            "2.9",
+            "-4.0 to 4.9",
+            "-5.4 to 18.1",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SSP2-4.5",
+            "SDII",
+            "0.8",
+            "-1.7 to 3.4",
+            "-3.8 to 11.3",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "SSP2-4.5",
+            "Rx1day",
+            "6.1",
+            "0.5 to 15.4",
+            "0.1 to 31.6",
+            "7/0/0"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "SSP2-4.5",
+            "Rx5day",
+            "4.2",
+            "2.6 to 15.6",
+            "-3.6 to 38.2",
+            "6/1/0"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "SSP2-4.5",
+            "CDD",
+            "-2.1",
+            "-3.7 to -0.5",
+            "-5.6 to 1.0",
+            "1/6/0"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "SSP2-4.5",
+            "CWD",
+            "1.5",
+            "-3.0 to 8.2",
+            "-11.6 to 22.2",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "SSP2-4.5",
+            "R10mm",
+            "-0.9",
+            "-7.9 to 3.3",
+            "-8.6 to 3.9",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "SSP2-4.5",
+            "R20mm",
+            "-2.6",
+            "-7.9 to 5.6",
+            "-13.4 to 11.4",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "SSP2-4.5",
+            "R50mm",
+            "24.4",
+            "10.1 to 29.3",
+            "-5.6 to 87.0",
+            "6/1/0"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "SSP2-4.5",
+            "R95p",
+            "4.4",
+            "0.6 to 15.6",
+            "-6.4 to 62.6",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "SSP2-4.5",
+            "R99p",
+            "26.7",
+            "13.7 to 33.5",
+            "0.9 to 196.7",
+            "7/0/0"
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            "SSP5-8.5",
+            "PRCPTOT",
+            "0.9",
+            "-5.0 to 5.5",
+            "-9.9 to 15.3",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            "SSP5-8.5",
+            "SDII",
+            "-2.4",
+            "-4.5 to 3.3",
+            "-12.1 to 7.0",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 14,
+          "cells": [
+            "SSP5-8.5",
+            "Rx1day",
+            "12.3",
+            "1.7 to 13.8",
+            "-10.6 to 23.4",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 15,
+          "cells": [
+            "SSP5-8.5",
+            "Rx5day",
+            "2.9",
+            "-2.0 to 21.5",
+            "-8.6 to 31.7",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 16,
+          "cells": [
+            "SSP5-8.5",
+            "CDD",
+            "-0.3",
+            "-3.5 to 0.8",
+            "-9.5 to 6.8",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 17,
+          "cells": [
+            "SSP5-8.5",
+            "CWD",
+            "1.6",
+            "-0.3 to 4.4",
+            "-0.5 to 23.7",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 18,
+          "cells": [
+            "SSP5-8.5",
+            "R10mm",
+            "-3.0",
+            "-4.3 to 3.0",
+            "-13.6 to 5.5",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 19,
+          "cells": [
+            "SSP5-8.5",
+            "R20mm",
+            "-3.1",
+            "-11.3 to 4.4",
+            "-17.6 to 12.3",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 20,
+          "cells": [
+            "SSP5-8.5",
+            "R50mm",
+            "17.5",
+            "-5.3 to 29.3",
+            "-20.2 to 64.1",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 21,
+          "cells": [
+            "SSP5-8.5",
+            "R95p",
+            "4.3",
+            "-7.3 to 19.5",
+            "-21.0 to 42.1",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 22,
+          "cells": [
+            "SSP5-8.5",
+            "R99p",
+            "14.4",
+            "-5.5 to 50.5",
+            "-17.4 to 127.0",
+            "4/3/0"
+          ]
+        }
+      ]
+    }
+  ],
+  "body_order": [
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "text": "Station ID | Latitude (°N) | Longitude (°E) | Elevation (m MSL) || 351001 | 17.2300 | 100.1000 | 54.57 || 351002 | 17.4200 | 100.1300 | 62.02 || 351003 | 17.6700 | 100.6800 | 371.77 || 351004 | 17.6500 | 100.3800 | 115.76 || 351005 | 17.6000 | 100.0500 | 81.47 || 351006 | 17.9200 | 100.8800 | 348.79 || 351007 | 18.0200 | 101.0700 | 427.85 || 351008 | 17.4700 | 100.3700 | 82.43 || 351009 | 17.7500 | 100.2800 | 95.27 || 351010 | 17.9000 | 100.8200 | 214.69 || 351011 | 17.5600 | 100.1100 | 65.37 || 351012 | 17.7500 | 100.9200 | 415.07 || 351201 | 17.6200 | 100.1000 | 67.05"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "text": "Model | Institution/consortium | Country/region | Member/grid | Data used || ACCESS-ESM1-5 | CSIRO and ARCCSS | Australia | r1i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5 || CanESM5 | CCCma | Canada | r1i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5 || CESM2 | NCAR | United States | r11i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5 || EC-Earth3 | EC-Earth Consortium | Europe | r1i1p1f1 / gr | Baseline; SSP2-4.5; SSP5-8.5 || FGOALS-g3 | IAP, Chinese Academy of Sciences | China | r1i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5 || MIROC6 | MIROC Consortium | Japan | r1i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5 || MRI-ESM2-0 | Meteorological Research Institute | Japan | r1i1p1f1 / gn | Baseline; SSP2-4.5; SSP5-8.5"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "text": "Index | Name | Operational definition | Unit || PRCPTOT | Annual total wet-day precipitation | Sum of RR on days with RR≥1 mm | mm || SDII | Simple daily intensity index | PRCPTOT divided by the number of wet days | mm/day || Rx1day | Maximum 1-day precipitation | Annual maximum 1-day precipitation | mm || Rx5day | Maximum 5-day precipitation | Annual maximum consecutive 5-day precipitation total | mm || CDD | Consecutive dry days | Maximum consecutive days with RR<1 mm | days || CWD | Consecutive wet days | Maximum consecutive days with RR≥1 mm | days || R10mm | Heavy precipitation days | Number of days with RR≥10 mm | days || R20mm | Very heavy precipitation days | Number of days with RR≥20 mm | days || R50mm | Extremely heavy precipitation days | Number of days with RR≥50 mm | days || R95p | Very wet-day precipitation | Annual precipitation total from wet days exceeding the fixed station P95 threshold | mm || R99p | Extremely wet-day precipitation | Annual precipitation total from wet days exceeding the fixed station P99 threshold | mm"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "text": "Index | Unit | MK inc. | MK dec. | MK NS | BH inc. | BH dec. | Median Sen slope/decade || PRCPTOT | mm | 0 | 0 | 13 | 0 | 0 | -6.75 || SDII | mm/day | 2 | 2 | 9 | 2 | 1 | -0.09 || Rx1day | mm | 3 | 1 | 9 | 1 | 0 | 0.44 || Rx5day | mm | 1 | 1 | 11 | 0 | 0 | 0.47 || CDD | days | 1 | 3 | 9 | 0 | 3 | -0.67 || CWD | days | 2 | 2 | 9 | 1 | 0 | 0.00 || R10mm | days | 0 | 1 | 12 | 0 | 0 | 0.00 || R20mm | days | 2 | 1 | 10 | 0 | 0 | 0.00 || R50mm | days | 2 | 1 | 10 | 2 | 1 | 0.00 || R95p | mm | 1 | 1 | 11 | 0 | 1 | -0.28 || R99p | mm | 2 | 1 | 10 | 1 | 1 | 0.00"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 4,
+      "text": "Scenario | Index | Median (%) | IQR (%) | Range (%) | Models +/−/0 || SSP2-4.5 | PRCPTOT | 2.9 | -4.0 to 4.9 | -5.4 to 18.1 | 4/3/0 || SSP2-4.5 | SDII | 0.8 | -1.7 to 3.4 | -3.8 to 11.3 | 4/3/0 || SSP2-4.5 | Rx1day | 6.1 | 0.5 to 15.4 | 0.1 to 31.6 | 7/0/0 || SSP2-4.5 | Rx5day | 4.2 | 2.6 to 15.6 | -3.6 to 38.2 | 6/1/0 || SSP2-4.5 | CDD | -2.1 | -3.7 to -0.5 | -5.6 to 1.0 | 1/6/0 || SSP2-4.5 | CWD | 1.5 | -3.0 to 8.2 | -11.6 to 22.2 | 4/3/0 || SSP2-4.5 | R10mm | -0.9 | -7.9 to 3.3 | -8.6 to 3.9 | 3/4/0 || SSP2-4.5 | R20mm | -2.6 | -7.9 to 5.6 | -13.4 to 11.4 | 3/4/0 || SSP2-4.5 | R50mm | 24.4 | 10.1 to 29.3 | -5.6 to 87.0 | 6/1/0 || SSP2-4.5 | R95p | 4.4 | 0.6 to 15.6 | -6.4 to 62.6 | 5/2/0 || SSP2-4.5 | R99p | 26.7 | 13.7 to 33.5 | 0.9 to 196.7 | 7/0/0 || SSP5-8.5 | PRCPTOT | 0.9 | -5.0 to 5.5 | -9.9 to 15.3 | 4/3/0 || SSP5-8.5 | SDII | -2.4 | -4.5 to 3.3 | -12.1 to 7.0 | 3/4/0 || SSP5-8.5 | Rx1day | 12.3 | 1.7 to 13.8 | -10.6 to 23.4 | 5/2/0 || SSP5-8.5 | Rx5day | 2.9 | -2.0 to 21.5 | -8.6 to 31.7 | 5/2/0 || SSP5-8.5 | CDD | -0.3 | -3.5 to 0.8 | -9.5 to 6.8 | 3/4/0 || SSP5-8.5 | CWD | 1.6 | -0.3 to 4.4 | -0.5 to 23.7 | 4/3/0 || SSP5-8.5 | R10mm | -3.0 | -4.3 to 3.0 | -13.6 to 5.5 | 3/4/0 || SSP5-8.5 | R20mm | -3.1 | -11.3 to 4.4 | -17.6 to 12.3 | 2/5/0 || SSP5-8.5 | R50mm | 17.5 | -5.3 to 29.3 | -20.2 to 64.1 | 4/3/0 || SSP5-8.5 | R95p | 4.3 | -7.3 to 19.5 | -21.0 to 42.1 | 4/3/0 || SSP5-8.5 | R99p | 14.4 | -5.5 to 50.5 | -17.4 to 127.0 | 4/3/0"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand"
+    }
+  ],
+  "package": {
+    "omml_math": 10,
+    "comments": 0,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "footnotes": 0,
+    "endnotes": 0,
+    "images": [
+      {
+        "name": "word/media/image1.png",
+        "bytes": 4187740,
+        "format": "PNG",
+        "width_px": 4962,
+        "height_px": 3494,
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      {
+        "name": "word/media/image3.png",
+        "bytes": 457271,
+        "format": "PNG",
+        "width_px": 4242,
+        "height_px": 1901,
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      {
+        "name": "word/media/image2.png",
+        "bytes": 923350,
+        "format": "PNG",
+        "width_px": 7283,
+        "height_px": 5006,
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      }
+    ],
+    "all_xml_text": "Projected Precipitation Extremes over Uttaradit Province under CMIP6 SSP Scenarios Surasit Punyawansiri 1,* 1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok, Thailand *Corresponding author: Surasit.pu@ku.th Abstract Projected changes in precipitation extremes were assessed for Uttaradit Province, northern Thailand, using daily series at 13 rain gauges from seven bias-corrected Coupled Model Intercomparison Project Phase 6 (CMIP6) models under SSP2-4.5 and SSP5-8.5. Eleven annual indices were calculated for 2021–2050 and compared with each model’s 1995–2014 baseline. A model-first scheme summarized station medians within each model before estimating the seven-model median, interquartile range, range, and sign agreement. Station-referenced inverse-distance weighting described spatial contrasts in annual total wet-day precipitation (PRCPTOT). Under SSP2-4.5, median changes were +2.9% for PRCPTOT, +6.1% for maximum 1-day precipitation (Rx1day), +4.2% for maximum 5-day precipitation (Rx5day), and +26.7% for extremely wet-day precipitation (R99p). All seven models indicated increases in Rx1day and R99p, and six indicated higher Rx5day. Under SSP5-8.5, corresponding medians were +0.9%, +12.3%, +2.9%, and +14.4%, respectively, although model ranges crossed zero. PRCPTOT changes were weakly positive at most stations, with localized negative areas under both scenarios. The results suggest possible intensification of short-duration and upper-tail rainfall without a comparably robust increase in annual total. Wide inter-model spread, model non-independence, and the descriptive nature of the spatial interpolation limit deterministic interpretation. Keywords: rainfall extremes; climate projections; ETCCDI ; CMIP6; SSP scenarios; Uttaradit Province Highlights • Seven CMIP6 models projected near-term extremes at 13 rain gauges. • Rx1day increased in all models under SSP2-4.5. • R99p median change reached 26.7%, but model spread was wide. • PRCPTOT change was weakly positive with local negative pockets. • IDW maps depict station contrast, not gridded climate forecasts. 1. Introduction Precipitation extremes influence flood generation, soil erosion, reservoir operation, agricultural water demand, and drought exposure. A warmer atmosphere can hold more moisture, but regional circulation and monsoon variability determine whether this thermodynamic potential appears as higher event intensity, altered wet-day frequency, or longer dry and wet spells. Consequently, changes in annual precipitation totals alone do not describe the full hydroclimatic response (Alexander et al., 2006; Intergovernmental Panel on Climate Change, 2021; Zhang et al., 2011). A coordinated set of intensity, duration, frequency, and percentile-based indices is therefore required to identify potentially important changes in both rainfall accumulation and distribution. The Coupled Model Intercomparison Project Phase 6 (CMIP6) and Scenario Model Intercomparison Project provide a coordinated framework for examining future climate under alternative forcing pathways (Eyring et al., 2016; O’Neill et al., 2016). SSP2-4.5 represents an intermediate pathway approaching 4.5 W/m² of radiative forcing by 2100, whereas SSP5-8.5 represents a very high-forcing, fossil-fueled pathway approaching 8.5 W/m² (Riahi et al., 2017). These scenarios are conditional pathways, not forecasts of a single future. Multi-model ensembles reveal structural differences among models, but their members are neither independent nor equally credible at every location. Ensemble summaries are therefore interpreted here as descriptive evidence conditioned on the selected models, scenarios, and processing chain rather than as calibrated probabilities (Knutti et al., 2017; Sillmann et al., 2013a; Sillmann et al., 2013b). This distinction is especially important for precipitation tails, for which model spread and small baseline values can produce large relative changes. Local applications also depend on downscaling and bias correction. These procedures can improve the representation of observed distributions, but they may alter temporal dependence, wet-day occurrence, and event sequencing if not evaluated for the target statistic (Cannon et al., 2015; Maraun, 2016; Maraun et al., 2017). Regional studies over Southeast Asia and Thailand indicate spatially heterogeneous future rainfall extremes, substantial inter-model spread, and sensitivity to model or method selection (Humphries et al., 2024; Kuinkel et al., 2024; Nontikansak et al., 2022; Try and Qin, 2024; Waqas and Humphries, 2025; Zhang et al., 2024). Recent observational syntheses likewise show that Thai rainfall variability cannot be represented by one national trend (Chaiwino et al., 2025; de Oliveira-Júnior et al., 2025; Madolli et al., 2025). Province-scale, station-referenced evidence remains useful for planning when its uncertainty and spatial support are stated explicitly. Uttaradit Province lies in upper northern Thailand and contains a rain-gauge network spanning low-elevation and upland settings. The available projections support a near-term comparison for 2021–2050, a period directly relevant to infrastructure and water-management decisions. However, a defensible provincial assessment must preserve station- level information, apply a consistent historical baseline within each model, and distinguish spatial visualization from independently validated gridded projection. This study evaluated projected changes in 11 annual precipitation-extreme indices at 13 stations in Uttaradit Province under SSP2-4.5 and SSP5-8.5. The objectives were to (1) quantify model-first changes for 2021–2050 relative to 1995–2014, including interquartile range, full model range, and sign agreement; (2) describe the spatial pattern of station-level PRCPTOT changes using inverse-distance weighting (IDW); and (3) provide concise observational and future-window trend diagnostics without conflating them with baseline-to-future climatological change. The primary contribution is a transparent, projection-focused synthesis in which ensemble spread and limits of spatial inference are treated as results rather than ancillary qualifications. 2. Methodology 2.1 Study area and data The analysis used 13 rain gauges distributed across Uttaradit Province (Figure 1 and Table 1). Station coordinates ranged from 17.2300°N to 18.0200°N and from 100.0500°E to 101.0700°E; supplied station elevations ranged from 54.57 to 427.85 m MSL. Coordinates used for analysis were read directly from the validated station input. Elevation was retained as descriptive metadata and did not enter the statistical or IDW calculations. Table 1. Rain-gauge stations used in the Uttaradit analysis. Station ID Latitude (°N) Longitude (°E) Elevation (m MSL) 351001 17.2300 100.1000 54.57 351002 17.4200 100.1300 62.02 351003 17.6700 100.6800 371.77 351004 17.6500 100.3800 115.76 351005 17.6000 100.0500 81.47 351006 17.9200 100.8800 348.79 351007 18.0200 101.0700 427.85 351008 17.4700 100.3700 82.43 351009 17.7500 100.2800 95.27 351010 17.9000 100.8200 214.69 351011 17.5600 100.1100 65.37 351012 17.7500 100.9200 415.07 351201 17.6200 100.1000 67.05 Note: Station IDs and coordinates are the inputs used in the analysis. Elevation is supplied station metadata and was not used to calculate the indices, trends, changes, or IDW weights. Station names were not created because the analytical input identifies gauges by ID only. Figure 1. Location of Uttaradit Province and the 13 rain gauges used in the analysis. The inset identifies the province within Thailand. Station labels are gauge IDs; no station names were inferred. The observed input comprised daily precipitation from 1 January 1981 to 31 December 2014. Seven supplied bias-corrected CMIP6 daily precipitation series were analyzed (Table 2). For each model, 1995–2014 was used as the model-consistent historical baseline, and 2021–2050 was used as the future period. The 1995–2014 interval was selected as a recent-past reference because it is widely used in the Intergovernmental Panel on Climate Change Sixth Assessment Report, ends with the final year of the CMIP6 historical experiment, and facilitates comparison with assessments framed against the AR6 reference period (Intergovernmental Panel on Climate Change, 2021). CMIP6 scenario simulations begin in 2015; 2015–2020 was excluded to retain a discrete 30-year future window. The file inventory included one ensemble member and a native or regridded grid label for each model. Because the supplied daily files did not contain complete metadata for the preceding bias-correction implementation, that procedure was neither reconstructed nor independently validated; all conclusions are conditional on the supplied corrected series. Table 2. CMIP6 global climate models used in the study. Model Institution/consortium Country/region Member/grid Data used ACCESS-ESM1-5 CSIRO and ARCCSS Australia r1i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 CanESM5 CCCma Canada r1i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 CESM2 NCAR United States r11i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 EC-Earth3 EC-Earth Consortium Europe r1i1p1f1 / gr Baseline; SSP2-4.5; SSP5-8.5 FGOALS-g3 IAP, Chinese Academy of Sciences China r1i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 MIROC6 MIROC Consortium Japan r1i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 MRI-ESM2-0 Meteorological Research Institute Japan r1i1p1f1 / gn Baseline; SSP2-4.5; SSP5-8.5 Note: Historical files span 1981–2014; 1995–2014 was the model baseline. Future files cover 2021–2050 under SSP2-4.5 and SSP5-8.5. Bias-correction metadata were incomplete. 2.2 Precipitation indices and quality control Eleven annual precipitation indices represented wet-day amount and intensity, annual maxima, spell duration, fixed-threshold frequency, and percentile exceedance totals (Table 3). These follow the Expert Team on Climate Change Detection and Indices framework except R50mm, which is a study-specific fixed-threshold count (Alexander et al., 2006; Zhang et al., 2011). A wet day was defined as daily precipitation RR≥1 mm. The station-specific 95th- and 99th-percentile thresholds were estimated from all observed wet days during 1981–2014 and held fixed for observed and model calculations. This fixed-reference construction prevents the percentile threshold itself from changing between periods. Table 3. Definitions of precipitation-extreme indices. Index Name Operational definition Unit PRCPTOT Annual total wet-day precipitation Sum of RR on days with RR≥1 mm mm SDII Simple daily intensity index PRCPTOT divided by the number of wet days mm/day Rx1day Maximum 1-day precipitation Annual maximum 1-day precipitation mm Rx5day Maximum 5-day precipitation Annual maximum consecutive 5-day precipitation total mm CDD Consecutive dry days Maximum consecutive days with RR&lt;1 mm days CWD Consecutive wet days Maximum consecutive days with RR≥1 mm days R10mm Heavy precipitation days Number of days with RR≥10 mm days R20mm Very heavy precipitation days Number of days with RR≥20 mm days R50mm Extremely heavy precipitation days Number of days with RR≥50 mm days R95p Very wet-day precipitation Annual precipitation total from wet days exceeding the fixed station P95 threshold mm R99p Extremely wet-day precipitation Annual precipitation total from wet days exceeding the fixed station P99 threshold mm Note: RR denotes daily precipitation. A wet day was RR≥1 mm. Station-specific P95 and P99 thresholds were estimated from observed wet days during 1981–2014 and then held fixed. R50mm is a study-specific fixed-threshold index. Daily records were converted to numeric values after explicit removal of predefined missing-value flags. Invalid dates, duplicate dates, negative precipitation, duplicate normalized station IDs, and nonnumeric values were rejected rather than silently repaired. Each series was reindexed to the complete Gregorian calendar. No missing precipitation was imputed; a missing date interrupted a consecutive spell and invalidated any five-day window containing it. An annual index was retained only when at least 90% of calendar days were valid. All 442 observed station-years and all 5,460 future station-model-scenario-years passed this criterion. The minimum completeness was 100% for observations and 99.73% for model series. The resulting data contained 4,862 observed and 60,060 future annual-index values. Observed station thresholds ranged from 12.700 to 43.370 mm for P95 and from 19.723 to 89.553 mm for P99. 2.3 Trend inference and multiplicity The standard two-sided Mann–Kendall (MK) test was the primary trend inference for the 1981–2014 observed annual series (Mann, 1945). For n observations, the score S was calculated by Equation 1, with ties included in the variance in Equation 2. The continuity-corrected standardized statistic in Equation 3 was evaluated against the standard normal distribution at α=0.05. (1) (2) (3) Trend magnitude was estimated with Sen’s median pairwise slope (Equation 4), where t denotes year (Sen, 1968). Because 13 stations and 11 indices produced 143 simultaneous observed tests, the Benjamini–Hochberg false-discovery-rate (BH-FDR) procedure was applied as one family at q=0.05. Ordered p-values were compared with the criterion in Equation 5, where m=143 and k is the largest passing rank (Benjamini and Hochberg, 1995). Both unadjusted MK counts and BH-FDR-retained counts were reported so that multiplicity control is transparent. (4) (5) Serial dependence was examined using the Yue–Wang detrended effective-sample-size formulation as a sensitivity diagnostic, not as the primary decision rule (Yue and Wang, 2004). After removal of the Sen trend, the full-lag factor and adjusted variance were calculated by Equation 6. This implementation differs from the rank-autocorrelation modification of Hamed and Rao (1998). Factors below one occurred frequently in the short annual series and can reduce the variance; therefore, sensitivity-test significance was not interpreted as confirmatory evidence. (6) 2.4 Projection-change aggregation For model m, scenario s, index i, and station j, the relative change compared the future-period mean with the same model’s historical mean (Equation 7). Using a model-consistent baseline avoids combining observed and modeled climatologies in the denominator. If the baseline mean was zero, relative change was undefined and recorded as missing; no arbitrary denominator or offset was introduced. This occurred for R99p at station 351011 in seven models under both scenarios (14 station-level rows). Those values were excluded from the relevant station-median calculation, leaving 12 stations for each model’s R99p summary. (7) Aggregation was model-first. Equation 8 took the median across stations within each model. Equation 9 then took the median across the seven model-level values; the interquartile range (IQR), full range, and counts of positive, negative, and zero model medians were calculated from the same seven values. This order gives every model one contribution to the ensemble summary, regardless of the magnitude of its within-province spatial variation. The seven-model median is a descriptive measure of central tendency and not an estimate of event probability or formal model independence. (8) (9) A standard MK test was also applied separately to each 2021–2050 model–station–scenario–index annual series. These 2,002 tests were retained only as unadjusted within-window diagnostics. They answer whether an index changed monotonically during 2021–2050, whereas Equations 7–9 answer whether its future climatological level differed from the 1995–2014 baseline. No field-significance claim was made from the diagnostic counts. 2.5 Spatial depiction For PRCPTOT, the relative change was first summarized as the median across seven models at each station and scenario. IDW with power p=2 was then applied using great-circle distances in kilometers (Equation 10), where zⱼ is the station value and dⱼ is its distance to an interpolation point (Shepard, 1968). The surface was evaluated on a regular grid and clipped to the Uttaradit provincial polygon. The same symmetric percentage scale was used for both scenarios. Values outside the station convex hull, including the far northern part of the polygon, are spatial extrapolations. The maps are descriptive station-referenced depictions, not dynamically downscaled or independently validated continuous-resolution climate projections. (10) 3. Results and Discussion 3.1 Data readiness and historical context Quality control retained the complete intended station network and all required model–scenario files. The standard MK test identified significant trends in 30 of 143 observed station–index series; BH-FDR retained 14. No station showed a significant PRCPTOT trend by either decision rule, and the station-median Sen slope was −6.75 mm/decade (Table 4). The BH-FDR results were spatially heterogeneous: retained changes included three decreases in CDD, three R50mm changes in opposing directions, and mixed R95p and R99p directions. The observed period therefore provides local context but does not establish a uniform historical trajectory from which future changes can be extrapolated. Table 4. Observed precipitation-index trends at 13 stations during 1981–2014. Index Unit MK inc. MK dec. MK NS BH inc. BH dec. Median Sen slope/decade PRCPTOT mm 0 0 13 0 0 -6.75 SDII mm/day 2 2 9 2 1 -0.09 Rx1day mm 3 1 9 1 0 0.44 Rx5day mm 1 1 11 0 0 0.47 CDD days 1 3 9 0 3 -0.67 CWD days 2 2 9 1 0 0.00 R10mm days 0 1 12 0 0 0.00 R20mm days 2 1 10 0 0 0.00 R50mm days 2 1 10 2 1 0.00 R95p mm 1 1 11 0 1 -0.28 R99p mm 2 1 10 1 1 0.00 Note: MK inc., MK dec., and MK NS are counts from the standard two-sided Mann–Kendall test at α=0.05. BH inc. and BH dec. are counts retained after Benjamini–Hochberg false-discovery-rate control across all 143 station–index tests. Sen slopes retain the index unit per decade. 3.2 Projected changes across precipitation indices The model-first ensemble showed that projected changes in event maxima and upper-tail totals were generally larger than the change in annual wet-day precipitation (Table 5 and Figure 2). Under SSP2-4.5, the median PRCPTOT change was +2.9% (IQR −4.0% to +4.9%; range −5.4% to +18.1%), with four model medians positive and three negative. By contrast, Rx1day increased by a median of 6.1% (IQR +0.5% to +15.4%) and R99p by 26.7% (IQR +13.7% to +33.5%); all seven model-level medians were positive for both indices. Rx5day increased by 4.2%, with six of seven models positive. These sign patterns provide stronger ensemble evidence for intensified short-duration and upper-tail precipitation than for a uniform increase in annual total. Under SSP5-8.5, median PRCPTOT change remained weakly positive at +0.9% (IQR −5.0% to +5.5%; range −9.9% to +15.3%), again with a four-to-three split in sign. Rx1day had the largest scenario amplification among the headline indices, with a median increase of 12.3% compared with 6.1% under SSP2-4.5. Nevertheless, its model range extended from −10.6% to +23.4%, and only five models were positive. Median changes in Rx5day and R99p were +2.9% and +14.4%, respectively, but their IQRs crossed zero and sign agreement weakened to five of seven and four of seven models. The higher forcing scenario therefore did not yield a uniformly larger median response across all indices. The remaining indices reinforced the mixed character of the projections. Under SSP2-4.5, CDD had a median change of −2.1% with six models negative, while R10mm and R20mm had small negative medians of −0.9% and −2.6%. R50mm increased by a median of 24.4%, and R95p by 4.5%, but their ranges crossed zero. Under SSP5-8.5, median changes were −2.4% for SDII, −3.0% for R10mm, −3.1% for R20mm, +17.5% for R50mm, and +4.3% for R95p. R50mm and R99p displayed particularly broad ranges because rare-event totals or counts can have small baseline means. Their percentage changes should therefore be read together with ensemble spread rather than treated as typical deterministic outcomes. Table 5. Model-first relative changes in annual precipitation indices for 2021–2050 relative to 1995–2014. Scenario Index Median (%) IQR (%) Range (%) Models +/−/0 SSP2-4.5 PRCPTOT 2.9 -4.0 to 4.9 -5.4 to 18.1 4/3/0 SSP2-4.5 SDII 0.8 -1.7 to 3.4 -3.8 to 11.3 4/3/0 SSP2-4.5 Rx1day 6.1 0.5 to 15.4 0.1 to 31.6 7/0/0 SSP2-4.5 Rx5day 4.2 2.6 to 15.6 -3.6 to 38.2 6/1/0 SSP2-4.5 CDD -2.1 -3.7 to -0.5 -5.6 to 1.0 1/6/0 SSP2-4.5 CWD 1.5 -3.0 to 8.2 -11.6 to 22.2 4/3/0 SSP2-4.5 R10mm -0.9 -7.9 to 3.3 -8.6 to 3.9 3/4/0 SSP2-4.5 R20mm -2.6 -7.9 to 5.6 -13.4 to 11.4 3/4/0 SSP2-4.5 R50mm 24.4 10.1 to 29.3 -5.6 to 87.0 6/1/0 SSP2-4.5 R95p 4.4 0.6 to 15.6 -6.4 to 62.6 5/2/0 SSP2-4.5 R99p 26.7 13.7 to 33.5 0.9 to 196.7 7/0/0 SSP5-8.5 PRCPTOT 0.9 -5.0 to 5.5 -9.9 to 15.3 4/3/0 SSP5-8.5 SDII -2.4 -4.5 to 3.3 -12.1 to 7.0 3/4/0 SSP5-8.5 Rx1day 12.3 1.7 to 13.8 -10.6 to 23.4 5/2/0 SSP5-8.5 Rx5day 2.9 -2.0 to 21.5 -8.6 to 31.7 5/2/0 SSP5-8.5 CDD -0.3 -3.5 to 0.8 -9.5 to 6.8 3/4/0 SSP5-8.5 CWD 1.6 -0.3 to 4.4 -0.5 to 23.7 4/3/0 SSP5-8.5 R10mm -3.0 -4.3 to 3.0 -13.6 to 5.5 3/4/0 SSP5-8.5 R20mm -3.1 -11.3 to 4.4 -17.6 to 12.3 2/5/0 SSP5-8.5 R50mm 17.5 -5.3 to 29.3 -20.2 to 64.1 4/3/0 SSP5-8.5 R95p 4.3 -7.3 to 19.5 -21.0 to 42.1 4/3/0 SSP5-8.5 R99p 14.4 -5.5 to 50.5 -17.4 to 127.0 4/3/0 Note: For each model, station-level relative changes were summarized by the station median; the displayed median, IQR, and range were then calculated across the seven model-level values. +/−/0 denotes the number of model-level station medians above/below/equal to zero. Undefined R99p relative changes at station 351011 (zero baseline) were excluded, so the within-model R99p median used 12 stations. The ensemble statistics are descriptive and do not assume model independence. Figure 2. Model-first relative changes in annual precipitation indices for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. Each open circle represents one model after its station median was calculated; the black point is the seven-model median and the thick horizontal segment is the interquartile range. A common x-axis permits direct scenario comparison. 3.3 Spatial pattern of projected PRCPTOT change Station-level ensemble medians showed broadly weak positive PRCPTOT changes under both scenarios (Figure 3). Under SSP2-4.5, 12 of 13 stations were positive and one was negative; station medians ranged from −1.0% to +3.4%. Under SSP5-8.5, 10 stations were positive and three were negative, with a range from −1.7% to +4.8%. The IDW field under SSP2-4.5 was consequently positive across most of the province, with a localized negative pocket near station 351011. Under SSP5-8.5, weak positive values persisted across much of the network, while negative pockets occurred toward the southwestern and eastern station locations and near-neutral values occurred around station 351201. These fields communicate broad spatial contrast rather than resolved climate dynamics. Station density is lower toward the provincial margins, and the entire northern tip lies outside the gauge convex hull. The continuous colors in those areas are therefore generated by the IDW distance rule, not by independent observations or model-grid validation. Topography may contribute to real rainfall gradients, but the present analysis did not test an elevation–change relationship. The maps should be used to identify where station-referenced ensemble medians differ, not to assign precise changes at ungauged locations. Figure 3. Spatial distribution of projected changes in annual total wet-day precipitation (PRCPTOT) over Uttaradit Province for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. IDW with power 2 was applied to station-level seven-model medians, and the same percentage scale was used in both panels. White areas outside the provincial boundary are masked. Areas within the polygon but outside the station convex hull are extrapolations rather than independently validated gridded projections. 3.4 Within-window trend diagnostics The unadjusted standard MK diagnostic identified significant trends in 79 of 1,001 SSP2-4.5 annual series: five were increasing and 74 decreasing. For SSP5-8.5, 71 of 1,001 series were significant, comprising 57 increases and 14 decreases. These counts concern the slope within 2021–2050 and do not contradict the baseline-to-future changes in Table 5. For example, an index may have a future-period mean above its 1995–2014 baseline while declining within the future window. Because no multiplicity correction was applied to these 2,002 diagnostic tests and each series spans only 30 years, their significance counts were not used to rank scenarios or claim ensemble robustness. 3.5 Discussion The clearest projected signal is a possible redistribution toward heavier individual events without a comparably robust increase in annual wet-day precipitation. Under SSP2-4.5, unanimous positive model signs for Rx1day and R99p and six-of-seven agreement for Rx5day contrast with the split PRCPTOT response. Under SSP5-8.5, the larger Rx1day median suggests stronger short-duration intensity, but agreement is weaker for most other indices. Similar regional assessments have found that precipitation-total and extreme-event signals can differ and that their magnitudes depend on model and processing choices (Kuinkel et al., 2024; Nontikansak et al., 2022; Try and Qin, 2024; Zhang et al., 2024). For water management, this pattern means that flood and erosion hazard may intensify even where annual totals change little; realized impacts will also depend on event timing, antecedent moisture, catchment response, drainage capacity, and exposure. 3.6 Limitations and future research Four limitations constrain interpretation. First, the seven models form a selected, non-independent ensemble, so the median and sign counts do not define probabilities. Second, the supplied bias-corrected series could not be independently audited against complete correction metadata; precipitation extremes may be sensitive to wet-day adjustment and temporal sequencing (Cannon et al., 2015; Maraun, 2016; Maraun et al., 2017). Third, relative changes in rare-event indices are unstable when baseline values are small or zero, as illustrated by the undefined R99p changes at one station and the broad R50mm and R99p ranges. Fourth, IDW represents geographic proximity only and cannot resolve orographic gradients, convective organization, or model physics absent from the station values. Future work should compare fully documented bias-correction methods, evaluate additional observational references, and test terrain-aware or dynamical downscaling before the fields are used for site-specific design. 4. Conclusions This study assessed projected changes in 11 precipitation-extreme indices over Uttaradit Province using a seven-model CMIP6 ensemble under SSP2-4.5 and SSP5-8.5 for 2021–2050 relative to 1995–2014. The ensemble results showed a consistent signal of intensified short-duration and upper-tail rainfall, despite modest and uncertain changes in annual wet-day totals. Under SSP2-4.5, median changes were +2.9% for PRCPTOT, +6.1% for Rx1day, +4.2% for Rx5day, and +26.7% for R99p; all seven models agreed on positive changes for both Rx1day and R99p. Under SSP5-8.5, corresponding medians were +0.9%, +12.3%, +2.9%, and +14.4%, with wider sign disagreement. The higher forcing pathway amplified the ensemble-median Rx1day response but did not uniformly increase all indices. Fixed-threshold indices displayed broad inter-model ranges, underscoring the sensitivity of rare-event percentages to small baselines. The absence of significant historical PRCPTOT trends does not contradict the projected changes, and within-window trend diagnostics should remain separate from baseline-to-future climatological differences. For planning, the results support adaptation across a range of plausible futures because flood and erosion hazards may intensify even where annual rainfall changes little and station support is sparse. 5. Acknowledgments The author acknowledges the Office of Water Management and Hydrology, Royal Irrigation Department, for institutional support. 6. Author Contributions S.P.: Conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, writing—original draft, and writing—review and editing. 7. Declaration of Competing Interest The author declares no conflict of interest. 8. References Alexander LV, Zhang X, Peterson TC, Caesar J, Gleason B, Klein Tank AMG, et al. Global observed changes in daily climate extremes of temperature and precipitation. J Geophys Res Atmos. 2006;111:D05109. doi:10.1029/2005JD006290. Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B Stat Methodol. 1995;57(1):289–300. doi:10.1111/j.2517-6161.1995.tb02031.x. Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28(17):6938–6959. doi:10.1175/JCLI-D-14-00754.1. Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380. doi:10.1038/s41598-025-18217-1. de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, et al. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501. doi:10.1038/s41598-025-86826-x. Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937–1958. doi:10.5194/gmd-9-1937-2016. Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol. 1998;204(1–4):182–196. doi:10.1016/S0022-1694(97)00125-X. Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417. doi:10.1016/j.rineng.2024.102417. Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press; 2021. doi:10.1017/9781009157896. Knutti R, Sedláček J, Sanderson BM, Lorenz R, Fischer EM, Eyring V. A climate model projection weighting scheme accounting for performance and interdependence. Geophys Res Lett. 2017;44(4):1909–1918. doi:10.1002/2016GL072012. Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol. 2024;155:8703–8716. doi:10.1007/s00704-024-05150-y. Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102. doi:10.1016/j.earscirev.2025.105102. Mann HB. Nonparametric tests against trend. Econometrica. 1945;13(3):245–259. doi:10.2307/1907187. Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211–220. doi:10.1007/s40641-016-0050-x. Maraun D, Shepherd TG, Widmann M, Zappa G, Walton D, Gutiérrez JM, et al. Towards process-informed bias correction of climate change simulations. Nat Clim Chang. 2017;7:764–773. doi:10.1038/nclimate3418. Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232. O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482. doi:10.5194/gmd-9-3461-2016. Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153–168. doi:10.1016/j.gloenvcha.2016.05.009. Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389. doi:10.1080/01621459.1968.10480934. Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–524. doi:10.1145/800186.810616. Sillmann J, Kharin VV, Zhang X, Zwiers FW, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 1. Model evaluation in the present climate. J Geophys Res Atmos. 2013;118(4):1716–1733. doi:10.1002/jgrd.50203. Sillmann J, Kharin VV, Zwiers FW, Zhang X, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 2. Future climate projections. J Geophys Res Atmos. 2013;118(6):2473–2493. doi:10.1002/jgrd.50188. Tebaldi C, Debeire K, Eyring V, Fischer E, Fyfe J, Friedlingstein P, et al. Climate model projections from the Scenario Model Intercomparison Project (ScenarioMIP) of CMIP6. Earth Syst Dyn. 2021;12:253–293. doi:10.5194/esd-12-253-2021. Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207. doi:10.3390/w16152207. Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500. Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201–218. doi:10.1023/B:WARM.0000043140.61082.60. Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4. Zhang X, Alexander L, Hegerl GC, Jones P, Tank AMGK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870. doi:10.1002/wcc.147. 1"
+  }
+}

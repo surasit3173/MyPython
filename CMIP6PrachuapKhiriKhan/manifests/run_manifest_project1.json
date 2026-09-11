@@ -1,0 +1,32 @@
+{
+  "project": "CMIP6PrachuapKhiriKhan",
+  "run_id": "P1_PHASE5F_CORRECTED_MMK_RERUN",
+  "timestamp_utc": "2026-09-08T23:48:14.388592Z",
+  "system": {
+    "python_version": "3.14.0",
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+  },
+  "provenance": {
+    "input_file": "Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv",
+    "input_sha256": "abdec5e39458b3441bcce139517b3eacc8855f85f2ec5e6ce06e295a280e31ed",
+    "frozen_table": "Comparative_4MMK_PrachuapKhiriKhanV1\\tables\\Table_04_Trends.csv",
+    "frozen_sha256": "54ee921fff7e4066c1ec5901e290a11702546d9e0c74ed67c516af9864046e64",
+    "engine_core": "C:\\Users\\PC\\.gemini\\antigravity\\scratch\\research-intelligence\\scripts\\stats_engine.py",
+    "engine_sha256": "9ddba4a9f74afc3a22600176e06cbd93d2899b09479766750a3df802ab75734a",
+    "script": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\scripts\\rerun_phase5f_project1.py",
+    "script_sha256": "82fbb76e12edeb5caeb2ab67bd816ca64ba606f03337e6b1e051c4e0ab91798f",
+    "config": "config\\config.yaml",
+    "config_sha256": "05ce0f17d3c984eabef1b313a35b4fc52ee49823d82b3c9e08fbb9b7ac42c1bd"
+  },
+  "methodological_parameters": {
+    "method": "Hamed & Rao (1998) Modified Mann-Kendall with Sen-slope residual rank detrending",
+    "alpha": 0.05,
+    "autocorrelation_sig_threshold": "two-tailed z > 1.95996",
+    "station_count": 12,
+    "period": "1981-2014"
+  },
+  "validation_status": "PASS",
+  "warnings": [],
+  "errors": []
+}

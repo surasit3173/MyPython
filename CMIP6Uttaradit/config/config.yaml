@@ -1,0 +1,55 @@
+# ==============================================================================
+# CMIP6 Uttaradit - Modernized Production Configuration (v2.1)
+# ==============================================================================
+
+project:
+  name: "CMIP6_Uttaradit_Extreme_Precipitation_Analysis"
+  version: "2.1.0"
+  seed: 42
+  synthetic_fallback_enabled: false # HARD STOP if inputs missing
+
+data:
+  observed_csv: "Data_Uttaradit/Observed_Rain_daily_198101_201412_Uttaradit.csv"
+  station_coords_csv: "Data_Uttaradit/station_coordinates_Uttaradit.csv"
+  gcms_dir: "Data_Uttaradit"
+  expected_observed_stations_count: 13
+  expected_gcm_stations_count: 63
+  observed_period: [1981, 2014]
+  future_period: [2021, 2050]
+  historical_baseline_period: [1995, 2014]
+
+gcms:
+  - ACCESS-ESM1-5
+  - CESM2
+  - CanESM5
+  - EC-Earth3
+  - FGOALS-g3
+  - MIROC6
+  - MRI-ESM2-0
+
+scenarios:
+  - ssp245
+  - ssp585
+
+indices:
+  - PRCPTOT
+  - SDII
+  - Rx1day
+  - Rx5day
+  - CDD
+  - CWD
+  - R10mm
+  - R20mm
+  - R50mm
+  - R95p
+  - R99p
+
+bias_correction:
+  method: "quantile_delta_mapping" # QDM / EQM
+  wet_day_threshold: 1.0 # mm/day
+
+output:
+  tables_dir: "tables"
+  figures_dir: "figures"
+  manifests_dir: "manifests"
+  logs_dir: "logs"

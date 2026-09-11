@@ -1,0 +1,120 @@
+{
+  "verdict": "confirmed",
+  "required_standard_mk_and_bh_pass": true,
+  "network_records": [
+    {
+      "period": "annual",
+      "standard_mk": {
+        "ours": {
+          "n": 34,
+          "s": 23.0,
+          "tau": 0.040998217468805706,
+          "slope": 0.830172413793105,
+          "p_value": 0.7443201343805719
+        },
+        "pymannkendall": {
+          "s": 23.0,
+          "tau": 0.040998217468805706,
+          "slope": 0.830172413793105,
+          "p_value": 0.7443201343805719
+        },
+        "checks": {
+          "n": true,
+          "slope_literal": true,
+          "p_literal": true,
+          "s_reference": true,
+          "tau_reference": true,
+          "slope_reference": true,
+          "p_reference": true
+        }
+      },
+      "hr_mmk_3": {
+        "ours_p": 0.7443201343805719,
+        "pymannkendall_p": 0.7443201343805719,
+        "absolute_difference": 0.0,
+        "note": "Comparison is diagnostic; package definitions can differ in ACF normalization and significant-lag handling."
+      }
+    },
+    {
+      "period": "wet",
+      "standard_mk": {
+        "ours": {
+          "n": 34,
+          "s": -45.0,
+          "tau": -0.08021390374331551,
+          "slope": -1.3813725490196154,
+          "p_value": 0.5142234581271419
+        },
+        "pymannkendall": {
+          "s": -45.0,
+          "tau": -0.08021390374331551,
+          "slope": -1.3813725490196154,
+          "p_value": 0.5142234581271419
+        },
+        "checks": {
+          "n": true,
+          "slope_literal": true,
+          "p_literal": true,
+          "s_reference": true,
+          "tau_reference": true,
+          "slope_reference": true,
+          "p_reference": true
+        }
+      },
+      "hr_mmk_3": {
+        "ours_p": 0.5142234581271419,
+        "pymannkendall_p": 0.5142234581271419,
+        "absolute_difference": 0.0,
+        "note": "Comparison is diagnostic; package definitions can differ in ACF normalization and significant-lag handling."
+      }
+    },
+    {
+      "period": "dry",
+      "standard_mk": {
+        "ours": {
+          "n": 33,
+          "s": 113.0,
+          "tau": 0.21401515151515152,
+          "slope": 3.46441798941799,
+          "p_value": 0.08263767002825066
+        },
+        "pymannkendall": {
+          "s": 113.0,
+          "tau": 0.21401515151515152,
+          "slope": 3.46441798941799,
+          "p_value": 0.08263767002825073
+        },
+        "checks": {
+          "n": true,
+          "slope_literal": true,
+          "p_literal": true,
+          "s_reference": true,
+          "tau_reference": true,
+          "slope_reference": true,
+          "p_reference": true
+        }
+      },
+      "hr_mmk_3": {
+        "ours_p": 0.08263767002825066,
+        "pymannkendall_p": 0.08263767002825073,
+        "absolute_difference": 6.938893903907228e-17,
+        "note": "Comparison is diagnostic; package definitions can differ in ACF normalization and significant-lag handling."
+      }
+    }
+  ],
+  "bh_literal": {
+    "ours": [
+      0.004,
+      0.02,
+      0.05333333333333334,
+      0.2
+    ],
+    "independent": [
+      0.004,
+      0.02,
+      0.05333333333333334,
+      0.2
+    ],
+    "pass": true
+  }
+}

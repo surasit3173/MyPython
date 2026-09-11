@@ -1,0 +1,11 @@
+# Python 3.11+
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+PyYAML>=6.0
+XlsxWriter>=3.1
+openpyxl>=3.1
+shapely>=2.0
+pyproj>=3.6
+pyarrow>=14.0        # optional: parquet cache for the index cube

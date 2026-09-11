@@ -1,0 +1,332 @@
+{
+  "status": "PASS_NUMERIC",
+  "source_files": [
+    "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\analysis_workspace\\audit_corrected\\ensemble_change_sensitivity.csv",
+    "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\analysis_workspace\\audit_corrected\\model_regional_change_sensitivity.csv"
+  ],
+  "ensemble_unique_rows": 66,
+  "model_unique_rows": 462,
+  "table3_rows_checked": 11,
+  "numeric_mismatches": [],
+  "row_results": [
+    {
+      "scenario": "ssp245",
+      "window": "Mid-term",
+      "index": "Rx5day",
+      "measure": "pct",
+      "recomputed_median": 12.51806053671882,
+      "recomputed_q25": 7.486795970592732,
+      "recomputed_q75": 27.394600275781627,
+      "positive_models": 6,
+      "negative_models": 1,
+      "agreement_count": 6,
+      "classification": "robust increase",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp245",
+      "window": "Mid-term",
+      "index": "R99p",
+      "measure": "pct",
+      "recomputed_median": 26.54226559301884,
+      "recomputed_q25": 8.399221454573137,
+      "recomputed_q75": 55.350720391342676,
+      "positive_models": 6,
+      "negative_models": 1,
+      "agreement_count": 6,
+      "classification": "robust increase",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp245",
+      "window": "Mid-term",
+      "index": "R50mm",
+      "measure": "abs",
+      "recomputed_median": 0.6461538461538456,
+      "recomputed_q25": 0.1769230769230769,
+      "recomputed_q75": 1.0557692307692312,
+      "positive_models": 6,
+      "negative_models": 1,
+      "agreement_count": 6,
+      "classification": "robust increase",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Mid-term",
+      "index": "PRCPTOT",
+      "measure": "pct",
+      "recomputed_median": -1.85360436709659,
+      "recomputed_q25": -11.597341201683406,
+      "recomputed_q75": -0.7556952340440033,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Mid-term",
+      "index": "SDII",
+      "measure": "pct",
+      "recomputed_median": -5.47824553900355,
+      "recomputed_q25": -12.587027524955023,
+      "recomputed_q75": -3.720830558652884,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "PRCPTOT",
+      "measure": "pct",
+      "recomputed_median": -46.72778398626971,
+      "recomputed_q25": -52.769206014941716,
+      "recomputed_q75": -17.274815087288825,
+      "positive_models": 0,
+      "negative_models": 7,
+      "agreement_count": 7,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "SDII",
+      "measure": "pct",
+      "recomputed_median": -27.71480373955112,
+      "recomputed_q25": -37.314622227246915,
+      "recomputed_q75": -15.857427818657989,
+      "positive_models": 0,
+      "negative_models": 7,
+      "agreement_count": 7,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "Rx5day",
+      "measure": "pct",
+      "recomputed_median": -25.166259827870157,
+      "recomputed_q25": -38.96459882585411,
+      "recomputed_q75": -8.318235942986458,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "R99p",
+      "measure": "pct",
+      "recomputed_median": -62.59948680188961,
+      "recomputed_q25": -68.95140812383774,
+      "recomputed_q75": -22.761434397227056,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "CWD",
+      "measure": "pct",
+      "recomputed_median": -13.983840894965809,
+      "recomputed_q25": -21.846556508825287,
+      "recomputed_q75": -6.151171149975162,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "R50mm",
+      "measure": "abs",
+      "recomputed_median": -1.1807692307692308,
+      "recomputed_q25": -1.5346153846153845,
+      "recomputed_q75": -0.5576923076923075,
+      "positive_models": 1,
+      "negative_models": 6,
+      "agreement_count": 6,
+      "classification": "robust decrease",
+      "display_checks": {
+        "median": true,
+        "q25": true,
+        "q75": true,
+        "agreement": true
+      }
+    }
+  ],
+  "robust_combinations_total": 19,
+  "robust_combinations_selected": 11,
+  "robust_combinations_omitted": 8,
+  "omitted_rows": [
+    {
+      "scenario": "ssp245",
+      "window": "Mid-term",
+      "index": "R95p",
+      "model_median_abs": 36.07569230769229,
+      "model_q25_abs": 5.668461538461514,
+      "model_q75_abs": 106.91684615384617,
+      "model_median_pct": 9.93402333727848,
+      "model_q25_pct": 1.485417211588282,
+      "model_q75_pct": 27.594365191940824,
+      "model_agreement": 0.8571428571428571,
+      "model_classification": "robust increase"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "R10mm",
+      "model_median_abs": -18.053846153846152,
+      "model_q25_abs": -18.50961538461538,
+      "model_q75_abs": -7.859615384615383,
+      "model_median_pct": -51.09360422929407,
+      "model_q25_pct": -58.951289856650256,
+      "model_q75_pct": -22.31059968984781,
+      "model_agreement": 1.0,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "R20mm",
+      "model_median_abs": -8.830769230769231,
+      "model_q25_abs": -9.909615384615384,
+      "model_q75_abs": -4.590384615384617,
+      "model_median_pct": -62.18346870520784,
+      "model_q25_pct": -69.08408196909465,
+      "model_q75_pct": -29.68100378970001,
+      "model_agreement": 1.0,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "R95p",
+      "model_median_abs": -205.85211538461536,
+      "model_q25_abs": -241.4452692307692,
+      "model_q75_abs": -101.78946153846157,
+      "model_median_pct": -64.51710662398473,
+      "model_q25_pct": -69.7662998936654,
+      "model_q75_pct": -27.717687507698702,
+      "model_agreement": 1.0,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Long-term",
+      "index": "Rx1day",
+      "model_median_abs": -20.161192307692303,
+      "model_q25_abs": -21.358000000000004,
+      "model_q75_abs": -6.452961538461551,
+      "model_median_pct": -25.58979085527606,
+      "model_q25_pct": -31.73542790455104,
+      "model_q75_pct": -8.486493633741835,
+      "model_agreement": 0.8571428571428571,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Mid-term",
+      "index": "R10mm",
+      "model_median_abs": -1.6769230769230743,
+      "model_q25_abs": -5.036538461538461,
+      "model_q75_abs": -0.9000000000000021,
+      "model_median_pct": -4.4999483950872055,
+      "model_q25_pct": -15.33005657128246,
+      "model_q75_pct": -2.6821392676453693,
+      "model_agreement": 0.8571428571428571,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Mid-term",
+      "index": "R20mm",
+      "model_median_abs": -1.1999999999999993,
+      "model_q25_abs": -3.325,
+      "model_q75_abs": -0.8499999999999979,
+      "model_median_pct": -9.42028985507246,
+      "model_q25_pct": -21.718380560353808,
+      "model_q75_pct": -5.111553395235476,
+      "model_agreement": 0.8571428571428571,
+      "model_classification": "robust decrease"
+    },
+    {
+      "scenario": "ssp585",
+      "window": "Near-term",
+      "index": "CWD",
+      "model_median_abs": 0.26923076923077,
+      "model_q25_abs": 0.0923076923076937,
+      "model_q75_abs": 0.5192307692307674,
+      "model_median_pct": 2.2407170294494305,
+      "model_q25_pct": 0.834196010770411,
+      "model_q75_pct": 4.78391275859684,
+      "model_agreement": 0.8571428571428571,
+      "model_classification": "robust increase"
+    }
+  ],
+  "selection_assessment": "All displayed values are numerically correct, but Table 3 is not exhaustive. The main manuscript or table note should state a transparent selection rule and point to Supplementary Table S1, or Table 3 should include all robust combinations."
+}

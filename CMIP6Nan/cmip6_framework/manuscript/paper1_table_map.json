@@ -1,0 +1,9 @@
+{
+  "_comment": "Which workbook sheet is which manuscript table in Paper 1.",
+  "main": {
+    "1": "Table2_cmip6_models",
+    "2": "Table3_calibration",
+    "3": "Table4_validation",
+    "4": "Table5_near_future_change"
+  }
+}

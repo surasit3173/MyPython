@@ -1,0 +1,62 @@
+================================================================================
+QA/QC AND SCIENTIFIC INTERPRETATION REPORT  (v2.0 corrected)
+Generated: 2026-05-29 08:31:56
+================================================================================
+
+QUALITY CONTROL SUMMARY
+----------------------------------------
+                 Check  Count
+Missing values (total)      0
+
+DATA COMPLETENESS
+----------------------------------------
+ Station  Expected_days  Available_days  Completeness_pct  Pass_threshold
+  500001          12418           12418             100.0            True
+  500002          12418           12418             100.0            True
+  500003          12418           12418             100.0            True
+  500004          12418           12418             100.0            True
+  500005          12418           12418             100.0            True
+  500006          12418           12418             100.0            True
+  500007          12418           12418             100.0            True
+  500008          12418           12418             100.0            True
+  500009          12418           12418             100.0            True
+  500201          12418           12418             100.0            True
+  500202          12418           12418             100.0            True
+  500301          12418           12418             100.0            True
+
+AUTOCORRELATION SUMMARY
+----------------------------------------
+  Annual: r1=0.2021  Class=Low LB-p=0.1644  DW=1.5796  VIF=0.055  n_eff=614.9
+  Wet Season: r1=0.2170  Class=Low LB-p=0.6664  DW=1.5473  VIF=0.884  n_eff=38.5
+  Dry Season: r1=-0.1938  Class=Low LB-p=0.8640  DW=2.3117  VIF=0.879  n_eff=39.8
+
+================================================================================
+HYDROCLIMATIC INTERPRETATION — AUTO-GENERATED (v2.0 corrected)
+================================================================================
+
+1. STANDARD MK — TYPE I ERROR INFLATION
+   At φ=0.30, empirical Type I error = 0.1295 (substantially exceeds nominal α=0.05). Consistent with Hamed & Rao (1998).
+
+2. MMK (HAMED & RAO 1998) — IMPROVED CONTROL
+   Type I error reduced to 0.0363 at φ=0.30 via rank-based VIF correction (VIF clamped ≥1.0 per corrected implementation).
+
+3. PW-MK — AUTOCORRELATION REMOVAL
+   Empirical Type I error = 0.0456 at φ=0.30. Reduces series length by one; slope reported on original series.
+
+4. TFPW-MK (YUE & WANG 2002) — TREND PRESERVATION
+   Type I error = 0.1476 at φ=0.30. At φ=0.60: var_ratio=0.910 (TFPW) vs 0.159 (PW); trend_attenuation=0.997 (TFPW) vs 0.090 (PW).
+
+5. BH-FDR CORRECTION
+   Benjamini–Hochberg (1995) correction now correctly applied to multi-station p-value arrays in fdr_analysis(), yielding true FDR values — not raw FWER rates as in the previous implementation.
+
+6. STATISTICAL POWER (φ=0.3, trend=1.0 mm yr⁻¹)
+   MK:0.9951 | MMK:0.7360 | PW:0.4232 | TFPW:0.9944
+
+7. RECOMMENDATIONS
+   (a) Always test autocorrelation (ACF, LB, DW) prior to trend analysis.
+   (b) MMK preferred for moderate autocorrelation (0.1 ≤ φ < 0.5).
+   (c) TFPW-MK preferred when trend estimation is the primary objective.
+   (d) Standard MK only when |φ| < 0.10 or LB p > 0.05.
+   (e) BH-FDR correction mandatory for multi-station analyses.
+
+================================================================================

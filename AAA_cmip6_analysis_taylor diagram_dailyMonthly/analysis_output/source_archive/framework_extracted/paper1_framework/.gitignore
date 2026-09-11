@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+docx_build/node_modules/
+docx_build/*.json
+!docx_build/package.json
+docx_build/abstract.txt
+output/
+data/gis/_cache/

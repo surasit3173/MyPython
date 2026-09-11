@@ -1,0 +1,3 @@
+Season,Complete years,Observed El Niño n,Model El Niño n range,Observed Neutral n,Model Neutral n range,Observed La Niña n,Model La Niña n range,Observed Transition/unclassified n,Model Transition/unclassified n range,Index/classification
+Rainy (May–Oct),1981–2014 (34),6,4–12,8,3–13,7,2–12,13,6–18,NOAA ERSSTv6 ONI for observations; exact-member CMIP6 tos Niño-3.4 for each GCM; strict majority of persistent episode windows
+Hot/dry (Nov–Apr),1981/82–2013/14 (33),8,6–14,8,4–12,12,5–15,5,2–13,NOAA ERSSTv6 ONI for observations; exact-member CMIP6 tos Niño-3.4 for each GCM; strict majority of persistent episode windows

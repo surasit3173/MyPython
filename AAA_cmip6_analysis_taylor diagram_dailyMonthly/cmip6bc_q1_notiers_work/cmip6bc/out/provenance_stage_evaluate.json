@@ -1,0 +1,355 @@
+{
+  "run": {
+    "utc_timestamp": "2026-08-24T06:25:09+00:00",
+    "python": "3.12.3",
+    "platform": "Linux-6.18.44-fc-v21-x86_64-with-glibc2.39",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "random_seed": 42
+  },
+  "config": {
+    "project": {
+      "id": "ID1558",
+      "title": "QDM bias correction of CMIP6 daily rainfall — split-sample design"
+    },
+    "region": {
+      "name": "Prachuap Khiri Khan",
+      "tag": "Prachuap_Khiri_Khan"
+    },
+    "paths": {
+      "data_dir": "./data",
+      "station_meta": "./data/stations.csv",
+      "station_meta_verified": "./data/station_metadata_verified.csv",
+      "out_dir": "./out"
+    },
+    "discovery": {
+      "observed_glob": "*Observed*.csv",
+      "raw_glob": "pr_*.csv",
+      "raw_model_regex": "^pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_",
+      "legacy_bc_glob": "bc_pr_*.csv",
+      "legacy_bc_model_regex": "^bc_pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_"
+    },
+    "time": {
+      "year_col": "YEAR",
+      "month_col": "MONTH",
+      "day_col": "DAY"
+    },
+    "periods": {
+      "calibration": [
+        1981,
+        2000
+      ],
+      "validation": [
+        2001,
+        2014
+      ]
+    },
+    "data": {
+      "wet_threshold_mm": 1.0,
+      "nodata_values": [
+        -99,
+        -999,
+        -9999,
+        "-9.99e20",
+        "9.99e20",
+        "1.0e20",
+        "1.15031e38",
+        "1.70141e38"
+      ],
+      "negative_handling": "clip_to_zero",
+      "negative_tolerance_mm": 0.1,
+      "unit_autodetect": true,
+      "flux_detect_threshold": 0.001,
+      "flux_to_mmday": 86400.0
+    },
+    "qdm": {
+      "grouping": {
+        "primary": "annual",
+        "sensitivity": "monthly"
+      },
+      "n_quantiles": 100,
+      "frequency_adaptation": true,
+      "tail_extrapolation": "constant",
+      "max_delta_ratio": 5.0,
+      "min_delta_ratio": 0.2,
+      "min_wet_days_calibration": 30,
+      "emit_eqm": true,
+      "upper_tail_cap_factor": null,
+      "sensitivity_cap_factor": 1.5
+    },
+    "data_quality_control": {
+      "max_missing_pct": 5.0,
+      "homogeneity": {
+        "pettitt_alpha": 0.05
+      },
+      "report_record_characteristics": true
+    },
+    "seasons": {
+      "method": "climatological_annual_cycle",
+      "smoothing": "rolling_30day",
+      "wet_definition": "longest_contiguous_above_annual_mean",
+      "min_duration_days": 90
+    },
+    "reproducibility": {
+      "random_seed": 42
+    },
+    "evaluate": {
+      "station_set": "all",
+      "bootstrap": {
+        "n_replicates": 2000,
+        "block": "year"
+      },
+      "fdr_alpha": 0.05,
+      "quantiles_reported": [
+        0.5,
+        0.9,
+        0.95,
+        0.99
+      ]
+    },
+    "figures": {
+      "font_family": [
+        "Cordia New",
+        "Garuda",
+        "Waree",
+        "DejaVu Sans"
+      ],
+      "base_font_pt": 11.0,
+      "width_mm": 160,
+      "dpi": 600
+    }
+  },
+  "config_file": {
+    "path": "/home/claude/cmip6bc/config.yaml",
+    "sha256": "4956d624030c23b4eef72886fa6d846181cea635c128f4310e752d460fbdd339"
+  },
+  "inputs": {
+    "observed": {
+      "path": "data/Observed_Rain_daily_198101_201412_Prachuap_Khiri_Khan.csv",
+      "filename": "Observed_Rain_daily_198101_201412_Prachuap_Khiri_Khan.csv",
+      "bytes": 589511,
+      "sha256": "abdec5e39458b3441bcce139517b3eacc8855f85f2ec5e6ce06e295a280e31ed",
+      "rows": 12418,
+      "calendar": "standard"
+    },
+    "raw/ACCESS-ESM1-5": {
+      "path": "data/pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 1024712,
+      "sha256": "f99a129c5dc59307648e542681e14ef25d1143157696e253f1821436a19d7678",
+      "rows": 12418,
+      "calendar": "standard"
+    },
+    "raw/CESM2": {
+      "path": "data/pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 1017426,
+      "sha256": "8a9102c35b6c6c91549aca147ea88910ad8c39c7ebecf31715539110f6b98f95",
+      "rows": 12410,
+      "calendar": "365_day"
+    },
+    "raw/CanESM5": {
+      "path": "data/pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 1029066,
+      "sha256": "114c5343aff22b1e12138fc87fde94318aef968116981c9b29b11e10f39e5590",
+      "rows": 12410,
+      "calendar": "365_day"
+    },
+    "raw/EC-Earth3": {
+      "path": "data/pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 1257398,
+      "sha256": "487bc25f50a6d766f256679c83fe1beb1e09bcc9d458859f8712f031599ee6e8",
+      "rows": 12418,
+      "calendar": "standard"
+    },
+    "raw/MIROC6": {
+      "path": "data/pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 1025561,
+      "sha256": "9c67dd84cc998887b86c85e6710e54ce796fd8baa3a4137c9200522809864511",
+      "rows": 12418,
+      "calendar": "standard"
+    },
+    "legacy_bc/ACCESS-ESM1-5": {
+      "path": "data/bc_pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "bc_pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 668375,
+      "sha256": "f2f4e0e2c1ec8bbc0339440c7605dae18964a85fcf1a22e65ff647e60ce951bc",
+      "rows": 12418
+    },
+    "legacy_bc/CESM2": {
+      "path": "data/bc_pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "bc_pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 667804,
+      "sha256": "44771b6253a435dd82909eb19dcabb0935f2cf5ec671e6a7eba8ab17a803e170",
+      "rows": 12410
+    },
+    "legacy_bc/CanESM5": {
+      "path": "data/bc_pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "bc_pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 667871,
+      "sha256": "41d9a09cda82451266581886aa11711411d42c03e7169f94c3de730947f76596",
+      "rows": 12410
+    },
+    "legacy_bc/EC-Earth3": {
+      "path": "data/bc_pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "bc_pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 668346,
+      "sha256": "fadc432238f7fee8aeff167814762253895656336778bde2c986f06d41e93bbf",
+      "rows": 12418
+    },
+    "legacy_bc/MIROC6": {
+      "path": "data/bc_pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "filename": "bc_pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv",
+      "bytes": 668239,
+      "sha256": "9b092eeb10af491f3b2043a02e9772179ad03396a0f2845b2fcfa306d87b3f1d",
+      "rows": 12418
+    },
+    "station_meta": {
+      "path": "data/stations.csv",
+      "filename": "stations.csv",
+      "bytes": 4128,
+      "sha256": "02754bd11eccaec7767d6557b15bed705e23f3fdf88e683824b72466b3b4ce06"
+    }
+  },
+  "stations": {
+    "n": 12,
+    "ids": [
+      "500001",
+      "500002",
+      "500003",
+      "500004",
+      "500005",
+      "500006",
+      "500007",
+      "500008",
+      "500009",
+      "500201",
+      "500202",
+      "500301"
+    ],
+    "elevation_missing": [
+      "500002",
+      "500003",
+      "500004",
+      "500201",
+      "500202"
+    ]
+  },
+  "transformations": {
+    "observed": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": 0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 0,
+      "rows_after_date_parse": 12418
+    },
+    "raw/ACCESS-ESM1-5": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": 0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 0,
+      "rows_after_date_parse": 12418
+    },
+    "raw/CESM2": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": 0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 0,
+      "rows_after_date_parse": 12410
+    },
+    "raw/CanESM5": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": 0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 0,
+      "rows_after_date_parse": 12410
+    },
+    "raw/EC-Earth3": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": -0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 331,
+      "rows_after_date_parse": 12418
+    },
+    "raw/MIROC6": {
+      "unit_factor_applied": 1.0,
+      "minimum_raw_value": 0.0,
+      "nodata_values_masked": 0,
+      "negative_values_clipped": 0,
+      "rows_after_date_parse": 12418
+    }
+  },
+  "calendars": {
+    "observed": {
+      "calendar": "standard",
+      "rows": 12418,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    },
+    "raw/ACCESS-ESM1-5": {
+      "calendar": "standard",
+      "rows": 12418,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    },
+    "raw/CESM2": {
+      "calendar": "365_day",
+      "rows": 12410,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    },
+    "raw/CanESM5": {
+      "calendar": "365_day",
+      "rows": 12410,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    },
+    "raw/EC-Earth3": {
+      "calendar": "standard",
+      "rows": 12418,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    },
+    "raw/MIROC6": {
+      "calendar": "standard",
+      "rows": 12418,
+      "first": "1981-01-01",
+      "last": "2014-12-31"
+    }
+  },
+  "sample_sizes": {
+    "n_common_days_all_models": {
+      "n": 12410
+    },
+    "n_model_paired_days/ACCESS-ESM1-5": {
+      "n": 12418
+    },
+    "n_model_paired_days/CESM2": {
+      "n": 12410
+    },
+    "n_model_paired_days/CanESM5": {
+      "n": 12410
+    },
+    "n_model_paired_days/EC-Earth3": {
+      "n": 12418
+    },
+    "n_model_paired_days/MIROC6": {
+      "n": 12418
+    }
+  },
+  "qdm": {},
+  "warnings": [],
+  "evaluate": {
+    "variants": [
+      "primary",
+      "sens_monthly",
+      "sens_tailcap"
+    ],
+    "n_bootstrap": 2000,
+    "seed": 42
+  }
+}

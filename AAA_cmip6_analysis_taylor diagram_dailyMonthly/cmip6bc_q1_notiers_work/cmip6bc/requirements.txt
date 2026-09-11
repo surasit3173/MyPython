@@ -1,0 +1,7 @@
+# cmip6bc — tested with these versions; newer minor releases are fine
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.6          # 3.6 introduced the constrained-layout engine used by figures.py
+PyYAML>=6.0
+openpyxl>=3.1            # writing evaluation_results.xlsx

@@ -1,0 +1,11 @@
+{
+  "_comment": "Which rendered figure is which manuscript figure in the AER version. The calibration-period comparison is reported as Supplementary Table S2 rather than as a figure, so it is not exported here.",
+  "main": {
+    "1": "Paper2_Figure_01_study_area.png",
+    "2": "Paper2_Figure_03_validation_methods.png",
+    "3": "Paper2_Figure_04_signal_bulk_quantile.png",
+    "4": "Paper2_Figure_05_signal_extremes.png",
+    "5": "Paper2_Figure_06_synthesis.png"
+  },
+  "supplementary": {}
+}

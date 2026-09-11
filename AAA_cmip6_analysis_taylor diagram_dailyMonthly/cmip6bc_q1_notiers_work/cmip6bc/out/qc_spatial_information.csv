@@ -1,0 +1,6 @@
+model,n_stations,median_unique_values_per_day,max_unique_values_per_day
+ACCESS-ESM1-5,12,2.0,2
+CESM2,12,3.0,3
+CanESM5,12,2.0,2
+EC-Earth3,12,3.0,3
+MIROC6,12,2.0,2

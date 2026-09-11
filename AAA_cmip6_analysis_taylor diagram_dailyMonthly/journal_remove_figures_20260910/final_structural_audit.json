@@ -1,0 +1,151 @@
+{
+  "file": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\journal_remove_figures_20260910\\Manuscript_MBCn_Q3_Revised_6Figures.docx",
+  "zip_crc_error": null,
+  "sections": 1,
+  "abstract_word_count": 174,
+  "keyword_count": 5,
+  "keywords": [
+    "multivariate bias correction",
+    "MBCn",
+    "inter-station dependence",
+    "multi-site precipitation",
+    "CMIP6"
+  ],
+  "author_block_present": true,
+  "table_count": 5,
+  "table_caption_count": 5,
+  "table_caption_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "table_captions_after_tables": true,
+  "table_references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    4,
+    5
+  ],
+  "table_reference_range_ok": true,
+  "figure_count": 6,
+  "figure_caption_count": 6,
+  "figure_caption_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "figure_captions_after_figures": true,
+  "figure_references": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "figure_reference_range_ok": true,
+  "reference_count": 24,
+  "reference_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "citation_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "citation_order_complete": true,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_parts": [],
+  "media_part_count": 6,
+  "media_parts": [
+    "word/media/image1.png",
+    "word/media/image10.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image6.png",
+    "word/media/image7.png"
+  ],
+  "images_with_alt_text": 6,
+  "image_alt": [
+    {
+      "title": "Figure 1",
+      "description": "Map of the 12 rain gauges in Prachuap Khiri Khan Province with station labels, elevation shading, and a Thailand location inset."
+    },
+    {
+      "title": "Figure 2",
+      "description": "Workflow for MBCn showing initial QDM, iterative rotation-based dependence adjustment, and final rank substitution."
+    },
+    {
+      "title": "Figure 3",
+      "description": "Boxplots of six single-site validation diagnostics for raw, QDM, and MBCn output."
+    },
+    {
+      "title": "Figure 4",
+      "description": "Binned inter-station Spearman correlation versus station separation for observations, raw output, QDM, and MBCn."
+    },
+    {
+      "title": "Figure 5",
+      "description": "Observed versus simulated pairwise probabilities of concurrent 95th-percentile wet-day exceedance."
+    },
+    {
+      "title": "Figure 6",
+      "description": "Raw versus corrected projected changes in five wet-day quantiles for QDM and MBCn."
+    }
+  ],
+  "all_checks_pass": true
+}

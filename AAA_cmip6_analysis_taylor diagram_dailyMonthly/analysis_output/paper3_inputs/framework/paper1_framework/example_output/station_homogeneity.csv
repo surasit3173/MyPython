@@ -1,0 +1,14 @@
+station,wet_pct_calibration,wet_pct_validation,ratio_val_over_cal,homogeneous,note
+351001,21.42,22.86,1.067,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351002,23.37,22.56,0.965,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351003,23.08,54.61,2.366,False,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351004,24.75,20.17,0.815,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351005,22.81,34.39,1.507,False,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351006,57.54,30.85,0.536,False,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351007,58.44,33.86,0.579,False,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351008,53.34,40.34,0.756,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351009,62.66,62.58,0.999,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351010,59.66,61.05,1.023,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351011,24.18,25.64,1.06,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351012,21.54,21.67,1.006,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice
+351201,25.22,26.08,1.034,True,wet-day frequency ratio outside 0.75-1.33 indicates a likely change in observing practice

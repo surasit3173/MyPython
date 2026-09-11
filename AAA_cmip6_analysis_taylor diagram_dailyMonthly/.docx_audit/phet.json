@@ -1,0 +1,3106 @@
+{
+  "path": "D:\\วารสาร APST\\New เพชรบุรี\\sent\\Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios.docx",
+  "metadata": {
+    "title": "Observed and Near-Term Projected Precipitation Extremes in Phetchaburi Province under SSP2-4.5 and SSP5-8.5",
+    "subject": "Precipitation extremes, Phetchaburi, CMIP6, Mann–Kendall, IDW",
+    "author": "Surasit Punyawansiri",
+    "last_modified_by": "Dr.Surasit Punyawansiri",
+    "created": "2026-09-06T11:34:00+00:00",
+    "modified": "2026-09-06T11:34:00+00:00"
+  },
+  "paragraph_count": 140,
+  "table_count": 5,
+  "inline_shape_count": 4,
+  "word_counts": {
+    "paragraphs": 4521,
+    "tables": 905,
+    "total": 5426
+  },
+  "sections": [
+    {
+      "index": 0,
+      "page_width_in": 8.26875,
+      "page_height_in": 11.694444444444445,
+      "top_margin_in": 1.0,
+      "bottom_margin_in": 1.0,
+      "left_margin_in": 1.0,
+      "right_margin_in": 1.0
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios",
+      "total_chars": 97,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*",
+      "total_chars": 24,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand",
+      "total_chars": 102,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "*Corresponding author: Surasit.pu@ku.th",
+      "total_chars": 39,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Abstract",
+      "total_chars": 8,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Changes in precipitation extremes can occur alongside shifts in rainfall totals, wet and dry spells, and event intensity, creating competing signals for water-resource planning. This study assessed observed trends and near-term projected changes in 11 annual precipitation-extreme indices at 13 rain gauges in Phetchaburi Province, Thailand. Daily observations for 1981–2014 were analyzed using the two-sided Mann–Kendall test and Sen’s slope estimator, with Benjamini–Hochberg false-discovery-rate control applied to 143 station–index tests. The Yue–Wang effective-sample-size adjustment was used as a sensitivity diagnostic. Future changes for 2021–2050 were estimated from seven supplied bias-corrected CMIP6 models under SSP2-4.5 and SSP5-8.5 relative to each model’s 1995–2014 baseline. A model-first approach calculated the station median within each model before summarizing the seven model-level changes. Observations showed significant decreases in PRCPTOT and CWD at 9 and 11 stations, respectively, and increases in CDD, SDII, Rx1day, R95p, and R99p at 10, 9, 7, 8, and 9 stations, respectively; 88 of 143 tests remained significant after false-discovery-rate control. Median PRCPTOT changes were −2.5% under SSP2-4.5 and −9.0% under SSP5-8.5, whereas R99p increased by 59.0% and 20.1%, respectively, with substantial inter-model spread. Station-referenced IDW indicated broader negative PRCPTOT changes under SSP5-8.5 but represents spatial depiction rather than validated gridded projection. Overall, the results indicate declining wet-day totals and longer dry spells in observations, while future changes remain model- and scenario-dependent.",
+      "total_chars": 1657,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "Keywords: Climate change, Precipitation extremes, Mann–Kendall test, Sen’s slope, Phetchaburi Province",
+      "total_chars": 102,
+      "bold_fraction": 0.08823529411764706,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 7,
+      "style": "Heading 4",
+      "text": "1. Introduction",
+      "total_chars": 15,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "Precipitation extremes are an important consequence of a warming climate, with implications for water-supply reliability, agricultural productivity, flood risk, and community resilience [1,2]. The hydroclimatic response to global warming is not necessarily expressed as a uniform change in annual precipitation totals; rather, precipitation characteristics are influenced by thermodynamic effects associated with increased atmospheric moisture capacity and by regional dynamical processes, including monsoon variability, convection, and land–sea thermal contrasts [1,2]. Consequently, a region may experience more intense precipitation events alongside longer dry spells, reflecting changes in the temporal distribution of precipitation [1,2]. Capturing these contrasting characteristics therefore benefits from a suite of complementary duration-, intensity-, frequency-, and percentile-based precipitation-extreme indices rather than a single aggregate rainfall metric [2].",
+      "total_chars": 974,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) provides a coordinated framework for evaluating climate-model responses, with ScenarioMIP providing scenario-based projections under pathways such as SSP2-4.5 and SSP5-8.5 [3-5]. Regional assessments, however, remain subject to structural model uncertainty and sensitivity of precipitation extremes to bias-correction choices [6,7]. Regional studies also show substantial inter-model spread and, for some indices, differences in the direction of projected change across models [6,7]. These findings support an index-by-index assessment with explicit baselines, transparent aggregation, and explicit characterization of inter-model spread.",
+      "total_chars": 697,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Across Thailand, recent studies have documented non-stationary rainfall variability, historical trends, and projected changes in precipitation extremes across northern, central, and southern regions [8-12], as well as nationwide shifts toward intensified daily rainfall regimes [13]. However, station-level assessments integrating multiple ETCCDI-family indices, observed trends, and CMIP6 scenario changes remain limited for Phetchaburi Province. Phetchaburi is an important agricultural and water-resource area in the Phetchaburi–Prachuap Khiri Khan region, where localized evidence on precipitation extremes can support flood-risk assessment and water-resource planning [8,12].",
+      "total_chars": 680,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "To address this gap, this study examines 11 ETCCDI-family precipitation-extreme indices using observations from 13 rain gauges in Phetchaburi Province and evaluates projected changes from seven CMIP6 models under SSP2-4.5 and SSP5-8.5. The analysis focuses on three questions: (i) which precipitation-extreme indices showed significant trends during 1981–2014; (ii) how projected changes during 2021–2050 vary among the seven CMIP6 models relative to the 1995–2014 baseline; and (iii) what broad spatial contrasts are suggested by the station-referenced projections across the province. The findings provide localized evidence relevant to flood-risk assessment and water-resource planning in Phetchaburi Province.",
+      "total_chars": 713,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 14,
+      "style": "Heading 4",
+      "text": "2. Materials and Methods",
+      "total_chars": 24,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "2.1 Study area, observations and model series",
+      "total_chars": 45,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "The study area is Phetchaburi Province, Thailand. Daily precipitation observations for 1981–2014 were obtained from 13 meteorological stations (Figure 1; Table 1). The supplied model dataset comprises daily historical and scenario precipitation series from the seven CMIP6 GCMs listed in Table 2. Historical model output was summarized over 1995–2014 as the baseline period, and future projections were evaluated for 2021–2050. The 1995–2014 period was selected as the baseline because it is the AR6 recent-past reference period used for assessing future climate projections, and 2014 is the final year of the CMIP6 historical simulations [1].",
+      "total_chars": 643,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "Table 1. Geographic coordinates and elevations of the 13 rain-gauge stations in Phetchaburi Province.",
+      "total_chars": 101,
+      "bold_fraction": 0.06930693069306931,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "Notes: No station names are assigned because the analysis input identifies gauges by station ID only.",
+      "total_chars": 101,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "Table 2. List of the CMIP6 GCMs used in the study.",
+      "total_chars": 50,
+      "bold_fraction": 0.18,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "Notes: All seven models were used for the historical baseline and both future scenarios. The supplied daily series were already bias-corrected; the correction procedure was not re-estimated in this study.",
+      "total_chars": 204,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "2.2 Annual precipitation indices and quality control",
+      "total_chars": 52,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "We calculated 11 annual precipitation-extreme indices from the ETCCDI family (Table 3): PRCPTOT (wet-day precipitation total), SDII (wet-day mean intensity), Rx1day and Rx5day (annual one- and five-day maxima), CDD and CWD (maximum consecutive dry and wet days), R10mm, R20mm and R50mm (counts of days at or above 10, 20 and 50 mm), and R95p and R99p (annual precipitation above station-specific 95th and 99th wet-day thresholds). A wet day was RR ≥ 1 mm. The percentile thresholds were fixed once from each station’s complete 1981–2014 wet-day distribution; they were not re-estimated separately in each year or future window. Accordingly, R95p and R99p are treated here as fixed-reference percentile indices; their implementation should not be assumed to be identical to that of every ETCCDI software package [2,14].",
+      "total_chars": 818,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "Table 3. Definitions of extreme precipitation indices used in the study.",
+      "total_chars": 72,
+      "bold_fraction": 0.125,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "Notes: A wet day is RR ≥ 1 mm. R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014 and retained for all annual and future-window calculations.",
+      "total_chars": 175,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "The analysis used the Gregorian calendar for observations. CanESM5, CESM2 and FGOALS-g3 use a 365-day no-leap calendar; February 29 is therefore absent from these model series and was not imputed. Annual completeness was evaluated using the applicable model calendar. Annual summaries required at least 90% valid daily records. A missing day was not silently converted to zero; it interrupted spells and moving windows. The minimum annual completeness across model records was 99.73%.",
+      "total_chars": 484,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "2.3 Trend inference and multiple testing",
+      "total_chars": 40,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "Trend detection for the historical observations and the within-window future diagnostic was performed using the standard two-sided Mann–Kendall (MK) test [15] with Sen’s slope estimator [16]. For an annual time series , the Mann–Kendall test statistic (), its tie-corrected variance , and the continuity-corrected standardized test statistic () are formulated as follows:",
+      "total_chars": 372,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "(1)",
+      "total_chars": 9,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "(2)",
+      "total_chars": 7,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "(3)",
+      "total_chars": 9,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "The magnitude of the monotonic trend was estimated using Sen’s slope (), defined as the median of all pairwise slope differences across the series, with statistical significance evaluated at :",
+      "total_chars": 192,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "(4)",
+      "total_chars": 8,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "To limit the expected false-discovery proportion across the 143 observed station–index tests, p-values were adjusted using the Benjamini–Hochberg false discovery rate (BH-FDR) procedure [17]. The observed -values were ranked in ascending order (), and the largest rank satisfying Equation (5) was identified:",
+      "total_chars": 310,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "(5)",
+      "total_chars": 9,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "While this adjustment controls the expected proportion of false discoveries within the rejected hypotheses, it does not assess field significance. To address the confounding effects of serial correlation—as emphasized by Hamed and Rao [18]—the modified Mann–Kendall test incorporating Yue and Wang’s [19] effective sample size () was employed as a sensitivity check. For station 465002, the Simple Daily Intensity Index (SDII) was mathematically undefined in 2010 due to the complete absence of wet days (); consequently, this series comprised 33 valid observations for standard MK/Sen estimation and was omitted from the Yue–Wang correction due to the non-consecutive annual structure.",
+      "total_chars": 687,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "For the Yue–Wang sensitivity diagnostic, the annual series was first detrended using Sen’s slope. The lag- autocorrelation coefficients () of the detrended residuals were then integrated across all significant lags to compute the variance correction factor () and the adjusted variance ():",
+      "total_chars": 290,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "(6)",
+      "total_chars": 5,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "The Yue–Wang adjustment was used only as a sensitivity diagnostic and did not replace the standard MK/Sen results used for the primary inference.",
+      "total_chars": 145,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "2.4 Future-change aggregation",
+      "total_chars": 29,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "To evaluate projected climatic shifts, relative changes were computed relative to each model’s self-consistent historical baseline. For climate model (), emission scenario , extreme index , and rain-gauge station (), the station-level percentage change was quantified as:",
+      "total_chars": 273,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "(7)",
+      "total_chars": 7,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "where and denote the multi-year mean index values across the 1995–2014 baseline and the 2021–2050 future window, respectively.",
+      "total_chars": 128,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "To prevent models with elevated intra-provincial spatial heterogeneity from disproportionately biasing the ensemble summary, a model-first aggregation hierarchy was implemented. The station-median relative change for each individual model was derived first:",
+      "total_chars": 257,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "(8)",
+      "total_chars": 8,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Subsequently, the multi-model median (), along with the interquartile range (IQR) and full model range, was synthesized across the distribution of the seven values:",
+      "total_chars": 165,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "(9)",
+      "total_chars": 8,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "This hierarchical formulation guarantees that the reported inter-model uncertainty envelope directly captures structural model divergence rather than sampling artifacts associated with spatial gauge density. Within-window standard Mann–Kendall tests were additionally conducted for each model–station–index series across 2021–2050 strictly as an unadjusted diagnostic of localized transient behavior; these were interpreted independently and were not treated as forced trends or substitutes for the baseline-to-future shift ().",
+      "total_chars": 527,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "2.5 Station-referenced IDW mapping",
+      "total_chars": 34,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "Inverse-distance weighting (IDW), a deterministic interpolator for irregularly spaced observations [20], was used to depict broad spatial contrast. For a map location x, the displayed field was:",
+      "total_chars": 194,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "(10)",
+      "total_chars": 10,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "Station-referenced model-median changes were interpolated using IDW with a power parameter of 2. The resulting fields were masked to the Phetchaburi provincial boundary. These maps are descriptive spatial depictions of station-referenced changes and are not interpreted as dynamically downscaled or independently validated gridded projections. Areas outside the station convex hull are treated as spatial extrapolation.",
+      "total_chars": 419,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "3. Results",
+      "total_chars": 10,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "3.1 Data completeness and observed trends",
+      "total_chars": 41,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "The final run produced 4,862 station-year index records, 143 observed trend rows, 60,060 future index records, 2,002 future trend rows and 2,002 future-change rows. The observed 95th-percentile thresholds ranged from 14.5 to 42.8 mm and the 99th-percentile thresholds from 26.6 to 76.448 mm, confirming that a common provincial threshold would have removed substantial local intensity contrast.",
+      "total_chars": 394,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "The dominant observed signal was a decline in wet-day precipitation totals and wet-spell duration, accompanied by increases in dry-spell duration and wet-day intensity (Table 4; Figure 2). Standard MK identified 93 of 143 tests as significant; after BH-FDR control, 88 remained significant. PRCPTOT showed significant decreases at nine stations in the primary MK analysis, with a median Sen slope of −164.88 mm per decade. CWD decreased at 11 stations (median −27.04 days per decade), whereas CDD increased at 10 stations (median +9.23 days per decade). SDII increased at nine stations (median +0.54 mm day−1 per decade), and Rx1day, R95p and R99p increased at seven, eight and nine stations, respectively, in the primary test. Rx5day showed weaker spatial coherence, with only two significant decreases, and R50mm had five increases, one decrease and six non-significant station results.",
+      "total_chars": 888,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "Table 4. Observed trend counts and station-median Sen slopes for the 1981–2014 annual precipitation-index series. MK denotes the primary unadjusted standard Mann–Kendall decision; BH-FDR denotes the Benjamini–Hochberg decision across all 143 station–index tests.",
+      "total_chars": 262,
+      "bold_fraction": 0.03435114503816794,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "Notes: Units are those of the index; Sen’s slope is expressed per decade. “NS” means not significant at α = 0.05. R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014.",
+      "total_chars": 199,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "Figure 1. Spatial distribution and elevation setting of the 13 rain-gauge stations across Phetchaburi Province.",
+      "total_chars": 111,
+      "bold_fraction": 0.08108108108108109,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Figure 2. Observed annual precipitation-index trends for 1981–2014. (a) Sen slopes standardized within each index only for visual comparison; raw slopes are reported in Table 4. (b) Direction of the standard MK result for tests that remained significant after BH-FDR adjustment across all 143 station–index tests; white cells are not significant.",
+      "total_chars": 346,
+      "bold_fraction": 0.02601156069364162,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "3.2 Near-term model changes",
+      "total_chars": 27,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "The model-first results indicate a mixed projected response rather than a uniform provincial shift (Table 5; Figure 3). Under SSP2-4.5, the median PRCPTOT change was −2.5% (IQR, −6.5% to +8.0%), while the corresponding medians for Rx1day, Rx5day, R95p, and R99p were +4.8%, +7.6%, +9.6%, and +59.0%, respectively. The wide R99p range is consistent with substantial inter-model spread and with the sensitivity of relative changes to small baseline values for this extreme-tail index. CDD and CWD had median changes of −8.3% and −9.0%, respectively; however, the model range for CDD crossed zero, while that for CWD remained broad. Importantly, the pronounced inter-model spread, particularly for upper-tail and threshold indices such as R50mm, R95p, and R99p, indicates that projected changes are strongly model-dependent and should not be interpreted as a single deterministic provincial signal.",
+      "total_chars": 895,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "Under SSP5-8.5, the median PRCPTOT change was −9.0% (IQR −15.0 to +1.2%). R10mm had a median decrease of 9.6% and CWD by −7.2%, whereas R20mm increased by 2.7% and R99p by +20.1%; the corresponding IQRs crossed zero for most indices. The seven-model sign counts show this uncertainty directly: for PRCPTOT, SSP2-4.5 produced three positive and four negative model medians, while SSP5-8.5 produced two positive and five negative medians. The contrast is therefore stronger for the total-rainfall signal under SSP5-8.5 than for the tail indices. R50mm is a count index with low event frequency; its large relative percentages (for example, an SSP2-4.5 median of +33.3% with a model range of −33.3 to +300.0%) are unstable when baseline counts are small and should therefore not be treated as a headline climate signal.",
+      "total_chars": 816,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "Table 5. Model-first relative changes in annual precipitation indices during 2021–2050 relative to the model-consistent 1995–2014 baseline. The median and IQR are calculated across seven models after taking each model’s station median; +/–/0 counts give the number of models with positive, negative or zero station-median change.",
+      "total_chars": 329,
+      "bold_fraction": 0.02735562310030395,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "Notes: A positive value denotes an increase relative to the baseline. This aggregation describes model spread; it is not a formal probability distribution and does not imply model independence.",
+      "total_chars": 193,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "Figure 3. Projected relative changes in annual precipitation-extreme indices for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. Open circles indicate individual CMIP6 models (station median), filled black circles represent the multi-model median, and thick horizontal segments denote the interquartile range (IQR).",
+      "total_chars": 336,
+      "bold_fraction": 0.026785714285714284,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "3.3 Within-window trend diagnostics",
+      "total_chars": 35,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "The 30-year future-window standard MK diagnostic identified significant trends in 56 of 1,001 SSP2-4.5 model–station–index series (45 increasing and 11 decreasing) and 76 of 1,001 SSP5-8.5 series (5 increasing and 71 decreasing). These unadjusted counts do not establish field significance and are not interchangeable with the model-first mean changes. They are retained as a temporal diagnostic: a model can show a negative 2021–2050 slope even when its future mean is above the 1995–2014 baseline, and vice versa. This separation is important for avoiding the common conflation of projected level change with a monotonic trend within a short window.",
+      "total_chars": 651,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "3.4 Spatial depiction of PRCPTOT change",
+      "total_chars": 39,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "The IDW fields provide a spatial depiction of the station-referenced model-median PRCPTOT changes (Figure 4). Under SSP2-4.5, the northern and central areas are close to neutral or weakly positive, whereas the southern and southeastern station cluster shows more negative changes. Under SSP5-8.5, negative changes are more spatially extensive across the province. These patterns represent spatial interpolation of station-referenced projected changes and should not be interpreted as continuous-resolution climate projections between gauges.",
+      "total_chars": 541,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 1,
+      "page_break_before": false
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "Figure 4. Spatial distribution of projected changes in annual precipitation total (PRCPTOT) over Phetchaburi Province for 2021–2050 relative to 1995–2014 under SSP2-4.5 and SSP5-8.5. (a) SSP2-4.5; (b) SSP5-8.5.",
+      "total_chars": 210,
+      "bold_fraction": 0.04285714285714286,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "4. Discussion",
+      "total_chars": 13,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "4.1 Declining wet-day precipitation totals and stronger daily intensity",
+      "total_chars": 71,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "The observed Phetchaburi pattern combines lower wet-day precipitation totals and shorter wet spells with longer dry spells and greater wet-day intensity. This combination suggests a redistribution of precipitation characteristics between wet-day occurrence and intensity, although the station-based analysis does not identify the underlying atmospheric mechanism. These results indicate changes in the distribution of precipitation rather than a uniform increase across all heavy-precipitation indices and stations. The station-level matrix in Figure 2 shows less spatial coherence for Rx5day and R50mm than for Rx1day, R95p, and R99p; this pattern may be influenced by the greater variability associated with multi-day extremes and high-threshold event counts.",
+      "total_chars": 761,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "The direction of the historical signal is broadly consistent with Thai studies reporting non-stationary rainfall variability, spatially heterogeneous trends, and changes in extreme-event frequency [9-12,21]. These regional findings should not, however, be transferred directly to Phetchaburi. Differences in the gauge network, observation period, and percentile-threshold definition mean that the present study targets a different estimand. Likewise, the Cyprus study’s finding that model rankings and the direction of index changes vary by period and scenario provides a useful methodological comparison, but it is not evidence of a Phetchaburi-specific mechanism [7].",
+      "total_chars": 669,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "4.2 Scenario dependence and inter-model spread",
+      "total_chars": 46,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "The projected changes during 2021–2050 indicate substantial scenario dependence and inter-model spread. The median PRCPTOT change was more negative under SSP5-8.5 (−9.0%) than under SSP2-4.5 (−2.5%), although the IQR under SSP5-8.5 still included zero. The upper-tail indices show a contrasting pattern: R99p has a positive median change under both scenarios, but its model range is wide. Relative changes in tail indices can be sensitive to small baseline values, limited event counts, and the characteristics of the supplied bias-corrected series. Previous studies have shown that bias correction may improve distributional agreement while altering temporal dependence and event sequencing; therefore, its suitability should be evaluated for the specific extreme metric of interest rather than assumed to be neutral preprocessing [22-25].",
+      "total_chars": 840,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "The broad inter-model spread provides important context for interpreting the projected changes. Because CMIP6 models are not independent random draws, the seven-model median should be interpreted as a descriptive measure of central tendency rather than as a calibrated probability estimate. Recent assessments of CMIP6 model selection, statistical downscaling, and artificial-intelligence downscaling likewise emphasize that model skill and methodological choices can influence the local projected signal [14,24-30]. The model-first aggregation reduces the influence of unequal station representation on the ensemble summary but does not eliminate structural differences among models or uncertainty associated with scenario choice. The ensemble summaries indicate a tendency toward lower wet-day precipitation totals under SSP5-8.5, whereas several upper-tail indices show positive median changes accompanied by substantial inter-model spread.",
+      "total_chars": 943,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "4.3 Statistical and spatial limitations",
+      "total_chars": 39,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "Three main limitations constrain the interpretation of these results. First, the 1981–2014 observational record spans 34 years, limiting the effective sample size for extreme-tail analysis. The 30-year within-window trend diagnostics are likewise sensitive to sampling variability. Standard MK/Sen is reported as the primary reproducible analysis, while Yue–Wang is used as a sensitivity diagnostic; the two can yield different results when autocorrelation alters the variance estimate. Second, BH-FDR is applied to the 143 observed station–index tests but not to the unadjusted within-window future diagnostic, which is used only for descriptive purposes. Third, IDW provides a spatial depiction of station-referenced values. It cannot recover topographic or coastal gradients that are not represented by the station network and may extrapolate outside the station convex hull. The resulting surface depends on station density and boundary geometry [20]. It should therefore be interpreted as a depiction of broad spatial contrasts rather than as evidence of unsupported fine-scale gradients.",
+      "total_chars": 1093,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "5. Conclusion",
+      "total_chars": 13,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "Phetchaburi observations showed declining wet-day precipitation totals and wet-spell duration, alongside longer dry spells and increases in wet-day intensity and several upper-tail indices. PRCPTOT and CWD had median Sen’s slopes of −164.88 mm decade⁻¹ and −27.04 days decade⁻¹, respectively, while 88 of 143 observed station–index tests remained significant after Benjamini–Hochberg false-discovery-rate control. The Yue–Wang adjustment provided a sensitivity check for serial correlation rather than an alternative primary inference. Projected changes during 2021–2050 showed substantial inter-model and scenario dependence. The median PRCPTOT change was −2.5% under SSP2-4.5 and −9.0% under SSP5-8.5, whereas R99p increased by 59.0% and 20.1%, respectively, with wide inter-model spread. Rx5day and R50mm were less spatially coherent or more sensitive to small event counts. Overall, the results indicate a combination of lower wet-day precipitation totals, longer dry spells, and stronger precipitation extremes at many stations, highlighting the need to consider both flood and water-resource risks in regional planning.",
+      "total_chars": 1125,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 93,
+      "style": "Normal",
+      "text": "6. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process",
+      "total_chars": 83,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 95,
+      "style": "Normal",
+      "text": "During the preparation of this work the author used AI to assist with language editing, document formatting, code review and figure preparation. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication",
+      "total_chars": 285,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 96,
+      "style": "Normal",
+      "text": "7. Acknowledgements",
+      "total_chars": 19,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "The author thanks the Royal Irrigation Department (RID) for institutional support, and acknowledges the Thai Meteorological Department (TMD) and the Hydro-Informatics Institute (HII) for providing precipitation and CMIP6 datasets, respectively",
+      "total_chars": 243,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "8. Author Contributions",
+      "total_chars": 23,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 102,
+      "style": "Normal",
+      "text": "S.P.: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing.",
+      "total_chars": 175,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "9. Conflicts of Interest",
+      "total_chars": 24,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "The authors declare no conflict of interest.",
+      "total_chars": 44,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "10. References",
+      "total_chars": 14,
+      "bold_fraction": 1.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "",
+      "total_chars": 0,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "1. Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report. Cambridge: Cambridge University Press; 2021.",
+      "total_chars": 203,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "2. Zhang X, Alexander L, Hegerl GC, Jones P, Tank AK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870.",
+      "total_chars": 221,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "3. Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937–1958.",
+      "total_chars": 216,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "4. O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482.",
+      "total_chars": 188,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "5. Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153–168.",
+      "total_chars": 236,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "6. Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207. doi:10.3390/w16152207.",
+      "total_chars": 169,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "7. Gödek Hayal NP, Zaifoglu H, Yanmaz AM. Projecting precipitation extremes over Cyprus using CMIP6 climate scenarios. Nat Hazards. 2026;122:368. doi:10.1007/s11069-026-08119-4.",
+      "total_chars": 177,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "8. Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol. 2024;155(9):8703–8716. doi:10.1007/s00704-024-05150-y.",
+      "total_chars": 208,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 118,
+      "style": "Normal",
+      "text": "9. Madolli MJ, Gade SA, Tangdamrongsub N, Debnath S, Gupta V, Datta A, Himanshu SK. Non-stationarity and temporal dependence of seasonal and extreme rainfall in Thailand and their linkages with ENSO and IOD. Theor Appl Climatol. 2026;157(6). doi:10.1007/s00704-026-06315-7.",
+      "total_chars": 273,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 119,
+      "style": "Normal",
+      "text": "10. Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380. doi:10.1038/s41598-025-18217-1.",
+      "total_chars": 185,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "11. de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, Pereira MA, Mendes MCD, Baracho BBD, Jamjareegulgarn P. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501. doi:10.1038/s41598-025-86826-x.",
+      "total_chars": 342,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 121,
+      "style": "Normal",
+      "text": "12. Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232.",
+      "total_chars": 209,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "13. Limsakul A. Changes of daily rainfall intensity in Thailand from 1955 to 2019. Asia-Pac J Sci Technol. 2022;27(1):APST-27-01-12. doi:10.14456/apst.2022.12.",
+      "total_chars": 159,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 123,
+      "style": "Normal",
+      "text": "14. Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4.",
+      "total_chars": 246,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 124,
+      "style": "Normal",
+      "text": "15. Mann HB. Nonparametric tests against trend. Econometrica. 1945;13(3):245–259.",
+      "total_chars": 81,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 125,
+      "style": "Normal",
+      "text": "16. Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389.",
+      "total_chars": 116,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 126,
+      "style": "Normal",
+      "text": "17. Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289–300.",
+      "total_chars": 164,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 127,
+      "style": "Normal",
+      "text": "18. Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol. 1998;204(1–4):182–196.",
+      "total_chars": 114,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 128,
+      "style": "Normal",
+      "text": "19. Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201–218.",
+      "total_chars": 172,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 129,
+      "style": "Normal",
+      "text": "20. Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–524.",
+      "total_chars": 170,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "21. Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102.",
+      "total_chars": 207,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 131,
+      "style": "Normal",
+      "text": "22. Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile delta mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28:6938–6959.",
+      "total_chars": 191,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 132,
+      "style": "Normal",
+      "text": "23. Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211–220.",
+      "total_chars": 113,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 133,
+      "style": "Normal",
+      "text": "24. Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417. doi:10.1016/j.rineng.2024.102417.",
+      "total_chars": 246,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 134,
+      "style": "Normal",
+      "text": "25. Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500.",
+      "total_chars": 211,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 135,
+      "style": "Normal",
+      "text": "26. Prathom C, Champrasert P. General Circulation Model Downscaling Using Interpolation–Machine Learning Model Combination–Case Study: Thailand. Sustainability. 2023;15(12):9668. doi:10.3390/su15129668.",
+      "total_chars": 202,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 136,
+      "style": "Normal",
+      "text": "27. Muthuvel D, Qin X. Spatial concurrence risk of extreme precipitations in Southeast Asia under climate change using temporally dynamic complex networks. J Hydrol. 2026;664(Part B):134526. doi:10.1016/j.jhydrol.2025.134526.",
+      "total_chars": 225,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 137,
+      "style": "Normal",
+      "text": "28. Jiang Y, Ge F, Chen Q, Lin Z, Fraedrich K, Chen Z. How compound wind and precipitation extremes change over Southeast Asia: a comprehensive assessment from CMIP6 models. Atmos Sci Lett. 2025;26(2). doi:10.1002/asl.1293.",
+      "total_chars": 223,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 138,
+      "style": "Normal",
+      "text": "29. Singh AK, Roshni T, Singh V. Projected intensification of precipitation extremes in the Kosi Basin using CMIP6 models. Sci Rep. 2026;16:12565. doi:10.1038/s41598-026-43723-1.",
+      "total_chars": 178,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    },
+    {
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093.",
+      "total_chars": 221,
+      "bold_fraction": 0.0,
+      "breaks": 0,
+      "drawings": 0,
+      "page_break_before": false
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Station ID",
+            "Latitude (°N)",
+            "Longitude (°E)",
+            "Elevation (m MSL)"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "465001",
+            "13.0700",
+            "99.9700",
+            "5.74"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "465002",
+            "12.7500",
+            "99.9800",
+            "2.15"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "465003",
+            "13.2200",
+            "99.8500",
+            "2.65"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "465004",
+            "13.0200",
+            "99.9500",
+            "10.55"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "465005",
+            "12.9700",
+            "99.8900",
+            "17.28"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "465006",
+            "13.2200",
+            "99.9800",
+            "1.09"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "465007",
+            "13.1500",
+            "99.7000",
+            "70.55"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "465008",
+            "12.8000",
+            "99.9800",
+            "6.58"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "465009",
+            "12.7800",
+            "99.9200",
+            "30.66"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "465010",
+            "12.6700",
+            "99.9000",
+            "56.03"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "465011",
+            "12.7000",
+            "99.9000",
+            "54.55"
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            "465012",
+            "12.7200",
+            "99.8800",
+            "63.17"
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            "465201",
+            "13.1500",
+            "100.0700",
+            "5.20"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Model",
+            "Institution/consortium",
+            "Country/region",
+            "Series used"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "ACCESS-ESM1-5",
+            "CSIRO / ARCCSS",
+            "Australia",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "CanESM5",
+            "Environment and Climate Change Canada / CCCma",
+            "Canada",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "CESM2",
+            "NCAR",
+            "United States",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "EC-Earth3",
+            "EC-Earth Consortium",
+            "Europe",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "FGOALS-g3",
+            "Chinese Academy of Sciences / LASG",
+            "China",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "MIROC6",
+            "MIROC Consortium",
+            "Japan",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "MRI-ESM2-0",
+            "Meteorological Research Institute",
+            "Japan",
+            "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Index",
+            "Name",
+            "Operational definition",
+            "Unit"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "PRCPTOT",
+            "Annual total wet-day precipitation",
+            "ΣRR for RR ≥ 1 mm",
+            "mm"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SDII",
+            "Mean precipitation intensity on wet days",
+            "PRCPTOT divided by the number of wet days (RR ≥ 1 mm)",
+            "mm day−1"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "Rx1day",
+            "Maximum 1-day precipitation",
+            "Annual maximum daily precipitation",
+            "mm"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "Rx5day",
+            "Maximum 5-day precipitation",
+            "Annual maximum consecutive 5-day precipitation total",
+            "mm"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "CDD",
+            "Consecutive dry days",
+            "Annual maximum number of consecutive days with RR < 1 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "CWD",
+            "Consecutive wet days",
+            "Annual maximum number of consecutive days with RR ≥ 1 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "R10mm",
+            "Heavy precipitation days",
+            "Annual number of days with RR ≥ 10 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "R20mm",
+            "Very heavy precipitation days",
+            "Annual number of days with RR ≥ 20 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "R50mm",
+            "Extremely heavy precipitation days",
+            "Annual number of days with RR ≥ 50 mm",
+            "days"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "R95p",
+            "Very wet-day precipitation",
+            "Annual precipitation total from wet days exceeding the station-specific 95th-percentile wet-day threshold",
+            "mm"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "R99p",
+            "Extremely wet-day precipitation",
+            "Annual precipitation total from wet days exceeding the station-specific 99th-percentile wet-day threshold",
+            "mm"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Index",
+            "Unit",
+            "MK inc.",
+            "MK dec.",
+            "MK NS",
+            "BH inc.",
+            "BH dec.",
+            "Median Sen slope (per decade)"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "PRCPTOT",
+            "mm",
+            "0",
+            "9",
+            "4",
+            "0",
+            "9",
+            "-164.88"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SDII",
+            "mm day-1",
+            "9",
+            "1",
+            "3",
+            "9",
+            "1",
+            "0.54"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "Rx1day",
+            "mm",
+            "7",
+            "1",
+            "5",
+            "7",
+            "1",
+            "7.68"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "Rx5day",
+            "mm",
+            "0",
+            "2",
+            "11",
+            "0",
+            "2",
+            "4.54"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "CDD",
+            "days",
+            "10",
+            "0",
+            "3",
+            "9",
+            "0",
+            "9.23"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "CWD",
+            "days",
+            "1",
+            "11",
+            "1",
+            "1",
+            "11",
+            "-27.04"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "R10mm",
+            "days",
+            "0",
+            "5",
+            "8",
+            "0",
+            "4",
+            "-3.16"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "R20mm",
+            "days",
+            "8",
+            "2",
+            "3",
+            "7",
+            "1",
+            "1.11"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "R50mm",
+            "days",
+            "7",
+            "1",
+            "5",
+            "6",
+            "1",
+            "0.00"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "R95p",
+            "mm",
+            "8",
+            "1",
+            "4",
+            "8",
+            "1",
+            "51.53"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "R99p",
+            "mm",
+            "9",
+            "1",
+            "3",
+            "9",
+            "1",
+            "32.10"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            "Scenario",
+            "Index",
+            "Median (%)",
+            "IQR (%)",
+            "Range (%)",
+            "Positive/negative/zero",
+            "Positive/negative/zero"
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            "SSP2-4.5",
+            "PRCPTOT",
+            "-2.5",
+            "-6.5 to 8.0",
+            "-12.3 to 16.8",
+            "3/4/0",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            "SSP2-4.5",
+            "SDII",
+            "0.4",
+            "-3.3 to 6.3",
+            "-8.4 to 16.9",
+            "4/3/0",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            "SSP2-4.5",
+            "Rx1day",
+            "4.8",
+            "-0.7 to 10.5",
+            "-6.8 to 37.4",
+            "5/2/0",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            "SSP2-4.5",
+            "Rx5day",
+            "7.6",
+            "1.8 to 10.3",
+            "-6.1 to 46.1",
+            "5/2/0",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            "SSP2-4.5",
+            "CDD",
+            "-8.3",
+            "-10.9 to -0.9",
+            "-16.5 to 5.1",
+            "2/5/0",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            "SSP2-4.5",
+            "CWD",
+            "-9.0",
+            "-14.2 to -4.2",
+            "-33.8 to 6.5",
+            "1/6/0",
+            "1/6/0"
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            "SSP2-4.5",
+            "R10mm",
+            "-4.9",
+            "-10.9 to 14.8",
+            "-19.5 to 28.2",
+            "3/4/0",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            "SSP2-4.5",
+            "R20mm",
+            "13.0",
+            "2.8 to 36.2",
+            "-15.6 to 96.8",
+            "6/1/0",
+            "6/1/0"
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            "SSP2-4.5",
+            "R50mm",
+            "33.3",
+            "11.1 to 116.7",
+            "-33.3 to 300.0",
+            "5/1/1",
+            "5/1/1"
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            "SSP2-4.5",
+            "R95p",
+            "9.6",
+            "-0.2 to 34.0",
+            "-15.2 to 77.8",
+            "5/2/0"
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            "SSP2-4.5",
+            "R99p",
+            "59.0",
+            "36.8 to 85.2",
+            "-13.0 to 194.1",
+            "6/1/0"
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            "SSP5-8.5",
+            "PRCPTOT",
+            "-9.0",
+            "-15.0 to 1.2",
+            "-21.5 to 17.4",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            "SSP5-8.5",
+            "SDII",
+            "-2.1",
+            "-10.7 to 1.5",
+            "-13.0 to 18.8",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 14,
+          "cells": [
+            "SSP5-8.5",
+            "Rx1day",
+            "0.9",
+            "-9.2 to 7.7",
+            "-10.2 to 33.7",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 15,
+          "cells": [
+            "SSP5-8.5",
+            "Rx5day",
+            "-0.7",
+            "-6.5 to 17.1",
+            "-16.4 to 40.0",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 16,
+          "cells": [
+            "SSP5-8.5",
+            "CDD",
+            "-1.1",
+            "-8.0 to 1.7",
+            "-18.8 to 18.8",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 17,
+          "cells": [
+            "SSP5-8.5",
+            "CWD",
+            "-7.2",
+            "-28.2 to 7.0",
+            "-32.5 to 14.3",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 18,
+          "cells": [
+            "SSP5-8.5",
+            "R10mm",
+            "-9.6",
+            "-26.5 to -1.0",
+            "-32.8 to 31.4",
+            "2/5/0"
+          ]
+        },
+        {
+          "row": 19,
+          "cells": [
+            "SSP5-8.5",
+            "R20mm",
+            "2.7",
+            "-19.2 to 24.2",
+            "-38.7 to 96.0",
+            "4/3/0"
+          ]
+        },
+        {
+          "row": 20,
+          "cells": [
+            "SSP5-8.5",
+            "R50mm",
+            "-11.1",
+            "-27.8 to 126.7",
+            "-33.3 to 350.0",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 21,
+          "cells": [
+            "SSP5-8.5",
+            "R95p",
+            "-2.5",
+            "-22.7 to 21.2",
+            "-36.3 to 87.9",
+            "3/4/0"
+          ]
+        },
+        {
+          "row": 22,
+          "cells": [
+            "SSP5-8.5",
+            "R99p",
+            "20.1",
+            "-14.5 to 115.6",
+            "-30.0 to 241.6",
+            "4/3/0"
+          ]
+        }
+      ]
+    }
+  ],
+  "body_order": [
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "text": "Station ID | Latitude (°N) | Longitude (°E) | Elevation (m MSL) || 465001 | 13.0700 | 99.9700 | 5.74 || 465002 | 12.7500 | 99.9800 | 2.15 || 465003 | 13.2200 | 99.8500 | 2.65 || 465004 | 13.0200 | 99.9500 | 10.55 || 465005 | 12.9700 | 99.8900 | 17.28 || 465006 | 13.2200 | 99.9800 | 1.09 || 465007 | 13.1500 | 99.7000 | 70.55 || 465008 | 12.8000 | 99.9800 | 6.58 || 465009 | 12.7800 | 99.9200 | 30.66 || 465010 | 12.6700 | 99.9000 | 56.03 || 465011 | 12.7000 | 99.9000 | 54.55 || 465012 | 12.7200 | 99.8800 | 63.17 || 465201 | 13.1500 | 100.0700 | 5.20"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "text": "Model | Institution/consortium | Country/region | Series used || ACCESS-ESM1-5 | CSIRO / ARCCSS | Australia | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || CanESM5 | Environment and Climate Change Canada / CCCma | Canada | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || CESM2 | NCAR | United States | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || EC-Earth3 | EC-Earth Consortium | Europe | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || FGOALS-g3 | Chinese Academy of Sciences / LASG | China | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || MIROC6 | MIROC Consortium | Japan | Historical 1995–2014; SSP2-4.5; SSP5-8.5 || MRI-ESM2-0 | Meteorological Research Institute | Japan | Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "text": "Index | Name | Operational definition | Unit || PRCPTOT | Annual total wet-day precipitation | ΣRR for RR ≥ 1 mm | mm || SDII | Mean precipitation intensity on wet days | PRCPTOT divided by the number of wet days (RR ≥ 1 mm) | mm day−1 || Rx1day | Maximum 1-day precipitation | Annual maximum daily precipitation | mm || Rx5day | Maximum 5-day precipitation | Annual maximum consecutive 5-day precipitation total | mm || CDD | Consecutive dry days | Annual maximum number of consecutive days with RR < 1 mm | days || CWD | Consecutive wet days | Annual maximum number of consecutive days with RR ≥ 1 mm | days || R10mm | Heavy precipitation days | Annual number of days with RR ≥ 10 mm | days || R20mm | Very heavy precipitation days | Annual number of days with RR ≥ 20 mm | days || R50mm | Extremely heavy precipitation days | Annual number of days with RR ≥ 50 mm | days || R95p | Very wet-day precipitation | Annual precipitation total from wet days exceeding the station-specific 95th-percentile wet-day threshold | mm || R99p | Extremely wet-day precipitation | Annual precipitation total from wet days exceeding the station-specific 99th-percentile wet-day threshold | mm"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "text": "Index | Unit | MK inc. | MK dec. | MK NS | BH inc. | BH dec. | Median Sen slope (per decade) || PRCPTOT | mm | 0 | 9 | 4 | 0 | 9 | -164.88 || SDII | mm day-1 | 9 | 1 | 3 | 9 | 1 | 0.54 || Rx1day | mm | 7 | 1 | 5 | 7 | 1 | 7.68 || Rx5day | mm | 0 | 2 | 11 | 0 | 2 | 4.54 || CDD | days | 10 | 0 | 3 | 9 | 0 | 9.23 || CWD | days | 1 | 11 | 1 | 1 | 11 | -27.04 || R10mm | days | 0 | 5 | 8 | 0 | 4 | -3.16 || R20mm | days | 8 | 2 | 3 | 7 | 1 | 1.11 || R50mm | days | 7 | 1 | 5 | 6 | 1 | 0.00 || R95p | mm | 8 | 1 | 4 | 8 | 1 | 51.53 || R99p | mm | 9 | 1 | 3 | 9 | 1 | 32.10"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "table",
+      "index": 4,
+      "text": "Scenario | Index | Median (%) | IQR (%) | Range (%) | Positive/negative/zero | Positive/negative/zero || SSP2-4.5 | PRCPTOT | -2.5 | -6.5 to 8.0 | -12.3 to 16.8 | 3/4/0 | 3/4/0 || SSP2-4.5 | SDII | 0.4 | -3.3 to 6.3 | -8.4 to 16.9 | 4/3/0 | 4/3/0 || SSP2-4.5 | Rx1day | 4.8 | -0.7 to 10.5 | -6.8 to 37.4 | 5/2/0 | 5/2/0 || SSP2-4.5 | Rx5day | 7.6 | 1.8 to 10.3 | -6.1 to 46.1 | 5/2/0 | 5/2/0 || SSP2-4.5 | CDD | -8.3 | -10.9 to -0.9 | -16.5 to 5.1 | 2/5/0 | 2/5/0 || SSP2-4.5 | CWD | -9.0 | -14.2 to -4.2 | -33.8 to 6.5 | 1/6/0 | 1/6/0 || SSP2-4.5 | R10mm | -4.9 | -10.9 to 14.8 | -19.5 to 28.2 | 3/4/0 | 3/4/0 || SSP2-4.5 | R20mm | 13.0 | 2.8 to 36.2 | -15.6 to 96.8 | 6/1/0 | 6/1/0 || SSP2-4.5 | R50mm | 33.3 | 11.1 to 116.7 | -33.3 to 300.0 | 5/1/1 | 5/1/1 || SSP2-4.5 | R95p | 9.6 | -0.2 to 34.0 | -15.2 to 77.8 | 5/2/0 || SSP2-4.5 | R99p | 59.0 | 36.8 to 85.2 | -13.0 to 194.1 | 6/1/0 || SSP5-8.5 | PRCPTOT | -9.0 | -15.0 to 1.2 | -21.5 to 17.4 | 2/5/0 || SSP5-8.5 | SDII | -2.1 | -10.7 to 1.5 | -13.0 to 18.8 | 2/5/0 || SSP5-8.5 | Rx1day | 0.9 | -9.2 to 7.7 | -10.2 to 33.7 | 4/3/0 || SSP5-8.5 | Rx5day | -0.7 | -6.5 to 17.1 | -16.4 to 40.0 | 3/4/0 || SSP5-8.5 | CDD | -1.1 | -8.0 to 1.7 | -18.8 to 18.8 | 2/5/0 || SSP5-8.5 | CWD | -7.2 | -28.2 to 7.0 | -32.5 to 14.3 | 3/4/0 || SSP5-8.5 | R10mm | -9.6 | -26.5 to -1.0 | -32.8 to 31.4 | 2/5/0 || SSP5-8.5 | R20mm | 2.7 | -19.2 to 24.2 | -38.7 to 96.0 | 4/3/0 || SSP5-8.5 | R50mm | -11.1 | -27.8 to 126.7 | -33.3 to 350.0 | 3/4/0 || SSP5-8.5 | R95p | -2.5 | -22.7 to 21.2 | -36.3 to 87.9 | 3/4/0 || SSP5-8.5 | R99p | 20.1 | -14.5 to 115.6 | -30.0 to 241.6 | 4/3/0"
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    },
+    {
+      "type": "paragraph",
+      "index": 0,
+      "style": "Normal",
+      "text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios"
+    },
+    {
+      "type": "paragraph",
+      "index": 1,
+      "style": "Normal",
+      "text": "Surasit Punyawansiri 1,*"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "style": "Normal",
+      "text": "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093."
+    }
+  ],
+  "package": {
+    "omml_math": 36,
+    "comments": 0,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "footnotes": 0,
+    "endnotes": 0,
+    "images": [
+      {
+        "name": "word/media/image1.png",
+        "bytes": 8314170,
+        "format": "PNG",
+        "width_px": 4962,
+        "height_px": 3494,
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      {
+        "name": "word/media/image2.png",
+        "bytes": 638836,
+        "format": "PNG",
+        "width_px": 8548,
+        "height_px": 4013,
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      {
+        "name": "word/media/image3.png",
+        "bytes": 883689,
+        "format": "PNG",
+        "width_px": 8728,
+        "height_px": 5420,
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      {
+        "name": "word/media/image4.png",
+        "bytes": 721960,
+        "format": "PNG",
+        "width_px": 5138,
+        "height_px": 2094,
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    ],
+    "all_xml_text": "Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios Surasit Punyawansiri 1,* 1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand *Corresponding author: Surasit.pu@ku.th Abstract Changes in precipitation extremes can occur alongside shifts in rainfall totals, wet and dry spells, and event intensity, creating competing signals for water-resource planning. This study assessed observed trends and near-term projected changes in 11 annual precipitation-extreme indices at 13 rain gauges in Phetchaburi Province, Thailand. Daily observations for 1981–2014 were analyzed using the two-sided Mann–Kendall test and Sen’s slope estimator, with Benjamini–Hochberg false-discovery-rate control applied to 143 station–index tests. The Yue–Wang effective-sample-size adjustment was used as a sensitivity diagnostic. Future changes for 2021–2050 were estimated from seven supplied bias-corrected CMIP6 models under SSP2-4.5 and SSP5-8.5 relative to each model’s 1995–2014 baseline. A model-first approach calculated the station median within each model before summarizing the seven model-level changes. Observations showed significant decreases in PRCPTOT and CWD at 9 and 11 stations, respectively, and increases in CDD, SDII, Rx1day, R95p, and R99p at 10, 9, 7, 8, and 9 stations, respectively; 88 of 143 tests remained significant after false-discovery-rate control. Median PRCPTOT changes were −2.5% under SSP2-4.5 and −9.0% under SSP5-8.5, whereas R99p increased by 59.0% and 20.1%, respectively, with substantial inter-model spread. Station-referenced IDW indicated broader negative PRCPTOT changes under SSP5-8.5 but represents spatial depiction rather than validated gridded projection. Overall, the results indicate declining wet-day totals and longer dry spells in observations, while future changes remain model- and scenario-dependent. Keywords: Climate change, P recipitation extremes , Mann–Kendall test, Sen’s slope, Phetchaburi Province 1. Introduction Precipitation extremes are an important consequence of a warming climate, with implications for water-supply reliability, agricultural productivity, flood risk, and community resilience [1,2]. The hydroclimatic response to global warming is not necessarily expressed as a uniform change in annual precipitation totals; rather, precipitation characteristics are influenced by thermodynamic effects associated with increased atmospheric moisture capacity and by regional dynamical processes, including monsoon variability, convection, and land–sea thermal contrasts [1,2]. Consequently, a region may experience more intense precipitation events alongside longer dry spells, reflecting changes in the temporal distribution of precipitation [1,2]. Capturing these contrasting characteristics therefore benefits from a suite of complementary duration-, intensity-, frequency-, and percentile-based precipitation-extreme indices rather than a single aggregate rainfall metric [2] . The Coupled Model Intercomparison Project Phase 6 (CMIP6) provides a coordinated framework for evaluating climate-model responses, with ScenarioMIP providing scenario-based projections under pathways such as SSP2-4.5 and SSP5-8.5 [3 - 5]. Regional assessments, however, remain subject to structural model uncertainty and sensitivity of precipitation extremes to bias-correction choices [6,7]. Regional studies also show substantial inter-model spread and, for some indices, differences in the direction of projected change across models [6,7]. These findings support an index-by-index assessment with explicit baselines, transparent aggregation, and explicit characterization of inter-model spread . Across Thailand, recent studies have documented non-stationary rainfall variability, historical trends, and projected changes in precipitation extremes across northern, central, and southern regions [8-12], as well as nationwide shifts toward intensified daily rainfall regimes [13]. However, station-level assessments integrating multiple ETCCDI-family indices, observed trends, and CMIP6 scenario changes remain limited for Phetchaburi Province . Phetchaburi is an important agricultural and water-resource area in the Phetchaburi–Prachuap Khiri Khan region, where localized evidence on precipitation extremes can support flood-risk assessment and water-resource planning [ 8 , 1 2]. To address this gap, this study examines 11 ETCCDI-family precipitation-extreme indices using observations from 13 rain gauges in Phetchaburi Province and evaluates projected changes from seven CMIP6 models under SSP2-4.5 and SSP5-8.5. The analysis focuses on three questions: ( i ) which precipitation-extreme indices showed significant trends during 1981–2014; (ii) how projected changes during 2021–2050 vary among the seven CMIP6 models relative to the 1995–2014 baseline; and (iii) what broad spatial contrasts are suggested by the station-referenced projections across the province. The findings provide localized evidence relevant to flood-risk assessment and water-resource planning in Phetchaburi Province . 2. Materials and Methods 2.1 Study area, observations and model series The study area is Phetchaburi Province, Thailand. Daily precipitation observations for 1981–2014 were obtained from 13 meteorological stations (Figure 1; Table 1). The supplied model dataset comprises daily historical and scenario precipitation series from the seven CMIP6 GCMs listed in Table 2. Historical model output was summarized over 1995–2014 as the baseline period, and future projections were evaluated for 2021–2050. The 1995–2014 period was selected as the baseline because it is the AR6 recent-past reference period used for assessing future climate projections, and 2014 is the final year of the CMIP6 historical simulations [ 1 ]. Table 1 . Geographic coordinates and elevations of the 13 rain-gauge stations in Phetchaburi Province . Station ID Latitude (°N) Longitude (°E) Elevation (m MSL) 465001 13.0700 99.9700 5.74 465002 12.7500 99.9800 2.15 465003 13.2200 99.8500 2.65 465004 13.0200 99.9500 10.55 465005 12.9700 99.8900 17.28 465006 13.2200 99.9800 1.09 465007 13.1500 99.7000 70.55 465008 12.8000 99.9800 6.58 465009 12.7800 99.9200 30.66 465010 12.6700 99.9000 56.03 465011 12.7000 99.9000 54.55 465012 12.7200 99.8800 63.17 465201 13.1500 100.0700 5.20 Notes: No station names are assigned because the analysis input identifies gauges by station ID only. Table 2. List of the CMIP6 GCMs used in the study. Model Institution/consortium Country/region Series used ACCESS-ESM1-5 CSIRO / ARCCSS Australia Historical 1995–2014; SSP2-4.5; SSP5-8.5 CanESM5 Environment and Climate Change Canada / CCCma Canada Historical 1995–2014; SSP2-4.5; SSP5-8.5 CESM2 NCAR United States Historical 1995–2014; SSP2-4.5; SSP5-8.5 EC-Earth3 EC-Earth Consortium Europe Historical 1995–2014; SSP2-4.5; SSP5-8.5 FGOALS-g3 Chinese Academy of Sciences / LASG China Historical 1995–2014; SSP2-4.5; SSP5-8.5 MIROC6 MIROC Consortium Japan Historical 1995–2014; SSP2-4.5; SSP5-8.5 MRI-ESM2-0 Meteorological Research Institute Japan Historical 1995–2014; SSP2-4.5; SSP5-8.5 Notes: All seven models were used for the historical baseline and both future scenarios. The supplied daily series were already bias-corrected; the correction procedure was not re-estimated in this study. 2.2 Annual precipitation indices and quality control We calculated 11 annual precipitation-extreme indices from the ETCCDI family (Table 3): PRCPTOT (wet-day precipitation total), SDII (wet-day mean intensity), Rx1day and Rx5day (annual one- and five-day maxima), CDD and CWD (maximum consecutive dry and wet days), R10mm, R20mm and R50mm (counts of days at or above 10, 20 and 50 mm), and R95p and R99p (annual precipitation above station-specific 95th and 99th wet-day thresholds). A wet day was RR ≥ 1 mm. The percentile thresholds were fixed once from each station’s complete 1981–2014 wet-day distribution; they were not re-estimated separately in each year or future window. Accordingly, R95p and R99p are treated here as fixed-reference percentile indices; their implementation should not be assumed to be identical to that of every ETCCDI software package [2, 14 ]. Table 3. Definitions of extreme precipitation indices used in the study. Index Name Operational definition Unit PRCPTOT Annual total wet-day precipitation ΣRR for RR ≥ 1 mm mm SDII Mean precipitation intensity on wet days PRCPTOT divided by the number of wet days (RR ≥ 1 mm) mm day−1 Rx1day Maximum 1-day precipitation Annual maximum daily precipitation mm Rx5day Maximum 5-day precipitation Annual maximum consecutive 5-day precipitation total mm CDD Consecutive dry days Annual maximum number of consecutive days with RR &lt; 1 mm days CWD Consecutive wet days Annual maximum number of consecutive days with RR ≥ 1 mm days R10mm Heavy precipitation days Annual number of days with RR ≥ 10 mm days R20mm Very heavy precipitation days Annual number of days with RR ≥ 20 mm days R50mm Extremely heavy precipitation days Annual number of days with RR ≥ 50 mm days R95p Very wet-day precipitation Annual precipitation total from wet days exceeding the station-specific 95th-percentile wet-day threshold mm R99p Extremely wet-day precipitation Annual precipitation total from wet days exceeding the station-specific 99th-percentile wet-day threshold mm Notes: A wet day is RR ≥ 1 mm. R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014 and retained for all annual and future-window calculations. The analysis used the Gregorian calendar for observations. CanESM5, CESM2 and FGOALS-g3 use a 365-day no-leap calendar; February 29 is therefore absent from these model series and was not imputed. Annual completeness was evaluated using the applicable model calendar. Annual summaries required at least 90% valid daily records. A missing day was not silently converted to zero; it interrupted spells and moving windows. The minimum annual completeness across model records was 99.7 3 %. 2.3 Trend inference and multiple testing Trend detection for the historical observations and the within-window future diagnostic was performed using the standard two-sided Mann–Kendall (MK) test [ 15 ] with Sen’s slope estimator [1 6 ]. For an annual time series , the Mann–Kendall test statistic ( ), its tie-corrected variance , and the continuity-corrected standardized test statistic ( ) are formulated as follows: ( 1 ) ( 2 ) ( 3 ) The magnitude of the monotonic trend was estimated using Sen’s slope ( ), defined as the median of all pairwise slope differences across the series, with statistical significance evaluated at : ( 4 ) To limit the expected false-discovery proportion across the 143 observed station–index tests, p-values were adjusted using the Benjamini–Hochberg false discovery rate (BH-FDR) procedure [1 7 ]. The observed -values were ranked in ascending order ( ), and the largest rank satisfying Equation (5) was identified: ( 5 ) While this adjustment controls the expected proportion of false discoveries within the rejected hypotheses, it does not assess field significance. To address the confounding effects of serial correlation—as emphasized by Hamed and Rao [1 8 ]—the modified Mann–Kendall test incorporating Yue and Wang’s [1 9 ] effective sample size ( ) was employed as a sensitivity check. For station 465002, the Simple Daily Intensity Index (SDII) was mathematically undefined in 2010 due to the complete absence of wet days ( ); consequently, this series comprised 33 valid observations for standard MK/Sen estimation and was omitted from the Yue–Wang correction due to the non-consecutive annual structure. For the Yue–Wang sensitivity diagnostic, the annual series was first detrended using Sen’s slope. The lag- autocorrelation coefficients ( ) of the detrended residuals were then integrated across all significant lags to compute the variance correction factor ( ) and the adjusted variance ( ): ( 6 ) The Yue–Wang adjustment was used only as a sensitivity diagnostic and did not replace the standard MK/Sen results used for the primary inference. 2.4 Future-change aggregation To evaluate projected climatic shifts, relative changes were computed relative to each model’s self-consistent historical baseline. For climate model ( ), emission scenario , extreme index , and rain-gauge station ( ), the station-level percentage change was quantified as: ( 7 ) where and denote the multi-year mean index values across the 1995–2014 baseline and the 2021–2050 future window, respectively. To prevent models with elevated intra-provincial spatial heterogeneity from disproportionately biasing the ensemble summary, a model-first aggregation hierarchy was implemented. The station-median relative change for each individual model was derived first: ( 8 ) Subsequently, the multi-model median ( ), along with the interquartile range (IQR) and full model range, was synthesized across the distribution of the seven values: ( 9 ) This hierarchical formulation guarantees that the reported inter-model uncertainty envelope directly captures structural model divergence rather than sampling artifacts associated with spatial gauge density. Within-window standard Mann–Kendall tests were additionally conducted for each model–station–index series across 2021–2050 strictly as an unadjusted diagnostic of localized transient behavior; these were interpreted independently and were not treated as forced trends or substitutes for the baseline-to-future shift ( ). 2.5 Station-referenced IDW mapping Inverse-distance weighting (IDW), a deterministic interpolator for irregularly spaced observations [ 20 ], was used to depict broad spatial contrast . For a map location x, the displayed field was: ( 10 ) Station-referenced model-median changes were interpolated using IDW with a power parameter of 2. The resulting fields were masked to the Phetchaburi provincial boundary. These maps are descriptive spatial depictions of station-referenced changes and are not interpreted as dynamically downscaled or independently validated gridded projections. Areas outside the station convex hull are treated as spatial extrapolation. 3. Results 3.1 Data completeness and observed trends The final run produced 4,862 station-year index records, 143 observed trend rows, 60,060 future index records, 2,002 future trend rows and 2,002 future-change rows. The observed 95th-percentile thresholds ranged from 14.5 to 42.8 mm and the 99th-percentile thresholds from 26.6 to 76.448 mm, confirming that a common provincial threshold would have removed substantial local intensity contrast. The dominant observed signal was a decline in wet-day precipitation totals and wet-spell duration, accompanied by increases in dry-spell duration and wet-day intensity (Table 4; Figure 2). Standard MK identified 93 of 143 tests as significant; after BH-FDR control, 88 remained significant. PRCPTOT showed significant decreases at nine stations in the primary MK analysis , with a median Sen slope of −164.88 mm per decade. CWD decreased at 11 stations (median −27.04 days per decade), whereas CDD increased at 10 stations (median +9.23 days per decade). SDII increased at nine stations (median +0.54 mm day−1 per decade), and Rx1day, R95p and R99p increased at seven, eight and nine stations, respectively, in the primary test. Rx5day showed weaker spatial coherence, with only two significant decreases , and R50mm had five increases, one decrease and six non-significant station results. Table 4. Observed trend counts and station-median Sen slopes for the 1981–2014 annual precipitation-index series. MK denotes the primary unadjusted standard Mann–Kendall decision; BH-FDR denotes the Benjamini–Hochberg decision across all 143 station–index tests. Index Unit MK inc. MK dec. MK NS BH inc. BH dec. Median Sen slope ( per decade ) PRCPTOT mm 0 9 4 0 9 -164.88 SDII mm day-1 9 1 3 9 1 0.54 Rx1day mm 7 1 5 7 1 7.68 Rx5day mm 0 2 11 0 2 4.54 CDD days 10 0 3 9 0 9.23 CWD days 1 11 1 1 11 -27.04 R10mm days 0 5 8 0 4 -3.16 R20mm days 8 2 3 7 1 1.11 R50mm days 7 1 5 6 1 0.00 R95p mm 8 1 4 8 1 51.53 R99p mm 9 1 3 9 1 32.10 Notes: Units are those of the index; Sen’s slope is expressed per decade. “NS” means not significant at α = 0.05. R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014. Figure 1. Spatial distribution and elevation setting of the 13 rain-gauge stations across Phetchaburi Province . Figure 2. Observed annual precipitation-index trends for 1981–2014. (a) Sen slopes standardized within each index only for visual comparison; raw slopes are reported in Table 4. (b) Direction of the standard MK result for tests that remained significant after BH-FDR adjustment across all 143 station–index tests; white cells are not significant. 3.2 Near-term model changes The model-first results indicate a mixed projected response rather than a uniform provincial shift (Table 5; Figure 3). Under SSP2-4.5, the median PRCPTOT change was −2.5% (IQR, −6.5% to +8.0%), while the corresponding medians for Rx1day, Rx5day, R95p, and R99p were +4.8%, +7.6%, +9.6%, and +59.0%, respectively. The wide R99p range is consistent with substantial inter-model spread and with the sensitivity of relative changes to small baseline values for this extreme-tail index. CDD and CWD had median changes of −8.3% and −9.0%, respectively; however, the model range for CDD crossed zero, while that for CWD remained broad. Importantly, the pronounced inter-model spread, particularly for upper-tail and threshold indices such as R50mm, R95p, and R99p, indicates that projected changes are strongly model-dependent and should not be interpreted as a single deterministic provincial signal . Under SSP5-8.5, the median PRCPTOT change was −9.0% (IQR −15.0 to +1.2%). R10mm had a median decrease of 9.6% and CWD by −7.2%, whereas R20mm increased by 2.7% and R99p by +20.1%; the corresponding IQRs crossed zero for most indices. The seven-model sign counts show this uncertainty directly: for PRCPTOT, SSP2-4.5 produced three positive and four negative model medians, while SSP5-8.5 produced two positive and five negative medians. The contrast is therefore stronger for the total-rainfall signal under SSP5-8.5 than for the tail indices. R50mm is a count index with low event frequency; its large relative percentages (for example, an SSP2-4.5 median of +33.3% with a model range of −33.3 to +300.0%) are unstable when baseline counts are small and should therefore not be treated as a headline climate signal . Table 5. Model-first relative changes in annual precipitation indices during 2021–2050 relative to the model-consistent 1995–2014 baseline . The median and IQR are calculated across seven models after taking each model’s station median; +/–/0 counts give the number of models with positive, negative or zero station-median change. Scenario Index Median (%) IQR (%) Range (%) Positive/negative/zero SSP2-4.5 PRCPTOT -2.5 -6.5 to 8.0 -12.3 to 16.8 3/4/0 SSP2-4.5 SDII 0.4 -3.3 to 6.3 -8.4 to 16.9 4/3/0 SSP2-4.5 Rx1day 4.8 -0.7 to 10.5 -6.8 to 37.4 5/2/0 SSP2-4.5 Rx5day 7.6 1.8 to 10.3 -6.1 to 46.1 5/2/0 SSP2-4.5 CDD -8.3 -10.9 to -0.9 -16.5 to 5.1 2/5/0 SSP2-4.5 CWD -9.0 -14.2 to -4.2 -33.8 to 6.5 1/6/0 SSP2-4.5 R10mm -4.9 -10.9 to 14.8 -19.5 to 28.2 3/4/0 SSP2-4.5 R20mm 13.0 2.8 to 36.2 -15.6 to 96.8 6/1/0 SSP2-4.5 R50mm 33.3 11.1 to 116.7 -33.3 to 300.0 5/1/1 SSP2-4.5 R95p 9.6 -0.2 to 34.0 -15.2 to 77.8 5/2/0 SSP2-4.5 R99p 59.0 36.8 to 85.2 -13.0 to 194.1 6/1/0 SSP5-8.5 PRCPTOT -9.0 -15.0 to 1.2 -21.5 to 17.4 2/5/0 SSP5-8.5 SDII -2.1 -10.7 to 1.5 -13.0 to 18.8 2/5/0 SSP5-8.5 Rx1day 0.9 -9.2 to 7.7 -10.2 to 33.7 4/3/0 SSP5-8.5 Rx5day -0.7 -6.5 to 17.1 -16.4 to 40.0 3/4/0 SSP5-8.5 CDD -1.1 -8.0 to 1.7 -18.8 to 18.8 2/5/0 SSP5-8.5 CWD -7.2 -28.2 to 7.0 -32.5 to 14.3 3/4/0 SSP5-8.5 R10mm -9.6 -26.5 to -1.0 -32.8 to 31.4 2/5/0 SSP5-8.5 R20mm 2.7 -19.2 to 24.2 -38.7 to 96.0 4/3/0 SSP5-8.5 R50mm -11.1 -27.8 to 126.7 -33.3 to 350.0 3/4/0 SSP5-8.5 R95p -2.5 -22.7 to 21.2 -36.3 to 87.9 3/4/0 SSP5-8.5 R99p 20.1 -14.5 to 115.6 -30.0 to 241.6 4/3/0 Notes: A positive value denotes an increase relative to the baseline. This aggregation describes model spread; it is not a formal probability distribution and does not imply model independence. Figure 3. Projected relative changes in annual precipitation-extreme indices for 2021–2050 relative to 1995–2014 under (a) SSP2-4.5 and (b) SSP5-8.5. Open circles indicate individual CMIP6 models (station median), filled black circles represent the multi-model median, and thick horizontal segments denote the interquartile range (IQR) . 3.3 Within-window trend diagnostics The 30-year future-window standard MK diagnostic identified significant trends in 56 of 1,001 SSP2-4.5 model–station–index series (45 increasing and 11 decreasing) and 76 of 1,001 SSP5-8.5 series (5 increasing and 71 decreasing). These unadjusted counts do not establish field significance and are not interchangeable with the model-first mean changes. They are retained as a temporal diagnostic: a model can show a negative 2021–2050 slope even when its future mean is above the 1995–2014 baseline, and vice versa. This separation is important for avoiding the common conflation of projected level change with a monotonic trend within a short window. 3.4 Spatial depiction of PRCPTOT change The IDW fields provide a spatial depiction of the station-referenced model-median PRCPTOT changes (Figure 4). Under SSP2-4.5, the northern and central areas are close to neutral or weakly positive, whereas the southern and southeastern station cluster shows more negative changes . Under SSP5-8.5, negative changes are more spatially extensive across the province. These patterns represent spatial interpolation of station-referenced projected changes and should not be interpreted as continuous-resolution climate projections between gauges. Figure 4. Spatial distribution of projected changes in annual precipitation total (PRCPTOT) over Phetchaburi Province for 2021–2050 relative to 1995–2014 under SSP2-4.5 and SSP5-8.5. (a) SSP2-4.5; (b) SSP5-8.5. 4. Discussion 4.1 Declining wet-day precipitation totals and stronger daily intensity The observed Phetchaburi pattern combines lower wet-day precipitation totals and shorter wet spells with longer dry spells and greater wet-day intensity. This combination suggests a redistribution of precipitation characteristics between wet-day occurrence and intensity, although the station-based analysis does not identify the underlying atmospheric mechanism. These results indicate changes in the distribution of precipitation rather than a uniform increase across all heavy-precipitation indices and stations. The station-level matrix in Figure 2 shows less spatial coherence for Rx5day and R50mm than for Rx1day, R95p, and R99p; this pattern may be influenced by the greater variability associated with multi-day extremes and high-threshold event counts. The direction of the historical signal is broadly consistent with Thai studies reporting non-stationary rainfall variability, spatially heterogeneous trends, and changes in extreme-event frequency [ 9-12,21 ]. These regional findings should not, however, be transferred directly to Phetchaburi. Differences in the gauge network, observation period, and percentile-threshold definition mean that the present study targets a different estimand . Likewise, the Cyprus study’s finding that model rankings and the direction of index changes vary by period and scenario provides a useful methodological comparison, but it is not evidence of a Phetchaburi-specific mechanism [7]. 4.2 Scenario dependence and inter-model spread The projected changes during 2021–2050 indicate substantial scenario dependence and inter-model spread. The median PRCPTOT change was more negative under SSP5-8.5 (−9.0%) than under SSP2-4.5 (−2.5%), although the IQR under SSP5-8.5 still included zero. The upper-tail indices show a contrasting pattern: R99p has a positive median change under both scenarios, but its model range is wide. Relative changes in tail indices can be sensitive to small baseline values, limited event counts, and the characteristics of the supplied bias-corrected series. Previous studies have shown that bias correction may improve distributional agreement while altering temporal dependence and event sequencing; therefore, its suitability should be evaluated for the specific extreme metric of interest rather than assumed to be neutral preprocessing [ 22-25 ]. The broad inter-model spread provides important context for interpreting the projected changes. Because CMIP6 models are not independent random draws, the seven-model median should be interpreted as a descriptive measure of central tendency rather than as a calibrated probability estimate. Recent assessments of CMIP6 model selection, statistical downscaling, and artificial-intelligence downscaling likewise emphasize that model skill and methodological choices can influence the local projected signal [ 14,24- 30 ]. The model-first aggregation reduces the influence of unequal station representation on the ensemble summary but does not eliminate structural differences among models or uncertainty associated with scenario choice. The ensemble summaries indicate a tendency toward lower wet-day precipitation totals under SSP5-8.5, whereas several upper-tail indices show positive median changes accompanied by substantial inter-model spread . 4.3 Statistical and spatial limitations Three main limitations constrain the interpretation of these results. First, the 1981–2014 observational record spans 34 years, limiting the effective sample size for extreme-tail analysis. The 30-year within-window trend diagnostics are likewise sensitive to sampling variability. Standard MK/Sen is reported as the primary reproducible analysis, while Yue–Wang is used as a sensitivity diagnostic; the two can yield different results when autocorrelation alters the variance estimate. Second, BH-FDR is applied to the 143 observed station–index tests but not to the unadjusted within-window future diagnostic, which is used only for descriptive purposes. Third, IDW provides a spatial depiction of station-referenced values. It cannot recover topographic or coastal gradients that are not represented by the station network and may extrapolate outside the station convex hull. The resulting surface depends on station density and boundary geometry [ 20 ]. It should therefore be interpreted as a depiction of broad spatial contrasts rather than as evidence of unsupported fine-scale gradients. 5. Conclusion Phetchaburi observations showed declining wet-day precipitation totals and wet-spell duration, alongside longer dry spells and increases in wet-day intensity and several upper-tail indices. PRCPTOT and CWD had median Sen’s slopes of −164.88 mm decade⁻¹ and −27.04 days decade⁻¹, respectively, while 88 of 143 observed station–index tests remained significant after Benjamini–Hochberg false-discovery-rate control. The Yue–Wang adjustment provided a sensitivity check for serial correlation rather than an alternative primary inference. Projected changes during 2021–2050 showed substantial inter-model and scenario dependence. The median PRCPTOT change was −2.5% under SSP2-4.5 and −9.0% under SSP5-8.5, whereas R99p increased by 59.0% and 20.1%, respectively, with wide inter-model spread. Rx5day and R50mm were less spatially coherent or more sensitive to small event counts. Overall, the results indicate a combination of lower wet-day precipitation totals, longer dry spells, and stronger precipitation extremes at many stations, highlighting the need to consider both flood and water-resource risks in regional planning. 6. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process During the preparation of this work the author used AI to assist with language editing, document formatting, code review and figure preparation. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication 7 . Acknowledgements The author thanks the Royal Irrigation Department (RID) for institutional support, and acknowledges the Thai Meteorological Department (TMD) and the Hydro-Informatics Institute (HII) for providing precipitation and CMIP6 datasets, respectively 8. Author Contributions S.P.: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review &amp; editing. 9. Conflicts of Interest The authors declare no conflict of interest . 10. References 1. Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report. Cambridge: Cambridge University Press; 2021. 2. Zhang X, Alexander L, Hegerl GC, Jones P, Tank AK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870. 3. Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937 –1958. 4. O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project ( ScenarioMIP ) for CMIP6. Geosci Model Dev. 2016;9:3461 –3482. 5. Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153 –168. 6. Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207 . doi:10.3390/w16152207. 7. Gödek Hayal NP, Zaifoglu H, Yanmaz AM. Projecting precipitation extremes over Cyprus using CMIP6 climate scenarios. Nat Hazards. 2026;122:368 . doi:10.1007/s11069-026-08119-4. 8. Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol . 2024;155(9):8703–8716. doi:10.1007/s00704-024-05150-y. 9 . Madolli MJ, Gade SA, Tangdamrongsub N, Debnath S, Gupta V, Datta A, Himanshu SK. Non-stationarity and temporal dependence of seasonal and extreme rainfall in Thailand and their linkages with ENSO and IOD. Theor Appl Climatol . 2026;157(6). doi:10.1007/s00704-026-06315-7. 1 0 . Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380 . doi:10.1038/s41598-025-18217-1. 1 1 . de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, Pereira MA, Mendes MCD, Baracho BBD, Jamjareegulgarn P. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501 . doi:10.1038/s41598-025-86826-x. 1 2. Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232. 13. Limsakul A. Changes of daily rainfall intensity in Thailand from 1955 to 2019. Asia-Pac J Sci Technol. 2022;27(1 ):APST -27-01-12. doi:10.14456/apst.2022.12. 14. Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4. 15. Mann HB. Nonparametric tests against trend. Econometrica . 1945;13(3):245–259. 16. Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389. 1 7 . Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289–300 . 18. Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol . 1998;204(1–4):182–196. 19. Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201 –218 . 20. Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–52 4. 21. Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102 . 22. Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile delta mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28:6938 –6959 . 23. Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211 –220 . 24. Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417 . doi:10.1016/j.rineng .2024.102417. 2 5 . Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500. 2 6 . Prathom C, Champrasert P. General Circulation Model Downscaling Using Interpolation–Machine Learning Model Combination–Case Study: Thailand. Sustainability. 2023;15(12):9668. doi:10.3390/su15129668. 2 7 . Muthuvel D, Qin X. Spatial concurrence risk of extreme precipitations in Southeast Asia under climate change using temporally dynamic complex networks. J Hydrol . 2026;664(Part B):134526. doi:10.1016/j.jhydrol .2025.134526. 2 8 . Jiang Y, Ge F, Chen Q, Lin Z, Fraedrich K, Chen Z. How compound wind and precipitation extremes change over Southeast Asia: a comprehensive assessment from CMIP6 models. Atmos Sci Lett. 2025;26(2). doi:10.1002/asl.1293. 2 9 . Singh AK, Roshni T, Singh V. Projected intensification of precipitation extremes in the Kosi Basin using CMIP6 models. Sci Rep. 2026;16:12565 . doi:10.1038/s41598-026-43723-1. 30 . Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093 . 2 2 1"
+  }
+}

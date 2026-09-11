@@ -1,0 +1,8 @@
+Model	Institution	Variant	Grid	Calendar	Days (1981–2014)	Distinct series
+ACCESS-ESM1-5	CSIRO, Australia	r1i1p1f1	gn	Standard	12,418	2
+CESM2	NCAR, USA	r11i1p1f1	gn	365-day	12,410	3
+CanESM5	CCCma, Canada	r1i1p1f1	gn	365-day	12,410	1
+EC-Earth3	EC-Earth Consortium, Europe	r1i1p1f1	gr	Standard	12,418	5
+FGOALS-g3	IAP/LASG, China	r1i1p1f1	gn	365-day	12,410	2
+MIROC6	MIROC Consortium, Japan	r1i1p1f1	gn	Standard	12,418	2
+MRI-ESM2-0	MRI, Japan	r1i1p1f1	gn	Standard	12,418	3

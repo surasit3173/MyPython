@@ -1,0 +1,168 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\journal_revision_20260910\\manuscript_source.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 346,
+  "direct_paragraph_formatting_paragraphs": 277,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 4,
+      "text": "Abstract",
+      "style": "Normal"
+    },
+    {
+      "para_index": 7,
+      "text": "1. Introduction",
+      "style": "Normal"
+    },
+    {
+      "para_index": 13,
+      "text": "2. Materials and Methods",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "2.1 Study area and rain-gauge network",
+      "style": "Normal"
+    },
+    {
+      "para_index": 21,
+      "text": "2.2 Climate models and experimental design",
+      "style": "Normal"
+    },
+    {
+      "para_index": 26,
+      "text": "2.3 Bias-correction methods",
+      "style": "Normal"
+    },
+    {
+      "para_index": 31,
+      "text": "2.4 Single-site diagnostics",
+      "style": "Normal"
+    },
+    {
+      "para_index": 33,
+      "text": "2.5 Dependence diagnostics and statistical testing",
+      "style": "Normal"
+    },
+    {
+      "para_index": 36,
+      "text": "2.6 Robustness checks",
+      "style": "Normal"
+    },
+    {
+      "para_index": 38,
+      "text": "3. Results and Discussion",
+      "style": "Normal"
+    },
+    {
+      "para_index": 39,
+      "text": "3.1 Single-site performance is identical between the two corrections",
+      "style": "Normal"
+    },
+    {
+      "para_index": 46,
+      "text": "3.2 MBCn improves inter-station dependence consistently across models",
+      "style": "Normal"
+    },
+    {
+      "para_index": 61,
+      "text": "3.3 Spatial organisation of concurrent extremes",
+      "style": "Normal"
+    },
+    {
+      "para_index": 68,
+      "text": "3.4 Numerical behaviour and fidelity to the projected change signal",
+      "style": "Normal"
+    },
+    {
+      "para_index": 75,
+      "text": "3.5 Implications and limitations",
+      "style": "Normal"
+    },
+    {
+      "para_index": 79,
+      "text": "4. Conclusion",
+      "style": "Normal"
+    },
+    {
+      "para_index": 81,
+      "text": "Acknowledgment",
+      "style": "Normal"
+    },
+    {
+      "para_index": 83,
+      "text": "Author Contributions",
+      "style": "Normal"
+    },
+    {
+      "para_index": 85,
+      "text": "Funding",
+      "style": "Normal"
+    },
+    {
+      "para_index": 87,
+      "text": "Conflicts of Interest",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Multivariate bias correction improves inter-station dependence in multi-site daily precipitation without altering single",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "Article type: Research article",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "Author names and affiliations are supplied on the separate title page; this main manuscript file is anonymised for revie",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "Abstract",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "Keywords: multivariate bias correction; MBCn; inter-station dependence; multi-site precipitation; CMIP6",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Multivariate bias correction improves inter-station dependence in multi-site dai",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Article type: Research article",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "Author names and affiliations are supplied on the separate title page; this main",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "Abstract",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "run_text": "Keywords: ",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

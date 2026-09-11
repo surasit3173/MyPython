@@ -1,0 +1,62 @@
+{
+  "data": {
+    "stations": 13,
+    "indices": 11,
+    "models": 7,
+    "scenarios": [
+      "SSP2-4.5",
+      "SSP5-8.5"
+    ],
+    "observed_years": [
+      1981,
+      2014
+    ],
+    "future_years": [
+      2021,
+      2050
+    ],
+    "observed_index_rows": 4862,
+    "future_index_rows": 60060,
+    "observed_trend_rows": 143,
+    "future_trend_rows": 2002,
+    "future_change_rows": 2002,
+    "minimum_model_annual_completeness_pct": 99.726776,
+    "p95_threshold_range_mm": [
+      14.5,
+      42.8
+    ],
+    "p99_threshold_range_mm": [
+      26.6,
+      76.448
+    ]
+  },
+  "observed_inference": {
+    "standard_mk_significant_unadjusted": 93,
+    "standard_mk_significant_bh_fdr": 88,
+    "yue_wang_mmk_significant": 112,
+    "mk_mmk_same_conclusion": 115,
+    "variance_factor_below_one": 119,
+    "mmk_nonfinite": 1,
+    "mmk_nonfinite_rows": [
+      {
+        "Station": "465002",
+        "Index": "SDII",
+        "MMK_status": "IRREGULAR_ANNUAL_YEARS"
+      }
+    ]
+  },
+  "coordinate_sensitivity": {
+    "station": "465002",
+    "primary_coordinate": [
+      12.75,
+      99.98
+    ],
+    "reference_coordinate": [
+      12.7998888889,
+      99.9666944444
+    ],
+    "haversine_distance_km": 5.731977,
+    "tabular_files_compared": 11,
+    "all_tabular_files_byte_identical": true
+  }
+}

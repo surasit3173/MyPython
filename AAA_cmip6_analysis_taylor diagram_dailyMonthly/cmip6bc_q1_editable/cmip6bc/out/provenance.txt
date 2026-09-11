@@ -1,0 +1,115 @@
+==============================================================================
+  PROVENANCE RECORD
+==============================================================================
+  run (UTC)  : 2026-08-24T06:25:02+00:00
+  python     : 3.12.3   numpy 2.4.4  pandas 3.0.2  scipy 1.17.1
+  seed       : 42
+  config     : /home/claude/cmip6bc/config.yaml
+               sha256 4956d624030c23b4...
+
+------------------------------------------------------------------------------
+  INPUT FILES
+------------------------------------------------------------------------------
+  observed
+    file   : Observed_Rain_daily_198101_201412_Prachuap_Khiri_Khan.csv  (589,511 bytes)
+    sha256 : abdec5e39458b3441bcce139517b3eacc8855f85f2ec5e6ce06e295a280e31ed
+  raw/ACCESS-ESM1-5
+    file   : pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (1,024,712 bytes)
+    sha256 : f99a129c5dc59307648e542681e14ef25d1143157696e253f1821436a19d7678
+  raw/CESM2
+    file   : pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (1,017,426 bytes)
+    sha256 : 8a9102c35b6c6c91549aca147ea88910ad8c39c7ebecf31715539110f6b98f95
+  raw/CanESM5
+    file   : pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (1,029,066 bytes)
+    sha256 : 114c5343aff22b1e12138fc87fde94318aef968116981c9b29b11e10f39e5590
+  raw/EC-Earth3
+    file   : pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv  (1,257,398 bytes)
+    sha256 : 487bc25f50a6d766f256679c83fe1beb1e09bcc9d458859f8712f031599ee6e8
+  raw/MIROC6
+    file   : pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (1,025,561 bytes)
+    sha256 : 9c67dd84cc998887b86c85e6710e54ce796fd8baa3a4137c9200522809864511
+  legacy_bc/ACCESS-ESM1-5
+    file   : bc_pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (668,375 bytes)
+    sha256 : f2f4e0e2c1ec8bbc0339440c7605dae18964a85fcf1a22e65ff647e60ce951bc
+  legacy_bc/CESM2
+    file   : bc_pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (667,804 bytes)
+    sha256 : 44771b6253a435dd82909eb19dcabb0935f2cf5ec671e6a7eba8ab17a803e170
+  legacy_bc/CanESM5
+    file   : bc_pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (667,871 bytes)
+    sha256 : 41d9a09cda82451266581886aa11711411d42c03e7169f94c3de730947f76596
+  legacy_bc/EC-Earth3
+    file   : bc_pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap_Khiri_Khan.csv  (668,346 bytes)
+    sha256 : fadc432238f7fee8aeff167814762253895656336778bde2c986f06d41e93bbf
+  legacy_bc/MIROC6
+    file   : bc_pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap_Khiri_Khan.csv  (668,239 bytes)
+    sha256 : 9b092eeb10af491f3b2043a02e9772179ad03396a0f2845b2fcfa306d87b3f1d
+  station_meta
+    file   : stations.csv  (4,128 bytes)
+    sha256 : 02754bd11eccaec7767d6557b15bed705e23f3fdf88e683824b72466b3b4ce06
+
+------------------------------------------------------------------------------
+  TRANSFORMATIONS APPLIED
+------------------------------------------------------------------------------
+  observed
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : 0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 0
+    rows_after_date_parse       : 12418
+  raw/ACCESS-ESM1-5
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : 0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 0
+    rows_after_date_parse       : 12418
+  raw/CESM2
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : 0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 0
+    rows_after_date_parse       : 12410
+  raw/CanESM5
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : 0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 0
+    rows_after_date_parse       : 12410
+  raw/EC-Earth3
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : -0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 331
+    rows_after_date_parse       : 12418
+  raw/MIROC6
+    unit_factor_applied         : 1.0
+    minimum_raw_value           : 0.0
+    nodata_values_masked        : 0
+    negative_values_clipped     : 0
+    rows_after_date_parse       : 12418
+
+------------------------------------------------------------------------------
+  CALENDARS
+------------------------------------------------------------------------------
+  observed             {'calendar': 'standard', 'rows': 12418, 'first': '1981-01-01', 'last': '2014-12-31'}
+  raw/ACCESS-ESM1-5    {'calendar': 'standard', 'rows': 12418, 'first': '1981-01-01', 'last': '2014-12-31'}
+  raw/CESM2            {'calendar': '365_day', 'rows': 12410, 'first': '1981-01-01', 'last': '2014-12-31'}
+  raw/CanESM5          {'calendar': '365_day', 'rows': 12410, 'first': '1981-01-01', 'last': '2014-12-31'}
+  raw/EC-Earth3        {'calendar': 'standard', 'rows': 12418, 'first': '1981-01-01', 'last': '2014-12-31'}
+  raw/MIROC6           {'calendar': 'standard', 'rows': 12418, 'first': '1981-01-01', 'last': '2014-12-31'}
+
+------------------------------------------------------------------------------
+  SAMPLE SIZES
+------------------------------------------------------------------------------
+  n_common_days_all_models {'n': 12410}
+  n_model_paired_days/ACCESS-ESM1-5 {'n': 12418}
+  n_model_paired_days/CESM2 {'n': 12410}
+  n_model_paired_days/CanESM5 {'n': 12410}
+  n_model_paired_days/EC-Earth3 {'n': 12418}
+  n_model_paired_days/MIROC6 {'n': 12418}
+
+------------------------------------------------------------------------------
+  WARNINGS
+------------------------------------------------------------------------------
+  ! elevation missing for 5 stations: ['500002', '500003', '500004', '500201', '500202'] — supply ./data/station_metadata_verified.csv; do NOT substitute 0 m
+
+==============================================================================

@@ -1,0 +1,17 @@
+Table 1. Climate-signal preservation for bulk statistics and wet-day quantiles, 2021–2050 relative to the 1995–2014 baseline of the same model and method. Each cell is the median [interquartile range] of the signal-preservation error from Equation (7), where the error is first averaged across the gauge evaluation locations within each GCM and the summary is then taken across GCMs, as defined by Equation (8). Scenarios are reported separately and are never pooled. The column n gives the number of contributing GCMs.
+
+Table 2. Climate-signal preservation for derived extreme-rainfall indices. Format and estimator as Table 1. The Type column records how each index is constructed. The frequency of days above 50 mm rests on six GCMs because EC-Earth3 simulates no such day in the baseline.
+
+Table 3. Descriptive two-factor sum-of-squares partition of the projected change by GCM and bias-correction method, computed separately for each scenario, for the indices discussed in Section 3.6; the full listing is in Supplementary Table S6. N is the number of GCM × method × gauge cells entering the partition and n the number of contributing models. The residual includes the GCM × method interaction together with station-level and higher-order unmodelled variation, because station is not an explicit factor. This is not a variance-component analysis.
+
+Figure 1. Location of Uttaradit Province in Thailand (inset) and the 13 rain gauges used in this study, over terrain elevation.
+
+Figure 2. Mean absolute bias of raw and bias-corrected CMIP6 daily precipitation against gauge observations over the independent validation period 2003–2014, using parameters fitted on 1981–2002 and frozen, averaged across 13 gauges and 7 models. The dotted divider separates statistics controlled by the marginal daily distribution from sequence-dependent and multi-day statistics. The vertical axis is logarithmic. The calibration-period counterpart, on identical axes, is Supplementary Table S2.
+
+Figure 3. Signal-preservation error for 2021–2050 relative to the 1995–2014 baseline of the same model and method, for (a) bulk statistics and (b) wet-day quantiles, with the two scenarios in separate panels. Bars are the ensemble median and whiskers the inter-model interquartile range, a measure of spread and not a confidence interval; both follow Equation (8). PE = 0 means the raw model signal was reproduced exactly.
+
+Figure 4. As Figure 3, for derived extreme-rainfall indices: (a) daily and threshold-derived extremes and (b) tail-derived and sequence-dependent indices, using the construction types of Table 2. Open hatched bars mark sequence-dependent indices.
+
+Figure 5. Integrated comparison of signal-preservation error by bias-correction method for (a) SSP2-4.5 and (b) SSP5-8.5, on a common vertical scale. Values are those of Tables 1 and 2. Symbols are ensemble medians and bars the inter-model interquartile range. Indices on the shaded background are sequence-dependent diagnostics.
+
+Figure Figure. 

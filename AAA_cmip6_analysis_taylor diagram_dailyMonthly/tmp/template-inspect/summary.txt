@@ -1,0 +1,217 @@
+PATH: D:\วารสาร AER\format Applied Environmental Research.docx
+SHA256: 8d3bd19529da47597ac789a0c854cb3cc69d90172398f973729c2d9bea39c328
+SECTIONS: [{"index": 0, "start_type": "NEW_PAGE (2)", "page_width_in": 8.5, "page_height_in": 11.0, "orientation": "PORTRAIT (0)", "top_margin_in": 1.0, "bottom_margin_in": 1.0, "left_margin_in": 1.0, "right_margin_in": 1.0, "header_distance_in": 0.5, "footer_distance_in": 0.5, "gutter_in": 0.0, "different_first_page": false, "columns": {"num": "1", "space_twips": "720", "equal_width": null, "separator": null, "items": []}}]
+PARAGRAPHS: 204 TABLES: 0 MEDIA: 0
+
+=== BODY PARAGRAPHS ===
+P0000 [Normal] วารสาร Applied Environmental Research (AER) มีข้อกำหนดในการเตรียมบทความอย่างละเอียด แม้จะไม่มีไฟล์แม่แบบ (Template) ให้ดาวน์โหลดโดยตรงก็ตาม โดยมีข้อกำหนดที่สำคัญดังนี้:
+P0001 [Normal] รูปแบบและฟอนต์: ใช้ Microsoft Word รูปแบบคอลัมน์เดี่ยว ระยะห่างระหว่างบรรทัดแบบสองเท่า (Double-spaced) และใช้ฟอนต์ Times New Roman ขนาด 12 point 
+P0002 [Normal] การตั้งค่าหน้ากระดาษ: ตั้งค่าหน้ากระดาษให้มีหมายเลขหน้ากำกับอัตโนมัติ และมีการรันหมายเลขบรรทัดแบบต่อเนื่อง (Continuous line numbering) ห้ามใช้ space bar ในการย่อหน้า แต่ให้ใช้ tab 
+P0003 [Normal] ความยาว: สำหรับบทความวิจัย (Original Research Paper) ความยาวต้องไม่เกิน 5,000 คำ ไม่รวมเอกสารอ้างอิง ส่วนบทความปริทัศน์ (Review Paper) ความยาวต้องไม่เกิน 7,000 คำ ไม่รวมเอกสารอ้างอิง 
+P0004 [Normal] การอ้างอิง: ใช้วิธีอ้างอิงแบบตัวเลขในวงเล็บเหลี่ยม (เช่น [1], [2], [3-6]) และเรียงลำดับการอ้างอิงตามการปรากฏในเนื้อหา 
+P0005 [Normal] รูปภาพและตาราง:
+P0006 [Normal] ตารางและรูปภาพทั้งหมดรวมกันต้องไม่เกิน 10 รูป/ตาราง 
+P0007 [Normal] คำอธิบายตารางจะต้องนำหน้าด้วยคำว่า Table ตัวหนา และตามด้วยหมายเลขตารางตัวหนา 
+P0008 [Normal] คำอธิบายรูปภาพจะต้องนำหน้าด้วยคำว่า Figure ตัวหนา และตามด้วยหมายเลขรูปภาพตัวหนา 
+P0009 [Normal] ตารางต้องสร้างด้วยฟังก์ชัน Table ของ Word เท่านั้น ไม่ใช่รูปภาพ
+P0010 [Normal] จาก https://ph01.tci-thaijo.org/index.php/aer/Instruction_for_Authors_2022 Main Navigation
+P0011 [Normal] Main Content
+P0012 [Normal] Sidebar
+P0013 [Normal] 
+P0014 [Normal] Dashboard 0
+P0015 [Normal] Logout
+P0016 [Normal] Applied Environmental Research
+P0017 [Normal] About the Journal
+P0018 [Normal] Aims & Scope
+P0019 [Normal] Editorial Board & Team
+P0020 [Normal] Journal Statistics
+P0021 [Normal] Editorial Policy on Generative AI
+P0022 [Normal] Instruction for Authors
+P0023 [Normal] Current Issue
+P0024 [Normal] Archives
+P0025 [Normal] Others 
+P0026 [Normal]  
+P0027 [Normal] Instruction for Authors
+P0028 [Normal] Manuscript Submission
+P0029 [Normal] Submission of a manuscript implies that the manuscript has not been previously published nor under consideration for publication elsewhere and that submission to the journal has been approved by all co-authors, if any, and by all responsible authorities. The publisher will not be held legally responsible should there be any claims for compensation.
+P0030 [Normal]  
+P0031 [Normal] Authorization
+P0032 [Normal] Authors wishing to include figures, tables or text passages that have already been published elsewhere are required to obtain permission from the copyright owner(s) for both print and online versions. Furthermore, authors are required to provide evidence that such permission has been granted when submitting their papers. Any material received without such evidence will be assumed to be owned by the authors.
+P0033 [Normal]  
+P0034 [Normal] Online Submission
+P0035 [Normal] Authors should submit their manuscripts online by following the hyperlink “Submissions” on the navigation menu and uploading all manuscript files following the instructions given on the screen.
+P0036 [Normal] Preparation of Manuscript
+P0037 [Normal] Types of papers, manuscript structure and length
+P0038 [Normal]         Original Research Paper
+P0039 [Normal]             - An original study must explain the background and objectives/hypotheses (if any) of the study, materials and methods used, analysis of results, interpretations and discussion, as well as conclusions based on the evidence collected.
+P0040 [Normal]             - The manuscript structure should be arranged in the following order: Introduction, Material and Methods, Results and Discussion, Conclusions, Acknowledgements (if any) and References.
+P0041 [Normal]             - Recommended manuscript length is <5,000 words (excluding references).
+P0042 [Normal]         Review Paper
+P0043 [Normal]             - The article should systematically summarize the findings of previous studies and existing knowledge on a particular topic and identify current research status as well as any research gap for further improvement.
+P0044 [Normal]             - The manuscript structure should be arranged in the following order: Introduction; Main body, which can be further divided into sub-topics depending on review objectives and questions being addressed; Conclusions, References and Acknowledgements (if any).
+P0045 [Normal]             - Recommended manuscript length is <7,000 words (excluding references).
+P0046 [Normal]             - This type of paper is published through either an editor’s invitation or author’s proposal for the review article.
+P0047 [Normal]             - Author’s proposals for review articles should be submitted to the Editor-in-Chief prior to article submission. Proposals must contain the following components for consideration: (1) brief summary of the proposed review article’s content and (2) a clear indication of the novelty and urgency of such a review paper at the time of proposal submission. Please send your proposal directly to the Editor-in-Chief at the e-mail address available on the Journal’s homepage.
+P0048 [Normal] Text formatting
+P0049 [Normal] Manuscripts should be submitted as Microsoft Word files.
+P0050 [Normal]           - Format the text into a single-column with double line spacing.
+P0051 [Normal]           - Use a 12-point Times New Roman font for the text.
+P0052 [Normal]           - Use the automatic page numbering function to number the pages.
+P0053 [Normal]           - Use the continuous line numbering function to number the lines.
+P0054 [Normal]           - Use tab stops or other commands for indents, not the space bar.
+P0055 [Normal]           - Use the table function, not spreadsheets, to prepare tables.
+P0056 [Normal]           - Use the Built-in Equation editor for equations.
+P0057 [Normal]           - Use a dot (.) as a decimal separator and a comma (,) as thousands separator.
+P0058 [Normal]           - Save your file in .docx format (Microsoft Word 2007 or higher) or .doc format (older Microsoft Word versions).
+P0059 [Normal] Headings
+P0060 [Normal] Please use no more than three levels of displayed headings. Sub-headings should be numbered as, for example, 1.1 (sub-sections as 1.1.1, 1.1.2, etc.), 1.2, etc.
+P0061 [Normal] Title page
+P0062 [Normal] The title page should include:
+P0063 [Normal]           - Manuscript title
+P0064 [Normal]           - Name(s) of author(s)
+P0065 [Normal]           - Affiliation(s) and address(es) of the author(s)
+P0066 [Normal]           - Official e-mail address of the corresponding author. Avoid public domain e-mail addresses such as gmail, hotmail and yahoo.
+P0067 [Normal]           - 16-digit ORCID of the author(s), if available
+P0068 [Normal] Each affiliation should be indicated with superscripted Arabic numerals immediately after an author’s name and before the appropriate address. Specify the Department/School/Faculty, University, Province/State and Country of each affiliation.
+P0069 [Normal] Title
+P0070 [Normal]           - Keep the title concise and informative.
+P0071 [Normal]           - Avoid abbreviations and formulae.
+P0072 [Normal]           - Should be ≤300 characters including spaces.
+P0073 [Normal] Abstract
+P0074 [Normal]           - Provide a concise and factual abstract of ≤300 words.
+P0075 [Normal]           - Abstracts should briefly state the purpose of the research, methods used, primary results and major conclusions.
+P0076 [Normal]           - The abstract should not contain any undefined abbreviations or unspecified references.
+P0077 [Normal]           - If abbreviations are essential, they must be defined at their first mention in the abstract.
+P0078 [Normal] Keywords
+P0079 [Normal]           - Provide 4 to 6 keywords that can be used for indexing purposes immediately after the abstract.
+P0080 [Normal]           - Avoid general, plural terms and multiple concepts (e.g., and, of).
+P0081 [Normal] Introduction
+P0082 [Normal]           - Provide background to support the motivation of the research.
+P0083 [Normal]           - Briefly review the literature, summarize current knowledge and identify knowledge gaps to be addressed by the current study.
+P0084 [Normal]           - Avoid a detailed literature survey or summary of previous results.
+P0085 [Normal]           - Provide clear research questions and objectives of the study.
+P0086 [Normal] Materials and Methods
+P0087 [Normal]           - Describe the materials and methods used to generate all results reported in the manuscript in detail.
+P0088 [Normal]           - Provide sufficient details to allow the work to be reproduced by an independent researcher.
+P0089 [Normal]           - Methods that are already published should be summarized and indicated by a reference.
+P0090 [Normal]           - Any modifications to existing methods should be described.
+P0091 [Normal] Results
+P0092 [Normal]           - Do not describe methods for the first time in the “Results and Discussion” section.
+P0093 [Normal]           - Results should be presented in a logical order.
+P0094 [Normal]           - Report results of all analyses and experiments that are described in the manuscript.
+P0095 [Normal]           - If p-values are used to interpret findings, report actual p-values for all results rather than indicating ranges of p-values or statistical significance only.
+P0096 [Normal]           - Provide clear and concise descriptions of all findings without extrapolating the reported results.
+P0097 [Normal]           - Do not duplicate data among figures, tables or text.
+P0098 [Normal] Discussion
+P0099 [Normal]           - A combined “Results and Discussion” section is highly recommended.
+P0100 [Normal]           - Provide a review of the relevant literature and other information required to put the study findings into context.
+P0101 [Normal]           - Provide a complete and balanced view of previous research, including findings that are inconsistent with the present study’s hypotheses, results or conclusions.
+P0102 [Normal]           - Provide a straightforward discussion of the study’s limitations.
+P0103 [Normal]           - Avoid extensive citations and discussion of published literature.
+P0104 [Normal] Conclusions
+P0105 [Normal]           - Summarize the key findings and their implications for the study question/hypothesis, future research and policy as appropriate.
+P0106 [Normal]           - Keep the conclusion brief.
+P0107 [Normal] Acknowledgements
+P0108 [Normal]           - Acknowledge the funding organization(s).
+P0109 [Normal]           - The name(s) of funding organization(s) should be written in full.
+P0110 [Normal]           - Acknowledge anyone who provided intellectual assistance, technical help (including writing and editing) or special equipment/materials.
+P0111 [Normal] Citations
+P0112 [Normal]           - References cited in the text should be numbered within brackets in order of appearance.
+P0113 [Normal]           - References should be numbered sequentially as [1], [2], [3-6], [5, 7-9], etc.
+P0114 [Normal] References
+P0115 [Normal]           - References should be arranged according to the order in which they are cited in the text.
+P0116 [Normal]           - The list of references should only include works that are cited in the text and have been published or accepted for publication.
+P0117 [Normal]           - Do not use footnotes as a substitute for the reference list.
+P0118 [Normal]           - The reference list should be prepared as follows:
+P0119 [Normal] Journal articles: [Number] Author’s surname and initials. Title of article. Journal name in full, Year, Volume (Issue), Pages.
+P0120 [Normal]             *** If an article has more than seven co-authors, list the names of the first six authors followed by … and then the last author’s name in the reference entry.
+P0121 [Normal]             Example
+P0122 [Normal]             [1] Peterson, T.C., Vose, R., Schmoyer, R., Razuvaëv, V. Global historical climatology network (GHCN) quality control of monthly temperature data. International Journal of Climatology, 1998, 18, 1169-1179.
+P0123 [Normal] Books/e-books: [Number] Author’s surname and initials. Title of book. Edition. Place of publication: Publisher, Year, Pages.
+P0124 [Normal]             Example
+P0125 [Normal]             [2] Connell, D.W. Bioaccumulation of xenobiotic compounds. 2ndedition. USA: CRC Press, 1990, 230-292.
+P0126 [Normal]             [3] Jones. B. Foundation engineering. 5th edition. London: McGraw-Hill, 2002, 123 [Online] Available from: https://www.proguest/safaribooksonline.com [Accessed 1 June 2013]
+P0127 [Normal] Chapter in Book: [Number] Author’s surname and initials. Chapter title. In: Editor’s surname and initials (ed.), Title of book. Place of publication: Publisher, Year, Pages.
+P0128 [Normal]             Example
+P0129 [Normal]             [4] Mettam, G.R., Adams, L.B. How to prepare an electronic version of your article. In: Jones, B.S., Smith, R.Z. (2nded.), Introduction to the Electronic Age. New York: E-Publishing Inc., 1999, 281-304.
+P0130 [Normal] Reports: [Number] Name of the issuing body. Title of publication. Report number and other information where relevant. Place of publication: Publisher. Date of publication. Provide online access details if relevant.
+P0131 [Normal]             Example
+P0132 [Normal]             [5] Pollution Control Department, Ministry of Natural Resources and Environment. Thailand state of pollution report 2010. PCD. No. 06-037. Bangkok: BTS press co., Ltd. 2012. [Online] Available from: https://infofile.pcd.go.th/mgt/Report_Eng2553.pdf [Accessed 28 December 2016]
+P0133 [Normal] Thesis/Dissertations: [Number] Author’s surname and initials. Title of thesis. Degree, Name of awarding body, year.
+P0134 [Normal]             Example
+P0135 [Normal]             [6] Diessner, A. Studies on compressed gas insulation. MSc Thesis, CA: Stanford University, 1969.
+P0136 [Normal] Website: [Number] Author’s (or editor’s) surname and initials. Name of the website, year. [Online] Available from: URL [Date accessed].
+P0137 [Normal]             Example
+P0138 [Normal]             [7] Hawking, S. The beginning of time. A public lecture. Professor Stephen Hawking’s website, 2000. [Online] Available from: https://www.hawking.org.uk/home/hindex.html [Accessed 20 November 2006].
+P0139 [Normal] Conference papers/proceedings: [Number] Author’s surname and initials. Title of paper. In Title of conference, location of conference, date of conference. Place of publication: Publisher (if available), year, page number(s). Add online access details if relevant.
+P0140 [Normal]             Example
+P0141 [Normal]             [8] Soliman, S., Wheatley, C. Frequency coordination between CDMA and non-CDMA systems. In Proceedings of the MTT-S Symposium on technologies for wireless applications digest, San Diego, CA, USA, 20-22 February 1995, 123-130.
+P0142 [Normal] Unpublished results and personal communications (via email, interview, letter, telephone calls, etc.) are not recommended in the reference list, but may be mentioned in the text. Details can be provided in the running text or in parentheses. In your in-text citation of a personal communication give the initials as well as the surname of the communicator and provide as exact a date as possible.
+P0143 [Normal]            Example
+P0144 [Normal]            [9] According to S. Brown (personal communication, 22 July 2019), ….
+P0145 [Normal]            [10] An email (J.W. Ayers, personal communication, 2 February 2018) confirming that results are .....
+P0146 [Normal]            [11] During an interview conducted on 6 June 2017, Prof. Lee stated that …
+P0147 [Normal]            [12] The Professor’s statement was confirmed during an interview [B.T. Lee, personal communication, 6 June 2017].
+P0148 [Normal] Nomenclature
+P0149 [Normal]           - Follow international nomenclature standards.
+P0150 [Normal]           - Authors may refer to the Scientific Style and Format: The CSE Manual for Authors, Editors, and Publishers (8th edition, 2014) as the primary style guide
+P0151 [Normal]           - It is the responsibility of the authors to provide correct nomenclature.
+P0152 [Normal]           - All nomenclature must be consistent and unambiguous.
+P0153 [Normal] Units of measurement
+P0154 [Normal]           - Use the International System of Units (SI) and units recognized by or used with the SI to express values of quantities.
+P0155 [Normal]           - Equivalent values in other acceptable units should be provided in parentheses only when deemed necessary for the intended audience.
+P0156 [Normal]           - A space is used to identify the multiplication of units, and a negative exponent is used to signify division of units.
+P0157 [Normal]                  Proper use:      m s-2, m kg s-3 A-1, mg kg d -1
+P0158 [Normal] Abbreviations
+P0159 [Normal]           - Define abbreviations at their first instance in the manuscript. If the same abbreviation appears in the abstract and main text, define it in the abstract as well as in the main text.
+P0160 [Normal]           - Nonstandard abbreviations should be kept to a minimum and must be defined in the text at their first instance.
+P0161 [Normal]           - Ensure consistency of abbreviations throughout the manuscript.
+P0162 [Normal] Tables
+P0163 [Normal]           - Submit tables as editable text and not as images.
+P0164 [Normal]           - Place tables next to the relevant text in the manuscript.
+P0165 [Normal]           - Ensure that data presented in tables are not duplicated elsewhere in the text.
+P0166 [Normal]           - Ensure that all tables in the manuscript are referred to in the text in consecutive numerical order.
+P0167 [Normal]           - Number tables consecutively in the order of their reference in the text.
+P0168 [Normal]           - Each table should be provided with a descriptive heading and individual column headings.
+P0169 [Normal]           - Table descriptions begin with the term Table in bold, followed by the table number, also in bold.
+P0170 [Normal]           - Place footnotes to a table below the table body and indicate them with superscripted lowercase letters.
+P0171 [Normal]           - Avoid using vertical rules and shading in table cells.
+P0172 [Normal]           - In setting up tabulations, authors are requested to keep in mind the text area of the journal page (15.0 × 22.0 cm) and column width (7.0cm). Submitted tables should conform to these dimensions.
+P0173 [Normal]           - Table arrangements with several partially-filled columns or a lot of blank spaces should be avoided.
+P0174 [Normal]           - The total number of display items (Tables and Figures) in the manuscript should not exceed 10.
+P0175 [Normal]  Figures
+P0176 [Normal]           - Illustrations, photographs, charts and diagrams should be referred to as ‘Figures’.
+P0177 [Normal]           - Ensure that all figures are cited in the text in consecutive numerical order.
+P0178 [Normal]           - A caption/legend should be provided for each figure but not on the figure itself.
+P0179 [Normal]           - Keep the caption and text description concise and explain all symbols and abbreviations.
+P0180 [Normal]           - Figure captions begin with the term Figure in bold, followed by the figure number, also in bold.
+P0181 [Normal]           - Figure parts should be denoted by lowercase letters such as (a), (b) and (c).
+P0182 [Normal]           - Only the following fonts should be used in your illustrations: Arial, Courier New, Times New Roman and Symbol. Maintain a consistent lettering size (usually 8- to 12-point) in your final-sized artwork. Variations in type size within an illustration should be minimal.
+P0183 [Normal]           - Figures should be 39 mm, 84 mm, 129 mm or 174 mm wide and not higher than 234 mm.
+P0184 [Normal]           - All figures must be embedded as part of the manuscript file and placed next to the relevant text in the manuscript.
+P0185 [Normal]           - Illustrations, photographs, charts and diagrams cannot be modified or enhanced by the journal production editor and staff. Therefore, authors must submit high-quality figures.
+P0186 [Normal]           - The total number of display items (Tables and Figures) in the manuscript should not exceed 10.
+P0187 [Normal]           - If the work is accepted for publication, figures will be printed in color in the electronic version and in black and white in the print version.
+P0188 [Normal] Manuscript revision
+P0189 [Normal] Revision should be carefully made by authors according to all review comments raised by reviewers and editor.
+P0190 [Normal] Authors must turn on “Track Changes” in the Word application document and indicate their revisions in “red text” to the original submission.
+P0191 [Normal] A file of point-to-point authors’ responses to all review comments must be submitted along with the revision submission.
+P0192 [Normal] After Acceptance
+P0193 [Normal] Proofreading
+P0194 [Normal]           - The purpose of proofreading is to check for typesetting or conversion errors and ensure completeness and accuracy of text, labels and figures.
+P0195 [Normal]           - Substantial changes to the content, e.g., new results, corrected values and changes to title and authorship, are not allowed without the submission of a consent form from all authors and the final approval of the Associate Editor and Editor-in-Chief.
+P0196 [Normal]           - Further changes cannot be made after publication online.
+P0197 [Normal] Copyright transfer
+P0198 [Normal] After proofreading of the accepted article, author(s) will receive a copyright transfer form and will be asked to transfer copyright of the article to the publisher.
+P0199 [Normal] Online publication
+P0200 [Normal] The article will be published online after receipt of the corrected proof and signed copyright transfer form. A digital object identifier (DOI) will be assigned to all articles that are scheduled for publication in an issue.
+P0201 [Normal] Submission
+P0202 [Normal] 
+P0203 [Normal] 
+
+=== TABLES ===
+
+=== HEADERS FOOTERS ===
+
+=== STYLE USAGE ===
+Normal: 210

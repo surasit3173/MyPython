@@ -1,0 +1,1211 @@
+
+===== PAGE 1 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+                                                                                  
+                          Applied Environmental Research                          
+                            - RESEARCH FOR SUSTAINABLE PLANET -                   
+                                                                                  
+                                                                                  
+       Research Article                                                           
+                                                                                  
+      Analyzing Climate Change Status through Evaluating Trend of Temperature and 
+                                                                                  
+      Rainfall and Predicting Future Climate Change Status at Lake Tana Basin     
+                                                                                  
+                                                                                  
+      Tesfaye Bayu1,2,*, Tri Retnaningsih Soeprobowati2,3, Solomon Adissu4        
+                                                                                  
+      1 Debre Markos University, Burie campus, Burie, Ethiopia                    
+      2 School of Postgraduate Studies, Universitas Diponegoro, Semarang, Indonesia
+      3 Department of Biology, Faculty of Science and Mathematics Universitas Diponegoro, Semarang, Indonesia
+      4 Bahir Dar University, collage of agriculture and environmental science, Ethiopia
+      *Correspondence Email: tesfayebayu235@gmail.com                             
+                                                                                  
+        Abstract                                           ARTICLE HISTORY        
+          The trends of temperature and rainfall are critical indicators of climate change
+                                                           Received: 4 Jul. 2023  
+        within a certain area. However, the existence of climate change is not locally
+                                                           Accepted: 5 Jan. 2024  
+        understood in most parts of the world. This research aims to analyze the trend
+                                                           Published: 6 Mar. 2024 
+        of temperature and rainfall in the Lake Tana Sub-basin as a means to understand
+        the current and future status of climate change. The trends of temperature and
+                                                           KEYWORDS               
+        rainfall were analyzed using the modified Mann-Kendall trend test, while the
+                                                           Climate change;        
+        autoregressive integrated moving average model (ARIMA) was used to predict
+                                                           Rainfall trend;        
+        future temperature and rainfall. The findings reveal that monthly temperatures
+                                                           Temperature trend;     
+        show a significant increasing trend for March, April, May, June, and December
+                                                           Temperature prediction 
+        with Z-values of 3.96, 3.32, 2.64, 3.21, and 4.6, respectively. Seasonal and annual
+        temperatures also show a significant increasing trend with Z-values of 4, 5.35,
+        5.08, and 4.41 for spring, autumn, winter, and annual, respectively. The Mann-
+        Kendall trend analysis results show that monthly, seasonal and annual rainfall
+        exhibit significant increasing trends for some months and seasons. The results of
+        the ARIMA model suggest that the predicted values of temperature and rainfall
+        will continue to increase over the next 10 years in the study area. Based on these
+        findings, it can be concluded that there is a significant and increasing trend in
+        temperature and rainfall, which will likely continue over the next decade,
+        indicating the presence of climate change in the study area. The research findings
+        suggest that temperature and rainfall have been increasing over time, leading to
+        climate change in the study area, so sustainable lake management and urban
+        development should be practiced to mitigate and adopt climate change.     
+      Introduction                           Ongoing climate change has caused a significant
+        Climate change is primarily caused by human increase in the global land surface temperature, by 0.99
+      activities as well as natural processes, resulting in rising ◦C from 1850–1900 to 2001–2020, with recent decades
+      average temperatures, increased variability of rainfall being progressively warmer than previous ones, as
+      frequency and intensity, increased atmospheric green- reported by IPCC [2]. The mean temperature trend can
+      house gas concentrations, increased frequency and be attributed to either the maximum temperature or
+      severity of storms, and rising sea levels [1]. Temperature minimum temperature trend, or both, as noted by Qu
+      and rainfall fluctuations are widely recognized as et al. [3]. Global air surface temperatures have risen by
+      indicators of climate change and variability across the an average of 0.85°C since 1880, surpassing the rates of
+      globe, as noted by IPCC [2].         previous centuries [4]. Future temperature predictions
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 2 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      suggest that this warming trend will persist throughout area and forecasting future climate change trend [18].
+      the remainder of the 21st century, with subarctic and This approach is unique and not explored by other
+      arctic regions experiencing even greater warming than scholars. Due to global warming, higher temperatures
+      global averages [5]. As Luoto and Nevalainen [6] explain, and limited precipitation can cause drought, which
+      water temperature is closely linked to air temperature poses a serious threat to food security [19].
+      and solar radiation. Therefore, increasing air temperatures Numerous time series forecasting methods rely on
+      result in higher freshwater temperatures. In fact, analyzing past data to forecast future events [20]. These
+      Holsinger et al. [7] found that mean annual water models are based on the assumption that past patterns
+      temperatures have increased by 0.3°C per decade can be used to predict future patterns [21]. In this study,
+      worldwide during the 20th century. In fact, during the the researchers utilized Autoregressive integrated moving-
+      past century, there has been a significant increase in average to forecast future temperature and rainfall
+      atmospheric CO2 concentration, resulting in a rise of patterns in the Lake Tana sub basin. Autoregressive
+      the mean global temperature by 0.74°C compared to integrated moving-average (ARIMA) modeling is a
+                                                                                  
+      preindustrial times [8].             popular method for time series modeling, which
+        Most parts of Sub-Saharan Africa (SSA) are likely to carefully examines past observations of a time series to
+      experience a decrease in precipitation amounts while develop an appropriate model to forecast future values
+      rainfall variability is expected to increase [9]. Chinwe [22].              
+      [10] has argued that Africa is particularly vulnerable to The significance of this research paper lies in its
+      negative impacts of climate change such as high innovative approach to assessing climate change and
+      temperatures and unpredictable rainfall, given its status forecasting future climate patterns in the Lake Tana
+      of wide-spread poverty and low development. To sub-basin. By analyzing temperature and rainfall trends,
+      support agro physical modeling, it is crucial to predict the authors aim to identify and understand the presence
+      the future meteorological quantities based on historical of climate change in the region, which has not been
+      time series [11].                    explored by other scholars previously. This finding holds
+        Ethiopia is a country that is particularly vulnerable great importance as it highlights the potential risk of
+      to the impacts of climate change [12]. Notably, since drought due to global warming, higher temperatures, and
+      the 1990s, Ethiopia has been experiencing an annual limited precipitation, thereby posing a serious threat to
+                                                                                  
+      temperature increase of 0.37°C per decade. It is food security. The research indicates the need for the
+      anticipated that this trend will continue, with projected design and implementation of effective mitigation and
+      temperature increases of 0.9 to 1.1°C, 1.7 to 2.1°C, and adaptation measures to address the challenges posed by
+      2.7 to 3.4°C by 2030, 2050, and 2080, respectively, when climate change in the Lake Tana sub-basin.
+      compared to the temperature status during the period Climate change affects areas which are near to lakes
+      from 1961–1990 [12].                 and climatic variables of the study area were highly
+        While some studies have focused on changes in fluctuating due to climate change. That is why the
+      global and regional mean temperature, others have research was imitated with objective of to analyze the
+      examined temperature trends on different spatial and trend of temperature and rainfall in the Lake Tana Sub-
+      temporal scales [13]. The majority of these studies have basin as a means to understand the current status of
+      found that temperatures are increasing, though climate change. Furthermore, the study aims to forecast
+      variations differ by region [14]. In Nigeria, the general future climate change patterns in the area using the
+      trend of both minimum and maximum temperature ARIMA model, departing from the commonly used
+      was found to be increasing [15].     climate change prediction models applied by researchers
+                                                                                  
+        A newly emerging technique to design new strategies from other regions. This unique approach provides
+      for climate change mitigation and adaptation involves valuable insights into the climate dynamics specific to
+      understanding the status of climate change by analyz- the study area. These objectives provide comprehensive
+      ing trends in temperature and rainfall in a given area insights into the current and future climate change
+      [16]. In areas such as those surrounding large water scenario, enabling policymakers, researchers, and com-
+      bodies like Lake Tana, climatic variables are particularly munities to formulate appropriate strategies and inter-
+      fragile, making analysis of major climatic variables ventions to mitigate the adverse effects of climate change
+      crucial in predicting the status of climate change [17]. and ensure sustainable development in the region.
+      Rather than using climate change prediction models                          
+      applied by researchers from other areas, this research Description of study area
+      analyzed the trend of temperature and rainfall to The research site is situated in the Amhara National
+      understand the status of climate change in the study Regional State, specifically in the Lake Tana Sub-basin
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 3 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      (LTSB) of the Blue Nile Basin. The Blue Nile Basin is annual rainfall of 1248 mm per year (mm yr-1). This
+      recognized as the largest river basin in Ethiopia and represents a 7% reduction in rainfall when compared
+      comprises the LTSB, home to the world's largest to the surrounding watershed.
+      freshwater and oligotrophic-high altitude lake, Lake The Lake Tana basin is mainly characterized by
+      Tana [23]. The area covers a total land area of cultivable land, which accounts for 71% of the area,
+      1,589,654.98 hectares in the upper reaches of the Blue followed by grazing land (9%), infrastructure (6%),
+      Nile River [23]. The atmospheric temperature at Lake forestland (3%), and other types of land. The major
+      Tana sub basin typically falls between 13 and 22°C, with land cover types include farmland, water bodies,
+      a decrease of 0.7°C per 100 m in elevation [24]. Located wetlands, forests, woodlands, shrubs, rangeland,
+      geographically in the range of 10°45054.1” N, grassland, and settlements. The dominant soil types on
+      36°10024.9” E and 12°50015.9” N, 38°50054.48” E Lake Tana's islands, peninsulas, wetlands, and upland
+      (Dersseh et al., 2019), Lake Tana experiences an average areas are Nitosols, Luvisols, and Vertisols [24].
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                Figure 1 Map of the study area.                   
+                                                                                  
+                                                                                  
+      Method                               from five metrological stations situated in the vicinity.
+      1) Data type and sources             This dataset encompasses different climatic parameters,
+        This research utilized both primary and secondary such as yearly means, seasonal variations, and monthly
+      data sources. The primary data was obtained by observing extreme values, for rainfall, and temperature in the
+      climatic variables from metrological stations located in Lake Tana sub basin.
+      the study area, including Zega, Bahir Dar, Delgi, Deke                      
+      Stifanos, and Chawhit stations. These stations were 3) Data collection and processing
+      used to check, validate, and calibrate the secondary data To analyze the trend of climatic variables in the study
+      sources. On the other hand, 30 years of temperature, area, daily data on minimum and maximum temperature,
+      rainfall, and humidity data from the NASA database and rainfall were obtained from meteorological stations.
+      were downloaded for the purpose of analyzing climate The historic data on temperature, and rainfall were
+      change. The decision to use the NASA database was collected from five stations, namely Zega, Bahir Dar,
+      based on its accessibility and credibility as a source of Delgi, Deke Stifanos, and Chawhit, for the period of
+      updated and reliable data.           1990 to 2020 (NY=30). Both primary and secondary
+                                                                                  
+                                           data sources were utilized to achieve objective of the
+      2) The climate database              research. The collected data was utilized for the analysis
+        To describe the existing climate conditions in the of the trend of climatic variables in the study area. The
+      research area, two bioclimatic variables were extracted study area utilized climatic data from the NASA
+      from the latest NASA database [26]. The data falls into database spanning a period of thirty years, specifically
+      three categories and was fine-tuned by combining local from 1990, 2010, and 2020. The data encompassed
+      observations with the site-specific information collected information on temperature, and rainfall. Calibration
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 4 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      of the data was subsequently conducted by gathering series of climatic variables. It was used to determine
+      meteorological data on rainfall, and temperature, from whether a time series has a monotonic upward or
+      five nearby stations. These data were then used for both downward trend for climatic variables for long period
+      the calibration and validation of the NASA climatic of time. There are two benefits of using this test. First,
+      data base for the study area. The data extracted from it does not require the data to be normally distributed
+      NASA was used for trend analysis since the reading is since the test is non-parametric (distribution-free test)
+      not deviated from satiation reading. and second, the test has low sensitivity to abrupt breaks
+                                           due to inhomogeneous time series. The data values
+      4) Data quality control              were evaluated as an order time series and all
+        To ensure the quality and reliability of the data, both subsequent data values were likened from each data
+      visual and statistical assessments were conducted. In value. The time series x1, x2, x3… xn represents n data
+      the visual assessment, temperature, and precipitation points. Modified Mann–Kendall trend test was used
+      data were carefully screened for any outliers or missing due to the data was non parametric. It’s also used
+                                                                                  
+      values that could potentially skew the final results. because of the data is not normally distributed.
+      Statistical testing was performed using the Mann- The MK test statistic (S) was calculated as follows:
+      Kendall test method, preceded by a trend-free pre-                          
+      whiting process and variance correction approaches to S=          (Eq. 1)   
+      minimize the impact of serial correlation in the data 𝑛𝑛−1 𝑛𝑛               
+      [27]. Data homogeneous analysis was done by con- ∑𝑖𝑖=1 ∗ �𝑗𝑗=𝑖𝑖+1 sin (𝑥𝑥𝑥𝑥 − 𝑥𝑥𝑥𝑥)
+                                             Where                                
+      duction autocorrelation. The data was significant that                      
+      is why Mann-Kendall test was conducted.                                     
+                                                       1 if x>0                   
+                                               Sin(x) =                 (Eq. 2)   
+                                                       0 if x=0                   
+      5) Data analysis                                                            
+                                                       -1 if x<0                  
+        This study performed a time-series multi-temporal                         
+      analysis of climatic elements recorded within the study                     
+      area. The collected data on climatic variables under-                       
+                                             If S>0, then it was an indicator of an increasing
+      went a descriptive statistical analysis, which provided                     
+                                           trend in climatic variable(x), while the reverse is true if
+      annual and monthly mean values of each variable.                            
+                                           S<0 will show decreasing trend in climatic variable(x),
+      Climatic data were obtained from both the NASA climatic                     
+                                           while S=0 indicates neither decreasing nor increasing in
+      database and meteorological stations situated within                        
+                                           climatic variable(x) for long climatic time series data.
+      the study area. Standard deviation was employed to                          
+      verify the accuracy of the obtained data. To address any                    
+                                             The mean of S is E[S] =0 and the variance (σ2) of S
+      missing data, interpolation techniques were applied                         
+                                           was given by:                          
+      based on the approach described by [28]. Specifically,                      
+      the interpolation method utilized data from neigh-                          
+                                           σ2 = {n (n-1) (2n+5)        } (Eq. 3)  
+      boring years that had a difference of 5 years for accurate                  
+                                              1          𝑝𝑝                       
+      estimation.                                                                 
+                                              18       �𝑗𝑗=1 tj (𝑡𝑡𝑥𝑥 − 1)(2𝑡𝑡𝑥𝑥 + 5)
+        The R software package (R 4.3.0 version) was employed Where p is the number of tied groups in the time
+      to analyze the trends of climatic elements between 1990 series climatic data and tj is the number of data points
+      and 2020. This program is highly regarded for data in the jth group.        
+      analysis due to its capacity to produce high-quality                        
+      results, which are highly acceptable for publication. To The statistic S is approximately normally distributed
+      address missing data, interpolation techniques and provided that the following Z-transformation was
+      data-cleaning processes were carried out. Significant employed:             
+      differences among each climatic element were examined                       
+      with the use of the R software package. Additionally,                       
+      regression analysis was employed to develop a model                         
+                                                        If S>0                    
+      for predicting and extrapolating the values of the                          
+                                                      s−1                         
+      climatic elements.                        Z =   √0 σ i 2f S = 0   (Eq. 4)   
+                                                        If S<0                    
+      6) Modified Mann–Kendall climatic variable trend test                       
+                                                      s−1                         
+        Modified Mann–Kendall trend test is a non-                                
+                                                      √ σ                         
+                                                       2                          
+      parametric test which was used to identify a trend in a                     
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 5 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+        The normal approximation test is used for datasets an autoregressive moving average (ARMA) model to
+      with more than ten values, provided that there aren't the resulting series. ARIMA was used due to its pre-
+      many tied values within the set. If there is no diction was strong and it is in line with the prediction
+      monotonic trend (i.e., the null hypothesis) in climatic conducted by IPCC and the model was automatic is
+      time series with more than ten elements, then z easily integrated with R studio to conduct prediction.
+      N(0,1). This means that z follows a standard normal Consider the time series yt, the first difference is
+      distribution. The probability density function for ∼ a given by             
+      normal distribution with a mean of 0 and a standard                         
+      deviation of 1 is given by the following equation: Yt-yt-1= (1-B)yt (Eq. 9) 
+                                                                                  
+                                              Where B is the backshift operator defined as
+               F(x) =              (Eq. 5)                                        
+                        −8                 Bjyt=yt-1 Hence, the dth difference is therefore given as
+                   √2                                                             
+                    1                                                             
+                     π (𝑒𝑒)                                                       
+                        2                  (1-B)dyt = ∆dyt and if the original series is differenced d
+        All the above procedures used to compute the times before fitting an ARMA(p, q) process, then the
+      modified Mann– Kendall Trend test were collected model for the original undifferenced series is said to be
+      and referenced from [29]. In order to say the trend an ARIMA (p,d,q) generally defined as
+      was increasing or decreasing the p value (>0.05) was                        
+                                           W =ɸ w +……. + ɸ w + θ ԑ +…… θ ԑ (Eq. 10)
+      used as comparison of Z value. If values were above t 1 t-1 p t-p 1 t-1 q t-q
+      1.96 the trend was positive and increasing.                                 
+                                             Where Wt =∆∆dyt the dth differences of the original
+                                           series, ɸ1… ɸp are the AR parameters to be estimated
+      7) Sen’s slope estimator and percentage change                              
+                                           and 1… q are the MA parameters to be estimated. As
+        In the event of a linear trend in the time series, the                    
+                                           can be observed, an ARIMA (p,d,q) process is the dth
+      actual slope was measured using Sen's slope method, a                       
+                                              θ  θ                                
+                                           differences of the original nonstationary series having p
+      basic non-parametric test. Sen [30] created the non-                        
+                                           autoregressive terms and q moving average terms.
+      parametric technique to compute the slope of the trend                      
+      in a sample of N data pairs. Additionally, it indicates the                 
+                                             The least squares regression is applied in the estima-
+      dependent variable's rate of change due to the inde-                        
+                                           tion of ɸ abnd by first replacing the unobserved
+      pendent variable. As the rate of change increase (Sen’s                     
+      slope) the Z value (MK trend test) was high and show quantities t-1 abnd q t-q by estimated values, ἓt-1 abnd
+                                                     θ                            
+      increasing trend.                    ἓt-q. The parameters ɸ abnd are then estimated by
+                                                 ԑ     θ ԑ                        
+                                           regressing Yt on yt-1… yt-q, ἓt-1… ἓt-q. i t-1
+                                                             θ                    
+           Ti =   for i=1, 2, 3 …N (Eq. 6)                         Ѱ ỹ            
+                                             The forecast model (ARIMA) for yt+k is as follows:
+              𝑥𝑥𝑗𝑗−𝑥𝑥𝑥𝑥                                                           
+              𝑗𝑗−𝑥𝑥                                                               
+        Where Xj and Xk represent the data value at the                           
+      time-steps ‘j’ and ‘k’ with ‘j’ correspondingly greater                     
+                                           ỹt (k)                      (Eq. 11)   
+                                                𝑝𝑝+𝑑𝑑          ∞                  
+      than ‘k’. The median of these ‘N’ values of Ti is termed = �𝑖𝑖=1 Ѱi ỹt − i(k) + ἓt(k) + ∑𝑛𝑛=1 θi ỹt − i(k)
+                                           Result and discussion                  
+      as Sen’s estimator of slopes and is calculated by the                       
+                                           1) Monthly temperature trend           
+      following formulae:                                                         
+                                             The study has indicated that the monthly tempe-
+                                           ratures in the area exhibit both positive and negative
+            β= (      ) if N is even (Eq. 7)                                      
+                                           trends over time. The month of March, April, May,
+              1 𝑇𝑇𝑇𝑇 𝑇𝑇𝑇𝑇+2                                                       
+                                           June, and December showed a significant increase in
+              2 2 − 2                                                             
+              β= (  ) if N is odd  (Eq. 8) temperature (p-value < 0.05), with Z values of 3.96,
+                 𝑇𝑇𝑇𝑇+1                    3.32, 2.64, 3.21, and 4.6, respectively (Table 1). However,
+        The number of o2bservation for this research was 30 for the other months, i.e., February, July, August,
+      which are odd. Therefore, the second formula was used September, October, and November, an increasing trend
+      to calculate Sen’s slope.            was found, but the Z value for the MK test is not
+                                           statistically significant. The first month of the year,
+      8) The ARIMA model for forecasting future temperature January, displayed a decreasing trend in temperature as
+      and rainfall trend                   indicated by the negative value obtained from the MK
+        Autoregressive integrated moving average (ARIMA), test (Table 1). March had the highest rate of change in
+      also known as Box-Jenkins models, are generated by temperature, with the highest Sen's slope of 0.215.
+      differencing a non-stationary time series and then fitting                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 6 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      Table 1 MK trend test, Sens slope and descriptive statistics for monthly, seasonal and annual temperature
+                  Z-Value Sen's slope Minimum Maximum Mean     SD      CV         
+       January     -0.62    -0.013   18.80    32.70   22.786   4.12    0.18       
+       February    0.99     0.04     20.51    33.08   23.91    3.18    0.13       
+       March      3.96***   0.215    23.32    38.96   28.51    4.51    0.16       
+       April      3.32**    0.059    22.54    37.80   27.56    4.06    0.15       
+                                                                                  
+       May        2.64**    0.191    20.63    35.63   25.898   3.87    0.15       
+       June       3.21**    0.108    19.09    27.26   21.459   1.92    0.09       
+       July        1.33     0.029    16.41    22.93   18.03    1.21    0.07       
+       August      0.28     0.004    16.56    20.71   17.619   0.77    0.04       
+       September   0.73     0.006    17.33    19.88   18.11    0.46    0.03       
+       October     1.11     0.007    16.44    18.43   17.525   0.42    0.02       
+                                                                                  
+       November    0.88     0.016    15.19    19.27    17.2    0.86    0.05       
+       December   4.6***    0.199    17.60    32.02   23.716   4.78    0.20       
+       Spring     4.00***   0.2      22.31    37.46   27.33    3.89    0.14       
+       Summer      1.67     0.03     17.80    21.88   19.04    1.03    0.05       
+       Autumn     5.35***   0.16     17.24    22.24   19.33    1.64    0.08       
+       Winter     5.08***   0.28     19.18    28.81   23.32    3.17    0.14       
+       Annual     4.41***   0.09     21.86    21.86   21.86   21.86    21.86      
+                                                                                  
+                                                                                  
+        December had the highest Z value, whereas May had components of temperature that demonstrate an in-
+      the lowest. This could be due to cloud accumulation in creasing trend in every aspect. This increase in temperature
+      other months, which decreased surface temperature may be attributed to the surface temperature rise and
+      readings rather than increasing surface heat in the study cloud distribution variability in the sub-basin, ultimately
+      area (Table 1). These findings are similar to those of Murat causing climate variability and change.
+      [11], who found a significant and highest variation of Z                    
+      value for temperature in the Western Black Sea region                       
+      of Turkey. The hottest month in the study area was                          
+      March 2020, with a maximum temperature of 38.96°C.                          
+      On the other hand, the coolest month was July, with a                       
+      minimum temperature of 15.19°C (Table 1). The                               
+      temperature variations across the months indicate the                       
+      presence of climate change and variability in the study                     
+                                                                                  
+      area.                                                                       
+        In Table 1, December had the highest coefficient of                       
+                                           Figure 2 Trend of monthly temperature in the study area.
+      variation (CV) at 20%, followed by January with 18%,                        
+      March with 15%, April with 15%, and May with 15%.                           
+                                           2) Seasonal temperature trend          
+      December also had the highest CV for temperature,                           
+                                             The study conducted an analysis of the seasonal
+      indicating a mean temperature of 23.72°C, while March                       
+                                           temperature trends in the Lake Tana Sub-basin region
+      had the highest mean temperature and was identified as                      
+                                           over a long time series of 31 years (1990 to 2020). The
+      the hottest month in the study area. On the other hand,                     
+                                           results of the MK trend test revealed a positive and
+      October had the lowest CV and was the coldest month,                        
+                                           highly significant increasing trend with Z-test values of
+      with the lowest temperature recorded at 17.2°C.                             
+                                           4, 5.35, and 5.08 for spring, autumn, and winter,
+        The study area exhibited a positive and increasing                        
+                                           respectively. While summer recorded a positive increasing
+      rate of change (Sen's Slope) in monthly temperature, with                   
+                                           trend, it was not statistically significant, with a Z-test
+      March recording the highest rate of change at 0.215,                        
+                                           value of 1.67 (Table 1). These results indicate an increasing
+      followed by December at 0.199, and May at 0.191                             
+                                           seasonal temperature from time to time at p value
+      (Table 1 and Figure 2). Although Table 1 shows variability                  
+                                           (>0.05), as the MK trend test Z values were greater than
+      in the rate of change, all months recorded an increasing                    
+                                           the test statistics value (1.96) for most seasons over the
+      rate except for January, which showed a decreasing rate                     
+                                           last 31 years (Table 1).               
+      of monthly temperature due to a negative value of Sen's                     
+      slope. Figure 3 depict random, seasonal, and trend                          
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 7 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+        Table 1 shows that spring and winter have the highest 3) Annual temperature trend
+      coefficient of variation (CV) of 14%, followed by autumn The computed p-value for the annual temperature
+      with 8%, and summer with 5%. The season with the in the basin was lower than the significance level
+      highest mean seasonal temperature (27.33°C) was observed alpha=0.05, indicating a statistically significant positive
+      in spring. This indicates that the high CV seasons are trend. This is consistent with Table 1, where the Z value
+      expected to have the maximum temperature per year. (4.41) is greater than the alpha value (1.96). Additionally,
+      On the other hand, wet seasons with fluctuating tempe- the Sen's slope of the MK analysis was 0.09, demon-
+      ratures in the Lake Tana Sub-basin region have the lowest strating an increasing rate of temperature in the study
+      CV and reliable rainfall. The season with the lowest CV area. Figure 5 demonstrates that, with the exception of
+      was summer, which is also the rainy season in the study a few years (1990, 2015, and 2020), the annual tempe-
+      area. The time series plot depicted in Figure 4 indicates rature in the sub-basin exhibits linear increases. The
+      that the seasonal temperature in the sub-basin has shown majority of the annual temperature readings are
+      an increasing trend in a random, seasonal, and observed clustered near the linear line, indicating a gradual
+                                                                                  
+      manner. This increasing trend indicates variability and increase in temperature over time in the study area.
+      changing climate in the study area.                                         
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+               Figure 3 Comparison of seasonal, observed and random trend of monthly temperature.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+               Figure 4 Comparison of observed, random and seasonal temperature in the study area.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                         Figure 5 Annual temperature trend of the study area.     
+                                                                                  
+      4) Monthly rainfall Trends           in the Lake Tana sub-basin. Long-term rainfall data
+        In this study, the Mann-Kendall test was employed were collected and analyzed, as shown in Table 1. The
+      to investigate rainfall trends across various time scales calculated value of Z1-/2 at a 95% confidence level is
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 8 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      equal to 1.96, which serves as the standard normal The values for May, July, August, September, and
+      variant. Z-values in Table 1 exceeded this value, October were 0.09, 0.15, 0.14, 0.07, and 0.19 mm/year,
+      indicating that significant trends were detected in the respe 𝛽𝛽 ctively (Table 2).
+      sub-basin's monthly rainfall time series. According to Table 2, December had the highest
+        Table 1 also revealed positive and negative values for coefficient of variation (CV) at 133%, followed by
+      Z and Sens slope ( ), respectively. Four months (January, January with 118%, and February with 116%. November
+      March, April, and December) demonstrated decreasing had a CV of 91%, and March had a CV of 71%. These
+                β                                                                 
+      trends in monthly rainfall time series data, while the results suggest that the five high CV months are expected
+      remaining eight months showed an increasing trend in to receive low annual rainfall amounts. Notably, these
+      the study area. The Sens slope varied from -0.01 mm/ months are part of the dry season in the Lake Tana Sub-
+      year in March and April to 0.0 mm/year in January and basin and are considered the most unreliable rainfall
+      December.         β                  months. On the other hand, June, July, August, Sep-
+        Table 2 indicates that significant increasing trends tember, May, and April had the lowest CV values. These
+      were observed for monthly precipitation in May, July, six months were associated with high rainfall over the
+      August, September, and October, with higher Z-values Lake Tana Sub-basin during the study period. These
+      compared to other months. In contrast, for February, findings indicate that the six months with the lowest
+      June, and November, the Z-value was positive, indicating CV values represent the wet season months in the Lake
+      a simple increasing trend without significant change. Tana Sub-basin (Table 2).
+                                                                                  
+      Table 2 MK trend test, Sens slope and descriptive statistics for monthly, seasonal and annual rainfall
+                 Z-Value Sen's Slope Minimum Maximum Mean    SD        CV         
+                                                                                  
+       January   -0.68    -0.003    0       0.97    0.19     0.23     1.18        
+       February   1.57    0.005     0       1.49    0.327    0.38     1.16        
+       March     -0.54    -0.011    0.07    3.16    1.039    0.69     0.67        
+       April     -0.50    -0.012    0.12    4.41    2.05     1.09     0.53        
+       May       3.39**   0.092     2.20    11.0    7.52      2       0.27        
+       June       1.68    0.036     9.63    16.63   13.73    1.66     0.12        
+       July      3.53**   0.148    13.68    22.54   18.67    2.03     0.12        
+                                                                                  
+       August    2.89**   0.138    10.44    24.82   16.19    4.57     0.28        
+       September 2.89**   0.068     5.41    13.98   8.25     2.53     0.31        
+       October   2.25*    0.187     0.33    11.91   5.32     3.78     0.71        
+       November   0.75    0.010     0.09    2.94    0.83     0.76     0.91        
+       December  -0.32    -0.001    0       1.76    0.33     0.44     1.33        
+       Spring     1.71    0.018     4.09    14.58   10.61    2.25     0.21        
+                                                                                  
+       Summer    3.46**   0.084    37.75    63.26   48.58    6.77     0.14        
+       Autumn    2.85**   0.070     6.37    27.4    14.41    6.24     0.43        
+       Winter     0.39    0.002     0.14    2.19    0.85     0.59     0.67        
+       Annual    2.39*     0.02    74.46    52.54   103.80   0.71     0.71        
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                            Figure 6 Observed trend of monthly rainfall.          
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 9 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                Figure 7 Comparison of observed, random and seasonal tend of monthly rainfall.
+                                                                                  
+        In Figure 2, the monthly temperature plot indicates findings revealed an increasing trend in observed random
+      an increasing trend for some months and a decreasing and trend of seasonal rainfall in the study area.
+      trend for others, providing evidence for rainfall                           
+      variability within the sub-basin. Along with the MK 6) Annual rainfall trends
+      trend test, the findings of this study are consistent with The annual rainfall in the Lake Tana Sub-basin has
+      other studies.                       exhibited increasing trends at a 95% confidence level,
+                                           as illustrated in Table 2. The Z value of 4.41 is greater
+      5) Seasonal rainfall trends          than the alpha value of 1.96, indicating statistical signi-
+        The results of the Mann-Kendall (M-K) test showed ficance. In addition, the MK trend test yielded a positive
+      a positive increasing trend in precipitation for all seasons and significant result of 2.39 for the study area. Further-
+      within the sub-basin, with relatively significant trends more, the Sens slope of 0.02 mm/year demonstrates an
+                                                                                  
+      detected in summer and autumn (Sens slope ( ) values increasing rate of change in annual rainfall in the study
+      of 0.08 and 0.07 mm/year, respectively). For spring and area as depicted in Figure 10 and Table 2.
+      winter, the Sens slope ( ) values were lower at                             
+                                  𝛽𝛽                                              
+                                  0.02 and                                        
+      0.00 mm/year, respectively. The major flooding season 7) Forecasting of monthly temperature
+                    𝛽𝛽                       The study area exhibited both increasing and
+      (3 to 4 months) had the highest Sens slope value of                         
+                                           decreasing trends in monthly temperatures, as indicated
+      0.11 mm/year, indicating a higher rainfall increase rate                    
+                                 𝛽𝛽        by the observed temperature trends. This provided an
+      compared to other seasons (Table 2). The results of the                     
+                                           opportunity to forecast monthly temperatures for the
+      M-K test, using observed time series of individual                          
+                                           upcoming decade, as illustrated in Figure 11. The figure
+      seasonal values, are illustrated in Table 2 and Figure 2.                   
+                                           demonstrates that certain months experienced maximum
+        According to Table 2, winter had the highest coeffi-                      
+                                           or minimum temperatures over the past three decades
+      cient of variation (CV) of 67%, followed by autumn                          
+                                           in the study area. The forecasting model predicts a
+      with 43%, spring with 21%, and summer with 14%.                             
+                                           temperature increase for the next 10 years within the
+      Winter also had the highest CV of seasonal rainfall                         
+                                           study area, as depicted in Figure 16.  
+      during the study period, representing a mean rainfall of                    
+                                             The RMSE ARIMA model was found to be the most
+      0.85 mm, which was the lowest recorded seasonal                             
+                                           effective in forecasting climatic variables. Although the
+      rainfall within the study area. These results suggest that                  
+                                           forecasting was highly significant for both SNAIVE and
+      seasons with high CV were associated with low seasonal                      
+                                           ETS models, it was not significant for the ARIMA
+      rainfall in the Lake Tana sub-basin, particularly during                    
+                                           model at a 95% confidence level (Table 3). However,
+      the dry seasons. Conversely, spring and summer had                          
+                                           the root mean square error was used to select the best
+      low CV values and were responsible for generating high                      
+                                           model for forecasting temperature trends in the study
+      rainfall in the study area (Table 2).                                       
+                                           area over the next 10 years, rather than the significance
+        Based on the time series plot presented in Figure 9                       
+                                           level. This is because the RMSE show the smallest error
+      and 10, it appears that the mean and variance of the                        
+                                           that the model encounters during forecasting. It also
+      series do not vary with the level of the series, indicating                 
+                                           measures the accuracy of the model for predicting
+      stationary. Consequently, additive decomposition was                        
+                                           future temperature. The ARIMA model had the
+      deemed appropriate for separating the time series                           
+                                           smallest root mean square error of 1.8889, while the
+      components. The results of the additive time series                         
+                                           SNAIVE model had the largest error of 2.68 (Table 3).
+      decomposition are shown in Figures 8 and 9. The                             
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 10 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                       Figure 8 Observed seasonal rainfall trend in the study area.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                     Figure 9 Observed, seasonal and random trend of seasonal rainfall.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                           Figure 10 Annual time serious plot of rainfall.        
+                                                                                  
+      Table 3 Root mean square error for different models the model that produced the lowest residual error being
+        Model type    RMSE      P value    selected (Figure 12).                  
+       SNAIVE        2.6082    1.187e-12     In the graph, the horizontal straight lines represent
+                                                                                  
+       ETS           1.95209   0.0009492   the mean temperatures for each group (figure 12). The
+       ARIMA         1.889434   0.4272     results indicate that each group had a different mean
+                                           temperature, with the highest maximum temperature
+        The plot reveals notable changes in monthly being recorded in December and the lowest minimum
+      temperature both in the past and in the future. The temperature being recorded in January within the study
+      differentiated temperature data plot demonstrates that area. Figure 13 illustrates the seasonal fluctuations in
+      the trend displays seasonality. Figure 12 divides the data monthly temperature. Based on these fluctuations, the
+      into different subgroups to illustrate this pattern. The peak temperature was recorded in March and December,
+      SNAIVE and ETS models were initially used for while the lowest temperature was observed in April and
+      comparison with ARIMA for the first forecast. The June.                     
+      selection of the best model for forecasting climatic                        
+      variables was based on the root mean square error, with                     
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 11 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                        Figure 11 Observed temperature trend in the study area.   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                      Figure 12 Classifying temperature according to its mean values.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                          Figure 13 Seasonality of temperature over month         
+                                                                                  
+        Over the next 10 years, there is a significant increase figure, represented by the pink color, indicates the
+      in monthly temperature in the study area. This rise in predicted temperature for the next 10 years in Lake
+      temperature, which is linked to climate change, can Tana sun basin. The plot of predicted and observed
+                                                                                  
+      have adverse impacts on economic activities, ecosystem temperatures shows a similar trend, indicating the
+      functions, and human well-being, as evidenced by model's effectiveness.     
+      Figure 14 and Table 4. The graph on the left side of the                    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 12 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                 Figure 14 Predicted temperature trend for the coming 10 years in the study area.
+                                                                                  
+      Table 4 Predicted mean temperature using ARIMA model                        
+       Year Jan  Feb   Mar  Apr   May  Jun   Jul  Aug  Sep   Oct  Nov   Dec       
+       2021 32.4 24.0 36.98 33.1 31.34 25.61 18.9 18.24 18.85 18.23 17.97 31.24   
+                                                                                  
+       2022 32.37 24.17 37.22 33.37 31.63 25.89 19.18 18.53 19.14 18.52 18.26 31.53
+       2023 32.65 24.45 37.51 33.66 31.91 26.18 19.47 18.81 19.42 18.8 18.54 31.82
+       2024 32.94 24.74 37.79 33.94 32.2 26.47 19.75 19.1 19.71 19.09 18.83 32.1  
+                                                                                  
+       2025 33.22 25.03 38.08 34.23 32.48 26.75 20.04 19.38 19.99 19.38 19.12 32.39
+       2026 33.51 25.31 38.36 34.51 32.77 27.04 20.32 19.67 20.28 19.66 19.4 32.67
+       2027 3.8  25.6 38.65 34.8 33.05 27.32 20.61 19.95 20.57 19.95 19.69 32.96  
+       2028 34.08 25.88 38.94 35.09 33.34 27.61 20.9 20.24 20.85 20.23 19.97 33.24
+                                                                                  
+       2029 34.37 26.17 39.22 35.37 33.63 27.9 21.18 20.53 21.14 20.52 20.26 33.53
+       2030 34.65 26.46 39.51 35.66 33.91 28.18 21.47 20.81 21.42 20.8 20.55 33.82
+                                                                                  
+        The findings indicate a growing trend in the mean statistically significant at the 95% level. However, the
+      predicted temperature over time. Moreover, the maximum significance level was not used to determine the optimal
+      predicted temperature of 39.91°C was recorded in model for predicting rainfall, as shown in Table 5.
+      March, while the minimum of 17.97°C was observed in                         
+                                                                                  
+      November, an outcome consistent with the data presented Table 5 Root mean square error for rainfall using
+      in Table 4. The predicted values suggest that climate different model       
+      change will cause January, April, and May to become Model type RMSE p-value 
+      increasingly hot, in addition to March. Conversely, SNAIVE 2.4279 < 2.2e-16 
+      June, July, August, September, October, and November ETS 1.559838 0.08128   
+      will be the coldest months in the future, as illustrated in ARIMA 1.548555 0.08777
+      Figure 14.                                                                  
+                                             The observed rainfall trend in the study area
+      8) Forecasting of monthly rainfall   displays both increasing and decreasing trends on a
+        Based on the observed climate data, a shift in rainfall monthly basis, allowing for the forecasting of monthly
+      patterns within the Lake Tana Sub-basin is predicted to rainfall over the next 10 years. The results indicate
+      occur by 2030. This prediction was utilized as a proxy significant changes in monthly rainfall patterns, as
+      indicator to evaluate the potential impacts of climate change shown in Figure 15, both in the past and projected for
+      in vulnerability analysis, as presented in Figure 17. The the future. The SNAIVE model was initially used to
+                                                                                  
+      results indicate that the RMSE ARIMA model was the forecast the first set of data for comparison with the
+      most effective in forecasting climatic variables. While the ARIMA model, with the best model for climatic
+      SNAIVE and ETS models produced highly significant variable forecasting being selected based on the residual
+      forecasts, the ARIMA model's forecasts were not error. This is because the RMSE show the smallest error
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 13 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      that the model encounters during forecasting. It also the ARIMA model was used to predict monthly rainfall
+      measures the accuracy of the model for predicting in the study area. The results indicate a significant
+      future rainfall. Additionally, seasonal fluctuations in increase in monthly rainfall over the next 10 years, with
+      monthly rainfall are illustrated in Figure 16. the area expected to receive a high amount of rainfall,
+        According to the RMSE analysis, the ARIMA model which could impact various aspects such as economic
+      was found to be the most effective for forecasting activities, ecosystem function and human well-being, as
+      climatic variables. In addition, Table 5 displays the depicted in Figure 17. These findings highlight the
+      residuals of both models, and based on this comparison, potential influence of climate change in the study area.
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                          Figure 15 Observed rainfall trend in the study area.    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                          Figure 16 Seasonality of rainfall in the study area.    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                  Figure 17 Predicted rainfall trend for the coming 10 years in the study area.
+                                                                                  
+        The results of the study reveal that the mean predicted (26.21 mm), while the minimum was recorded for
+      rainfall exhibits an increasing trend over time. Moreover, January (0.63mm), which is consistent with the observed
+      the maximum predicted rainfall was recorded for August data. The predicted values also indicate relatively high
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 14 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      rainfall for May, June, July, August, September and and December were identified as dry months with low
+      October in the study area, which did not receive signi- levels of rainfall, consistent with the observed data
+      ficant rainfall in previous years, likely due to climate presented in Table 6.
+      change. Conversely, January, February, March, November                      
+                                                                                  
+      Table 6 Predicted mean for rainfall using ARIMA model for the study area    
+             Jan  Feb  Mar  Apr  May   Jun   Jul   Aug   Sep  Oct   Nov  Dec      
+       2021  0.63 1.20 1.35 3    10.4 16.25 21.92 24.29 13.51 11.46 1.77 0.86     
+                                                                                  
+       2022  0.84 1.42 1.57 3.21 10.62 16.46 22.13 24.50 13.72 11.67 1.98 1.08    
+       2023  1.05 1.63 1.78 3.42 10.83 16.67 22.35 24.72 13.94 11.88 2.2 1.29     
+                                                                                  
+       2024  1.27 1.84  2  3.64 11.04 16.89 22.56 24.93 14.15 12.1  2.41 1.5      
+       2025  1.48 2.06 2.21 3.85 11.26 17.1 22.78 25.15 14.36 12.31 2.62 1.72     
+       2026  1.69 2.27 2.42 4.06 11.47 17.32 22.99 25.36 14.58 12.52 2.84 1.93    
+                                                                                  
+       2027  1.91 2.48 2.64 4.28 11.68 17.53 23.2 25.57 14.79 12.74 3.05 2.15     
+       2028  2.12 2.7  2.85 4.49 11.9 17.74 23.42 25.79 15.01 12.95 3.26 2.36     
+                                                                                  
+       2029  2.34 2.91 3.06 4.71 12.11 17.96 23.63 26   15.22 13.17 3.48 2.57     
+       2030  2.55 3.13 3.28 4.92 12.33 18.17 23.84 26.21 15.43 13.38 3.69 2.79    
+                                                                                  
+                                                                                  
+      Discussion                           Dramaga Sub-District, Bogor, Indonesia, and used it as
+        The trend analysis of climatic elements within the a proxy indicator for exposure to future climate change
+      study area suggests a significant increase in temperature in vulnerability analysis.
+      and rainfall, leading to an increase in humidity [17]. The trend analysis of seasonal temperature reveals
+      The positive Kendall's Z value indicates an upward fluctuations in temperature within each season, suggesting
+      trend and supports the observation of increasing that there are changes in climate and weather condi-
+      temperature and rainfall in the Lake Tana Sub-basin tions in the study area [39]. The monthly and seasonal
+      over time [31]. Significantly, the p-value is less than the temperature and rainfall display varying coefficients of
+      significance level alpha (0.05), confirming the existence variation, signifying that seasonal temperature is highly
+      of a noticeable trend at a 5% level of significance. These variable over time, which suggests the existence of
+      data indicate that there has been a significant increase climate change in the study area [40]. The positive Sens
+      in temperature, which strongly suggests the impact of slope of seasonal temperature indicates an increasing
+      climate change on the area [32]. Furthermore, investi- rate of seasonal temperature in the study area,
+                                                                                  
+      gating different trend situations for various time intervals highlighting that the weather conditions of the sub-
+      reveals that trends may change direction over time and basin are worsening for human beings [41]. These
+      partial trends may need to be examined [33]. This finding findings are consistent with those of Ceribasi et al. [42]
+      is consistent with [34] study of the trends of rainfall and who observed an increasing trend in annual mean
+      temperature over North-Eastern Nigeria (1949–2014), temperature in both basins (Susurluk and Van Lake
+      which showed positive trends ranging from 0.04°C/ Closed Basins), leading to climate change in these areas.
+      decade to about 0.001°C/decade. Additionally, the present The trend analysis of annual temperature and
+      study aligns with [35] discovery of an increasing trend rainfall displays a fluctuating trend, indicating changes
+      of temperature and rainfall in Yola, Adamawa State, in the climate and weather conditions in the study area
+      and Northeastern Nigeria.            [31]. The positive and significant value of Z confirms
+        These findings are supported by the results of an increasing trend in temperature and rainfall within
+      Farooq et al. [36] who found an increasing trend in the study area, which implies the existence of climate
+      seasonal temperatures in Kazakhstan between 1970–2017 change and variability [43]. These findings are consistent
+      using non-parametric statistical methods and GIS with Afrira-Yampah et al. [44] report of higher rainfall
+                                                                                  
+      technologies. Furthermore, Frimpong et al. [37] levels in September and October and lower rainfall
+      reported similar results of an increasing seasonal and levels in January, December, and February. The rate of
+      annual temperature trend in the Accra and Kumasi change in temperature and rainfall was positive and
+      metropolises in Ghana. Similarly, Khyber et al. [38] increasing due to the positive value of Sens slope. This
+      found an increasing trend in annual temperature in result aligns with Cui et al. [45] who reported the
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 15 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      significantly increasing of annual maximum, creasing temperature and rainfall. The study's findings
+      minimum, and mean temperatures at rates ranging suggest that the Lake sub-basin is currently experiencing
+      from 0.15°C/10yr to 0.23°C/10yr over the whole study severe climate change, which is projected to continue
+      area during 1960-2015 in the Yangtze River Basin, based on the predicted values of temperature and
+      China. Furthermore, Cicek et al. [46] identified seven rainfall. To address this issue, various adaptation and
+      stations that displayed increasing precipitation trends mitigation measures, such as afforestation, buffering of
+      in all seasons clustered in the Black Sea coastal belt and the lake, and changes in lifestyle, should be implemented
+      North-eastern Anatolia, which is consistent with the by the government, policy-makers, and other relevant
+      present study's results.             organizations. It’s also better to conduct additional
+        Given the strong trend and fluctuation observed in research to see the effect of current and future climate
+      the data series for monthly, seasonal, and annual change on agriculture ecosystem function and socio-
+      temperature and rainfall in the study area, it is possible economic activities in the study area.
+      to apply the predicting model ARIMA. This finding is                        
+                                                                                  
+      similar to Bagirov et al. [47] who reported high Reference                  
+      variability in predicted temperature and rainfall using [1] Bogale, G.A., Tolossa, T.T. Climate change
+      seven different models, which causes climate change in intensification impacts and challenges of invasive
+      Victoria, Australia. The means of predicted values for species and adaptation measures in Eastern
+      temperature and rainfall indicate an increasing trend Ethiopia. Sustainable Environment, 2021, 7(1),
+      for the next 10 years, which suggests that the climate 1–25.                
+      condition in the area will be very fragile in the future. [2] IPCC, Climate Change 2021 The physical science
+      These findings suggest that the area will be more basis aummary for policymakers. 2021.
+      affected due to climate change resulting from fluctua- [3] Qu, M., Wan, J., Hao, X. Analysis of diurnal air
+      tions in major climatic variables, especially temperature temperature range change in the continental
+      and rainfall. This result is consistent with the study of United States. Weather and Climate Extremes,
+      Bari et al. which found that ARIMA was used to 2014, 4, 86–95.              
+      compare observed and forecasted values with a 95% [4] IPCC, Climate change 2013. Edited by. 2013.
+      confidence limit and reported an increasing trend in [5] Kjellström, E., Thejll, P., Rummukainen, M.,
+                                                                                  
+      future temperature and rainfall in Sylhet City, Christensen, J.H. Emerging regional climate
+      Bangladesh. This result is consistent with Gizachew and change signals for Europe under varying large-
+      Shimelis [49] who also found a projected increase in scale circulation conditions. Climate Research,
+      temperature and rainfall by 2050 in the Central Rift 2013, 56(May 2014), 103–119.
+      Valley of Ethiopia. Additionally, Dankwa et al. [21] [6] Luoto, T.P., Nevalainen, L. Long-term water
+      reported comparable findings regarding the analysis temperature reconstructions from mountain lakes
+      and forecasting of rainfall patterns in the Manga- with different catchment and morphometric
+      Bawku area of northeastern Ghana.        features. Scientific Reports, 2013, 3, 2488.
+                                           [7] Holsinger, L., Keane, B., Eby, L. Impacts of climate
+      Conclusion and recommendation            change and wildfire on stream temperature and
+        The study's findings suggest that there is a positive bull trout in the East Fork Bitterroot River, 2012.
+      and significant trend in monthly, seasonal, and annual [8] UNFCCC, Cimate change: Impacts, impacts,
+      temperature and rainfall in the study area. According to vulnerabilities and adaptation in developing
+      the MK trend analysis, it can also be concluded that countries. 2007.       
+                                                                                  
+      March is the hottest month, and spring is the hottest [9] IPCC, Climate change 2014 synthesis report.
+      season. Furthermore, the rate of change in temperature 2014.                
+      and rainfall was positive and increasing for monthly, [10] Chinwe, I.S. Resilient Adaptation to climate
+      seasonal, and annual periods. These results indicate the change in African agriculture, 2010, 54.
+      presence of climate variability and change within the [11] Murat, Trend and homogeneity analysis in
+      study area. The study's findings indicate that the temperature and rainfall series in western Black
+      ARIMA model is the most effective in forecasting Sea region, Turkey. Theoretical and Applied
+      future temperature and rainfall, as it has the smallest Climatology, 2020, 139(3–4), 837–848.
+      RMSE. The predicted mean values of temperature and [12] Norbert, G., Guedes, M., De Moraes, A. Decision
+      rainfall show an increasing trend, which is similar to the support for the (inter-) basin management of
+      observed data. These results suggest that climate change water resources using integrated hydro-eco-
+      is likely to exacerbate in the study area due to the in- nomic modeling. Hydrology, 2021, 8(42), 1–19.
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 16 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+      [13] Gadedjisso-tossou, A., Adjegan, K.I.I. Rainfall and Melesse, A.M. Potential of water hyacinth
+          temperature trend analysis by Mann–Kendall infestation on Lake Tana, Ethiopia: A prediction
+          test and significance for rainfed cereal yields in using a GIS-based multi-criteria technique.
+          Northern Togo. Science, 2021, 3(17), 1–20. Water, 2019, 11(9), 1921, 1–17.
+      [14] Panda, A., Sahu, N. Trend analysis of seasonal [26] Fick, S.E., Hijmans, R.J. WorldClim 2: New 1-km
+          rainfall and temperature pattern in Kalahandi, spatial resolution climate surfaces for global land
+          Bolangir and Koraput districts of Odisha, India. areas. International Journal of Climatology,
+          Atmospheric Science Letters, 2018, September. 2017, 4315(May), 4302–4315.
+          1–10, 2019.                      [27] Hamed, K., Gachon, P. Exact distribution of the
+      [15] Ragatoa, D.S., Ogunjobi, K.O. A trend analysis of Mann- Kendall trend test statistic for persistent
+          temperature in selected stations in Nigeria using data. Journal of Hydrology, 2009, 365, 86–94.
+          three different approaches. Open Access Library [28] Basin, Y.R., Yang, R. Spatio-Temporal variability
+          Journal, 2018, 5, 1–18.              in hydroclimate over the upper. Atmosphere.
+                                                                                  
+      [16] Getachew, B., Manjunatha, B.R. Climate change 2022, 13(317), pp. 1–34, 2022.
+          projections and trends simulated from the [29] Klasson, K.T. Using excel for dynamic analysis of
+          CMIP5 models for the Lake Tana sub-basin, the variance and unplanned multiple comparisons
+          Upper Blue Nile (Abay) River Basin, Ethiopia. procedures, 2020, USDA.   
+          Environmental Challenges, 2021, 5(August), [30] Sen, P.K. Estimates of the Regression Coefficient
+          100385.                              Based on Kendall’ s Tau Pranab Kumar Sen.
+      [17] Alemu, Z.A., Dioha, M.O. Climate change and Journal of the American Statistical Association,
+          trend analysis of temperature: the case of Addis 1968, 63(324), 1379–1389.
+          Ababa, Ethiopia. Environmental Systems Research, [31] Mateus, C., Potito, A. Long-term trends in daily
+          2020, 9(1), 1–15.                    extreme air temperature indices in Ireland from
+      [18] Getahun, Y.S., Li, M.H., Pun, I.F. Trend and 1885 to 2018. Weather and Climate Extremes,
+          change-point detection analyses of rainfall and 2022, 36(May), 100464.  
+          temperature over the Awash River basin of [32] El Kasri, J., Lahmili, A., Soussi, H., Jaouda, I.,
+          Ethiopia. Heliyon, 2021, 7(9), e08024. Bentaher, M. Trend analysis of meteorological
+                                                                                  
+      [19] Gourdji, S.M., Sibley, A.M., Lobell, D.B. Global variables: Rainfall and temperature. Civil Engi-
+          crop exposure to critical high temperatures in neering Journal, 2021, 7(11), 1868–1879.
+          the reproductive period: Historical trends and [33] Li, J., Li, Z.L., Wu, H., You, N. Trend, seasonality,
+          future projections. Environmental Research Letters, and abrupt change detection method for land
+          2013, 8(2), 1–11.                    surface temperature time-series analysis: Evalua-
+      [20] Narayanan, P., Basistha, A., Sarkar, S., Kamna, S. tion and improvement. Remote Sensing of Envi-
+          Trend analysis and ARIMA modelling of pre- ronment, 2022, 280(January), 113222.
+          monsoon rainfall data for western India. Comptes [34] Hassan, S.F., Tantawi, A.M.E.-, Hashidu, U.S.
+          Rendus Geoscience, 2013, 345(1), 22–27. Trends of rainfall and temperature over North-
+      [21] Dankwa, P., Cudjoe, E., Amuah, E.E.Y., Kazapoe, Eastern Nigeria (1949-2014). IOSR Journal of
+          R.W., Agyemang, E.P. Analyzing and forecasting Environmental Science, Toxicology and Food
+          rainfall patterns in the Manga-Bawku area, Technology 11(05), 01–09.    
+          northeastern Ghana: Possible implication of [35] Oyerinde, O.O. Analysis of decadal rainfall and
+          climate change. Environmental Challenges, temperature trend in Warri, Nigeria. European
+                                                                                  
+          2021, 5(July), 100354                Journal of Environment and Earth Sciences, 2021,
+      [22] Kaur, J., Parmar, K.S., Singh, S. Autoregressive 2(2), 15–18.          
+          models in environmental forecasting time series: [36] Farooq, I., Shah, A.R., Salik, K.M., Ismail, M.
+          a theoretical and application review. Environ- Annual, seasonal and monthly trend analysis of
+          mental Science and Pollution Research, 2023, temperature in Kazakhstan During 1970–2017
+          30(8), 19617–19641.                  using non-parametric statistical methods and
+      [23] CSA. 2007 population and housing census of GIS technologies. Earth Systems and Environment,
+          administrative, 2012.                2021, 5(3), 575–595.               
+      [24] Goshu, G., Aynalem, S., Problem overview of the [37] Frimpong, B.F., Koranteng, A., Molkenthin, F.
+          Lake Tana Basin. 2017.               Analysis of temperature variability utilising
+      [25] Dersseh, A.A.K., Kibret, A.A., Tilahun, S.A., Mann–Kendall and Sen’s slope estimator tests in
+          Worqlul, A.W., Moges, M.A., Dagnew, D.C., …, the Accra and Kumasi Metropolises in Ghana.
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        
+
+===== PAGE 17 =====
+
+                                                                                  
+                                                                                  
+                                App. Envi. Res. 46(1) (2024): 003                 
+                                                                                  
+                                                                                  
+          Environmental Systems Research, 2022, 11(1), [44] Afrira-Yampah, E., Saeed, B.I.I., Karim, A.
+          1–13.                                Sarima modelling and forecasting of monthly
+      [38] Khyber, E., Syaufina, L., Sunkar, A. Variability rainfall in the Brong Ahafo Region of Ghana.
+          and time series trend analysis of rainfall and World Environment, 2016, 6(1), 1–9.
+          temperature in Dramaga Sub-District, Bogor, [45] Cui, L., Wang, L., Lai, Z., Tian, Q., Liu, W., Li, J.
+          Indonesia. IOP Conference Series: Earth and Innovative trend analysis of annual and seasonal
+          Environmental Science, 2021, 771(1), 012016. air temperature and rainfall in the Yangtze River
+      [39] Panwar, M., Agarwal, A., Devadas, V. Analyzing Basin, China during 1960–2015. Journal of
+          land surface temperature trends using non- Atmospheric and Solar-Terrestrial Physics, 2017,
+          parametric approach: A case of Delhi, India. Urban 164(July), 48–59.    
+          Climate, 2018, 24(November 2017), 19–25. [46] Cicek,İI., Duman, N. Seasonal and annual
+      [40] Mahmood, R., Jia, S., Zhu, W. Analysis of climate precipitation trends in Turkey Ihsan. Carpathian
+          variability, trends, and prediction in the most Journal of Earth and Environmental Sciences,
+                                                                                  
+          active parts of the Lake Chad basin, Africa. 2015, 10(20), 77–84.       
+          Scientific Reports, 2019, 9(1), 1–18. [47] Bagirov, A.M., Mahmood, A., Barton, A. Prediction
+      [41] Siddiqui, A., Kushwaha, G., Nikam, B., Srivastav, of monthly rainfall in Victoria, Australia: Clusterwise
+          S.K., Shelar, A., Kumar, P. Analysing the day/ night linear regression approach. Atmospheric Research,
+          seasonal and annual changes and trends in land 2017, 188, 20–29.        
+          surface temperature and surface urban heat [48] Bari, S.H., Rahman, M.T., Hussain, M.M., Ray,
+          island intensity (SUHII) for Indian cities. S. Forecasting monthly precipitation in Sylhet
+          Sustainable Cities and Society, 2021, 75, (August), city using Arima model. Civil and Environmental
+          103374.                              Research, 2015, 7(1), 69–78.       
+      [42] Ceribasi, G., Aytulun,,U. Investigation of the effect [49] Gizachew, L., Shimelis, A. analysis and mapping
+          of climate change on precipitation and tempe- of climate change risk and vulnerability in central
+          rature data of Susurluk Basin and Van Lake closed rift valley of Ethiopia climate change is one of the
+          basin. International Journal of Global Warming, current issues that severely impact all climate
+          2020, 22(1), 54–71.                  sensitive sectors like agriculture. The manifest-
+                                                                                  
+      [43] Panda, A., Sahu, N. Trend analysis of seasonal tation of climate change such as. African Crop
+          rainfall and temperature pattern in Kalahandi, Science Journal, 2014, 22(Vi), 807–818.
+          Bolangir and Koraput districts of Odisha, India.                        
+          Atmospheric Science Letters, 2019, 20, 10, 1–10.                        
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+      https://doi.org/10.35762/AER.2024003                                        

@@ -1,0 +1,743 @@
+
+===== PAGE 1 =====
+Chiang Mai J. Sci. 2023; 50(4): 1-12
+https://doi.org/10.12982/CMJS.2023.041
+Journal homepage : http://epg.science.cmu.ac.th/ejournal/
+Future Projections of Precipitation and Temperature in 
+Northeast, Thailand using Bias-Corrected Global Climate 
+Models 
+Wittanan Tammadid [a], Ketmanee Nantasom [a], Wichayaporn Sirksiri [a], Supika Vanitchung [a], 
+Chaiwatchara Promjittiphong [b], Atsamon Limsakul [c] and Phongthep Hanpattanakit*[a]
+[a]  Department of Environment, Faculty of Environmental Culture and Ecotourism, Srinakharinwirot University, 
+Bangkok, 10110, Thailand
+[b]  Department of Sociology, Faculty of Social Sciences, Srinakharinwirot University, Bangkok, 10110, Thailand
+[c]  Environmental Research and Training Center, Department of Environmental Quality Promotion, Technopolis, 
+Klong 5, Klong Luang, Pathum Thani, 12120, Thailand
+*Author for correspondence; e-mail: phongthep@g.swu.ac.th
+Received: 20 February 2023
+Revised: 13 June 2023
+Accepted: 3 July 2023
+Research Article
+ABSTRACT
+  The increase in anthropogenic greenhouse gases (GHGs) has resulted in global climate change, 
+with the Northeast region of  Thailand experiencing the highest rate of  change. This poses significant 
+risks of  drought and its impact on crop yield production. To better understand the potential consequences 
+of  climate change and devise suitable adaptation strategies, this study aims to project precipitation 
+and temperature data for Northeast Thailand from 2015 to 2055, using bias-corrected global climate 
+models under Representative Concentration Pathways (RCPs) 4.5 and 8.5. The results showed that 
+the annual precipitation and temperature increased from 2015 to 2055 under both RCPs. The annual 
+average (minimum-maximum) of  precipitation from the CanESM, GFDL, MIROC5, NorESM, and 
+ensemble mean from four models under RCP4.5 were 1,238.83 (904.28-1,629.70), 1,227.82 (865.49-
+1,721.31), 1,312.78 (876.60-1,616.38), 1,350.21 (985.55-1,625.00), and 1,282.41 (1,088.43-1,461.49) mm 
+and RCP8.5 were 1,267.96 (864.24-1,712.86), 1,222.20 (863.79-1,835.43), 1,294.07 (843.04-1,752.41), 
+1,353.14 (1,059.50-1,827.23), and 1,284.34 (1,116.55-1,541.63) mm, respectively. While, those of  
+temperature under RCP4.5 were 29.27 (28.15-30.35), 29.59 (27.98-31.20), 29.12 (27.65-30.70), 28.09 
+(26.96-29.14), and 29.02 (28.08-29.90) °C and RCP8.5 were 29.50 (28.12-31.40), 29.68 (28.23-31.50), 
+29.11 (27.51-30.26), 28.37 (27.11-29.88), and 29.17 (28.08-30.66) °C, respectively. These findings 
+suggest that the annual precipitation is lower under RCP4.5 compared to RCP8.5, while the temperature 
+shows an increasing trend under both RCPs. Therefore, it is evident that climate change will manifest 
+differently in Northeast Thailand, depending on local contexts and the measures implemented today. 
+Understanding the impacts and risks of  future climate change at a local scale and identifying adaptive 
+solutions pose significant challenges for the future.
+Keywords: precipitation, temperature, global climate model, Northeast Thailand
+===== PAGE 2 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+2
+1. INTRODUCTION
+Climate change occurs in many areas around 
+the world affecting and damaging human life, 
+property, natural resources and environment. 
+Greenhouse gases from human activities are the 
+most significant driver of  observed climate change 
+because these gases have the ability to absorb 
+infrared energy from the sun. The major results 
+from human activities were burning fossil fuels and 
+deforestation. Scientific evidence shows that global 
+temperature is rising, along with changes occurring 
+in precipitation and sea level. During 1960 and 
+2000, the average global temperature increased by 
+0.6˚C [1]. According to IPCC Sixth Assessment 
+Report shown the observed changes in annual 
+mean surface temperature in the period 1850–2020 
+per °C of  global warming (°C). The maximum 
+temperature, average temperature, and minimum 
+temperature in the past of  Thailand (1955-2009) 
+were increased by 0.57, 0.81, and 0.89˚C, resulting 
+in Thailand getting hotter nationwide. The rate 
+at which Thailand’s average temperature rose per 
+decade (0.174˚C per decade) was higher than the 
+global rate (0.126˚C per decade) [2]. Moreover, 
+average sea surface temperatures increased at a 
+faster rate than in the past, this in turn is related 
+to rising sea level. According to data collected by 
+water level stations from 1961-2003, the average 
+global sea level increased by 1.8 mm a year [3]. 
+Moreover, surface temperatures in the Gulf  of  
+Thailand and the Andaman Sea rose by 0.1˚C per 
+decade from 1976-2006. Sea levels in the Gulf  of  
+Thailand also tended to rise. According to data 
+collected from 1895-2004 by four sea level stations, 
+sea levels in the Gulf  of  Thailand tended to rise 
+at a rate of  3.0-5.0 mm per year [4]. Furthermore, 
+average annual relative humidity and temperature 
+were increasing, while the evaporation rate fell. 
+Thailand’s average annual precipitation over the 
+past 55 years showed slight decreases, although the 
+results were not statistical significance at the 95% 
+confidence level. Thus, Chotamonsak, Salath Jr. 
+[5] predicted the precipitation in Thailand using 
+a WRF reginal climate model. They found that 
+heavy precipitation was found mainly along coast 
+of  Thailand and Myanmar, with relatively drier 
+conditions over the lowlands of  the interior of  
+Thailand. In the cool-dry season, heavy precipitation 
+was observed only along the southern coast 
+and the Malay peninsula. In the hot-dry season, 
+the entire region is arid [5]. Thus, the seasonal 
+cycle reflects the onset of  south-westerly winds 
+associated with the South-Asian monsoon and 
+the cyclone season, the primary mechanisms for 
+heavy precipitation over the region [5]. Moreover, 
+it was found that changes in Thailand’s average 
+annual precipitation were related to ENSO, with 
+lower average annual precipitation during years 
+the El Niño phenomenon occurred, and higher 
+amounts of  rain during La Niña [6].
+Effects of  climate variability such as 
+drought and flood conditions, the weather being 
+extremely hot or cold, seasonal shift and change 
+have impacted to human and environment. For 
+example, increasing global surface temperature is 
+the most symbolic parameter of  climate change 
+[7] and ambient high temperature, especially 
+prolonged extreme high temperature as heatwave 
+[8], has caused substantial health burden globally 
+[9]. According to study the effect of  heatwave 
+was associated with greater cumulative effects on 
+cause-specific mortality in Thailand  [10]. These 
+regions vulnerable to heatwaves and proportion 
+of  elderly population was the major driver behind 
+the spatial heterogeneity of  heatwave vulnerability 
+[10]. Moreover, previous research in Thailand 
+was investigated the effect of  climate change on 
+agriculture, for example; rice grown under rainfed 
+conditions was found to be highly vulnerable 
+to climate change. Moreover, yields of  rice and 
+maize are projected to decline as much as 57 and 
+44 percent as compared to the normal climate as 
+baseline, respectively [11]. Therefore, all sectors 
+have attention to preparing to cope and reduce 
+the impact that may occur in the near future. 
+Especially trend of  average temperature, maximum 
+temperature, and minimum temperature in the 
+===== PAGE 3 =====
+Chiang Mai J. Sci. 2023; 50(4) 
+3
+northeast, Thailand from historical data from 
+1983-2012 found that northeast, Thailand was 
+the highest rate of  climate change, posing risks of  
+drought and its effect on the human and ecosystem. 
+Thus, the understanding of  trend temperature 
+and precipitation in future at high risk exposure 
+area in Thailand could better explain the climate 
+change variation, thus improve the prediction of  
+climate impacts, adaptation and vulnerability in 
+the northeast, Thailand. Hence, this study aims 
+projected precipitation and temperature data in 
+Northeast, Thailand based on the bias-corrected 
+global climate models during  2015 to 2055 
+simulated under Representative Concentration 
+Pathways (RCPs) 4.5 and 8.5. using CanESM, 
+GFDL, MIROC5, NorESM, and average from 
+four models during 2015 to 2055 under RCP4.5 
+and RCP8.5 in Northeast, Thailand.
+2. MATERIALS AND METHODS
+2.1 Site Description
+This research assesses the situation and projection 
+of  the future climate of  northeast Thailand, 
+consisting of  20 provinces, (namely: Nakhon 
+Ratchasima, Kalasin, Khon Kaen, Chaiyaphum, 
+Nakhon Phanom, Bueng Kan, Burirum, Maha 
+Sarakham, Mukdahan, Yasothon, Roi Et, Sri Sa 
+Ket, Loei, Sakon Nakhon, Surin, Nongkhaii, Nong 
+Bua Lam Phu, Udon Thani, Ubon Ratchathani, 
+and Amnat Charoen) were located in latitude 
+14˚7›N to 18˚27’N and longitude 100˚54’E to 
+105˚37’E (Figure 1). The total area of  northeast 
+in Thailand is 168,854 km
+2
+ or 33.17% of  total 
+area in Thailand, which is comparable to one-third 
+of  the total area of  Thailand. The topography 
+is a plateau and slope to the east. There is a hot 
+and dry climate, and has moderate precipitation. 
+ 
+Figure 1. Location of the northeast, Thailand 
+ 
+Figure 1. Location of  the northeast, Thailand.
+===== PAGE 4 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+4
+The annual precipitation was 1,404.50 mm. The 
+maximum precipitation was in Nakhon Phanom, 
+with the minimum precipitation was in Nakhon 
+Ratchasima [12]. The annual temperature was 
+26.8˚C, with the maximum temperature in April 
+was average 32.6˚C and the minimum in January 
+was average 22.2˚C. The average relative humidity 
+was 72.3%. September was the maximum average 
+relative humidity of  94.5% and January minimum 
+of  43.0% [13].
+2.2 Climate Model
+The data in this study consisted of  precipitation 
+and temperature data in Northeast, Thailand from 
+projections by using the four global climate models 
+during 2015 to 2055 under the representative 
+concentration pathways (RCPs) and has downscale 
+of  the grid cell data to high resolution of  0.1˚ 
+or 10 km from the Hydro-Informatics Institute 
+(Public Organization) to be suitable for Thailand. 
+This indicated that the model’s data in each grid 
+has size 0.1x0.1˚ or 100 km
+2
+/grid (5,094 grid).  
+The data accuracy of  the bias correction 
+The four global climate models were the 
+Canadian Earth System Model (CanESM), which 
+is sensitive to the climate equilibrium model due 
+to the increased response of  clouds and sea ice. 
+The model was able to simulate the pre-industrial 
+climate, but it is still important in simulating 
+large-scale climate. The second, the Geophysical 
+Fluid Dynamics Laboratory’s Model (GFDL) is 
+an accurate model enough to study the impacts at 
+the local scale. GFDL can observe the evolution 
+of  climate in the 20
+th
+ century and project seasonal. 
+The third was the Model for Interdisciplinary 
+Research on Climate (MIROC5), which is a 
+more-resolution model including more accurate 
+patterns of  ocean currents and improvements 
+for radiation and turbulence to decrease spatial 
+bias in temperature and humidity. This model 
+simulates more realistic climate variability than 
+previous models. The last one was the Norwegian 
+Earth System Model (NorESM) which is a model 
+with the turnover of  biogeochemical was applied 
+spatially on a medium scale.
+RCP is the new greenhouse gas emission 
+scenarios, and determined by radiative forcing for 
+the world, which economic and social conditions 
+and different activities can lead to forcing radiation. 
+Therefore, the policy changes in the social, 
+technological, and economic situation can be 
+compensated by the increase in renewable energy, 
+replacing the determined fixed greenhouse gas 
+emissions patterns in previous scenarios [14, 15]. 
+The selected RCP in this research were RCP4.5 
+and RCP8.5. From the Fifth Assessment Report 
+(AR5) of  IPCC, RCP8.5 is high emissions consistent 
+with the future without policy changes to decrease 
+greenhouse gas emissions, high usage of  energy, 
+and decrease technology development. RCP 4.5 is 
+a mid-range greenhouse gas emission developed 
+by the Pacific Northwest National Laboratory 
+in the United States. That is consistent with the 
+future of  decreased gas emissions but still tends 
+to increase [16, 17].
+2.3 Map Creation and Data Analysis
+Arranged the precipitation and temperature 
+data according to the actual latitude and longitude 
+coordinates covering Thailand. Precipitation and 
+temperature data and the coordinates representative 
+of  each square area were 10 x 10 km
+2
+. Then used 
+to create a map that will contour the precipitation 
+and temperature data, divided into 0.15 intervals 
+by using Surfer 10 (Golden Software, LLC, USA) 
+and Quantum GIS version 3.16 (Open Source 
+Geospatial Foundation, Chicago, USA) program. 
+However, precipitation and temperature data from 
+four models under the RCP4.5 and RCP8.5 were 
+statistically compared using one -way ANOVA 
+in IBM SPSS statistics for Windows, version 
+17.0 (IBM Crop., Armonk, N.Y . USA) at a 95% 
+significance level. Comparing the climate projection 
+and observed weather data was calculated by 
+percentage error (% error lower than 5%).
+===== PAGE 5 =====
+Chiang Mai J. Sci. 2023; 50(4) 
+5
+3. RESULTS AND DISCUSSION
+3.1 Future Climate Projection in the Northeast
+The annual precipitation trend from 2015 to 
+2055 found that, annual precipitation increased 
+from the past to the future. The annual average 
+(minimum-maximum ) of  precipitation from 
+the CanESM, GFDL, MIROC5, NorESM, and 
+average from four models under RCP4.5 were 
+1,238.83(904.28-1,629.70), 1,227.82(865.49-1,721.31), 
+1,312.78(876.60-1,616.38), 1,350.21(985.55-1,625.00), 
+and 1,282.41(1,088.43-1,461.49) mm (Figure 2A), 
+and under RCP8.5 were 1,267.96(864.24-1,712.86), 
+1,222.20(863.79-1,835.43), 1,294.07(843.04-
+1,752.41), 1,353.14(1,059.50-1,827.23), and 
+1,284.34(1,116.55-1,541.63) mm, respectively 
+(Figure 2B). However, the annual precipitation 
+from CanESM, GFDL, MIROC5, NorESM, and 
+average from four models under RCP4.5 were  
+lower than RCP8.5.
+While, the annual temperature trend from 
+2015 to 2055 according to precipitation, that were 
+increased from the past to the future. The annual 
+average (minimum-maximum) of  temperature from 
+CanESM, GFDL, MIROC5, NorESM, and average 
+from four models under RCP4.5 were 29.27(28.15-
+30.35), 29.59(27.98-31.20), 29.12(27.65-30.70), 
+28.09(26.96-29.14), and 29.02(28.08-29.90) °C 
+(Figure 3A), and under RCP8.5 were 29.50(28.12-
+31.40), 29.68(28.23-31.50), 29.11(27.51-30.26), 
+28.37(27.11-29.88), and 29.17(28.08-30.66)°C, 
+respectively (Figure 3B). In addition, the annual 
+temperature from CanESM, GFDL, MIROC5, 
+NorESM, and average from four models under 
+RCP4.5 were lower than RCP8.5.
+ 
+ 
+Figure 2. The trend of precipitation  during 5102-5122 under representative concentration pathways 
+RCP4.5 (A) and RCP8.5 (B) 
+ 
+Figure 2. The trend of  precipitation during 2015-2055 under representative concentration pathways 
+RCP4.5 (A) and RCP8.5 (B)
+===== PAGE 6 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+6
+Annual temperature and precipitation under 
+RCP8.5 were higher than RCP4.5 of  all models. 
+Since, RCP 4.5 is described by the Intergovernmental 
+Panel on Climate Change (IPCC) as a moderate 
+scenario in which emissions peak around 2040 
+and then decline. While, RCP 8.5 is the highest 
+baseline emissions scenario in which emissions 
+continue to rise throughout the twenty-first 
+century. Therefore, the climate change projected 
+under RCP 8.5 will typically be more severe than 
+under RCP 4.5.
+3.2 Climate Projection and Observed Weather 
+Data
+Errors inspection between climate models 
+and observed climate data by using actual average 
+temperature data from 3 provinces as well as Si Sa 
+Ket, Surin, and Ubon Ratchathani provinces during 
+2015-2020 compared to average temperature data 
+from climate models under RCP4.5 and RCP8.5 
+at the same time period. The results found that 
+the percentage errors of  the annual temperature 
+from all models were lower than 5% of  observed 
+data. This indicated that the data from the models 
+were accurate and effective in future climate 
+projection in this country. Under RCP4.5, Sri Sa 
+Ket province was the lowest percentage error from 
+CanESM model of  1.57%, while the percentage 
+error from GFDL, MIROC5 and NorESM models 
+had 2.17%, 2.95%, and 4.04%, respectively. Surin 
+province was the lowest percentage error from 
+CanESM model of  2.04%, while the percentage 
+ 
+ 
+Figure 3. The trend of temperature  during 5102-5122 under representative concentration pathways 
+RCP4.5 (A) and RCP8.5 (B) 
+ 
+Figure 3. The trend of  temperature during 2015-2055 under representative concentration pathways 
+RCP4.5 (A) and RCP8.5 (B).
+===== PAGE 7 =====
+Chiang Mai J. Sci. 2023; 50(4) 
+7
+error from GFDL, MIROC5 and NorESM models 
+had 2.32%, 2.31%, and 2.98%, respectively. Ubon 
+Ratchathani province was the lowest percentage 
+error from CanESM model of  1.92% %, while 
+the percentage error from GFDL, MIROC5, 
+while NorESM models had 2.26%, 2.40%, and 
+3.59%, respectively (Table 1).
+Under RCP8.5, Sri Sa Ket province was the 
+lowest percentage error from CanESM model of  
+1.32%, while the percentage error from GFDL, 
+MIROC5 and NorESM models had 1.70%, 3.23%, 
+and 4.47%, respectively. Surin province was the 
+lowest percentage error from CanESM model of  
+1.72%, while the percentage error from GFDL, 
+MIROC5 and NorESM models had 2.45%, 3.67%, 
+and 3.67%, respectively. Ubon Ratchathani province 
+was the lowest percentage error from CanESM 
+model of  1.35%, while the percentage error from 
+GFDL, MIROC5 and NorESM models had 1.82%, 
+3.31%, and 3.84, respectively (Table 2). Moreover, 
+the percentage error of  average temperature from 
+the four models under RCP4.5 and RCP8.5 in Sri 
+Sa Ket, Surin and Ubon Ratchathani were 1.83, 
+1.76, 1.03 % and 1.77, 1.92, 1.52%, respectively 
+(Table1-2). These clearly indicated that the average 
+annual temperature from the four models were 
+agreement with the field observations.
+The results were consistent with the studied 
+of  Lee and Wang [18] and Flato, Marotzke [19], 
+they recommend CanESM and MIROC5 best 
+models for climate projection in global monsoon. 
+The estimates of  climate agree with each other 
+to within 5% for CanESM and MIROC5 models. 
+Previous studied of  Prasanna [20] found the best 
+models for precipitation and temperature projection 
+were CanESM, GFDL, MIROC5, and NorESM.
+3.3 Spatial Distribution of  Climate
+Annual precipitation projection near to future 
+during 2030 to 2035 under RCP4.5 found that the 
+annual average (minimum-maximum) of  precipitation 
+from CanESM, GFDL, MIROC5, NorESM, and 
+average from four models were 1,288.76(761.80 
+to 2,482.97), 1,256.98(645.73 to 2,271.80), 
+1,339.88(925.38 to 2,446.87), 1,386.64(845.85 to 
+2,487.12), and 1,318.06(794.69 to 2,422.19) mm, 
+respectively. The annual precipitation during 2030 
+to 2035 under RCP4.5 increased from the past 
+(2015-2020) approximately 53.08 mm. The three 
+provinces with the highest annual precipitation 
+were Bueng Kan (1,693.50 mm), Nakhon Phanom 
+(1,685.45 mm) and Sakon Nakhon (1,541.30 mm). 
+In contrast, the three provinces with the lowest 
+annual precipitation were Nakhon Ratchasima 
+(1,192.25 mm), Chaiyaphum (1,192.28 mm) and 
+Khon Kaen (1,229.73 mm) (Figure 4A).
+While, under RCP8.5 found that the annual 
+average (minimum-maximum) of  precipitation 
+from CanESM, GFDL, MIROC5, NorESM, and 
+average from four models were 1,304.80(767.18 
+to 2,693.72), 1,197.75(765.34 to 2,222.36), 
+1,314.63(935.57 to 2,482.18), 1,283.36(782.79 to 
+2,453.20), and 1,275.14(812.72 to 2,462.86) mm, 
+respectively. The annual precipitation during 2030 
+to 2035 under RCP8.5 increased from the past 
+(2015-2020) approximately 48.19 mm. The three 
+provinces with the highest annual precipitation 
+were Nakhon Phanom (1,678.98 mm), Bueng Kan 
+(1,675.45 mm), and Sakon Nakhon (1,533.11 mm), 
+and the three provinces with the lowest annual 
+precipitation were Chaiyaphum (1,150.67 mm), 
+Nakhon Ratchasima (1,167.40 mm), and Khon 
+Kaen (1,187.93 mm) (Figure 4B).
+The result according to Roopkaew, Thongkam 
+[21] found that the climate projection in Thailand will 
+been a long rainy season as before, but the annual 
+precipitation will be increased. The precipitation 
+in the future will be higher and heavier than in 
+the past. Moreover, the spatial and distribution 
+of  precipitation in Thailand were simulated using 
+weather research and forecasting regional climate 
+model. Chotamonsak, Salath Jr. [5]. They found 
+that heavy precipitation was mainly along coastal 
+areas, particularly the west coast, northeast of  
+Thailand and Myanmar, while the with relatively 
+drier conditions over the lowlands of  the interior 
+of  Thailand. Over the next 30 years, the annual 
+precipitation will be increased almost all regions 
+===== PAGE 8 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+8Table 1. The percentage errors data under RCP 4.5.
+Year
+Sisaket Surin Ubon Ratchathani
+CanESM GFDL MIROC5 NorESM Average CanESM GFDL MIROC5 NorESM Average CanESM GFDL MIROC5 NorESM AVG
+2015 0.03 0.14 3.84 4.91 0.31 0.34 0.45 3.57 4.63 0.48 0.63 0.21 4.67 4.70 0.21
+2016 0.95 3.98 0.95 8.58 3.61 0.31 3.45 0.41 7.88 3.00 0.51 3.73 0.21 8.60 3.25
+2017 1.30 1.44 1.93 3.41 1.37 3.69 0.75 0.11 0.79 0.93 2.79 0.07 0.11 2.36 0.07
+2018 0.39 2.12 1.81 2.48 0.64 1.04 3.72 0.39 0.54 0.97 0.57 2.97 1.04 1.68 0.25
+2019 0.49 1.39 1.05 3.38 0.87 0.42 1.46 0.69 2.88 0.63 0.56 2.47 0.49 2.58 0.00
+2020 6.23 3.93 8.11 1.51 4.18 6.47 4.10 8.67 1.15 4.53 6.47 4.09 7.88 1.63 2.39
+AVG 1.57 2.17 2.95 4.04 1.83 2.04 2.32 2.31 2.98 1.76 1.92 2.26 2.40 3.59 1.03
+Table 2. The percentage errors data under RCP 8.5.
+Year
+Sisaket Surin Ubon Ratchathani
+CanESM GFDL MIROC5 NorESM Average CanESM GFDL MIROC5 NorESM Average CanESM GFDL MIROC5 NorESM AVG
+2015 0.66 1.75 1.99 5.81 2.55 1.01 2.08 2.45 2.45 2.87 0.09 1.39 1.13 5.31 1.98
+2016 0.92 0.31 6.57 6.70 3.16 1.62 0.39 6.27 6.27 2.46 1.33 0.01 5.83 6.56 2.76
+2017 1.23 1.91 0.91 5.22 1.36 1.02 4.31 1.48 1.48 1.01 0.18 3.46 0.25 4.11 0.06
+2018 2.10 1.27 3.07 3.50 0.73 3.62 2.74 4.62 4.62 2.32 3.16 2.38 4.27 2.77 1.76
+2019 0.48 1.49 3.66 4.69 0.75 0.37 1.44 3.93 3.93 0.53 0.58 0.49 4.69 3.63 0.29
+2020 2.55 3.47 3.19 0.92 2.07 2.70 3.76 3.27 3.27 2.32 2.75 3.22 3.71 0.67 2.25
+AVG 1.32 1.70 3.23 4.47 1.77 1.72 2.45 3.67 3.67 1.92 1.35 1.82 3.31 3.84 1.52
+===== PAGE 9 =====
+Chiang Mai J. Sci. 2023; 50(4) 
+9
+in Thailand, especially in the Northeast at the end 
+of  the century. These results indicated the impacts 
+of  the precipitation were increased volume but 
+lower scattered and fewer rainy days in the past.
+Annual temperature projection near to future 
+during 2030 to 2035 under RCP4.5 found that 
+the annual average (minimum-maximum ) of 
+temperature from CanESM, GFDL, MIROC5, 
+NorESM, and average from four models were 
+28.91(27.28 to 30.53), 29.18(27.70 to 30.26), 
+29.00(27.48 to 30.21), 27.66(26.57 to 28.86), 
+and 28.69(27.30 to 29.89)˚C, respectively. The 
+annual temperature during 2030 to 2035 under 
+RCP4.5 increased from the past (2015-2020) 
+approximately 0.27˚C. The three provinces with the 
+highest average annual temperature was Nakhon 
+Ratchasima (28.89˚C), Burirum (28.88˚C), and 
+Surin (28.87˚C). In contrast, the three provinces 
+with the lowest annual temperature were Nakhon 
+Phanom (28.08˚C), Loei (28.12˚C), and Sakon 
+Nakhon (28.15˚C) (Figure 5A).
+Under RCP8.5 found that the annual 
+average (minimum-maximum) of  temperature 
+from CanESM, GFDL, MIROC5, NorESM, 
+and average from four models were 29.46(27.78 
+to 30.94), 29.55(27.86 to 30.83), 29.04(27.39 to 
+30.09), 27.76(26.68 to 28.83), and 28.95(27.48 to 
+30)˚C, respectively. The annual temperature during 
+2030 to 2035 under RCP8.5 increased from the 
+past (2015-2020) approximately 0.63˚C. The three 
+provinces with the highest annual temperature 
+were Surin (29.21˚C), Burirum (29.20˚C), and 
+Nakhon Ratchasima (29.17˚C), and the three 
+provinces with the lowest annual temperature 
+were Nakhon Phanom (28.35˚C), Sakon Nakhon 
+(28.39˚C), and Loei (28.46˚C) (Figure 5B). 
+According to the temperature trend of  Thailand 
+in the past 54 years (1955-2009), the maximum 
+temperature, average temperature, and minimum 
+temperature in Thailand have increased by 0.57, 
+0.81, and 0.89˚C. The rate at which Thailand’s 
+average temperature rose per decade (0.174˚C 
+per decade) was also higher than the global rate 
+(0.126˚C per decade) [2].
+Previous study of  Chinwanno [22]  found 
+that the beginning of  the century to the end of  
+2030, the average temperature slightly increases 
+from the end of  the last century (1960-1989), 
+but the area with the highest temperature during 
+this period will be expanded to cover many areas 
+and the daytime of  high-temperature increases, 
+especially in Northeast, Thailand. The annual 
+ 
+Figure 4. Annual precipitation near to future during 2030 to 2035 under representative concentration 
+pathways RCP4.5 (A) and RCP8.5 (B) 
+CanESM 
+ GFDL 
+ MIROC5 
+ NorESM 
+ Average 
+(A) 
+CanESM 
+ GFDL 
+ MIROC5 
+ NorESM 
+ Average 
+(B) 
+Figure 4. Annual precipitation near to future during 2030 to 2035 under representative concentration 
+pathways RCP4.5 (A) and RCP8.5 (B).
+===== PAGE 10 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+10
+precipitation and temperature projection that 
+increased affect living organisms and the climate 
+dramatically such as drought, the biodiversity 
+of  living organisms has declined, affects human 
+livelihoods in conditions of  food shortage due 
+to decreased productivity and food diversity, and 
+increasing disease from climate change. However, 
+the increase in precipitation and temperature 
+depends on GHG emission scale of  RCP with 
+different levels of  carbon dioxide and radiation. 
+Thus, the cause of  global warming and climate 
+change is the emission of  GHG. Between 1970-
+2004, GHG emissions caused by human activity 
+increased by 70%, from 28.7 gigatons of  CO 2 
+equivalents per year in 1970, to 49 gigatons in 2004, 
+with CO2 having the highest rate of  increase from 
+the baseline year at 80%, as well as contributing 
+to 77% of  total emission in 2004 [23]. Hence, the 
+GHG mitigation is the best practice for control 
+and reduce the global temperature and climate 
+change problems in the future.
+4. CONCLUSIONS
+Climate projection from the models under 
+RCP4.5 and RCP8.5 in Northeast, Thailand. The 
+annual precipitation and temperature increased 
+trend from the past (2015-2020) to the future 
+(2030-2035), and was higher under RCP4.5 than 
+RCP8.5. The precipitations and temperatures 
+under both RCP were no significant different. The 
+annual precipitation during 2030 to 2035 under 
+RCP4.5 and RCP8.5 increased trend from the 
+past approximately 53.08 and 48.19 mm/decade, 
+and annual temperature increased trend from 
+the past approximately 0.27 and 0.63˚C/decade, 
+respectively. Thus, the highest and lowest annual 
+precipitation provinces under both RCP4.5 and 
+RCP8.5 were Bueng Kan with Nakhon Phanom, 
+and Nakhon Ratchasima with Chaiyaphum, 
+respectively. While, the highest and lowest annual 
+temperature provinces under both RCP4.5 and 
+RCP8.5 were Nakhon Ratchasima, Surin and 
+Nakhon Phanom, respectively.
+The precipitation and temperature projection 
+data from the models were accurate, agree with 
+the field observations data, and were effective 
+in future climate projections in this area. The 
+percentage errors from the four models were lower 
+than 5%. In addition, each model has advantages 
+and disadvantages for climate projection in the 
+country. For this research study temperature and 
+precipitation by the average of  CanESM, GFDL, 
+ 
+Figure 5. Annual temperature near to future during 2030 to 2035 under representative concentration 
+pathways RCP4.5 (A) and RCP8.5 (B) 
+CanESM 
+ GFDL 
+ MIROC5 
+ NorESM 
+ Average 
+(B) 
+CanESM 
+ GFDL 
+ MIROC5 
+ NorESM 
+ Average 
+(A) 
+Figure 5. Annual temperature near to future during 2030 to 2035 under representative concentration 
+pathways RCP4.5 (A) and RCP8.5 (B).
+===== PAGE 11 =====
+Chiang Mai J. Sci. 2023; 50(4) 
+11
+MIROC5, and NorESM. These can increase the 
+accuracy and reduced the climate prediction error 
+compare with individual model (less than 2%).
+ACKNOWLEDGEMENTS
+The authors would like to thank Hydro-
+Informatics Institute (Public Organization) for 
+supporting precipitation and temperature data 
+in Northeast, Thailand. Environmental Research 
+and Training Center, Technopolis campus transfer 
+knowledge as climate model prediction. In addition, 
+this research was successful with support funding 
+from National Research Council of  Thailand 
+(NRCT) / 261-2564.
+REFERENCES
+[1] Lueangarphapong P ., Global Warming! Who 
+Said?, 1
+st
+ Edn., Energy Policy and Planning 
+Office (EPPO), Ministry of  Energy, Bangkok, 
+2010.
+[2] Limsakul A. and Limjirakan S., Observations 
+of  Surface and Atmospheric Climate Change 
+in Thailand (in Thai); in Boonpragob K., 
+Limsakul A., Wattayakorn G., Santisirisom-
+boon J., Kreasuwan J., Sukawat D., et al., 
+eds., Thailand Assessment Report on Climate 
+Change–Synthesis Knowledge on Scientific Basis , 
+Bangkok, 2011: 39-62.
+[3] Bindoff  N.L., Willebrand J., Artale V ., Ca-
+zenave A., Gregory J.M., Gulev S., et al., 
+Observations: Oceanic Climate Change and Sea 
+Level, Climate Change 2007: The Physical Science 
+Basis. Contribution of  Working Group I to the 
+Fourth Assessment Report of  the Intergovernmental 
+Panel on Climate Change, Cambridge University 
+Press, Cambridge, United Kingdom and New 
+York, NY , USA., 2007.
+[4] Singhrak P . and Pattarasathapornkul T., 
+Measurement Data in Seas and Oceans. In: Thai-
+land’s First Assessment Report on Climate Change 
+2011, Working group 1: Scientific Basis of  Climate 
+Change, 1
+st
+ Edn., Bangkok: The Thailand 
+Research Fund, 2011.
+[5] Chotamonsak C., Salath Jr. E.P ., Kreasuwan 
+J. and Chantara S., Chiang Mai J. Sci. , 2012; 
+39(4): 623-638.
+[6] Limsakul A., Limjirakan S. and Suthamanuswong 
+B., J. Environ. Res., 2007; 29: 1-21.
+[7] IPCC, Climate Change 2014: Synthesis Report. , 
+Contribution of  Working Groups I, II, and III to 
+the Fifth Assessment Report of  the Intergovernmental 
+Panel on Climate Change, Geneva, Switzerland, 
+2014. Available at: https://www.ipcc.ch/
+report/ar5/syr/
+[8] Ma W ., Zeng W ., Zhou M., Wang L., Ruther-
+ford S., Lin H., et al., Environ. Int., 2015; 75: 
+103-109. DOI 10.1016/j.envint.2014.11.004.
+[9] Gasparrini A., Guo Y ., Hashizume M., Lavigne 
+E., Zanobetti A., Schwartz J., et al., Lancet, 
+2015; 386: 369-375.
+[10] Huanga C., Cheng J., Phung D., Tawatsupa 
+B., Hu W . and Xu Z., Environ. Int., 2018; 121: 
+41-50. DOI 10.1016/j.envint.2018.08.058.
+[11] Office of  Environmental Policy and Planning, 
+Thailand’s Initial National Communication under the 
+United Nations Framework .Convention on Climate 
+Change, Minisry of  Science. Technology and 
+Environment, Bangkok, Thailand, 2000.
+[12] Bureau of  Water Management and 
+Hydrology, Water Allocation Plan and 
+Planting of  Rainy Season Crops in 
+Irrigation Areas; Available at: http://water. 
+rid.go.th/hwm/wmoc/planing/wet/man -
+agement2558.pdf.
+[13] Climate Center, Climate statistics for the period 
+of  30 years 1981-2010 rainfall of  the Northeast-
+ern region; Available at: http://climate.tmd.go. 
+th/statistic/stat30y.
+[14] IPCC, Climate Change 2014: Mitigation of  Climate 
+Change. Contribution of  Working Group III to the 
+Fifth Assessment Report of  the Intergovernmental 
+Panel on Climate Change, Cambridge University 
+Press, Cambridge, United Kingdom and New 
+York, NY , USA, 2014.
+===== PAGE 12 =====
+ Chiang Mai J. Sci. 2023; 50(4)
+12
+[15] Bjørnæs C., A Guide to Representative Concen-
+tration Pathways, 2015; Available at: https://
+mpimet.mpg.de/fileadmin/communication/
+Im_Fokus/2013/IPCC_2013/uk_ipcc_A_
+guide_to_RCPs.pdf.
+[16] Chaowiwat W ., Sarinnapakorn K. and 
+Boonya-aroonnet S., Naresuan Univ. Eng. J., 
+2016; 11: 7-13. DOI 10.14456/nuej.2016.2.
+[17] Chaowiwat W ., Sarinnapakorn K. and Wee-
+sakul S., J. Clim. Change Sci., 2019; 9: 30-53.
+[18] Lee J.-Y . and Wang B., Clim. Dyn., 2014; 42(1-2): 
+101-119. DOI 10.1007/s00382-012-1564-0.
+[19] Flato G., Marotzke J., Abiodun B., Braconnot 
+P ., Chou S.C., Collins W ., et al., Evaluation of  
+Climate Models. In: Climate Change 2013: The 
+Physical Science Basis. Contribution of  Working 
+Group I to the Fifth Assessment Report of  the 
+Intergovernmental Panel on Climate Change, 
+Cambridge University Press, Cambridge, 
+United Kingdom and New York, NY , USA, 
+2013.
+[20] Prasanna V ., Meteorol. Atmos. Phys., 2015; 127: 
+561-578. DOI 10.1007/s00703-015-0379-z.
+[21] Aoopkaew A., Thongkam A., Laopaiboon 
+S., Ruthrasothorn P ., Soonthonsiriphong 
+N. and Sornthip W ., Santapol College Acad. J., 
+2017; 3(1): 139-149.
+[22] Chinwanno S., Proceedings of  the The 4
+th
+ National 
+Agricultural System Conference; Agriculture for the 
+Community and Environment Ready for Global 
+Warming, The Empress Chiang Mai Hotel, 
+Chiang Mai, Thailand, 27-28 May 2008; 1-16.
+[23] IPCC, Climate Change 2007: The Physical Science 
+Basis, Contribution of  Working Group I to the 
+Fourth Assessment Report of  the Intergovernmental 
+Panel on Climate Change, Cambridge, United 
+Kingdom and New York, NY , USA, 2007: 
+996.

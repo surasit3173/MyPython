@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "20260909T013329Z",
+  "project": "CMIP6PrachuapKhiriKhan",
+  "workspace": "C:\\MyPython\\CMIP6PrachuapKhiriKhan",
+  "target": "Q2",
+  "mode": "FULL",
+  "agy": "C:\\Users\\PC\\AppData\\Local\\agy\\bin\\agy.exe",
+  "autonomous": false,
+  "command": [
+    "C:\\Users\\PC\\AppData\\Local\\agy\\bin\\agy.exe",
+    "-p",
+    "You are the Antigravity execution engine for a research-quality audit.\n\nPROJECT: CMIP6PrachuapKhiriKhan\nTARGET: Q2\nMODE: FULL\n\nAUTHORITATIVE EXECUTION RULES\n1. Work only inside the specified project workspace and its declared inputs.\n2. Treat frozen evidence and authoritative outputs as immutable unless the task explicitly\n   requests a correction.\n3. Never fabricate data, references, statistics, figures, provenance, or missing outputs.\n4. Do not silently convert UNKNOWN/HYPOTHESIS/INFERRED into FACT.\n5. Run tests and validation before declaring PASS.\n6. If an unresolved scientific contradiction or missing authoritative input is found,\n   stop that branch and report HOLD rather than inventing a solution.\n7. Do not submit, publish, upload, or contact an external service.\n8. Do not delete original datasets or frozen evidence.\n9. Produce machine-readable evidence.json and human-readable audit_report.md.\n10. Return a concise execution summary plus exact artifact paths.\n\nTASK SPECIFICATION\n{\n  \"purpose\": \"Publication-readiness audit without changing frozen scientific conclusions.\",\n  \"allowed_actions\": [\n    \"read project files\",\n    \"run Python and tests\",\n    \"validate numerical consistency\",\n    \"inspect figures and manuscript\",\n    \"generate audit artifacts\",\n    \"regenerate derived outputs when explicitly required\",\n    \"create local ZIP packages\"\n  ],\n  \"forbidden_actions\": [\n    \"fabricate missing results\",\n    \"invent references or provenance\",\n    \"overwrite frozen raw data\",\n    \"delete original datasets\",\n    \"publish or submit externally\",\n    \"claim universal scientific validation from fixture tests\"\n  ],\n  \"stop_conditions\": [\n    \"authoritative data missing\",\n    \"evidence conflict\",\n    \"non-positive statistical variance without a validated remedy\",\n    \"unsupported manuscript claim\",\n    \"untraceable numerical result\"\n  ],\n  \"required_outputs\": [\n    \"evidence.json\",\n    \"audit_report.md\",\n    \"execution log\",\n    \"list of changed files\",\n    \"validation/test results\"\n  ]\n}",
+    "<PROMPT>",
+    "stream-json"
+  ]
+}

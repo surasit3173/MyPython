@@ -1,0 +1,23 @@
+{
+  "run_id": "CMIP6PrachuapKhiriKhan_20260909T021507Z",
+  "timestamp_utc": "20260909T021507Z",
+  "project": "CMIP6PrachuapKhiriKhan",
+  "workspace": "C:\\MyPython\\CMIP6PrachuapKhiriKhan",
+  "target": "Q2",
+  "mode": "FULL",
+  "spec_file": "C:\\MyPython\\research_controller\\specs\\project_audit.json",
+  "agy": "C:\\Users\\PC\\AppData\\Local\\agy\\bin\\agy.exe",
+  "autonomous": false,
+  "output_format": "json",
+  "command": [
+    "C:\\Users\\PC\\AppData\\Local\\agy\\bin\\agy.exe",
+    "-p",
+    "<PROMPT>",
+    "--add-dir",
+    "C:\\MyPython\\CMIP6PrachuapKhiriKhan",
+    "--output-format",
+    "json"
+  ],
+  "exit_status": 0,
+  "timestamp": "20260909T021507Z"
+}

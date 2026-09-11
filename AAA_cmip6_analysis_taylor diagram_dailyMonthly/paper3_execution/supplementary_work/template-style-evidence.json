@@ -1,0 +1,170 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\paper3_execution\\manuscript\\Paper3_CMJS_manuscript.docx",
+  "fonts_by_char_count": {
+    "Calibri": 27079
+  },
+  "direct_run_formatting_runs": 372,
+  "direct_paragraph_formatting_paragraphs": 228,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 103,
+      "text": "Season",
+      "style": "Normal"
+    },
+    {
+      "para_index": 104,
+      "text": "Complete seasons",
+      "style": "Normal"
+    },
+    {
+      "para_index": 105,
+      "text": "Observed El Ni\u00f1o",
+      "style": "Normal"
+    },
+    {
+      "para_index": 106,
+      "text": "Model range",
+      "style": "Normal"
+    },
+    {
+      "para_index": 107,
+      "text": "Observed Neutral",
+      "style": "Normal"
+    },
+    {
+      "para_index": 108,
+      "text": "Model range",
+      "style": "Normal"
+    },
+    {
+      "para_index": 109,
+      "text": "Observed La Ni\u00f1a",
+      "style": "Normal"
+    },
+    {
+      "para_index": 110,
+      "text": "Model range",
+      "style": "Normal"
+    },
+    {
+      "para_index": 111,
+      "text": "Transition/unclassified",
+      "style": "Normal"
+    },
+    {
+      "para_index": 130,
+      "text": "Season",
+      "style": "Normal"
+    },
+    {
+      "para_index": 131,
+      "text": "Metric",
+      "style": "Normal"
+    },
+    {
+      "para_index": 132,
+      "text": "Phase",
+      "style": "Normal"
+    },
+    {
+      "para_index": 133,
+      "text": "Observed response [95% CI]",
+      "style": "Normal"
+    },
+    {
+      "para_index": 134,
+      "text": "BH q",
+      "style": "Normal"
+    },
+    {
+      "para_index": 135,
+      "text": "Raw ensemble",
+      "style": "Normal"
+    },
+    {
+      "para_index": 136,
+      "text": "QDM ensemble",
+      "style": "Normal"
+    },
+    {
+      "para_index": 249,
+      "text": "Season",
+      "style": "Normal"
+    },
+    {
+      "para_index": 250,
+      "text": "Metric",
+      "style": "Normal"
+    },
+    {
+      "para_index": 251,
+      "text": "El Ni\u00f1o category (shift)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 252,
+      "text": "La Ni\u00f1a category (shift)",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "ENSO-Conditioned Seasonal Rainfall Extremes and Signal Preservation after Cross-Fitted Quantile Delta Mapping over Uttar",
+        "style": "Title"
+      },
+      {
+        "para_index": 2,
+        "text": "Surasit Punyawansiri1,*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "1Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "*Corresponding author: Surasit.ku@ku.th",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "text": "Keywords: bias adjustment; CMIP6; El Ni\u00f1o\u2013Southern Oscillation; rainfall extremes; quantile delta mapping; Thailand",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "ENSO-Conditioned Seasonal Rainfall Extremes and Signal Preservation after Cross-",
+        "style": "Title"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Surasit Punyawansiri",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "1,*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "1",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Ba",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "source": "D:\\วารสาร EnNRJ\\sent\\The results of an initial evaluation.docx",
+  "sha256": "2a09fa66307d463a726528fbaabaa62dafeb21762f7a6efccf8d97cf46e54015",
+  "paragraphs": [
+    {
+      "p": 0,
+      "text": "The results of an initial evaluation: Correction according to the Editorial board’s comment and re-submission are being requested as follows:",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"0C94A3D9\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>The results of an initial evaluation:</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t> Correction according to the Editorial board’s comment and re-submission are being requested</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> as follows:</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "The results of an initial evaluation:",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " Correction according to the Editorial board’s comment and re-submission are being requested",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " as follows:",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 1,
+      "text": "Initial decision from Editorial board:",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"3D5E6245\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n      <w:u w:val=\"single\"/>\n    </w:rPr>\n    <w:t>Initial decision from Editorial board:</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Initial decision from Editorial board:",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "text": "The manuscript entitled “Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand” has been evaluated. The study addresses a relevant topic in hydrology and climate change adaptation. However, the manuscript requires major revision before it can proceed to external peer review. The following essential revisions must be addressed:",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"68ECD1DF\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>The manuscript entitled </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:i/>\n      <w:iCs/>\n    </w:rPr>\n    <w:t>“Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand”</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> has been evaluated. The study addresses a relevant topic in hydrology and climate change adaptation. However, the manuscript requires major revision before it can proceed to external peer review. The following essential revisions must be addressed:</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "The manuscript entitled ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "“Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand”",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": true,
+          "highlight": "None"
+        },
+        {
+          "text": " has been evaluated. The study addresses a relevant topic in hydrology and climate change adaptation. However, the manuscript requires major revision before it can proceed to external peer review. The following essential revisions must be addressed:",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "text": "Please revise the manuscript to fully comply with the journal guidelines, including the reference style, author information, units, figures, and map presentation.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"603C4BED\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"1\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>Please revise the manuscript to fully comply with the journal guidelines, including the reference style, author information, units, figures, and map presentation.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Please revise the manuscript to fully comply with the journal guidelines, including the reference style, author information, units, figures, and map presentation.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 4,
+      "text": "Please improve the quality and readability of Figures 2–5 to meet the journal's publication standards.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"04399CDE\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"1\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>Please improve the quality and readability of Figures 2–5 to meet the journal's publication standards.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Please improve the quality and readability of Figures 2–5 to meet the journal's publication standards.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "text": "Please add the Highlights section in accordance with the journal requirements.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"314394FD\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"1\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>Please add the Highlights section in accordance with the journal requirements.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Please add the Highlights section in accordance with the journal requirements.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 6,
+      "text": "The manuscript should be carefully proofread to ensure consistency and accuracy throughout.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"08B78B6D\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"1\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>The manuscript should be carefully proofread to ensure consistency and accuracy throughout.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "The manuscript should be carefully proofread to ensure consistency and accuracy throughout.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 7,
+      "text": "Editorial comment",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"046C7C17\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:u w:val=\"single\"/>\n    </w:rPr>\n    <w:t>Editorial comment</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Editorial comment",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 8,
+      "text": "Please carefully read the “Instruction for authors” of this journal, especially the section on references and headings in the Methodology section and Results and Discussion section, before resubmitting. This will help you avoid any further delays or rejections without a review, for your benefit. The “Instruction for authors” is available at our Journal Website: https://ph02.tci-thaijo.org/index.php/ennrj/author.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"50E12744\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"2\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>Please carefully read the </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>“Instruction for authors”</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> of this journal, </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>especially the section on references and headings in the Methodology section and Results and Discussion section</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>, before resubmitting. This will help you avoid any further delays or rejections without a review, for your benefit. The </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>“Instruction for authors”</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> is available at our Journal Website: </w:t>\n  </w:r>\n  <w:hyperlink r:id=\"rId5\" w:history=\"1\">\n    <w:r w:rsidRPr=\"00523C50\">\n      <w:rPr>\n        <w:rStyle w:val=\"ae\"/>\n        <w:b/>\n        <w:bCs/>\n      </w:rPr>\n      <w:t>https://ph02.tci-thaijo.org/index.php/ennrj/author</w:t>\n    </w:r>\n  </w:hyperlink>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Please carefully read the ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "“Instruction for authors”",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " of this journal, ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "especially the section on references and headings in the Methodology section and Results and Discussion section",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ", before resubmitting. This will help you avoid any further delays or rejections without a review, for your benefit. The ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "“Instruction for authors”",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " is available at our Journal Website: ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ".",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 9,
+      "text": "Please provide 3 potential reviewers including their affiliation and institutional email address. The suggested reviewers should not share a conflict of interest with the authors. They must not be close collaborators of the author(s), not be located the same institution as the author(s), and are not from the same country of the author(s). Please note that the editorial board retains the sole right to decide whether or not the suggested potential reviewers will be selected.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"68AC3C49\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"2\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>Please provide 3 potential reviewers including their affiliation and institutional email address. The suggested reviewers should not share a conflict of interest with the authors. They must not be close collaborators of the author(s), not be located the same institution as the author(s), and are </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>not from the same country of the author(s).</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> Please note that the editorial board retains the sole right to decide whether or not the suggested potential reviewers will be selected.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Please provide 3 potential reviewers including their affiliation and institutional email address. The suggested reviewers should not share a conflict of interest with the authors. They must not be close collaborators of the author(s), not be located the same institution as the author(s), and are ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "not from the same country of the author(s).",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " Please note that the editorial board retains the sole right to decide whether or not the suggested potential reviewers will be selected.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 10,
+      "text": "IMPORTANT information for resubmission of the first revised MS: After your correction following Editorial board’ comments, Please attached file of \"Responses to Editorial board\" (mandatory) that carefully addresses the issues raised in the comments point-by-point. All changes in the manuscript should be highlighted in yellow.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"32919B88\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"2\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n      <w:u w:val=\"single\"/>\n    </w:rPr>\n    <w:t>IMPORTANT information for resubmission of the first revised MS</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>:</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> After your correction following Editorial board’ comments, </w:t>\n  </w:r>\n  <w:proofErr w:type=\"gramStart\"/>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>Please</w:t>\n  </w:r>\n  <w:proofErr w:type=\"gramEnd\"/>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> attached file of \"Responses to Editorial board\" (mandatory)</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t> that carefully addresses the issues raised in the comments point-by-point. All changes in the manuscript should be highlighted in yellow.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "IMPORTANT information for resubmission of the first revised MS",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ":",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " After your correction following Editorial board’ comments, ",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "Please",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " attached file of \"Responses to Editorial board\" (mandatory)",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " that carefully addresses the issues raised in the comments point-by-point. All changes in the manuscript should be highlighted in yellow.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 11,
+      "text": "After revising the manuscript, please resubmit the MS in this message, DO NOT submit it as a new manuscript.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"1708702C\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:pPr>\n    <w:numPr>\n      <w:ilvl w:val=\"0\"/>\n      <w:numId w:val=\"2\"/>\n    </w:numPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t>After revising the manuscript, please resubmit the MS in this message, </w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n      <w:u w:val=\"single\"/>\n    </w:rPr>\n    <w:t>DO NOT</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:rPr>\n      <w:b/>\n      <w:bCs/>\n    </w:rPr>\n    <w:t> submit it as a new manuscript.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "After revising the manuscript, please resubmit the MS in this message, ",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "DO NOT",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " submit it as a new manuscript.",
+          "font": null,
+          "size": null,
+          "bold": true,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 12,
+      "text": "We encourage the authors to carefully address the comments above before the manuscript proceeds to external peer review.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"39C41191\" w14:textId=\"77777777\" w:rsidR=\"00523C50\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00523C50\" w:rsidP=\"00523C50\">\n  <w:r w:rsidRPr=\"00523C50\">\n    <w:t>We encourage the authors to carefully address the comments above before the manuscript proceeds to external peer review.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "We encourage the authors to carefully address the comments above before the manuscript proceeds to external peer review.",
+          "font": null,
+          "size": null,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 13,
+      "text": "",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"31E2A964\" w14:textId=\"77777777\" w:rsidR=\"00BB1DC2\" w:rsidRPr=\"00523C50\" w:rsidRDefault=\"00BB1DC2\"/>\n",
+      "runs": []
+    }
+  ],
+  "tables": [],
+  "sections": [
+    {
+      "page_width": 8.5,
+      "page_height": 11.0,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0,
+      "bottom": 1.0,
+      "xml": "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00BB1DC2\" w:rsidRPr=\"00523C50\" w:rsidSect=\"00444491\">\n  <w:pgSz w:w=\"12240\" w:h=\"15840\"/>\n  <w:pgMar w:top=\"1440\" w:right=\"1440\" w:bottom=\"1440\" w:left=\"1440\" w:header=\"720\" w:footer=\"720\" w:gutter=\"0\"/>\n  <w:cols w:space=\"720\"/>\n  <w:docGrid w:linePitch=\"360\"/>\n</w:sectPr>\n"
+    }
+  ],
+  "parts": [
+    {
+      "path": "[Content_Types].xml",
+      "bytes": 1445,
+      "sha256": "72e1a7e789e238175e21a964870a263fd2426d6877bd868693e211a4eb23e587"
+    },
+    {
+      "path": "_rels/.rels",
+      "bytes": 590,
+      "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+    },
+    {
+      "path": "word/document.xml",
+      "bytes": 10193,
+      "sha256": "c8406bca3769da399839d7992193971e43da429d18ab824f3c1fe10dd88ca5b2"
+    },
+    {
+      "path": "word/_rels/document.xml.rels",
+      "bytes": 1142,
+      "sha256": "afeb84c19eff7f818e3a2db7c68c9f2f297bea0ebcddff03756eed4094dac73d"
+    },
+    {
+      "path": "word/theme/theme1.xml",
+      "bytes": 8391,
+      "sha256": "528355fa158defe686071a1587973c41cdba3057256df13b2f270f0d8f1896fc"
+    },
+    {
+      "path": "word/settings.xml",
+      "bytes": 3342,
+      "sha256": "4a542e15c032116cc7d0a9883fced7ec2d5c3d97c4cfe99616cd5df638b89b1b"
+    },
+    {
+      "path": "word/numbering.xml",
+      "bytes": 8319,
+      "sha256": "db884beb899d30364cba56a05e457865c20242edef4c1c4b96fc87fda58616e6"
+    },
+    {
+      "path": "word/styles.xml",
+      "bytes": 42883,
+      "sha256": "827f26cc30cec2a93c12467ee806d70ab04ee964dbfa7fdc69f9f29ace738130"
+    },
+    {
+      "path": "word/webSettings.xml",
+      "bytes": 1069,
+      "sha256": "f2f6fe7679634963bf49bae65f941f41934de42ceeb3a806afac4bab92274853"
+    },
+    {
+      "path": "word/fontTable.xml",
+      "bytes": 3088,
+      "sha256": "d72e13a5eb02678f89bf7d1669bcee06f65adf8657750cee150a899527694e46"
+    },
+    {
+      "path": "docProps/core.xml",
+      "bytes": 773,
+      "sha256": "5035e1f031887b6dc9799c7d248eaef5dc1f8fe71d8caae9b858cedb0b8b3855"
+    },
+    {
+      "path": "docProps/app.xml",
+      "bytes": 713,
+      "sha256": "b2e514aa1850f2f05366a083933e277a13148039cd19f51e5fe6b16620825c9b"
+    }
+  ],
+  "all_text": {
+    "word/document.xml": [
+      "The results of an initial evaluation:",
+      " Correction according to the Editorial board’s comment and re-submission are being requested",
+      " as follows:",
+      "Initial decision from Editorial board:",
+      "The manuscript entitled ",
+      "“Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand”",
+      " has been evaluated. The study addresses a relevant topic in hydrology and climate change adaptation. However, the manuscript requires major revision before it can proceed to external peer review. The following essential revisions must be addressed:",
+      "Please revise the manuscript to fully comply with the journal guidelines, including the reference style, author information, units, figures, and map presentation.",
+      "Please improve the quality and readability of Figures 2–5 to meet the journal's publication standards.",
+      "Please add the Highlights section in accordance with the journal requirements.",
+      "The manuscript should be carefully proofread to ensure consistency and accuracy throughout.",
+      "Editorial comment",
+      "Please carefully read the ",
+      "“Instruction for authors”",
+      " of this journal, ",
+      "especially the section on references and headings in the Methodology section and Results and Discussion section",
+      ", before resubmitting. This will help you avoid any further delays or rejections without a review, for your benefit. The ",
+      "“Instruction for authors”",
+      " is available at our Journal Website: ",
+      "https://ph02.tci-thaijo.org/index.php/ennrj/author",
+      ".",
+      "Please provide 3 potential reviewers including their affiliation and institutional email address. The suggested reviewers should not share a conflict of interest with the authors. They must not be close collaborators of the author(s), not be located the same institution as the author(s), and are ",
+      "not from the same country of the author(s).",
+      " Please note that the editorial board retains the sole right to decide whether or not the suggested potential reviewers will be selected.",
+      "IMPORTANT information for resubmission of the first revised MS",
+      ":",
+      " After your correction following Editorial board’ comments, ",
+      "Please",
+      " attached file of \"Responses to Editorial board\" (mandatory)",
+      " that carefully addresses the issues raised in the comments point-by-point. All changes in the manuscript should be highlighted in yellow.",
+      "After revising the manuscript, please resubmit the MS in this message, ",
+      "DO NOT",
+      " submit it as a new manuscript.",
+      "We encourage the authors to carefully address the comments above before the manuscript proceeds to external peer review."
+    ],
+    "word/theme/theme1.xml": [],
+    "word/settings.xml": [],
+    "word/numbering.xml": [],
+    "word/styles.xml": [],
+    "word/webSettings.xml": [],
+    "word/fontTable.xml": []
+  },
+  "images": []
+}

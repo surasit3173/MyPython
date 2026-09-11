@@ -1,0 +1,9 @@
+gate,description,pass,status
+P3-A,Observed and model ENSO sources are frozen and traceable,True,PASS
+P3-B,Only complete common-365 station-seasons enter metrics,True,PASS
+P3-C,All season ENSO labels use the frozen allowed vocabulary,True,PASS
+P3-D,Common period contains 13 gauges and seven models,True,PASS
+P3-E,Blocked cross-fitted QDM used no target observations,True,PASS
+P3-F,Both phase-vs-neutral primary responses exist,True,PASS
+P3-G,Phase contrast and true neutral-centred asymmetry are separated,True,PASS
+P3-H,Pre-specified event-level bootstrap and permutation inference completed,True,PASS

@@ -1,0 +1,24 @@
+{
+  "method": "climatological_annual_cycle",
+  "smoothing_window_days": 30,
+  "threshold_mm_day": 3.0926,
+  "wet_start_doy": 114,
+  "wet_end_doy": 316,
+  "wet_length_days": 203,
+  "wet_months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "dry_months": [
+    1,
+    2,
+    3,
+    12
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\journal_template_work\\AJSTR_CMIP6_QDM_ready_for_submission_final.docx",
+  "fonts_by_char_count": {
+    "Angsana New": 19197,
+    "Palatino Linotype": 164
+  },
+  "direct_run_formatting_runs": 337,
+  "direct_paragraph_formatting_paragraphs": 310,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 3,
+      "text": "Surasit Punyawansiri1*",
+      "style": "Normal"
+    },
+    {
+      "para_index": 8,
+      "text": "1. Introduction",
+      "style": "Normal"
+    },
+    {
+      "para_index": 13,
+      "text": "2. Materials and Methods",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "2.1 Study area and data",
+      "style": "Normal"
+    },
+    {
+      "para_index": 21,
+      "text": "2.2 Split-sample QDM design",
+      "style": "Normal"
+    },
+    {
+      "para_index": 25,
+      "text": "2.3 Parametric and non-parametric variants",
+      "style": "Normal"
+    },
+    {
+      "para_index": 28,
+      "text": "2.4 Evaluation metrics",
+      "style": "Normal"
+    },
+    {
+      "para_index": 32,
+      "text": "3. Results and Discussion",
+      "style": "Normal"
+    },
+    {
+      "para_index": 33,
+      "text": "3.1 Observed rainfall and model context",
+      "style": "Normal"
+    },
+    {
+      "para_index": 37,
+      "text": "3.2 Independent validation of QDM variants",
+      "style": "Normal"
+    },
+    {
+      "para_index": 46,
+      "text": "3.3 Parametric distribution selection and tail diagnostics",
+      "style": "Normal"
+    },
+    {
+      "para_index": 50,
+      "text": "3.4 Implications for climate-data preparation",
+      "style": "Normal"
+    },
+    {
+      "para_index": 53,
+      "text": "4. Conclusions",
+      "style": "Normal"
+    },
+    {
+      "para_index": 56,
+      "text": "5. Acknowledgements",
+      "style": "Normal"
+    },
+    {
+      "para_index": 62,
+      "text": "References",
+      "style": "Normal"
+    },
+    {
+      "para_index": 80,
+      "text": "Reviewers suggestion",
+      "style": "Normal"
+    },
+    {
+      "para_index": 82,
+      "text": "Station",
+      "style": "Normal"
+    },
+    {
+      "para_index": 83,
+      "text": "Lat. (\u00b0N)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 84,
+      "text": "Long. (\u00b0E)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 85,
+      "text": "Elev. (m)",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Article",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "Parametric and Non-Parametric Quantile Delta Mapping for CMIP6 Daily Rainfall Bias Correction under Independent Temporal",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "Surasit Punyawansiri1*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "* Correspondence: Surasit.irri@gmail.com",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Article",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Parametric and Non-Parametric Quantile Delta Mapping for CMIP6 Daily Rainfall Bi",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "Surasit Punyawansiri1*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "* Correspondence: Surasit.irri@gmail.com",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

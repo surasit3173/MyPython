@@ -1,0 +1,12 @@
+index,unit,definition
+PRCPTOT,mm yr-1,Annual wet-day precipitation total (daily precipitation >= 1 mm)
+SDII,mm wet-day-1,Mean precipitation on wet days
+Rx1day,mm,Annual maximum 1-day precipitation
+Rx5day,mm,Annual maximum consecutive 5-day precipitation
+CDD,days,Annual maximum consecutive days with precipitation < 1 mm
+CWD,days,Annual maximum consecutive days with precipitation >= 1 mm
+R10mm,days yr-1,Annual count of days with precipitation >= 10 mm
+R20mm,days yr-1,Annual count of days with precipitation >= 20 mm
+R50mm,days yr-1,Annual count of days with precipitation >= 50 mm
+R95p,mm yr-1,Annual precipitation above the observed wet-day 95th percentile
+R99p,mm yr-1,Annual precipitation above the observed wet-day 99th percentile

@@ -1,0 +1,40 @@
+{
+  "province_name": "REPLACE_WITH_PROVINCE_NAME",
+  "input": {
+    "observed_file": "observed_daily.csv",
+    "coordinates_file": "station_coordinates.xlsx",
+    "boundary_file": null,
+    "boundary_filter": null
+  },
+  "cmip6": {
+    "directory": "cmip6"
+  },
+  "models": [
+    "ModelA",
+    "ModelB"
+  ],
+  "scenarios": {
+    "ssp245": "SSP2-4.5",
+    "ssp585": "SSP5-8.5"
+  },
+  "periods": {
+    "observed_start": 1981,
+    "observed_end": 2014,
+    "baseline_start": 1995,
+    "baseline_end": 2014,
+    "future_start": 2021,
+    "future_end": 2050
+  },
+  "settings": {
+    "alpha": 0.05,
+    "min_trend_n": 10,
+    "annual_completeness": 0.9,
+    "wet_day_threshold_mm": 1.0,
+    "r10_threshold_mm": 10.0,
+    "r20_threshold_mm": 20.0,
+    "r50_threshold_mm": 50.0,
+    "p95": 95.0,
+    "p99": 99.0,
+    "idw_power": 2.0
+  }
+}

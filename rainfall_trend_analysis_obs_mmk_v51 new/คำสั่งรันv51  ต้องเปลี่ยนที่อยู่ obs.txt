@@ -1,0 +1,3 @@
+cd /d "C:\MyPython\QDM 12sta"
+
+python rainfall_trend_analysis_obs_mmk_v51.py "Observed_Rain_daily_198101_201412_Prachuap Khiri Khan.csv"

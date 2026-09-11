@@ -1,0 +1,11 @@
+model,period,start,end,days,feb29_days,duplicates,monotonic
+ACCESS-ESM1-5,calibration,1981-01-01,2000-12-31,7305,5,0,True
+ACCESS-ESM1-5,validation,2001-01-01,2014-12-31,5113,3,0,True
+CanESM5,calibration,1981-01-01,2000-12-31,7300,0,0,True
+CanESM5,validation,2001-01-01,2014-12-31,5110,0,0,True
+CESM2,calibration,1981-01-01,2000-12-31,7300,0,0,True
+CESM2,validation,2001-01-01,2014-12-31,5110,0,0,True
+EC-Earth3,calibration,1981-01-01,2000-12-31,7305,5,0,True
+EC-Earth3,validation,2001-01-01,2014-12-31,5113,3,0,True
+MIROC6,calibration,1981-01-01,2000-12-31,7305,5,0,True
+MIROC6,validation,2001-01-01,2014-12-31,5113,3,0,True

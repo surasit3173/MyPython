@@ -1,0 +1,13 @@
+{
+  "paper": "paper2",
+  "area": "Uttaradit",
+  "generated_utc": "2026-09-01T20:20:30+00:00",
+  "figures": 6,
+  "tables": 3,
+  "raster_dpi": 1200,
+  "target_figure_width_mm": 190,
+  "numbering_source": "manuscript/Paper2_APST_manuscript.md",
+  "supplementary_figures": {
+    "S1": "Paper2_Figure_02_calibration_methods.png"
+  }
+}

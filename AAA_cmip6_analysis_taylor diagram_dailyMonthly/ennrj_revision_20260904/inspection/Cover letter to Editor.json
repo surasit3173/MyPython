@@ -1,0 +1,452 @@
+{
+  "source": "D:\\วารสาร EnNRJ\\sent\\Cover letter to Editor.docx",
+  "sha256": "b9eff136808ac080dae8105e2e1f0f7aad9241a8cc07cf410f458ce429689b36",
+  "paragraphs": [
+    {
+      "p": 0,
+      "text": "Editor-in-Chief\nEnvironment and Natural Resources Journal (EnNRJ)\nFaculty of Environment and Resource Studies, Mahidol University",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"2A8E0A92\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Editor-in-Chief</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:br/>\n    <w:t>Environment and Natural Resources Journal (</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>EnNRJ</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>)</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:br/>\n    <w:t>Faculty of Environment and Resource Studies, Mahidol University</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Editor-in-Chief",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "\nEnvironment and Natural Resources Journal (",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "EnNRJ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ")",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "\nFaculty of Environment and Resource Studies, Mahidol University",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 1,
+      "text": "Subject: Submission of Manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\"",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"26385982\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:jc w:val=\"thaiDistribute\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Subject: Submission of Manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\"</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Subject: Submission of Manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\"",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "text": "Dear Editor,",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"5ACE9B3A\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Dear Editor,</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Dear Editor,",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "text": "I am pleased to submit my manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\" for consideration as an Original Research Article in the Environment and Natural Resources Journal (EnNRJ).",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"4325F974\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:jc w:val=\"thaiDistribute\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>I am pleased to submit my manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\" for consideration as an Original Research Article in the Environment and Natural Resources Journal (</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>EnNRJ</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>).</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "I am pleased to submit my manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\" for consideration as an Original Research Article in the Environment and Natural Resources Journal (",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "EnNRJ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ").",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 4,
+      "text": "This study examined annual, wet-season, and dry-season rainfall trends at 12 rain-gauge stations in Prachuap Khiri Khan Province, coastal western Thailand, using daily rainfall records from 1981–2014 and a conditional Trend-Free Pre-Whitening Mann–Kendall (TFPW-MK) framework. The results show that while annual rainfall remained largely stable across the province, significant and opposing wet-season and dry-season trends emerged at several stations — most notably at station 500006, where significant wet-season drying coexisted with significant dry-season wetting despite no detectable annual trend. These findings are significant because they demonstrate that annual rainfall totals alone can conceal hydroclimatically important seasonal redistribution, a finding directly relevant to water-resource management, irrigation planning, and climate adaptation in monsoon-influenced coastal regions of Southeast Asia — a core concern of EnNRJ's scope. We believe this work will be of strong interest to the journal's readers.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"22DFBADF\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:jc w:val=\"thaiDistribute\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\">This study examined annual, wet-season, and dry-season rainfall trends at 12 rain-gauge stations in Prachuap Khiri Khan Province, coastal western Thailand, using daily rainfall records from 1981–2014 and a conditional Trend-Free Pre-Whitening Mann–Kendall (TFPW-MK) framework. The results show that while annual rainfall remained largely stable across the province, significant and opposing wet-season and dry-season trends emerged at several stations — most notably at station 500006, where significant wet-season drying coexisted with significant dry-season wetting despite no detectable annual trend. These findings are significant because they demonstrate that annual rainfall totals alone can conceal </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>hydroclimatically</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> important seasonal redistribution, a finding directly relevant to water-resource management, irrigation planning, and climate adaptation in monsoon-influenced coastal regions of Southeast Asia — a core concern of </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>EnNRJ's</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> scope. We believe this work will be of strong interest to the journal's readers.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "This study examined annual, wet-season, and dry-season rainfall trends at 12 rain-gauge stations in Prachuap Khiri Khan Province, coastal western Thailand, using daily rainfall records from 1981–2014 and a conditional Trend-Free Pre-Whitening Mann–Kendall (TFPW-MK) framework. The results show that while annual rainfall remained largely stable across the province, significant and opposing wet-season and dry-season trends emerged at several stations — most notably at station 500006, where significant wet-season drying coexisted with significant dry-season wetting despite no detectable annual trend. These findings are significant because they demonstrate that annual rainfall totals alone can conceal ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "hydroclimatically",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " important seasonal redistribution, a finding directly relevant to water-resource management, irrigation planning, and climate adaptation in monsoon-influenced coastal regions of Southeast Asia — a core concern of ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "EnNRJ's",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " scope. We believe this work will be of strong interest to the journal's readers.",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 5,
+      "text": "The manuscript has not been previously published and is not under consideration for publication elsewhere. As the sole author, I have approved the manuscript and agree with its submission to EnNRJ. I declare no competing interests.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"7C10CDC8\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:jc w:val=\"thaiDistribute\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\">The manuscript has not been previously published and is not under consideration for publication elsewhere. As the sole author, I have approved the manuscript and agree with its submission to </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>EnNRJ</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>. I declare no competing interests.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "The manuscript has not been previously published and is not under consideration for publication elsewhere. As the sole author, I have approved the manuscript and agree with its submission to ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "EnNRJ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ". I declare no competing interests.",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 6,
+      "text": "Corresponding author: Surasit Punyawansiri (Email: Surasit.pun@thaimooc.ac.th)",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"2BB36A84\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\">Corresponding author: </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Surasit</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Punyawansiri</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> (Email: </w:t>\n  </w:r>\n  <w:hyperlink r:id=\"rId4\" w:history=\"1\">\n    <w:r w:rsidRPr=\"001E196B\">\n      <w:rPr>\n        <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n        <w:kern w:val=\"0\"/>\n        <w:sz w:val=\"24\"/>\n        <w:szCs w:val=\"24\"/>\n        <w:lang w:val=\"en\"/>\n        <w14:ligatures w14:val=\"none\"/>\n      </w:rPr>\n      <w:t>Surasit.pun@thaimooc.ac.th</w:t>\n    </w:r>\n  </w:hyperlink>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>)</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Corresponding author: ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "Surasit",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "Punyawansiri",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " (Email: ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": ")",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 7,
+      "text": "Thank you for considering my manuscript. I look forward to your feedback.",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"1D0A2358\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Thank you for considering my manuscript. I look forward to your feedback.</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Thank you for considering my manuscript. I look forward to your feedback.",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 8,
+      "text": "Sincerely,",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"28FAB532\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Sincerely,</w:t>\n  </w:r>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Sincerely,",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 9,
+      "text": "Surasit Punyawansiri\nOffice of Water Management and Hydrology, Royal Irrigation Department\nSurasit.pun@thaimooc.ac.th",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"35060AEB\" w14:textId=\"77777777\" w:rsidR=\"001E196B\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"001E196B\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"240\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Surasit</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t xml:space=\"preserve\"> </w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellStart\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:t>Punyawansiri</w:t>\n  </w:r>\n  <w:proofErr w:type=\"spellEnd\"/>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:br/>\n    <w:t>Office of Water Management and Hydrology, Royal Irrigation Department</w:t>\n  </w:r>\n  <w:r w:rsidRPr=\"001E196B\">\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n    <w:br/>\n  </w:r>\n  <w:hyperlink r:id=\"rId5\" w:history=\"1\">\n    <w:r w:rsidRPr=\"001E196B\">\n      <w:rPr>\n        <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n        <w:kern w:val=\"0\"/>\n        <w:sz w:val=\"24\"/>\n        <w:szCs w:val=\"24\"/>\n        <w:lang w:val=\"en\"/>\n        <w14:ligatures w14:val=\"none\"/>\n      </w:rPr>\n      <w:t>Surasit.pun@thaimooc.ac.th</w:t>\n    </w:r>\n  </w:hyperlink>\n</w:p>\n",
+      "runs": [
+        {
+          "text": "Surasit",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "Punyawansiri",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "\nOffice of Water Management and Hydrology, Royal Irrigation Department",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        },
+        {
+          "text": "\n",
+          "font": "Times New Roman",
+          "size": 12.0,
+          "bold": null,
+          "italic": null,
+          "highlight": "None"
+        }
+      ]
+    },
+    {
+      "p": 10,
+      "text": "",
+      "style": "Normal",
+      "xml": "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w14:paraId=\"75CF025C\" w14:textId=\"77777777\" w:rsidR=\"00615330\" w:rsidRPr=\"001E196B\" w:rsidRDefault=\"00615330\" w:rsidP=\"001E196B\">\n  <w:pPr>\n    <w:spacing w:before=\"240\" w:after=\"240\" w:line=\"360\" w:lineRule=\"auto\"/>\n    <w:rPr>\n      <w:rFonts w:ascii=\"Times New Roman\" w:eastAsia=\"Times New Roman\" w:hAnsi=\"Times New Roman\" w:cs=\"Times New Roman\"/>\n      <w:kern w:val=\"0\"/>\n      <w:sz w:val=\"24\"/>\n      <w:szCs w:val=\"24\"/>\n      <w:lang w:val=\"en\"/>\n      <w14:ligatures w14:val=\"none\"/>\n    </w:rPr>\n  </w:pPr>\n</w:p>\n",
+      "runs": []
+    }
+  ],
+  "tables": [],
+  "sections": [
+    {
+      "page_width": 8.268055555555556,
+      "page_height": 11.693055555555556,
+      "left": 1.0,
+      "right": 1.0,
+      "top": 1.0,
+      "bottom": 1.0,
+      "xml": "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00615330\" w:rsidRPr=\"001E196B\">\n  <w:pgSz w:w=\"11906\" w:h=\"16838\"/>\n  <w:pgMar w:top=\"1440\" w:right=\"1440\" w:bottom=\"1440\" w:left=\"1440\" w:header=\"708\" w:footer=\"708\" w:gutter=\"0\"/>\n  <w:cols w:space=\"708\"/>\n  <w:docGrid w:linePitch=\"360\"/>\n</w:sectPr>\n"
+    }
+  ],
+  "parts": [
+    {
+      "path": "[Content_Types].xml",
+      "bytes": 1312,
+      "sha256": "dfa90f373b8fd8147ee3e4bfe1ee059e536cc1b068f7ec140c3fc0e6554f331a"
+    },
+    {
+      "path": "_rels/.rels",
+      "bytes": 590,
+      "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+    },
+    {
+      "path": "word/document.xml",
+      "bytes": 20489,
+      "sha256": "0511cf997f13db58ee09722ab946e246b8fcec8223feedc48611607daadd6d10"
+    },
+    {
+      "path": "word/_rels/document.xml.rels",
+      "bytes": 1167,
+      "sha256": "4f9ab1b623e0185177f3eab584a44f2e5da0dff14711e7df5bb970a485cfa6eb"
+    },
+    {
+      "path": "word/theme/theme1.xml",
+      "bytes": 8397,
+      "sha256": "2760e6e84d4bf365af6570192dbe9cb57bb32653388d0ea041d116b25b1ca0a2"
+    },
+    {
+      "path": "word/settings.xml",
+      "bytes": 3342,
+      "sha256": "d9f52ef04413e46e6704852e85439568d0a7a8a5958b67a746d1d7eca6b140cd"
+    },
+    {
+      "path": "word/styles.xml",
+      "bytes": 43354,
+      "sha256": "cea935f57029a8ed4930e8e0d1e8d26ce4550906460fd8b8b719aeb38ec314f7"
+    },
+    {
+      "path": "word/webSettings.xml",
+      "bytes": 1069,
+      "sha256": "f2f6fe7679634963bf49bae65f941f41934de42ceeb3a806afac4bab92274853"
+    },
+    {
+      "path": "word/fontTable.xml",
+      "bytes": 2288,
+      "sha256": "32aaedd28d1cbdad4e259fbe7fddad15744255b8ce39296d267072479babbe63"
+    },
+    {
+      "path": "docProps/core.xml",
+      "bytes": 743,
+      "sha256": "6f761a38a89b3832b45a9263c0de646ab09fc80a848a93ec8b5761e1aeb15ffc"
+    },
+    {
+      "path": "docProps/app.xml",
+      "bytes": 713,
+      "sha256": "609cdd923d4f855ed9f205381735afe8431238f7259897ac113293589cbda522"
+    }
+  ],
+  "all_text": {
+    "word/document.xml": [
+      "Editor-in-Chief",
+      "Environment and Natural Resources Journal (",
+      "EnNRJ",
+      ")",
+      "Faculty of Environment and Resource Studies, Mahidol University",
+      "Subject: Submission of Manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\"",
+      "Dear Editor,",
+      "I am pleased to submit my manuscript entitled \"Contrasting Seasonal Rainfall Trends under Predominantly Stable Annual Conditions: Evidence from Trend-Free Pre-Whitening Analysis in Prachuap Khiri Khan Province, Thailand\" for consideration as an Original Research Article in the Environment and Natural Resources Journal (",
+      "EnNRJ",
+      ").",
+      "This study examined annual, wet-season, and dry-season rainfall trends at 12 rain-gauge stations in Prachuap Khiri Khan Province, coastal western Thailand, using daily rainfall records from 1981–2014 and a conditional Trend-Free Pre-Whitening Mann–Kendall (TFPW-MK) framework. The results show that while annual rainfall remained largely stable across the province, significant and opposing wet-season and dry-season trends emerged at several stations — most notably at station 500006, where significant wet-season drying coexisted with significant dry-season wetting despite no detectable annual trend. These findings are significant because they demonstrate that annual rainfall totals alone can conceal ",
+      "hydroclimatically",
+      " important seasonal redistribution, a finding directly relevant to water-resource management, irrigation planning, and climate adaptation in monsoon-influenced coastal regions of Southeast Asia — a core concern of ",
+      "EnNRJ's",
+      " scope. We believe this work will be of strong interest to the journal's readers.",
+      "The manuscript has not been previously published and is not under consideration for publication elsewhere. As the sole author, I have approved the manuscript and agree with its submission to ",
+      "EnNRJ",
+      ". I declare no competing interests.",
+      "Corresponding author: ",
+      "Surasit",
+      " ",
+      "Punyawansiri",
+      " (Email: ",
+      "Surasit.pun@thaimooc.ac.th",
+      ")",
+      "Thank you for considering my manuscript. I look forward to your feedback.",
+      "Sincerely,",
+      "Surasit",
+      " ",
+      "Punyawansiri",
+      "Office of Water Management and Hydrology, Royal Irrigation Department",
+      "Surasit.pun@thaimooc.ac.th"
+    ],
+    "word/theme/theme1.xml": [],
+    "word/settings.xml": [],
+    "word/styles.xml": [],
+    "word/webSettings.xml": [],
+    "word/fontTable.xml": []
+  },
+  "images": []
+}

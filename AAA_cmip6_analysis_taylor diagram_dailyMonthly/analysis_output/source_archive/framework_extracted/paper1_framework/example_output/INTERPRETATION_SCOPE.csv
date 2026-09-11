@@ -1,0 +1,16 @@
+category,item,detail
+VERIFIED,Uttaradit ADM1 boundary,"Natural Earth 10m ADM1, TH-53, 7,610.7 km2, 378 vertices, valid geometry, EPSG:4326, all 13 gauges contained; source URL, access date and SHA-256 recorded"
+VERIFIED,historical -> scenario concatenation,"all 7 GCMs: 0 overlapping days, 0 gap days, last historical 2014, first scenario 2015, compatible calendars"
+DERIVED,"bias-corrected datasets (QM, DetQM, QDM)","fitted on 1981-2002 only, parameters frozen, applied to 2003-2014 and to the future windows; observations of the target period never used"
+DERIVED,future change,BC_future / BC_historical of the same GCM and method; baseline 1995-2014
+DIAGNOSTIC,"temporal dependence (CDD, CWD, Rx5day, ACF, spells)","measured and reported; quantile mapping does not reorder days, so these are NOT corrected quantities"
+DIAGNOSTIC,raw-source trace,5 of 6 checks ESTABLISHED from the delivered CSVs; NetCDF metadata NOT ESTABLISHED
+LIMITATION,boundary lineage,"one verified source only. Every other reachable dataset returned an identical geometry (IoU = 1.000), so cross-source confirmation is NOT independent. Natural Earth is a generalised cartographic dataset; its area is 2.9% below the commonly cited provincial figure"
+LIMITATION,station homogeneity,"4 of 13 gauges (351003, 351005, 351006, 351007) change wet-day frequency by more than a third between calibration and validation; station metadata not yet verified"
+LIMITATION,out-of-sample residual,"network-mean |bias| 26.4%; 13.4% excluding the non-homogeneous gauges. Better than raw, not reliable for all extremes"
+LIMITATION,grid resolution,63 station columns collapse to 3-15 distinct series per GCM (CanESM5: 3). Sub-provincial spatial detail in the raw model fields is not real
+QUARANTINED,SSP5-8.5 Late (2081-2100),"raw change -40%; the bias correction preserved it faithfully (PE +0.2%), and no extraction, unit, calendar or concatenation fault was found. Verified as a property of the raw source; causal or physical interpretation is not permitted without the source NetCDF"
+EXCLUDED FROM INTERPRETATION,Paper 1 primary quantitative conclusions,"excluded: SSP585/Late. usable for primary quantitative conclusions: SSP245/Late, SSP245/Mid, SSP245/Near, SSP585/Mid, SSP585/Near. Report the agreement fraction with every median."
+EXCLUDED FROM INTERPRETATION,corrected-extreme claims,"CDD, CWD and Rx5day must not be described as corrected"
+NOT ESTABLISHED,source NetCDF identity and metadata,"institution, units attribute, calendar attribute, native grid, time bounds, cell coordinates and fill value cannot be read because the files were never supplied"
+NOT ESTABLISHED,grid-to-station extraction algorithm,"nearest neighbour, bilinear or grid-box average cannot be distinguished without the extraction code"

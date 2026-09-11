@@ -1,0 +1,1784 @@
+
+===== PAGE 1 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368                         
+      https://doi.org/10.1007/s11069-026-08119-4             
+       ORIGINAL PAPER                                        
+                                                             
+      Projecting precipitation extremes over Cyprus using CMIP6
+      climate scenarios                                      
+                                                             
+                                                             
+      N. P. Gödek Hayal1,2 · H. Zaifoglu3 · A. M. Yanmaz1    
+                                                             
+      Received: 30 November 2025 / Accepted: 30 March 2026 / Published online: 10 April 2026
+      © The Author(s) 2026                                   
+                                                             
+      Abstract                                               
+      Changing climatic conditions have significant consequences for precipitation extremes, es-
+      pecially in water-limited regions, such as Cyprus in the Eastern Mediterranean. This study
+      evaluates historical and future extreme precipitation using twenty-three models from the
+      Coupled Model Intercomparison Project Phase 6 (CMIP6). The simulations are validated
+      against the Climate Hazards Group InfraRed Precipitation with Stations dataset (CHIRPS)
+      and combined with bias-corrected projections produced through Quantile Delta Mapping
+      (QDM) under the SSP2-4.5 and SSP5-8.5 scenarios. According to performance evalua-
+      tions of models, MRI-ESM2-0 and EC-Earth3-Veg-LR stand out as the top-performing
+      models for capturing extreme precipitation behavior over the island. Furthermore, the re-
+      sults suggest a long-term decrease in total precipitation and in the number of moderate and
+      heavy precipitation days toward the end of the century under both scenarios. At the same
+      time, 1-day precipitation maximum generally intensify over most of the island under both
+      scenarios, whereas 5-day precipitation maximum increase under SSP2-4.5 but decline un-
+      der SSP5-8.5 toward the end of the century. High-percentile indices also strengthen, which
+      indicates a future climate where fewer but more powerful events make up a larger share
+      of annual precipitation. The duration-based indices also lead to an increase in consecu-
+      tive dry days and shorter wet periods toward the end of the century under high emission
+      scenario, which together signal a shift toward more prolonged dryness and more severe
+      drought events. These combined changes imply that Cyprus will face greater stress on its
+      water resources and experience greater flood risks associated with more intense events.
+      The results also highlight the importance of region-specific strategies that can improve the
+      resilience of water resources under changing climatic conditions.
+      Keywords Climate change · Extreme precipitation · Trends · CHIRPS · CMIP6 ·
+      Mediterranean · Cyprus                                 
+                                                             
+        H. Zaifoglu                                          
+        zhasan@metu.edu.tr                                   
+      1 Department of Civil Engineering, Middle East Technical University, Ankara, Turkey
+      2 Department of Civil Engineering, TED University, Ankara, Turkey
+      3 Civil Engineering Program, Middle East Technical University, Northern Cyprus Campus,
+        Guzelyurt Via Mersin 10, 99738 Kalkanli, Turkey      
+                                                             
+                                                 1 3         
+
+===== PAGE 2 =====
+                                                             
+                                                             
+                                                             
+      368 Page 2 of 33                   Natural Hazards (2026) 122:368
+      1 Introduction                                         
+                                                             
+      Global warming is altering the hydrological cycle in ways that are already evident worldwide.
+      As temperatures rise, the atmosphere holds more moisture and storm systems become less
+      stable, which creates conditions that favor heavier precipitation, more prolonged droughts,
+      and more frequent heat waves (Trenberth 2011; IPCC et al. 2021a). These extremes ulti-
+      mately affect water quality, water availability, ecosystems, and sustainable development
+      (Abbott et al. 2019; UN-Water 2020; Zhang et al. 2024a, b). The Intergovernmental Panel
+      on Climate Change (IPCC) Sixth Assessment Report reveals that human activities are alter-
+      ing climate extremes. Compared with earlier reports, the signals are significantly stronger.
+      Since around 1950, most land areas have experienced increases in both the intensity and
+      frequency of heavy precipitation events, and these trends continue to track the rise in global
+      temperatures (IPCC et al. 2021a).                      
+        Projections for the coming decades indicate that the changes in climate are estimated
+      to accelerate. Extreme daily precipitation is expected to intensify by about 7% for every
+      1 °C of global warming following the Clausius-Clapeyron equation, which governs the
+      water-holding capacity of the atmosphere (Trenberth 2011; IPCC et al. 2021a). Mean annual
+      precipitation over global land is also projected to increase by 1.5–8% and 1–13% by late
+      century under the intermediate and very high greenhouse gas (GHG) emission scenarios
+      (i.e., SSP2-4.5 and SSP5-8.5), respectively. If global warming exceeds the ranges assessed
+      in these scenarios, changes in climatic impact drivers and extremes are likely to go beyond
+      current expectations, which may result in a risk for humans and the ecology, especially
+      under SSP5-8.5 (IPCC et al. 2021a). These trends highlight the need for methodologically
+      robust approaches to define and examine climate extremes. In this context, climate extremes
+      can be characterized through either parametric or non-parametric approaches. The Expert
+      Team on Sector-Specific Climate Indices (ET-SCI) defines a wide set of climate indices
+      using non-parametric methods. Mainly, the parametric approaches rely on Extreme Value
+      Theory to examine the behavior of the most extreme events (Klein Tank et al. 2009; Zhang
+      et al. 2011; Kim et al. 2020; IPCC 2021b).             
+        The Coupled Model Intercomparison Project (CMIP) provides a coordinated multi-model
+      framework that helps researchers understand past and future climate behavior (Eyring et al.
+      2016). Its latest phase, CMIP6, introduces notable improvements compared with earlier
+      generations. The CMIP6 projections use the Scenario Matrix Architecture, which integrates
+      the Shared Socioeconomic Pathways (SSPs) that describe alternative socioeconomic devel-
+      opments with varying levels of radiative forcing. Two commonly considered pathways in
+      the literature are SSP2-4.5, which combines a moderate socioeconomic development with
+      a radiative forcing of 4.5 W/m² by 2100, and SSP5-8.5, which combines a fossil-fueled
+      development pathway with a radiative forcing of 8.5 W/m² by 2100 (Riahi et al. 2017).
+      Many studies show that CMIP6 global climate models represent historical climate features
+      more accurately, including Köppen-Geiger climate classes, temperature and precipitation
+      patterns, wind fields, and topography-driven precipitation processes. The uncertainties and
+      inter-model spread relative to CMIP5 are found to be relatively small (Bağçacı et al. 2021;
+      Hamed et al. 2021, 2022; Bayar et al. 2023). Despite these advances, the coarse spatial
+      resolution of global models limits their direct use for regional or local analyses. This makes
+      downscaling and bias-correction essential for translating large-scale model output to finer
+      spatial scales and adjusting systematic errors. Several methods have been used to correct
+      1 3                                                    
+
+===== PAGE 3 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368          Page 3 of 33 368
+                                                             
+      precipitation biases, including linear scaling, delta change, distribution mapping, power
+      transformation, local intensity scaling, and quantile-based techniques (Teutschbein and
+      Seibert 2012; Fang et al. 2015; Daniel 2023). Among these, quantile mapping (QM) and its
+      extensions, such as detrended quantile mapping (DQM) and quantile delta mapping (QDM),
+      are widely used for daily precipitation as they align the distribution of model outputs with
+      observations and preserve projected changes through distributional adjustments (Cannon et
+      al. 2015). Comparative studies suggest that QDM and DQM generally perform better than
+      traditional QM for reproducing precipitation extremes (Tegegne and Melesse 2020), while
+      other studies, such as Gumus et al. (2023), indicate a slight performance advantage of QDM
+      over DQM and QM.                                       
+        The Mediterranean is recognized as a climate change hotspot (Lionello and Scarascia
+      2018). The IPCC AR6 Report projects future decreases in average precipitation, increases in
+      heavy precipitation and flooding, and rising aridity and hydrological drought, with medium
+      to high confidence (IPCC et al. 2021a). Recent decades show a clear transition toward a
+      drier climate in the Eastern Mediterranean and the Middle East, where long-standing pre-
+      cipitation variability has begun shifting toward a steady decline. Projections suggest a
+      20–30% reduction in precipitation across the Eastern Mediterranean (Zittis et al. 2022). In
+      Mediterranean region of Türkiye, decreases of roughly 15% under SSP2-4.5 and 20% under
+      SSP5-8.5 are expected (Seker and Gumus 2022), with comparable reductions of up to 20%
+      also projected for the Mediterranean and Aegean regions (Gumus et al. 2023). At the same
+      time, very heavy precipitation events are projected to become more frequent, even though
+      the overall drying trend.                              
+        Despite extensive regional evidence of shifting precipitation regimes across the Mediter-
+      ranean, only a limited number of climate modeling studies have examined Cyprus in detail.
+      Recent analyses of EURO-CORDEX models revealed a consistent drying trend across the
+      region. Under the RCP8.5 pathway, Zittis et al. (2021) projected declines in annual pre-
+      cipitation and increases in intensity of extreme precipitation events. Lazoglou et al. (2024)
+      similarly reported annual precipitation decreases of roughly 20–30% under high emissions,
+      along with greater year-to-year variability. Although mean annual precipitation is projected
+      to decline, indicators of climate extremes point to increasing variability and intensifica-
+      tion of heavy precipitation events. Earlier regional assessments also support this pattern.
+      Giannakopoulos et al. (2010), using ENSEMBLES RCM outputs under the A1B scenario,
+      found decreasing total precipitation and longer dry spells, especially later in the century.
+      Hadjinicolaou et al. (2011) reported increasing consecutive dry days, declining precipita-
+      tion frequency in both coastal and inland areas, and a potential rise in precipitation over the
+      mountainous regions. Zittis et al. (2020), utilizing WRF simulations, projected declines in
+      most extreme precipitation indices and a marked increase in consecutive dry days toward
+      the end of the century under the business-as-usual pathway, which contrasts with studies
+      suggesting localized increases in extremes. More recent CMIP5-based projections under
+      RCP4.5 also suggested decreasing annual precipitation in northern part of island (Elkiran
+      et al. 2021). Most recently, Bağçaci et al. (2024), who conducted high-resolution convec-
+      tion-permitting WRF simulations using the pseudo-global-warming approach with CMIP6
+      GCMs under SSP5-8.5, also found a decrease in seasonal precipitation over Cyprus, with
+      the most significant reduction occurring in winter.    
+        Studies focused specifically on Cyprus are still limited, especially regarding future
+      changes in precipitation extremes. To the authors’ knowledge, no study has examined
+                                                 1 3         
+
+===== PAGE 4 =====
+                                                             
+                                                             
+                                                             
+      368 Page 4 of 33                   Natural Hazards (2026) 122:368
+                                                             
+      extreme precipitation on the island using CMIP6 global climate models, even though
+      CMIP6 provides clear improvements over earlier model generations. This gap is impor-
+      tant because Cyprus is highly sensitive to changes in climate, faces increasing pressure on
+      its water resources, and lies in a Mediterranean region, where precipitation extremes are
+      becoming more common. To address this gap, this study offers a detailed assessment of
+      both historical and future precipitation extremes in Cyprus. The main objectives are: (a) to
+      evaluate how well CMIP6 models simulate extreme precipitation indices over the island, (b)
+      to analyze the temporal and spatial patterns of the multi-model ensemble for the near-future
+      (2025–2049), mid-future (2050–2074), and far-future (2075–2099) under the SSP2-4.5 and
+      SSP5-8.5 scenarios, and (c) to identify regions of Cyprus that may be more vulnerable
+      to more extreme precipitation in the future. By using multiple models and emission sce-
+      narios, the study improves our understanding of how precipitation extremes may change on
+      a Mediterranean island and provides information that can support climate adaptation and
+      risk management at regional scale. While the results help identify broad spatial patterns and
+      potentially vulnerable regions across Cyprus, the coarse spatial resolution of GCMs lim-
+      its their direct applicability for local-scale planning. Therefore, higher-resolution regional
+      climate models or additional statistical or dynamical downscaling are required for detailed
+      impact assessments. The model performance evaluation presented in this study can also help
+      guide the selection of suitable driving GCMs for future downscaling studies over Cyprus.
+      2 Data and methods                                     
+                                                             
+      2.1 Description of study area                          
+                                                             
+      Cyprus is located in the Eastern Mediterranean between 32°24′43.59″ and 34°35′20.39″
+      longitude and 34°45′15″ and 35°41′49″ latitude, and it covers an area of about 9251 km².
+      The island has a typical Mediterranean climate, with hot and dry summers and mild winters
+      that receive most of the annual precipitation (Michaelides et al. 2009; Zaifoglu et al. 2019).
+      As shown in Fig. 1, Cyprus has a varied landscape that includes the Karpass Peninsula in
+      the northeast, the Kyrenia Mountains along the northern coast, the Troodos Mountains in the
+      south, and the wide Mesaoria Plain in the center. This diverse topography creates noticeable
+      differences in local climate conditions, especially in precipitation patterns across the island.
+      For instance, the mean annual precipitation is 500 mm, decreasing to around 300 mm in the
+      central areas, while reaching up to 1000 mm in the Troodos mountains. Precipitation occurs
+      predominantly between December and February within the wet period, spanning from Octo-
+      ber to March (Hadjinicolaou et al. 2011; Zaifoglu et al. 2017; Ghanem and Zaifoglu 2024).
+      2.2 Datasets                                           
+      2.2.1 CHIRPS                                           
+                                                             
+      The Climate Hazards Group Infrared Precipitation with Stations (CHIRPS) is a combined
+      gauge-satellite precipitation dataset with a high spatial resolution of 0.05° × 0.05° (approx-
+      imately 5 km) and various temporal resolutions, including daily, pentadal, and monthly,
+      from 1981 to the near-present, covering a quasi-global (50° S–50° N, 180° E–180° W)
+                                                             
+                                                             
+      1 3                                                    
+
+===== PAGE 5 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368          Page 5 of 33 368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 1 Digital elevation map                           
+                                                             
+      land region (Funk et al. 2014, 2015). The CHIRPS dataset is constructed utilizing a combi-
+      nation of input data sources, including Climate Hazards Group Precipitation Climatology
+      (CHPClim) based on global monthly precipitation climatology, quasi-global geostationary
+      thermal infrared satellite observations, the Tropical Rainfall Measuring Mission (TRMM)
+      3B42 product, atmospheric model precipitation fields from National Oceanic and Atmo-
+      spheric Administration (NOAA) Climate Forecast System Version 2 (CFSv2), and ground-
+      based precipitation observations collected from various national and local sources (Funk
+      et al. 2014). Since the CHIRPS dataset demonstrates strong agreement with ground-based
+      observed precipitation in Cyprus (Katsanos et al. 2016a, b) and offers high-resolution cov-
+      erage, this study utilizes the CHIRPS dataset as a historical reference on a daily scale from
+      1981 to 2010.                                          
+      2.2.2 CMIP6 global climate models                      
+                                                             
+      CMIP6 Global Climate Models are employed to analyze both historical and future climate
+      conditions. Daily precipitation outputs from 23 CMIP6 GCMs are used for the historical
+      period (1981–2010) and for three future time frames: near-term (2025–2049), mid-term
+      (2050–2074), and far-term (2075–2099), defined as hydrological years, under two Shared
+      Socioeconomic Pathways (SSP2-4.5 and SSP5-8.5). The historical reference period cov-
+      ers 30 years, consistent with the WMO standard for climatological normal (WMO 2017).
+      The 75-year projection (2025–2099) is divided into three equal 25-year periods to keep
+      consistent period lengths throughout the projection. SSP2-4.5 represents an intermediate,
+      middle-of-the-road emission trajectory, with radiative forcing reaching 4.5 W/m² by 2100.
+                                                             
+                                                 1 3         
+
+===== PAGE 6 =====
+                                                             
+                                                             
+                                                             
+      368 Page 6 of 33                   Natural Hazards (2026) 122:368
+                                                             
+      In addition, SSP5-8.5 corresponds to a high-emission, fossil-fueled development pathway,
+      where radiative forcing increases to 8.5 W/m² by 2100 (Riahi et al. 2017). The selected
+      GCMs in this study are listed in Table 1.              
+      2.3 Methodology                                        
+                                                             
+      The methodological framework first involves data gathering and pre-processing. Daily pre-
+      cipitation outputs from the CMIP6 GCMs are first regridded to the CHIRPS spatial domain
+      using nearest-neighbor method and then bias-corrected using the QDM approach. Extreme
+      precipitation indices are then calculated for both the raw and bias-corrected datasets, and
+      model performance is evaluated using the Kolmogorov–Smirnov (K–S) test with CHIRPS
+      as the reference. Based on the K–S rankings, model weights are derived for each index and
+      used to construct the multi-model ensemble. Ensembles are subsequently generated for the
+      historical and future periods. Finally, trends in the ensemble-based extreme precipitation
+      indices are assessed using the Modified Mann–Kendall test.
+      2.3.1 Regridding and bias correction                   
+                                                             
+      Nearest-neighbor regridding maps CMIP6 GCM outputs onto the observational reference
+      grid by identifying the center coordinates of each CHIRPS grid cell and extracting the pre-
+      cipitation value from the nearest CMIP6 GCM grid cell. This method is chosen to prevent
+      additional spatial smoothing of precipitation fields that often results from averaging-based
+      interpolation methods, such as bilinear and conservative remapping, particularly at high
+                                                             
+      Table 1 List of the CMIP6 No Model Name ripf Resolution (°)
+      GCMs used in the study                                 
+                       1    ACCESS-CM2  r1i1p1f1 1.88 × 1.25 
+                       2    CanESM5     r1i1p1f1 2.81 × 2.79 
+                       3    CMCC-CM2-SR5 r1i1p1f1 1.25 × 0.94
+                       4    CMCC-ESM2   r1i1p1f1 1.25 × 0.94 
+                       5    CNRM-CM6-1  r1i1p1f2 1.41 × 1.4  
+                       6    CNRM-ESM2-1 r1i1p1f2 1.41 × 1.4  
+                       7    EC-Earth3-CC r1i1p1f1 0.7 × 0.7  
+                       8    EC-Earth3-Veg-LR r1i1p1f1 1.12 × 1.12
+                       9    FGOALS-g3   r1i1p1f1 2.00 × 2.03 
+                       10   GFDL-ESM4   r1i1p1f1 1.25 × 1.00 
+                       11   HadGEM3-GC31-LL r1i1p1f3 1.88 × 1.25
+                       12   IITM-ESM    r1i1p1f1 1.88 × 1.90 
+                       13   INM-CM4-8   r1i1p1f1 2.00 × 1.50 
+                       14   INM-CM5-0   r1i1p1f1 2.00 × 1.50 
+                       15   IPSL-CM6A-LR r1i1p1f1 2.50 × 1.27
+                       16   KACE-1-0-G  r1i1p1f1 1.88 × 1.25 
+                       17   MIROC6      r1i1p1f1 1.41 × 1.40 
+                       18   MIROC-ES2L  r1i1p1f2 2.81 × 2.79 
+                       19   MPI-ESM1-2-LR r1i1p1f1 1.88 × 1.87
+                       20   MRI-ESM2-0  r1i1p1f1 1.12 × 1.12 
+                       21   NESM3       r1i1p1f1 1.88 × 1.87 
+                       22   Nor-ESM2-MM r1i1p1f1 1.25 × 0.94 
+                       23   UKESM1-0-LL r1i1p1f2 1.88 × 1.25 
+      1 3                                                    
+
+===== PAGE 7 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368          Page 7 of 33 368
+                                                             
+      quantiles (Rajulapati et al. 2021). The nearest-neighbor algorithm preserves the original
+      GCM values, assuring that empirical probabilities and rank structures remain the same after
+      regridding (Rajulapati and Papalexiou 2023). The extraction is performed using the terra
+      package in R (Hijmans 2020), by choosing CMIP6 GCM precipitation values at the centroid
+      coordinates of each CHIRPS grid cell.                  
+        For the bias correction, the QDM (Cannon et al. 2015) is one of the best-performing
+      bias correction algorithms for extremes (Tegegne and Melesse 2020; Gumus et al. 2023).
+      In this study, the QDM algorithm is applied for downscaling and bias correction of daily
+      precipitation data from CMIP6 GCMs by using CHIRPS data as a benchmark dataset with
+      the resolution of 0.05°x0.05°. Herein, the QDM algorithm aims to reduce systematic biases
+      in quantiles of model data relative to reference data by keeping model-projected relative
+      changes in quantiles constant. Initially, the data of projections are detrended and bias-cor-
+      rected with respect to the reference using quantile mapping. Then, relative changes in quan-
+      tiles are applied to these adjusted data through the following equations (Cannon et al. 2015):
+                     x m,p (t)=x o:m,h:p (t)∆ m (t)  (1)     
+                    x o:m(cid:31),h:p (t)=(cid:31)F o−,h 1 F m (t , ) p [x m,p (t)] (2)
+                                                             
+                              (cid:30) (cid:29)              
+                   F m ((cid:31)t , ) p− 1 F m (t , ) p[x m,p (t)] x (t)
+             ∆ m (t)= F m−, 1 h [ F m (t , ) p[x m,p (t)] ] = F m−, 1 h F m ( m t , ) , p p [x m,p (t)] (3)
+                      [        ]     [       ]               
+      where F o,h , F m,h , and F m,p refer to cumulative distribution functions of the reference
+      and model data for the historical period and those of model data for the projected period,
+      respectively. x m,p (t), x m,p (t), x o:m,h:p (t), and ∆ m (t) refer to model data, bias-cor-
+      rected projected, and historical period model data at time t and relative changes in quantiles,
+      respectively. (cid:31) (cid:31)                        
+        The CMIP6 GCMs utilize different calendar systems, including standard (i.e., Grego-
+      rian), 365-day (i.e., no-leap), and 360-day calendars. To ensure correct date assignment, the
+      calendar attribute of each NetCDF file is read, and dates are determined according to each
+      model’s native calendar using the CFtime package in R. During the bias correction step
+      through QDM, date matching is applied between the CHIRPS and model time series so that
+      the bias correction parameters are derived only from temporally overlapping days. Then, the
+      bias correction is applied to all model days using the MBC package in R (Cannon 2018).
+      Finally, the ET-SCI indices are computed using calendar-independent date parsing to ensure
+      compatibility with all calendar types.                 
+      2.3.2 Extreme precipitation indices                    
+                                                             
+      The ET-SCI, established by the World Meteorological Organization, defines a range of cli-
+      mate indices through a non-parametric approach. These climate indices reflect moderate
+      extremes that occur more frequently, in contrast to rarer extremes that have larger recur-
+      rence intervals. These indices are widely used in the literature on projecting climate to
+      examine the changing climatic conditions and its impact on extremes (Klein Tank et al.
+                                                             
+                                                             
+                                                 1 3         
+
+===== PAGE 8 =====
+                                                             
+                                                             
+                                                             
+      368 Page 8 of 33                   Natural Hazards (2026) 122:368
+                                                             
+      2009; Zhang et al. 2011, 2024a; Cannon et al. 2015; Kim et al. 2020; Tegegne and Melesse
+      2020; Zittis et al. 2020; Akinsanola et al. 2021; Gumus et al. 2023; Lazoglou et al. 2024).
+        The extreme precipitation indices used in this study are given in Table 2. The indices are
+      calculated by using raw daily precipitation data from CHIRPS and CMIP6 GCMs for the
+      historical period (1981–2010), for each grid. Due to the strong seasonality of precipitation
+      in Cyprus, a hydrological year is used to maintain the physical integrity of the precipita-
+      tion regime, as applied in recent CMIP6-based downscaling assessments (Jimenez et al.
+      2024). Without this adjustment, the wet season in Cyprus would be divided into two sepa-
+      rate annual cycles. After the QDM application, bias-corrected daily precipitation data from
+      CMIP6 GCMs are used to obtain the extreme indices for the historical (1981–2010) and
+      future (2025–2099) periods under SSP2-4.5 and SSP5-8.5 scenarios.
+      2.3.3 Kolmogorov–Smirnov (K–S) test                    
+      The K–S test is applied to evaluate the performance of GCMs. This test compares the
+      extreme indices obtained from raw daily precipitation data of GCMs with those included in
+      CHIRPS daily precipitation data, focusing on the distributional similarity and treating the
+      CHIRPS data as the reference at a significance level of 1%. The null hypothesis assumes
+      that both samples originate from an identical distribution. Rejection of the null hypothesis,
+      indicating failure of the diagnostic test at a grid, occurs when one or more quantiles of the
+      modeled distribution lie outside the 99% confidence interval of the reference quantiles. This
+                                                             
+      Table 2 Definitions of extreme precipitation indices   
+      Category Extreme Name      Description       Units     
+              indices                                        
+      Intensity Rx1day Maximum 1-day Annual maximum 1-day precipitation mm
+      indices        precipitation                           
+              Rx5day Maximum 5-day Annual maximum 5-day precipitation mm
+                     precipitation                           
+              SDII   Simple daily intensity Ratio of annual total precipita- mm
+                                 tion to the number of wet days
+                                 (Precipitation > 1 mm)      
+      Frequency R10mm Number of heavy precipi- Annual number of days with day
+      Indices        tation days precipitation ≥ 10 mm       
+              R20mm  Number of very heavy Annual number of days with day
+                     precipitation days precipitation ≥ 20 mm
+      Duration CDD   Consecutive dry days Annual maximum number of consec- day
+      indices                    utive days with < 1 mm precipitation
+              CWD    Consecutive wet days Annual maximum number of consec- day
+                                 utive days with ≥ 1 mm precipitation
+      Percentile/ R95p Total annual precipitation Annual total precipitation when daily mm
+      contribution   from heavy rain days precipitation > 95th percentile
+      indices R99p   Total annual precipitation Annual total precipitation when daily mm
+                     from very heavy rain days precipitation > 99th percentile
+              R95pTOT Contribution from very Percentage of R95p to PRCPTOT %
+                     wet days                                
+              R99pTOT Contribution from ex- Percentage of R99p to PRCPTOT %
+                     tremely wet days                        
+      Total   PRCPTOT Annual total wet-day Annual total precipitation when daily mm
+      precipitation  precipitation precipitation ≥ 1 mm      
+      1 3                                                    
+
+===== PAGE 9 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368          Page 9 of 33 368
+                                                             
+      indicates a significant difference between the distributions. If all modeled quantiles remain
+      within the confidence interval, the distributions are considered sufficiently similar (Bürger
+      et al. 2012; Cannon et al. 2015; Gumus et al. 2023).   
+      2.3.4 Formation of multi-model ensemble (MME)          
+                                                             
+      The rank-based weighting average by Chen et al. (2011) is used to create a MME in this
+      study. It incorporates variations in model skills to simulate reference data and is effectively
+      used in the projection of climate extremes (Song and Yan 2022; Tang et al. 2021). For each
+      extreme index, different model weights are established by taking into account the K–S test
+      ranks of all GCMs for that specific index during the reliability factor calculation. The MME
+      is then constructed using the derived weights. In this scheme, GCMs that demonstrate stron-
+      ger performance for a given index receive higher weights, which makes them more influen-
+      tial within the ensemble according to their performance ranking:
+                               N S                           
+                         R =   i=1 i                 (4)     
+                          i                                  
+                             ∑                               
+                              S                              
+                               i                             
+                              R                              
+                         W i = N i R                 (5)     
+                               i=1 i                         
+                             ∑                               
+      where S i , R i, and W i refer to the rank of models, reliability factor, and model weights,
+      respectively. The weights correspond to the normalized reliability factors.
+      2.3.5 Trend analysis                                   
+      The Modified Mann–Kendall test (MMK) (Yue and Wang 2004) is applied to identify sta-
+      tistically significant long-term trends in the extreme precipitation indices at the 5% signifi-
+      cance level. Trend magnitudes are estimated using Sen’s slope estimator (Sen 1968). The
+      classical Mann-Kendall test (Mann 1945; Kendall 1975) is a nonparametric method that
+      assumes serial independence in the data (Yue and Wang 2004), which makes the treatment
+      of autocorrelation essential prior to its application. In the MMK formulation, the influence
+      of serial correlation is addressed through a variance-correction factor, which yields more
+      reliable trend estimates (Tošić et al. 2025). The MMK test is widely adopted in hydrological
+      and climatic trend analyses (Mallick et al. 2020; Yao et al. 2023; Gomes et al. 2024; Tošić
+      et al. 2025; Ma et al. 2025).                          
+      3 Results and discussion                               
+      3.1 Performance evaluation of CMIP6 models             
+      The K–S test is applied to all extreme precipitation indices derived from the raw daily GCM
+      and CHIRPS data sets for 428 grids, with CHIRPS data serving as the reference for the his-
+      torical period (1981–2010). For the performance evaluation, the ratio of the number of grids
+      passing the K–S test to the total number of grids is computed and the results are presented
+                                                             
+                                                             
+                                                 1 3         
+
+===== PAGE 10 =====
+                                                             
+                                                             
+                                                             
+      368 Page 10 of 33                  Natural Hazards (2026) 122:368
+                                                             
+      in Fig. 2. Model performance varies substantially across the different extreme precipitation
+      indices. Most GCMs perform well for the percentile-based indices, whereas their skill in
+      representing CWD, SDII, and Rx1day is generally weak. For PRCPTOT and R10mm, MRI-
+      ESM2-0 emerges as the highest-ranked model, while MPI-ESM1-2-LR and EC-Earth3-
+      Veg-LR show the best performance for R20mm and Rx5day, respectively. In the case of
+      CDD, MIROC-ES2L and EC-Earth3-CC are identified as the top-performing models.
+        Considering overall performance across all extreme indices, the five highest-ranking
+      models among the 23 GCMs are MRI-ESM2-0, EC-Earth3-Veg-LR, EC-Earth3-CC,
+      MIROC6, and MPI-ESM1-2-LR. On the contrary, FGOALS-g3 indicates the poorest per-
+      formance. After applying QDM to the daily precipitation outputs and repeating the K–S
+      test, the results indicate a substantial enhancement in model performance, with consistently
+      higher passing rates across all indices. Following bias correction, every model satisfies the
+      K–S criteria for each extreme precipitation index.     
+      3.2 Projected changes in extreme precipitation         
+      3.2.1 Intensity indices                                
+                                                             
+      As illustrated in Fig. 3, Rx1day exhibits a predominantly increasing tendency in the mid-
+      future period under SSP2-4.5 and toward the end of the century under SSP5-8.5, and the
+      magnitude of change becomes much stronger under the high-emissions scenario for both
+      periods (Table 3). Spatial patterns remain broadly consistent with the historical climatology
+      in which the Troodos Mountains display the highest intensities and the Mesaoria Plain the
+      lowest (Fig. 4). Several regions emerge as future hotspots of change. For instance, the Kar-
+      pass Peninsula is projected to experience some of the strongest increases, particularly in the
+      near- and far-term under SSP2-4.5 and in the far-term under SSP5-8.5. The Troodos Moun-
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 2 Ratio of the number of grids passing the K–S test to the total number of grids for extreme precipita-
+      tion indices for the historical period (1981–2010)     
+                                                             
+      1 3                                                    
+
+===== PAGE 11 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 11 of 33 368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 3 Time series of ensemble median extreme precipitation indices from different categories (CDD,
+      PRCPTOT, Rx1day, R10mm, and R95p) for the historical period (1981–2010) and future periods—near-
+      term (2025–2049), mid-term (2050–2074), and far-term (2075–2099) under SSP2-4.5 and SSP5-8.5
+      tains also experience slight near-term intensification under SSP2-4.5 scenario. However,
+      Rx1day declines by the end of the century for both scenarios, which is more pronounced
+      under SSP2-4.5. In the Kyrenia Mountains and the Mesaoria Plain, Rx1day is expected to
+      increase in all periods under SSP5-8.5, and in the near- and far-future under the SSP2-4.5.
+      Temporal projections reinforce these spatial patterns and Rx1day increases progressively
+      toward the end of century, which shows a widening uncertainty band under both scenarios
+      (Fig. 3).                                              
+        Under SSP2-4.5, Rx5day demonstrates a generally increasing pattern throughout Cyprus
+      across the future periods, while under SSP5-8.5 the increases are confined to the earlier part
+      of the century and transition to a decline in the far-future (Table 3). In the Troodos Moun-
+      tains, both scenarios indicate a reduction during the mid-future period, and this reduction
+      intensifies substantially under SSP5-8.5 (Fig. S1). Toward the end of the century, the Troo-
+      dos region shows the strongest decreases in Rx5day under the SSP5-8.5 scenario. However,
+      the Karpass Peninsula indicates a different pattern, with increases under both scenarios in
+                                                             
+                                                 1 3         
+
+===== PAGE 12 =====
+                                                             
+                                                             
+                                                             
+      368 Page 12 of 33                  Natural Hazards (2026) 122:368
+      Table 3 Comparison of historical and projected extreme precipitation indices under SSP2-4.5 and SSP5-8.5
+      scenarios                                              
+      Index    Scenario Period Value Index Scenario Period Value
+      R × 1day (mm) Historical 1981–2010 65.7 PRCPTOT (mm) Historical 1981–2010 463.6
+               SSP2-4.5 2025–2049 68.6 SSP2-4.5 2025–2049 477.0
+                    2050–2074 66.2           2050–2074 440.1 
+                    2075–2099 67.1           2075–2099 446.6 
+               SSP5-8.5 2025–2049 66.1 SSP5-8.5 2025–2049 453.9
+                    2050–2074 66.9           2050–2074 442.3 
+                    2075–2099 69.4           2075–2099 380.3 
+      R × 5day (mm) Historical 1981–2010 111.8 R95p (mm) Historical 1981–2010 104.7
+               SSP2-4.5 2025–2049 116.5 SSP2-4.5 2025–2049 117.5
+                    2050–2074 115.5          2050–2074 102.8 
+                    2075–2099 117.9          2075–2099 103.2 
+               SSP5-8.5 2025–2049 118.9 SSP5-8.5 2025–2049 127.0
+                    2050–2074 119.7          2050–2074 100.5 
+                    2075–2099 109.6          2075–2099 107.1 
+      R10 mm (days) Historical 1981–2010 14.4 R95pTOT (%) Historical 1981–2010 20.5
+               SSP2-4.5 2025–2049 14.3 SSP2-4.5 2025–2049 21.5
+                    2050–2074 13.2           2050–2074 20.7  
+                    2075–2099 13.7           2075–2099 22.5  
+               SSP5-8.5 2025–2049 13.8 SSP5-8.5 2025–2049 21.8
+                    2050–2074 13.6           2050–2074 22.6  
+                    2075–2099 10.9           2075–2099 23.8  
+      R20 mm (days) Historical 1981–2010 6.6 R99p (mm) Historical 1981–2010 28.5
+               SSP2-4.5 2025–2049 6.7  SSP2-4.5 2025–2049 39.4
+                    2050–2074 6.0            2050–2074 35.4  
+                    2075–2099 6.1            2075–2099 35.0  
+               SSP5-8.5 2025–2049 6.8  SSP5-8.5 2025–2049 32.3
+                    2050–2074 6.3            2050–2074 32.7  
+                    2075–2099 5.4            2075–2099 36.0  
+      CDD (days) Historical 1981–2010 125.0 R99pTOT (%) Historical 1981–2010 5.7
+               SSP2-4.5 2025–2049 125.0 SSP2-4.5 2025–2049 6.8
+                    2050–2074 124.0          2050–2074 7.0   
+                    2075–2099 126.6          2075–2099 7.5   
+               SSP5-8.5 2025–2049 121.3 SSP5-8.5 2025–2049 6.5
+                    2050–2074 121.8          2050–2074 7.1   
+                    2075–2099 129.0          2075–2099 8.5   
+      CWD (days) Historical 1981–2010 4.7 SDII (mm) Historical 1981–2010 14.0
+               SSP2-4.5 2025–2049 5.0  SSP2-4.5 2025–2049 13.7
+                    2050–2074 4.7            2050–2074 13.4  
+                    2075–2099 4.8            2075–2099 13.9  
+               SSP5-8.5 2025–2049 4.9  SSP5-8.5 2025–2049 13.4
+                    2050–2074 5.0            2050–2074 13.6  
+                    2075–2099 4.5            2075–2099 13.9  
+      1 3                                                    
+
+===== PAGE 13 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 13 of 33 368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 4 Spatial distribution of the Rx1day over Cyprus for the observed period (1981–2010), the CMIP6
+      historical period (1981–2010), and projected future periods under SSP2-4.5 and SSP5-8.5
+                                                             
+                                                             
+                                                 1 3         
+
+===== PAGE 14 =====
+                                                             
+                                                             
+                                                             
+      368 Page 14 of 33                  Natural Hazards (2026) 122:368
+                                                             
+      the near- and mid-future. These increases become stronger in the mid-future under SSP5-
+      8.5 and in the near-future under SSP2-4.5. By late century, the increasing pattern continues
+      under SSP2-4.5, while SSP5-8.5 shifts to a decrease. In the Kyrenia Mountains, Rx5day
+      rises steadily under SSP2-4.5, although the mid-future increase remains limited. Under
+      SSP5-8.5, the index increases in the near- and mid-future but declines again toward the end
+      of the century. In the Mesaoria Plain, Rx5day mostly increases under SSP2-4.5, with only a
+      few local decreases in earlier periods. Under SSP5-8.5, there is a clear increase in the near-
+      future followed by a decline in the far-future. The mid-future period shows considerable
+      spatial variation, with significant increases in the eastern Mesaoria Plain and decreases in
+      the western part of the island.                        
+        Although small decreases appear in the future periods under both SSP2-4.5 and SSP5-
+      8.5 (Table 3), the island-wide median of SDII does not show a notable long-term change
+      by the end of the century in either scenario. However, the spatial patterns exhibit more
+      remarkable changes in SDII. In the Troodos Mountains, SDII decreases in all future periods
+      across both pathways, which indicates a steady reduction in average precipitation intensity
+      at higher elevations (Fig. S2). In contrast, SDII increases toward the end of the century
+      in both the Karpass Peninsula, the Kyrenia Mountains, and Mesaoria Plain under SSP5-
+      8.5. The increases highlight a regional shift toward more intense precipitation events in the
+      northern part of the island.                           
+      3.2.2 Frequency indices                                
+      Under SSP5-8.5, R10mm decreases steadily from 2025 to 2099, with only a few small
+      near-term exceptions (Fig. 3). Under SSP2-4.5, a slight decrease appears in the near-term,
+      and decreases become more pronounced in the mid- and far-future periods. Historically,
+      the highest frequencies occur in the Troodos Mountains and the lowest in the Mesaoria
+      Plain (Fig. 5). By the end of the century, the Troodos Mountains and Karpass Peninsula
+      experience the strongest reductions under SSP2-4.5. In the Kyrenia Mountains, consistent
+      decreases are expected in all future periods for both scenarios. The Mesaoria Plain and
+      Troodos Mountains generally show near-term increases but shifts to decreases later in the
+      century, with the timing depending on the scenario. The uncertainty band becomes wider
+      in both scenarios, and the overall decrease is stronger under SSP5-8.5. Furthermore, under
+      both SSP2-4.5 and SSP5-8.5, R20mm shows a slight increase in the near-term period, fol-
+      lowed by a gradual decline toward the end of the century (Table 3). The strongest increase
+      in the near-term period is expected in the Mesaoria Plain under SSP5-8.5 (Fig. S3). The
+      decline in R20mm is stronger under SSP5-8.5 in the far-future period and more pronounced
+      in the Troodos Mountains and Karpass Peninsula.        
+      3.2.3 Duration indices                                 
+      In future projections, CDD increases toward the end of the century, especially under SSP5-
+      8.5, while the near-term shows stable or slightly decreasing values (Fig. 3) with some local
+      variations (Fig. 6). The magnitude of change is less prominent under SSP2-4.5 and becomes
+      more evident under SSP5-8.5. Historically, CDD is slightly lower in the Troodos Moun-
+      tains compared to other regions. Both areas show increases by the end of the century under
+      both scenarios. In contrast, the Mesaoria Plain, the Kyrenia Mountains, and most of the
+                                                             
+                                                             
+      1 3                                                    
+
+===== PAGE 15 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 15 of 33 368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 5 Spatial distribution of the R10mm over Cyprus for the observed period (1981–2010), the CMIP6
+      historical period (1981–2010), and projected future periods under SSP2-4.5 and SSP5-8.5
+                                                             
+                                                 1 3         
+
+===== PAGE 16 =====
+                                                             
+                                                             
+                                                             
+      368 Page 16 of 33                  Natural Hazards (2026) 122:368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 6 Spatial distribution of the CDD over Cyprus for the observed period (1981–2010), the CMIP6
+      historical period (1981–2010), and projected future periods under SSP2-4.5 and SSP5-8.5
+                                                             
+                                                             
+      1 3                                                    
+
+===== PAGE 17 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 17 of 33 368
+                                                             
+      Karpass Peninsula already exhibit high CDD values, and these regions are projected to
+      experience additional increases in the far future for both scenarios, except for the Karpass
+      Peninsula under SSP2-4.5. These increases indicate an intensification of drought conditions.
+      The Troodos Mountains show the strongest decrease in the near-term under SSP5-8.5, and
+      other regions also experience early declines, except for the Karpass Peninsula. Temporal
+      projections confirm that CDD rises toward 2099 under SSP5-8.5 (Fig. 3).
+        Under SSP2-4.5, CWD shows a small increase in the near- and far-term future. Under
+      SSP5-8.5, CWD increases in the near-term and mid-term periods and then shifts to a
+      decrease toward the end of the century (Table 3). Currently, CWD values have been greater
+      in the Troodos Mountains and the Karpass Peninsula compared to the rest of the island (Fig.
+      S4). By the end of the century, CWD is projected to decrease in the Karpass Peninsula under
+      both scenarios. In the Mesaoria Plain and the Kyrenia Mountains, CWD increases under
+      SSP2-4.5, while a decrease is projected under SSP5-8.5.
+      3.2.4 Percentile/contribution indices                  
+      For both emission scenarios, R95p increases in the near term, followed by a slight decrease
+      under SSP2-4.5 and an increase under SSP5-8.5 toward the end of the century (Fig. 3). The
+      historical median of R95pTOT is 20.5%, and this value rises across the near-, mid-, and
+      far-future periods in both scenarios, with a clearer late-century increase under SSP5-8.5
+      (Table 3). Similarly, R99p increases across all future periods under both scenarios, and the
+      rise becomes more substantial toward the end of the century under SSP5-8.5. R99pTOT also
+      shows noticeable increases in the mid- and far-term periods in both scenarios, especially
+      for SSP5-8.5, while increases are more pronounced under SSP2-4.5 during the near-term
+      period.                                                
+        As seen in Fig. 7, R95p is highest over the Troodos Mountains during the historical
+      period, while lower values occur across the Mesaoria Plain and the Kyrenia Mountains.
+      Relatively elevated values are also observed over the Karpass Peninsula. Under SSP2-4.5 in
+      the near-future period, R95p generally increases, although localized decreases are observed
+      in some areas. By the late century, R95p and R95pTOT decrease across the Troodos region
+      under both scenarios, while R99p and R99pTOT tend to increase in general (Fig. S5-7). In
+      the Karpass Peninsula, R95p decreases under SSP2-4.5, while other indices increase. Under
+      SSP5-8.5, the Karpass Peninsula shows some decreases in R95p in the mid- and far-term
+      periods, whereas the other indices increase in all future periods. In the Kyrenia Mountains
+      and the Mesaoria Plain, increases dominate by the end of the century under both scenarios
+      with some local variations. Overall, although localized decreases appear in several regions
+      and periods, most percentile indices exhibit clearer increases in the far-future period, par-
+      ticularly under SSP5-8.5.                              
+      3.2.5 Total precipitation index                        
+      PRCPTOT decreases toward the end of the century under both emission scenarios (Fig. 3),
+      and the decline is more severe under SSP5-8.5, reaching up to 25% in some regions between
+      2075 and 2099 (Fig. 8). As given in Fig. 8, the Troodos Mountains receive the highest
+      historical precipitation but also exhibit the strongest reductions in the near- and mid-future
+      under SSP5-8.5. The only increase is the near-future period under SSP2-4.5, when the Troo-
+                                                             
+                                                             
+                                                 1 3         
+
+===== PAGE 18 =====
+                                                             
+                                                             
+                                                             
+      368 Page 18 of 33                  Natural Hazards (2026) 122:368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 7 Spatial distribution of the R95p over Cyprus for the observed period (1981–2010), the CMIP6
+      historical period (1981–2010), and projected future periods under SSP2-4.5 and SSP5-8.5
+                                                             
+                                                             
+                                                             
+      1 3                                                    
+
+===== PAGE 19 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 19 of 33 368
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+      Fig. 8 Spatial distribution of the PRCPTOT over Cyprus for the observed period (1981–2010), the CMIP6
+      historical period (1981–2010), and projected future periods under SSP2-4.5 and SSP5-8.5
+                                                             
+                                                             
+                                                 1 3         
+
+===== PAGE 20 =====
+                                                             
+                                                             
+                                                             
+      368 Page 20 of 33                  Natural Hazards (2026) 122:368
+                                                             
+      dos Mountains show the smallest increase in total precipitation. The Mesaoria Plain and the
+      Kyrenia Mountains have some of the lowest historical totals and are projected to experience
+      smaller end-century reductions than the Troodos Mountains under SSP2-4.5 scenario. The
+      Karpass Peninsula stands out as the region with the greatest near-term increase in PRCP-
+      TOT under both scenarios and is expected to experience a similar mid-century decline with
+      the Troodos Mountains, the Mesaoria Plain, and the Kyrenia Mountains under the high
+      emission scenario.                                     
+      3.3 Trend analysis                                     
+                                                             
+      The results of the trend analysis are summarized in Table 4. The behavior of the intensity
+      indices indicates that extreme precipitation events in Cyprus are expected to become more
+      intense in several parts of the twenty-first century, particularly in the mid- and far-future
+      periods. For instance, Rx1day exhibits an upward trend during these periods under both
+      emission scenarios. Statistically significant increases appear in the periods 2025–2049 and
+      2075–2099 under SSP5-8.5, and in 2050–2074 under SSP2-4.5. Rx5day also shows sig-
+      nificant increasing trends in the historical period and in all future periods under SSP2-4.5.
+      However, under SSP5-8.5, Rx5day displays a significant decrease in the near-future period.
+      SDII presents significant upward trends in the historical and in the far-future periods under
+      both emission scenarios.                               
+        R10mm exhibits significantly decreasing trends in the near- and mid-future periods
+      under SSP5-8.5, while the trends in the remaining periods are not statistically significant
+      (Table 4). R20mm shows significantly decreasing trends in the near-future period under
+      SSP2-4.5 and in the far-future periods under SSP5-8.5. In contrast, R20mm presents sig-
+      nificantly increasing trends in the far-future period under SSP2-4.5 and in the near-future
+      period under SSP5-8.5. Overall, the frequency indices indicate that heavy precipitation
+      days may become less frequent during the twenty-first century, particularly under SSP5-8.5.
+      Declines in both R10mm and R20mm in several future periods suggest fewer days exceed-
+      ing moderate thresholds, which may contribute to longer dry spells and heightened seasonal
+      dryness in Cyprus.                                     
+        The projected increase in CDD under SSP5-8.5 implies a widening of prolonged dry
+      periods, whereas the mid-century decline in CWD points to a reduction in extended wet
+      spells. Herein, CDD exhibits significantly decreasing trends in the near- and mid-future
+      periods under SSP2-4.5 and in the near-future period under SSP5-8.5, while high emis-
+      sion scenario shows significant increase in the mid-future period. CWD shows a different
+      pattern, with significant upward trends in the far-future period under SSP2-4.5, and in the
+      near-future period under SSP5-8.5. A significant decrease in CWD appears in the mid-future
+      period under both SSP2-4.5 and SSP5-8.5. By the end of the century under SSP5-8.5, the
+      overall pattern points to more persistent dryness, which may lead to stronger droughts and
+      greater water stress in Cyprus.                        
+        The percentile and contribution indices point to an overall intensification of high-per-
+      centile precipitation events in Cyprus during the twenty-first century, particularly under the
+      high-emission scenario (Table 4). In more detail, R95p exhibits significant increases in the
+      historical period and in the near-future period under both scenarios, whereas a significant
+      decrease appears in the mid-future period under SSP2-4.5. R95pTOT presents significant
+      upward trends in the historical period and in all future periods under SSP2-4.5, as well as
+      1 3                                                    
+
+===== PAGE 21 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 21 of 33 368
+      Table 4 Trend analysis results using modified Mann-Kendall test and Sen’s slope
+      Index Scenario Period Z-score Sen’s Index Scenario Period Z-score Sen’s
+                          Slope                   Slope      
+      Rx1day Historical 1981–2010 – 0.087 – 0.005 PRCPTOT Historical 1981–2010 0.348 0.282
+           SSP2-4.5 2025–2049 – 1.445 – 0.087 SSP2-4.5 2025–2049 1.994 0.548
+                2050–2074 2.202 0.230    2050–2074 – 1.223 – 1.141
+                2075–2099 0.059 0.024    2075–2099 – 0.072 – 0.091
+           SSP5-8.5 2025–2049 2.041 0.271 SSP5-8.5 2025–2049 – 1.737 – 1.813
+                2050–2074 1.787 0.139    2050–2074 – 1.045 – 0.769
+                2075–2099 3.244 0.280    2075–2099 – 0.816 – 0.281
+      Rx5day Historical 1981–2010 2.901 0.376 R95p Historical 1981–2010 5.631 1.173
+           SSP2-4.5 2025–2049 2.356 0.401 SSP2-4.5 2025–2049 3.133 0.808
+                2050–2074 2.357 0.457    2050–2074 – 1.999 – 0.490
+                2075–2099 4.426 0.456    2075–2099 – 0.907 – 0.132
+           SSP5-8.5 2025–2049 – 2.271 – 0.487 SSP5-8.5 2025–2049 2.587 2.337
+                2050–2074 1.326 0.304    2050–2074 1.491 0.773
+                2075–2099 0.256 0.056    2075–2099 – 0.821 – 0.202
+      R10mm Historical 1981–2010 1.456 0.025 R95pTOT Historical 1981–2010 6.168 0.147
+           SSP2-4.5 2025–2049 0.875 0.013 SSP2-4.5 2025–2049 5.396 0.188
+                2050–2074 – 1.402 – 0.021 2050–2074 3.189 0.077
+                2075–2099 – 1.200 – 0.009 2075–2099 2.548 0.091
+           SSP5-8.5 2025–2049 – 3.672 – 0.056 SSP5-8.5 2025–2049 1.637 0.037
+                2050–2074 – 3.445 – 0.050 2050–2074 2.653 0.161
+                2075–2099 – 1.679 – 0.014 2075–2099 2.376 0.101
+      R20mm Historical 1981–2010 0.390 0.001 R99p Historical 1981–2010 1.343 0.162
+           SSP2-4.5 2025–2049 – 3.036 – 0.038 SSP2-4.5 2025–2049 2.339 0.309
+                2050–2074 1.887 0.013    2050–2074 – 0.896 – 0.148
+                2075–2099 2.642 0.025    2075–2099 3.570 0.760
+           SSP5-8.5 2025–2049 3.800 0.024 SSP5-8.5 2025–2049 3.267 0.561
+                2050–2074 – 0.784 – 0.015 2050–2074 1.621 0.349
+                2075–2099 – 3.432 – 0.023 2075–2099 5.909 0.827
+      CDD  Historical 1981–2010 0.490 0.022 R99pTOT Historical 1981–2010 2.202 0.043
+           SSP2-4.5 2025–2049 – 2.783 – 0.218 SSP2-4.5 2025–2049 1.237 0.029
+                2050–2074 – 2.173 – 0.182 2050–2074 0.428 0.012
+                2075–2099 – 0.858 – 0.099 2075–2099 2.560 0.058
+           SSP5-8.5 2025–2049 – 2.483 – 0.120 SSP5-8.5 2025–2049 – 0.752 – 0.021
+                2050–2074 2.946 0.251    2050–2074 2.886 0.054
+                2075–2099 0.777 0.053    2075–2099 4.950 0.180
+      CWD  Historical 1981–2010 0.000 – 0.000 SDII Historical 1981–2010 4.358 0.034
+           SSP2-4.5 2025–2049 – 0.284 – 0.002 SSP2-4.5 2025–2049 – 0.354 – 0.006
+                2050–2074 – 4.354 – 0.022 2050–2074 0.633 0.004
+                2075–2099 2.783 0.012    2075–2099 4.483 0.036
+           SSP5-8.5 2025–2049 1.976 0.007 SSP5-8.5 2025–2049 0.904 0.013
+                2050–2074 – 2.248 – 0.013 2050–2074 – 0.859 – 0.006
+                2075–2099 – 1.814 – 0.010 2075–2099 3.493 0.034
+      Bold−italic values represent statistically significant trends at the 5% significance level
+                                                 1 3         
+
+===== PAGE 22 =====
+                                                             
+                                                             
+                                                             
+      368 Page 22 of 33                  Natural Hazards (2026) 122:368
+                                                             
+      in the mid- and far future periods under SSP5-8.5. R99p shows significant increases in the
+      near- and far-future periods under both SSP2-4.5 and SSP5-8.5. In addition, R99pTOT dem-
+      onstrates significant increases in the historical and far-future period under SSP2-4.5, and in
+      the mid- and far-future period under SSP5-8.5.         
+        Furthermore, PRCPTOT indicates significant positive trends in the near-future period
+      under the SSP2-4.5 scenario (Table 4). In all other future periods, PRCPTOT exhibits nega-
+      tive trends under both emission scenarios. However, these trends are not statistically sig-
+      nificant. Nevertheless, the projected reductions may indicate a tendency toward lower total
+      precipitation in the longer term, which may contribute to increased drought risk and pres-
+      sure on water resources in the region.                 
+      3.4 Discussion of results                              
+                                                             
+      Performance evaluation of CMIP6 GCMs is conducted utilizing the K–S test that evaluates
+      the agreement between the distribution of raw GCM precipitation and CHIRPS observa-
+      tions at each grid point. After nearest-neighbor regridding, each GCM cell value is assigned
+      to all CHIRPS grid points within that cell without interpolation, so that coarser models
+      produce a larger number of grid points sharing identical daily values. In principle, this may
+      lead to models passing the K–S test more easily. However, the K–S test passing rates do
+      not indicate a systematic advantage in resolution. GCMs show considerable variation in
+      performance across different extreme precipitation indices. While a specific model shows
+      good performance with high passing rates for one index, it can exhibit poor performance
+      for another index, even when the spatial resolution remains constant. This variability indi-
+      cates that the physics of the model and its ability to reflect regional precipitation processes
+      are more important factors for the model performance in the K–S test than the sole native
+      resolution of the model.                               
+        These patterns are examined for representative indices from each index category by
+      relating model performance to model resolution and the seasonal characteristics of precipi-
+      tation in Cyprus. Percentile-based indices, such as R95p, demonstrate high passing rates
+      across all models and resolutions because their thresholds are not fixed absolute values
+      but are obtained from precipitation data of each model. For indices that depend on fixed
+      thresholds or event characteristics, performance varies significantly within each resolution
+      group, classified as coarse (≥ 2°), medium (1.26–1.88°), and fine (≤ 1.25°) resolution. For
+      R10mm, the fine-resolution model performs best, but coarse-resolution models also rank
+      among the top performers, while other fine-resolution models achieve significantly lower
+      passing rates. Since these events mainly occur during the wet season between October and
+      March (Michaelides et al. 2009), the model performance is influenced more by its ability
+      to accurately represent the distribution of wet-season intensity than by its grid spacing.
+      For Rx1day, the relatively higher passing rates are obtained by medium-resolution models
+      rather than by the finest-resolution ones. This situation indicates that capturing the maxi-
+      mum daily precipitation during the wet season is more influenced by the characteristics of
+      the model than by its resolution. Although the remarkable variability across models, Rx5day
+      shows significantly higher passing rates than Rx1day, since multi-day accumulation reduces
+      sensitivity to individual peak days. For CDD, both fine- and coarse-resolution models rank
+      among the best performers, reflecting the impact of the prolonged dry summer character-
+      istic of the Mediterranean, with both the best- and worst-performing models covering the
+      1 3                                                    
+
+===== PAGE 23 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 23 of 33 368
+                                                             
+      full resolution range. In contrast, CWD consistently performs poorly across all models and
+      resolutions. While CDD measures the duration of dry periods dominated by the prolonged
+      dry summer, CWD shows the continuity of wet periods during the rainy season. This con-
+      trast implies that models are more effective at capturing large-scale, persistent seasonal
+      trends rather than the day-to-day variations in wet-season precipitation. Models with similar
+      resolutions can vary significantly in passing rates for all categories, indicating that model
+      physics and the representation of regional precipitation processes are more important than
+      native resolution alone. This index-dependent variability is considered by creating MME
+      projections through an index-specific rank-based weighting approach (Chen et al. 2011).
+      All 23 GCMs contribute to the MME of each index, and no model is excluded. The overall
+      ranking of the five highest-performing models reported earlier serves as a general summary
+      and is not used as a model selection criterion in the ensemble construction.
+        The strong seasonal changes in Cyprus’s precipitation should be also considered while
+      interpreting the performance of the models and the changes in future projections. Similar to
+      other Mediterranean climates, most precipitation occurs during the wet season and the most
+      intense events are usually related to winter Mediterranean cyclones. Therefore, although
+      the ET-SCI extreme precipitation indices used in this study were calculated on an annual
+      basis, they are largely controlled by precipitation events during the winter months. Indices,
+      such as Rx1day, Rx5day, R95p, and R99p, are mainly influenced by intense winter storms,
+      while frequency-based indices (e.g., R10mm and R20mm) also mostly reflect precipitation
+      events during the wet season. This strong seasonal pattern also affects the model evaluation
+      results, since the statistical performance of the GCMs mainly reflects their ability to simu-
+      late winter precipitation variability and extremes. For this reason, the projected changes in
+      extreme precipitation indices should primarily be interpreted as potential changes in the
+      intensity and frequency of winter precipitation events over Cyprus rather than as uniform
+      changes throughout the year. Furthermore, percentile-based indices represent relative posi-
+      tions within the precipitation distribution. Therefore, they are less sensitive to biases in the
+      absolute magnitude of precipitation. In contrast, indices such as Rx1day, CWD, and SDII
+      depend more directly on the individual storm events and wet spell persistence. Since pre-
+      cipitation in Cyprus is strongly concentrated in the winter wet season, the performance of
+      these indices mainly reflects how well the models reproduce winter precipitation variability
+      and associated storm processes.                        
+        In this study, the nearest-neighbor method is chosen for regridding specifically to avoid
+      additional spatial smoothing during the spatial mapping (Rajulapati et al. 2021). Then, QDM
+      bias correction adjusts the statistical distribution at each grid point against the reference
+      CHIRPS dataset (Cannon et al. 2015). Although this procedure effectively maps GCM pre-
+      cipitation data onto the high-resolution CHIRPS reference grid and corrects distributional
+      biases, it does not create variability at sub-grid scales or represent the physical feedbacks
+      that influence the climate response at resolutions finer than the driving GCM (Maraun 2016).
+      The trend-preserving nature of the QDM approach causes projected changes in extreme pre-
+      cipitation at the local scale to be entirely taken from the driving GCMs. This means that bias
+      correction cannot handle inherent deficiencies in the GCMs themselves (Maraun and Wid-
+      mann 2018; Casanueva et al. 2020). Additionally, statistical bias correction assumes that the
+      statistical relationships identified under current climate conditions will also hold in future
+      climates (Gutierrez et al. 2022). Although QDM considers this to some extent by preserving
+      trends, it is still a significant challenge for all statistical downscaling methods.
+                                                 1 3         
+
+===== PAGE 24 =====
+                                                             
+                                                             
+                                                             
+      368 Page 24 of 33                  Natural Hazards (2026) 122:368
+                                                             
+        The use of CHIRPS as the only observational reference dataset creates an additional
+      source of uncertainty. CHIRPS has been validated against ground-based observations in
+      Cyprus and demonstrates strong agreement with station data for percentile-based thresh-
+      olds, frequency indices, SDII, and average precipitation values (Katsanos et al. 2016a, b).
+      However, the study also showed that duration indices performed poorly. Specifically, CDD
+      showed a poor correlation with station data, whereas CWD showed a moderate correlation.
+      As a combined satellite-gauge product, CHIRPS can underestimate precipitation variance in
+      some regions because the final dataset partially preserves the low variance of the source sat-
+      ellite estimates (Funk et al. 2015). While any systematic bias in the reference dataset affects
+      the model performance evaluation results because the K–S test compares GCM distributions
+      to CHIRPS, observational biases are incorporated into the bias-corrected outputs in QDM
+      due to the adjustment of GCM distributions to match CHIRPS distributions. However, since
+      QDM preserves the relative changes projected by the GCMs, the direction and magnitude
+      of projected trends are less sensitive to absolute biases in the reference data. Future research
+      could be improved by comparing findings across several independent observational datasets
+      to more precisely evaluate this source of uncertainty. 
+        Accordingly, the bias-corrected projections provided in this study might be considered as
+      reasonable estimates of changes in regional precipitation, based on the large-scale climate
+      signals generated by the GCMs, rather than as precise local forecasts (Maraun and Wid-
+      mann 2018). Statistical and dynamical downscaling can be considered as complementary
+      approaches. While statistical approaches are computationally less demanding and provide
+      the ability to work with multiple GCM datasets and scenarios, dynamical downscaling can
+      reflect local climate feedback mechanisms that statistical methods tend to simplify (Reder
+      et al. 2025). The GCMs that show good performance across extreme precipitation indices
+      in this study can be utilized as suitable driving models for future high-resolution regional
+      climate simulations over Cyprus.                       
+        For the extreme precipitation intensity, Gumus et al. (2023), using CMIP6 GCMs, report
+      that indices are expected to increase across the Mediterranean region of Türkiye by the end
+      of the century under both scenarios, and the increases become stronger under SSP5-8.5.
+      Lazoglou et al. (2024), based on EURO-CORDEX simulations, describe a more moder-
+      ate response for Cyprus, where most intensity indices exhibit little change and only slight
+      increases appear under the high radiative forcing scenario Although both studies project
+      increasing extreme precipitation intensity under the high-emission scenario by the end of
+      the century, the magnitude of the projected increase is larger in the present study. In con-
+      trast, Zittis et al. (2020), using WRF regional climate model simulations, show that Rx5day
+      is projected to decline toward the end of the century under a high-emission pathway. Their
+      strongest decrease occurs at the peak of the Troodos Mountains, which aligns with the find-
+      ings of the present study. While intensity indices decrease in high-elevation areas, they
+      generally increase in the north-eastern part of Cyprus, except for Rx5day, toward the end of
+      the century. Such increases imply that precipitation events may become more intense even if
+      total precipitation declines, which raises the likelihood of more frequent and severe flooding
+      events and amplifies associated economic and environmental risks. The behavior of Rx1day
+      and Rx5day can be explained by the thermodynamic and dynamic contributions to extreme
+      precipitation identified by Pfahl et al. (2017). As temperatures rise, the increasing atmo-
+      spheric moisture capacity leads to more intense individual storms (Trenberth 2011; Pfahl
+      et al. 2017), which is consistent with the projected increase in Rx1day in most of Cyprus.
+      1 3                                                    
+
+===== PAGE 25 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 25 of 33 368
+                                                             
+      However, the projected decline in Mediterranean cyclone frequency (Flaounas et al. 2022)
+      may reduce multi-day precipitation accumulations, leading to widespread Rx5day decline
+      under the high-emission scenario toward the end of the century. In the Troodos Mountains,
+      where topography produces a steep precipitation gradient from approximately 300 mm on
+      the lowland plains to up to 1000 mm in the mountains (Hadjinicolaou et al. 2011; Ghanem
+      and Zaifoglu 2024), the projected weakening of Cyprus Lows (Hochman et al. 2018; Zittis
+      et al. 2022) may reduce moisture transport to high elevations sufficiently that even 1-day
+      precipitation maximum decline toward the end of the century alongside 5-day precipita-
+      tion. This shows that dynamic influence can locally suppress thermodynamic condensa-
+      tion in mountainous regions. Overall, the findings imply that thermodynamic intensification
+      dominates over lower-elevation areas of Cyprus. However, as the forcing increases, over
+      longer timelines, and at higher elevations, the role of dynamic weakening becomes more
+      pronounced, consistent with the thermodynamic-dynamic framework (Pfahl et al. 2017).
+      Moreover, regarding the trends, previous studies, that used station-based observational data
+      with variable periods, report mixed findings for intensity indices in Cyprus. Kostopoulou
+      and Jones (2005) detected mostly insignificant trends in intensity indices, while others
+      identify increasing (Zaifoğlu et al. 2017) or decreasing tendencies (Mathbout et al. 2018).
+      Besides, Lazoglou et al. (2024), which used gridded observational data for the trend analy-
+      sis, show weak or insignificant historical trends. Future projections also show considerable
+      variability. Zittis et al. (2021) projected insignificant trends for Rx1day in the 21st century
+      in Cyprus under the high emission scenario, although a decreasing tendency was identified
+      for Nicosia. Hadjinicolaou et al. (2011) found insignificant trends for intensity indices in the
+      near-future period under the medium emission scenario, while these trends are increasing
+      for Limassol and Saittas, and decreasing for Nicosia. These differences from the present
+      study may arise from variations in the datasets used, the study area, and the simulation
+      period.                                                
+        Previous studies indicate that precipitation frequency indices tend to decline toward the
+      end of the century. Similar decreases have been reported for the Mediterranean region of
+      Türkiye under both medium and high emission scenarios (Gumus et al. 2023), as well as for
+      Cyprus in the near-future period under a medium forcing level and in the far-future period
+      under a high forcing level (Hadjinicolaou et al. 2011; Lazoglou et al. 2024), which is consis-
+      tent with the findings of the present study. Zittis et al. (2020) also states that R20mm is pro-
+      jected to decrease by the end of the century under high radiative forcing, and identifies the
+      strongest reductions near the peak of the Troodos Mountains. This pattern aligns with the
+      results of this study, which also indicates that the Troodos region experiences the most pro-
+      nounced decline in R20mm. Furthermore, previous studies show considerable variability in
+      frequency trends across Cyprus and the wider region. Some studies reported weak or insig-
+      nificant historical trends (Zaifoğlu et al. 2017; Zittis 2017; Lazoglou et al. 2024), which are
+      consistent with the results of the present study, while others identified significant decreases
+      (Kostopoulou and Jones 2005; Mathbout et al. 2018). Hadjinicolaou et al. (2011) also found
+      insignificant decreasing trends in the near-future period under a medium-emission scenario,
+      although their analysis was limited to a small number of stations. The projected decrease in
+      R10mm and R20mm is physically consistent with the poleward expansion of the subtropi-
+      cal dry zone and the associated decline in Mediterranean cyclone frequency under warming
+      conditions (IPCC 2021c; Flaounas et al. 2022), which reduce the number of days exceeding
+      moderate and heavy precipitation thresholds. This reduction has important implications for
+                                                 1 3         
+
+===== PAGE 26 =====
+                                                             
+                                                             
+                                                             
+      368 Page 26 of 33                  Natural Hazards (2026) 122:368
+                                                             
+      water resources, as steady moderate precipitation allows time for infiltration into the soil,
+      whereas high-intensity extreme events predominantly generate surface runoff (Trenberth et
+      al. 2003).                                             
+        The results regarding duration indices align with previous studies conducted in Cyprus,
+      Türkiye, Greece, and the broader Eastern Mediterranean, despite differences in study peri-
+      ods, models, and scenarios. These studies consistently project a more pronounced increase
+      in CDD by the end of the century under medium and high emission pathways, as well as
+      slight decreases or stable patterns for CWD (Giannakopoulos et al. 2010; Hochman et al.
+      2017, 2018; Zittis et al. 2020; Georgoulias et al. 2022; Gumus et al. 2023; Lazoglou et al.
+      2024). Longer dry periods combined with shorter wet periods imply a shift toward greater
+      aridity across the region. In terms of trends, several studies identified significant increases
+      in historical dry and wet spell durations (Kostopoulou and Jones 2005; Mathbout et al.
+      2018), while others reported weak or insignificant trends. For example, Zittis (2017) found
+      an insignificant upward trend in CDD and no trend in CWD for 1988–2014, which is con-
+      sistent to the present results, and Lazoglou et al. (2024) reported an insignificant decrease in
+      CDD and no trend in CWD for 1981–2018. Hadjinicolaou et al. (2011) found a significant
+      increase in CDD only in Limassol for the near future under a medium-emission scenario.
+      The poleward expansion of the subtropical dry zone under greenhouse gas forcing (IPCC
+      2021c) provides a large-scale mechanism for the changes in duration indices. Cyprus is
+      located where subtropical and midlatitude atmospheric circulation regimes converge, which
+      makes it particularly exposed to shifts in regional precipitation patterns (IPCC 2022). As the
+      dry zone expands, the dry season may become longer, while the decreasing frequency of
+      Mediterranean cyclones (IPCC 2021c; Flaounas et al. 2022) may result in shorter wet peri-
+      ods during the rainy season. In the near future period, internal climate variability can mask
+      or oppose the drying signal over decadal timescales (Hawkins and Sutton 2011).
+        Gumus et al. (2023) report that percentile and contribution indices are expected to
+      increase by the end of the century across the Mediterranean region of Türkiye for both emis-
+      sion scenarios. Their results indicate that increases are stronger for R95pTOT and R99pTOT
+      under SSP5-8.5, while R95p and R99p do not differ substantially between scenarios. In
+      contrast, the present study shows that R95p decreases under SSP2-4.5, and increases under
+      SSP5-8.5 toward the end of the century. The remaining percentile indices display a clearer
+      increase by the end of the century, particularly under SSP5-8.5, which is consistent with the
+      stronger forcing associated with the high-emissions pathway. Additionally, some studies
+      identified upward trends, although statistical significance was limited to a small number of
+      stations (Zaifoğlu et al. 2017; Katsanos et al. 2017). Other studies reported mostly insignifi-
+      cant historical trends (Kostopoulou and Jones 2005) or predominantly significant decreases,
+      as in the analysis of Mathbout et al. (2018) for 1962–2012. This study shows partial consis-
+      tency with earlier results in terms of positive trends, however, most indices show significant
+      trends. The increases in most high-percentile and contribution indices reflect the thermo-
+      dynamic intensification of extreme precipitation under warming (Trenberth 2011; Pfahl et
+      al. 2017), with a stronger response under SSP5-8.5 consistent with the higher radiative
+      forcing. The increase in R95pTOT and R99pTOT indicates that an increasing proportion of
+      annual precipitation is concentrated in the most intense events (Trenberth et al. 2003), which
+      implies greater hydrological variability even as total precipitation declines.
+        For the total precipitation, studies conducted across Mediterranean Basin countries con-
+      sistently show that total precipitation is projected to decline by the end of the century under
+      1 3                                                    
+
+===== PAGE 27 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 27 of 33 368
+                                                             
+      medium and high emission scenarios, with a more pronounced decrease under high emis-
+      sions. These findings support the results obtained in this study. Several studies also report
+      reductions in total precipitation in the early-century period for both scenarios (Giannako-
+      poulos et al. 2010; Onol and Unal 2014; Georgoulias et al. 2022; Zittis et al. 2022; Seker
+      and Gumus 2022; Gumus et al. 2023; Lazoglou et al. 2024). In Mediterranean region of
+      Türkiye, decreases in total precipitation are projected under both CMIP6 emission scenarios
+      by the end of the century, with more pronounced decreases under SSP5-8.5 (Seker and
+      Gumus 2022; Gumus et al. 2023). Onol and Unal (2014) also projected a decrease in the
+      Mediterranean region of Türkiye under high emission scenario by the end of the century.
+      Zittis et al. (2022) exhibit that total precipitation is projected to decrease by the end of the
+      century under CMIP5 high emission scenario in the Eastern Mediterranean and Middle
+      East region, while the decrease is more pronounced in the regions near the Mediterranean
+      Sea. In Cyprus, Giannakopoulos et al. (2010), who used ENSEMBLES simulations, show
+      that total precipitation is expected to decrease in the near- and far-future periods under
+      the medium emission scenario, while Lazoglou et al. (2024) found a decrease by the end
+      of the century under the high emission scenario. Another EURO-CORDEX research also
+      projected a decrease in total precipitation by the end of the century under both medium and
+      high emission scenarios in the Mediterranean islands, with a more distinct decrease under
+      the high emission scenario (Georgoulias et al. 2022). A decrease in total annual precipitation
+      can raise drought risk in the region because less precipitation means less runoff and slower
+      recovery of groundwater and reservoirs. It also makes it harder for agricultural and natural
+      ecosystems to cope with long dry periods. These water shortages can build up over time
+      and lead to longer and more severe dry spells, especially in semi-arid areas where higher
+      temperatures increase evapotranspiration. The decline in total precipitation over Cyprus
+      is consistent with the large-scale drying trend projected for the Mediterranean Basin. The
+      poleward expansion of the subtropical dry zone and weakening of winter storm patterns
+      under radiative forcing affect this trend (IPCC 2021c). The increase in near-future under
+      SSP2-4.5 can result from internal climate variability, which can dominate the forced signal
+      over decadal periods, but it does not change the long-term drying trend (Hawkins and Sut-
+      ton 2011). The stronger decline under SSP5-8.5 is consistent with the projected reduction
+      in cyclone frequency under high-emission conditions (Hochman et al. 2018). Moreover,
+      the temporal distribution of precipitation is also as crucial as the total amount for surface
+      hydrology. When total precipitation declines but individual events become more intense, a
+      larger fraction of rainfall is lost to surface runoff rather than infiltrating the soil (Trenberth
+      et al. 2003), which further reduces the effective water supply. Zittis et al. (2021) projected
+      significant future decreases in the 21st century under the high-emission scenario, while the
+      present study found insignificant decreases in all future periods under the SSP5-8.5. Near-
+      future trends under medium-emission scenarios have been reported as insignificant or weak
+      in earlier study, which aligns with findings from Hadjinicolaou et al. (2011), however, a
+      significantly increasing trend is projected in the near-future period under SSP2-4.5 in the
+      present study. Historical trends have also been predominantly insignificant, with positive
+      tendencies reported for Northern Cyprus and neighboring Mediterranean islands (Zaifoğlu
+      et al. 2017; Stathi et al. 2023), which is consistent with the present results.
+                                                             
+                                                 1 3         
+
+===== PAGE 28 =====
+                                                             
+                                                             
+                                                             
+      368 Page 28 of 33                  Natural Hazards (2026) 122:368
+      3.5 Limitations and future work                        
+                                                             
+      The projections presented in this study use statistical downscaling through nearest-neighbor
+      regridding and QDM bias correction of coarse GCM outputs. However, these methods do
+      not account for sub-grid-scale variability or depict local climate feedbacks that dynamical
+      downscaling can simulate (Maraun 2016; Reder et al. 2025). Because QDM maintains the
+      climate change signal from the driving GCMs, projected changes at the local scale depend
+      on the trends generated by these models, and bias correction cannot correct fundamental
+      deficiencies in the models (Maraun and Widmann 2018; Casanueva et al. 2020). The use of
+      CHIRPS as the sole observational reference also creates uncertainty, particularly for dura-
+      tion indices where CHIRPS demonstrates weaker agreement with station data (Katsanos et
+      al. 2016a, b). Later investigations may utilize the top-performing GCMs from the present
+      study as input models for high-resolution dynamical downscaling over Cyprus and integrate
+      multiple observational datasets to minimize uncertainty.
+                                                             
+      4 Conclusion                                           
+                                                             
+      This study assessed CMIP6 model performance and projected changes in extreme precipita-
+      tion over Cyprus under SSP2-4.5 and SSP5-8.5 after QDM correction. The results reveal
+      a transition toward a drier climatic condition that features more pronounced short-duration
+      extremes, longer dry periods, and increasing hydrological instability. The main conclusions
+      are summarized below:                                  
+                                                             
+      ●  MRI-ESM2-0 and EC-Earth3-Veg-LR are the top-performing CMIP6 models for rep-
+         resenting extreme precipitation indices over Cyprus, which provides a stronger foun-
+         dation for extreme precipitation evaluation and downstream hydrological applications.
+      ●  Total precipitation decreases in both emission scenarios, which means that water avail-
+         ability becomes more limited over time. This decrease reduces seasonal water stor-
+         age, slows groundwater recharge, and makes the island more vulnerable to precipitation
+         shortages during the wet season. These changes are especially important for Cyprus,
+         where natural freshwater resources are already scarce, evapotranspiration is high, and
+         water systems are highly sensitive to year-to-year variability.
+      ●  The intensity of extreme precipitation increases over most of the Cyprus, especially
+         under SSP5-8.5, which shows that short lasting intense events become more severe.
+         Higher Rx1day values lead to higher peak flows, faster runoff, and a greater risk of flash
+         floods, especially in steep or urban areas. This increase in single-day intensity may also
+         put pressure on infrastructure designed for past precipitation conditions. While Rx5day
+         increases under SSP2-4.5, it declines toward the end of the century under SSP5-8.5,
+         particularly in the Troodos Mountains.              
+      ●  The projected decrease in the number of heavy and very heavy precipitation days in-
+         dicates that such events become less common in future climate scenarios. At the same
+         time, the increase in precipitation intensity suggests that precipitation may occur through
+         fewer but stronger events. When very intense precipitation occurs, a large portion of the
+         water is converted to surface runoff, while only a limited amount infiltrates into the soil
+         and contributes to groundwater recharge. In addition, the projected decrease in total
+      1 3                                                    
+
+===== PAGE 29 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 29 of 33 368
+                                                             
+         precipitation accumulated during wet days indicates a reduction in the overall water
+         input to the land surface, which can reduce soil moisture and limit infiltration processes
+         that support aquifer recharge.                      
+      ●  High percentile indices generally increase under SSP5-8.5, which shows that very heavy
+         events contribute a larger share of annual totals. Higher R99p and R99pTOT values re-
+         veal that annual totals become more concentrated in a small number of intense events.
+         This shift increases variability and leads to faster runoff responses.
+      ●  Duration indices exhibit that dry spells become longer and wet periods become shorter,
+         particularly under the high emission scenario. CDD increases notably by the end of the
+         century under SSP5-8.5, while changes remain marginal, with even declining trends in
+         the near- and mid- future periods under SSP2-4.5. Even though CWD rises slightly late
+         in the century under SSP2-4.5, the overall trend still implies more persistent dryness
+         and a higher risk of severe droughts, especially under high forcing, which may intensify
+         water stress across Cyprus.                         
+      These conclusions emphasize that the changes in both total precipitation and extreme events
+      suggest that Cyprus is moving toward a climate with less overall precipitation but more
+      concentrated and impactful extremes. This emerging pattern highlights the need for region-
+      specific adaptation, such as better drought planning in the lowlands and more effective flood
+      protection in the northern and mountainous areas.      
+      Supplementary Information The online version contains supplementary material available at h t t p s : / / d o i . o r g
+      / 1 0 . 1 0 0 7 / s 1 1 0 6 9 - 0 2 6 - 0 8 1 1 9 - 4 .
+      Acknowledgements We acknowledge the CHIRPS precipitation dataset team Climate Hazards Center
+      (CHC) at UC Santa Barbara and the CMIP6 climate modeling groups for supplying the historical and climate
+      projection data that made this study possible.         
+      Author contributions Neslihan Pınar Gödek Hayal: Writing—original draft, Conceptualization, Data cura-
+      tion, Software, Formal analysis, Investigation, Methodology, Resources, Visualization. Hasan Zaifoglu: Writ-
+      ing—original draft, Writing—review and editing, Supervision, Methodology, Validation. A. Melih Yanmaz:
+      Writing—review and editing, Supervision.               
+      Funding Open access funding provided by the Scientific and Technological Research Council of Türkiye
+      (TÜBİTAK). This research did not receive any specific grant from funding agencies in the public, commer-
+      cial, or not-for-profit sectors.                       
+      Data availability Data available on request from the authors.
+      Declarations                                           
+                                                             
+      Conflict of interest The authors declare that they have no known competing financial interests or personal
+      relationships that could have appeared to influence the work reported in this paper.
+      Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+      which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as
+      you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons
+      licence, and indicate if changes were made. The images or other third party material in this article are
+      included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material.
+      If material is not included in the article’s Creative Commons licence and your intended use is not permitted
+      by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+      copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+                                                 1 3         
+
+===== PAGE 30 =====
+                                                             
+                                                             
+                                                             
+      368 Page 30 of 33                  Natural Hazards (2026) 122:368
+      References                                             
+                                                             
+      Abbott BW, Bishop K, Zarnetske JP et al (2019) Human domination of the global water cycle absent from
+         depictions and perceptions. Nat Geosci 12(7):533–540. https://doi.org/10.1038/s41561-019-0374-y
+      Akinsanola AA, Ongoma V, Kooperman GJ (2021) Evaluation of CMIP6 models in simulating the statistics
+         of extreme precipitation over Eastern Africa. Atmos Res 254:105509. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r
+         e s . 2 0 2 1 . 1 0 5 5 0 9                         
+      Bağçaci SÇ, Yucel I, Duzenli E, Yilmaz MT (2021) Intercomparison of the expected change in the tempera-
+         ture and the precipitation retrieved from CMIP6 and CMIP5 climate projections: A Mediterranean hot
+         spot case, Turkey. Atmos Res 256:105576. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r e s . 2 0 2 1 . 1 0 5 5 7 6
+      Bağçaci SÇ, Yücel I, Yilmaz MT, Sen OL, Ludwig P (2024) High-resolution climate simulations over the
+         eastern Mediterranean Black Sea region using the pseudo‐global warming method with a CMIP6
+         ensemble. J Geophys Res Atmos 129(10):e2023JD040145. https://doi.org/10.1029/2023jd040145
+      Bayar AS, Yılmaz MT, Yücel İ, Dirmeyer P (2023) CMIP6 earth system models project greater acceleration
+         of climate zone change due to stronger warming rates. Earths Future 11(4):e2022EF002972. h t t p s : / / d o
+         i . o r g / 1 0 . 1 0 2 9 / 2 0 2 2 E F 0 0 2 9 7 2 .
+      Bürger G, Murdock TQ, Werner AT, Sobie SR, Cannon AJ (2012) Downscaling extremes—an intercompari-
+         son of multiple statistical methods for present climate. J Clim 25(12):4366–4388. h t t p s : / / d o i . o r g / 1 0 . 1 1
+         7 5 / J C L I - D - 1 1 - 0 0 4 0 8 . 1             
+      Cannon AJ (2018) Multivariate quantile mapping bias correction: an n-dimensional probability density func-
+         tion transform for climate model simulations of multiple variables. Clim Dyn 50(1–2):31–49. h t t p s : / / d
+         o i . o r g / 1 0 . 1 0 0 7 / s 0 0 3 8 2 - 0 1 7 - 3 5 8 0 - 6
+      Cannon AJ, Sobie SR, Murdock TQ (2015) Bias correction of GCM precipitation by quantile mapping: how
+         well do methods preserve changes in quantiles and extremes? J Clim 28(17):6938–6959. h t t p s : / / d o i . o r
+         g / 1 0 . 1 1 7 5 / J C L I - D - 1 4 - 0 0 7 5 4 . 1
+      Casanueva A, Herrera S, Iturbide M, Lange S, Jury M, Dosio A, Maraun D, Gutiérrez JM (2020) Testing
+         bias adjustment methods for regional climate change applications under observational uncertainty and
+         resolution mismatch. Atmos Sci Lett 21(7):e978. https://doi.org/10.1002/asl.978
+      Chen W, Jiang Z, Li L (2011) Probabilistic projections of climate change over China under the SRES A1B
+         scenario using 28 AOGCMs. J Clim 24(17):4741–4756. https://doi.org/10.1175/2011JCLI4102.1
+      Daniel H (2023) Performance assessment of bias correction methods using observed and regional climate
+         model data in different watersheds, Ethiopia. J Water Clim Change 14(6):2007–2028. h t t p s : / / d o i . o r g / 1
+         0 . 2 1 6 6 / w c c . 2 0 2 3 . 1 1 5               
+      Elkiran G, Nourani V, Elvis O, Abdullahi J (2021) Impact of climate change on hydro-climatological param-
+         eters in North Cyprus: application of artificial intelligence-based statistical downscaling models. J
+         Hydroinform 23(6):1395–1415. https://doi.org/10.2166/hydro.2021.091
+      Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, Taylor KE (2016) Overview of the coupled
+         model intercomparison project phase 6 (CMIP6) experimental design and organization. Geosci Model
+         Dev 9(5):1937–1958. https://doi.org/10.5194/gmd-9-1937-2016
+      Fang GH, Yang J, Chen YN, Zammit C (2015) Comparing bias correction methods in downscaling mete-
+         orological variables for a hydrologic impact study in an arid area in China. Hydrol Earth Syst Sci
+         19(6):2547–2559. https://doi.org/10.5194/hess-19-2547-2015
+      Flaounas E, Davolio S, Raveh-Rubin S, Pantillon F, Miglietta MM, Gaertner MA, Hatzaki M, Homar V,
+         Khodayar S, Korres G, Kotroni V, Kushta J, Reale M, Ricard D (2022) Mediterranean cyclones: current
+         knowledge and open questions on dynamics, prediction, climatology and impacts. Weather Clim Dyn
+         3(1):173–208. https://doi.org/10.5194/wcd-3-173-2022
+      Funk CC, Peterson PJ, Landsfeld MF, Pedreros DH, Verdin JP, Rowland JD, Romero BE, Husak GJ,
+         Michaelsen JC, Verdin AP (2014) A quasi-global precipitation time series for drought monitoring. US
+         Geol Surv Data Ser 832. https://doi.org/10.3133/ds832
+      Funk C, Peterson P, Landsfeld M, Pedreros D, Verdin J, Shukla S, Husak G, Rowland J, Harrison L, Hoell
+         A, Michaelsen J (2015) The climate hazards infrared precipitation with stations—a new environmental
+         record for monitoring extremes. Sci Data 2:150066. https://doi.org/10.1038/sdata.2015.66
+      Georgoulias AK, Akritidis D, Kalisoras A, Kapsomenakis J, Melas D, Zerefos CS, Zanis P (2022) Climate
+         change projections for Greece in the 21st century from high-resolution EURO-CORDEX RCM simula-
+         tions. Atmos Res 271:106049. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r e s . 2 0 2 2 . 1 0 6 0 4 9
+      Ghanem MA, Zaifoglu H (2024) A geospatial analysis of flood risk zones in Cyprus: Insights from statistical
+         and multi-criteria decision analysis methods. Environ Sci Pollut Res 31(22):32875–32900. h t t p s : / / d o i .
+         o r g / 1 0 . 1 0 0 7 / s 1 1 3 5 6 - 0 2 4 - 3 3 3 9 1 - x
+      1 3                                                    
+
+===== PAGE 31 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 31 of 33 368
+      Giannakopoulos C, Hadjinicolaou P, Kostopoulou E, Varotsos KV, Zerefos C (2010) Precipitation and tem-
+         perature regime over Cyprus as a result of global climate change. Adv Geosci 23:17–24. h t t p s : / / d o i . o r
+         g / 1 0 . 5 1 9 4 / a d g e o - 2 3 - 1 7 - 2 0 1 0 
+      Gomes VK, da Silva AS, Araújo L, Stosic T (2024) Extreme rainfall analysis in Pernambuco, Northeast
+         Brazil, using a high-resolution gridded dataset. Int J Climatol 44(16):5693–5710. h t t p s : / / d o i . o r g / 1 0 . 1
+         0 0 2 / j o c . 8 6 8 6                             
+      Gumus B, Oruc S, Yucel I, Yilmaz MT (2023) Impacts of climate change on extreme climate indices in Tür-
+         kiye driven by high-resolution downscaled CMIP6 climate models. Sustainability 15(9):7202. h t t p s : / / d
+         o i . o r g / 1 0 . 3 3 9 0 / s u 1 5 0 9 7 2 0 2   
+      Gutierrez JM et al (2022) The future scientific challenges for CORDEX: empirical statistical downscaling
+         (ESD). CORDEX White Paper, v3. h t t p s : / / c o r d e x . o r g / w p - c o n t e n t / u p l o a d s / 2 0 2 2 / 0 8 / W h i t e - P a p e r - E S D .
+         p d f                                               
+      Hadjinicolaou P, Giannakopoulos C, Zerefos C, Lange MA, Pashiardis S, Lelieveld J (2011) Mid-21st cen-
+         tury climate and weather extremes in Cyprus as projected by six regional climate models. Reg Environ
+         Change 11(3):441–457. https://doi.org/10.1007/s10113-010-0153-1
+      Hamed MM, Nashwan MS, Shahid S (2021) Inter-comparison of historical simulation and future projections
+         of rainfall and temperature by CMIP5 and CMIP6 GCMs over Egypt. Int J Climatol 42(8):4316–4332.
+         https://doi.org/10.1002/joc.7468                    
+      Hamed MM, Nashwan MS, Shiru MS, Shahid S (2022) Comparison between CMIP5 and CMIP6 models
+         over MENA region using historical simulations and future projections. Sustainability 14(16):10375.
+         https://doi.org/10.3390/su141610375                 
+      Hawkins E, Sutton R (2011) The potential to narrow uncertainty in projections of regional precipitation
+         change. Clim Dyn 37(1–2):407–418. https://doi.org/10.1007/s00382-010-0810-6
+      Hijmans RJ (2020) Terra: spatial data analysis. CRAN: Contributed Packages. h t t p s : / / d o i . o r g / 1 0 . 3 2 6 1 4 / c r a
+         n . p a c k a g e . t e r r a                       
+      Hochman A, Harpaz T, Saaroni H, Alpert P (2017) Synoptic classification in 21st century CMIP5 predictions
+         over the Eastern Mediterranean with focus on cyclones. Int J Climatol 38(3):1476–1483. h t t p s : / / d o i . o r
+         g / 1 0 . 1 0 0 2 / j o c . 5 2 6 0                 
+      Hochman A, Harpaz T, Saaroni H, Alpert P (2018) The seasons’ length in 21st century CMIP5 projections
+         over the Eastern Mediterranean. Int J Climatol 38(6):2627–2637. https://doi.org/10.1002/joc.5448
+      IPCC (2021a) Summary for policymakers. In: Masson-Delmotte V, Zhai P, Pirani A et al (eds) Climate
+         change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment
+         Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge/
+         New York, pp 3–32. https://doi.org/10.1017/9781009157896.001
+      IPCC (2021b) Annex VI: climatic impact-driver and extreme indices. In: Gutiérrez JM, Ranasinghe R, Ruane
+         AC, Vautard R (eds) Climate change 2021: the physical science basis. Contribution of Working Group I
+         to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge Univer-
+         sity Press, Cambridge/New York, pp 2205–2214. https://doi.org/10.1017/9781009157896.020
+      IPCC (2021c) Climate change 2021: the physical science basis. Contribution ofWorking Group I to the Sixth
+         Assessment Report of the IntergovernmentalPanel on Climate Change Masson-Delmotte V, Zhai P,
+         Pirani A, Connors SL,Péan C, Berger S, Caud N, Chen Y, Goldfarb L, Gomis MI, Huang M, LeitzellK,
+         Lonnoy E, Matthews JBR, Maycock TK, Waterfield T, Yelekçi O, Yu R, ZhouB (eds) Cambridge Uni-
+         versity Press, Cambridge/New York. https://doi.org/10.1017/9781009157896
+      IPCC (2022) Cross-Chapter Paper 4: Mediterranean Region. In: Pörtner H-O, Roberts DC, Tignor M et al
+         (eds) Climate change 2022: impacts, adaptation and vulnerability. Contribution of Working Group II to
+         the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University
+         Press, Cambridge/New York. https://doi.org/10.1017/9781009325844.021
+      Jimenez DA, Menapace A, Zanfei A, Pinto EJ, Brentan B (2024) Assessing downscaling techniques for fre-
+         quency analysis, total precipitation and rainy day estimation in CMIP6 simulations over hydrological
+         years. Hydrol Earth Syst Sci 28(9):1981–1997. https://doi.org/10.5194/hess-28-1981-2024
+      Katsanos D, Retalis A, Michaelides S (2016a) Validation of a high-resolution precipitation database
+         (CHIRPS) over Cyprus for a 30-year period. Atmos Res 169:459–464. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s
+         r e s . 2 0 1 5 . 0 5 . 0 1 5                       
+      Katsanos D, Retalis A, Tymvios F, Michaelides S (2016b) Analysis of precipitation extremes based on satel-
+         lite (CHIRPS) and in situ dataset over Cyprus. Nat Hazards 83(S1):53–63. h t t p s : / / d o i . o r g / 1 0 . 1 0 0 7 / s 1 1
+         0 6 9 - 0 1 6 - 2 3 3 5 - 8                         
+      Katsanos D, Retalis A, Tymvios F, Michaelides S (2017) Study of extreme wet and dry periods in Cyprus
+         using climatic indices. Atmos Res 208:88–93. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r e s . 2 0 1 7 . 0 9 . 0 0 2
+      Kendall MG (1975) Rank correlation methods. Griffin, London
+                                                 1 3         
+
+===== PAGE 32 =====
+                                                             
+                                                             
+                                                             
+      368 Page 32 of 33                  Natural Hazards (2026) 122:368
+      Kim Y-H, Min S-K, Zhang X, Sillmann J, Sandstad M (2020) Evaluation of the CMIP6 multi-model ensem-
+         ble for climate extreme indices. Weather Clim Extremes 29:100269. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . w a c e . 2 0
+         2 0 . 1 0 0 2 6 9                                   
+      Klein Tank AMG, Zwiers FW, Zhang X (2009) Guidelines on analysis of extremes in a changing climate in
+         support of informed decisions for adaptation. WCDMP-No. 72, WMO-TD No. 1500. World Meteoro-
+         logical Organization, Geneva, p 56                  
+      Kostopoulou E, Jones PD (2005) Assessment of climate extremes in the Eastern Mediterranean. Meteorol
+         Atmos Phys 89(1–4):69–85. https://doi.org/10.1007/s00703-005-0122-2
+      Lazoglou G, Hadjinicolaou P, Sofokleous I, Bruggeman A, Zittis G (2024) Climate change and extremes in
+         the Mediterranean island of Cyprus: From historical trends to future projections. Environ Res Commun
+         6(9):095020. https://doi.org/10.1088/2515-7620/ad7927
+      Lionello P, Scarascia L (2018) The relation between climate change in the Mediterranean region and global
+         warming. Reg Environ Change 18(5):1481–1493. https://doi.org/10.1007/s10113-018-1290-1
+      Ma X, Zhang H, Zhao S, Xu K (2025) Assessing climate extremes indices over global drylands under real
+         world warming beyond 1.5°C: spatial distribution and temporal trends. Int J Climatol 45(12):e70020.
+         https://doi.org/10.1002/joc.70020                   
+      Mallick J, Talukdar S, Alsubih M, Salam R, Ahmed M, Kahla NB, Shamimuzzaman M (2020) Analysing the
+         trend of rainfall in Asir region of Saudi Arabia using the family of Mann-Kendall tests, innovative trend
+         analysis, and detrended fluctuation analysis. Theor Appl Climatol 143(1–2):823–841. h t t p s : / / d o i . o r g / 1
+         0 . 1 0 0 7 / s 0 0 7 0 4 - 0 2 0 - 0 3 4 4 8 - 1   
+      Mann HB (1945) Nonparametric tests against trend. Econometrica 13(3):245–259. h t t p s : / / d o i . o r g / 1 0 . 2 3 0 7 /
+         1 9 0 7 1 8 7                                       
+      Maraun D (2016) Bias correcting climate change simulations—a critical review. Curr Clim Change Rep
+         2(4):211–220. https://doi.org/10.1007/s40641-016-0050-x
+      Maraun D, Widmann M (2018) Statistical downscaling and bias correction for climate research. Cambridge
+         University Press, Cambridge                         
+      Mathbout S, Lopez-Bustins JA, Royé D, Martin-Vide J, Bech J, Rodrigo FS (2018) Observed changes in
+         daily precipitation extremes at annual timescale over the Eastern Mediterranean during 1961–2012.
+         Pure Appl Geophys 175(11):3875–3890. https://doi.org/10.1007/s00024-017-1695-7
+      Michaelides SC, Tymvios FS, Michaelidou T (2009) Spatial and temporal characteristics of the annual rain-
+         fall frequency distribution in Cyprus. Atmos Res 94(4):606–615. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r e s . 2 0
+         0 9 . 0 4 . 0 0 8                                   
+      Onol B, Unal YS (2014) Assessment of climate change simulations over climate zones of Turkey. Reg Envi-
+         ron Change 14(5):1921–1935. https://doi.org/10.1007/s10113-012-0335-0
+      Pfahl S, O’Gorman PA, Fischer EM (2017) Understanding the regional pattern of projected future changes in
+         extreme precipitation. Nat Clim Change 7(6):423–427. https://doi.org/10.1038/nclimate3287
+      Rajulapati CR, Papalexiou SM (2023) Precipitation bias correction: a novel semi-parametric quantile map-
+         ping method. Earth Space Sci 10(4):e2023EA002823. https://doi.org/10.1029/2023ea002823
+      Rajulapati CR, Papalexiou SM, Clark MP, Pomeroy JW (2021) The perils of regridding: examples using a
+         global precipitation dataset. J Appl Meteorol Climatol. https://doi.org/10.1175/jamc-d-20-0259.1
+      Reder A, Fedele G, Manco I, Mercogliano P (2025) Estimating pros and cons of statistical downscaling based
+         on EQM bias adjustment as a complementary method to dynamical downscaling. Sci Rep 15(1):621.
+         https://doi.org/10.1038/s41598-024-84527-5          
+      Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, Bauer N, Calvin K, Dellink R,
+         Fricko O, Lutz W, Popp A, Cuaresma JC, KC S, Leimbach M, Jiang L, Kram T, Rao S, Emmerling J et
+         al (2017) The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emis-
+         sions implications: An overview. Glob Environ Change 42:153–168. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . g l o e n v c
+         h a . 2 0 1 6 . 0 5 . 0 0 9                         
+      Seker M, Gumus V (2022) Projection of temperature and precipitation in the Mediterranean region through
+         multi-model ensemble from CMIP6. Atmos Res 280:106440. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . a t m o s r e s . 2 0 2 2 .
+         1 0 6 4 4 0                                         
+      Sen PK (1968) Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc 63(324):1379–
+         1389. https://doi.org/10.2307/2285891               
+      Song S, Yan X (2022) Projected changes and uncertainty in cold surges over northern China using the CMIP6
+         weighted multi-model ensemble. Atmos Res. https://doi.org/10.5194/egusphere-egu23-6630
+      Stathi E, Kastridis A, Myronidis D (2023) Analysis of hydrometeorological trends and drought severity in
+         water-demanding Mediterranean islands under climate change conditions. Climate 11(5):106. h t t p s : / / d
+         o i . o r g / 1 0 . 3 3 9 0 / c l i 1 1 0 5 0 1 0 6 
+      Tang B, Hu W, Duan A (2021) Future projection of extreme precipitation indices over the Indochina Penin-
+         sula and South China in CMIP6 models. J Clim 34(21):8793–8811. h t t p s : / / d o i . o r g / 1 0 . 1 1 7 5 / J C L I - D - 2
+         0 - 0 9 4 6 . 1                                     
+      1 3                                                    
+
+===== PAGE 33 =====
+                                                             
+                                                             
+                                                             
+      Natural Hazards (2026) 122:368         Page 33 of 33 368
+      Tegegne G, Melesse AM (2020) Comparison of trend preserving statistical downscaling algorithms toward
+         an improved precipitation extremes projection in the headwaters of Blue Nile River in Ethiopia. Environ
+         Process 8(1):59–75. https://doi.org/10.1007/s40710-020-00474-z
+      Teutschbein C, Seibert J (2012) Bias correction of regional climate model simulations for hydrological cli-
+         mate-change impact studies: Review and evaluation of different methods. J Hydrol 456–457:12–29. h t t
+         p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . j h y d r o l . 2 0 1 2 . 0 5 . 0 5 2
+      Tošić I, da Silva AS, Filipović L, Tošić M, Lazić I, Putniković S, Stosic T, Stosic B, Djurdjević V (2025)
+         Trends of extreme precipitation events in Serbia under the global warming. Atmosphere 16(4):436.
+         https://doi.org/10.3390/atmos16040436               
+      Trenberth K (2011) Changes in precipitation with climate change. Clim Res 47(1):123–138. h t t p s : / / d o i . o r g
+         / 1 0 . 3 3 5 4 / c r 0 0 9 5 3                     
+      Trenberth KE, Dai A, Rasmussen RM, Parsons DB (2003) The changing character of precipitation. Bull Am
+         Meteorol Soc 84(9):1205–1218. https://doi.org/10.1175/bams-84-9-1205
+      UNESCO, UN-Water (2020) United Nations World Water Development Report 2020: Water and Climate
+         Change. UNESCO, Paris                               
+      WMO (2017) WMO Guidelines on the calculation of climate normals. WMO-No. 1203. World Meteorologi-
+         cal Organization, Geneva                            
+      Yao KM, Kola E, Morenikeji W, Filho WL (2023) Time series analysis of temperature and rainfall in the
+         Savannah Region in Togo, West Africa. Water 15(9):1656. https://doi.org/10.3390/w15091656
+      Yue S, Wang C (2004) The Mann-Kendall test modified by effective sample size to detect trend in serially
+         correlated hydrological series. Water Resour Manag 18(3):201–218. h t t p s : / / d o i . o r g / 1 0 . 1 0 2 3 / B : W A R M
+         . 0 0 0 0 0 4 3 1 4 0 . 6 1 0 8 2 . 6 0             
+      Zaifoglu H, Yanmaz AM, Akintug B (2019) Developing flood mitigation measures for the northern part of
+         Nicosia. Nat Hazards 98(2):535–557. https://doi.org/10.1007/s11069-019-03713-1
+      Zaifoğlu H, Akıntuğ B, Yanmaz AM (2017) Quality control, homogeneity analysis, and trends of extreme
+         precipitation indices in Northern Cyprus. J Hydrol Eng 22(12):04017061. h t t p s : / / d o i . o r g / 1 0 . 1 0 6 1 / ( A S
+         C E ) H E . 1 9 4 3 - 5 5 8 4 . 0 0 0 1 5 8 9       
+      Zhang X, Alexander L, Hegerl GC, Jones P, Tank A, Peterson TC, Trewin B, Zwiers FW (2011) Indices for
+         monitoring changes in extremes based on daily temperature and precipitation data. WIREs Clim Change
+         2(6):851–870. https://doi.org/10.1002/wcc.147       
+      Zhang B, Song S, Wang H, Guo T, Ding Y (2024a) Evaluation of the performance of CMIP6 models in
+         simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards
+         121(2):1737–1763. https://doi.org/10.1007/s11069-024-06850-4
+      Zhang M, Gao Y, Zhang L, Yang K (2024b) Impacts of anthropogenic land use and land cover change on
+         climate extremes based on CMIP6-LUMIP experiments: Part II. Future period. Clim Dyn 62(5):3669–
+         3688. https://doi.org/10.1007/s00382-023-07090-1    
+      Zittis G (2017) Observed rainfall trends and precipitation uncertainty in the vicinity of the Mediterranean,
+         Middle East and North Africa. Theor Appl Climatol 134(3–4):1207–1230. h t t p s : / / d o i . o r g / 1 0 . 1 0 0 7 / s 0 0
+         7 0 4 - 0 1 7 - 2 3 3 3 - 0                         
+      Zittis G, Bruggeman A, Camera C (2020) 21st century projections of extreme precipitation indicators for
+         Cyprus. Atmosphere 11(4):343. https://doi.org/10.3390/atmos11040343
+      Zittis G, Bruggeman A, Lelieveld J (2021) Revisiting future extreme precipitation trends in the Mediterra-
+         nean. Weather Clim Extremes 34:100380. https://doi.org/10.1016/j.wace.2021.100380
+      Zittis G, Almazroui M, Alpert P, Ciais P, Cramer W, Dahdal Y, Fnais M, Francis D, Hadjinicolaou P, How-
+         ari F, Jrrar A, Kaskaoutis DG, Kulmala M, Lazoglou G, Mihalopoulos N, Lin X, Rudich Y, Sciare J,
+         Stenchikov G et al (2022) Climate change and weather extremes in the Eastern Mediterranean and
+         Middle East. Rev Geophys 60(3):e2021RG000762. https://doi.org/10.1029/2021RG000762
+      Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+      institutional affiliations.                            
+                                                 1 3         

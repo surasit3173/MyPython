@@ -1,0 +1,50 @@
+{
+  "province_name": "Phetchaburi_465002_reference_sensitivity",
+  "input": {
+    "observed_file": "Observed_Rain_daily_198101_201412_Phetchaburi.csv",
+    "coordinates_file": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\sensitivity\\station_coordinates_465002_reference.csv",
+    "station_ids": [
+      "465001", "465002", "465003", "465004", "465005", "465006",
+      "465007", "465008", "465009", "465010", "465011", "465012", "465201"
+    ],
+    "boundary_file": "39_amarea_phetchaburi.shp",
+    "boundary_filter": {"field": "PRV_CODE", "value": "76"},
+    "boundary_encoding": "utf-8"
+  },
+  "cmip6": {
+    "directory": "."
+  },
+  "models": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "EC-Earth3",
+    "FGOALS-g3",
+    "MIROC6",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": {
+    "ssp245": "SSP2-4.5",
+    "ssp585": "SSP5-8.5"
+  },
+  "periods": {
+    "observed_start": 1981,
+    "observed_end": 2014,
+    "baseline_start": 1995,
+    "baseline_end": 2014,
+    "future_start": 2021,
+    "future_end": 2050
+  },
+  "settings": {
+    "alpha": 0.05,
+    "min_trend_n": 10,
+    "annual_completeness": 0.9,
+    "wet_day_threshold_mm": 1.0,
+    "r10_threshold_mm": 10.0,
+    "r20_threshold_mm": 20.0,
+    "r50_threshold_mm": 50.0,
+    "p95": 95.0,
+    "p99": 99.0,
+    "idw_power": 2.0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "prepared_date": "2026-09-04",
+  "timezone": "Asia/Bangkok",
+  "status": "provisional_shortlist_author_coi_confirmation_required",
+  "purpose": "Potential reviewers for an EnNRJ manuscript on seasonal and annual rainfall trends using conditional TFPW-Mann-Kendall analysis in Prachuap Khiri Khan, Thailand.",
+  "author": {
+    "name": "Surasit Punyawansiri",
+    "institution": "Office of Water Management and Hydrology, Royal Irrigation Department",
+    "country": "Thailand",
+    "source": "Manuscript identity supplied by the coordinating agent; public identity context in research record E07."
+  },
+  "interpretation_of_country": "Country of current principal institutional affiliation, not citizenship or nationality.",
+  "independent_review_status": "pending_root_or_fresh_reviewer",
+  "reviewers": [
+    {
+      "name": "Shamsuddin Shahid",
+      "title": "Professor",
+      "department": "Faculty of Civil Engineering",
+      "institution": "Universiti Teknologi Malaysia",
+      "country": "Malaysia",
+      "institutional_email": "sshahid@utm.my",
+      "expertise_justification": "Climate variability and water-resource impacts in tropical/subtropical settings; institutional publication list includes modified Mann-Kendall analysis of rainfall and rainfall extremes in Sarawak.",
+      "official_profile_url": "https://people.utm.my/sshahid/",
+      "email_verification_url": "https://pure.utm.my/Scholar/ScholarInfoDetails/JmOd",
+      "retrieved_date": "2026-09-04",
+      "evidence_ids": ["E01", "E02", "E08"],
+      "screening": {
+        "institution_outside_thailand": true,
+        "institution_distinct_from_author_and_other_nominees": true,
+        "official_institutional_email_observed": true,
+        "direct_coauthorship_identified_in_bounded_search": false,
+        "no_conflict_of_interest_confirmed": false,
+        "author_confirmation_required": true,
+        "specific_disclosure": "Official profile reports a 2005 postdoctoral appointment at Asian Institute of Technology, Thailand. This does not establish a conflict with Surasit but requires author review.",
+        "limitations": "Public-source non-detection does not establish absence of coauthorship, close collaboration, supervision, shared grants, personal/financial interests, or unpublished relationships. Email deliverability and willingness were not tested."
+      }
+    },
+    {
+      "name": "Tommaso Caloiero",
+      "title": "Dr; Senior Researcher (Primo Ricercatore)",
+      "department": "Research Institute for Geo-Hydrological Protection (IRPI), Rende/Cosenza",
+      "institution": "National Research Council of Italy (CNR)",
+      "country": "Italy",
+      "institutional_email": "tommaso.caloiero@cnr.it",
+      "expertise_justification": "Direct expertise in annual and seasonal rainfall trend detection, Mann-Kendall testing, and treatment of serial dependence using pre-whitening and block-bootstrap comparison.",
+      "official_profile_url": "https://www.irpi.cnr.it/persona/caloiero-tommaso/",
+      "email_verification_url": "https://www.irpi.cnr.it/persona/caloiero-tommaso/",
+      "relevant_publication": {
+        "title": "Trend detection of annual and seasonal rainfall in Calabria (Southern Italy)",
+        "journal": "International Journal of Climatology",
+        "year": 2011,
+        "doi": "10.1002/joc.2055",
+        "source_url": "https://iris.cnr.it/bitstream/20.500.14243/40146/1/prod_41762-doc_39922.pdf"
+      },
+      "retrieved_date": "2026-09-04",
+      "evidence_ids": ["E03", "E04", "E08"],
+      "screening": {
+        "institution_outside_thailand": true,
+        "institution_distinct_from_author_and_other_nominees": true,
+        "official_institutional_email_observed": true,
+        "direct_coauthorship_identified_in_bounded_search": false,
+        "no_conflict_of_interest_confirmed": false,
+        "author_confirmation_required": true,
+        "specific_disclosure": "Current official profile lists CNR-IRPI; older publications list CNR-ISAFOM. Use the current IRPI affiliation.",
+        "limitations": "Public-source non-detection does not establish absence of coauthorship, close collaboration, supervision, shared grants, personal/financial interests, or unpublished relationships. Email deliverability and willingness were not tested."
+      }
+    },
+    {
+      "name": "Robert L. Wilby",
+      "display_name": "Rob Wilby",
+      "title": "Professor of Hydroclimatic Modelling",
+      "department": "Geography and Environment",
+      "institution": "Loughborough University",
+      "country": "United Kingdom",
+      "institutional_email": "r.l.wilby@lboro.ac.uk",
+      "expertise_justification": "Hydroclimate variability, rainfall and drought/flood records; coauthor of a 2021 review on methods for detecting, attributing and managing nonstationary weather and water extremes.",
+      "official_profile_url": "https://www.lboro.ac.uk/subjects/geography-environment/staff/rob-wilby/",
+      "email_verification_url": "https://www.lboro.ac.uk/subjects/geography-environment/staff/rob-wilby/",
+      "retrieved_date": "2026-09-04",
+      "evidence_ids": ["E05", "E06", "E08"],
+      "screening": {
+        "institution_outside_thailand": true,
+        "institution_distinct_from_author_and_other_nominees": true,
+        "official_institutional_email_observed": true,
+        "direct_coauthorship_identified_in_bounded_search": false,
+        "no_conflict_of_interest_confirmed": false,
+        "author_confirmation_required": true,
+        "specific_disclosure": "Profile lists former PhD supervisee Chanita Duangyiwa (2017), whose project concerned Bangkok flood risks; author should check any relevant relationship. It also lists an honorary adjunct role at Federation University, Australia. Neither establishes a conflict with Surasit.",
+        "limitations": "Public-source non-detection does not establish absence of coauthorship, close collaboration, supervision, shared grants, personal/financial interests, or unpublished relationships. Email deliverability and willingness were not tested."
+      }
+    }
+  ],
+  "author_confirmation_checklist": [
+    "Confirm the manuscript's complete author list; repeat screening for any additional author.",
+    "Confirm no coauthorship or close collaboration within any journal-defined exclusion period, and disclose older material relationships.",
+    "Confirm no supervisor/student relationship, shared employment, grant/project, personal relationship, financial interest, or other relevant conflict.",
+    "Specifically review disclosed historical/regional links for Shahid and Wilby.",
+    "Do not state that all reviewers are conflict-free until the author has confirmed and the journal's eligibility policy has been checked."
+  ],
+  "not_selected": [
+    {
+      "name": "Ashish Sharma",
+      "reason": "Conservative omission following an indirect shared-collaborator link via Chavalit Chaleeraktrakoon (E09), not a proven disqualifying conflict."
+    },
+    {
+      "name": "Zbigniew W. Kundzewicz",
+      "reason": "Bounded official-source search did not locate an institutional email; no claim that one does not exist (E10)."
+    }
+  ],
+  "external_actions_taken": [],
+  "research_record": "reviewer_research.md"
+}
