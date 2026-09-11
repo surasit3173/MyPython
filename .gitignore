@@ -16,6 +16,10 @@ ENV/
 .tmp.driveupload/
 *.tmp
 *.temp
+research_controller/runs/*
+research_controller/results/*
+!research_controller/runs/.gitkeep
+!research_controller/results/.gitkeep
 
 # IDE / editor
 .vscode/

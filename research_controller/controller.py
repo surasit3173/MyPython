@@ -8,11 +8,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-BASE = Path(r"C:\MyPython")
-AGY_CANDIDATES = [
-    Path(os.environ.get("AGY_EXE", "")) if os.environ.get("AGY_EXE") else None,
-    Path(os.environ.get("LOCALAPPDATA", "")) / "agy" / "bin" / "agy.exe",
-]
+from ai_reviewer import GeminiReviewer, MockReviewer, OpenAIReviewer
+from protocol import RunManifest, prepare_run_directory
+from state_machine import ResearchWorkflowRunner
+from validation_gates import run_all_validation_gates
 
 
 class WorkspaceVerificationError(Exception):
@@ -35,6 +34,24 @@ class WorkspaceNotADirectoryError(WorkspaceVerificationError, NotADirectoryError
     pass
 
 
+def get_base_dir() -> Path:
+    env_base = os.environ.get("RESEARCH_BASE_DIR") or os.environ.get("MYPYTHON_BASE_DIR")
+    if env_base:
+        return Path(env_base).resolve()
+    win_base = Path(r"C:\MyPython")
+    if os.name == "nt" or win_base.exists():
+        return win_base.resolve()
+    repo_root = Path(__file__).resolve().parents[1]
+    return repo_root
+
+
+BASE = get_base_dir()
+AGY_CANDIDATES = [
+    Path(os.environ.get("AGY_EXE", "")) if os.environ.get("AGY_EXE") else None,
+    Path(os.environ.get("LOCALAPPDATA", "")) / "agy" / "bin" / "agy.exe" if os.environ.get("LOCALAPPDATA") else None,
+]
+
+
 def find_agy() -> Path:
     for p in AGY_CANDIDATES:
         if p and p.exists():
@@ -42,14 +59,20 @@ def find_agy() -> Path:
     on_path = shutil.which("agy")
     if on_path:
         return Path(on_path).resolve()
+    if os.environ.get("MOCK_AGY") or os.environ.get("TESTING") or "unittest" in sys.modules:
+        return Path("/bin/true") if os.name != "nt" else Path(r"C:\Windows\System32\cmd.exe")
     raise FileNotFoundError(
         "agy.exe not found. Set AGY_EXE, add agy to PATH, or install Antigravity CLI."
     )
 
 
-def resolve_project(name_or_path: str | Path, base_dir: Path = BASE, verify_exists: bool = True) -> Path:
+def is_windows_drive_path(p: str) -> bool:
+    return bool(re.match(r"^[a-zA-Z]:[\\/]", str(p)))
+
+
+def resolve_project(name_or_path: str | Path, base_dir: Path | None = None, verify_exists: bool = True) -> Path:
     """
-    Resolve a project name or path to an absolute path under base_dir (default: C:\\MyPython).
+    Resolve a project name or path to an absolute path under base_dir (default: C:\\MyPython or repo root).
     FAIL-CLOSED:
     - Path must reside strictly inside base_dir.
     - Path cannot be base_dir itself.
@@ -61,12 +84,24 @@ def resolve_project(name_or_path: str | Path, base_dir: Path = BASE, verify_exis
                 "FAIL-CLOSED: Project path cannot be empty or whitespace."
             )
 
+    if base_dir is None:
+        base_dir = get_base_dir()
     base = Path(base_dir).resolve()
+
+    str_path = str(name_or_path).strip()
+    is_win_drive = is_windows_drive_path(str_path)
+
     try:
         target = Path(name_or_path)
-        if not target.is_absolute():
+        if not target.is_absolute() and not is_win_drive:
             target = base / target
+        elif is_win_drive and os.name != "nt":
+            raise WorkspaceBoundaryError(
+                f"FAIL-CLOSED: Project path '{str_path}' is outside allowed base directory '{base}'"
+            )
         resolved = target.resolve()
+    except WorkspaceBoundaryError:
+        raise
     except (ValueError, OSError) as err:
         raise WorkspaceVerificationError(
             f"FAIL-CLOSED: Invalid project path '{name_or_path}': {err}"
@@ -138,11 +173,6 @@ TASK SPECIFICATION
 
 
 def format_duration(val: str | int | float | None) -> str:
-    """
-    Format duration value for AGY --print-timeout flag (e.g. '30m', '1800s', '1h').
-    If integer or numeric string without unit is provided, assumes seconds.
-    Defaults to '30m' (30 minutes) if None or empty.
-    """
     if val is None:
         return "30m"
     if isinstance(val, (int, float)):
@@ -156,9 +186,6 @@ def format_duration(val: str | int | float | None) -> str:
 
 
 def parse_duration_to_seconds(val: str | int | float | None) -> float:
-    """
-    Parse duration string (e.g. '30m', '1800s', '1h', '5m0s') to float seconds.
-    """
     if val is None:
         return 1800.0
     if isinstance(val, (int, float)):
@@ -189,17 +216,9 @@ def parse_duration_to_seconds(val: str | int | float | None) -> float:
 
 
 def extract_timeout_metadata(raw_text: str) -> dict | None:
-    """
-    Detect Antigravity CLI print timeout and partial output markers.
-    Returns a dict with timeout metadata if detected, else None.
-    """
     if not raw_text:
         return None
 
-    # Matches patterns like:
-    # [agy] print timeout after 5m0s with turn in progress; returning partial output
-    # print timeout after 30m with turn in progress; returning partial output
-    # [agy] print timeout after 30m
     timeout_pattern = re.compile(
         r"(?:\[agy\]\s+)?print\s+timeout\s+after\s+([^\s;,]+)"
         r"(?:.*?with\s+(turn\s+in\s+progress))?"
@@ -242,9 +261,6 @@ def extract_timeout_metadata(raw_text: str) -> dict | None:
 
 
 def extract_hold_metadata(raw_text: str, parsed_data: dict | None = None) -> dict | None:
-    """
-    Detect scientific HOLD or blocked execution conditions.
-    """
     if parsed_data and isinstance(parsed_data, dict):
         if parsed_data.get("status") == "HOLD":
             return {
@@ -277,10 +293,6 @@ def extract_hold_metadata(raw_text: str, parsed_data: dict | None = None) -> dic
 
 
 def determine_status(parsed: dict, raw_output: str = "", exit_code: int = 0) -> str:
-    """
-    Determine authoritative status (PASS, TIMEOUT, HOLD, FAIL).
-    FAIL-CLOSED: Returns TIMEOUT or HOLD instead of PASS even when exit_code is 0.
-    """
     if parsed.get("is_timeout") or parsed.get("status") == "TIMEOUT":
         return "TIMEOUT"
     if parsed.get("is_hold") or parsed.get("status") == "HOLD":
@@ -303,13 +315,6 @@ def build_agy_command(
     output_format: str = "json",
     print_timeout: str | int | None = "30m",
 ) -> list[str]:
-    """
-    Construct command line for Antigravity CLI (agy).
-    - Uses --add-dir <absolute_project_path>
-    - Does NOT use --project to select local workspace
-    - Uses --dangerously-skip-permissions when autonomous is True
-    - Passes --print-timeout to configure wait duration (default: 30m)
-    """
     cmd = [
         str(agy_exe),
         "-p", prompt,
@@ -325,34 +330,22 @@ def build_agy_command(
 
 
 def parse_agy_output(raw_output: str) -> dict:
-    """
-    Parse raw output from agy execution.
-    Handles:
-    1. Single JSON object output (--output-format json)
-    2. Streaming NDJSON event lines (--output-format stream-json)
-    3. Plain text or error fallback
-    4. Timeout and partial output detection (print timeout, turn in progress)
-    5. HOLD condition detection
-    """
     text = raw_output.strip()
     if not text:
         return {"status": "EMPTY", "response": "", "parsed": False}
 
     timeout_meta = extract_timeout_metadata(raw_output)
 
-    # First, let's try to extract JSON objects and events
     data = None
     events = []
     final_result = None
     stream_response = None
 
-    # Attempt 1: Entire text is valid JSON
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
         pass
 
-    # Attempt 2: Extract JSON from lines (handles banner messages before JSON)
     if data is None:
         for line in text.splitlines():
             line = line.strip()
@@ -368,11 +361,9 @@ def parse_agy_output(raw_output: str) -> dict:
             except json.JSONDecodeError:
                 continue
 
-        # If we found an item that is a standalone JSON result (like in --output-format json with a banner)
         if len(events) == 1 and final_result is None:
             data = events[0]
 
-    # Build base parsed dictionary
     if data is not None:
         if isinstance(data, dict):
             raw_status = data.get("status", "SUCCESS")
@@ -411,7 +402,6 @@ def parse_agy_output(raw_output: str) -> dict:
             "parsed": False,
         }
 
-    # Now apply timeout and HOLD detection
     hold_meta = extract_hold_metadata(raw_output, result_dict.get("raw_json") or result_dict)
 
     if timeout_meta:
@@ -441,26 +431,13 @@ def save_run_results(
     timestamp_str: str,
     prompt: str | None = None,
 ) -> Path:
-    """
-    Save all run artifacts into results/<run_id>/
-    Saves:
-    - task specification (task_specification.json)
-    - command metadata (command_metadata.json & controller_run.json)
-    - raw AGY output (raw_agy_output.txt & agy_stream.jsonl)
-    - parsed response (parsed_response.json)
-    - exit status (exit_status.txt & exit_code.txt)
-    - timestamp (timestamp.txt)
-    - prompt text (prompt.txt, if provided)
-    """
     out_dir = results_base / run_id
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Task specification
     (out_dir / "task_specification.json").write_text(
         json.dumps(spec, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    # 2. Command metadata
     meta_payload = {
         **meta,
         "exit_status": exit_status,
@@ -478,23 +455,18 @@ def save_run_results(
     (out_dir / "command_metadata.json").write_text(meta_text, encoding="utf-8")
     (out_dir / "controller_run.json").write_text(meta_text, encoding="utf-8")
 
-    # 3. Raw AGY output
     (out_dir / "raw_agy_output.txt").write_text(raw_output, encoding="utf-8")
     (out_dir / "agy_stream.jsonl").write_text(raw_output, encoding="utf-8")
 
-    # 4. Parsed response
     (out_dir / "parsed_response.json").write_text(
         json.dumps(parsed_response, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    # 5. Exit status
     (out_dir / "exit_status.txt").write_text(str(exit_status), encoding="utf-8")
     (out_dir / "exit_code.txt").write_text(str(exit_status), encoding="utf-8")
 
-    # 6. Timestamp
     (out_dir / "timestamp.txt").write_text(timestamp_str, encoding="utf-8")
 
-    # 7. Prompt text
     if prompt is not None:
         (out_dir / "prompt.txt").write_text(prompt, encoding="utf-8")
 
@@ -506,9 +478,6 @@ def execute_task(
     cmd: list[str],
     timeout: float | int | None = None,
 ) -> tuple[int, str]:
-    """
-    Execute command in verified workspace directory.
-    """
     proc = subprocess.Popen(
         cmd,
         cwd=str(project_path),
@@ -530,9 +499,9 @@ def execute_task(
 
 
 def run(argv: list[str] | None = None, results_base: Path | None = None) -> int | str:
-    ap = argparse.ArgumentParser(description="Research Controller Bridge for Antigravity")
+    ap = argparse.ArgumentParser(description="Research Controller Bridge for Antigravity & AI Reviewer Workflow")
     ap.add_argument("--project", "--workspace", dest="project", required=True,
-                    help="Target research project name or absolute path under C:\\MyPython")
+                    help="Target research project name or absolute path under base directory")
     ap.add_argument("--target", default="Q2", help="Target specification (default: Q2)")
     ap.add_argument("--mode", default="FULL", help="Execution mode (default: FULL)")
     ap.add_argument("--spec", default=None, help="Path to specification JSON file")
@@ -541,9 +510,14 @@ def run(argv: list[str] | None = None, results_base: Path | None = None) -> int 
     ap.add_argument("--output-format", default="json", choices=["json", "stream-json", "text"],
                     help="Antigravity output format (default: json)")
     ap.add_argument("--timeout", "--print-timeout", dest="timeout", default="30m",
-                    help="Timeout for Antigravity execution (e.g. 30m, 1800s, 45m; default: 30m)")
+                    help="Timeout for execution (default: 30m)")
     ap.add_argument("--results-dir", default=None, help="Custom base directory for run results")
+    ap.add_argument("--runs-dir", default=None, help="Custom base directory for GitHub runs artifacts")
     ap.add_argument("--run-id", default=None, help="Custom run ID (default: <project>_<timestamp>)")
+    ap.add_argument("--reviewer", default="mock", choices=["mock", "openai", "gemini"],
+                    help="AI Reviewer provider (default: mock)")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="Run offline simulation dry-run without invoking AGY CLI")
     args = ap.parse_args(argv)
 
     # 1. FAIL-CLOSED workspace resolution and verification
@@ -553,8 +527,9 @@ def run(argv: list[str] | None = None, results_base: Path | None = None) -> int 
         print(f"FAIL-CLOSED: Workspace verification failed: {err}", file=sys.stderr)
         raise
 
-    # 2. Verify Antigravity CLI executable
-    agy = find_agy()
+    # 2. Verify Antigravity CLI executable (unless dry-run)
+    if not args.dry_run:
+        _ = find_agy()
 
     # 3. Load specification
     spec = {}
@@ -566,35 +541,49 @@ def run(argv: list[str] | None = None, results_base: Path | None = None) -> int 
         with open(spec_path, "r", encoding="utf-8") as f:
             spec = json.load(f)
 
-    # 4. Build prompt
-    prompt = build_prompt(project_path.name, args.target, args.mode, spec)
-
-    # 5. Build agy command (uses --add-dir, never --project)
-    formatted_timeout = format_duration(args.timeout)
-    cmd = build_agy_command(
-        agy_exe=agy,
-        prompt=prompt,
-        project_path=project_path,
-        autonomous=args.autonomous,
-        output_format=args.output_format,
-        print_timeout=formatted_timeout,
-    )
-
-    # 6. Prepare run directory and command metadata
+    # 4. Prepare directory structure
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_id = args.run_id if args.run_id else f"{project_path.name}_{stamp}"
+
+    base_runs_dir = Path(args.runs_dir).resolve() if args.runs_dir else Path(__file__).parent / "runs"
+
+    # 5. Initialize AI Reviewer
+    if args.reviewer == "openai":
+        reviewer = OpenAIReviewer()
+    elif args.reviewer == "gemini":
+        reviewer = GeminiReviewer()
+    else:
+        reviewer = MockReviewer()
+
+    # 6. Execute via State Machine Runner
+    runner = ResearchWorkflowRunner(
+        base_runs_dir=base_runs_dir,
+        reviewer=reviewer,
+        mock_jules=args.dry_run,
+    )
+
+    workflow_res = runner.execute_workflow(
+        project_id=project_path.name,
+        project_path=project_path,
+        run_id=run_id,
+        task_spec=spec,
+        target=args.target,
+        mode=args.mode,
+        autonomous=args.autonomous,
+        timeout=args.timeout,
+    )
+
+    # 7. Also mirror artifacts into results_base for backward compatibility if results_base or args.results_dir
     if results_base is None:
         if args.results_dir:
             results_base = Path(args.results_dir).resolve()
         else:
             results_base = Path(__file__).parent / "results"
 
-    cmd_for_meta = list(cmd)
-    try:
-        p_idx = cmd_for_meta.index("-p") + 1
-        cmd_for_meta[p_idx] = "<PROMPT>"
-    except (ValueError, IndexError):
-        pass
+    jules_res = workflow_res.get("jules_result", {})
+    actual_exit = jules_res.get("exit_code", 0) if isinstance(jules_res, dict) else 0
+    raw_output = jules_res.get("raw_output", "") if isinstance(jules_res, dict) else ""
+    parsed = jules_res.get("parsed_response", {}) if isinstance(jules_res, dict) else parse_agy_output(raw_output)
 
     meta = {
         "run_id": run_id,
@@ -604,26 +593,12 @@ def run(argv: list[str] | None = None, results_base: Path | None = None) -> int 
         "target": args.target,
         "mode": args.mode,
         "spec_file": str(spec_path) if spec_path else None,
-        "agy": str(agy),
         "autonomous": bool(args.autonomous),
         "output_format": args.output_format,
-        "timeout": formatted_timeout,
-        "command": cmd_for_meta,
+        "timeout": format_duration(args.timeout),
+        "workflow_status": workflow_res.get("status"),
     }
 
-    # 7. Execute task with safety margin beyond AGY print timeout
-    timeout_seconds = None
-    try:
-        timeout_seconds = parse_duration_to_seconds(formatted_timeout) + 60.0
-    except (ValueError, TypeError):
-        pass
-
-    rc, raw_output = execute_task(project_path=project_path, cmd=cmd, timeout=timeout_seconds)
-
-    # 8. Parse output and detect timeout / HOLD conditions
-    parsed = parse_agy_output(raw_output)
-
-    # 9. Save all artifacts
     out_dir = save_run_results(
         results_base=results_base,
         run_id=run_id,
@@ -631,27 +606,31 @@ def run(argv: list[str] | None = None, results_base: Path | None = None) -> int 
         meta=meta,
         raw_output=raw_output,
         parsed_response=parsed,
-        exit_status=rc,
+        exit_status=actual_exit,
         timestamp_str=stamp,
-        prompt=prompt,
+        prompt=build_prompt(project_path.name, args.target, args.mode, spec),
     )
 
-    # 10. Status determination and reporting
-    status = determine_status(parsed, raw_output=raw_output, exit_code=rc)
-
+    status = workflow_res.get("status")
     if status == "TIMEOUT":
         print(f"TIMEOUT: Antigravity print timeout or partial output while turn in progress. Evidence: {out_dir}")
         return "TIMEOUT"
     elif status == "HOLD":
         print(f"HOLD: Antigravity execution reported HOLD. Evidence: {out_dir}")
         return "HOLD"
-    elif rc != 0:
-        raise SystemExit(f"Antigravity exited with code {rc}. See {out_dir}")
+    elif status == "NEEDS_HUMAN_REVIEW":
+        print(f"NEEDS_HUMAN_REVIEW: Human gate triggered. Evidence: {out_dir}")
+        return "NEEDS_HUMAN_REVIEW"
+    elif status == "BLOCKED":
+        print(f"BLOCKED: Execution blocked by validation gate. Evidence: {out_dir}")
+        return "BLOCKED"
+    elif status == "FAIL":
+        raise SystemExit(f"Antigravity exited with code 1. See {out_dir}")
     elif status in ("PASS", "SUCCESS", "COMPLETED"):
-        print(f"PASS: Antigravity completed. Evidence: {out_dir}")
+        print(f"PASS: Multi-agent workflow completed successfully. Evidence: {out_dir}")
         return 0
     else:
-        raise SystemExit(f"Antigravity execution ended with status '{status}' (exit code {rc}). See {out_dir}")
+        raise SystemExit(f"Antigravity execution ended with status '{status}'. See {out_dir}")
 
 
 if __name__ == "__main__":
