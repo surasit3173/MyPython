@@ -1,0 +1,9 @@
+{
+  "source": "NOAA Physical Sciences Laboratory (PSL) ONI Mirror",
+  "url": "https://psl.noaa.gov/data/correlation/oni.data",
+  "access_date": "2026-09-12",
+  "sha256": "7a1893f0d92f96090940ccb5352d7a3413ff217af4e4278af76fd05515a34753",
+  "local_file": "oni.data",
+  "threshold_c": 0.5,
+  "persistence_seasons": 5
+}
