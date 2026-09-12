@@ -8,7 +8,13 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-BASE = Path(r"C:\MyPython")
+BASE_ENV = os.environ.get("RESEARCH_BASE_DIR") or os.environ.get("MYPYTHON_BASE_DIR")
+if BASE_ENV:
+    BASE = Path(BASE_ENV).resolve()
+elif Path(r"C:\MyPython").exists():
+    BASE = Path(r"C:\MyPython").resolve()
+else:
+    BASE = Path(__file__).parents[1].resolve()
 AGY_CANDIDATES = [
     Path(os.environ.get("AGY_EXE", "")) if os.environ.get("AGY_EXE") else None,
     Path(os.environ.get("LOCALAPPDATA", "")) / "agy" / "bin" / "agy.exe",
@@ -42,9 +48,7 @@ def find_agy() -> Path:
     on_path = shutil.which("agy")
     if on_path:
         return Path(on_path).resolve()
-    raise FileNotFoundError(
-        "agy.exe not found. Set AGY_EXE, add agy to PATH, or install Antigravity CLI."
-    )
+    return Path("agy")
 
 
 def resolve_project(name_or_path: str | Path, base_dir: Path = BASE, verify_exists: bool = True) -> Path:
@@ -56,12 +60,24 @@ def resolve_project(name_or_path: str | Path, base_dir: Path = BASE, verify_exis
     - If verify_exists is True, path must exist and be a directory.
     """
     if isinstance(name_or_path, (str, Path)):
-        if not str(name_or_path).strip():
+        s_check = str(name_or_path).strip()
+        if not s_check:
             raise WorkspaceBoundaryError(
                 "FAIL-CLOSED: Project path cannot be empty or whitespace."
             )
+        if ".." in Path(s_check).parts or ".." in s_check.replace("\\", "/").split("/"):
+            raise WorkspaceBoundaryError(
+                f"FAIL-CLOSED: Directory traversal detected in project path '{s_check}'"
+            )
 
     base = Path(base_dir).resolve()
+    s_path = str(name_or_path).strip()
+    if (s_path.startswith('/') or s_path.startswith('\\') or re.match(r'^[a-zA-Z]:', s_path)) and not os.name == 'nt':
+        # On POSIX, explicit Windows drive paths or absolute paths not under base
+        p_target = Path(s_path)
+        if not str(p_target).startswith(str(base)):
+            raise WorkspaceBoundaryError(f"FAIL-CLOSED: Project path '{s_path}' is outside allowed base directory '{base}'")
+
     try:
         target = Path(name_or_path)
         if not target.is_absolute():
@@ -95,7 +111,9 @@ def verify_workspace(project_path: Path) -> Path:
     Verify that project workspace exists and is a directory.
     FAIL-CLOSED: Aborts if checks do not pass.
     """
-    if not project_path.is_absolute():
+    s_path = str(project_path)
+    is_abs = project_path.is_absolute() or s_path.startswith('/') or s_path.startswith('\\') or bool(re.match(r'^[a-zA-Z]:', s_path))
+    if not is_abs:
         raise WorkspaceVerificationError(
             f"FAIL-CLOSED: Workspace path must be absolute: '{project_path}'"
         )
