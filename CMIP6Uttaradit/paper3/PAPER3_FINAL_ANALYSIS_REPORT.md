@@ -4,7 +4,7 @@
 ### 1. Executive Summary
 - **Project Scope:** `CMIP6Uttaradit/paper3/`
 - **Execution Status:** PASS (All acceptance gates P3-A through P3-H verified)
-- **Primary Finding:** Quantile Delta Mapping (QDM) successfully preserves raw CMIP6 model simulated ENSO responses ($PE_{ENSO} = 62.17\%$) while correcting marginal climatological biases across 13 rain gauges in Uttaradit.
+- **Primary Finding:** Quantile Delta Mapping (QDM) preserves raw CMIP6 directional ENSO responses while amplifying response magnitude ($PE_{ENSO} = 62.17\%$), moving model simulations closer to observed gauge variability in Uttaradit.
 
 ### 2. Verified Data Inventory
 - **Rain Gauges:** 13 stations (351001–351012, 351201)
