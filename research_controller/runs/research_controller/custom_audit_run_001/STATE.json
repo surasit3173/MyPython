@@ -1,0 +1,97 @@
+{
+  "project_id": "research_controller",
+  "run_id": "custom_audit_run_001",
+  "current_state": "FINAL",
+  "completed_states": [
+    "SPEC_VALIDATION",
+    "JULES_EXECUTION",
+    "JULES_VALIDATION",
+    "AI_REVIEW"
+  ],
+  "timestamp": "2026-09-12T07:20:15.822322+00:00",
+  "jules_result": {
+    "status": "PASS",
+    "exit_code": 0,
+    "raw_output": "{\"status\": \"SUCCESS\", \"response\": \"Custom run ID completed.\"}",
+    "parsed_response": {
+      "status": "SUCCESS",
+      "response": "Custom run ID completed.",
+      "raw_json": {
+        "status": "SUCCESS",
+        "response": "Custom run ID completed."
+      },
+      "parsed": true
+    },
+    "prompt": "You are the Antigravity execution engine for a research-quality audit.\n\nPROJECT: research_controller\nTARGET: Q2\nMODE: FULL\n\nAUTHORITATIVE EXECUTION RULES\n1. Work only inside the specified project workspace and its declared inputs.\n2. Treat frozen evidence and authoritative outputs as immutable unless the task explicitly\n   requests a correction.\n3. Never fabricate data, references, statistics, figures, provenance, or missing outputs.\n4. Do not silently convert UNKNOWN/HYPOTHESIS/INFERRED into FACT.\n5. Run tests and validation before declaring PASS.\n6. If an unresolved scientific contradiction or missing authoritative input is found,\n   stop that branch and report HOLD rather than inventing a solution.\n7. Do not submit, publish, upload, or contact an external service.\n8. Do not delete original datasets or frozen evidence.\n9. Produce machine-readable evidence.json and human-readable audit_report.md.\n10. Return a concise execution summary plus exact artifact paths.\n\nTASK SPECIFICATION\n{}"
+  },
+  "validation_results": {
+    "overall_status": "PASS",
+    "gates": {
+      "DATA_GATE": {
+        "gate_name": "DATA_GATE",
+        "status": "PASS",
+        "message": "Data files verified for existence, non-empty size, and readability.",
+        "evidence": {
+          "file_count": 20,
+          "total_bytes": 129511
+        }
+      },
+      "CODE_GATE": {
+        "gate_name": "CODE_GATE",
+        "status": "PASS",
+        "message": "Code syntax check and execution results verified without errors.",
+        "evidence": {
+          "exit_code": 0
+        }
+      },
+      "NUMERICAL_GATE": {
+        "gate_name": "NUMERICAL_GATE",
+        "status": "PASS",
+        "message": "Numerical sanity checks passed (no NaN, Inf, or negative variance).",
+        "evidence": {
+          "status": "SUCCESS",
+          "response": "Custom run ID completed.",
+          "raw_json": {
+            "status": "SUCCESS",
+            "response": "Custom run ID completed."
+          },
+          "parsed": true
+        }
+      },
+      "SCIENTIFIC_GATE": {
+        "gate_name": "SCIENTIFIC_GATE",
+        "status": "PASS",
+        "message": "Scientific integrity rules satisfied without contradictions or holds.",
+        "evidence": {}
+      },
+      "MANUSCRIPT_GATE": {
+        "gate_name": "MANUSCRIPT_GATE",
+        "status": "NOT_APPLICABLE",
+        "message": "No manuscript specification provided for evaluation.",
+        "evidence": {}
+      },
+      "REPRODUCIBILITY_GATE": {
+        "gate_name": "REPRODUCIBILITY_GATE",
+        "status": "PASS",
+        "message": "Run manifest contains complete metadata for reproducibility.",
+        "evidence": {
+          "project_id": "research_controller",
+          "run_id": "custom_audit_run_001",
+          "task_id": "default_task",
+          "git_commit": null
+        }
+      }
+    }
+  },
+  "review_result": {
+    "REVIEW_STATUS": "PASS",
+    "FINDINGS": "All research artifacts and validation checks passed.",
+    "REQUIRED_ACTIONS": [],
+    "EVIDENCE": {
+      "project_id": "research_controller",
+      "run_id": "custom_audit_run_001",
+      "validation_overall_status": "PASS",
+      "jules_status": "PASS"
+    }
+  }
+}
