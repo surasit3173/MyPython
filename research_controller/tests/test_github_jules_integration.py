@@ -132,7 +132,7 @@ class TestGitHubClientAuthorizationAndOperations(unittest.TestCase):
 
         # 3. ADD_PR_COMMENT
         pr_comment_res = self.client.add_pr_comment(repo, 12, "PR Comment body", authorization="EXPLICIT_HUMAN_AUTHORIZED")
-        self.assertEqual(pr_comment_res["operation"], "ADD_ISSUE_COMMENT")
+        self.assertEqual(pr_comment_res["operation"], "ADD_PR_COMMENT")
         self.assertEqual(pr_comment_res["status"], "DRY_RUN_SUCCESS")
 
         # 4. GET_PR
@@ -163,6 +163,35 @@ class TestGitHubClientAuthorizationAndOperations(unittest.TestCase):
         # Invalid commit SHA
         with self.assertRaises(GitHubClientError):
             self.client.get_commit(repo, "invalid_sha")
+
+
+
+    def test_add_pr_comment_explicit_regression(self):
+        # 1. Validates operation ADD_PR_COMMENT and reports operation="ADD_PR_COMMENT" in dry-run
+        repo = "surasit3173/MyPython"
+        dry_res = self.client.add_pr_comment(repo, 42, "PR comment", authorization="EXPLICIT_HUMAN_AUTHORIZED")
+        self.assertEqual(dry_res["operation"], "ADD_PR_COMMENT")
+        self.assertEqual(dry_res["pr_number"], 42)
+        self.assertEqual(dry_res["status"], "DRY_RUN_SUCCESS")
+
+        # 2. Requires EXPLICIT_HUMAN_AUTHORIZED
+        with self.assertRaises(GitHubAuthorizationError):
+            self.client.add_pr_comment(repo, 42, "PR comment", authorization="UNAUTHORIZED")
+
+        # 3. Executes correct HTTP POST endpoint
+        with patch("urllib.request.urlopen") as mock_urlopen:
+            mock_resp = MagicMock()
+            mock_resp.read.return_value = json.dumps({"id": 999, "body": "PR comment"}).encode("utf-8")
+            mock_urlopen.return_value.__enter__.return_value = mock_resp
+
+            live_client = GitHubClient(token="ghp_validtoken123456789012345678901234", dry_run=False)
+            res = live_client.add_pr_comment(repo, 42, "PR comment", authorization="EXPLICIT_HUMAN_AUTHORIZED")
+
+            self.assertEqual(res["id"], 999)
+            mock_urlopen.assert_called_once()
+            req = mock_urlopen.call_args[0][0]
+            self.assertEqual(req.get_method(), "POST")
+            self.assertIn("/repos/surasit3173/MyPython/issues/42/comments", req.full_url)
 
 
 class TestGitHubClientHttpExecution(unittest.TestCase):

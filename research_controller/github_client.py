@@ -312,8 +312,30 @@ class GitHubClient:
         """
         Add a comment to a GitHub PR (GitHub issue comment endpoint handles both Issues and PRs).
         """
+        repo = validate_repository_name(repository)
+        if not isinstance(pr_number, int) or pr_number <= 0:
+            raise GitHubClientError(f"FAIL-CLOSED: PR number must be a positive integer, got '{pr_number}'.")
+
         self.validate_operation("ADD_PR_COMMENT")
-        return self.add_issue_comment(repository=repository, issue_number=pr_number, body=body, authorization=authorization)
+
+        if authorization != "EXPLICIT_HUMAN_AUTHORIZED":
+            raise GitHubAuthorizationError("FAIL-CLOSED: Write operation requires authorization 'EXPLICIT_HUMAN_AUTHORIZED'.")
+
+        payload = {"body": body}
+
+        if self.dry_run:
+            return {
+                "dry_run": True,
+                "operation": "ADD_PR_COMMENT",
+                "repository": repo,
+                "pr_number": pr_number,
+                "intended_payload": payload,
+                "authorization": authorization,
+                "status": "DRY_RUN_SUCCESS",
+            }
+
+        endpoint = f"/repos/{repo}/issues/{pr_number}/comments"
+        return self._request("POST", endpoint, payload=payload, authorization=authorization, operation="ADD_PR_COMMENT")
 
     def get_pr(self, repository: str, pr_number: int) -> Dict[str, Any]:
         """
