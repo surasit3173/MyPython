@@ -100,13 +100,23 @@ def send_jules_task(
 
     # 8. Dispatch based on target_type
     try:
-        if target_type in ("ISSUE_COMMENT", "PR_COMMENT"):
+        if target_type == "ISSUE_COMMENT":
             if not isinstance(target_id, int) or target_id <= 0:
-                raise ValueError(f"FAIL-CLOSED: Target ID (issue/PR number) must be a positive integer, got '{target_id}'.")
+                raise ValueError(f"FAIL-CLOSED: Target ID (issue number) must be a positive integer, got '{target_id}'.")
 
             api_result = gh_client.add_issue_comment(
                 repository=valid_repo,
                 issue_number=target_id,
+                body=formatted_message,
+                authorization=authorization,
+            )
+        elif target_type == "PR_COMMENT":
+            if not isinstance(target_id, int) or target_id <= 0:
+                raise ValueError(f"FAIL-CLOSED: Target ID (PR number) must be a positive integer, got '{target_id}'.")
+
+            api_result = gh_client.add_pr_comment(
+                repository=valid_repo,
+                pr_number=target_id,
                 body=formatted_message,
                 authorization=authorization,
             )

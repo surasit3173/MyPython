@@ -314,5 +314,41 @@ class TestJulesBridge(unittest.TestCase):
             )
 
 
+
+    def test_send_jules_task_pr_comment_routing_regression(self):
+        client = MagicMock(spec=GitHubClient)
+        client.dry_run = True
+        client.add_pr_comment.return_value = {
+            "dry_run": True,
+            "operation": "ADD_PR_COMMENT",
+            "repository": "surasit3173/MyPython",
+            "pr_number": 99,
+            "status": "DRY_RUN_SUCCESS",
+        }
+
+        res = send_jules_task(
+            repository="surasit3173/MyPython",
+            task="Fix PR comment routing",
+            scope="research_controller",
+            authorization="EXPLICIT_HUMAN_AUTHORIZED",
+            target_type="PR_COMMENT",
+            target_id=99,
+            client=client,
+        )
+
+        client.add_pr_comment.assert_called_once()
+        client.add_issue_comment.assert_not_called()
+
+        call_args = client.add_pr_comment.call_args[1]
+        self.assertEqual(call_args["repository"], "surasit3173/MyPython")
+        self.assertEqual(call_args["pr_number"], 99)
+        self.assertEqual(call_args["authorization"], "EXPLICIT_HUMAN_AUTHORIZED")
+        self.assertIn("@jules", call_args["body"])
+        self.assertIn("Project Scope: research_controller", call_args["body"])
+
+        self.assertEqual(res["status"], "DRY_RUN_SUCCESS")
+        self.assertEqual(res["github_result"]["operation"], "ADD_PR_COMMENT")
+
+
 if __name__ == "__main__":
     unittest.main()
