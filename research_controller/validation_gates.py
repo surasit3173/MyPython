@@ -124,12 +124,21 @@ class CodeGate:
     """
     Validates Python code syntax via AST parsing and execution/test results.
     Deterministic verification: parses Python files directly within project_path
-    for syntax errors.
+    for syntax errors and requires explicit execution_result evidence.
     """
 
     def evaluate(self, project_path: Path, execution_result: Optional[Dict[str, Any]] = None) -> GateResult:
         if not isinstance(project_path, Path):
             project_path = Path(project_path)
+
+        # Require execution_result evidence — FAIL CLOSED if missing
+        if execution_result is None or not isinstance(execution_result, dict):
+            return GateResult(
+                gate_name="CODE_GATE",
+                status="FAIL",
+                message="FAIL-CLOSED: Execution result evidence is required but missing.",
+                evidence={},
+            )
 
         # 1. AST Syntax validation on python files directly in project_path
         if project_path.exists() and project_path.is_dir():
@@ -162,21 +171,20 @@ class CodeGate:
                 )
 
         # 2. Execution / Test suite status check
-        if execution_result:
-            exit_code = execution_result.get("exit_code", 0)
-            if exit_code != 0:
-                return GateResult(
-                    gate_name="CODE_GATE",
-                    status="FAIL",
-                    message=f"FAIL-CLOSED: Code execution or test suite failed with exit code {exit_code}.",
-                    evidence=execution_result,
-                )
+        exit_code = execution_result.get("exit_code")
+        if exit_code is None or exit_code != 0:
+            return GateResult(
+                gate_name="CODE_GATE",
+                status="FAIL",
+                message=f"FAIL-CLOSED: Code execution or test suite failed or missing valid exit_code (exit_code={exit_code}).",
+                evidence=execution_result,
+            )
 
         return GateResult(
             gate_name="CODE_GATE",
             status="PASS",
             message="Code syntax check and execution results verified without errors.",
-            evidence=execution_result or {},
+            evidence=execution_result,
         )
 
 
@@ -345,6 +353,7 @@ class ManuscriptGate:
 class ReproducibilityGate:
     """
     Validates manifest completeness and required environment/artifact metadata for reproducibility.
+    Requires non-empty git_commit.
     """
 
     def evaluate(self, manifest_data: Dict[str, Any]) -> GateResult:
@@ -355,14 +364,14 @@ class ReproducibilityGate:
                 message="FAIL-CLOSED: Manifest data is missing or empty.",
             )
 
-        required_keys = ["project_id", "run_id", "task_id", "status", "timestamp"]
-        missing_keys = [k for k in required_keys if not manifest_data.get(k)]
+        required_keys = ["project_id", "run_id", "task_id", "status", "timestamp", "git_commit"]
+        missing_keys = [k for k in required_keys if not manifest_data.get(k) or not str(manifest_data.get(k)).strip()]
 
         if missing_keys:
             return GateResult(
                 gate_name="REPRODUCIBILITY_GATE",
                 status="FAIL",
-                message=f"FAIL-CLOSED: Run manifest missing required reproducibility key(s): {missing_keys}",
+                message=f"FAIL-CLOSED: Run manifest missing required reproducibility key(s) or non-empty git_commit: {missing_keys}",
                 evidence={"missing_keys": missing_keys, "manifest": manifest_data},
             )
 

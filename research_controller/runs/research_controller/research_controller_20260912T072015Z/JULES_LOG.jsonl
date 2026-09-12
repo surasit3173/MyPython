@@ -1,1 +1,0 @@
-{"timestamp": "2026-09-12T07:20:15.865705+00:00", "run_id": "research_controller_20260912T072015Z", "exit_code": 0, "status": "PASS", "raw_output": "{\"status\": \"SUCCESS\", \"response\": \"OK\"}", "parsed_response": {"status": "SUCCESS", "response": "OK", "raw_json": {"status": "SUCCESS", "response": "OK"}, "parsed": true}}

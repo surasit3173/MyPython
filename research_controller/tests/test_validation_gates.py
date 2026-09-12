@@ -45,11 +45,19 @@ class TestValidationGates(unittest.TestCase):
             res = DataGate().evaluate(tmp_path)
             self.assertEqual(res.status, "PASS")
 
+    def test_code_gate_missing_execution_result_fail_closed(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp_path = Path(tmpdir)
+            (tmp_path / "valid.py").write_text("x = 1", encoding="utf-8")
+            res = CodeGate().evaluate(tmp_path, execution_result=None)
+            self.assertEqual(res.status, "FAIL")
+            self.assertIn("missing", res.message)
+
     def test_code_gate_syntax_error(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmp_path = Path(tmpdir)
             (tmp_path / "invalid_syntax.py").write_text("def broken_func(:", encoding="utf-8")
-            res = CodeGate().evaluate(tmp_path)
+            res = CodeGate().evaluate(tmp_path, execution_result={"exit_code": 0})
             self.assertEqual(res.status, "FAIL")
             self.assertIn("Python syntax errors detected", res.message)
 
@@ -59,7 +67,7 @@ class TestValidationGates(unittest.TestCase):
             (tmp_path / "valid.py").write_text("x = 1", encoding="utf-8")
             res = CodeGate().evaluate(tmp_path, execution_result={"exit_code": 1, "error": "Crash"})
             self.assertEqual(res.status, "FAIL")
-            self.assertIn("exit code 1", res.message)
+            self.assertIn("exit_code=1", res.message)
 
     def test_numerical_gate_negative_variance(self):
         res = NumericalGate().evaluate({"temperature_variance": -0.05})
@@ -107,18 +115,27 @@ class TestValidationGates(unittest.TestCase):
         })
         self.assertEqual(res_valid.status, "PASS")
 
-    def test_reproducibility_gate(self):
-        # Missing keys -> FAIL
-        res_inc = ReproducibilityGate().evaluate({"project_id": "P1"})
-        self.assertEqual(res_inc.status, "FAIL")
+    def test_reproducibility_gate_requires_git_commit(self):
+        # Missing git_commit -> FAIL
+        res_no_commit = ReproducibilityGate().evaluate({
+            "project_id": "P1",
+            "run_id": "R1",
+            "task_id": "T1",
+            "status": "PASS",
+            "timestamp": "2026-09-12T00:00:00Z",
+            "git_commit": "",
+        })
+        self.assertEqual(res_no_commit.status, "FAIL")
+        self.assertIn("git_commit", res_no_commit.message)
 
-        # Complete -> PASS
+        # Valid git_commit -> PASS
         res_ok = ReproducibilityGate().evaluate({
             "project_id": "P1",
             "run_id": "R1",
             "task_id": "T1",
             "status": "PASS",
             "timestamp": "2026-09-12T00:00:00Z",
+            "git_commit": "5f4f2dc",
         })
         self.assertEqual(res_ok.status, "PASS")
 

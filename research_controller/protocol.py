@@ -7,7 +7,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 
 class ArtifactPathError(ValueError):
@@ -47,6 +47,40 @@ def validate_path_component(component: Any, name: str) -> str:
             raise ArtifactPathError(f"FAIL-CLOSED: {name} contains path traversal or invalid component '{part}': '{component}'")
 
     return s
+
+
+def verify_canonical_containment(target_path: Path, base_runs_dir: Optional[Path] = None) -> Tuple[Path, Path]:
+    """
+    Ensures target_path resolves strictly within base_runs_dir (or infer base directory if run_dir passed).
+    FAIL-CLOSED if outside.
+    """
+    resolved_target = Path(target_path).resolve()
+
+    if base_runs_dir is not None:
+        base = Path(base_runs_dir)
+    else:
+        # If no explicit base_runs_dir passed, derive from target_path root or default 'runs'
+        if len(resolved_target.parents) >= 2:
+            base = resolved_target.parents[1]
+        elif len(resolved_target.parents) >= 1:
+            base = resolved_target.parents[0]
+        else:
+            base = Path("runs")
+
+    base.mkdir(parents=True, exist_ok=True)
+    resolved_base = base.resolve()
+
+    try:
+        resolved_target.relative_to(resolved_base)
+    except ValueError:
+        raise ArtifactPathError(
+            f"FAIL-CLOSED: Path '{resolved_target}' is outside authorized root '{resolved_base}'."
+        )
+
+    if resolved_target == resolved_base:
+        raise ArtifactPathError("FAIL-CLOSED: Target path cannot be the root directory itself.")
+
+    return resolved_target, resolved_base
 
 
 class RunManifest:
@@ -100,8 +134,8 @@ class RunManifest:
             "next_action": self.next_action,
         }
 
-    def save(self, run_dir: Path) -> Path:
-        resolved_run_dir = Path(run_dir).resolve()
+    def save(self, run_dir: Path, base_runs_dir: Optional[Path] = None) -> Path:
+        resolved_run_dir, _ = verify_canonical_containment(run_dir, base_runs_dir=base_runs_dir)
         resolved_run_dir.mkdir(parents=True, exist_ok=True)
         manifest_path = resolved_run_dir / "RUN_MANIFEST.json"
         manifest_path.write_text(
@@ -157,17 +191,7 @@ def prepare_run_directory(base_runs_dir: Path, project_id: str, run_id: str) -> 
     resolved_base = base_runs_path.resolve()
 
     target_path = resolved_base.joinpath(*valid_project.split("/"), valid_run)
-    resolved_target = target_path.resolve()
-
-    try:
-        resolved_target.relative_to(resolved_base)
-    except ValueError:
-        raise ArtifactPathError(
-            f"FAIL-CLOSED: Target run directory '{resolved_target}' is outside base runs directory '{resolved_base}'."
-        )
-
-    if resolved_target == resolved_base:
-        raise ArtifactPathError("FAIL-CLOSED: Target run directory cannot be the base runs directory itself.")
+    resolved_target, _ = verify_canonical_containment(target_path, base_runs_dir=resolved_base)
 
     dirs = {
         "run_dir": resolved_target,

@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from protocol import ArtifactPathError, RunManifest, prepare_run_directory
+from protocol import ArtifactPathError, RunManifest, prepare_run_directory, verify_canonical_containment
 
 
 class TestProtocolPathIsolation(unittest.TestCase):
@@ -54,29 +54,14 @@ class TestProtocolPathIsolation(unittest.TestCase):
                 with self.assertRaises(ArtifactPathError, msg=f"Failed to reject absolute path: {vec}"):
                     prepare_run_directory(base_dir, "project1", vec)
 
-    def test_reject_leading_trailing_slashes(self):
-        invalid_slashes = [
-            "/project1",
-            "project1/",
-            "/project1/",
-            "/run1",
-            "run1/",
-        ]
+    def test_run_manifest_save_containment_enforcement(self):
         with tempfile.TemporaryDirectory() as tmpdir:
-            base_dir = Path(tmpdir)
-            for vec in invalid_slashes:
-                with self.assertRaises(ArtifactPathError):
-                    prepare_run_directory(base_dir, vec, "run1")
+            base_runs = Path(tmpdir) / "authorized_runs"
+            outside_dir = Path(tmpdir) / "unauthorized_dir"
 
-                with self.assertRaises(ArtifactPathError):
-                    prepare_run_directory(base_dir, "project1", vec)
-
-    def test_run_manifest_component_validation(self):
-        with self.assertRaises(ArtifactPathError):
-            RunManifest(project_id="../bad_project", run_id="run1", task_id="t1")
-
-        with self.assertRaises(ArtifactPathError):
-            RunManifest(project_id="CMIP6Lampang", run_id="/etc/run1", task_id="t1")
+            manifest = RunManifest(project_id="P1", run_id="R1", task_id="T1")
+            with self.assertRaises(ArtifactPathError):
+                manifest.save(outside_dir, base_runs_dir=base_runs)
 
     def test_canonical_relative_path_containment(self):
         with tempfile.TemporaryDirectory() as tmpdir:

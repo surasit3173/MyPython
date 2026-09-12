@@ -13,6 +13,7 @@ States:
 """
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -35,6 +36,10 @@ class ResearchWorkflowRunner:
         "override_data",
         "recalibrate_model",
         "modify_historical_records",
+        "alter_parameters",
+        "update_baseline",
+        "recalibrate",
+        "modify_methodology",
     ]
 
     def __init__(
@@ -46,27 +51,50 @@ class ResearchWorkflowRunner:
     ):
         self.base_runs_dir = base_runs_dir or Path("runs")
         self.base_runs_dir.mkdir(parents=True, exist_ok=True)
-        self.reviewer = reviewer or MockReviewer(preset_status="PASS")
+        self.reviewer = reviewer  # May be None if not provided
         self.jules_adapter = jules_adapter or JulesAdapter(mock_mode=mock_jules)
 
     def is_human_review_required(self, task_spec: Dict[str, Any]) -> Tuple[bool, List[str]]:
         """
         Detects if specification attempts to modify locked statistical baselines,
-        historical data, or core scientific methodologies.
+        historical data, or core scientific methodologies across direct keys, nested keys, and text fields.
         """
         triggers_found = []
 
-        # Direct flags check
+        def inspect_spec(data: Any, prefix: str = ""):
+            if isinstance(data, dict):
+                for k, v in data.items():
+                    k_lower = k.lower()
+                    if v is True and any(tr in k_lower for tr in ["baseline", "methodology", "recalibrate", "override", "historical", "parameter"]):
+                        triggers_found.append(f"{prefix}{k}")
+                    if isinstance(v, (str, dict, list)):
+                        inspect_spec(v, prefix=f"{prefix}{k}.")
+            elif isinstance(data, list):
+                for idx, item in enumerate(data):
+                    inspect_spec(item, prefix=f"{prefix}[{idx}].")
+            elif isinstance(data, str):
+                text_lower = data.lower()
+                patterns = [
+                    r"\brecalibrate\b",
+                    r"\boverride methodology\b",
+                    r"\bchange baseline\b",
+                    r"\balter parameter\b",
+                    r"\bmodify historical\b",
+                    r"\bre-calibrate\b",
+                    r"\bmethodology change\b",
+                ]
+                for pat in patterns:
+                    if re.search(pat, text_lower):
+                        triggers_found.append(f"text_matched:{pat}")
+
+        inspect_spec(task_spec)
+
+        # Direct flags fallback check
         for trigger in self.HUMAN_REVIEW_TRIGGERS:
-            if task_spec.get(trigger) is True:
+            if task_spec.get(trigger) is True and trigger not in triggers_found:
                 triggers_found.append(trigger)
 
-        # Purpose text check
-        purpose = str(task_spec.get("purpose", "")).lower()
-        if "recalibrate" in purpose or "override methodology" in purpose:
-            triggers_found.append("text_trigger_detected")
-
-        return len(triggers_found) > 0, triggers_found
+        return len(triggers_found) > 0, list(set(triggers_found))
 
     def load_or_create_state(
         self,
@@ -90,6 +118,7 @@ class ResearchWorkflowRunner:
                 project_id=project_id,
                 run_id=run_id,
                 task_id=task_id,
+                git_commit="HEAD",
                 status="INIT",
                 next_action="SPEC_VALIDATION",
             )
@@ -113,7 +142,7 @@ class ResearchWorkflowRunner:
         """
         Saves both RUN_MANIFEST.json and STATE.json.
         """
-        manifest.save(run_dirs["run_dir"])
+        manifest.save(run_dirs["run_dir"], base_runs_dir=self.base_runs_dir)
         state_file = run_dirs["run_dir"] / "STATE.json"
         state_file.write_text(
             json.dumps(state_data, indent=2, ensure_ascii=False),
@@ -241,6 +270,23 @@ class ResearchWorkflowRunner:
         if state_data["current_state"] in ("RESULTS_COMMITTED", "AI_REVIEW"):
             jules_res = state_data.get("jules_result", {})
             val_results = state_data.get("validation_results", {})
+
+            # Strict fail-closed reviewer check:
+            if self.reviewer is None:
+                state_data["current_state"] = "NEEDS_HUMAN_REVIEW"
+                manifest.status = "NEEDS_HUMAN_REVIEW"
+                manifest.next_action = "HUMAN_REVIEW"
+                self.persist_state(run_dirs, manifest, state_data)
+                (run_dirs["run_dir"] / "FINAL_STATUS.md").write_text(
+                    "# Final Run Status: NEEDS_HUMAN_REVIEW\n\nAI Reviewer is missing or unavailable.",
+                    encoding="utf-8",
+                )
+                return {
+                    "status": "NEEDS_HUMAN_REVIEW",
+                    "reason": "AI Reviewer is missing or unavailable.",
+                    "run_dir": str(run_dirs["run_dir"]),
+                }
+
             review_res = self.reviewer.review_artifacts(
                 project_id=project_id,
                 run_id=run_id,
@@ -259,7 +305,7 @@ class ResearchWorkflowRunner:
         # 5. DECISION
         if state_data["current_state"] == "DECISION":
             review_res = state_data.get("review_result", {})
-            rev_stat = review_res.get("REVIEW_STATUS", "PASS")
+            rev_stat = review_res.get("REVIEW_STATUS", "NEEDS_HUMAN_REVIEW")
 
             if rev_stat == "PASS":
                 state_data["current_state"] = "FINAL"
