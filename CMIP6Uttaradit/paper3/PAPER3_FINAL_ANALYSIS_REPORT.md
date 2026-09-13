@@ -4,7 +4,8 @@
 ### 1. Executive Summary
 - **Project Scope:** `CMIP6Uttaradit/paper3/`
 - **Execution Status:** PASS (All acceptance gates P3-A through P3-H verified)
-- **Primary Finding:** Quantile Delta Mapping (QDM) preserves raw CMIP6 directional ENSO responses while amplifying response magnitude ($PE_{ENSO} = 62.17\%$), preserving raw model directional sensitivity while amplifying response magnitude in Uttaradit.
+- **Target Journal:** Chiang Mai Journal of Science (CMJS) / Scopus Q3
+- **Primary Finding:** Quantile Delta Mapping (QDM) preserves raw CMIP6 directional ENSO responses while amplifying response magnitude ($PE_{ENSO} = 62.17\%$).
 
 ### 2. Verified Data Inventory
 - **Rain Gauges:** 13 stations (351001–351012, 351201)
@@ -51,7 +52,9 @@
 - `Figure_P3_04_ENSO_extremes.png/pdf`
 - `Figure_P3_05_ENSO_temporal.png/pdf`
 - `Figure_P3_06_ENSO_synthesis.png/pdf`
+- `Graphical_Abstract.png/pdf`
+- `Paper3_CMJS_manuscript_FINAL.md/docx/pdf`
 
 ### 8. Final Status
-- **Status:** PASS
-- **Reproducibility:** Fully reproducible via `run_data_audit.py`, `build_enso_classification.py`, `engine_enso_analysis.py`, `generate_tables_and_figures.py`, and `build_manuscript_and_report.py`.
+- **Status:** PASS / Q3-READY
+- **Reproducibility:** Fully reproducible via `run_data_audit.py`, `build_enso_classification.py`, `engine_enso_analysis.py`, `generate_tables_and_figures.py`, `generate_graphical_abstract.py`, and `build_manuscript_and_report.py`.
