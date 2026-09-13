@@ -1,9 +1,0 @@
-Gate,Requirement,Status,Evidence
-P3-A,ENSO source retrieved and pinned,PASS,oni.data hashed (7a1893f0d92f...)
-P3-B,Season construction continuous,PASS,"Rainy May-Oct, Hot/Dry Nov-Apr continuous"
-P3-C,ENSO classification deterministic,PASS,enso_season_classification.csv generated
-P3-D,Common 1995-2014 data used,PASS,"13 stations, 7 GCMs, 1995-2014 overlap"
-P3-E,Frozen QDM applied without target leakage,PASS,1981-2002 calibration frozen parameters
-P3-F,ENSO responses independently calculated,PASS,"Observed, Raw, QDM responses computed"
-P3-G,ENSO Asymmetry calculated,PASS,enso_asymmetry.csv created
-P3-H,Statistical inference & diagnostics complete,PASS,enso_statistics.csv generated with small-sample flags
