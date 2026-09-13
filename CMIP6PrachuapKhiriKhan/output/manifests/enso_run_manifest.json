@@ -1,36 +1,28 @@
 {
   "project": "CMIP6PrachuapKhiriKhan",
   "task": "ENSO Precipitation Analysis - Numerical Evidence Package",
-  "analysis_period": [
-    1981,
-    2014
-  ],
-  "stations_count": 12,
-  "stations_list": [
-    "500001",
-    "500002",
-    "500003",
-    "500004",
-    "500005",
-    "500006",
-    "500007",
-    "500008",
-    "500009",
-    "500201",
-    "500202",
-    "500301"
-  ],
-  "models_count": 5,
-  "models_list": [
-    "ACCESS-ESM1-5",
-    "CESM2",
-    "CanESM5",
-    "EC-Earth3",
-    "MIROC6"
-  ],
-  "enso_source": "NOAA CPC ONI ERSSTv6",
+  "timestamp": "2026-09-13T11:08:47.518394",
   "uttaradit_numerical_dependency": "NONE",
+  "input_hashes": {
+    "data/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv": "c0d96fa605901ad08b5c9222d94840d26bf3b179acd01781c62d1d2b8e6700d7",
+    "data/station_coordinates_PrachuapKhiriKhan.csv": "734906df25261ee320120f3778cd66428f290a7acc26bccf560f6f8af5f9ea88",
+    "inputs/enso/noaa_cpc_oni_ersstv6_2026-09-01.html": "ab9278cf270a412c89b6a9b8fd5641a5167e67a706f43695411a310e211d5c5e",
+    "inputs/gcm/Observed_Rain_daily_198101_201412_Prachuap Khiri Khan.csv": "c0d96fa605901ad08b5c9222d94840d26bf3b179acd01781c62d1d2b8e6700d7",
+    "inputs/gcm/bc_pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "ccce18bb70ede229e37eeebf83afa374bacd4323e6b1b750ad6ac662f8ff102c",
+    "inputs/gcm/bc_pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "456250cf214ad276f9feb69e9c7334c69e006e1941916e5e72f4b585eac41bba",
+    "inputs/gcm/bc_pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "7122eb6d0b66cb6a3dd2e31b495d015f544b060c3f0287eda904c3a304c0cf84",
+    "inputs/gcm/bc_pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap Khiri Khan.csv": "7fbf605c72236af128c16cfc296f3e450b39f2155c064eb1ee146f23527271ef",
+    "inputs/gcm/bc_pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "0d2fba21ce6b08b1cd91f1508674bb53ff1536b8d84e2f33efb6fff2c80c88d2",
+    "inputs/gcm/pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "7fd2c750cb31ab5154fa72360f627b0e974def451ed24d0e0c9a1bacee63dd79",
+    "inputs/gcm/pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "97bff8e61965a975e9331b13af70e81f4d493fb6e8ff4b0ddb3b54508a098102",
+    "inputs/gcm/pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "4ce6557ef18fec4e62b168f0c3940a4602d00df41ed1b19188d2c14b8447c217",
+    "inputs/gcm/pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_Prachuap Khiri Khan.csv": "480767e62bf6b80643f586adcdacd665aee63d3f110a2af7cd0604c1749dcebc",
+    "inputs/gcm/pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_Prachuap Khiri Khan.csv": "08b9db526bc78c6d4f3207d90fd1be4cb020d8dfc4097f7fa933c65987a1bed1"
+  },
+  "stations_count": 12,
+  "models_count": 5,
   "files_generated": [
+    "PRACHUAP_KHIRI_KHAN_ENSO_TRACEABILITY.csv",
     "output/tables/enso_classification_summary.csv",
     "output/tables/enso_episode_catalog.csv",
     "output/tables/enso_phase_sample_sizes.csv",
@@ -39,8 +31,12 @@
     "output/tables/enso_response_summary.csv",
     "output/tables/enso_asymmetry_summary.csv",
     "output/tables/qdm_relative_change_pe_enso.csv",
+    "output/tables/qdm_observational_distance_metrics.csv",
     "output/figures/Figure1_ENSO_Classification_Timeline.png",
+    "output/figures/Figure1_ENSO_Classification_Timeline.pdf",
     "output/figures/Figure2_Seasonal_PRCPTOT_ENSO_Response.png",
-    "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.png"
+    "output/figures/Figure2_Seasonal_PRCPTOT_ENSO_Response.pdf",
+    "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.png",
+    "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.pdf"
   ]
 }

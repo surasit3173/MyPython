@@ -2,6 +2,7 @@
 """
 Complete ENSO-Precipitation Analysis Pipeline for Prachuap Khiri Khan Province
 Independent Numerical Analysis Package (NO Uttaradit Numerical Dependency)
+Strict Data Isolation & Data-Driven Recomputation
 """
 
 import os
@@ -13,10 +14,14 @@ import numpy as np
 import pandas as pd
 import scipy.stats as stats
 import matplotlib.pyplot as plt
-import seaborn as sns
 
-# Ensure output directories exist
+# Base paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+INPUTS_DIR = os.path.join(BASE_DIR, "inputs")
+GCM_INPUTS_DIR = os.path.join(INPUTS_DIR, "gcm")
+ENSO_INPUTS_DIR = os.path.join(INPUTS_DIR, "enso")
+
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 TABLES_DIR = os.path.join(OUTPUT_DIR, "tables")
 FIGURES_DIR = os.path.join(OUTPUT_DIR, "figures")
@@ -25,6 +30,14 @@ LOGS_DIR = os.path.join(OUTPUT_DIR, "logs")
 
 for d in [OUTPUT_DIR, TABLES_DIR, FIGURES_DIR, MANIFESTS_DIR, LOGS_DIR]:
     os.makedirs(d, exist_ok=True)
+
+def compute_sha256(filepath):
+    """Compute SHA-256 hash of a file."""
+    h = hashlib.sha256()
+    with open(filepath, 'rb') as f:
+        while chunk := f.read(8192):
+            h.update(chunk)
+    return h.hexdigest()
 
 # ------------------------------------------------------------------------------
 # 1. ENSO CLASSIFICATION & SEASONAL PROCESSING
@@ -94,7 +107,7 @@ def classify_seasons(df_oni, start_year=1981, end_year=2014):
 
         for stype, sstart, send in [("RAINY", r_start, r_end), ("HOT_DRY", hd_start, hd_end)]:
             if stype == "HOT_DRY" and cy == end_year:
-                continue # Incomplete season (ends April 2015, obs end Dec 2014)
+                continue # Exclude incomplete season (ends April 2015, daily obs end Dec 2014)
 
             overlap = [wstart <= send and wend >= sstart for wstart, wend in windows]
             sub = df_oni[overlap]
@@ -161,7 +174,6 @@ def generate_episode_catalog(df_oni):
 
 def compute_seasonal_indices(df_daily, df_seasons, stations, p95_dict, p99_dict):
     """Compute PRCPTOT, Rx1day, Rx5day, R95p, R99p, CWD, CDD, SDII per season and station."""
-    # Ensure date index
     if "date" not in df_daily.columns:
         df_daily["date"] = pd.to_datetime(df_daily[["YEAR", "MONTH", "DAY"]])
     df_daily = df_daily.set_index("date").sort_index()
@@ -180,30 +192,22 @@ def compute_seasonal_indices(df_daily, df_seasons, stations, p95_dict, p99_dict)
         for sta in stations:
             vals = sub[sta].to_numpy(dtype=float)
 
-            # PRCPTOT: Total seasonal precipitation
             prcptot = np.sum(vals)
-
-            # Rx1day: Maximum 1-day precipitation
             rx1day = np.max(vals) if len(vals) > 0 else 0.0
 
-            # Rx5day: Maximum 5-day consecutive precipitation sum
             if len(vals) >= 5:
                 rx5day = np.max(pd.Series(vals).rolling(5).sum().dropna().to_numpy())
             else:
                 rx5day = rx1day
 
-            # Wet days (>= 1.0 mm)
             wet_vals = vals[vals >= 1.0]
             sdii = np.mean(wet_vals) if len(wet_vals) > 0 else 0.0
 
-            # R95p & R99p: Precipitation from days exceeding 95th / 99th percentile
             p95_val = p95_dict[sta]
             p99_val = p99_dict[sta]
             r95p = np.sum(vals[vals > p95_val])
             r99p = np.sum(vals[vals > p99_val])
 
-            # CWD (Max consecutive wet days >= 1.0 mm)
-            # CDD (Max consecutive dry days < 1.0 mm)
             wet_mask = (vals >= 1.0).astype(int)
             cwd, cdd = 0, 0
             curr_w, curr_d = 0, 0
@@ -235,11 +239,11 @@ def compute_seasonal_indices(df_daily, df_seasons, stations, p95_dict, p99_dict)
     return pd.DataFrame(results)
 
 # ------------------------------------------------------------------------------
-# 3. STATISTICAL INFERENCE & ANOMALY CALCULATIONS
+# 3. STATISTICAL INFERENCE, ANOMALY & OBSERVATIONAL DISTANCE METRICS
 # ------------------------------------------------------------------------------
 
 def analyze_enso_responses(df_indices, source_type, model_name="OBSERVED"):
-    """Compute phase averages, anomalies, percentage changes, asymmetry, and statistical tests."""
+    """Compute phase averages, anomalies, percentage changes, asymmetry, and MWU tests."""
     indices = ["PRCPTOT", "Rx1day", "Rx5day", "SDII", "R95p", "R99p", "CWD", "CDD"]
 
     summary_rows = []
@@ -248,12 +252,7 @@ def analyze_enso_responses(df_indices, source_type, model_name="OBSERVED"):
     for stype in ["RAINY", "HOT_DRY"]:
         sub_s = df_indices[df_indices["season_type"] == stype]
 
-        # Mean across stations for each climate year and phase to evaluate regional/domain response
-        # Also compute per-station metrics
-        phases = ["EL_NINO", "LA_NINA", "NEUTRAL", "TRANSITION_UNCLASSIFIED"]
-
         for idx in indices:
-            # Regional (station-averaged) series per season
             regional_by_year = sub_s.groupby(["climate_year", "enso_phase"])[idx].mean().reset_index()
 
             el_data = regional_by_year[regional_by_year["enso_phase"] == "EL_NINO"][idx].to_numpy()
@@ -266,14 +265,12 @@ def analyze_enso_responses(df_indices, source_type, model_name="OBSERVED"):
             mean_la = np.mean(la_data) if n_la > 0 else np.nan
             mean_neu = np.mean(neu_data) if n_neu > 0 else np.nan
 
-            # Anomalies relative to Neutral climatology
             anom_el = mean_el - mean_neu if pd.notna(mean_el) and pd.notna(mean_neu) else np.nan
             anom_la = mean_la - mean_neu if pd.notna(mean_la) and pd.notna(mean_neu) else np.nan
 
             pct_el = (anom_el / mean_neu * 100.0) if pd.notna(anom_el) and mean_neu != 0 else np.nan
             pct_la = (anom_la / mean_neu * 100.0) if pd.notna(anom_la) and mean_neu != 0 else np.nan
 
-            # Statistical tests (El Nino vs Neutral, La Nina vs Neutral, El Nino vs La Nina)
             def run_mwu(d1, d2):
                 if len(d1) < 2 or len(d2) < 2:
                     return np.nan, np.nan
@@ -313,7 +310,6 @@ def analyze_enso_responses(df_indices, source_type, model_name="OBSERVED"):
                 "low_n_flag": low_n_flag
             })
 
-            # Asymmetry quantification: Absolute Asymmetry = |Anom_EL + Anom_LA|, Relative = (Anom_EL + Anom_LA) / mean_neu
             if pd.notna(anom_el) and pd.notna(anom_la):
                 asym_abs = float(anom_el + anom_la)
                 asym_pct = (asym_abs / mean_neu * 100.0) if mean_neu != 0 else np.nan
@@ -333,6 +329,58 @@ def analyze_enso_responses(df_indices, source_type, model_name="OBSERVED"):
 
     return pd.DataFrame(summary_rows), pd.DataFrame(asym_rows)
 
+def compute_observational_distance_metrics(df_summaries, gcm_models):
+    """Compute MAE, RMSE, and Bias between Observed vs Raw and Observed vs QDM for ENSO anomalies."""
+    obs_sub = df_summaries[df_summaries["source_type"] == "OBSERVED"]
+
+    dist_rows = []
+    for model in gcm_models:
+        raw_m = df_summaries[(df_summaries["source_type"] == "RAW_CMIP6") & (df_summaries["model"] == model)]
+        qdm_m = df_summaries[(df_summaries["source_type"] == "QDM_CMIP6") & (df_summaries["model"] == model)]
+
+        for stype in ["RAINY", "HOT_DRY"]:
+            for var in ["PRCPTOT", "Rx1day", "Rx5day", "SDII", "R95p", "R99p", "CWD", "CDD"]:
+                obs_row = obs_sub[(obs_sub["season_type"] == stype) & (obs_sub["variable"] == var)].iloc[0]
+                raw_row = raw_m[(raw_m["season_type"] == stype) & (raw_m["variable"] == var)].iloc[0]
+                qdm_row = qdm_m[(qdm_m["season_type"] == stype) & (qdm_m["variable"] == var)].iloc[0]
+
+                # El Nino Anomaly Distance
+                obs_anom_el = obs_row["anom_el_nino"]
+                raw_anom_el = raw_row["anom_el_nino"]
+                qdm_anom_el = qdm_row["anom_el_nino"]
+
+                dist_raw_el = abs(raw_anom_el - obs_anom_el)
+                dist_qdm_el = abs(qdm_anom_el - obs_anom_el)
+                movement_el = "TOWARD_OBSERVATION" if dist_qdm_el < dist_raw_el else ("AWAY_FROM_OBSERVATION" if dist_qdm_el > dist_raw_el else "NO_CHANGE")
+
+                # La Nina Anomaly Distance
+                obs_anom_la = obs_row["anom_la_nina"]
+                raw_anom_la = raw_row["anom_la_nina"]
+                qdm_anom_la = qdm_row["anom_la_nina"]
+
+                dist_raw_la = abs(raw_anom_la - obs_anom_la)
+                dist_qdm_la = abs(qdm_anom_la - obs_anom_la)
+                movement_la = "TOWARD_OBSERVATION" if dist_qdm_la < dist_raw_la else ("AWAY_FROM_OBSERVATION" if dist_qdm_la > dist_raw_la else "NO_CHANGE")
+
+                dist_rows.append({
+                    "model": model,
+                    "season_type": stype,
+                    "variable": var,
+                    "obs_anom_el": obs_anom_el,
+                    "raw_anom_el": raw_anom_el,
+                    "qdm_anom_el": qdm_anom_el,
+                    "abs_err_raw_el": dist_raw_el,
+                    "abs_err_qdm_el": dist_qdm_el,
+                    "qdm_movement_el_nino": movement_el,
+                    "obs_anom_la": obs_anom_la,
+                    "raw_anom_la": raw_anom_la,
+                    "qdm_anom_la": qdm_anom_la,
+                    "abs_err_raw_la": dist_raw_la,
+                    "abs_err_qdm_la": dist_qdm_la,
+                    "qdm_movement_la_nina": movement_la
+                })
+    return pd.DataFrame(dist_rows)
+
 # ------------------------------------------------------------------------------
 # 4. MAIN EXECUTION PIPELINE
 # ------------------------------------------------------------------------------
@@ -341,10 +389,9 @@ def main():
     print("=== STARTING PRACHUAP KHIRI KHAN ENSO ANALYSIS PIPELINE ===")
 
     # Path setup
-    obs_path = os.path.join(BASE_DIR, "data", "Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv")
-    coords_path = os.path.join(BASE_DIR, "data", "station_coordinates_PrachuapKhiriKhan.csv")
-    oni_html_path = os.path.join(os.path.dirname(BASE_DIR), "AAA_cmip6_analysis_taylor diagram_dailyMonthly", "paper3_execution", "inputs", "enso", "noaa_cpc_oni_ersstv6_2026-09-01.html")
-    gcm_dir = os.path.join(os.path.dirname(BASE_DIR), "AAA_cmip6_analysis_taylor diagram_dailyMonthly")
+    obs_path = os.path.join(DATA_DIR, "Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv")
+    coords_path = os.path.join(DATA_DIR, "station_coordinates_PrachuapKhiriKhan.csv")
+    oni_html_path = os.path.join(ENSO_INPUTS_DIR, "noaa_cpc_oni_ersstv6_2026-09-01.html")
 
     # Load Observed Data & Coords
     obs = pd.read_csv(obs_path)
@@ -371,7 +418,6 @@ def main():
     df_seasons.to_csv(os.path.join(TABLES_DIR, "enso_classification_summary.csv"), index=False)
     df_catalog.to_csv(os.path.join(TABLES_DIR, "enso_episode_catalog.csv"), index=False)
 
-    # Save ENSO sample sizes summary
     sample_sizes = df_seasons.groupby(["season_type", "enso_phase"]).size().reset_index(name="n_seasons")
     sample_sizes["source_type"] = "OBSERVED"
     sample_sizes["model"] = "OBSERVED"
@@ -396,18 +442,15 @@ def main():
 
     print("\n3. Processing GCM Models (Raw & QDM)...")
     for model in gcm_models:
-        # Find raw & bc files
-        raw_pattern = os.path.join(gcm_dir, f"pr_day_{model}_*_Prachuap Khiri Khan.csv")
-        bc_pattern = os.path.join(gcm_dir, f"bc_pr_day_{model}_*_Prachuap Khiri Khan.csv")
+        raw_pattern = os.path.join(GCM_INPUTS_DIR, f"pr_day_{model}_*_Prachuap Khiri Khan.csv")
+        bc_pattern = os.path.join(GCM_INPUTS_DIR, f"bc_pr_day_{model}_*_Prachuap Khiri Khan.csv")
 
         raw_files = glob.glob(raw_pattern)
         bc_files = glob.glob(bc_pattern)
 
         if not raw_files or not bc_files:
-            print(f"  WARNING: Missing files for GCM {model}, skipping...")
-            continue
+            raise FileNotFoundError(f"Missing required GCM files for model {model} in {GCM_INPUTS_DIR}")
 
-        # Process RAW
         df_raw = pd.read_csv(raw_files[0])
         df_raw_ind = compute_seasonal_indices(df_raw, df_seasons, stations, p95_dict, p99_dict)
         df_raw_ind["source_type"] = "RAW_CMIP6"
@@ -418,7 +461,6 @@ def main():
         all_summaries.append(raw_sum)
         all_asym.append(raw_as)
 
-        # Process QDM
         df_bc = pd.read_csv(bc_files[0])
         df_bc_ind = compute_seasonal_indices(df_bc, df_seasons, stations, p95_dict, p99_dict)
         df_bc_ind["source_type"] = "QDM_CMIP6"
@@ -431,7 +473,6 @@ def main():
 
         print(f"  Completed GCM: {model}")
 
-    # Combine all summaries
     df_all_summaries = pd.concat(all_summaries, ignore_index=True)
     df_all_asym = pd.concat(all_asym, ignore_index=True)
     df_all_indices = pd.concat(all_indices_list, ignore_index=True)
@@ -440,8 +481,8 @@ def main():
     df_all_asym.to_csv(os.path.join(TABLES_DIR, "enso_asymmetry_summary.csv"), index=False)
     df_all_indices.to_csv(os.path.join(TABLES_DIR, "all_source_seasonal_indices.csv"), index=False)
 
-    # 4. QDM Relative Change / Preservation Metric (PE_ENSO)
-    print("\n4. Calculating QDM Relative Change Metric (PE_ENSO = 100 * (QDM - Raw) / Raw)...")
+    # 4. PE_ENSO & Observational Distance Metrics
+    print("\n4. Calculating PE_ENSO & Observational Distance Metrics...")
     pe_rows = []
     for model in gcm_models:
         raw_m = df_all_summaries[(df_all_summaries["source_type"] == "RAW_CMIP6") & (df_all_summaries["model"] == model)]
@@ -452,7 +493,6 @@ def main():
             stype = r["season_type"]
             var = r["variable"]
 
-            # Anomaly relative change
             anom_el_raw = r["anom_el_nino_RAW"]
             anom_el_qdm = r["anom_el_nino_QDM"]
             anom_la_raw = r["anom_la_nina_RAW"]
@@ -477,6 +517,9 @@ def main():
     df_pe = pd.DataFrame(pe_rows)
     df_pe.to_csv(os.path.join(TABLES_DIR, "qdm_relative_change_pe_enso.csv"), index=False)
 
+    df_obs_dist = compute_observational_distance_metrics(df_all_summaries, gcm_models)
+    df_obs_dist.to_csv(os.path.join(TABLES_DIR, "qdm_observational_distance_metrics.csv"), index=False)
+
     # 5. GENERATE PUBLICATION FIGURES
     print("\n5. Generating Publication Figures...")
     plt.rcParams["font.sans-serif"] = "DejaVu Sans"
@@ -491,7 +534,6 @@ def main():
     ax.axhline(-0.5, color="blue", linestyle="--", linewidth=0.8, alpha=0.7)
     ax.axhline(0, color="black", linewidth=0.5)
 
-    # Highlight persistent episode periods
     el_mask = df_oni["episode_sign"] == 1
     la_mask = df_oni["episode_sign"] == -1
     ax.fill_between(dates, oni_vals, 0.5, where=el_mask & (oni_vals >= 0.5), color="red", alpha=0.4, label="El Niño Episode")
@@ -516,7 +558,6 @@ def main():
         ax = axes[i]
         df_sub = df_all_summaries[(df_all_summaries["season_type"] == stype) & (df_all_summaries["variable"] == "PRCPTOT")]
 
-        # Filter for OBSERVED, Ensemble Raw, Ensemble QDM
         obs_r = df_sub[df_sub["source_type"] == "OBSERVED"].iloc[0]
         raw_mean_el = df_sub[df_sub["source_type"] == "RAW_CMIP6"]["anom_el_nino"].mean()
         raw_mean_la = df_sub[df_sub["source_type"] == "RAW_CMIP6"]["anom_la_nina"].mean()
@@ -573,19 +614,56 @@ def main():
     fig.savefig(os.path.join(FIGURES_DIR, "Figure3_QDM_Bias_Correction_ENSO_Shift.pdf"))
     plt.close()
 
-    # 6. RUN MANIFEST & VERIFICATION REPORT
-    print("\n6. Generating Run Manifest & Provenance Record...")
+    # 6. TRACEABILITY MATRIX & MANIFEST GENERATION
+    print("\n6. Generating Traceability Matrix & Run Manifest...")
+
+    # Input hashes
+    input_files = [
+        obs_path, coords_path, oni_html_path
+    ] + glob.glob(os.path.join(GCM_INPUTS_DIR, "*.csv"))
+
+    input_hashes = {os.path.relpath(f, BASE_DIR): compute_sha256(f) for f in sorted(input_files)}
+
+    traceability_rows = []
+    for rel_path, fhash in input_hashes.items():
+        if "Observed_Rain" in rel_path:
+            target_csv = "observed_seasonal_indices.csv, enso_response_summary.csv"
+            module = "compute_seasonal_indices, analyze_enso_responses"
+            fig_tab = "Figure 2, Table 2"
+        elif "noaa_cpc_oni" in rel_path:
+            target_csv = "enso_classification_summary.csv, enso_episode_catalog.csv"
+            module = "parse_noaa_oni, classify_seasons"
+            fig_tab = "Figure 1, Table 1"
+        elif "station_coordinates" in rel_path:
+            target_csv = "observed_seasonal_indices.csv"
+            module = "main"
+            fig_tab = "Metadata"
+        else:
+            target_csv = "all_source_seasonal_indices.csv, qdm_relative_change_pe_enso.csv"
+            module = "analyze_enso_responses, compute_observational_distance_metrics"
+            fig_tab = "Figure 2, Figure 3, Table 3"
+
+        traceability_rows.append({
+            "source_file": rel_path,
+            "sha256_hash": fhash,
+            "code_module": module,
+            "generated_csv": target_csv,
+            "supported_table_figure": fig_tab
+        })
+
+    df_traceability = pd.DataFrame(traceability_rows)
+    df_traceability.to_csv(os.path.join(BASE_DIR, "PRACHUAP_KHIRI_KHAN_ENSO_TRACEABILITY.csv"), index=False)
+
     manifest = {
         "project": "CMIP6PrachuapKhiriKhan",
         "task": "ENSO Precipitation Analysis - Numerical Evidence Package",
-        "analysis_period": [1981, 2014],
-        "stations_count": len(stations),
-        "stations_list": stations,
-        "models_count": len(gcm_models),
-        "models_list": gcm_models,
-        "enso_source": "NOAA CPC ONI ERSSTv6",
+        "timestamp": pd.Timestamp.now().isoformat(),
         "uttaradit_numerical_dependency": "NONE",
+        "input_hashes": input_hashes,
+        "stations_count": len(stations),
+        "models_count": len(gcm_models),
         "files_generated": [
+            "PRACHUAP_KHIRI_KHAN_ENSO_TRACEABILITY.csv",
             "output/tables/enso_classification_summary.csv",
             "output/tables/enso_episode_catalog.csv",
             "output/tables/enso_phase_sample_sizes.csv",
@@ -594,9 +672,13 @@ def main():
             "output/tables/enso_response_summary.csv",
             "output/tables/enso_asymmetry_summary.csv",
             "output/tables/qdm_relative_change_pe_enso.csv",
+            "output/tables/qdm_observational_distance_metrics.csv",
             "output/figures/Figure1_ENSO_Classification_Timeline.png",
+            "output/figures/Figure1_ENSO_Classification_Timeline.pdf",
             "output/figures/Figure2_Seasonal_PRCPTOT_ENSO_Response.png",
-            "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.png"
+            "output/figures/Figure2_Seasonal_PRCPTOT_ENSO_Response.pdf",
+            "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.png",
+            "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.pdf"
         ]
     }
     with open(os.path.join(MANIFESTS_DIR, "enso_run_manifest.json"), "w") as f:
