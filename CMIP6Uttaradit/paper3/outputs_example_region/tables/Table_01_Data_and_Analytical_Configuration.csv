@@ -1,0 +1,7 @@
+Parameter,Value
+Region Name,PrachuapKhiriKhan
+Country,Thailand
+Observation Period,1981-2014
+GCM Count,5
+ENSO Index Source,NOAA CPC ERSSTv6 ONI
+ENSO Threshold,|ONI| >= 0.5°C for >= 5 windows
