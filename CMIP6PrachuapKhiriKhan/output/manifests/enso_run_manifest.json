@@ -1,0 +1,46 @@
+{
+  "project": "CMIP6PrachuapKhiriKhan",
+  "task": "ENSO Precipitation Analysis - Numerical Evidence Package",
+  "analysis_period": [
+    1981,
+    2014
+  ],
+  "stations_count": 12,
+  "stations_list": [
+    "500001",
+    "500002",
+    "500003",
+    "500004",
+    "500005",
+    "500006",
+    "500007",
+    "500008",
+    "500009",
+    "500201",
+    "500202",
+    "500301"
+  ],
+  "models_count": 5,
+  "models_list": [
+    "ACCESS-ESM1-5",
+    "CESM2",
+    "CanESM5",
+    "EC-Earth3",
+    "MIROC6"
+  ],
+  "enso_source": "NOAA CPC ONI ERSSTv6",
+  "uttaradit_numerical_dependency": "NONE",
+  "files_generated": [
+    "output/tables/enso_classification_summary.csv",
+    "output/tables/enso_episode_catalog.csv",
+    "output/tables/enso_phase_sample_sizes.csv",
+    "output/tables/observed_seasonal_indices.csv",
+    "output/tables/all_source_seasonal_indices.csv",
+    "output/tables/enso_response_summary.csv",
+    "output/tables/enso_asymmetry_summary.csv",
+    "output/tables/qdm_relative_change_pe_enso.csv",
+    "output/figures/Figure1_ENSO_Classification_Timeline.png",
+    "output/figures/Figure2_Seasonal_PRCPTOT_ENSO_Response.png",
+    "output/figures/Figure3_QDM_Bias_Correction_ENSO_Shift.png"
+  ]
+}
