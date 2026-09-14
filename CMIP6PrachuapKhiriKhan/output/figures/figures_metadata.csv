@@ -1,6 +1,6 @@
 figure_number,png_filename,pdf_filename,figure_title,physical_dimensions,resolution,file_format,png_size,pdf_size
-Figure 1,Figure1_study_area_stations.png,Figure1_study_area_stations.pdf,Study Area & Rain Gauge Station Network,10.5 x 7.2 in,600 DPI,PNG + Vector PDF,1371.4 KB,955.2 KB
-Figure 2,Figure2_IDW_mean_annual_rainfall.png,Figure2_IDW_mean_annual_rainfall.pdf,IDW Mean Annual Rainfall Surface & Seasonal Partitioning,11.0 x 6.8 in,600 DPI,PNG + Vector PDF,918.5 KB,1397.3 KB
-Figure 3,Figure3_annual_rainfall_variability.png,Figure3_annual_rainfall_variability.pdf,Annual Rainfall Variability (Network Mean & Anomaly Heatmap),11.0 x 8.0 in,600 DPI,PNG + Vector PDF,974.0 KB,116.4 KB
-Figure 4,Figure4_trend_method_comparison.png,Figure4_trend_method_comparison.pdf,Statistical Method Comparison (Dumbbell Plot & Slopes),11.5 x 7.2 in,600 DPI,PNG + Vector PDF,848.9 KB,40.3 KB
-Figure 5,Figure5_autocorrelation_effect.png,Figure5_autocorrelation_effect.pdf,Serial Correlation Structure & AR(1) Variance Adjustment,11.5 x 7.2 in,600 DPI,PNG + Vector PDF,1063.0 KB,47.9 KB
+Figure 1,Figure1_study_area_stations.png,Figure1_study_area_stations.pdf,Study Area & Rain Gauge Station Network,10.5 x 7.2 in,600 DPI,PNG + Vector PDF,1515.5 KB,957.0 KB
+Figure 2,Figure2_IDW_mean_annual_rainfall.png,Figure2_IDW_mean_annual_rainfall.pdf,IDW Mean Annual Rainfall Surface & Seasonal Partitioning,11.0 x 6.8 in,600 DPI,PNG + Vector PDF,1009.8 KB,1335.7 KB
+Figure 3,Figure3_annual_rainfall_variability.png,Figure3_annual_rainfall_variability.pdf,Annual Rainfall Variability (Network Mean & Anomaly Heatmap),11.0 x 8.0 in,600 DPI,PNG + Vector PDF,1054.4 KB,165.9 KB
+Figure 4,Figure4_trend_method_comparison.png,Figure4_trend_method_comparison.pdf,Statistical Method Comparison (Dumbbell Plot & Slopes),11.5 x 7.2 in,600 DPI,PNG + Vector PDF,941.2 KB,40.0 KB
+Figure 5,Figure5_autocorrelation_effect.png,Figure5_autocorrelation_effect.pdf,Serial Correlation Structure & AR(1) Variance Adjustment,11.5 x 7.2 in,600 DPI,PNG + Vector PDF,1191.3 KB,47.6 KB
