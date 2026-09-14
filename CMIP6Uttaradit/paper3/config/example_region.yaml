@@ -1,0 +1,43 @@
+region:
+  name: PrachuapKhiriKhan
+  country: Thailand
+  station_count_expected: 12
+
+observations:
+  path: CMIP6PrachuapKhiriKhan/data/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv
+  station_metadata: CMIP6PrachuapKhiriKhan/data/station_coordinates_PrachuapKhiriKhan.csv
+  date_start: 1981
+  date_end: 2014
+
+gcm_data:
+  dir: CMIP6PrachuapKhiriKhan/inputs/gcm
+  suffix: Prachuap Khiri Khan.csv
+  models:
+    - ACCESS-ESM1-5
+    - CESM2
+    - CanESM5
+    - EC-Earth3
+    - MIROC6
+
+enso:
+  source_path: CMIP6PrachuapKhiriKhan/inputs/enso/noaa_cpc_oni_ersstv6_2026-09-01.html
+  threshold_c: 0.5
+  persistence_windows: 5
+
+seasons:
+  rainy:
+    label: Rainy season
+    months: [5, 6, 7, 8, 9, 10]
+    cross_year: false
+  hot_dry:
+    label: Hot/dry season
+    start_month: 11
+    end_month: 4
+    cross_year: true
+
+statistics:
+  test: mann_whitney_u
+  minimum_n_for_inference: 3
+
+output:
+  dir: CMIP6Uttaradit/paper3/outputs_example_region

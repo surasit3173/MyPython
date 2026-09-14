@@ -1,0 +1,45 @@
+region:
+  name: Uttaradit
+  country: Thailand
+  station_count_expected: 13
+
+observations:
+  path: CMIP6Uttaradit/paper3/inputs/observations/Observed_Rain_daily_198101_201412_Uttaradit.csv
+  station_metadata: CMIP6Uttaradit/paper3/inputs/observations/Station_ID_Elevation_Uttaradit.csv
+  date_start: 1981
+  date_end: 2014
+
+gcm_data:
+  dir: AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/inputs/dataUttaradit/GCM raindata
+  suffix: Uttaradit.csv
+  models:
+    - ACCESS-ESM1-5
+    - CESM2
+    - CanESM5
+    - EC-Earth3
+    - FGOALS-g3
+    - MIROC6
+    - MRI-ESM2-0
+
+enso:
+  source_path: CMIP6Uttaradit/paper3/inputs/enso/noaa_cpc_oni_ersstv6_2026-09-01.html
+  threshold_c: 0.5
+  persistence_windows: 5
+
+seasons:
+  rainy:
+    label: Rainy season
+    months: [5, 6, 7, 8, 9, 10]
+    cross_year: false
+  hot_dry:
+    label: Hot/dry season
+    start_month: 11
+    end_month: 4
+    cross_year: true
+
+statistics:
+  test: mann_whitney_u
+  minimum_n_for_inference: 3
+
+output:
+  dir: CMIP6Uttaradit/paper3/outputs
