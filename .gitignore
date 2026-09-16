@@ -1,43 +1,6 @@
-﻿# Python caches
+*.csv
+*.log
+*.json
 __pycache__/
-*.py[cod]
-*.class
 .pytest_cache/
-.mypy_cache/
 .ipynb_checkpoints/
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# Temporary / local workspace
-.tmp.driveupload/
-*.tmp
-*.temp
-
-# IDE / editor
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Secrets / local configuration
-.env
-.env.*
-!.env.example
-
-# Build / packaging
-build/
-dist/
-*.egg-info/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Preserved nested Git repository backup
-.git_backup/
-**/.git_backup/
