@@ -1,8 +1,8 @@
 """
 independent_verify.py — Independent numerical cross-check engine.
 
-Calculates all 11 ETCCDI indices, MK p-values, Sen's slopes, and CIs via an
-independent implementation pathway (scipy / numpy / pure vector math / pymannkendall original)
+Calculates all 11 ETCCDI indices, primary MK / Hamed-Rao MMK p-values, Sen's slopes, and CIs via an
+independent implementation pathway (scipy / numpy / pure vector math / pymannkendall)
 and compares against the primary pipeline outputs value-by-value.
 
 Produces audit/INDEPENDENT_VERIFICATION.xlsx and audit/REPRODUCIBILITY_REPORT.md.
@@ -32,7 +32,7 @@ def independent_etccdi_calc(df_raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     base_mask = (df["YEAR"] >= BASELINE_START) & (df["YEAR"] <= BASELINE_END) & (df["PRECIP"] >= WET_DAY_THR)
     wet_vals = df.loc[base_mask, "PRECIP"].dropna().values
 
-    # Independent HF8 quantile calculation using stats.mstats.mquantiles or np.percentile
+    # Independent HF8 quantile calculation using stats.mstats.mquantiles
     p95_indep = float(stats.mstats.mquantiles(wet_vals, prob=[0.95], alphap=1/3, betap=1/3)[0])
     p99_indep = float(stats.mstats.mquantiles(wet_vals, prob=[0.99], alphap=1/3, betap=1/3)[0])
 
@@ -161,31 +161,38 @@ def run_independent_verification() -> bool:
             "PASS_FAIL": "PASS" if pass_idx else "FAIL",
         })
 
-    # 3. Compare Trend statistics (Kendall Tau, Sen Slope, CIs, P-values)
+    # 3. Compare Trend statistics & Primary Test P-values value-by-value
     years = pip_etccdi["Year"].values
     for _, row in pip_trend.iterrows():
         idx = row["Index"]
         y = pip_etccdi[idx].values
+        primary_test = row["Primary_test"]
 
-        # Independent pymannkendall.original_test and stats.theilslopes
-        res_mk_indep = mk.original_test(y)
-        tau_indep = float(res_mk_indep.Tau)
+        # Compute independent test based on primary test selection
+        if "Hamed" in str(primary_test):
+            res_indep = mk.hamed_rao_modification_test(y)
+        else:
+            res_indep = mk.original_test(y)
+
+        tau_indep = float(res_indep.Tau)
+        p_indep = float(res_indep.p)
 
         sen_sp = stats.theilslopes(y, years, alpha=0.95)
         slope_indep = float(sen_sp.slope)
 
         diff_tau = abs(row["Kendall_tau"] - tau_indep)
         diff_slope = abs(row["Sen_slope_year"] - slope_indep)
+        diff_p = abs(row["P_raw"] - p_indep)
 
-        pass_tr = (diff_tau <= 1e-3) and (diff_slope <= 1e-3)
+        pass_tr = (diff_tau <= 1e-3) and (diff_slope <= 1e-3) and (diff_p <= 1e-4)
         if not pass_tr:
             all_pass = False
 
         check_rows.append({
-            "Parameter": f"Trend Analysis — {idx} (Tau & Slope)",
-            "Pipeline_Value": f"Tau={row['Kendall_tau']:.4f}, Slope={row['Sen_slope_year']:.4f}",
-            "Independent_Value": f"Tau={tau_indep:.4f}, Slope={slope_indep:.4f}",
-            "Difference": round(max(diff_tau, diff_slope), 6),
+            "Parameter": f"Primary Trend ({primary_test}) — {idx}",
+            "Pipeline_Value": f"Tau={row['Kendall_tau']:.4f}, Slope={row['Sen_slope_year']:.4f}, P={row['P_raw']:.6f}",
+            "Independent_Value": f"Tau={tau_indep:.4f}, Slope={slope_indep:.4f}, P={p_indep:.6f}",
+            "Difference": round(max(diff_tau, diff_slope, diff_p), 6),
             "Tolerance": 1e-3,
             "PASS_FAIL": "PASS" if pass_tr else "FAIL",
         })

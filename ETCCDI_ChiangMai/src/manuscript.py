@@ -175,7 +175,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
 
     # Key Contribution
     add_heading2("Key Contribution")
-    add_body_p("A fully provenance-controlled, independently verified ETCCDI analysis demonstrates that extreme daily precipitation characteristics at Chiang Mai, northern Thailand, have exhibited no statistically detectable monotonic trend over 1961–2019, providing a rigorous empirical baseline for regional water infrastructure design.")
+    add_body_p("A fully provenance-controlled, independently verified ETCCDI analysis demonstrates that extreme daily precipitation characteristics at Chiang Mai, northern Thailand, have exhibited no statistically detectable monotonic trend over 1961–2019, providing a reproducible observational baseline for local hydroclimatic assessment and subsequent regional analyses.")
 
     # Highlights
     add_heading2("Highlights")
@@ -233,7 +233,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
 
     # 4. DISCUSSION
     add_heading1("4. DISCUSSION")
-    add_body_p("The finding of no statistically detectable monotonic trend across 11 ETCCDI indices at Chiang Mai over 1961–2019 contrasts with broader regional generalizations of climate warming-driven rainfall intensification. While global climate models project increased precipitation variability, localized observational records in northern Thailand reflect strong multidecadal natural variability driven by the El Niño–Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) that overshadow subtle monotonic signals.")
+    add_body_p("The finding of no statistically detectable monotonic trend across 11 ETCCDI indices at Chiang Mai over 1961–2019 contrasts with broader regional generalizations of climate warming-driven rainfall intensification. The absence of a detectable monotonic trend may reflect the high interannual variability of precipitation at the station, while attribution to specific climate drivers such as ENSO or the Indian Ocean Dipole was beyond the scope of this study.")
     add_body_p("Importantly, statistical non-detection must not be equated with physical stationarity. The 95% confidence intervals for Sen's slope remain relatively wide (e.g., PRCPTOT 95% CI: -49.66 to +17.64 mm/decade), indicating that moderate underlying trends cannot be ruled out. Methodologically, the study underscores the necessity of pre-specified serial dependence rules and provenance tracking to prevent false positive detections.")
 
     # 5. CONCLUSION
