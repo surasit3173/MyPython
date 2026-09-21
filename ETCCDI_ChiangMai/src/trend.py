@@ -171,6 +171,7 @@ def save_trend_outputs(df_trend: pd.DataFrame, df_fdr: pd.DataFrame) -> None:
 
     out_stats = stats_dir / "FINAL_TREND_STATISTICS.xlsx"
     out_table = tables_dir / "TABLE_04_TREND_FINAL.xlsx"
+    out_final_table = tables_dir / "FINAL_TREND_TABLE.xlsx"
     out_fdr = stats_dir / "FDR_ANALYSIS.xlsx"
 
     with pd.ExcelWriter(out_stats, engine="openpyxl") as writer:
@@ -179,6 +180,8 @@ def save_trend_outputs(df_trend: pd.DataFrame, df_fdr: pd.DataFrame) -> None:
         df_trend.to_excel(writer, sheet_name="Final_Trend_Analysis", index=False)
     with pd.ExcelWriter(out_fdr, engine="openpyxl") as writer:
         df_fdr.to_excel(writer, sheet_name="FDR_Analysis", index=False)
+    with pd.ExcelWriter(out_final_table, engine="openpyxl") as writer:
+        df_trend.to_excel(writer, sheet_name="Final_Trend_Table", index=False)
 
     print(f"[TREND] Trend analysis saved to {out_stats}, {out_table}, and {out_fdr}")
 

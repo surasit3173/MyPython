@@ -5,7 +5,13 @@ Independently calculates all 11 ETCCDI indices, percentile thresholds, autocorre
 primary test P-values (including Hamed-Rao MMK for R50mm and R99p), Z-statistic, S, VarS,
 Theil-Sen slopes, 95% CIs, and BH-FDR p-values via an independent implementation pathway.
 
-Produces audit/INDEPENDENT_VERIFICATION.xlsx and audit/REPRODUCIBILITY_REPORT.md.
+Produces:
+  - audit/INDEPENDENT_VERIFICATION.xlsx
+  - audit/INDEPENDENT_ETCCDI_VERIFICATION.xlsx
+  - audit/FINAL_HR_MMK_VERIFICATION.xlsx
+  - audit/FINAL_CI_VERIFICATION.xlsx
+  - audit/FINAL_FDR_VERIFICATION.xlsx
+  - audit/REPRODUCIBILITY_REPORT.md
 """
 
 import sys
@@ -97,6 +103,12 @@ def independent_etccdi_calc(df_raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
         })
 
     return pd.DataFrame(rows), {"p95": p95_indep, "p99": p99_indep}
+
+
+def primary_method_name(test_str: str) -> str:
+    if "Hamed" in str(test_str):
+        return "Hamed_Rao_modified_MK"
+    return "Ordinary_MK"
 
 
 def run_independent_verification() -> bool:
@@ -193,13 +205,12 @@ def run_independent_verification() -> bool:
 
         indep_p_raws.append(p_indep)
 
-        # Store for full trend comparison table
         full_trend_rows.append({
             "Index": idx,
             "Primary_Test": primary_method_name(primary_test),
             "Pipeline_Tau": float(row["Kendall_tau"]),
             "Independent_Tau": round(tau_indep, 4),
-            "Diff_Tau": abs(float(row["Kendall_tau"]) - round(tau_indep, 4)),
+            "Diff_Tau": round(abs(float(row["Kendall_tau"]) - round(tau_indep, 4)), 6),
             "Pipeline_S": float(s_indep),
             "Independent_S": float(s_indep),
             "Diff_S": 0.0,
@@ -211,16 +222,16 @@ def run_independent_verification() -> bool:
             "Diff_Z": 0.0,
             "Pipeline_P": float(row["P_raw"]),
             "Independent_P": round(p_indep, 6),
-            "Diff_P": abs(float(row["P_raw"]) - round(p_indep, 6)),
+            "Diff_P": round(abs(float(row["P_raw"]) - round(p_indep, 6)), 6),
             "Pipeline_SenSlope": float(row["Sen_slope_year"]),
             "Independent_SenSlope": round(slope_indep, 4),
-            "Diff_SenSlope": abs(float(row["Sen_slope_year"]) - round(slope_indep, 4)),
+            "Diff_SenSlope": round(abs(float(row["Sen_slope_year"]) - round(slope_indep, 4)), 6),
             "Pipeline_CI_low": float(row["CI95_low"]),
             "Independent_CI_low": round(ci_low_indep, 4),
-            "Diff_CI_low": abs(float(row["CI95_low"]) - round(ci_low_indep, 4)),
+            "Diff_CI_low": round(abs(float(row["CI95_low"]) - round(ci_low_indep, 4)), 6),
             "Pipeline_CI_high": float(row["CI95_high"]),
             "Independent_CI_high": round(ci_high_indep, 4),
-            "Diff_CI_high": abs(float(row["CI95_high"]) - round(ci_high_indep, 4)),
+            "Diff_CI_high": round(abs(float(row["CI95_high"]) - round(ci_high_indep, 4)), 6),
         })
 
     # 4. Independent BH-FDR calculation and verification
@@ -232,9 +243,8 @@ def run_independent_verification() -> bool:
 
         f_row["Pipeline_P_FDR"] = pip_fdr
         f_row["Independent_P_FDR"] = round(indep_fdr, 6)
-        f_row["Diff_P_FDR"] = abs(pip_fdr - round(indep_fdr, 6))
+        f_row["Diff_P_FDR"] = round(abs(pip_fdr - round(indep_fdr, 6)), 6)
 
-        # Check pass status
         pass_row = (f_row["Diff_Tau"] <= 1e-3) and (f_row["Diff_P"] <= 1e-4) and (f_row["Diff_SenSlope"] <= 1e-3) and (f_row["Diff_P_FDR"] <= 1e-4)
         f_row["Status"] = "PASS" if pass_row else "FAIL"
         if not pass_row:
@@ -244,20 +254,35 @@ def run_independent_verification() -> bool:
     df_check = pd.DataFrame(check_rows)
 
     AUDIT_DIR.mkdir(parents=True, exist_ok=True)
+
     out_path = AUDIT_DIR / "INDEPENDENT_VERIFICATION.xlsx"
+    out_etccdi_path = AUDIT_DIR / "INDEPENDENT_ETCCDI_VERIFICATION.xlsx"
+    out_hr_path = AUDIT_DIR / "FINAL_HR_MMK_VERIFICATION.xlsx"
+    out_ci_path = AUDIT_DIR / "FINAL_CI_VERIFICATION.xlsx"
+    out_fdr_path = AUDIT_DIR / "FINAL_FDR_VERIFICATION.xlsx"
+
     with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
         df_full_verify.to_excel(writer, sheet_name="Primary_Trend_Verification", index=False)
         df_check.to_excel(writer, sheet_name="Summary_Checks", index=False)
 
+    with pd.ExcelWriter(out_etccdi_path, engine="openpyxl") as writer:
+        df_check.to_excel(writer, sheet_name="ETCCDI_Point_Verification", index=False)
+
+    with pd.ExcelWriter(out_hr_path, engine="openpyxl") as writer:
+        df_full_verify[df_full_verify["Primary_Test"].str.contains("Hamed")].to_excel(writer, sheet_name="HR_MMK_Verification", index=False)
+        df_full_verify.to_excel(writer, sheet_name="All_Primary_Tests", index=False)
+
+    df_ci = df_full_verify[["Index", "Primary_Test", "Pipeline_SenSlope", "Independent_SenSlope", "Diff_SenSlope", "Pipeline_CI_low", "Independent_CI_low", "Diff_CI_low", "Pipeline_CI_high", "Independent_CI_high", "Diff_CI_high", "Status"]].copy()
+    with pd.ExcelWriter(out_ci_path, engine="openpyxl") as writer:
+        df_ci.to_excel(writer, sheet_name="CI_Verification", index=False)
+
+    df_fdr_ver = df_full_verify[["Index", "Primary_Test", "Pipeline_P", "Independent_P", "Diff_P", "Pipeline_P_FDR", "Independent_P_FDR", "Diff_P_FDR", "Status"]].copy()
+    with pd.ExcelWriter(out_fdr_path, engine="openpyxl") as writer:
+        df_fdr_ver.to_excel(writer, sheet_name="FDR_Verification", index=False)
+
     print(f"[VERIFY] Saved independent verification results to {out_path}")
     print(f"[VERIFY] Overall independent verification result: {'PASS' if all_pass else 'FAIL'}")
     return all_pass
-
-
-def primary_method_name(test_str: str) -> str:
-    if "Hamed" in str(test_str):
-        return "Hamed_Rao_modified_MK"
-    return "Ordinary_MK"
 
 
 def run_reproducibility_check() -> bool:

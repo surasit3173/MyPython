@@ -41,3 +41,7 @@ dist/
 # Preserved nested Git repository backup
 .git_backup/
 **/.git_backup/
+
+# Release ZIP and final export folder
+ETCCDI_ChiangMai_FINAL/
+*.zip

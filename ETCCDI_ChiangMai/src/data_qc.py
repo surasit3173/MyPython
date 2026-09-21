@@ -167,6 +167,9 @@ def create_validated_csv(df: pd.DataFrame) -> pd.DataFrame:
     out_path = OUTPUT_ROOT / "data" / "validated_daily_precipitation.csv"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_df.to_csv(out_path, index=False)
+    val_path = RAW_DATA_PATH.parent.parent.parent / "data" / "validated" / "validated_daily_precipitation.csv"
+    val_path.parent.mkdir(parents=True, exist_ok=True)
+    out_df.to_csv(val_path, index=False)
     print(f"[QC] Validated daily data saved to {out_path}")
     return val_df
 
@@ -251,6 +254,9 @@ def save_audit_outputs(results: dict, computed_hash: str) -> None:
     # Save audit/DATA_FORENSIC_REPORT.xlsx
     excel_audit_path = AUDIT_DIR / "DATA_FORENSIC_REPORT.xlsx"
     with pd.ExcelWriter(excel_audit_path, engine="openpyxl") as writer:
+        df_ys.to_excel(writer, sheet_name="Data_Forensics", index=False)
+    excel_final_path = AUDIT_DIR / "FINAL_DATA_FORENSIC_REPORT.xlsx"
+    with pd.ExcelWriter(excel_final_path, engine="openpyxl") as writer:
         df_ys.to_excel(writer, sheet_name="Data_Forensics", index=False)
 
     # Save output/tables/TABLE_01_DATA_QUALITY.xlsx
