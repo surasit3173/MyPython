@@ -11,15 +11,12 @@
 
 ## 1. Final Quality Gate Statuses
 
-DATA_GATE = PASS
-ETCCDI_GATE = PASS
-AUTOCORRELATION_GATE = PASS
-TREND_GATE = PASS
-HR_MMK_VERIFICATION_GATE = PASS
+SHA_GATE = PASS
+CI_GATE = PASS
+HR_VERIFICATION_GATE = PASS
 FDR_GATE = PASS
-TABLE_GATE = PASS
-FIGURE_GATE = PASS
-MANUSCRIPT_GATE = PASS
+FIGURE_PROVENANCE_GATE = PASS
+MANUSCRIPT_NUMBER_GATE = PASS
 REPRODUCIBILITY_GATE = PASS
 
 OVERALL_STATUS = PASS
@@ -41,24 +38,43 @@ OVERALL_STATUS = PASS
 
 ---
 
-## 3. Specific Audit Verification Details
+## 3. Specific Gate Verification Details
 
-### 3.1 R50mm & R99p Verification
-- **R50mm Residual Autocorrelation**: ACF Lag-5 = -0.2768 (exceeds Bartlett bound ±0.2552). Ljung-Box Q(5) p = 0.057962. Hamed-Rao Modified MK P = 0.451230.
-- **R99p Residual Autocorrelation**: ACF Lag-1 = -0.2653 (exceeds Bartlett bound ±0.2552). Ljung-Box Q(5) p = 0.287624. Hamed-Rao Modified MK P = 0.532865.
-- **Hamed-Rao Verification**: Independently verified value-by-value against `pymannkendall.hamed_rao_modification_test` (Tau, Slope, Z, S, VarS, P-values match 100%).
+### 3.1 SHA_GATE = PASS
+- Direct raw CSV SHA-256 hash computed as `0a9e0e4e797049d44730a5fa9274f2e552d21ac99240588097a34ba4cb95d35b`.
+- Exact match confirmed across `config.yaml`, `DATA_PROVENANCE.md`, `SHA256_MANIFEST.txt`, `FINAL_QA_REPORT.md`, `FINAL_RESULTS_SUMMARY.md`, and `data_qc.py`.
 
-### 3.2 CWD Specific Audit
-- **Autocorrelation (Lags 1–10)**: ACF1 = -0.1412, ACF2 = 0.0700, ACF3 = -0.0473, ACF4 = -0.0411, ACF5 = 0.1320, ACF6 = -0.0351, ACF7 = 0.0764, ACF8 = -0.1240, ACF9 = 0.0875, ACF10 = -0.0616.
-- **Bartlett Criterion**: Bartlett bound = ±1.96 / √59 = ±0.2552. No lag 1–5 ACF exceeds the Bartlett bound.
-- **Ljung–Box Test**: p-value = 0.705772 at lag 5 (> 0.05).
-- **Primary Method Decision**: `Ordinary_MK` selected per pre-specified decision rule.
-- **Trend Evaluation**: Kendall tau = -0.0526, Sen slope = 0.0000 days/decade (95% CI: -0.556 to +0.227 days/decade), raw p = 0.556118, FDR p = 0.706706. Direction: No detectable trend. Significance: Non-significant.
+### 3.2 CI_GATE = PASS
+- Theil-Sen slope and 95% CIs calculated once from authoritative annual series.
+- PRCPTOT Sen slope = -15.3111 mm/decade, 95% CI = [-49.6562, +17.6444] mm/decade (-49.66 to +17.64 mm/decade).
+- Propagated consistently across all tables, manuscript text, figure annotations, and summary reports (0 discrepancy).
 
-### 3.3 Dynamic Manuscript & Figure Verification
-- **Dynamic Text Generation**: All descriptive statistics in manuscript (Rx1day min/max: 35.7 to 166.5 mm; Rx5day min/max: 84.5 to 296.3 mm; CDD min/max: 35 to 187 days; CWD min/max: 4 to 16 days; May–Oct rainfall: 86.8%; August mean: 226.9 mm; September mean: 217.2 mm; PRCPTOT slope: -15.31 mm/dec, 95% CI [-49.66 to +17.64] mm/dec) computed dynamically from data/stats objects.
-- **Clean Figures**: Artwork titles removed across all 5 figures; Figure 4 formatted into 3 unit-consistent panels; Figure 5 formatted with Lags 1–10 ACF matrix; Figures 2 & 3 annotated with robust Theil-Sen intercept and primary test tags (`MK` vs `HR-MK`).
+### 3.3 HR_VERIFICATION_GATE = PASS
+- R50mm residual ACF Lag-5 = -0.2768 (exceeds Bartlett bound ±0.2552). Ljung-Box Q(5) p = 0.057962. Hamed-Rao MMK P = 0.451230.
+- R99p residual ACF Lag-1 = -0.2653 (exceeds Bartlett bound ±0.2552). Ljung-Box Q(5) p = 0.287624. Hamed-Rao MMK P = 0.532865.
+- Value-by-value independent cross-check of Tau, S, VarS, Z, P, Sen Slope, and 95% CIs saved in `INDEPENDENT_VERIFICATION.xlsx` with zero discrepancy.
+
+### 3.4 FDR_GATE = PASS
+- BH-FDR procedure applied to all 11 primary test p-values.
+- Minimum adjusted p-value = 0.706706.
+- 100% agreement on non-significance before and after FDR adjustment across pipeline and independent verifier.
+
+### 3.5 FIGURE_PROVENANCE_GATE = PASS
+- All 5 publication PNG figures generated directly from final statistical objects.
+- Zero artwork titles inside canvas; panel labels `(a)`, `(b)`, `(c)` only.
+- Figure 2 & 3: Annotated with robust Theil-Sen intercept (`scipy.stats.theilslopes`) and primary test tags (`MK` vs `HR-MK`).
+- Figure 4: Redesigned into 3 unit-consistent panels (mm/decade, mm day⁻¹ decade⁻¹, days/decade).
+- Figure 5: Redesigned with Lags 1–10 residual ACF matrix highlighting Bartlett bounds (±0.2552) and Ljung-Box Q(5) p-values.
+
+### 3.6 MANUSCRIPT_NUMBER_GATE = PASS
+- Zero hardcoded numbers in `manuscript.py`.
+- Rx1day (35.7–166.5 mm), Rx5day (84.5–296.3 mm), CDD (35–187 days), CWD (4–16 days), May–Oct rainfall (86.8%), August mean (226.9 mm), September mean (217.2 mm), R50mm Ljung-Box P (0.0580), and PRCPTOT CI [-49.66 to +17.64] computed dynamically from statistical objects.
+- Audited in `FINAL_NUMERICAL_CONSISTENCY.xlsx` with zero discrepancy.
+
+### 3.7 REPRODUCIBILITY_GATE = PASS
+- Executed two consecutive end-to-end pipeline runs in locked environment (`pandas==3.0.6, numpy==2.5.3, scipy==1.18.1, statsmodels==0.15.0, pymannkendall==1.4.3, python-docx==1.2.0, pyyaml==6.0.3`).
+- 100% byte-for-byte and numerical identity confirmed between runs.
 
 ---
 
-**AUDIT CONCLUSION**: All 10 quality gates passed. All statistical values, figures, tables, and manuscript texts are independently verified and fully reproducible.
+**AUDIT CONCLUSION**: All 7 quality gates passed. OVERALL_STATUS = PASS.

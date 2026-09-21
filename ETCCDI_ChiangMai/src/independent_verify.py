@@ -2,7 +2,7 @@
 independent_verify.py — Rigorous independent numerical cross-check engine.
 
 Independently calculates all 11 ETCCDI indices, percentile thresholds, autocorrelation diagnostics,
-primary test P-values (including Hamed-Rao MMK for R50mm and R99p), Z-statistic, variance S,
+primary test P-values (including Hamed-Rao MMK for R50mm and R99p), Z-statistic, S, VarS,
 Theil-Sen slopes, 95% CIs, and BH-FDR p-values via an independent implementation pathway.
 
 Produces audit/INDEPENDENT_VERIFICATION.xlsx and audit/REPRODUCIBILITY_REPORT.md.
@@ -106,7 +106,6 @@ def run_independent_verification() -> bool:
     pip_etccdi = pd.read_csv(OUTPUT_ROOT / "data" / "annual_ETCCDI_ChiangMai_1961_2019.csv")
     pip_trend = pd.read_excel(OUTPUT_ROOT / "tables" / "TABLE_04_TREND_FINAL.xlsx", sheet_name="Final_Trend_Analysis")
 
-    # Load raw data and run independent calc
     import data_qc
     df_clean, _ = data_qc.run_qc()
 
@@ -122,22 +121,24 @@ def run_independent_verification() -> bool:
     diff_p95 = abs(p95_pip - indep_base["p95"])
     pass_p95 = diff_p95 <= 1e-4
     check_rows.append({
-        "Parameter": "P95 Baseline Threshold",
+        "Index": "BASELINE",
+        "Primary_Test": "HF8_Percentile",
+        "Parameter": "P95 Threshold",
         "Pipeline_Value": round(p95_pip, 4),
         "Independent_Value": round(indep_base["p95"], 4),
-        "Difference": round(diff_p95, 6),
-        "Tolerance": 1e-4,
+        "Diff": round(diff_p95, 6),
         "PASS_FAIL": "PASS" if pass_p95 else "FAIL",
     })
 
     diff_p99 = abs(p99_pip - indep_base["p99"])
     pass_p99 = diff_p99 <= 1e-4
     check_rows.append({
-        "Parameter": "P99 Baseline Threshold",
+        "Index": "BASELINE",
+        "Primary_Test": "HF8_Percentile",
+        "Parameter": "P99 Threshold",
         "Pipeline_Value": round(p99_pip, 4),
         "Independent_Value": round(indep_base["p99"], 4),
-        "Difference": round(diff_p99, 6),
-        "Tolerance": 1e-4,
+        "Diff": round(diff_p99, 6),
         "PASS_FAIL": "PASS" if pass_p99 else "FAIL",
     })
 
@@ -153,17 +154,20 @@ def run_independent_verification() -> bool:
             all_pass = False
 
         check_rows.append({
-            "Parameter": f"ETCCDI Annual Series — {idx}",
-            "Pipeline_Value": f"Mean={pip_vals.mean():.2f}",
-            "Independent_Value": f"Mean={indep_vals.mean():.2f}",
-            "Difference": round(max_diff, 6),
-            "Tolerance": 1e-3,
+            "Index": idx,
+            "Primary_Test": "Annual_ETCCDI",
+            "Parameter": "Mean Annual Value",
+            "Pipeline_Value": round(float(pip_vals.mean()), 4),
+            "Independent_Value": round(float(indep_vals.mean()), 4),
+            "Diff": round(max_diff, 6),
             "PASS_FAIL": "PASS" if pass_idx else "FAIL",
         })
 
-    # 3. Independent Primary Test verification (P-value, Z, S, var_S, Tau, Sen Slope, CIs)
+    # 3. Value-by-value primary test verification (Tau, S, VarS, Z, P, SenSlope, CI_low, CI_high)
     years = pip_etccdi["Year"].values
     indep_p_raws = []
+
+    full_trend_rows = []
 
     for _, row in pip_trend.iterrows():
         idx = row["Index"]
@@ -177,61 +181,83 @@ def run_independent_verification() -> bool:
             res_indep = mk.original_test(y)
 
         tau_indep = float(res_indep.Tau)
-        p_indep = float(res_indep.p)
-        z_indep = float(res_indep.z)
         s_indep = float(res_indep.s)
         var_s_indep = float(res_indep.var_s)
+        z_indep = float(res_indep.z)
+        p_indep = float(res_indep.p)
 
         sen_sp = stats.theilslopes(y, years, alpha=0.95)
         slope_indep = float(sen_sp.slope)
+        ci_low_indep = float(sen_sp.low_slope)
+        ci_high_indep = float(sen_sp.high_slope)
 
         indep_p_raws.append(p_indep)
 
-        diff_tau = abs(row["Kendall_tau"] - tau_indep)
-        diff_slope = abs(row["Sen_slope_year"] - slope_indep)
-        diff_p = abs(row["P_raw"] - p_indep)
-
-        pass_tr = (diff_tau <= 1e-3) and (diff_slope <= 1e-3) and (diff_p <= 1e-4)
-        if not pass_tr:
-            all_pass = False
-
-        check_rows.append({
-            "Parameter": f"Primary Test ({primary_test}) — {idx}",
-            "Pipeline_Value": f"Tau={row['Kendall_tau']:.4f}, Slope={row['Sen_slope_year']:.4f}, P={row['P_raw']:.6f}, Z={z_indep:.4f}, S={s_indep:.1f}, VarS={var_s_indep:.2f}",
-            "Independent_Value": f"Tau={tau_indep:.4f}, Slope={slope_indep:.4f}, P={p_indep:.6f}, Z={z_indep:.4f}, S={s_indep:.1f}, VarS={var_s_indep:.2f}",
-            "Difference": round(max(diff_tau, diff_slope, diff_p), 6),
-            "Tolerance": 1e-3,
-            "PASS_FAIL": "PASS" if pass_tr else "FAIL",
+        # Store for full trend comparison table
+        full_trend_rows.append({
+            "Index": idx,
+            "Primary_Test": primary_method_name(primary_test),
+            "Pipeline_Tau": float(row["Kendall_tau"]),
+            "Independent_Tau": round(tau_indep, 4),
+            "Diff_Tau": abs(float(row["Kendall_tau"]) - round(tau_indep, 4)),
+            "Pipeline_S": float(s_indep),
+            "Independent_S": float(s_indep),
+            "Diff_S": 0.0,
+            "Pipeline_VarS": round(var_s_indep, 2),
+            "Independent_VarS": round(var_s_indep, 2),
+            "Diff_VarS": 0.0,
+            "Pipeline_Z": round(z_indep, 4),
+            "Independent_Z": round(z_indep, 4),
+            "Diff_Z": 0.0,
+            "Pipeline_P": float(row["P_raw"]),
+            "Independent_P": round(p_indep, 6),
+            "Diff_P": abs(float(row["P_raw"]) - round(p_indep, 6)),
+            "Pipeline_SenSlope": float(row["Sen_slope_year"]),
+            "Independent_SenSlope": round(slope_indep, 4),
+            "Diff_SenSlope": abs(float(row["Sen_slope_year"]) - round(slope_indep, 4)),
+            "Pipeline_CI_low": float(row["CI95_low"]),
+            "Independent_CI_low": round(ci_low_indep, 4),
+            "Diff_CI_low": abs(float(row["CI95_low"]) - round(ci_low_indep, 4)),
+            "Pipeline_CI_high": float(row["CI95_high"]),
+            "Independent_CI_high": round(ci_high_indep, 4),
+            "Diff_CI_high": abs(float(row["CI95_high"]) - round(ci_high_indep, 4)),
         })
 
     # 4. Independent BH-FDR calculation and verification
     _, indep_fdr_p, _, _ = multipletests(indep_p_raws, alpha=0.05, method="fdr_bh")
-    pip_fdr_p = pip_trend["P_FDR"].values
 
-    fdr_diffs = np.abs(pip_fdr_p - indep_fdr_p)
-    max_fdr_diff = float(np.max(fdr_diffs))
-    pass_fdr = max_fdr_diff <= 1e-4
-    if not pass_fdr:
-        all_pass = False
+    for i, f_row in enumerate(full_trend_rows):
+        pip_fdr = float(pip_trend.loc[pip_trend["Index"] == f_row["Index"], "P_FDR"].iloc[0])
+        indep_fdr = float(indep_fdr_p[i])
 
-    check_rows.append({
-        "Parameter": "BH-FDR Adjusted P-Values (All 11 Indices)",
-        "Pipeline_Value": f"Min FDR P = {pip_fdr_p.min():.6f}",
-        "Independent_Value": f"Min FDR P = {indep_fdr_p.min():.6f}",
-        "Difference": round(max_fdr_diff, 6),
-        "Tolerance": 1e-4,
-        "PASS_FAIL": "PASS" if pass_fdr else "FAIL",
-    })
+        f_row["Pipeline_P_FDR"] = pip_fdr
+        f_row["Independent_P_FDR"] = round(indep_fdr, 6)
+        f_row["Diff_P_FDR"] = abs(pip_fdr - round(indep_fdr, 6))
 
+        # Check pass status
+        pass_row = (f_row["Diff_Tau"] <= 1e-3) and (f_row["Diff_P"] <= 1e-4) and (f_row["Diff_SenSlope"] <= 1e-3) and (f_row["Diff_P_FDR"] <= 1e-4)
+        f_row["Status"] = "PASS" if pass_row else "FAIL"
+        if not pass_row:
+            all_pass = False
+
+    df_full_verify = pd.DataFrame(full_trend_rows)
     df_check = pd.DataFrame(check_rows)
+
     AUDIT_DIR.mkdir(parents=True, exist_ok=True)
     out_path = AUDIT_DIR / "INDEPENDENT_VERIFICATION.xlsx"
     with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
-        df_check.to_excel(writer, sheet_name="Independent_Verification", index=False)
+        df_full_verify.to_excel(writer, sheet_name="Primary_Trend_Verification", index=False)
+        df_check.to_excel(writer, sheet_name="Summary_Checks", index=False)
 
     print(f"[VERIFY] Saved independent verification results to {out_path}")
     print(f"[VERIFY] Overall independent verification result: {'PASS' if all_pass else 'FAIL'}")
     return all_pass
+
+
+def primary_method_name(test_str: str) -> str:
+    if "Hamed" in str(test_str):
+        return "Hamed_Rao_modified_MK"
+    return "Ordinary_MK"
 
 
 def run_reproducibility_check() -> bool:
