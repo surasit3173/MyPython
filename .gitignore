@@ -41,3 +41,6 @@ dist/
 # Preserved nested Git repository backup
 .git_backup/
 **/.git_backup/
+*.rar 
+MyPython-1/ 
+__pycache__/ 
