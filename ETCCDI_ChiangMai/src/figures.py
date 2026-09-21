@@ -1,6 +1,7 @@
 """
 figures.py — Publication-quality figures for Chiang Mai ETCCDI analysis.
-Enhanced for Q3 Journal Submission (CMJS).
+Fully compliant with Q3 journal standards (CMJS).
+All internal figure titles removed from artwork canvas (only panel labels retained).
 """
 
 import sys
@@ -18,7 +19,7 @@ from config import (
     INDICES, UNITS, FIG_DPI, FIG_FORMAT,
 )
 
-# Set style
+# Set publication style
 plt.rcParams["font.sans-serif"] = "DejaVu Sans"
 plt.rcParams["font.size"] = 8
 plt.rcParams["axes.labelsize"] = 8.5
@@ -26,7 +27,6 @@ plt.rcParams["axes.titlesize"] = 9
 plt.rcParams["xtick.labelsize"] = 8
 plt.rcParams["ytick.labelsize"] = 8
 plt.rcParams["legend.fontsize"] = 8
-plt.rcParams["figure.titlesize"] = 10
 
 COL_DATA = "#2c3e50"
 COL_TREND = "#c0392b"
@@ -57,7 +57,7 @@ def plot_figure01(df_daily: pd.DataFrame, df_quality: pd.DataFrame) -> None:
     ax1.set_xlabel("Year")
     ax1.set_ylabel("Data Completeness (%)")
     ax1.set_ylim(80, 102)
-    ax1.set_title("(a) Annual Data Completeness (1961–2019)", loc="left")
+    ax1.set_title("(a)", loc="left", fontweight="bold")
     ax1.legend(loc="lower right")
 
     # Panel (b): Seasonal regime (Mean monthly precipitation)
@@ -73,7 +73,7 @@ def plot_figure01(df_daily: pd.DataFrame, df_quality: pd.DataFrame) -> None:
     ax2.set_xticklabels(month_labels)
     ax2.set_xlabel("Month")
     ax2.set_ylabel("Precipitation (mm)")
-    ax2.set_title("(b) Mean Monthly Rainfall Regime", loc="left")
+    ax2.set_title("(b)", loc="left", fontweight="bold")
 
     fig.tight_layout()
     _save_fig(fig, "Figure_1_Data_Coverage_Seasonal_Regime.png")
@@ -97,11 +97,11 @@ def plot_figure02(df_etccdi: pd.DataFrame, df_trend: pd.DataFrame) -> None:
 
         ax.plot(years, y, color=COL_DATA, linewidth=1.0, marker="o", markersize=2.5, alpha=0.8)
 
-        # Robust Theil-Sen fit
+        # Robust Theil-Sen fit from scipy.stats.theilslopes
         res = theilslopes(y, years)
         slope = res.slope
         intercept = res.intercept
-        y_line = slope * years + intercept
+        y_line = intercept + slope * years
 
         ax.plot(years, y_line, color=COL_TREND, linewidth=1.2, linestyle="-")
 
@@ -115,7 +115,7 @@ def plot_figure02(df_etccdi: pd.DataFrame, df_trend: pd.DataFrame) -> None:
                 bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.8, edgecolor="none"))
 
         ax.set_ylabel(f"{idx} ({unit})")
-        ax.set_title(f"({chr(97+i)}) {idx}", loc="left")
+        ax.set_title(f"({chr(97+i)}) {idx}", loc="left", fontweight="bold")
         ax.grid(True, linestyle=":", alpha=0.5)
 
     for ax in axes[-2:]:
@@ -143,10 +143,11 @@ def plot_figure03(df_etccdi: pd.DataFrame, df_trend: pd.DataFrame) -> None:
 
         ax.plot(years, y, color=COL_DATA, linewidth=1.0, marker="o", markersize=2.5, alpha=0.8)
 
+        # Robust Theil-Sen fit from scipy.stats.theilslopes
         res = theilslopes(y, years)
         slope = res.slope
         intercept = res.intercept
-        y_line = slope * years + intercept
+        y_line = intercept + slope * years
 
         ax.plot(years, y_line, color=COL_TREND, linewidth=1.2, linestyle="-")
 
@@ -160,7 +161,7 @@ def plot_figure03(df_etccdi: pd.DataFrame, df_trend: pd.DataFrame) -> None:
                 bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.8, edgecolor="none"))
 
         ax.set_ylabel(f"{idx} ({unit})")
-        ax.set_title(f"({chr(97+i)}) {idx}", loc="left")
+        ax.set_title(f"({chr(97+i)}) {idx}", loc="left", fontweight="bold")
         ax.grid(True, linestyle=":", alpha=0.5)
 
     axes[-1].set_visible(False)  # hide 6th panel
@@ -178,7 +179,7 @@ def plot_figure04(df_trend: pd.DataFrame) -> None:
 
     trend_dict = {row["Index"]: row for _, row in df_trend.iterrows()}
 
-    # Panel (a): Precipitation accumulation (mm/decade)
+    # Panel (a): Precipitation amount (mm/decade)
     p_indices = ["PRCPTOT", "Rx1day", "Rx5day", "R95p", "R99p"][::-1]
     y1 = np.arange(len(p_indices))
     ax1.axvline(x=0, color="black", linestyle="--", linewidth=0.8, alpha=0.7)
@@ -192,7 +193,7 @@ def plot_figure04(df_trend: pd.DataFrame) -> None:
     ax1.set_yticks(y1)
     ax1.set_yticklabels(p_indices)
     ax1.set_xlabel("Sen's Slope (mm decade⁻¹)")
-    ax1.set_title("(a) Precipitation Amount", loc="left")
+    ax1.set_title("(a)", loc="left", fontweight="bold")
     ax1.grid(True, linestyle=":", alpha=0.5)
 
     # Panel (b): Precipitation intensity (mm/day/decade)
@@ -209,7 +210,7 @@ def plot_figure04(df_trend: pd.DataFrame) -> None:
     ax2.set_yticks(y2)
     ax2.set_yticklabels(i_indices)
     ax2.set_xlabel("Sen's Slope (mm day⁻¹ decade⁻¹)")
-    ax2.set_title("(b) Rainfall Intensity", loc="left")
+    ax2.set_title("(b)", loc="left", fontweight="bold")
     ax2.grid(True, linestyle=":", alpha=0.5)
 
     # Panel (c): Frequency and duration (days/decade)
@@ -226,7 +227,7 @@ def plot_figure04(df_trend: pd.DataFrame) -> None:
     ax3.set_yticks(y3)
     ax3.set_yticklabels(f_indices)
     ax3.set_xlabel("Sen's Slope (days decade⁻¹)")
-    ax3.set_title("(c) Frequency & Duration", loc="left")
+    ax3.set_title("(c)", loc="left", fontweight="bold")
     ax3.grid(True, linestyle=":", alpha=0.5)
 
     fig.tight_layout()
@@ -241,7 +242,7 @@ def plot_figure05(df_acf: pd.DataFrame) -> None:
     indices = df_acf["Index"].values
     bartlett_b = df_acf["Bartlett_bound"].values[0]
 
-    # Panel (a): ACF Lags 1–10 Heatmap / Matrix
+    # Panel (a): Residual ACF Lags 1–10 Matrix / Heatmap
     acf_cols = [f"ACF{k}" for k in range(1, 11)]
     acf_matrix = df_acf[acf_cols].values
 
@@ -250,9 +251,9 @@ def plot_figure05(df_acf: pd.DataFrame) -> None:
     ax1.set_yticklabels(indices)
     ax1.set_xticks(np.arange(10))
     ax1.set_xticklabels([f"Lag {k}" for k in range(1, 11)])
-    ax1.set_title("(a) Residual Autocorrelation Function (Lags 1–10)", loc="left")
+    ax1.set_title("(a)", loc="left", fontweight="bold")
 
-    # Mark cells exceeding Bartlett bound
+    # Annotate values in matrix, marking exceedances of Bartlett bound
     for r in range(len(indices)):
         for c in range(10):
             val = acf_matrix[r, c]
@@ -263,9 +264,9 @@ def plot_figure05(df_acf: pd.DataFrame) -> None:
                 ax1.text(c, r, f"{val:.2f}", ha="center", va="center", color=text_col, fontsize=7)
 
     cbar = fig.colorbar(im, ax=ax1, fraction=0.02, pad=0.02)
-    cbar.set_label("ACF Value (* = Exceeds Bartlett ±0.255)", fontsize=7.5)
+    cbar.set_label("Residual ACF (* = Exceeds Bartlett bound ±0.255)", fontsize=7.5)
 
-    # Panel (b): Ljung-Box p-values
+    # Panel (b): Ljung-Box Q(5) p-values
     x_pos = np.arange(len(indices))
     lb_pvals = df_acf["LjungBox_P"].values
 
@@ -274,9 +275,9 @@ def plot_figure05(df_acf: pd.DataFrame) -> None:
     ax2.axhline(y=0.05, color=COL_TREND, linestyle="--", linewidth=1.0, label="α = 0.05 threshold")
     ax2.set_xticks(x_pos)
     ax2.set_xticklabels(indices, rotation=30, ha="right")
-    ax2.set_ylabel("Ljung-Box p-value (Lags 1–5)")
+    ax2.set_ylabel("Ljung-Box Q(5) p-value")
     ax2.set_ylim(0, 1.05)
-    ax2.set_title("(b) Ljung-Box Portmanteau Diagnostic Test", loc="left")
+    ax2.set_title("(b)", loc="left", fontweight="bold")
     ax2.legend(loc="upper right")
     ax2.grid(True, linestyle=":", alpha=0.5)
 

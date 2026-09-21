@@ -117,6 +117,7 @@ def main():
         df_sens=df_sens,
         df_base_sens=df_base_sens,
         baseline=baseline,
+        df_daily=df_clean,
     )
 
     state = {
