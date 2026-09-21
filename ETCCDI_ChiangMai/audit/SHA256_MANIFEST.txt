@@ -1,0 +1,1 @@
+e54766524f292ecc1ab2464953d462f0067ddf87fab20b05efb6249b83357c2b  Observed_Rain_daily_complete_1961_2019_327501_wmo48327_ChiangMai.csv
