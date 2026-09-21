@@ -9,7 +9,7 @@
 
 Serial dependence evaluated on trend-removed residuals:
 - **Flagged for Serial Dependence**:
-  - `R50mm` (Ljung-Box p = 0.009367 < 0.05) -> Primary Method: `Hamed_Rao_modified_MK`
+  - `R50mm` (ACF Lag-5 = -0.2768 exceeding Bartlett bound ±0.2552) -> Primary Method: `Hamed_Rao_modified_MK`
   - `R99p` (ACF Lag 1 = -0.2653 exceeds Bartlett bound 0.2552) -> Primary Method: `Hamed_Rao_modified_MK`
 - **Retained Ordinary MK**: Remaining 9 indices (`PRCPTOT`, `SDII`, `Rx1day`, `Rx5day`, `CDD`, `CWD`, `R10mm`, `R20mm`, `R95p`).
 

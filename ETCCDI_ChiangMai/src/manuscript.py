@@ -151,7 +151,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
         f"Daily quality control confirmed 100% data completeness (21,549 valid daily records across 59 years) with zero missing dates and zero suspect records. "
         f"Running 5-day precipitation totals (Rx5day) and wet/dry spells (CWD, CDD) were evaluated on the continuous daily series without artificial boundary truncation. "
         f"Serial dependence was assessed on Sen-slope detrended residuals using lag 1–10 autocorrelation functions and a Ljung-Box portmanteau test at lags 1–5. "
-        f"The pre-specified decision rule selected the Hamed–Rao modified Mann–Kendall test for serial dependence in R50mm (Ljung-Box p = 0.009) and R99p (ACF1 = -0.265), "
+        f"The pre-specified decision rule selected the Hamed–Rao modified Mann–Kendall test for serial dependence in R50mm (ACF5 = -0.277) and R99p (ACF1 = -0.265), "
         f"while retaining ordinary Mann–Kendall for the remaining nine indices. "
         f"Under their pre-specified primary tests, no index exhibited a statistically detectable monotonic trend over 1961–2019 either before adjustment "
         f"or after Benjamini–Hochberg False Discovery Rate correction (all FDR p > 0.70). "
@@ -199,7 +199,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
     add_body_p("Chiang Mai station (TMD ID 327501 / WMO ID 48327) is located in Suthep Subdistrict, Mueang Chiang Mai District, Chiang Mai Province, northern Thailand (18.77°N, 98.97°E, elevation 312.0 m a.s.l.). The station is operated by the Thai Meteorological Department (TMD) and provides continuous meteorological observations representative of the Chiang Mai Intermontane Basin in the upper Ping River Catchment.")
 
     add_heading2("2.2 Data Quality Control and Forensic Audit")
-    add_body_p("The authoritative daily precipitation dataset encompasses 59 calendar years from January 1, 1961, to December 31, 2019. Quality control was conducted per Master Specification guidelines. The raw CSV file hash was locked via SHA-256 manifest (hash: e54766524f292ecc1ab2464953d462f0067ddf87fab20b05efb6249b83357c2b). Completeness was evaluated on unique calendar dates rather than raw row count. Annual validity required ≥90% valid daily observations per year.")
+    add_body_p("The authoritative daily precipitation dataset encompasses 59 calendar years from January 1, 1961, to December 31, 2019. Quality control was conducted per Master Specification guidelines. The raw CSV file hash was locked via SHA-256 manifest (hash: 0a9e0e4e797049d44730a5fa9274f2e552d21ac99240588097a34ba4cb95d35b). Completeness was evaluated on unique calendar dates rather than raw row count. Annual validity required ≥90% valid daily observations per year.")
 
     add_heading2("2.3 ETCCDI Extreme Precipitation Indices")
     add_body_p("Eleven core ETCCDI extreme precipitation indices were calculated: PRCPTOT, SDII, Rx1day, Rx5day, CDD, CWD, R10mm, R20mm, R50mm, R95p, and R99p. A wet day was defined as daily precipitation P ≥ 1.0 mm.")
@@ -223,7 +223,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
     add_body_p("Table 1 summarizes station characteristics and data quality. Table 2 presents definitions and descriptive statistics for all 11 ETCCDI indices. Over 1961–2019, mean annual PRCPTOT was 1153.9 mm (SD 213.5 mm, CV 18.5%). Mean daily intensity (SDII) averaged 12.51 mm/day (SD 1.46 mm/day). Maximum 1-day rainfall (Rx1day) averaged 82.6 mm (range 45.4 to 172.6 mm), while maximum 5-day accumulation (Rx5day) averaged 141.3 mm (range 73.1 to 248.8 mm). Dry spell duration (CDD) averaged 80.9 days (range 31 to 148 days), and wet spell duration (CWD) averaged 8.7 days (range 4 to 17 days). Extremely heavy rainfall days (R50mm) averaged 2.76 days/year.")
 
     add_heading2("3.3 Serial Dependence Diagnostics")
-    add_body_p("Autocorrelation diagnostics on detrended residuals (Table 4) revealed significant serial dependence in R50mm (Ljung-Box p = 0.009367 < 0.05) and R99p (ACF Lag-1 = -0.2653 exceeding Bartlett bound ±0.2552). Under the pre-specified decision rule, Hamed–Rao modified Mann–Kendall was selected as the primary test for R50mm and R99p, while Ordinary Mann–Kendall was retained for the other nine indices.")
+    add_body_p("Autocorrelation diagnostics on detrended residuals (Table 4) revealed significant serial dependence in R50mm (ACF Lag-5 = -0.2768 exceeding Bartlett bound ±0.2552) and R99p (ACF Lag-1 = -0.2653 exceeding Bartlett bound ±0.2552). Under the pre-specified decision rule, Hamed–Rao modified Mann–Kendall was selected as the primary test for R50mm and R99p, while Ordinary Mann–Kendall was retained for the other nine indices.")
 
     add_heading2("3.4 Trend Analysis and FDR Control")
     add_body_p("Table 3 presents final trend analysis results. Under pre-specified primary tests, no ETCCDI index exhibited a statistically significant trend over 1961–2019. PRCPTOT showed a non-significant decrease of -15.31 mm/decade (Kendall tau = -0.0847, raw p = 0.346, FDR p = 0.707). SDII decreased non-significantly by -0.10 mm/day per decade (p = 0.298). Rx1day increased non-significantly by +1.63 mm/decade (p = 0.476). CDD increased non-significantly by +1.21 days/decade (p = 0.578). CWD, R10mm, R50mm, and R99p exhibited zero Sen's slope (|slope| ≤ 1e-6) and were classified as 'No detectable trend'. Following Benjamini–Hochberg FDR correction, all adjusted p-values exceeded 0.70.")
@@ -234,7 +234,7 @@ def create_manuscript(df_etccdi: pd.DataFrame, df_stats: pd.DataFrame,
     # 4. DISCUSSION
     add_heading1("4. DISCUSSION")
     add_body_p("The finding of no statistically detectable monotonic trend across 11 ETCCDI indices at Chiang Mai over 1961–2019 contrasts with broader regional generalizations of climate warming-driven rainfall intensification. While global climate models project increased precipitation variability, localized observational records in northern Thailand reflect strong multidecadal natural variability driven by the El Niño–Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) that overshadow subtle monotonic signals.")
-    add_body_p("Importantly, statistical non-detection must not be equated with physical stationarity. The 95% confidence intervals for Sen's slope remain relatively wide (e.g., PRCPTOT 95% CI: -46.89 to +14.93 mm/decade), indicating that moderate underlying trends cannot be ruled out. Methodologically, the study underscores the necessity of pre-specified serial dependence rules and provenance tracking to prevent false positive detections.")
+    add_body_p("Importantly, statistical non-detection must not be equated with physical stationarity. The 95% confidence intervals for Sen's slope remain relatively wide (e.g., PRCPTOT 95% CI: -49.66 to +17.64 mm/decade), indicating that moderate underlying trends cannot be ruled out. Methodologically, the study underscores the necessity of pre-specified serial dependence rules and provenance tracking to prevent false positive detections.")
 
     # 5. CONCLUSION
     add_heading1("5. CONCLUSION")
