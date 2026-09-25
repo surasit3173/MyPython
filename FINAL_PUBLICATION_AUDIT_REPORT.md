@@ -1,6 +1,6 @@
 # FINAL PUBLICATION AUDIT REPORT — APST MARKOV RAINFALL ANALYSIS
 
-**Audit Timestamp**: 2026-09-25 21:36:33 UTC
+**Audit Timestamp**: 2026-09-25 22:20:35 UTC
 **Locked Manuscript Title**: "Spatial Heterogeneity and Temporal Stability of Daily Rainfall Occurrence Regimes in Northeastern Thailand"
 **Target Journal**: Asia-Pacific Journal of Science and Technology (APST)
 **Final Status**: **GO — PUBLICATION PACKAGE INTERNALLY VALIDATED**
