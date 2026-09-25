@@ -9,7 +9,7 @@
 
 Serial dependence evaluated on trend-removed residuals:
 - **Flagged for Serial Dependence**:
-  - `R50mm` (Ljung-Box p = 0.009367 < 0.05) -> Primary Method: `Hamed_Rao_modified_MK`
+  - `R50mm` (ACF Lag-5 = -0.2768 exceeding Bartlett bound ±0.2552) -> Primary Method: `Hamed_Rao_modified_MK`
   - `R99p` (ACF Lag 1 = -0.2653 exceeds Bartlett bound 0.2552) -> Primary Method: `Hamed_Rao_modified_MK`
 - **Retained Ordinary MK**: Remaining 9 indices (`PRCPTOT`, `SDII`, `Rx1day`, `Rx5day`, `CDD`, `CWD`, `R10mm`, `R20mm`, `R95p`).
 
@@ -17,7 +17,7 @@ Serial dependence evaluated on trend-removed residuals:
 
 | Index | Unit | N | Kendall Tau | Sen Slope (/yr) | Sen Slope (/decade) | 95% CI Low | 95% CI High | Primary Test | P Raw | P FDR | Direction | Significance |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| PRCPTOT | mm | 59 | -0.0847 | -1.5311 | -15.3111 | -4.6890 | 1.4925 | Ordinary_MK | 0.346353 | 0.706706 | Decreasing | Non-significant |
+| PRCPTOT | mm | 59 | -0.0847 | -1.5311 | -15.3111 | -4.9660 | 1.4925 | Ordinary_MK | 0.346353 | 0.706706 | Decreasing | Non-significant |
 | SDII | mm/day | 59 | -0.0935 | -0.0104 | -0.1037 | -0.0306 | 0.0089 | Ordinary_MK | 0.298412 | 0.706706 | Decreasing | Non-significant |
 | Rx1day | mm | 59 | 0.0643 | 0.1632 | 1.6316 | -0.2372 | 0.5849 | Ordinary_MK | 0.475958 | 0.706706 | Increasing | Non-significant |
 | Rx5day | mm | 59 | -0.0105 | -0.0435 | -0.4348 | -0.7302 | 0.6125 | Ordinary_MK | 0.911479 | 0.911479 | Decreasing | Non-significant |
