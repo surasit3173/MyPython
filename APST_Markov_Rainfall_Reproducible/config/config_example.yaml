@@ -1,0 +1,47 @@
+# APST Markov Rainfall Analysis Configuration
+# Project: Northeastern Thailand Daily Rainfall Occurrence Regimes
+
+project_name: "northeastern_thailand_10sta"
+region_name: "Northeastern Thailand"
+data_type: "Daily Station Rainfall"
+
+# Input Paths (Relative to package root or absolute paths)
+input_rainfall_csv: "data/raw/Observed_Rain_daily_196101_202010_TMD10_raw_Markovchaindataset.csv"
+input_metadata_docx: "data/metadata/Latitude10Sta.docx"
+
+# Date Column Specification
+year_col: "YEAR"
+month_col: "MONTH"
+day_col: "DAY"
+date_col: null
+
+# Station Columns (If null, automatically detected from non-date columns)
+station_cols:
+  - "353201"
+  - "354201"
+  - "356201"
+  - "357201"
+  - "381201"
+  - "403201"
+  - "405201"
+  - "407501"
+  - "431201"
+  - "432201"
+
+# Scientific Parameters
+wet_threshold_mm: 0.1             # Wet day threshold in mm (0.1 mm standard)
+annual_completeness_min_days: 300  # Minimum valid days per year required
+analysis_start_year: 1961
+analysis_end_year: 2020
+
+# Sub-Period Stability Comparison
+temporal_subperiods:
+  period1: [1961, 1990]
+  period2: [1991, 2020]
+
+# Output Options
+output_base_dir: "outputs"
+figure_dpi: 300
+export_excel: true
+export_csv: true
+export_figures: true
