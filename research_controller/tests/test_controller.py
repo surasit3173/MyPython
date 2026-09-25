@@ -1,4 +1,5 @@
 import json
+import os
 import subprocess
 import tempfile
 import unittest
@@ -40,7 +41,7 @@ class ControllerTests(unittest.TestCase):
         self.assertEqual(resolved, target)
 
     def test_build_agy_command_workspace_binding_and_no_project_flag(self):
-        project_dir = Path(r"C:\MyPython\research_controller").resolve()
+        project_dir = (controller.get_base_dir() / "research_controller").resolve()
         cmd = controller.build_agy_command(
             agy_exe=r"C:\agy\agy.exe",
             prompt="Test prompt",
@@ -65,7 +66,7 @@ class ControllerTests(unittest.TestCase):
         self.assertEqual(cmd[cmd.index("--output-format") + 1], "json")
 
     def test_build_agy_command_autonomous_mode(self):
-        project_dir = Path(r"C:\MyPython\research_controller").resolve()
+        project_dir = (controller.get_base_dir() / "research_controller").resolve()
         cmd = controller.build_agy_command(
             agy_exe=r"C:\agy\agy.exe",
             prompt="Test prompt",
@@ -87,14 +88,16 @@ class ControllerTests(unittest.TestCase):
             controller.resolve_project("non_existent_project_xyz_99999")
 
     def test_resolve_project_fail_closed_outside_base(self):
-        # C:\Windows is outside C:\MyPython
+        # Outside base directory check
+        outside_path = r"C:\Windows" if os.name == "nt" else "/usr"
         with self.assertRaises(controller.WorkspaceBoundaryError):
-            controller.resolve_project(r"C:\Windows")
+            controller.resolve_project(outside_path)
 
     def test_resolve_project_fail_closed_directory_traversal(self):
-        # Path traversal attempting to escape C:\MyPython
+        # Path traversal attempting to escape base directory
+        traversal_path = r"..\some_external_dir" if os.name == "nt" else "../some_external_dir"
         with self.assertRaises(controller.WorkspaceBoundaryError):
-            controller.resolve_project(r"..\some_external_dir")
+            controller.resolve_project(traversal_path)
 
     def test_resolve_project_fail_closed_base_dir_itself(self):
         # Base dir itself is not a project workspace
@@ -147,8 +150,9 @@ class ControllerTests(unittest.TestCase):
         self.assertIn("must be absolute", str(ctx.exception))
 
         # 2. Non-existent path
+        non_existent = (controller.get_base_dir() / "definitely_non_existent_folder_99999").resolve()
         with self.assertRaises(controller.WorkspaceNotFoundError) as ctx:
-            controller.verify_workspace(Path(r"C:\MyPython\definitely_non_existent_folder_99999"))
+            controller.verify_workspace(non_existent)
         self.assertIn("does not exist", str(ctx.exception))
 
         # 3. File instead of directory
@@ -436,7 +440,7 @@ class ControllerTests(unittest.TestCase):
             controller.parse_duration_to_seconds("invalid_duration")
 
     def test_build_agy_command_includes_print_timeout(self):
-        project_dir = Path(r"C:\MyPython\research_controller").resolve()
+        project_dir = (controller.get_base_dir() / "research_controller").resolve()
 
         # Default timeout must be 30m (supporting at least 30m manuscript workflows)
         cmd_default = controller.build_agy_command(
@@ -660,7 +664,7 @@ class ControllerTests(unittest.TestCase):
                 self.assertEqual(meta["timeout"], "45m")
 
     def test_execute_task_timeout_handling(self):
-        project_dir = Path(r"C:\MyPython\research_controller").resolve()
+        project_dir = (controller.get_base_dir() / "research_controller").resolve()
         mock_proc = MagicMock()
         mock_proc.communicate.side_effect = [
             subprocess.TimeoutExpired(cmd=["agy"], timeout=1),
