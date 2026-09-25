@@ -1,0 +1,145 @@
+{
+  "351002": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.8435,
+      "GEV": 0.0025,
+      "LP3": 0.154
+    }
+  },
+  "351004": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.638,
+      "GEV": 0.0005,
+      "LP3": 0.3615
+    }
+  },
+  "351001": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.153,
+      "GEV": 0.0145,
+      "LP3": 0.8325
+    }
+  },
+  "351003": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.024,
+      "GEV": 0.0,
+      "LP3": 0.976
+    }
+  },
+  "351005": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.78,
+      "GEV": 0.001,
+      "LP3": 0.219
+    }
+  },
+  "351008": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.2915,
+      "GEV": 0.0,
+      "LP3": 0.7085
+    }
+  },
+  "351007": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.005,
+      "GEV": 0.129,
+      "LP3": 0.866
+    }
+  },
+  "351006": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.0095,
+      "GEV": 0.218,
+      "LP3": 0.7725
+    }
+  },
+  "351010": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.6515,
+      "GEV": 0.001,
+      "LP3": 0.3475
+    }
+  },
+  "351009": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.251,
+      "GEV": 0.03,
+      "LP3": 0.719
+    }
+  },
+  "351012": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.581,
+      "GEV": 0.0,
+      "LP3": 0.419
+    }
+  },
+  "351011": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.1675,
+      "GEV": 0.0,
+      "LP3": 0.8325
+    }
+  },
+  "351201": {
+    "B_requested": 2000,
+    "B_accepted": 2000,
+    "B_rejected": 0,
+    "acceptance_rate": 1.0,
+    "shares": {
+      "Gumbel": 0.163,
+      "GEV": 0.017,
+      "LP3": 0.82
+    }
+  }
+}
