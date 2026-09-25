@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# Load generated tables
 df_qa = pd.read_csv('01_data_audit/station_qa_summary.csv')
 df_state_freq = pd.read_csv('02_state_classification/state_frequencies_1961_2019.csv')
 df_markov = pd.read_csv('03_markov/markov_order1_matrices.csv')
@@ -9,7 +8,6 @@ df_order_sel = pd.read_csv('03_markov/markov_order_selection.csv')
 df_spells = pd.read_csv('05_spells/spell_dynamics_summary.csv')
 df_trend = pd.read_csv('08_temporal/trend_and_period_comparison_results.csv')
 
-# 1. DATA_QA_REPORT.md
 qa_report = f"""# DATA QA REPORT — MARKOV RAINFALL ANALYSIS (NORTHEASTERN THAILAND)
 
 **Audit Date**: 2026-09-17
@@ -36,7 +34,6 @@ for _, r in df_qa.iterrows():
 with open('DATA_QA_REPORT.md', 'w') as f:
     f.write(qa_report)
 
-# 2. MARKOV_ORDER_AUDIT_REPORT.md
 markov_report = f"""# MARKOV ORDER AUDIT REPORT
 
 **Gate 3 & Gate 4 Audit Status**: **PASS**
@@ -56,7 +53,6 @@ for _, r in df_order_sel.iterrows():
 with open('MARKOV_ORDER_AUDIT_REPORT.md', 'w') as f:
     f.write(markov_report)
 
-# 3. SPELL_AUDIT_REPORT.md
 spell_report = f"""# SPELL DYNAMICS AUDIT REPORT
 
 **Gate 5 Audit Status**: **PASS**
@@ -77,7 +73,6 @@ for _, r in df_spells[df_spells['State'].isin(['D', 'R'])].iterrows():
 with open('SPELL_AUDIT_REPORT.md', 'w') as f:
     f.write(spell_report)
 
-# 4. ENTROPY_AUDIT_REPORT.md
 entropy_report = f"""# ENTROPY AUDIT REPORT
 
 **Gate 6 Audit Status**: **PASS**
@@ -97,7 +92,6 @@ for _, r in df_ent.iterrows():
 with open('ENTROPY_AUDIT_REPORT.md', 'w') as f:
     f.write(entropy_report)
 
-# 5. TREND_AUDIT_REPORT.md
 trend_report = f"""# TREND & TEMPORAL STABILITY AUDIT REPORT
 
 **Gate 7 Audit Status**: **PASS**
@@ -117,7 +111,6 @@ for _, r in df_trend[df_trend['Metric'].isin(['Rainfall_Total_mm', 'Freq_R', 'P_
 with open('TREND_AUDIT_REPORT.md', 'w') as f:
     f.write(trend_report)
 
-# 6. VALIDATION_REPORT.md
 val_report = f"""# VALIDATION REPORT — G0 TO G8 AUDIT GATES
 
 | Gate ID | Description | Status | Evidence / Notes |
@@ -138,4 +131,4 @@ val_report = f"""# VALIDATION REPORT — G0 TO G8 AUDIT GATES
 with open('VALIDATION_REPORT.md', 'w') as f:
     f.write(val_report)
 
-print("ALL AUDIT REPORTS GENERATED SUCCESSFULLY.")
+print("AUDIT REPORTS GENERATED SUCCESSFULLY.")

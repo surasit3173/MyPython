@@ -1,0 +1,101 @@
+{
+  "n_years_etccdi": 59,
+  "valid_years": 59,
+  "indices": [
+    "PRCPTOT",
+    "SDII",
+    "Rx1day",
+    "Rx5day",
+    "CDD",
+    "CWD",
+    "R10mm",
+    "R20mm",
+    "R50mm",
+    "R95p",
+    "R99p"
+  ],
+  "baseline_p95": 49.895,
+  "baseline_p99": 82.116,
+  "baseline_wet_days": 2622,
+  "trend_summary": [
+    {
+      "Index": "PRCPTOT",
+      "Sen_slope": -1.6042,
+      "p_raw": 0.440316,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "SDII",
+      "Sen_slope": 0.0076,
+      "p_raw": 0.685135,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant increasing"
+    },
+    {
+      "Index": "Rx1day",
+      "Sen_slope": 0.1324,
+      "p_raw": 0.582788,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant increasing"
+    },
+    {
+      "Index": "Rx5day",
+      "Sen_slope": 0.0633,
+      "p_raw": 0.803747,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant increasing"
+    },
+    {
+      "Index": "CDD",
+      "Sen_slope": -0.0,
+      "p_raw": 0.895878,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "CWD",
+      "Sen_slope": -0.0,
+      "p_raw": 0.219848,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "R10mm",
+      "Sen_slope": -0.04,
+      "p_raw": 0.450969,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "R20mm",
+      "Sen_slope": -0.0,
+      "p_raw": 0.79794,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "R50mm",
+      "Sen_slope": -0.0,
+      "p_raw": 0.989429,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    },
+    {
+      "Index": "R95p",
+      "Sen_slope": 0.0388,
+      "p_raw": 0.963488,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant increasing"
+    },
+    {
+      "Index": "R99p",
+      "Sen_slope": -0.0,
+      "p_raw": 0.743687,
+      "p_FDR": 0.989429,
+      "Trend": "Non-significant decreasing"
+    }
+  ],
+  "n_significant_raw": 0,
+  "n_significant_fdr": 0
+}

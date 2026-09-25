@@ -3,11 +3,10 @@ from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
-from docx.oxml import OxmlElement, parse_xml
-from docx.oxml.ns import nsdecls, qn
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
 import pandas as pd
 
-# Load validated data tables
 df_qa = pd.read_csv('01_data_audit/station_qa_summary.csv')
 df_state_freq = pd.read_csv('02_state_classification/state_frequencies_1961_2019.csv')
 df_markov = pd.read_csv('03_markov/markov_order1_matrices.csv')
@@ -17,14 +16,12 @@ df_trend = pd.read_csv('08_temporal/trend_and_period_comparison_results.csv')
 
 doc = Document()
 
-# Set Standard Margins (1 inch)
 for section in doc.sections:
     section.top_margin = Inches(1)
     section.bottom_margin = Inches(1)
     section.left_margin = Inches(1)
     section.right_margin = Inches(1)
 
-# Helper function for table styling
 def style_table(table):
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     header_tr = table.rows[0]._tr.get_or_add_trPr()
@@ -50,7 +47,6 @@ def style_table(table):
                     for run in p.runs:
                         run.font.size = Pt(9)
 
-# Helper function to add image with caption
 def add_figure(doc, image_path, fig_title, fig_caption):
     p_img = doc.add_paragraph()
     p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -65,9 +61,8 @@ def add_figure(doc, image_path, fig_title, fig_caption):
     run_cap = p_cap.add_run(fig_caption)
     run_cap.font.size = Pt(9.5)
     run_cap.italic = True
-    doc.add_paragraph() # Spacing
+    doc.add_paragraph()
 
-# --- TITLE ---
 p_title = doc.add_paragraph()
 p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 r_title = p_title.add_run("Spatial Heterogeneity and Temporal Stability of Daily Rainfall Occurrence Regimes in Northeastern Thailand")
@@ -75,9 +70,8 @@ r_title.font.name = "Calibri"
 r_title.font.size = Pt(16)
 r_title.font.bold = True
 
-doc.add_paragraph() # Spacing
+doc.add_paragraph()
 
-# --- ABSTRACT ---
 h_abs = doc.add_heading(level=1)
 r_abs_h = h_abs.add_run("Abstract")
 r_abs_h.font.color.rgb = RGBColor(31, 78, 120)
@@ -104,7 +98,6 @@ p_kw.add_run("Markov chain; Rainfall persistence; Spell dynamics; Shannon entrop
 
 doc.add_paragraph()
 
-# --- 1. INTRODUCTION ---
 h1 = doc.add_heading(level=1)
 h1.add_run("1. Introduction").font.color.rgb = RGBColor(31, 78, 120)
 
@@ -131,7 +124,6 @@ doc.add_paragraph(
     "statistical procedures with False Discovery Rate control."
 )
 
-# --- 2. MATERIALS AND METHODS ---
 h2 = doc.add_heading(level=1)
 h2.add_run("2. Materials and Methods").font.color.rgb = RGBColor(31, 78, 120)
 
@@ -142,10 +134,8 @@ doc.add_paragraph(
     "complete calendar year representation, annual and multi-decadal analyses were restricted strictly to the 59 complete calendar years from 1961 to 2019 (21,545 calendar days per station)."
 )
 
-# EMBED FIGURE 1
 add_figure(doc, '11_figures/Figure1_study_area_network.png', "Figure 1", "Study Area and TMD Rainfall Station Network across Northeastern Thailand. Station positions are scaled by altitude (m, MSL).")
 
-# EMBED TABLE 1
 p_t1 = doc.add_paragraph()
 r_t1 = p_t1.add_run("Table 1. Station characteristics and data completeness audit (1961–2020).")
 r_t1.bold = True
@@ -204,7 +194,6 @@ doc.add_paragraph(
     "Mann-Whitney U testing. Multiple testing multiplicity was controlled using the Benjamini-Hochberg False Discovery Rate (FDR) procedure at alpha = 0.05."
 )
 
-# --- 3. RESULTS AND DISCUSSION ---
 h3 = doc.add_heading(level=1)
 h3.add_run("3. Results and Discussion").font.color.rgb = RGBColor(31, 78, 120)
 
@@ -217,7 +206,6 @@ doc.add_paragraph(
     "(observed to model-implied ratios = 0.998–1.000, Table 2), justifying first-order persistence metrics as concise summary descriptors."
 )
 
-# EMBED TABLE 3
 p_t3 = doc.add_paragraph()
 r_t3 = p_t3.add_run("Table 3. Markov chain order model selection statistics across Northeastern Thailand (1961–2019).")
 r_t3.bold = True
@@ -247,7 +235,6 @@ doc.add_paragraph(
     "along the eastern Mekong border (0.223 at Nakhon Phanom and 0.181 at Sakon Nakhon) and lowest in the leeward western and southern plateau areas (0.131–0.135)."
 )
 
-# EMBED TABLE 2
 p_t2 = doc.add_paragraph()
 r_t2 = p_t2.add_run("Table 2. Rainfall-state occurrence frequency, persistence probabilities, and Shannon entropy (1961–2019).")
 r_t2.bold = True
@@ -280,7 +267,6 @@ doc.add_paragraph(
     "(Nakhon Phanom), reflecting greater state diversity and occurrence uncertainty in the wetter eastern corridor."
 )
 
-# EMBED FIGURE 2 & FIGURE 3
 add_figure(doc, '11_figures/Figure2_seasonal_occurrence.png', "Figure 2", "Seasonal Rainy-State Occurrence Probabilities across Northeastern Thailand. Seasons defined as Dry (Nov–Feb), Pre-Monsoon (Mar–Apr), and SW Monsoon / Wet (May–Oct).")
 add_figure(doc, '11_figures/Figure3_spatial_heterogeneity.png', "Figure 3", "Spatial Heterogeneity of Rainfall Occurrence Regimes. (A) Rainy State Frequency (Freq_R), (B) Dry Persistence (P_DD), (C) Rainy Persistence (P_RR), and (D) Mean Rainy-Spell Duration.")
 
@@ -292,7 +278,6 @@ doc.add_paragraph(
     "Transition Regime (Udon Thani, Loei, Roi Et, Surin); and (3) Southwestern High-Dry-Persistence Regime (Khon Kaen, Chaiyaphum, Nakhon Ratchasima)."
 )
 
-# EMBED FIGURE 5
 add_figure(doc, '11_figures/Figure5_regime_synthesis.png', "Figure 5", "Integrated Rainfall Occurrence Regime Synthesis in Frequency–Persistence–Entropy Space.")
 
 doc.add_heading("3.4 Long-Term Temporal Stability (1961–2019)", level=2)
@@ -304,7 +289,6 @@ doc.add_paragraph(
     "the spatial structure of daily rainfall occurrence regimes across Northeastern Thailand has remained structurally stable over the past six decades."
 )
 
-# EMBED TABLE 4
 p_t4 = doc.add_paragraph()
 r_t4 = p_t4.add_run("Table 4. Long-term trend analysis (1961–2019) and period comparison (1961–1990 vs 1991–2019) for key rainfall metrics.")
 r_t4.bold = True
@@ -330,10 +314,8 @@ for _, r in df_t4_filter.iterrows():
 style_table(t4)
 doc.add_paragraph()
 
-# EMBED FIGURE 4
 add_figure(doc, '11_figures/Figure4_temporal_evolution.png', "Figure 4", "Long-Term Evolution of Rainy Frequency (A) and Dry Persistence (B) across representative stations over 1961–2019.")
 
-# --- 4. CONCLUSIONS ---
 h4 = doc.add_heading(level=1)
 h4.add_run("4. Conclusions").font.color.rgb = RGBColor(31, 78, 120)
 
@@ -354,7 +336,6 @@ doc.add_paragraph("All primary daily rainfall observations, metadata, and analys
 doc.add_heading("Conflicts of Interest", level=1)
 doc.add_paragraph("The authors declare no conflicts of interest.")
 
-# --- REFERENCES ---
 h_ref = doc.add_heading(level=1)
 h_ref.add_run("References").font.color.rgb = RGBColor(31, 78, 120)
 
