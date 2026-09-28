@@ -1,18 +1,18 @@
 {
   "project_name": "CMIP6_PrachuapKhiriKhan_Rainfall_Trend_Analysis",
   "version": "3.0.0",
-  "run_id": "RUN_20260909_021630",
-  "timestamp_utc": "2026-09-09T02:16:30.452531Z",
+  "run_id": "RUN_20260913_090315",
+  "timestamp_utc": "2026-09-13T09:03:15.797100Z",
   "environment": {
-    "python_version": "3.14.0",
-    "operating_system": "Windows-11-10.0.26200-SP0",
-    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+    "python_version": "3.12.13",
+    "operating_system": "Linux-6.8.0-x86_64-with-glibc2.39",
+    "processor": "x86_64"
   },
   "provenance": {
-    "input_obs_file": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\data/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv",
-    "input_obs_sha256": "abdec5e39458b3441bcce139517b3eacc8855f85f2ec5e6ce06e295a280e31ed",
-    "coords_file": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\data/station_coordinates_PrachuapKhiriKhan.csv",
-    "coords_sha256": "7ce23dbb323bd98229cef7f419078d595b00e61dfbe96a18f8f61a6666bcb179",
+    "input_obs_file": "/app/CMIP6PrachuapKhiriKhan/data/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv",
+    "input_obs_sha256": "c0d96fa605901ad08b5c9222d94840d26bf3b179acd01781c62d1d2b8e6700d7",
+    "coords_file": "/app/CMIP6PrachuapKhiriKhan/data/station_coordinates_PrachuapKhiriKhan.csv",
+    "coords_sha256": "734906df25261ee320120f3778cd66428f290a7acc26bccf560f6f8af5f9ea88",
     "config_sha256": "5e40eb8d247649744b21da2a8c551a4a41d1d1593f367ad64fc6b21942e53ebd"
   },
   "methodology": {
@@ -28,20 +28,20 @@
   },
   "output_artifacts": {
     "trend_results": {
-      "path": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\output/tables\\trend_results.csv",
-      "sha256": "0c7c29e04cfadd5a1c2b0e1012b6dfec63973fa44e06b31490fb161ff042132c"
+      "path": "/app/CMIP6PrachuapKhiriKhan/output/tables/trend_results.csv",
+      "sha256": "f51178e3980cbc91d856a4529e8886a34b1112c6c996435acb0d84c3cad9ab94"
     },
     "station_summary": {
-      "path": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\output/tables\\station_summary.csv",
-      "sha256": "bb6e424869e2a4fd4c0e2f9a157b2b19310a64080b85a15e4dde0023396b69b4"
+      "path": "/app/CMIP6PrachuapKhiriKhan/output/tables/station_summary.csv",
+      "sha256": "f23f68be855c5dea7700ff393fdc87845cfcc523fe10aa395752677961412a67"
     },
     "validation_report": {
-      "path": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\output/tables\\validation_report.md",
-      "sha256": "cc0a3eed8b2b58a803f69cac0b20f6317e1f92407e8df1b8dacb61cc5c66677b"
+      "path": "/app/CMIP6PrachuapKhiriKhan/output/tables/validation_report.md",
+      "sha256": "16d8bd092ec4a5b4f0af1c99603f8908917b88a11f9c4d5aa11bc118acb1a980"
     },
     "summary_figure": {
-      "path": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\output\\figures\\Figure1_study_area_stations.png",
-      "sha256": "3662a3df5b09b43d447ec6605f55a4cdcbe4c9176967dda94f3f50c5231ea1ef"
+      "path": "/app/CMIP6PrachuapKhiriKhan/output/figures/Figure1_study_area_stations.png",
+      "sha256": "e009270f1dab7da4a1c55551c1d6b450b98a367b26d027f66230a994107152bd"
     }
   },
   "validation_status": "PASS"
