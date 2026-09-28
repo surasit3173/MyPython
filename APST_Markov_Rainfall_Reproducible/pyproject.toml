@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apst_markov_rainfall"
+version = "1.0.0"
+description = "Reusable Daily Rainfall Markov Chain Analysis Package"
+authors = [{name = "Jules Software Engineer"}]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "openpyxl",
+    "pyyaml",
+    "python-docx"
+]
