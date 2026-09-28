@@ -1,0 +1,9 @@
+Index Code,Name,Units,Definition / Calculation Logic
+PRCPTOT,Total seasonal precipitation,mm,Sum of daily rainfall on wet days (P ≥ 1.0 mm)
+wet_day_frequency_pct,Wet-day frequency,%,Percentage of days with P ≥ 1.0 mm in season
+Rx1day,Maximum 1-day precipitation,mm,Highest single-day precipitation amount in season
+Rx5day,Maximum 5-day consecutive precipitation,mm,Highest 5-day consecutive precipitation sum in season
+CDD,Consecutive dry days,days,Maximum number of consecutive dry days (P < 1.0 mm)
+CWD,Consecutive wet days,days,Maximum number of consecutive wet days (P ≥ 1.0 mm)
+R10mm,Heavy precipitation days,days,Count of days with daily precipitation P ≥ 10.0 mm
+R20mm,Very heavy precipitation days,days,Count of days with daily precipitation P ≥ 20.0 mm

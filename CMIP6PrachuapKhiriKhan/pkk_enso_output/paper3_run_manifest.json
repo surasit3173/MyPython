@@ -1,0 +1,10 @@
+{
+  "config": "Observed_Rain_daily_198101_201412_Prachuap_Khiri_Khan.csv",
+  "analysis_mode": "full_frozen",
+  "observed_oni_sha256": "ab9278cf270a412c89b6a9b8fd5641a5167e67a706f43695411a310e211d5c5e",
+  "model_nino34_manifest_sha256": "09056a24d057c415f70155ca81d2763a4b65482d70dd4929f9c1399f77970e03",
+  "hierarchy": "daily -> management season -> station -> unique raw-grid signature -> model -> ensemble",
+  "resampling_unit": "management-season climate year; independently within model for model ensembles",
+  "gates_passed": 7,
+  "gates_total": 8
+}
