@@ -1,0 +1,2 @@
+target_province,status,audit_notes,action_required
+PrachuapKhiriKhan,ISOLATED_BLOCKED,CMIP6PrachuapKhiriKhan CSV detected as relabeled Uttaradit data. Data strictly isolated.,Authentic daily rainfall dataset required before Prachuap analysis
