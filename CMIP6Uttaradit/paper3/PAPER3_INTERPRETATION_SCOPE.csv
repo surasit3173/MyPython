@@ -1,0 +1,5 @@
+Category,Detail,Status
+Station Scope,"13 gauges in Uttaradit (351001-351012, 351201)",VERIFIED
+Model Scope,"7 CMIP6 GCMs (ACCESS-ESM1-5, CanESM5, CESM2, EC-Earth3, FGOALS-g3, MIROC6, MRI-ESM2-0)",VERIFIED
+Baseline Scope,Primary ENSO analysis 1995-2014,VERIFIED
+Method Scope,QDM bias correction vs Raw GCMs vs Observations,VERIFIED
