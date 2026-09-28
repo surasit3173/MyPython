@@ -1,0 +1,2 @@
+target_project,audited_project,prachuap_csv_path,prachuap_station_count,is_uttaradit_relabeled_copy,isolation_status,isolation_action
+CMIP6Uttaradit,CMIP6PrachuapKhiriKhan,CMIP6PrachuapKhiriKhan/Observed_Rain_daily_198101_201412_PrachuapKhiriKhan.csv,12,True,BLOCKED_DEPENDENCY_ISOLATED,CMIP6PrachuapKhiriKhan isolated to prevent data leakage into Uttaradit canonical analysis.

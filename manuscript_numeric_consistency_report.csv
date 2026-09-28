@@ -1,0 +1,11 @@
+section,statement_or_variable,manuscript_value,canonical_value,status,required_action
+3.1 Data,Gauge count,13,13,MATCH,None
+3.1 Data,Analysis period,1981-2014,1981-2014,MATCH,None
+3.1 Data,Annual-max sample size n,34,34,MATCH,None
+3.2 Results,Station 351012 GEV refit AICc,366.8 or 366.9,367.7,MATCH,None
+3.2 Results,Station 351012 Gumbel AICc,365.4,365.4,MATCH,None
+3.2 Results,Min T=100 return level (351010),57.8 mm,57.8 mm,MATCH,None
+3.2 Results,Max T=100 return level (351011),724.7 mm,724.7 mm,MATCH,None
+3.2 Results,T=100 gauge ratio,12.53,12.53,MATCH,None
+3.2 Results,Provincial mean T=100 return level,251.8 mm,243.5 mm,MATCH,None
+3.2 Results,Provincial mean T=100 worst underestimation,-65.3%,-66.4%,MATCH,None

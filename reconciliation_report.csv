@@ -1,0 +1,157 @@
+artifact,station,variable,canonical_value,artifact_value,absolute_difference,relative_difference,status,source,action_taken
+Table 2,351001,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351001,AICc_Gumbel,354.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351001,AICc_GEV,356.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351001,AICc_LP3,351.1,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351001,Akaike_weight_selected,0.797,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351001,GEV_shape_xi,-0.0208,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,selected_model,Gumbel,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,AICc_Gumbel,320.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,AICc_GEV,322.8,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,AICc_LP3,322.8,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,Akaike_weight_selected,0.624,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351002,GEV_shape_xi,0.0018,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,AICc_Gumbel,355.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,AICc_GEV,357.7,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,AICc_LP3,343.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,Akaike_weight_selected,0.997,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351003,GEV_shape_xi,0.0159,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,selected_model,Gumbel,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,AICc_Gumbel,340.1,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,AICc_GEV,342.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,AICc_LP3,340.7,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,Akaike_weight_selected,0.488,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351004,GEV_shape_xi,-0.0142,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,selected_model,Gumbel,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,AICc_Gumbel,320.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,AICc_GEV,322.8,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,AICc_LP3,322.1,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,Akaike_weight_selected,0.57,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351005,GEV_shape_xi,0.0113,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,AICc_Gumbel,309.9,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,AICc_GEV,308.6,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,AICc_LP3,291.6,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,Akaike_weight_selected,1.0,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351006,GEV_shape_xi,-0.0456,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,AICc_Gumbel,327.7,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,AICc_GEV,329.1,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,AICc_LP3,304.1,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,Akaike_weight_selected,1.0,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351007,GEV_shape_xi,-0.0183,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,AICc_Gumbel,333.9,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,AICc_GEV,336.2,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,AICc_LP3,332.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,Akaike_weight_selected,0.626,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351008,GEV_shape_xi,-0.0109,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,AICc_Gumbel,251.8,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,AICc_GEV,253.9,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,AICc_LP3,249.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,Akaike_weight_selected,0.697,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351009,GEV_shape_xi,-0.0145,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,selected_model,Gumbel,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,AICc_Gumbel,249.3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,AICc_GEV,251.6,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,AICc_LP3,249.9,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,Akaike_weight_selected,0.486,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351010,GEV_shape_xi,-0.0051,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,AICc_Gumbel,376.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,AICc_GEV,378.6,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,AICc_LP3,373.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,Akaike_weight_selected,0.775,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351011,GEV_shape_xi,-0.0282,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,selected_model,Gumbel,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,AICc_Gumbel,365.4,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,AICc_GEV,367.7,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,AICc_LP3,366.0,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,Akaike_weight_selected,0.483,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351012,GEV_shape_xi,-0.0128,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,selected_model,LP3,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,AICc_Gumbel,342.2,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,AICc_GEV,344.5,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,AICc_LP3,338.6,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,Akaike_weight_selected,0.824,,0.0,0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 2,351201,GEV_shape_xi,-0.0034,,0.0,-0.0,REGENERATED,canonical_fit,Updated from canonical full-record fit
+Table 3 / Return Levels,351001,R2,85.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R2,71.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R2,95.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R2,82.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R2,73.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R2,37.4,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R2,36.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R2,51.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R2,26.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R2,27.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R2,85.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R2,99.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R2,78.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351001,R5,128.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R5,95.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R5,133.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R5,114.4,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R5,98.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R5,58.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R5,61.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R5,84.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R5,35.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R5,35.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R5,153.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R5,145.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R5,114.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351001,R10,166.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R10,111.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R10,144.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R10,135.4,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R10,114.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R10,78.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R10,88.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R10,112.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R10,43.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R10,40.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R10,226.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R10,176.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R10,147.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351001,R25,224.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R25,132.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R25,151.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R25,161.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R25,135.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R25,115.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R25,137.9,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R25,156.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R25,55.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R25,47.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R25,365.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R25,214.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R25,198.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351001,R50,277.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R50,147.4,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R50,153.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R50,181.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R50,151.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R50,152.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R50,191.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R50,195.6,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R50,65.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R50,52.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R50,517.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R50,243.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R50,246.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351001,R100,339.4,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351002,R100,162.5,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351003,R100,154.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351004,R100,201.0,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351005,R100,166.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351006,R100,201.1,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351007,R100,264.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351008,R100,241.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351009,R100,77.2,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351010,R100,57.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351011,R100,724.7,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351012,R100,271.3,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
+Table 3 / Return Levels,351201,R100,302.8,,0.0,0.0,REGENERATED,canonical_return_levels,Updated from canonical return level recomputation
