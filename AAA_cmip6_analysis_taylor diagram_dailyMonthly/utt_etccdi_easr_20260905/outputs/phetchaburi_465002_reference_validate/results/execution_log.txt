@@ -1,0 +1,5 @@
+==============================================================================
+Phetchaburi_465002_reference_sensitivity portable ETCCDI analysis v2.1.0-portable
+Observed: 1981-2014 | Baseline: 1995-2014 | Future: 2021-2050
+Stations: 13 | Models: 7 | Scenarios: 2
+VALIDATION PASSED

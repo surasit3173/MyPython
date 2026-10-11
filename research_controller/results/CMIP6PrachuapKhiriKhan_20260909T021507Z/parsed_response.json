@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED",
+  "events_count": 1,
+  "events": [
+    {
+      "conversation_id": "78940983-50d9-4038-892b-944f44b3848b",
+      "status": "SUCCESS",
+      "response": "",
+      "duration_seconds": 115.4565341,
+      "num_turns": 1,
+      "usage": {
+        "input_tokens": 273761,
+        "output_tokens": 13021,
+        "thinking_tokens": 9894,
+        "cache_read_tokens": 1863759,
+        "total_tokens": 286782
+      },
+      "denied_actions": [
+        {
+          "action": "command",
+          "display_name": "RunCommand"
+        }
+      ]
+    }
+  ],
+  "parsed": true
+}

@@ -1,0 +1,34 @@
+{
+  "purpose": "Publication-readiness audit without changing frozen scientific conclusions.",
+  "allowed_actions": [
+    "read project files",
+    "run Python and tests",
+    "validate numerical consistency",
+    "inspect figures and manuscript",
+    "generate audit artifacts",
+    "regenerate derived outputs when explicitly required",
+    "create local ZIP packages"
+  ],
+  "forbidden_actions": [
+    "fabricate missing results",
+    "invent references or provenance",
+    "overwrite frozen raw data",
+    "delete original datasets",
+    "publish or submit externally",
+    "claim universal scientific validation from fixture tests"
+  ],
+  "stop_conditions": [
+    "authoritative data missing",
+    "evidence conflict",
+    "non-positive statistical variance without a validated remedy",
+    "unsupported manuscript claim",
+    "untraceable numerical result"
+  ],
+  "required_outputs": [
+    "evidence.json",
+    "audit_report.md",
+    "execution log",
+    "list of changed files",
+    "validation/test results"
+  ]
+}

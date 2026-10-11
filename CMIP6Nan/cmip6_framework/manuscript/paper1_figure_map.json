@@ -1,0 +1,12 @@
+{
+  "_comment": "Which rendered figure is which manuscript figure for Paper 1. Read by the publication-asset exporter; keep in step with the captions in Paper1_APST_manuscript.md.",
+  "main": {
+    "1": "Paper1_Figure_01_study_area.png",
+    "2": "Paper1_Figure_02_calibration.png",
+    "3": "Paper1_Figure_03_validation.png",
+    "4": "Paper1_Figure_04_near_future_precipitation.png",
+    "5": "Paper1_Figure_05_near_future_extremes.png",
+    "6": "Paper1_Figure_06_near_future_map.png"
+  },
+  "supplementary": {}
+}

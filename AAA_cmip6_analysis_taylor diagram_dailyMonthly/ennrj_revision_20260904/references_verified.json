@@ -1,0 +1,294 @@
+{
+  "audit_date": "2026-09-04",
+  "source": "inspection/manuscript.json",
+  "source_paragraph_range": [144, 171],
+  "screened_count": 28,
+  "independent_review_status": "pending_parent_second_pass",
+  "style_source": "https://ph02.tci-thaijo.org/index.php/ennrj/author",
+  "style_decision": "Use explicit author-date in-text instructions and alphabetic unnumbered bibliography. Surname plus initials without periods; full journal titles; year;volume(issue):shortened pages or Article No. identifier. All authors retained. The generic Vancouver label conflicts with explicit author-date examples, which control this proposed formatting.",
+  "global_intext_correction": "Replace et al, with et al., throughout; retain author-date citations. Match Blain and Palizdan corrected years and Burn's compound coauthor surname. Define organizational abbreviations consistently.",
+  "references": [
+    {
+      "source_paragraph": 144,
+      "corrected_reference": "Ahmad I, Tang D, Wang TF, Wang M, Wagan B. Precipitation trends over time using Mann-Kendall and Spearman's rho tests in Swat River Basin, Pakistan. Advances in Meteorology 2015;2015:Article No. 431860.",
+      "intext_correction": "Paragraph 15: (Ahmad et al., 2015).",
+      "verification_status": "primary_publication_verified_via_mirror",
+      "authoritative_url": "https://doi.org/10.1155/2015/431860",
+      "evidence_url": "https://pdfs.semanticscholar.org/b883/f72dd7cb8f4007c2df289c4bf4bbda2f7f13.pdf",
+      "evidence_id": "E02",
+      "caveat": "Publisher page could not be fetched; publisher-branded original paper available through a mirror identifies TianFang Wang. TF retained from supplied reference; some indexing collapses this to T. Study concerns Swat, Pakistan; management implications are general, not evidence of impacts in Prachuap."
+    },
+    {
+      "source_paragraph": 145,
+      "corrected_reference": "Arai S, Urayama K, Tebakari T, Archvarahuprok B. Characteristics of gridded rainfall data for Thailand from 1981-2017. Engineering Journal 2019;23(6):461-8.",
+      "intext_correction": "Paragraph 16: (Arai et al., 2019).",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://engj.org/index.php/ej/article/view/3546",
+      "evidence_id": "E03",
+      "caveat": "Supports Thai rainfall geography and gridded-data trend context; do not imply this study validated the manuscript's station dataset."
+    },
+    {
+      "source_paragraph": 146,
+      "corrected_reference": "Asfaw A, Simane B, Hassen A, Bantider A. Variability and time series trend analysis of rainfall and temperature in northcentral Ethiopia: a case study in Woleka sub-basin. Weather and Climate Extremes 2018;19:29-41.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_and_official_metadata",
+      "authoritative_url": "https://www.sciencedirect.com/science/article/pii/S2212094717300932",
+      "evidence_url": "https://cir.nii.ac.jp/crid/1361137044726430592",
+      "evidence_id": "E04",
+      "caveat": "Publisher confirms issue metadata and abstract; official NII DOI record confirms all authors. Paragraph 83's specific reservoir/soil-moisture effects were not tested by this Ethiopia trend study; frame as possible implications."
+    },
+    {
+      "source_paragraph": 147,
+      "corrected_reference": "Azam M, Maeng SJ, Kim HS, Lee SW, Lee JE. Spatial and temporal trend analysis of precipitation and drought in South Korea. Water 2018;10(6):Article No. 765.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.mdpi.com/2073-4441/10/6/765",
+      "evidence_id": "E05",
+      "caveat": "Strong analogue for monthly/seasonal changes without significant annual precipitation change, and for conditional autocorrelation handling. Management effects remain inferred rather than measured in the present study."
+    },
+    {
+      "source_paragraph": 148,
+      "corrected_reference": "Blain GC. The influence of nonlinear trends on the power of the trend-free pre-whitening approach. Acta Scientiarum. Agronomy 2015;37(1):21-8.",
+      "intext_correction": "Paragraph 75: replace (Blain, 2014) with (Blain, 2015).",
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://periodicos.uem.br/ojs/index.php/ActaSciAgron/article/download/18199/pdf_48/",
+      "evidence_id": "E06",
+      "caveat": "Correct initials G to GC, year 2014 to 2015, and final page 29 to 28. Paper supports method sensitivity to trend shape; does not itself establish the manuscript's conditional pre-whitening choice as optimal."
+    },
+    {
+      "source_paragraph": 149,
+      "corrected_reference": "Burn DH, Hag Elnur MA. Detection of hydrologic trends and variability. Journal of Hydrology 2002;255(1-4):107-22.",
+      "intext_correction": "Paragraph 19: (Burn and Hag Elnur, 2002).",
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://www.sciencedirect.com/science/article/pii/S0022169401005145",
+      "evidence_url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=13398400",
+      "evidence_id": "E07",
+      "caveat": "Publisher gives Mohamed A. Hag Elnur; official INIST-CNRS indexing explicitly treats HAG ELNUR as family name. Compound surname retained rather than Elnur MAH."
+    },
+    {
+      "source_paragraph": 150,
+      "corrected_reference": "Deng S, Lu C, Chen H, Song X, Chen T, Yang N, Fan Y. Rainfall seasonality changes and underlying climatic causes in global land monsoon regions. Atmospheric Research 2025;326:Article No. 108288.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.sciencedirect.com/science/article/abs/pii/S0169809525003801",
+      "evidence_id": "E08",
+      "caveat": "Paragraph 18 mismatch: this global seasonality study cannot establish that most previous Thailand/coastal-western-Thailand studies focused only on annual rainfall or regional averages. Use to support global importance of seasonality, or qualify the literature-gap statement."
+    },
+    {
+      "source_paragraph": 151,
+      "corrected_reference": "Dinpashoh Y, Mirabbasi R, Jhajharia D, Abianeh HZ, Mostafaeipour A. Effect of short-term and long-term persistence on identification of temporal trends. Journal of Hydrologic Engineering 2014;19(3):617-25.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://ascelibrary.org/doi/10.1061/%28ASCE%29HE.1943-5584.0000819",
+      "evidence_id": "E09",
+      "caveat": "Published online in 2013, print issue 2014; issue year retained. Full name Hamid Zare Abianeh confirmed; compound-name indexing varies, so supplied Abianeh HZ retained. Supports persistence-aware methods, not independent evidence for the present stations' autocorrelation values."
+    },
+    {
+      "source_paragraph": 152,
+      "corrected_reference": "Do XD. Spatiotemporal trends in temperature and rainfall in Northwestern Vietnam (2009-2024). Environment and Natural Resources Journal 2026;24(1):98-114.",
+      "intext_correction": "Keep (Do, 2026) only if retained as a regional-comparison citation; remove from the conditional TFPW method justification in paragraph 19.",
+      "verification_status": "verified_primary_with_online_issue_year_discrepancy",
+      "authoritative_url": "https://ph02.tci-thaijo.org/index.php/ennrj/article/view/258010",
+      "evidence_url": "https://ph02.tci-thaijo.org/index.php/ennrj/issue/view/17412",
+      "evidence_id": "E10",
+      "caveat": "Online publication and OJS auto-citation show 2025; bound issue is Jan-Feb 2026. Proposed issue-based citation uses 2026. Available abstract/references concern temperature-rainfall correlations, not conditional TFPW; full PDF method search not successfully retrieved in this bounded pass."
+    },
+    {
+      "source_paragraph": 153,
+      "corrected_reference": "Endo N, Matsumoto J, Lwin T. Trends in precipitation extremes over Southeast Asia. SOLA 2009;5:168-71.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.jstage.jst.go.jp/article/sola/5/0/5_0_168/_article/-char/en/",
+      "evidence_id": "E11",
+      "caveat": "Paragraph 74 mismatch/weakness: daily wet-day, heavy-precipitation and dry-spell trends do not establish annual or seasonal lag-1 autocorrelation. Better placed in Southeast Asian rainfall-trend background."
+    },
+    {
+      "source_paragraph": 154,
+      "corrected_reference": "Fiaz A, Rahman G, Kwon HH. Impacts of climate change on the South Asian monsoon: a comprehensive review of its variability and future projections. Journal of Hydro-environment Research 2025;59:Article No. 100654.",
+      "intext_correction": null,
+      "verification_status": "primary_publication_verified_author_lab_copy",
+      "authoritative_url": "https://doi.org/10.1016/j.jher.2025.100654",
+      "evidence_url": "https://www.ahrl.re.kr/img_up/shop_pds/adm014m/contents/myboard/myboard3/127.impactsofclimatechangeonthesouthasian.pdf",
+      "evidence_id": "E12",
+      "caveat": "Scope is South Asia, not Thailand/Southeast Asia specifically. Paragraph 16 should separate this wider monsoon context from claims about Thai regional evidence."
+    },
+    {
+      "source_paragraph": 155,
+      "corrected_reference": "Gilbert RO. Statistical Methods for Environmental Pollution Monitoring. New York, USA: John Wiley & Sons; 1987.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_with_edition_caveat",
+      "authoritative_url": "https://www.wiley.com/en-us/General%2B%26%2BIntroductory%2BCivil%2BEngineering%2B%26%2BConstruction/Waste%2BTreatment-c-CE41?pq=%7Crelevance%7Cseries%3A3054",
+      "evidence_url": "https://search.worldcat.org/title/Statistical-methods-for-environmental-pollution-monitoring/oclc/59107514",
+      "evidence_id": "E13",
+      "caveat": "Wiley official catalogue lists first edition February 1987; Wiley/1987 library record exists. Other official records identify Van Nostrand Reinhold for ISBN 0442230508. Preserve supplied Wiley imprint unless author's consulted copy shows otherwise; no ISBN or edition invented."
+    },
+    {
+      "source_paragraph": 156,
+      "corrected_reference": "Hamed KH, Rao AR. A modified Mann-Kendall trend test for autocorrelated data. Journal of Hydrology 1998;204(1-4):182-96.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.sciencedirect.com/science/article/pii/S002216949700125X",
+      "evidence_id": "E14",
+      "caveat": "Supports autocorrelation effects on the variance/significance of MK. Does not validate the specific TFPW code."
+    },
+    {
+      "source_paragraph": 157,
+      "corrected_reference": "Harmoko IW, Zainuri M, Wirasatriya A, Supari, Maghridlo A. Decadal rainfall distribution shift in Northern Coastal Java: histogram-based clustering using observations and CHIRPS. Environment and Natural Resources Journal 2026;24(4):482-95.",
+      "intext_correction": "Remove (Harmoko et al., 2026) from the Prachuap-specific physiography assertion in paragraph 17; if retained, cite explicitly as a coastal Java comparison.",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://ph02.tci-thaijo.org/index.php/ennrj/article/view/262255",
+      "evidence_url": "https://scholar.undip.ac.id/en/publications/decadal-rainfall-distribution-shift-in-northern-coastal-java-hist/",
+      "evidence_id": "E15",
+      "caveat": "Primary journal record plus author-institution record confirm publication. Supari is a mononym; OJS duplicates it in metadata, while author institution records one name. Geographical mismatch: Java evidence cannot verify local Prachuap rainfall heterogeneity."
+    },
+    {
+      "source_paragraph": 158,
+      "corrected_reference": "Intergovernmental Panel on Climate Change (IPCC). Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Core Writing Team, Lee H, Romero J, editors. Geneva, Switzerland: IPCC; 2023.",
+      "intext_correction": "Retain (IPCC, 2023); introduce full organizational name at first prose mention if journal requires it.",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.ipcc.ch/report/ar6/syr/resources/how-to-cite-this-report/",
+      "evidence_id": "E16",
+      "caveat": "Added complete report identity/editors/place from official citation guidance. No page range added because official guidance and full-volume front matter differ in their full-volume page description. DOI: 10.59327/IPCC/AR6-9789291691647."
+    },
+    {
+      "source_paragraph": 159,
+      "corrected_reference": "Jiang A, McBean E, Zeng P, Wang Y. Changing rainfall patterns: a perspective of inter-event time between rainfall events and annual numbers of rainfall events. Stochastic Environmental Research and Risk Assessment 2025;39(2):445-64.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://link.springer.com/article/10.1007/s00477-024-02872-3",
+      "evidence_id": "E17",
+      "caveat": "Remove Huang J; replace Wang Z with Wang Y. Publisher lists four authors, not five. Issue year 2025 retained although online publication was December 2024. Source concerns Ontario rainfall-event timing, not the present Thai station results."
+    },
+    {
+      "source_paragraph": 160,
+      "corrected_reference": "Kendall MG. Rank Correlation Methods. 4th ed. London, UK: Charles Griffin; 1975.",
+      "intext_correction": null,
+      "verification_status": "verified_official_library_record",
+      "authoritative_url": "https://e-bib-fe.extra.cea.fr/Default/doc/SYRACUSE/158826/rank-correlation-methods-maurice-kendall?_lg=en-US",
+      "evidence_url": "https://search.worldcat.org/title/Rank-correlation-methods/oclc/3827024",
+      "evidence_id": "E18",
+      "caveat": "1975 is the fourth edition's second impression, not a new fifth edition; fourth edition originally appeared in 1970. Supplied year is valid for the 1975 impression."
+    },
+    {
+      "source_paragraph": 161,
+      "corrected_reference": "Khalil A, Rittima A, Phankamolsil Y. Seasonal and annual trends of rainfall and streamflow in the Mae Klong Basin, Thailand. Applied Environmental Research 2018;40(3):77-90.",
+      "intext_correction": "Paragraph 97: move citation away from the specific Prachuap/Tenasserim causal explanation to a comparison with Mae Klong seasonal trends.",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://digital.car.chula.ac.th/aer/vol40/iss3/8/",
+      "evidence_id": "E19",
+      "caveat": "Mae Klong seasonal/annual trend study supports regional contrast and management relevance. It does not directly establish the present study's coastal-proximity/Tenasserim explanation in Prachuap."
+    },
+    {
+      "source_paragraph": 162,
+      "corrected_reference": "Limsakul A, Singhruck P, Wang L. Climatology and spatio-temporal variability of wintertime total and extreme rainfall in Thailand during 1970-2012. EnvironmentAsia 2017;10(2):162-76.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://tshe.org/ea/pdf/EA10%282%29_17.pdf",
+      "evidence_url": "https://tshe.org/ea/ea_july2017.html",
+      "evidence_id": "E20",
+      "caveat": "Journal name is EnvironmentAsia, not Environment Asia. Study covers December-February climatology/variability, not all claimed rainy-season duration changes."
+    },
+    {
+      "source_paragraph": 163,
+      "corrected_reference": "Mann HB. Nonparametric tests against trend. Econometrica 1945;13(3):245-59.",
+      "intext_correction": null,
+      "verification_status": "partially_verified_archive_access_limited",
+      "authoritative_url": "https://www.jstor.org/stable/1907187",
+      "evidence_url": "https://doi.org/10.1007/BF02911642",
+      "evidence_id": "E21",
+      "caveat": "Official JSTOR landing page accessible only as title; society site blocks automated retrieval. Title/author/year/volume/pages independently match a 1968 statistical paper reference and current publisher citations; issue 3 retained from supplied record. No substantive metadata change claimed."
+    },
+    {
+      "source_paragraph": 164,
+      "corrected_reference": "Palizdan N, Falamarzi Y, Huang YF, Lee TS, Ghazali AH. Regional precipitation trend analysis at the Langat River Basin, Selangor, Malaysia. Theoretical and Applied Climatology 2014;117(3-4):589-606.",
+      "intext_correction": "Paragraph 15: replace (Palizdan et al, 2015) with (Palizdan et al., 2014).",
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://link.springer.com/article/10.1007/s00704-013-1026-6",
+      "evidence_id": "E22",
+      "caveat": "Correct year 2015 to 2014, volume 120 to 117, pages 123-135 to 589-606. Publisher issue date August 2014; online 2013. Citation supports contrasting temporal-scale patterns in Malaysia, not temporal stability as a statistically proved equivalence."
+    },
+    {
+      "source_paragraph": 165,
+      "corrected_reference": "Pascale S, Lucarini V, Feng X, Porporato A, Hasson S. Analysis of rainfall seasonality from observations and climate models. Climate Dynamics 2015;44(11-12):3281-301.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://link.springer.com/article/10.1007/s00382-014-2278-2",
+      "evidence_url": "https://centaur.reading.ac.uk/71502/1/PascaleRainfall2015.pdf",
+      "evidence_id": "E23",
+      "caveat": "Actual author list contains Porporato A and Shabeh ul Hasson, not Guez L. Reading uses S. u.; Hasson SU would preserve both name components, while Hasson S is also used in publication indexing. Exact final-initial convention remains for final export check. Issue year 2015 retained despite online 2014."
+    },
+    {
+      "source_paragraph": 166,
+      "corrected_reference": "Sen PK. Estimates of the regression coefficient based on Kendall's tau. Journal of the American Statistical Association 1968;63(324):1379-89.",
+      "intext_correction": null,
+      "verification_status": "verified_official_doi_metadata_publisher_access_limited",
+      "authoritative_url": "https://doi.org/10.1080/01621459.1968.10480934",
+      "evidence_url": "https://cir.nii.ac.jp/crid/1360292620718152576",
+      "evidence_id": "E24",
+      "caveat": "NII official DOI metadata confirms all bibliographic fields; publisher full text could not be retrieved. This audit does not certify the implementation of confidence intervals in the present analysis."
+    },
+    {
+      "source_paragraph": 167,
+      "corrected_reference": "Suo X, Jiang Y, Chen G, Li J, Lai Y, Li L, Lu M, Wang X, Fu B, Li B. Spatial and temporal patterns of precipitation concentration and their associated risks. Scientific Reports 2025;15:Article No. 33152.",
+      "intext_correction": null,
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://www.nature.com/articles/s41598-025-18721-4",
+      "evidence_id": "E25",
+      "caveat": "All ten authors confirmed. Publisher cites volume 15 without issue; unnecessary issue 1 omitted. Supports global concentration/risk context, not the manuscript's site-specific results."
+    },
+    {
+      "source_paragraph": 168,
+      "corrected_reference": "Trenberth KE, Dai A, Rasmussen RM, Parsons DB. The changing character of precipitation. Bulletin of the American Meteorological Society 2003;84(9):1205-17.",
+      "intext_correction": "Paragraph 15: (Trenberth et al., 2003).",
+      "verification_status": "verified_author_institution_and_publisher_correction",
+      "authoritative_url": "https://impacts.ucar.edu/en/publications/the-changing-character-of-precipitation/",
+      "evidence_url": "https://journals.ametsoc.org/abstract/journals/bams/99/2/bams-d-17-0107.1.xml",
+      "evidence_id": "E26",
+      "caveat": "Correct Parsons D to DB and last page 1218 to 1217. NCAR index includes extra front-matter page 1161; standard article span 1205-1217 is confirmed by a later AMS paper coauthored by Trenberth."
+    },
+    {
+      "source_paragraph": 169,
+      "corrected_reference": "World Meteorological Organization (WMO). WMO Guidelines on the Calculation of Climate Normals. WMO-No. 1203. Geneva, Switzerland: WMO; 2017.",
+      "intext_correction": "Paragraph 27: keep (WMO, 2017), but change the claim of a universal 30-year minimum for long-term trend analysis to a conventional 30-year climate-normal period.",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://wmo.int/wmo-climatological-normals",
+      "evidence_url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/climate-data",
+      "evidence_id": "E27",
+      "caveat": "Climate-normal guidance does not establish a universal minimum sample size or sufficient statistical power for trend detection. The supplied 34-year records are not themselves a standard WMO normal period."
+    },
+    {
+      "source_paragraph": 170,
+      "corrected_reference": "Xie Y, Wang J, Wan X, Lyu Y. Assessing the monthly performance of daily precipitation products over Southeast Asia using the gauge-based analysis. PLoS ONE 2025;20(3):Article No. e0319477.",
+      "intext_correction": "Paragraph 138: preferably move (Xie et al., 2025) to a statement about validating future gridded products locally before use.",
+      "verification_status": "verified_primary",
+      "authoritative_url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0319477",
+      "evidence_id": "E28",
+      "caveat": "Weak/indirect rather than wholly absent support for management: introduction explicitly discusses management applications, but primary contribution is monthly validation of five products. It is not direct evidence for the manuscript's trend-based irrigation/reservoir recommendations."
+    },
+    {
+      "source_paragraph": 171,
+      "corrected_reference": "Yue S, Pilon P, Phinney B, Cavadias G. The influence of autocorrelation on the ability to detect trend in hydrological series. Hydrological Processes 2002;16(9):1807-29.",
+      "intext_correction": null,
+      "verification_status": "verified_primary_correction",
+      "authoritative_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.1095",
+      "evidence_id": "E29",
+      "caveat": "Correct end page 1825 to 1829. Author list confirmed by publisher citation. Supports detrending before estimation/removal of serial correlation; present code/threshold must still be validated independently."
+    }
+  ],
+  "citation_use_warnings": [
+    {"paragraph": 17, "severity": "high", "reference": "Harmoko et al., 2026", "issue": "Java paper cited as evidence of Prachuap-specific physiography and rainfall heterogeneity.", "suggestion": "Remove citation from local factual claim or explicitly compare coastal Java with the present study."},
+    {"paragraph": 19, "severity": "high", "reference": "Do, 2026", "issue": "Available primary abstract/reference list does not support conditional TFPW method attribution.", "suggestion": "Use Yue et al. (2002) for method origin and Azam et al. (2018) for conditional serial-correlation treatment; retain Do only as regional climate context if relevant."},
+    {"paragraph": 18, "severity": "medium", "reference": "Deng et al., 2025", "issue": "Global seasonality analysis cannot substantiate an exhaustive local Thai literature gap.", "suggestion": "Replace broad 'most previous studies' assertion with a narrower statement of this study's focus; relocate Deng to global seasonality background."},
+    {"paragraph": 27, "severity": "medium", "reference": "WMO, 2017", "issue": "Climate-normal duration treated as universal minimum for trend analysis.", "suggestion": "State that record length exceeds the conventional 30-year normal period, without claiming statistical sufficiency."},
+    {"paragraph": 74, "severity": "medium", "reference": "Endo et al., 2009", "issue": "Daily precipitation-extreme trends are not evidence of annual/seasonal lag-1 autocorrelation.", "suggestion": "Move Endo citation to regional rainfall background; retain Dinpashoh for persistence-aware methodology context."},
+    {"paragraph": 97, "severity": "medium", "reference": "Khalil et al., 2018", "issue": "Mae Klong study cited for specific Prachuap coastal/Tenasserim mechanism.", "suggestion": "Use an explicit regional-trend comparison and retain local causal interpretation as untested."},
+    {"paragraph": 138, "severity": "low", "reference": "Xie et al., 2025", "issue": "Product validation is only indirect support for trend-based management claims.", "suggestion": "Move citation to proposed future gridded-data validation or keep management language explicitly conditional."}
+  ],
+  "unresolved": [
+    "Mann issue number not independently exposed by primary archive in this pass; supplied 13(3) retained and clearly marked partial.",
+    "Do online year 2025 versus issue year 2026 requires consistent issue-year policy; proposed reference uses 2026.",
+    "Gilbert imprint depends on consulted edition; supplied Wiley 1987 is supported by publisher catalogue and library record, while Van Nostrand Reinhold 1987 also exists.",
+    "Ahmad Wang TF versus indexed Wang T, Dinpashoh Abianeh HZ compound-name indexing, and Pascale Hasson S versus SU may warrant final citation-export checks; full names are recorded in evidence.",
+    "Parent must conduct independent evidence review and ensure no uncited entries remain after moving/removing citations."
+  ]
+}

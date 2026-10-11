@@ -1,0 +1,7 @@
+Figure_ID,File_PNG,File_PDF,Width_mm,DPI,Color_Palette,Status
+Figure 1,Figure1_study_area_stations.png,Figure1_study_area_stations.pdf,180,600,terrain / custom,APPROVED
+Figure 2,Figure2_IDW_mean_annual_rainfall.png,Figure2_IDW_mean_annual_rainfall.pdf,180,600,YlGnBu,APPROVED
+Figure 3,Figure3_observed_etccdi_indices.png,Figure3_observed_etccdi_indices.pdf,180,600,RdBu_r / Blues,APPROVED
+Figure 4,Figure4_model_bias_evaluation.png,Figure4_model_bias_evaluation.pdf,180,600,Set1 / custom,APPROVED
+Figure 5,Figure5_projected_extremes_ssp.png,Figure5_projected_extremes_ssp.pdf,180,600,Blues / Reds,APPROVED
+Figure 6,OMITTED,OMITTED,0,0,N/A,EXCLUDED_PER_AUDIT

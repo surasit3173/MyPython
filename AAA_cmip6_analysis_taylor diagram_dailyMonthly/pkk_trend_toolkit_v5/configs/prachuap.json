@@ -1,0 +1,32 @@
+{
+  "area_name": "Prachuap Khiri Khan",
+  "rainfall_path": "../data/observed_rain_daily.csv",
+  "station_metadata_path": "../data/station_coordinates.csv",
+  "input_layout": "wide",
+  "date_columns": ["YEAR", "MONTH", "DAY"],
+  "metadata_station_column": "station",
+  "latitude_column": "latitude",
+  "longitude_column": "longitude",
+  "elevation_column": "elevation (m.MSL.)",
+  "wet_months": [5, 6, 7, 8, 9, 10],
+  "dry_months": [11, 12, 1, 2, 3, 4],
+  "completeness_threshold": 1.0,
+  "alpha": 0.05,
+  "hr_max_lag": 3,
+  "acf_alpha": 0.05,
+  "bootstrap_reps": 2000,
+  "bootstrap_block_length": 3,
+  "monte_carlo_reps": 10000,
+  "fdr_reps": 5000,
+  "seed": 42,
+  "phi_levels": [0.0, 0.2, 0.4, 0.6, 0.8],
+  "standardized_slopes": [0.01, 0.025, 0.05],
+  "fdr_phi": 0.4,
+  "fdr_spatial_rho": 0.3,
+  "station_weighting": "equal",
+  "source_urls": [
+    "https://www.sciencedirect.com/science/article/pii/S002216949700125X",
+    "https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2517-6161.1995.tb02031.x",
+    "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2001WR000861"
+  ]
+}

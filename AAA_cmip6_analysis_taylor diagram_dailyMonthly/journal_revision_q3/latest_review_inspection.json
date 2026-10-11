@@ -1,0 +1,3419 @@
+[
+  {
+    "path": "D:\\วารสาร ASEAN J. Sci\\New paper\\AJSTR_QDM_CMIP6_Q2Q3_REVISED_FINAL (1).docx",
+    "paragraph_count": 135,
+    "table_count": 6,
+    "section_count": 1,
+    "paragraphs": [
+      {
+        "index": 1,
+        "style": "Normal",
+        "text": "Article"
+      },
+      {
+        "index": 2,
+        "style": "Normal",
+        "text": "Evaluating Parametric and Non-Parametric Quantile Delta Mapping for CMIP6 Precipitation Bias Correction: Independent Validation in Coastal Thailand"
+      },
+      {
+        "index": 3,
+        "style": "Normal",
+        "text": "Surasit Punyawansiri1*"
+      },
+      {
+        "index": 4,
+        "style": "Normal",
+        "text": "1 Office of Water Management and Hydrology, Royal Irrigation Department, Dusit, Bangkok 10300, Thailand"
+      },
+      {
+        "index": 5,
+        "style": "Normal",
+        "text": "* Correspondence: Surasit.irri@gmail.com"
+      },
+      {
+        "index": 6,
+        "style": "Normal",
+        "text": "Abstract: Bias correction of climate-model precipitation is often assessed in the calibration period, which can overstate transferability. This study compared annual and month-wise parametric and non-parametric quantile delta mapping (QDM) for daily rainfall from five CMIP6 models at 12 stations in Prachuap Khiri Khan, Thailand. Transfer functions were fitted in 1981-2000 and frozen before independent validation in 2001-2014. Parametric candidates were selected by maximum-likelihood Akaike information criterion (AIC); robustness tests used small-sample AIC (AICc), wet-day thresholds of 0.1, 0.5, and 1.0 mm day-1, and alternative upper-tail caps. At the primary 1.0-mm threshold and five-times cap, parametric monthly QDM reduced mean monthly RMSE from 116.20 to 105.06 mm and increased mean Kling-Gupta efficiency (KGE) from 0.229 to 0.337; non-parametric monthly QDM yielded 109.45 mm and 0.329. Their paired median KGE difference was 0.0002, and the ranking reversed without the cap. AICc reproduced every AIC selection. Non-parametric monthly KGE remained 0.329-0.332 across wet-day thresholds, whereas parametric monthly KGE decreased to 0.217 at 0.1 mm. Non-parametric annual QDM gave the lowest mean absolute 99th-percentile bias (24.79% versus 52.98% raw). The 60 model-station pairs share model grid cells and are descriptive paired evaluations, not independent spatial replicates. Month-wise calibration is supported for monthly water-balance applications, but parametric gains remain conditional on occurrence and tail safeguards; empirical monthly QDM is the more assumption-lean default."
+      },
+      {
+        "index": 7,
+        "style": "Normal",
+        "text": "Keywords: bias correction; quantile delta mapping; CMIP6; independent validation; Thailand"
+      },
+      {
+        "index": 8,
+        "style": "Normal",
+        "text": "1. Introduction"
+      },
+      {
+        "index": 9,
+        "style": "Normal",
+        "text": "Daily rainfall controls water-resources planning, flood and drought risk, agricultural operations, and climate adaptation in Southeast Asia. CMIP6 simulations provide physically based climate information, but precipitation biases remain because of coarse resolution and imperfect representations of convection, topography, and regional circulation [1,2]. These limitations are especially consequential in Prachuap Khiri Khan, where monsoon seasonality, a narrow coastal plain, and the Tenasserim Range generate strongly intermittent and skewed rainfall."
+      },
+      {
+        "index": 10,
+        "style": "Normal",
+        "text": "Quantile mapping is widely used to align simulated and observed distributions [3,4,6,7]. Quantile Delta Mapping (QDM) extends this family by preserving modelled relative changes at each quantile [5], while scaled distribution mapping provides a related trend-preserving approach [8]. Method performance nevertheless depends on reference uncertainty, spatial mismatch, dry-day treatment, and the statistical representation of extremes [9,10]. Recent global and multi-region studies likewise show that the preferred method varies with climate, terrain, variable, and impact metric [10,14,15]. Direct holdout comparisons of parametric and empirical QDM, including occurrence and tail sensitivity, remain limited for narrow tropical coastal provinces."
+      },
+      {
+        "index": 11,
+        "style": "Normal",
+        "text": "Three unresolved issues motivate the present comparison. First, evaluation in the calibration period measures construction-dependent agreement and can overstate out-of-sample performance. Second, univariate quantile mapping adjusts marginal distributions but cannot reconstruct missing event timing or wet-spell persistence [11]. Third, finite samples make upper-tail behaviour sensitive to extrapolation and parameterization [12,13]. These issues are particularly relevant when monthly stratification improves seasonality but reduces the wet-day sample available for fitting."
+      },
+      {
+        "index": 12,
+        "style": "Normal",
+        "text": "This study therefore compares four multiplicative QDM variants: non-parametric annual, non-parametric monthly, parametric annual, and parametric monthly. All observation-dependent quantities are fitted in 1981-2000, frozen, and applied to 2001-2014. The primary endpoint is validation-period monthly Kling-Gupta efficiency (KGE); secondary endpoints characterize distributional fidelity, upper-tail bias, seasonal structure, and temporal correspondence. The objective is to determine which conclusions are transferable, which depend on numerical safeguards, and which uses of the corrected rainfall remain defensible."
+      },
+      {
+        "index": 13,
+        "style": "Normal",
+        "text": "2. Materials and Methods"
+      },
+      {
+        "index": 14,
+        "style": "Normal",
+        "text": "2.1 Study area, observations, and CMIP6 simulations"
+      },
+      {
+        "index": 15,
+        "style": "Normal",
+        "text": "Prachuap Khiri Khan is a narrow province between the Gulf of Thailand and the Tenasserim Range. The analysis used daily rainfall at 12 Thai Meteorological Department gauges from 1 January 1981 through 31 December 2014 (12,418 days). The station codes and coordinates in the Hydro-Informatics Institute/Royal Irrigation Department project archive match the official 12-station inventory reported for the province [27]. The retained period is a common 1981-2014 subset of that longer gauge archive."
+      },
+      {
+        "index": 16,
+        "style": "Normal",
+        "text": "Figure 1. Location of Prachuap Khiri Khan Province and the 12 rainfall stations used in the analysis."
+      },
+      {
+        "index": 17,
+        "style": "Normal",
+        "text": "All stations had complete daily records. Declared missing codes were masked before negative-value handling. Negative values between -0.1 and 0 mm day-1 were set to zero, and values below -0.1 mm day-1 were treated as missing; no such corrections were required in the observation file used here. Annual totals were screened with the Pettitt change-point test at alpha = 0.05 [22]. No station rejected the null hypothesis (p = 0.059-1.000), which is evidence of no detected change point rather than proof of homogeneity. No homogenisation was applied."
+      },
+      {
+        "index": 18,
+        "style": "Normal",
+        "text": "The CMIP6 input comprised daily precipitation (pr) from the historical experiment for ACCESS-ESM1-5, CESM2, CanESM5, EC-Earth3, and MIROC6. The source, experiment, member, grid, variable, frequency, and date range are encoded in the analysis-ready filenames and reported in Table 2; model descriptions follow the corresponding publications [16-20]. These identifiers were cross-checked against the federated Earth System Grid Federation (ESGF) catalogue. Because ESGF datasets can be replicated across data nodes, the complete CMIP6 facets are used as the stable source description rather than a transient mirror endpoint. Values were already in mm day-1; the workflow checks units and would multiply flux units in kg m-2 s-1 by 86,400. The station-series files contain two or three distinct model series across the 12 gauges, consistent with nearest native-grid extraction and shared grid cells. A machine-readable manifest records the exact derivative filenames, byte sizes, and SHA-256 checksums used in the analysis."
+      },
+      {
+        "index": 19,
+        "style": "Normal",
+        "text": "Standard-calendar models and observations contain 7,305 calibration and 5,113 validation days. CESM2 and CanESM5 use a 365-day calendar, with 7,300 and 5,110 days. Analysis used dates common to each model and the observations; 29 February was omitted for 365-day models and was not interpolated. The 60 model-station combinations are therefore paired evaluation units, not 60 independent spatial experiments, because stations can share model grid cells and the models share components and development lineages."
+      },
+      {
+        "index": 20,
+        "style": "Normal",
+        "text": "Table 1. Rain-gauge station characteristics for 1981-2014."
+      },
+      {
+        "index": 21,
+        "style": "Normal",
+        "text": "Note: n/a indicates that elevation metadata were absent from the supplied station file. SDII is mean rainfall on wet days (>=1.0 mm day-1), and ACF is lag-1 autocorrelation."
+      },
+      {
+        "index": 22,
+        "style": "Normal",
+        "text": "Table 2. CMIP6 historical simulations and metadata recovered from the analysis-ready files."
+      },
+      {
+        "index": 23,
+        "style": "Normal",
+        "text": "Note: Cell area is a first-order latitude-longitude approximation at 12 degrees N (111.2 km per degree latitude; 108.8 km per degree longitude), not an exact curvilinear-grid area. Distinct series is the number of unique daily station-series signatures across 12 gauges and indicates shared native grid cells; it is not a formal effective sample size."
+      },
+      {
+        "index": 24,
+        "style": "Normal",
+        "text": "2.2 Split-sample protocol and wet-day adaptation"
+      },
+      {
+        "index": 25,
+        "style": "Normal",
+        "text": "Calibration covered 1981-2000 and independent validation covered 2001-2014. Every observed threshold, empirical distribution, and parametric calibration distribution was estimated from calibration data only and then frozen. Validation observations were used solely to calculate evaluation metrics."
+      },
+      {
+        "index": 26,
+        "style": "Normal",
+        "text": "Wet-day occurrence and positive intensity were corrected separately. A day was wet when observed rainfall was at least 1.0 mm day-1, consistent with the Expert Team on Climate Change Detection and Indices convention used for wet-day precipitation indices [28]. For each model, station, and calibration group, p_dry was the fraction of observed calibration days below 1.0 mm day-1. The model threshold was the empirical p_dry quantile of all model calibration values. Values at or below that threshold were set to zero; with ties, this rule ensures that the adapted model wet-day count does not exceed the observed count. The threshold was reused unchanged in validation. Annual variants used one threshold per model-station pair, whereas monthly variants used calendar-month-specific thresholds. The full workflow was also rerun at 0.1 and 0.5 mm day-1 to quantify threshold dependence."
+      },
+      {
+        "index": 27,
+        "style": "Normal",
+        "text": "A minimum of 30 wet days was required for a monthly transfer function. Of 720 model-station-month blocks, 100 dry-season blocks did not meet this threshold. These blocks were not discarded or set to zero; they used the corresponding annual transfer function fitted from calibration data. This fallback was declared uniformly and recorded in the diagnostics."
+      },
+      {
+        "index": 28,
+        "style": "Normal",
+        "text": "2.3 Multiplicative QDM"
+      },
+      {
+        "index": 29,
+        "style": "Normal",
+        "text": "For a model precipitation value  at time  in the target period , the multiplicative Quantile Delta Mapping (QDM) procedure was applied following Cannon et al. [5]:"
+      },
+      {
+        "index": 31,
+        "style": "Normal",
+        "text": "(1) \t\t(2) \t(3)"
+      },
+      {
+        "index": 32,
+        "style": "Normal",
+        "text": "Here,  is the model cumulative distribution function in the target period. The terms  and  represent the model and observed calibration-period quantile functions (inverse cumulative distributions), respectively. The variable  is the non-exceedance probability,  represents the modelled relative-change ratio, and  is the final bias-corrected rainfall. Because the target-period probability  is calculated using model values only, it does not violate the independent observation holdout. Retaining the relative-change ratio  is the fundamental characteristic that distinguishes QDM from ordinary quantile mapping methods."
+      },
+      {
+        "index": 33,
+        "style": "Normal",
+        "text": "To prevent division by very small historical quantiles, the ratio  was bounded a priori to the interval . For the primary parametric analysis, the corrected rainfall was capped at five times the maximum observed wet-day rainfall in the corresponding calibration block. Both the ratio bounds and the upper cap act strictly as numerical safeguards, not as hydrological return-level thresholds. The cap was applied after the mathematical transformation. Sensitivity runs were also conducted using a stricter factor of 1.5 and a completely uncapped scenario; all lower-bound clipping and upper-bound capping events were systematically counted for evaluation."
+      },
+      {
+        "index": 34,
+        "style": "Normal",
+        "text": "2.4 Parametric and non-parametric variants"
+      },
+      {
+        "index": 35,
+        "style": "Normal",
+        "text": "For the non-parametric variants, the empirical cumulative distribution functions (eCDF) were estimated using the plotting position formula:"
+      },
+      {
+        "index": 36,
+        "style": "Normal",
+        "text": "(4)"
+      },
+      {
+        "index": 37,
+        "style": "Normal",
+        "text": "where  is the rank of the data point in ascending order and  is the total sample size of wet days. Linear interpolation was applied between these plotting positions to estimate intermediate quantiles. Annual variants pooled all months to form a single distribution, whereas monthly variants fitted the empirical distribution for each calendar month separately."
+      },
+      {
+        "index": 38,
+        "style": "Normal",
+        "text": "For the parametric variants, theoretical probability distributions—namely gamma, generalized extreme value (GEV), Weibull minimum, lognormal, and Pearson type III—were fitted to the wet-day intensities using the maximum likelihood estimation (MLE) method. The location parameters for the gamma, Weibull, and lognormal distributions were fixed at zero, whereas the location parameters for the GEV and Pearson type III distributions were freely estimated."
+      },
+      {
+        "index": 39,
+        "style": "Normal",
+        "text": "The optimal probability distribution for each calibration block was deterministically selected based on the minimum Akaike Information Criterion (AIC), which penalizes model complexity to prevent overfitting. The AIC is defined as:"
+      },
+      {
+        "index": 40,
+        "style": "Normal",
+        "text": "(5)"
+      },
+      {
+        "index": 41,
+        "style": "Normal",
+        "text": "where  is the number of freely estimated parameters and  represents the maximized value of the likelihood function for the fitted distribution. Candidates resulting in non-finite parameters or non-finite likelihoods were strictly disqualified."
+      },
+      {
+        "index": 42,
+        "style": "Normal",
+        "text": "To account for small-sample sensitivity during the month-wise calibration, the distribution selection and the complete correction workflow were repeated using the corrected Akaike Information Criterion ():"
+      },
+      {
+        "index": 43,
+        "style": "Normal",
+        "text": "(6)"
+      },
+      {
+        "index": 44,
+        "style": "Normal",
+        "text": "where  is the sample size. The Kolmogorov-Smirnov statistic was stored as a goodness-of-fit diagnostic for all combinations. It should be noted that the GEV distribution was included strictly as a flexible, whole-distribution candidate, rather than asserting that daily wet-day rainfall constitutes a block-maximum extreme value sample. All computational procedures and maximum likelihood optimizations were executed using Python 3.12.13 and the SciPy 1.18.1 library [24]."
+      },
+      {
+        "index": 45,
+        "style": "Normal",
+        "text": "2.5 Evaluation endpoints and uncertainty"
+      },
+      {
+        "index": 46,
+        "style": "Normal",
+        "text": "The primary evaluation endpoint was the monthly Kling-Gupta efficiency (KGE) [21], selected because it explicitly combines linear correlation, variability, and mean bias into a single objective metric. The KGE is mathematically defined as:"
+      },
+      {
+        "index": 47,
+        "style": "Normal",
+        "text": "(7)"
+      },
+      {
+        "index": 48,
+        "style": "Normal",
+        "text": "where  is the Pearson correlation coefficient between the simulated () and observed () monthly rainfall totals,  represents the ratio of their standard deviations (variability), and  represents the ratio of their means (bias)."
+      },
+      {
+        "index": 49,
+        "style": "Normal",
+        "text": "Secondary endpoints included the monthly root mean square error (RMSE), the absolute relative bias of the 99th wet-day percentile (), and the Kolmogorov-Smirnov statistic () for wet-day distributions. The equations for these metrics are expressed as:"
+      },
+      {
+        "index": 50,
+        "style": "Normal",
+        "text": "(8)"
+      },
+      {
+        "index": 51,
+        "style": "Normal",
+        "text": "(9)"
+      },
+      {
+        "index": 52,
+        "style": "Normal",
+        "text": "(10)"
+      },
+      {
+        "index": 53,
+        "style": "Normal",
+        "text": "where  is the number of paired monthly records,  is the 99th percentile of wet-day intensities, and  represents the empirical cumulative distribution function of the wet-day precipitation. Monthly correlation and monthly-climatology correlation were also evaluated. KGE and correlations denote better performance at larger values, whereas the remaining endpoints denote better performance at smaller values. Direction-based rankings of means are labelled descriptive and do not imply statistical superiority; discordant secondary endpoints are reported separately."
+      },
+      {
+        "index": 54,
+        "style": "Normal",
+        "text": "Uncertainty in the corrected-minus-raw differences was estimated separately for each model-station combination using 2,000 paired year-block bootstrap replicates with a fixed random seed (seed 42). Validation monthly totals were structured as a 14-year by 12-month matrix. Fourteen years were sampled with replacement in each replicate, and the exact same year indices were applied simultaneously to the observations, raw simulations, and all corrected variants to preserve temporal correlation. The 95% confidence interval was extracted using the 2.5th and 97.5th percentiles of the bootstrap distribution. Two-sided -values incorporated a plus-one correction, and the false-discovery rate was strictly controlled at  within each method-metric family using the Benjamini-Hochberg adjustment [23]. Because the combinations are spatially and structurally dependent, network-wide summaries remain descriptive and are not treated as 60 independent spatial experiments."
+      },
+      {
+        "index": 55,
+        "style": "Normal",
+        "text": "Figure 1. Fit-freeze-apply framework. Observation-dependent transfer functions were estimated in 1981-2000 and applied without re-estimation in 2001-2014; uncertainty used paired year-block bootstrap resampling."
+      },
+      {
+        "index": 57,
+        "style": "Normal",
+        "text": "3. Results and Discussion"
+      },
+      {
+        "index": 58,
+        "style": "Normal",
+        "text": "3.1 Observed rainfall and model context"
+      },
+      {
+        "index": 59,
+        "style": "Normal",
+        "text": "Mean annual observed rainfall ranged from 944 to 1,376 mm among stations, and maximum daily rainfall ranged from 54.2 to 298.5 mm day-1. Calibration and validation retained the same broad bimodal seasonal cycle, but several stations changed wet-day frequency between periods (Figure 2). This non-stationarity makes the holdout test more demanding than same-period evaluation."
+      },
+      {
+        "index": 60,
+        "style": "Normal",
+        "text": "The five model files represented only two or three distinct native-grid series across the 12 stations (Table 2). Consequently, averaging across all 60 combinations would overstate spatial replication. Results are therefore reported as paired model-station distributions and counts, with this dependence carried into interpretation."
+      },
+      {
+        "index": 61,
+        "style": "Normal",
+        "text": "Figure 2. Observed rainfall in calibration and validation: (a) monthly climatology with interquartile ribbons across stations, (b) annual rainfall, and (c) paired station-level wet-day frequencies. Colored connecting lines show the direction of change; these summaries are descriptive and motivate the independent holdout test."
+      },
+      {
+        "index": 63,
+        "style": "Normal",
+        "text": "3.2 Independent validation performance"
+      },
+      {
+        "index": 64,
+        "style": "Normal",
+        "text": "Month-wise calibration produced the clearest descriptive gains (Table 3; Figure 3). P monthly had the most favorable mean primary endpoint, increasing monthly KGE from 0.229 to 0.337, and the lowest monthly RMSE, decreasing it from 116.20 to 105.06 mm. NP monthly was close, with KGE 0.329 and RMSE 109.45 mm. Both monthly methods increased monthly-climatology correlation to at least 0.864 and produced a favorable point change for that metric in 59 of 60 paired evaluations."
+      },
+      {
+        "index": 65,
+        "style": "Normal",
+        "text": "The paired bootstrap did not support a broad parametric advantage over the empirical monthly method. For P monthly minus NP monthly, the median combination-level KGE difference was 0.0002, with 30 combinations favouring each method. The median RMSE difference was -1.45 mm, with P monthly lower in 36 combinations and NP monthly lower in 24. Thus, the aggregate ranking is driven by heterogeneous station-model responses rather than uniform dominance."
+      },
+      {
+        "index": 66,
+        "style": "Normal",
+        "text": "Upper-tail performance followed a different ordering. NP annual reduced mean absolute q99 bias from 52.98% to 24.79%, compared with 27.38% for NP monthly and 32.54% for P monthly. Pooling months provides a larger empirical wet-day sample and therefore more stable upper quantiles, whereas month-wise fitting directly resolves seasonality at the cost of smaller samples. No method was best on every endpoint."
+      },
+      {
+        "index": 67,
+        "style": "Normal",
+        "text": "Annual variants were weaker for monthly performance: NP annual increased mean RMSE to 124.74 mm and reduced mean KGE to 0.203, while P annual yielded 123.72 mm and 0.152. Distributional correction alone therefore does not guarantee better month-to-month agreement. This is consistent with the limitation that univariate mapping cannot reconstruct event sequencing absent from free-running climate simulations [11]."
+      },
+      {
+        "index": 68,
+        "style": "Normal",
+        "text": "Station-aggregated responses were heterogeneous (Figure 5). Mean corrected-minus-raw KGE was positive at 9 of 12 stations for NP monthly and 11 of 12 for P monthly. Stations 500008 and 500009 showed the largest favorable KGE changes (approximately 0.29-0.31), whereas station 500002 decreased under both methods. The station-by-model display is descriptive: the small network, missing elevation metadata, and shared model cells do not support a causal geographic interpretation."
+      },
+      {
+        "index": 69,
+        "style": "Normal",
+        "text": "Table 3. Independent-validation means across paired model-station evaluations."
+      },
+      {
+        "index": 70,
+        "style": "Normal",
+        "text": "Note: PBIAS and q99 bias are summarized as absolute values. The final column is a direction-based descriptive ranking and does not imply statistical significance; the 60 pairs are not independent spatial replicates."
+      },
+      {
+        "index": 71,
+        "style": "Normal",
+        "text": "Table 4. Paired year-block bootstrap summary for corrected-minus-raw monthly metrics."
+      },
+      {
+        "index": 72,
+        "style": "Normal",
+        "text": "Note: Interval bounds are medians of 60 pair-specific bootstrap limits, not a confidence interval for a network-wide effect. For RMSE, negative delta is favorable; for KGE, positive delta is favorable. CI F/A/O denotes favorable, adverse, and overlapping-zero intervals; counts are descriptive because pairs are dependent."
+      },
+      {
+        "index": 73,
+        "style": "Normal",
+        "text": "Figure 3. Validation distributions for 60 model-station combinations per variant. Boxes show the interquartile range, whiskers show the 10th-90th percentiles, diamonds show means, centre lines show medians, and dashed vertical lines show the raw mean in each panel; these are not bootstrap distributions."
+      },
+      {
+        "index": 75,
+        "style": "Normal",
+        "text": "Figure 4. Percentage of 60 paired model-station evaluations with a favorable point change relative to raw CMIP6 simulations. Values above 50% indicate a favorable change for most pairs; percentages are descriptive and pairs are not independent spatial replicates."
+      },
+      {
+        "index": 77,
+        "style": "Normal",
+        "text": "Figure 5. Station-level response of monthly QDM. (a) Heatmap of corrected-minus-raw KGE for NP monthly QDM by station and CMIP6 model. (b) Paired station means for non-parametric and parametric monthly QDM. Values are descriptive because gauges share model grid cells; station patterns are not interpreted as causal geographic effects."
+      },
+      {
+        "index": 79,
+        "style": "Normal",
+        "text": "3.3 Parametric selection, fallback, and tail sensitivity"
+      },
+      {
+        "index": 80,
+        "style": "Normal",
+        "text": "Maximum-likelihood fitting changed the distribution-selection pattern relative to the earlier method-of-moments implementation. Pearson type III was selected for 55 of 60 observed annual fits and 610 of 620 eligible observed monthly fits. Model-side fits were more diverse: Pearson type III accounted for 496 monthly fits, generalized extreme value for 106, lognormal for 12, gamma for 3, and Weibull minimum for 3 (Table 5). All 620 eligible monthly blocks fitted successfully. The apparent deficits of 5 observed and 33 model fits in the earlier table were omitted gamma and Weibull categories, not optimization failures."
+      },
+      {
+        "index": 81,
+        "style": "Normal",
+        "text": "One hundred monthly blocks were ineligible because at least one calibration wet-day sample contained fewer than 30 values. These blocks clustered in dry-season months and used the annual fallback. This distinction is essential: the structural total remains 720, selection counts sum to the 620 eligible monthly fits, and fallback counts account for the remaining 100."
+      },
+      {
+        "index": 82,
+        "style": "Normal",
+        "text": "Tail safeguards affected the parametric ranking (Table 6). With the primary factor of 5.0, P monthly KGE was 0.337 versus 0.329 for NP monthly; without a cap, P monthly KGE decreased to 0.327. A stricter 1.5 factor capped 171 P-monthly validation values and improved mean RMSE to 101.91 mm, illustrating that aggressive truncation can improve central error metrics while imposing a strong assumption on extremes. The cap sensitivity therefore precludes a universal claim that parametric monthly QDM is superior."
+      },
+      {
+        "index": 83,
+        "style": "Normal",
+        "text": "The q99 metric changed little across the three parametric cap settings because most capped values were above the station-level 99th percentile. This does not make the cap inconsequential: a small number of altered maxima can materially affect return-level, IDF, or flood applications. Recent work similarly emphasizes that tail handling can behave differently inside and outside calibration and must be evaluated explicitly [12,13]."
+      },
+      {
+        "index": 84,
+        "style": "Normal",
+        "text": "AICc produced exactly the same selections and validation metrics as AIC: observed fits selected Pearson type III in 55 of 60 annual and 610 of 620 eligible monthly blocks, while model-side monthly counts remained 496 Pearson type III, 106 generalized extreme value, 12 lognormal, 3 gamma, and 3 Weibull. This rules out the uncorrected AIC penalty as the cause of the observed selection pattern for these samples, but it does not establish a physical rainfall law; Pearson type III retained greater shape and location flexibility than several constrained candidates."
+      },
+      {
+        "index": 85,
+        "style": "Normal",
+        "text": "Wet-day threshold sensitivity was method-dependent (Figure 6). NP monthly remained stable across 0.1, 0.5, and 1.0 mm day-1 (KGE 0.332, 0.330, and 0.329; RMSE 109.01, 109.26, and 109.45 mm). P monthly changed more strongly: KGE was 0.217, 0.327, and 0.337, while absolute q99 bias was 49.36%, 45.87%, and 32.54%. Thus, the 1.0-mm convention is defensible and gives the most favorable tested parametric result, but the parametric ranking is conditional on how trace rainfall is classified."
+      },
+      {
+        "index": 86,
+        "style": "Normal",
+        "text": "Table 5. Parametric fit accounting and numerical safeguards in validation."
+      },
+      {
+        "index": 87,
+        "style": "Normal",
+        "text": "Note: P3 = Pearson type III; GEV = generalized extreme value; LN = lognormal. Monthly selection counts sum to 620 eligible blocks. The 100 ineligible blocks used annual calibration-only transfer functions. Capped values count validation outputs truncated above the selected cap. Clipped delta events are days on which the delta ratio was constrained at the lower or upper bound [0.2, 5.0]; event counts are not numbers of fitted blocks."
+      },
+      {
+        "index": 88,
+        "style": "Normal",
+        "text": "Table 6. Sensitivity of parametric validation metrics to the upper-tail cap factor."
+      },
+      {
+        "index": 89,
+        "style": "Normal",
+        "text": "Note: The cap is factor times the maximum observed wet-day rainfall in the relevant calibration block and is a numerical safeguard rather than a return-level threshold. None denotes the uncapped sensitivity run. NP results are invariant to this parameter."
+      },
+      {
+        "index": 90,
+        "style": "Normal",
+        "text": "Figure 6. Sensitivity of monthly QDM validation metrics to the observed wet-day threshold. Points and lines are means across 60 paired model-station evaluations; translucent ribbons show the interquartile range across those pairs, and the dashed line shows the raw mean. Lower is favorable for RMSE and absolute q99 bias, whereas higher is favorable for KGE. Lines aid comparison and do not imply continuous interpolation."
+      },
+      {
+        "index": 92,
+        "style": "Normal",
+        "text": "3.4 Implications and limitations"
+      },
+      {
+        "index": 93,
+        "style": "Normal",
+        "text": "The model-specific raw results illuminate why a single correction function was insufficient. ACCESS-ESM1-5 and MIROC6 overestimated wet-day frequency by 0.227 and 0.232, respectively, and had positive mean PBIAS of 18.7% and 25.3%. EC-Earth3 instead had a negative mean PBIAS of -15.9% but the lowest raw monthly RMSE (92.30 mm) among the five models. Thus, similar aggregate errors arose from different combinations of event frequency, intensity, and seasonal phase. This heterogeneity agrees with Southeast Asian CMIP6 evaluations showing that rainfall skill reflects both monsoon circulation and model-specific parameterization, and that good large-scale circulation does not guarantee local rainfall skill [25,26]."
+      },
+      {
+        "index": 94,
+        "style": "Normal",
+        "text": "A physically plausible interpretation follows from the province's narrow coastal geometry. Moist southwesterly flow encounters the Tenasserim Range along the western boundary, while Gulf moisture and the northeast monsoon contribute to late-year rainfall on the eastern coastal plain [27]. The native cells span approximately 13,600-94,900 km2 at 12 degrees N, so even the finest model cell is large relative to the province's mountain-coast transition. The especially large wet-frequency excess in ACCESS-ESM1-5 and MIROC6 is consistent with overly frequent resolved or parameterized rainfall, whereas EC-Earth3's negative volume bias suggests a different compensation between frequency and intensity. Grid size alone cannot explain this ordering because model physics, circulation, and convection schemes also differ. These are process-informed interpretations, not causal attribution, because circulation and moisture-flux diagnostics were not analysed."
+      },
+      {
+        "index": 95,
+        "style": "Normal",
+        "text": "The most stable result is the advantage of month-wise calibration for seasonal and monthly metrics. Annual pooling combines dry-season occurrence, southwest-monsoon rainfall, and the late-year coastal maximum in one transfer function. Month-wise QDM instead estimates separate wet-day thresholds and intensity distributions for each phase of the seasonal cycle, which better respects the changing atmospheric regime without claiming to simulate its dynamics. Both monthly methods consequently improved RMSE, KGE, monthly correlation, and climatology more consistently than annual calibration. The countervailing cost is a roughly twelve-fold reduction in sample size per transfer function, which explains the dry-season fallback and contributes to upper-tail uncertainty."
+      },
+      {
+        "index": 96,
+        "style": "Normal",
+        "text": "Method choice should follow application needs. NP monthly is an assumption-lean default for seasonal reservoir inflow, irrigation scheduling, and monthly drought or water-balance screening. NP annual is preferable when marginal q99 fidelity is the priority, although q99 is not a return-level estimator. P monthly can reduce monthly error further, but its advantage is conditional on distribution, wet-day threshold, and tail constraint. Fixed caps are unsuitable for design-storm, IDF, or flood-frequency estimation; such uses require uncapped sensitivity and dedicated extreme-value analysis. None of the variants restores observed daily event timing, spatial coherence, or wet-spell persistence."
+      },
+      {
+        "index": 97,
+        "style": "Normal",
+        "text": "Four limitations remain. The study covers one province, 12 gauges, five historical runs, and a 14-year validation window. Shared native grid cells reduce spatial replication, and the analysis-ready CMIP6 products are station-matched derivatives rather than original NetCDF files with per-file tracking identifiers. The reported facets and checksum manifest identify the exact derivatives used, while independent recreation requires repeating the spatial extraction from the corresponding ESGF datasets. No future SSP experiment was analysed, so preservation of projected quantile change was implemented by the QDM formulation but not empirically evaluated. Future work should compare QDM directly with ordinary quantile mapping and scaled distribution mapping under the same holdout, test moving-window seasonal fits and explicit extreme-value tails, analyse circulation and spatial dependence, and evaluate regional or dynamically downscaled ensembles across future scenarios."
+      },
+      {
+        "index": 98,
+        "style": "Normal",
+        "text": "4. Conclusions"
+      },
+      {
+        "index": 99,
+        "style": "Normal",
+        "text": "Independent temporal validation indicates that month-wise QDM gives the most favorable descriptive pattern for monthly rainfall performance in Prachuap Khiri Khan. P monthly had the highest mean KGE and lowest mean RMSE under the five-times cap, but its KGE advantage over NP monthly was negligible in paired comparisons and reversed without the cap. AICc reproduced AIC selections, whereas lowering the wet-day threshold to 0.1 mm reduced P-monthly KGE to 0.217 while NP monthly remained stable. Seasonal stratification, rather than a universally superior distribution family, is therefore the principal transferable finding."
+      },
+      {
+        "index": 100,
+        "style": "Normal",
+        "text": "NP annual gave the lowest q99 bias, whereas monthly methods best represented seasonal structure. For monthly water-balance applications, NP monthly is the conservative default; NP annual can support upper-quantile screening; and P monthly requires documented occurrence, fallback, clipping, and cap sensitivity. Fixed-cap outputs should not be used directly for design extremes. The 60 paired evaluations share grid cells and model lineages and are not independent spatial replicates, so network-wide inferential superiority is not claimed. The fit-freeze-apply protocol and explicit sensitivities provide a stronger basis for further regional and future-scenario evaluation than same-period fitting alone."
+      },
+      {
+        "index": 101,
+        "style": "Normal",
+        "text": "5. Acknowledgements"
+      },
+      {
+        "index": 102,
+        "style": "Normal",
+        "text": "The author acknowledges the institutions that generated and distributed the CMIP6 simulations and the custodians of the Thai rain-gauge data used in the supplied project archive."
+      },
+      {
+        "index": 103,
+        "style": "Normal",
+        "text": "Author Contributions: S.P.: conceptualization, methodology, software, validation, formal analysis, data curation, visualization, writing-original draft, and writing-review and editing."
+      },
+      {
+        "index": 104,
+        "style": "Normal",
+        "text": "Funding: This research received no external funding."
+      },
+      {
+        "index": 105,
+        "style": "Normal",
+        "text": "Data Availability Statement: The rainfall observations are Thai Meteorological Department gauge records distributed through the Hydro-Informatics Institute/Royal Irrigation Department project archive; the official station inventory is documented in [27]. Access requests should be directed to the responsible Thai data custodians, and redistribution remains subject to their terms. CMIP6 source datasets are discoverable through ESGF using the complete facets reported in Table 2. The complete reproducibility package, including the analysis code, input-file checksum manifest, derived metrics, diagnostics, sensitivity outputs, and figure-generation scripts, is available from the corresponding author upon reasonable request. No public repository DOI had been assigned at the time of manuscript preparation."
+      },
+      {
+        "index": 106,
+        "style": "Normal",
+        "text": "Conflicts of Interest: The author declares no conflict of interest."
+      },
+      {
+        "index": 107,
+        "style": "Normal",
+        "text": "References"
+      },
+      {
+        "index": 108,
+        "style": "Normal",
+        "text": "1. Eyring, V.; Bony, S.; Meehl, G.A.; Senior, C.A.; Stevens, B.; Stouffer, R.J.; Taylor, K.E. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) Experimental Design and Organization. Geosci. Model Dev. 2016, 9, 1937-1958. https://doi.org/10.5194/gmd-9-1937-2016."
+      },
+      {
+        "index": 109,
+        "style": "Normal",
+        "text": "2. Tebaldi, C.; Knutti, R. The Use of the Multi-Model Ensemble in Probabilistic Climate Projections. Philos. Trans. R. Soc. A 2007, 365, 2053-2075. https://doi.org/10.1098/rsta.2007.2076."
+      },
+      {
+        "index": 110,
+        "style": "Normal",
+        "text": "3. Maraun, D. Bias Correction, Quantile Mapping, and Downscaling: Revisiting the Inflation Issue. J. Clim. 2013, 26, 2137-2143. https://doi.org/10.1175/JCLI-D-12-00821.1."
+      },
+      {
+        "index": 111,
+        "style": "Normal",
+        "text": "4. Themeßl, M.J.; Gobiet, A.; Leuprecht, A. Empirical-Statistical Downscaling and Error Correction of Daily Precipitation from Regional Climate Models. Int. J. Climatol. 2011, 31, 1530-1544. https://doi.org/10.1002/joc.2168."
+      },
+      {
+        "index": 112,
+        "style": "Normal",
+        "text": "5. Cannon, A.J.; Sobie, S.R.; Murdock, T.Q. Bias Correction of GCM Precipitation by Quantile Mapping: How Well Do Methods Preserve Changes in Quantiles and Extremes? J. Clim. 2015, 28, 6938-6959. https://doi.org/10.1175/JCLI-D-14-00754.1."
+      },
+      {
+        "index": 113,
+        "style": "Normal",
+        "text": "6. Gudmundsson, L.; Bremnes, J.B.; Haugen, J.E.; Engen-Skaugen, T. Technical Note: Downscaling RCM Precipitation to the Station Scale Using Statistical Transformations. Hydrol. Earth Syst. Sci. 2012, 16, 3383-3390. https://doi.org/10.5194/hess-16-3383-2012."
+      },
+      {
+        "index": 114,
+        "style": "Normal",
+        "text": "7. Piani, C.; Haerter, J.O.; Coppola, E. Statistical Bias Correction for Daily Precipitation in Regional Climate Models over Europe. Theor. Appl. Climatol. 2010, 99, 187-192. https://doi.org/10.1007/s00704-009-0134-9."
+      },
+      {
+        "index": 115,
+        "style": "Normal",
+        "text": "8. Switanek, M.B.; Troch, P.A.; Castro, C.L.; Leuprecht, A.; Chang, H.I.; Mukherjee, R.; Demaria, E.M.C. Scaled Distribution Mapping: A Bias Correction Method That Preserves Raw Climate Model Projected Changes. Hydrol. Earth Syst. Sci. 2017, 21, 2649-2666. https://doi.org/10.5194/hess-21-2649-2017."
+      },
+      {
+        "index": 116,
+        "style": "Normal",
+        "text": "9. Casanueva, A.; Herrera, S.; Iturbide, M.; Lange, S.; Jury, M.; Dosio, A.; Maraun, D.; Gutiérrez, J.M. Testing Bias Adjustment Methods for Regional Climate Change Applications under Observational Uncertainty and Resolution Mismatch. Atmos. Sci. Lett. 2020, 21, e978. https://doi.org/10.1002/asl.978."
+      },
+      {
+        "index": 117,
+        "style": "Normal",
+        "text": "10. Spuler, F.R.; Wessel, J.B.; Comyn-Platt, E.; Varndell, J.; Cagnazzo, C. ibicus: A New Open-Source Python Package and Comprehensive Interface for Statistical Bias Adjustment and Evaluation in Climate Modelling (v1.0.1). Geosci. Model Dev. 2024, 17, 1249-1269. https://doi.org/10.5194/gmd-17-1249-2024."
+      },
+      {
+        "index": 118,
+        "style": "Normal",
+        "text": "11. Potter, N.J.; Chiew, F.H.S.; Charles, S.P.; Fu, G.; Zheng, H.; Zhang, L. Bias in Dynamically Downscaled Rainfall Characteristics for Hydroclimatic Projections. Hydrol. Earth Syst. Sci. 2020, 24, 2963-2979. https://doi.org/10.5194/hess-24-2963-2020."
+      },
+      {
+        "index": 119,
+        "style": "Normal",
+        "text": "12. Berg, P.; Bosshard, T.; Bozhinova, D.; Bärring, L.; Löw, J.; Nilsson, C.; Strandberg, G.; Södling, J.; Thuresson, J.; Wilcke, R.; et al. Robust Handling of Extremes in Quantile Mapping - Murder Your Darlings. Geosci. Model Dev. 2024, 17, 8173-8179. https://doi.org/10.5194/gmd-17-8173-2024."
+      },
+      {
+        "index": 120,
+        "style": "Normal",
+        "text": "13. Padulano, R.; Gomez-Mogollon, L.A.; Napolitano, L.; Rianna, G. Quantile-Based Bias-Correction of Extreme Rainfall: Pros and Cons of Popular Methods for Climate Signal Preservation. J. Hydrol. 2025, 653, 132814. https://doi.org/10.1016/j.jhydrol.2025.132814."
+      },
+      {
+        "index": 121,
+        "style": "Normal",
+        "text": "14. Song, Y.H.; Chung, E.-S. Intercomparison of Bias Correction Methods for Precipitation of Multiple GCMs across Six Continents. Geosci. Model Dev. 2025, 18, 8017-8045. https://doi.org/10.5194/gmd-18-8017-2025."
+      },
+      {
+        "index": 122,
+        "style": "Normal",
+        "text": "15. Gergel, D.R.; Malevich, S.B.; McCusker, K.E.; Tenezakis, E.; Delgado, M.T.; Fish, M.A.; Kopp, R.E. Global Downscaled Projections for Climate Impacts Research: Preserving Quantile Trends for Modeling Future Climate Impacts. Geosci. Model Dev. 2024, 17, 191-227. https://doi.org/10.5194/gmd-17-191-2024."
+      },
+      {
+        "index": 123,
+        "style": "Normal",
+        "text": "16. Swart, N.C.; Cole, J.N.S.; Kharin, V.V.; Lazare, M.; Scinocca, J.F.; Gillett, N.P.; Anstey, J.; Arora, V.; Christian, J.R.; Jiao, Y.; et al. The Canadian Earth System Model Version 5 (CanESM5.0.3). Geosci. Model Dev. 2019, 12, 4823-4873. https://doi.org/10.5194/gmd-12-4823-2019."
+      },
+      {
+        "index": 124,
+        "style": "Normal",
+        "text": "17. Danabasoglu, G.; Lamarque, J.-F.; Bacmeister, J.; Bailey, D.A.; DuVivier, A.K.; Edwards, J.; Emmons, L.K.; Fasullo, J.; Garcia, R.; Gettelman, A.; et al. The Community Earth System Model Version 2 (CESM2). J. Adv. Model Earth Syst. 2020, 12, e2019MS001916. https://doi.org/10.1029/2019MS001916."
+      },
+      {
+        "index": 125,
+        "style": "Normal",
+        "text": "18. Döscher, R.; Acosta, M.; Alessandri, A.; Anthoni, P.; Arneth, A.; Arsouze, T.; Bergmann, T.; Bernadello, R.; Boussetta, S.; Caron, L.P.; et al. The EC-Earth3 Earth System Model for the Coupled Model Intercomparison Project 6. Geosci. Model Dev. 2022, 15, 2973-3020. https://doi.org/10.5194/gmd-15-2973-2022."
+      },
+      {
+        "index": 126,
+        "style": "Normal",
+        "text": "19. Tatebe, H.; Ogura, T.; Nitta, T.; Komuro, Y.; Ogochi, K.; Takemura, T.; Sudo, K.; Sekiguchi, M.; Abe, M.; Saito, F.; et al. Description and Basic Evaluation of Simulated Mean State, Internal Variability, and Climate Sensitivity in MIROC6. Geosci. Model Dev. 2019, 12, 2727-2765. https://doi.org/10.5194/gmd-12-2727-2019."
+      },
+      {
+        "index": 127,
+        "style": "Normal",
+        "text": "20. Ziehn, T.; Chamberlain, M.A.; Law, R.M.; Lenton, A.; Bodman, R.W.; Dix, M.; Stevens, L.; Wang, Y.-P.; Srbinovsky, J. The Australian Earth System Model: ACCESS-ESM1.5. J. South. Hemisph. Earth Syst. Sci. 2020, 70, 193-214. https://doi.org/10.1071/ES19035."
+      },
+      {
+        "index": 128,
+        "style": "Normal",
+        "text": "21. Gupta, H.V.; Kling, H.; Yilmaz, K.K.; Martinez, G.F. Decomposition of the Mean Squared Error and NSE Performance Criteria: Implications for Improving Hydrological Modelling. J. Hydrol. 2009, 377, 80-91. https://doi.org/10.1016/j.jhydrol.2009.08.003."
+      },
+      {
+        "index": 129,
+        "style": "Normal",
+        "text": "22. Pettitt, A.N. A Non-Parametric Approach to the Change-Point Problem. Appl. Stat. 1979, 28, 126-135. https://doi.org/10.2307/2346729."
+      },
+      {
+        "index": 130,
+        "style": "Normal",
+        "text": "23. Benjamini, Y.; Hochberg, Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J. R. Stat. Soc. Ser. B 1995, 57, 289-300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x."
+      },
+      {
+        "index": 131,
+        "style": "Normal",
+        "text": "24. Virtanen, P.; Gommers, R.; Oliphant, T.E.; Haberland, M.; Reddy, T.; Cournapeau, D.; Burovski, E.; Peterson, P.; Weckesser, W.; Bright, J.; et al. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nat. Methods 2020, 17, 261-272. https://doi.org/10.1038/s41592-019-0686-2."
+      },
+      {
+        "index": 132,
+        "style": "Normal",
+        "text": "25. Khadka, D.; Babel, M.S.; Abatan, A.A.; Collins, M. An Evaluation of CMIP5 and CMIP6 Climate Models in Simulating Summer Rainfall in the Southeast Asian Monsoon Domain. Int. J. Climatol. 2022, 42, 1181-1202. https://doi.org/10.1002/joc.7296."
+      },
+      {
+        "index": 133,
+        "style": "Normal",
+        "text": "26. Liu, S.; Raghavan, S.V.; Ona, B.J.; Nguyen, N.S. Bias Evaluation in Rainfall over Southeast Asia in CMIP6 Models. J. Hydrol. 2023, 621, 129593. https://doi.org/10.1016/j.jhydrol.2023.129593."
+      },
+      {
+        "index": 134,
+        "style": "Normal",
+        "text": "27. Pimsing, P.; Paengmun, S.; Thuengsaeng, A.; Wattanangkun, P.; Kasibut, S.; Sonphan, S. A Study on the Variability of Rainfall and Effective Rainfall under Climate Change of Prachuap Khiri Khan Province. In Proceedings of the 18th THAICID National Symposium, Thailand, 7 July 2025. Official event page: https://thaicid.rid.go.th/announcement/31/18th%20THAICID%20National%20Symposium; full paper: https://thaicid.rid.go.th/public/files/proposal/2025/fullpaper/1752739614_a49127fa0ffaf725ff44.pdf (accessed 29 August 2026)."
+      },
+      {
+        "index": 135,
+        "style": "Normal",
+        "text": "28. Zhang, X.; Alexander, L.; Hegerl, G.C.; Jones, P.D.; Tank, A.K.; Peterson, T.C.; Trewin, B.; Zwiers, F.W. Indices for Monitoring Changes in Extremes Based on Daily Temperature and Precipitation Data. Wiley Interdiscip. Rev. Clim. Change 2011, 2, 851-870. https://doi.org/10.1002/wcc.147."
+      }
+    ],
+    "tables": [
+      {
+        "index": 1,
+        "rows": [
+          [
+            "Station",
+            "Lat. (°N)",
+            "Long. (°E)",
+            "Elev. (m)",
+            "Missing (%)",
+            "Annual rainfall (mm)",
+            "SDII (mm day⁻¹)",
+            "Max. daily rainfall (mm day⁻¹)",
+            "Lag-1 ACF"
+          ],
+          [
+            "500001",
+            "12.37",
+            "99.95",
+            "9.1",
+            "0.0",
+            "984",
+            "12.0",
+            "170.0",
+            "0.21"
+          ],
+          [
+            "500002",
+            "11.18",
+            "99.55",
+            "n/a",
+            "0.0",
+            "1,376",
+            "11.1",
+            "155.0",
+            "0.22"
+          ],
+          [
+            "500003",
+            "12.02",
+            "99.90",
+            "n/a",
+            "0.0",
+            "1,100",
+            "13.1",
+            "181.3",
+            "0.19"
+          ],
+          [
+            "500004",
+            "11.47",
+            "99.65",
+            "n/a",
+            "0.0",
+            "1,106",
+            "11.4",
+            "152.0",
+            "0.21"
+          ],
+          [
+            "500005",
+            "11.60",
+            "99.68",
+            "5.0",
+            "0.0",
+            "1,147",
+            "6.4",
+            "143.5",
+            "0.41"
+          ],
+          [
+            "500006",
+            "11.62",
+            "99.67",
+            "23.0",
+            "0.0",
+            "1,203",
+            "6.5",
+            "201.1",
+            "0.35"
+          ],
+          [
+            "500007",
+            "11.90",
+            "99.78",
+            "21.3",
+            "0.0",
+            "1,134",
+            "6.2",
+            "176.6",
+            "0.35"
+          ],
+          [
+            "500008",
+            "12.53",
+            "99.55",
+            "130.3",
+            "0.0",
+            "1,206",
+            "5.1",
+            "68.0",
+            "0.66"
+          ],
+          [
+            "500009",
+            "12.22",
+            "99.87",
+            "14.4",
+            "0.0",
+            "1,177",
+            "5.2",
+            "54.2",
+            "0.63"
+          ],
+          [
+            "500201",
+            "11.83",
+            "99.83",
+            "n/a",
+            "0.0",
+            "1,108",
+            "12.1",
+            "296.9",
+            "0.25"
+          ],
+          [
+            "500202",
+            "12.59",
+            "99.96",
+            "n/a",
+            "0.0",
+            "944",
+            "11.8",
+            "298.5",
+            "0.26"
+          ],
+          [
+            "500301",
+            "12.58",
+            "99.73",
+            "101.8",
+            "0.0",
+            "1,065",
+            "11.4",
+            "226.0",
+            "0.25"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": [
+          [
+            "Model",
+            "Institution",
+            "Variant",
+            "Grid",
+            "Resolution (degrees); approximate area (10^3 km2)",
+            "Calendar",
+            "Days",
+            "Distinct series",
+            "Reference"
+          ],
+          [
+            "ACCESS-ESM1-5",
+            "CSIRO",
+            "r1i1p1f1",
+            "gn",
+            "1.875 x 1.25; 28.4",
+            "standard",
+            "12,418",
+            "2",
+            "[20]"
+          ],
+          [
+            "CESM2",
+            "NCAR",
+            "r11i1p1f1",
+            "gn",
+            "1.25 x 0.90; 13.6",
+            "365-day",
+            "12,410",
+            "3",
+            "[17]"
+          ],
+          [
+            "CanESM5",
+            "CCCma",
+            "r1i1p1f1",
+            "gn",
+            "2.8 x 2.8; 94.9",
+            "365-day",
+            "12,410",
+            "2",
+            "[16]"
+          ],
+          [
+            "EC-Earth3",
+            "EC-Earth Consortium",
+            "r1i1p1f1",
+            "gr",
+            "1.125 x 1.125; 15.3",
+            "standard",
+            "12,418",
+            "3",
+            "[18]"
+          ],
+          [
+            "MIROC6",
+            "MIROC Consortium",
+            "r1i1p1f1",
+            "gn",
+            "1.4 x 1.4; 23.7",
+            "standard",
+            "12,418",
+            "2",
+            "[19]"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": [
+          [
+            "Metric",
+            "Raw",
+            "NP annual",
+            "NP monthly",
+            "P annual",
+            "P monthly",
+            "Favorable mean (descriptive)"
+          ],
+          [
+            "Mean absolute PBIAS (%)",
+            "19.99",
+            "13.47",
+            "13.81",
+            "22.13",
+            "15.48",
+            "NP annual"
+          ],
+          [
+            "Kolmogorov-Smirnov D",
+            "0.201",
+            "0.106",
+            "0.101",
+            "0.141",
+            "0.098",
+            "P monthly"
+          ],
+          [
+            "Mean absolute q99 bias (%)",
+            "52.98",
+            "24.79",
+            "27.37",
+            "44.86",
+            "32.54",
+            "NP annual"
+          ],
+          [
+            "Monthly RMSE (mm)",
+            "116.20",
+            "124.74",
+            "109.45",
+            "123.72",
+            "105.06",
+            "P monthly"
+          ],
+          [
+            "Monthly MAE (mm)",
+            "78.15",
+            "81.06",
+            "70.47",
+            "80.46",
+            "67.40",
+            "P monthly"
+          ],
+          [
+            "Monthly KGE",
+            "0.229",
+            "0.203",
+            "0.329",
+            "0.152",
+            "0.337",
+            "P monthly"
+          ],
+          [
+            "Monthly correlation r",
+            "0.342",
+            "0.328",
+            "0.425",
+            "0.342",
+            "0.428",
+            "P monthly"
+          ],
+          [
+            "Monthly climatology r",
+            "0.643",
+            "0.629",
+            "0.880",
+            "0.644",
+            "0.864",
+            "NP monthly"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "rows": [
+          [
+            "Method",
+            "Metric",
+            "Raw mean",
+            "Corrected mean",
+            "Median delta",
+            "Median 95% interval",
+            "Favorable point change",
+            "CI F/A/O"
+          ],
+          [
+            "NP annual",
+            "mRMSE",
+            "116.20",
+            "124.74",
+            "+8.75",
+            "[+3.33, +17.16]",
+            "22/60",
+            "19/32/9"
+          ],
+          [
+            "NP annual",
+            "mKGE",
+            "0.229",
+            "0.203",
+            "-0.048",
+            "[-0.126, +0.057]",
+            "25/60",
+            "14/20/26"
+          ],
+          [
+            "NP monthly",
+            "mRMSE",
+            "116.20",
+            "109.45",
+            "-5.57",
+            "[-24.68, +10.13]",
+            "38/60",
+            "24/5/31"
+          ],
+          [
+            "NP monthly",
+            "mKGE",
+            "0.229",
+            "0.329",
+            "+0.071",
+            "[-0.078, +0.264]",
+            "41/60",
+            "20/0/40"
+          ],
+          [
+            "P annual",
+            "mRMSE",
+            "116.20",
+            "123.72",
+            "+0.73",
+            "[-3.00, +4.67]",
+            "29/60",
+            "23/27/10"
+          ],
+          [
+            "P annual",
+            "mKGE",
+            "0.229",
+            "0.152",
+            "-0.006",
+            "[-0.118, +0.056]",
+            "27/60",
+            "16/19/25"
+          ],
+          [
+            "P monthly",
+            "mRMSE",
+            "116.20",
+            "105.06",
+            "-11.07",
+            "[-26.99, +2.54]",
+            "44/60",
+            "27/1/32"
+          ],
+          [
+            "P monthly",
+            "mKGE",
+            "0.229",
+            "0.337",
+            "+0.095",
+            "[-0.041, +0.261]",
+            "45/60",
+            "21/0/39"
+          ]
+        ]
+      },
+      {
+        "index": 5,
+        "rows": [
+          [
+            "Method",
+            "Eligible/structural",
+            "Observed selection",
+            "Model selection",
+            "Annual fallback",
+            "Fit failures",
+            "Capped values",
+            "Clipped delta events"
+          ],
+          [
+            "P annual",
+            "60/60",
+            "P3 55; LN 5",
+            "P3 45; GEV 15",
+            "0",
+            "0",
+            "3",
+            "247"
+          ],
+          [
+            "P monthly",
+            "620/720",
+            "P3 610; GEV 5; LN 5",
+            "P3 496; GEV 106; LN 12; Gamma 3; Weibull 3",
+            "100",
+            "0",
+            "8",
+            "229"
+          ]
+        ]
+      },
+      {
+        "index": 6,
+        "rows": [
+          [
+            "Cap factor",
+            "P annual RMSE",
+            "P annual KGE",
+            "P monthly RMSE",
+            "P monthly KGE",
+            "P monthly |q99 bias| (%)",
+            "P annual capped",
+            "P monthly capped"
+          ],
+          [
+            "1.5",
+            "122.01",
+            "0.167",
+            "101.91",
+            "0.355",
+            "32.60",
+            "35",
+            "171"
+          ],
+          [
+            "5.0 (primary)",
+            "123.72",
+            "0.152",
+            "105.06",
+            "0.337",
+            "32.54",
+            "3",
+            "8"
+          ],
+          [
+            "None",
+            "126.64",
+            "0.125",
+            "106.46",
+            "0.327",
+            "32.54",
+            "0",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "tracked_insertions": [],
+    "tracked_deletions": [],
+    "comments": []
+  },
+  {
+    "path": "D:\\วารสาร ASEAN J. Sci\\New paper\\ข้อพิจารณาแก้ไขล่าสุด.docx",
+    "paragraph_count": 436,
+    "table_count": 4,
+    "section_count": 1,
+    "paragraphs": [
+      {
+        "index": 1,
+        "style": "Normal",
+        "text": "ข้อสรุป"
+      },
+      {
+        "index": 2,
+        "style": "Normal",
+        "text": "ยังไม่พร้อมส่ง ต้นฉบับเขียนดี ระเบียบวิธีตรงไปตรงมา และการ hedge ข้อสรุปทำได้อย่างมีวินัย (ยอมรับว่า 60 คู่ไม่ใช่ replicate อิสระ, ระบุว่าอันดับกลับด้านเมื่อไม่มี cap) แต่มีปัญหา 3 ชั้นที่ต้องปิดก่อน โดยชั้นแรกอาจกระทบผลทั้งฉบับ"
+      },
+      {
+        "index": 3,
+        "style": "Normal",
+        "text": "จุดตายที่สุดไม่ใช่เรื่องภาษาหรือแบบฟอร์ม แต่คือ ข้อมูลสถานี 5 แห่งจาก 12 แห่งดูไม่เหมือนข้อมูลเกจฝนรายวันจริง และ สถานีที่ให้ผลลัพธ์ดีที่สุดในบทความคือสองสถานีที่น่าสงสัยที่สุด"
+      },
+      {
+        "index": 5,
+        "style": "Normal",
+        "text": "การวิเคราะห์และจุดบอด"
+      },
+      {
+        "index": 6,
+        "style": "Normal",
+        "text": "จุดพังที่ 1 — ข้อมูลสถานี 500005–500009 ผิดปกติเชิงกายภาพ [BLOCKER]"
+      },
+      {
+        "index": 7,
+        "style": "Normal",
+        "text": "คำนวณจาก Table 1 เอง (ฝนรายปี ÷ SDII) ได้จำนวนวันฝน (≥1.0 mm) ต่อปี:"
+      },
+      {
+        "index": 8,
+        "style": "Normal",
+        "text": "สถานี 500008 ได้ฝน ≥1 mm ราว 236 วัน/ปี (65% ของวัน) ในจังหวัดที่มีฤดูแล้งชัดเจน ธ.ค.–เม.ย. และค่าสูงสุดรายวันตลอด 34 ปีเพียง 68 mm รูปแบบ SDII ต่ำ + วันฝนมาก + ค่าสูงสุดต่ำ + ACF สูง คือลายเซ็นของฝนสะสมหลายวันที่ถูกเกลี่ย หรือข้อมูลที่ผ่าน interpolation/gap-filling มาก่อน ไม่ใช่การอ่านเกจรายวัน"
+      },
+      {
+        "index": 9,
+        "style": "Normal",
+        "text": "ผลเสีย: §3.2 ระบุว่าสถานี 500008 และ 500009 ให้ KGE ดีขึ้นมากที่สุด (~0.29–0.31) ซึ่งอธิบายได้ตรง ๆ ว่า อนุกรมที่ถูกเกลี่ยจนแปรปรวนต่ำย่อมจับคู่กับผลผลิต GCM ที่แปรปรวนต่ำได้ดีกว่า ผลเด่นของบทความจึงอาจเป็น artifact ถ้า reviewer จับได้ ผลลัพธ์คือ reject ไม่ใช่ revise"
+      },
+      {
+        "index": 10,
+        "style": "Normal",
+        "text": "เสริมด้วย: Missing = 0.0% ทั้ง 12 สถานี ตลอด 12,418 วัน ซึ่งแทบไม่เกิดกับข้อมูลเกจไทยที่ไม่เคยผ่านการเติมข้อมูล"
+      },
+      {
+        "index": 11,
+        "style": "Normal",
+        "text": "จุดพังที่ 2 — การเปรียบเทียบ P กับ NP ไม่เป็นธรรม [BLOCKER]"
+      },
+      {
+        "index": 12,
+        "style": "Normal",
+        "text": "ข้อสรุปหลักของบทความคือ P monthly เทียบกับ NP monthly แต่ทั้งสองไม่ได้ผ่าน post-processing ชุดเดียวกัน Table 5 รายงาน capped values, clipped delta events และ annual fallback เฉพาะฝั่ง parametric ส่วน Table 6 เขียนเพียงว่า \"NP results are invariant to this parameter\" โดยไม่พิสูจน์"
+      },
+      {
+        "index": 13,
+        "style": "Normal",
+        "text": "เหตุผลที่ NP ไม่ถูก cap 5× กระทบ มีอยู่จริง (eCDF + linear interpolation ไม่ extrapolate เกินค่าสูงสุดที่สังเกต ค่าที่ได้จึง ≤ max × Δ ≤ max × 5) แต่ ต้องเขียนออกมา และคำกล่าวนี้ไม่น่าจะจริงที่ cap 1.5 ยิ่งกว่านั้นยังไม่ชัดว่า NP monthly ใช้ annual fallback 100 บล็อกเดียวกันหรือไม่ ถ้าไม่ใช้ ทั้งสองวิธีก็ไม่ได้เทียบกันบนฐานเดียวกันเลย"
+      },
+      {
+        "index": 14,
+        "style": "Normal",
+        "text": "จุดพังที่ 3 — Pearson III ชนะ 610/620 น่าจะเป็นพยาธิสภาพของ MLE [MAJOR]"
+      },
+      {
+        "index": 15,
+        "style": "Normal",
+        "text": "scipy.stats.pearson3 มี shape α = 4/skew² ฝนรายวันวันฝนมี skew ราว 2–6 ซึ่งให้ α < 1 → ความหนาแน่นลู่เข้าอนันต์ที่ขอบล่าง → likelihood ไม่มีขอบเขต เมื่อ loc เข้าใกล้ min(x) ผลคือ log-likelihood พุ่ง AIC ต่ำผิดปกติ และ P3 ชนะเกือบทุกบล็อก GEV ที่ปล่อย location อิสระก็มีปัญหาคล้ายกันเมื่อ ξ < −1"
+      },
+      {
+        "index": 16,
+        "style": "Normal",
+        "text": "ซ้ำด้วยความไม่เป็นธรรมเชิงโครงสร้าง: gamma, Weibull และ lognormal ถูกตรึง loc = 0 ขณะที่ข้อมูลถูก truncate ที่ 1.0 mm ส่วน P3 และ GEV เลื่อน loc ได้ จึงชนะเพราะรองรับการตัดปลายซ้ายได้ ไม่ใช่เพราะอธิบายฝนได้ดีกว่า"
+      },
+      {
+        "index": 17,
+        "style": "Normal",
+        "text": "จุดนี้อธิบายผลที่บทความยังอธิบายไม่ได้: KGE ของ P monthly ตกจาก 0.337 เหลือ 0.217 เมื่อลด threshold เป็น 0.1 mm ถ้าวินิจฉัยได้จะเปลี่ยน \"ความอ่อนไหวที่ไม่ทราบสาเหตุ\" เป็น \"กลไกที่ระบุได้\" ซึ่งยกระดับบทความอย่างมาก"
+      },
+      {
+        "index": 18,
+        "style": "Normal",
+        "text": "จุดพังที่ 4 — Endpoint หลักวัดวัฏจักรฤดูกาล ไม่ใช่ทักษะ interannual [MAJOR]"
+      },
+      {
+        "index": 19,
+        "style": "Normal",
+        "text": "Table 3 บอกเรื่องนี้เอง: monthly r ขยับ 0.342 → 0.428 แต่ climatology r ขยับ 0.643 → 0.880 นั่นคือการปรับปรุงเกือบทั้งหมดมาจากการจัดวางวัฏจักรฤดูกาลให้ตรง ไม่ใช่การจับความผันแปรระหว่างปี ซึ่งคาดได้อยู่แล้วเพราะ historical run เป็น free-running ไม่มี synchrony กับการสังเกต"
+      },
+      {
+        "index": 20,
+        "style": "Normal",
+        "text": "ต้องรายงาน KGE decomposition (r, α, β) และ KGE บนค่า anomaly มิฉะนั้น reviewer จะอ่าน \"KGE 0.229 → 0.337\" ว่าเป็นการอวดอ้างเกินหลักฐาน"
+      },
+      {
+        "index": 21,
+        "style": "Normal",
+        "text": "จุดพังที่ 5 — P annual มี outlier ที่ไม่ได้พูดถึงเลย [MAJOR]"
+      },
+      {
+        "index": 22,
+        "style": "Normal",
+        "text": "เทียบ Table 3 กับ Table 4 เอง:"
+      },
+      {
+        "index": 23,
+        "style": "Normal",
+        "text": "เฉพาะ P annual ที่ mean กับ median แยกกันสิบเท่า แปลว่ามีไม่กี่คู่ที่พังรุนแรงจนลากค่าเฉลี่ย บทความบอกแค่ว่า P annual \"weaker\" ทั้งที่นี่คือหลักฐานสนับสนุนจุดพังที่ 3 โดยตรง"
+      },
+      {
+        "index": 24,
+        "style": "Normal",
+        "text": "ประเด็นอื่นที่ต้องแก้"
+      },
+      {
+        "index": 25,
+        "style": "Normal",
+        "text": "ประกาศ BH-FDR ใน §2.5 แต่ไม่รายงานผลใดเลย ต้องรายงานหรือถอดข้อความออก"
+      },
+      {
+        "index": 26,
+        "style": "Normal",
+        "text": "ไม่มี benchmark พื้นฐาน ไม่มี plain QM หรือ linear scaling ให้เทียบ ทั้งที่ plain QM คือ QDM ที่บังคับ Δ = 1 — เพิ่ม 1 คอลัมน์ด้วย pipeline เดิม"
+      },
+      {
+        "index": 27,
+        "style": "Normal",
+        "text": "Overclaim การใช้งาน §3.4 เสนอ NP monthly สำหรับ \"seasonal reservoir inflow, irrigation scheduling\" ที่ KGE 0.33 / r 0.43 ไม่รองรับการใช้งานรายเดือนเชิงปฏิบัติการ ใช้ได้เฉพาะสถิติเชิงภูมิอากาศ"
+      },
+      {
+        "index": 28,
+        "style": "Normal",
+        "text": "ไม่มีแผนที่พื้นที่ศึกษาเลย ขณะที่ §3.4 อภิปราย orography ของ Tenasserim Range และ elevation หายไป 5/12 สถานี"
+      },
+      {
+        "index": 29,
+        "style": "Normal",
+        "text": "Table 2: EC-Earth3 ระบุ 1.125° แต่ EC-Earth3 ใน CMIP6 ใช้ IFS TL255 ซึ่งเทียบเท่า 512 × 256 lon/lat ≈ 0.70° ถ้าไฟล์เป็น 1.125° จริง แสดงว่าไม่ใช่ผลผลิต gr ดั้งเดิม และคำกล่าวเรื่อง ESGF traceability ต้องแก้ พร้อมพื้นที่เซลล์ (15.3×10³ km²) และช่วง 13,600–94,900 km² ใน §3.4"
+      },
+      {
+        "index": 30,
+        "style": "Normal",
+        "text": "ประโยคตกค้างจากฉบับก่อน §3.3 เขียนว่า \"The apparent deficits of 5 observed and 33 model fits in the earlier table...\" อ้างถึงตารางที่ไม่มีในฉบับนี้ และขัดกับ Table 5 ที่ผลรวมลงตัว 60 และ 620 พอดี — reviewer จะเห็นทันทีว่าแก้ไขไม่เรียบร้อย"
+      },
+      {
+        "index": 31,
+        "style": "Normal",
+        "text": "ตัวเลขไม่ตรงกัน §3.2 เขียน q99 bias ของ NP monthly = 27.38 แต่ Table 3 = 27.37"
+      },
+      {
+        "index": 32,
+        "style": "Normal",
+        "text": "Table 1, Figure 1, Figure 4 ไม่ถูกอ้างในเนื้อความเลย มีแต่คำบรรยาย"
+      },
+      {
+        "index": 33,
+        "style": "Normal",
+        "text": "PBIAS และ MAE รายงานใน Table 3 แต่ไม่มีนิยามใน §2.5"
+      },
+      {
+        "index": 34,
+        "style": "Normal",
+        "text": "\"annual variant\" กำกวม ผู้อ่านเข้าใจว่าเป็นการปรับฝนรายปี ทั้งที่หมายถึงการรวมทุกเดือนเป็นชุดเดียว"
+      },
+      {
+        "index": 35,
+        "style": "Normal",
+        "text": "ข้อกำหนด AJSTR ที่ตกได้ตั้งแต่ desk"
+      },
+      {
+        "index": 36,
+        "style": "Normal",
+        "text": "ไฟล์ยังมีชื่อ สังกัด และอีเมลผู้แต่ง — AJSTR ระบุว่า main manuscript ที่ส่งให้ reviewer จะต้องไม่แสดงชื่อและที่อยู่ของผู้แต่ง นี่คือเหตุผลตีกลับที่พบบ่อยที่สุด"
+      },
+      {
+        "index": 37,
+        "style": "Normal",
+        "text": "ชื่อเรื่องเป็น Title Case — คู่มือกำหนด sentence case ขึ้นต้นตัวใหญ่เฉพาะคำแรกและวิสามานยนาม (ความยาว 147 ตัวอักษร ผ่านเกณฑ์ 250)"
+      },
+      {
+        "index": 38,
+        "style": "Normal",
+        "text": "ลำดับเลขอ้างอิงผิด — คู่มือกำหนด เรียงตามลำดับการปรากฏ รวมการอ้างในตารางและคำบรรยายรูป ปัจจุบัน [3,4,6,7] มาก่อน [5] และ [27],[28] มาก่อน [21]–[26]"
+      },
+      {
+        "index": 39,
+        "style": "Normal",
+        "text": "รูปแบบอ้างอิงเป็น MDPI — AJSTR ใช้ American Chemical Society (ACS) style ตัวอย่างในคู่มือใช้ปีตัวหนา ชื่อวารสารตัวเอียงตามด้วยจุด volume ตัวเอียงพร้อม (issue) ต้องจัดใหม่ทั้ง 28 รายการ"
+      },
+      {
+        "index": 40,
+        "style": "Normal",
+        "text": "รูปภาพ — figure legends ต้องอยู่ท้ายเรื่องหลังตาราง และส่งไฟล์แยกเป็น TIFF/JPEG ชื่อ Figure_1.jpg"
+      },
+      {
+        "index": 41,
+        "style": "Normal",
+        "text": "ตารางฟอนต์เล็กเกินไป — ตรวจ XML พบย่อหน้าขนาด 7 pt จำนวน 182 และ 7.5 pt จำนวน 180 (คือเซลล์ตารางเกือบทั้งหมด) เทียบกับข้อกำหนด Palatino Linotype 10 pt Table 5 และ 6 ที่มี 8 คอลัมน์ควร transpose หรือแตกเป็นสองตาราง"
+      },
+      {
+        "index": 42,
+        "style": "Normal",
+        "text": "ขาดประโยคบังคับ 2 ประโยค — \"All authors have read and agreed to the published version of the manuscript.\" และ ข้อความระบุว่าผู้ให้ทุนไม่มีบทบาทในการออกแบบการศึกษา การเก็บและวิเคราะห์ข้อมูล การเขียนต้นฉบับ หรือการตัดสินใจตีพิมพ์"
+      },
+      {
+        "index": 43,
+        "style": "Normal",
+        "text": "หน่วยไม่เป็นตัวยกเลยทั้งฉบับ — ตรวจ XML พบ superscript run = 0 ตัว ทั้งเอกสาร ทั้งที่มี mm day-1 10 แห่ง, km2 2 แห่ง, 10^3 ใน Table 2, kg m-2 s-1 และเลขสังกัดผู้แต่ง (Table 1 กลับใช้ mm day⁻¹ แบบ Unicode — ไม่สม่ำเสมอ)"
+      },
+      {
+        "index": 44,
+        "style": "Normal",
+        "text": "การสะกดปน UK/US — เอกสารเป็น US เป็นหลัก แต่ตกค้าง favouring, behaviour, modelled (×2), analysed (×2), homogenisation, centre"
+      },
+      {
+        "index": 45,
+        "style": "Normal",
+        "text": "ไม่มี en dash เลยทั้งฉบับ ช่วงตัวเลขทั้งหมดใช้ hyphen"
+      },
+      {
+        "index": 46,
+        "style": "Normal",
+        "text": "ผ่านเกณฑ์แล้ว: บทคัดย่อ 218 คำ (≤ 250) · คำสำคัญ 5 คำ (3–5 คำ) · ความยาว ~6,000 คำ (≤ 8,000) · ฟอนต์ default เป็น Palatino Linotype · สมการเป็น OMML 41 objects ตาม ข้อกำหนดให้ใช้ Equation Editor หรือ MathType"
+      },
+      {
+        "index": 48,
+        "style": "Normal",
+        "text": "ข้อเสนอแนะที่ฟันธง"
+      },
+      {
+        "index": 49,
+        "style": "Normal",
+        "text": "หยุดกระบวนการส่ง จนกว่าจะปิดจุดพังที่ 1 ได้ ถ้าสถานี 500005–500009 มีปัญหาจริง ตัวเลขทุกตารางต้องคำนวณใหม่ การแก้ภาษาหรือแบบฟอร์มตอนนี้จะเสียเปล่า"
+      },
+      {
+        "index": 50,
+        "style": "Normal",
+        "text": "อย่าตัดสถานีทิ้งเงียบ ๆ ถ้าพิสูจน์ว่าเป็น accumulated data ให้เลือกทางใดทางหนึ่งอย่างเปิดเผย: (ก) รายงานผลทั้ง 12 สถานีพร้อมวิเคราะห์แยกกลุ่ม A/B เป็น sensitivity หรือ (ข) ตัดออกพร้อมเกณฑ์ที่ประกาศล่วงหน้าและแสดงผลทั้งสองแบบ ทางเลือก (ก) ปลอดภัยกว่าและได้ประเด็นอภิปรายเพิ่ม"
+      },
+      {
+        "index": 51,
+        "style": "Normal",
+        "text": "แก้วิธี fit ให้เป็นธรรม fit ทุกวงศ์บนส่วนเกิน (x − threshold) หรือใช้ truncated likelihood แล้วเลือกด้วย AIC ใหม่ ถ้า P3 ยังชนะหลังแก้ ข้อสรุปแข็งขึ้นมาก ถ้าไม่ชนะ บทความจะได้ผลลัพธ์ที่น่าสนใจกว่าเดิม"
+      },
+      {
+        "index": 52,
+        "style": "Normal",
+        "text": "เปลี่ยน novelty framing อย่าอ้างความใหม่จากพื้นที่ศึกษา (อ่อน) ให้อ้างจาก การรายงานบัญชี numerical safeguards ครบถ้วน (cap, clip, fallback, threshold) ซึ่งงาน bias correction ส่วนใหญ่ไม่รายงาน นี่คือจุดแข็งจริงของต้นฉบับนี้"
+      },
+      {
+        "index": 53,
+        "style": "Normal",
+        "text": "ลดระดับข้อเสนอการใช้งาน ให้จำกัดที่สถิติเชิงภูมิอากาศและ water-balance ระยะยาว ตัดคำว่า irrigation scheduling ออก การถอยเองในต้นฉบับดีกว่าให้ reviewer บังคับถอย"
+      },
+      {
+        "index": 55,
+        "style": "Normal",
+        "text": "แผนปฏิบัติ"
+      },
+      {
+        "index": 56,
+        "style": "Normal",
+        "text": "ขั้น 1–2 คือทางวิกฤต ถ้าผ่านโดยไม่ต้องคำนวณใหม่ ขั้น 3–7 ใช้เวลาไม่มากเพราะ pipeline พร้อมแล้ว"
+      },
+      {
+        "index": 58,
+        "style": "Normal",
+        "text": "ความเสี่ยงและสิ่งที่ต้องตรวจสอบ"
+      },
+      {
+        "index": 59,
+        "style": "Normal",
+        "text": "ความเสี่ยงสูงสุด — ถ้าส่งทั้งอย่างนี้ ผลที่น่าจะเกิดคือ desk return จากเรื่อง double-blind ก่อนถึงมือ reviewer ด้วยซ้ำ ถ้าผ่าน desk แล้ว reviewer ที่อ่านข้อมูลเป็นจะจับข้อ 1 และ 3 ได้ ซึ่งเป็นเหตุ reject ไม่ใช่ revise"
+      },
+      {
+        "index": 60,
+        "style": "Normal",
+        "text": "ต้องยืนยันจากข้อมูล ไม่ใช่จากสมมติฐานผม"
+      },
+      {
+        "index": 61,
+        "style": "Normal",
+        "text": "ค่าฝนรายวันที่สถานี 500005–500009 มีค่าซ้ำติดต่อกันผิดปกติหรือไม่ (run-length ของค่าเท่ากัน)"
+      },
+      {
+        "index": 62,
+        "style": "Normal",
+        "text": "ค่า scipy.__version__ และเวอร์ชัน Python จริงที่ใช้รัน (ต้นฉบับระบุ 1.18.1 / 3.12.13 — ยืนยันจาก environment)"
+      },
+      {
+        "index": 63,
+        "style": "Normal",
+        "text": "ระยะกริดจริงในไฟล์ EC-Earth3 (อ่าน lat/lon spacing จากไฟล์ต้นทาง)"
+      },
+      {
+        "index": 64,
+        "style": "Normal",
+        "text": "NP monthly ใช้ annual fallback กี่บล็อก และมี clipped delta events เท่าใด"
+      },
+      {
+        "index": 65,
+        "style": "Normal",
+        "text": "เอกสารอ้างอิง [27] เป็นภาษาไทยหรืออังกฤษ (ถ้าไทย ต้องต่อท้าย \"(In Thai)\")"
+      },
+      {
+        "index": 66,
+        "style": "Normal",
+        "text": "quartile ปัจจุบันของ AJSTR ใน SCImago (Scopus source ID 21101192676) — ที่ผมมีบันทึกไว้คือ Q4 ขณะที่คุณระบุเป้าหมาย Q3 ควรยืนยันก่อนตัดสินใจส่ง"
+      },
+      {
+        "index": 68,
+        "style": "Normal",
+        "text": "งานที่เริ่มได้ทันทีวันนี้"
+      },
+      {
+        "index": 69,
+        "style": "Normal",
+        "text": "รัน diagnostic บนไฟล์สังเกตการณ์: histogram ค่าฝนรายวัน, run-length ของค่าเท่ากัน, จำนวนวันฝน/ปี, Rx1day รายปี — แยกกลุ่ม A กับ B (30 นาที ตอบคำถามใหญ่ที่สุด)"
+      },
+      {
+        "index": 70,
+        "style": "Normal",
+        "text": "ดึงค่า (min(x) − loĉ)/scalê และ skew ̂ จากผล fit P3 ที่เก็บไว้ ถ้าค่าแรกเข้าใกล้ 0 เป็นวงกว้าง ยืนยันจุดพังที่ 3 ทันที"
+      },
+      {
+        "index": 71,
+        "style": "Normal",
+        "text": "ลบประโยคตกค้าง \"the apparent deficits of 5 observed and 33 model fits in the earlier table...\" ออกจาก §3.3"
+      },
+      {
+        "index": 72,
+        "style": "Normal",
+        "text": "แก้ 27.38 เป็น 27.37 ใน §3.2"
+      },
+      {
+        "index": 73,
+        "style": "Normal",
+        "text": "สร้างไฟล์ title page แยก แล้วลบชื่อ สังกัด อีเมล ออกจาก main manuscript"
+      },
+      {
+        "index": 75,
+        "style": "Normal",
+        "text": "ผลลัพธ์พร้อมใช้"
+      },
+      {
+        "index": 76,
+        "style": "Normal",
+        "text": "AJSTR presubmission checklist v1.0 — เช็กลิสต์ติ๊กได้ 60 รายการ แยกเป็น 4 ชั้น (ข้อมูล / ระเบียบวิธี / ความสอดคล้อง / ข้อกำหนด AJSTR) กำกับระดับ BLOCK / MAJOR / MINOR พร้อมตารางลำดับงาน"
+      },
+      {
+        "index": 77,
+        "style": "Normal",
+        "text": "ถ้าต้องการ ผมช่วยร่างสคริปต์ diagnostic สำหรับข้อ 1 และ 2 ให้รันกับไฟล์จริงได้เลย"
+      },
+      {
+        "index": 78,
+        "style": "Normal",
+        "text": "คำตัดสินเชิงบรรณาธิการ"
+      },
+      {
+        "index": 79,
+        "style": "Normal",
+        "text": "บทความมีแกนวิจัยที่ชัด มีผลการทดลองเพียงพอ และมีศักยภาพสำหรับวารสารระดับ Q3 แต่ “ยังไม่ควรส่งในสภาพไฟล์ปัจจุบัน”"
+      },
+      {
+        "index": 80,
+        "style": "Normal",
+        "text": "สถานะที่เหมาะสมที่สุดคือ"
+      },
+      {
+        "index": 81,
+        "style": "Normal",
+        "text": "Major revision ก่อน submission — ไม่จำเป็นต้องทำการทดลองใหม่ทั้งชุด แต่ต้องปิดประเด็น methodological/reproducibility สำคัญประมาณ 6–8 จุด"
+      },
+      {
+        "index": 82,
+        "style": "Normal",
+        "text": "จุดแข็งของ manuscript คือการวางกรอบ fit → freeze → apply → independently evaluate ชัดเจนมาก โดย fit ใน 1981–2000 และ freeze transfer functions ก่อนนำไปประเมินกับ 2001–2014 ซึ่งเป็นโครงสร้างการทดลองที่แข็งแรงกว่าการประเมินใน calibration period อย่างมีนัยสำคัญ"
+      },
+      {
+        "index": 83,
+        "style": "Normal",
+        "text": "นอกจากนี้ ผลหลักมีความสอดคล้องกันระหว่าง Methods–Results–Conclusion และไม่มีความผิดปกติของจำนวนบล็อกที่เห็นได้ชัด เช่น 720 monthly blocks = 620 eligible + 100 fallback และ selection counts ของ parametric monthly รวม 620 พอดี"
+      },
+      {
+        "index": 84,
+        "style": "Normal",
+        "text": "อย่างไรก็ตาม มีหลายจุดที่ reviewer Q3 มีโอกาสหยิบขึ้นมาเป็น major comment ได้ทันที"
+      },
+      {
+        "index": 86,
+        "style": "Normal",
+        "text": "1. จุดที่แข็งแรงมาก และควรรักษาไว้"
+      },
+      {
+        "index": 87,
+        "style": "Normal",
+        "text": "1.1 Research question ชัดและมี value"
+      },
+      {
+        "index": 88,
+        "style": "Normal",
+        "text": "งานไม่ได้หยุดที่ “วิธีใดให้ค่า error ต่ำกว่า” แต่ตั้งคำถามที่เหมาะกับงาน methodological evaluation มากกว่า ได้แก่"
+      },
+      {
+        "index": 89,
+        "style": "Normal",
+        "text": "annual vs monthly calibration"
+      },
+      {
+        "index": 90,
+        "style": "Normal",
+        "text": "parametric vs empirical QDM"
+      },
+      {
+        "index": 91,
+        "style": "Normal",
+        "text": "independent temporal holdout"
+      },
+      {
+        "index": 92,
+        "style": "Normal",
+        "text": "wet-day threshold sensitivity"
+      },
+      {
+        "index": 93,
+        "style": "Normal",
+        "text": "tail-cap sensitivity"
+      },
+      {
+        "index": 94,
+        "style": "Normal",
+        "text": "AIC vs AICc"
+      },
+      {
+        "index": 95,
+        "style": "Normal",
+        "text": "limitations ของการตีความ spatial replication"
+      },
+      {
+        "index": 96,
+        "style": "Normal",
+        "text": "นี่เป็น framing ที่ดีสำหรับบทความ Q3 เพราะทำให้ contribution อยู่ที่ robustness and transferability of the correction strategy มากกว่าการประกาศว่า method หนึ่ง “ดีที่สุด” แบบกว้าง ๆ"
+      },
+      {
+        "index": 97,
+        "style": "Normal",
+        "text": "บทคัดย่อและ Introduction สอดคล้องกับ framing นี้ค่อนข้างดี"
+      },
+      {
+        "index": 98,
+        "style": "Normal",
+        "text": "1.2 Independent holdout เป็นจุดขายหลักของบทความ"
+      },
+      {
+        "index": 99,
+        "style": "Normal",
+        "text": "การกันข้อมูลสังเกตการณ์ 2001–2014 ออกจากการ fit และใช้เฉพาะ validation metric เป็นจุดแข็งทางวิธีวิจัยอย่างชัดเจน"
+      },
+      {
+        "index": 100,
+        "style": "Normal",
+        "text": "อีกทั้งผู้เขียนระบุอย่างถูกต้องว่าผล 60 model-station combinations ไม่ควรถูกตีความเป็น 60 independent spatial experiments เนื่องจากหลายสถานีใช้ grid cell เดียวกัน และโมเดลมี shared lineage/components"
+      },
+      {
+        "index": 101,
+        "style": "Normal",
+        "text": "นี่เป็นสิ่งที่ reviewer มักชอบเห็น เพราะลดปัญหา pseudoreplication ตั้งแต่ต้น"
+      },
+      {
+        "index": 102,
+        "style": "Normal",
+        "text": "1.3 Sensitivity analysis แข็งแรง"
+      },
+      {
+        "index": 103,
+        "style": "Normal",
+        "text": "ส่วนที่ดีที่สุดอีกส่วนคือไม่ได้ใช้ P monthly ที่ KGE = 0.337 แล้วประกาศ superiority แต่ตรวจว่าผลนี้เปลี่ยนหรือไม่เมื่อเปลี่ยน cap และ threshold"
+      },
+      {
+        "index": 104,
+        "style": "Normal",
+        "text": "ผลนี้มีคุณค่ามาก:"
+      },
+      {
+        "index": 105,
+        "style": "Normal",
+        "text": "5× cap: KGE = 0.337"
+      },
+      {
+        "index": 106,
+        "style": "Normal",
+        "text": "uncapped: KGE = 0.327"
+      },
+      {
+        "index": 107,
+        "style": "Normal",
+        "text": "1.5× cap: KGE = 0.355 แต่มีการ cap มากถึง 171 values"
+      },
+      {
+        "index": 108,
+        "style": "Normal",
+        "text": "ดังนั้น manuscript แสดงให้เห็นเองว่า central error metric สามารถดีขึ้นเพราะ truncation ซึ่งเป็นประเด็น methodological ที่ดีมาก"
+      },
+      {
+        "index": 109,
+        "style": "Normal",
+        "text": "และ threshold sensitivity ก็ชัดเจนว่า NP monthly ค่อนข้าง stable ขณะที่ P monthly sensitive ต่อการกำหนด wet-day threshold"
+      },
+      {
+        "index": 110,
+        "style": "Normal",
+        "text": "1.4 ข้อสรุปไม่ overclaim มากเกินไป"
+      },
+      {
+        "index": 111,
+        "style": "Normal",
+        "text": "การสรุปว่า"
+      },
+      {
+        "index": 112,
+        "style": "Normal",
+        "text": "seasonal stratification มากกว่าการเลือก distribution family เป็น transferable finding หลัก"
+      },
+      {
+        "index": 113,
+        "style": "Normal",
+        "text": "เป็น conclusion ที่เหมาะสมกว่าการบอกว่า Pearson III หรือ parametric QDM ดีกว่าอย่างสากล"
+      },
+      {
+        "index": 114,
+        "style": "Normal",
+        "text": "เช่นเดียวกัน การระบุว่า fixed-cap output ไม่ควรนำไปใช้โดยตรงกับ design extremes, IDF หรือ flood-frequency analysis ถือว่าระมัดระวังทางวิชาการดี"
+      },
+      {
+        "index": 116,
+        "style": "Normal",
+        "text": "2. ประเด็นสำคัญที่สุดที่ต้องแก้ก่อนส่ง"
+      },
+      {
+        "index": 117,
+        "style": "Normal",
+        "text": "A. คำว่า “independent validation” ยังต้องทำให้แม่นยำกว่าเดิม"
+      },
+      {
+        "index": 118,
+        "style": "Normal",
+        "text": "นี่เป็นประเด็นที่ผมมองว่า สำคัญที่สุดทาง methodological wording"
+      },
+      {
+        "index": 119,
+        "style": "Normal",
+        "text": "QDM ของ manuscript คำนวณ target-period quantile จาก model values ใน target period เอง จากสมการ"
+      },
+      {
+        "index": 121,
+        "style": "Normal",
+        "text": "แล้วใช้ ผ่าน observed/model calibration distributions"
+      },
+      {
+        "index": 122,
+        "style": "Normal",
+        "text": "ดังนั้น observation 2001–2014 เป็นอิสระจาก fitting จริง แต่ QDM ไม่ได้เป็น “strictly forecast-like out-of-sample prediction” เพราะ target-period model distribution ถูกนำมาใช้ในการคำนวณ quantile ของแต่ละค่า"
+      },
+      {
+        "index": 123,
+        "style": "Normal",
+        "text": "ตัว manuscript อธิบายกลไกนี้ไว้แล้ว แต่คำว่า independent validation อาจทำให้ reviewer บางรายตีความว่าไม่มีข้อมูลช่วง validation ใด ๆ ถูกใช้ใน transformation เลย"
+      },
+      {
+        "index": 124,
+        "style": "Normal",
+        "text": "คำแนะนำ"
+      },
+      {
+        "index": 125,
+        "style": "Normal",
+        "text": "ปรับ terminology ให้เป็นหนึ่งเดียว เช่น"
+      },
+      {
+        "index": 126,
+        "style": "Normal",
+        "text": "independent temporal holdout validation"
+      },
+      {
+        "index": 127,
+        "style": "Normal",
+        "text": "หรือ"
+      },
+      {
+        "index": 128,
+        "style": "Normal",
+        "text": "independent observational validation"
+      },
+      {
+        "index": 129,
+        "style": "Normal",
+        "text": "และเพิ่มประโยคชัด ๆ ว่า"
+      },
+      {
+        "index": 130,
+        "style": "Normal",
+        "text": "“The withheld observations were not used to estimate any transfer-function component; however, as inherent to QDM, target-period model values were used to determine the modeled quantile position.”"
+      },
+      {
+        "index": 131,
+        "style": "Normal",
+        "text": "จะปิดช่อง reviewer ได้มาก"
+      },
+      {
+        "index": 132,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major"
+      },
+      {
+        "index": 134,
+        "style": "Normal",
+        "text": "3. Monthly QDM ใน manuscript จริง ๆ เป็น “monthly QDM + annual fallback”"
+      },
+      {
+        "index": 135,
+        "style": "Normal",
+        "text": "นี่เป็นอีกประเด็นที่ reviewer มีโอกาสถามทันที"
+      },
+      {
+        "index": 136,
+        "style": "Normal",
+        "text": "จาก 720 model-station-month blocks มี 100 blocks ที่ sample wet days < 30 และใช้ annual transfer function แทน ดังนั้น “P monthly” และ “NP monthly” ที่รายงาน ไม่ใช่ pure monthly calibration สำหรับทุก block"
+      },
+      {
+        "index": 137,
+        "style": "Normal",
+        "text": "ข้อมูลนี้ระบุไว้ชัดใน manuscript แล้ว"
+      },
+      {
+        "index": 138,
+        "style": "Normal",
+        "text": "ปัญหาไม่ได้อยู่ที่การใช้ fallback เพราะในทางปฏิบัติเป็น reasonable safeguard แต่ปัญหาอยู่ที่ชื่อ method อาจทำให้คนอ่านเข้าใจว่า monthly transfer function ถูกใช้ครบทั้ง 12 เดือนทุกสถานี"
+      },
+      {
+        "index": 139,
+        "style": "Normal",
+        "text": "ควรเปลี่ยนชื่ออย่างเป็นระบบ"
+      },
+      {
+        "index": 140,
+        "style": "Normal",
+        "text": "จาก"
+      },
+      {
+        "index": 141,
+        "style": "Normal",
+        "text": "P monthly NP monthly"
+      },
+      {
+        "index": 142,
+        "style": "Normal",
+        "text": "เป็น"
+      },
+      {
+        "index": 143,
+        "style": "Normal",
+        "text": "P monthly + annual fallback NP monthly + annual fallback"
+      },
+      {
+        "index": 144,
+        "style": "Normal",
+        "text": "หรือกำหนด notation ตั้งแต่ Methods แล้วใช้ abbreviation เช่น"
+      },
+      {
+        "index": 145,
+        "style": "Normal",
+        "text": "P-MAF และ NP-MAF"
+      },
+      {
+        "index": 146,
+        "style": "Normal",
+        "text": "ไม่จำเป็นต้องสร้าง acronym ใหม่ก็ได้ แต่ควรมีคำว่า annual fallback ติดอยู่ใน Methods และอย่างน้อยใน table note"
+      },
+      {
+        "index": 147,
+        "style": "Normal",
+        "text": "สิ่งที่ควรเพิ่ม"
+      },
+      {
+        "index": 148,
+        "style": "Normal",
+        "text": "ทำ sensitivity อีกชุดหนึ่งที่ตอบคำถามง่าย ๆ ว่า"
+      },
+      {
+        "index": 149,
+        "style": "Normal",
+        "text": "ผลที่ได้ยังเหมือนเดิมหรือไม่หากประเมินเฉพาะ monthly blocks ที่มี sample ≥30?"
+      },
+      {
+        "index": 150,
+        "style": "Normal",
+        "text": "ไม่จำเป็นต้อง rerun ทั้งบทความใหม่ทั้งหมด หากผลมีแนวโน้มเดิม เพียงรายงานเป็น supplementary analysis ก็เพียงพอ"
+      },
+      {
+        "index": 151,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major"
+      },
+      {
+        "index": 153,
+        "style": "Normal",
+        "text": "4. วิธีเลือก 5× cap ยังขาด “provenance” ที่เพียงพอ"
+      },
+      {
+        "index": 154,
+        "style": "Normal",
+        "text": "นี่คือจุดที่ต้องระวังมากที่สุดในสายตา reviewer"
+      },
+      {
+        "index": 155,
+        "style": "Normal",
+        "text": "Manuscript ใช้ 5× เป็น primary cap และแสดงว่าที่ 1.5× performance ดีขึ้นกว่า 5× ด้วย แต่ 1.5× มีการ truncate จำนวนมากถึง 171 values"
+      },
+      {
+        "index": 156,
+        "style": "Normal",
+        "text": "ดังนั้น reviewer อาจถามว่า"
+      },
+      {
+        "index": 157,
+        "style": "Normal",
+        "text": "ทำไมต้องเลือก 5× เป็น primary setting?"
+      },
+      {
+        "index": 158,
+        "style": "Normal",
+        "text": "ถ้า 5× ถูกกำหนด ก่อนดู validation results ต้องเขียนให้ชัดเจนมาก"
+      },
+      {
+        "index": 159,
+        "style": "Normal",
+        "text": "ถ้า 5× ถูกเลือกหลังเห็นผล validation จะเกิด concern ว่า validation ถูกใช้เพื่อ tune hyperparameter"
+      },
+      {
+        "index": 160,
+        "style": "Normal",
+        "text": "ควรระบุให้ชัด"
+      },
+      {
+        "index": 161,
+        "style": "Normal",
+        "text": "“The five-times cap was prespecified before validation and was not selected using validation-period performance.”"
+      },
+      {
+        "index": 162,
+        "style": "Normal",
+        "text": "และควรให้เหตุผลว่าเหตุใด 5× จึงเป็น safeguard ที่เหมาะสม แม้ไม่จำเป็นต้องอ้างว่าเป็น hydrological threshold"
+      },
+      {
+        "index": 163,
+        "style": "Normal",
+        "text": "ถ้า 5× ไม่มี external provenance และเป็น numerical choice ของผู้วิจัยจริง ๆ ให้เขียนตรง ๆ ว่าเป็น predefined numerical safeguard chosen to prevent explosive extrapolation, แล้วใช้ 1.5× และ uncapped เป็น sensitivity scenarios"
+      },
+      {
+        "index": 164,
+        "style": "Normal",
+        "text": "สิ่งนี้จะทำให้ตรรกะของบทความแข็งแรงขึ้นมาก"
+      },
+      {
+        "index": 165,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major"
+      },
+      {
+        "index": 167,
+        "style": "Normal",
+        "text": "5. Ratio clipping [0.2, 5.0] ยังระบุ scope ไม่ชัดพอ"
+      },
+      {
+        "index": 168,
+        "style": "Normal",
+        "text": "ใน Methods ระบุว่า ratio ถูก bounded ที่ [0.2, 5.0] แต่ใน Table 5 ตัวเลข clipped delta events ถูกนำเสนอในบริบท parametric methods เป็นหลัก"
+      },
+      {
+        "index": 169,
+        "style": "Normal",
+        "text": "Reviewer อาจถามว่า:"
+      },
+      {
+        "index": 170,
+        "style": "Normal",
+        "text": "clipping applied to all QDM variants or only parametric QDM?"
+      },
+      {
+        "index": 171,
+        "style": "Normal",
+        "text": "ต้องตอบให้ชัดใน Methods"
+      },
+      {
+        "index": 172,
+        "style": "Normal",
+        "text": "ถ้าใช้กับทุก variant:"
+      },
+      {
+        "index": 173,
+        "style": "Normal",
+        "text": "รายงาน clipping events ของ NP ด้วย หรือ"
+      },
+      {
+        "index": 174,
+        "style": "Normal",
+        "text": "ระบุว่า count มีไว้เฉพาะ parametric diagnostic ด้วยเหตุผลที่ชัดเจน"
+      },
+      {
+        "index": 175,
+        "style": "Normal",
+        "text": "ถ้าใช้เฉพาะ parametric:"
+      },
+      {
+        "index": 176,
+        "style": "Normal",
+        "text": "เขียนตรง ๆ ว่า “For the parametric implementation, the multiplicative ratio was bounded…”"
+      },
+      {
+        "index": 177,
+        "style": "Normal",
+        "text": "ประเด็นนี้สำคัญต่อ reproducibility"
+      },
+      {
+        "index": 178,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major/Moderate"
+      },
+      {
+        "index": 180,
+        "style": "Normal",
+        "text": "6. Statistical inference มีลักษณะ “ทำไว้ แต่ไม่ได้รายงานผล”"
+      },
+      {
+        "index": 181,
+        "style": "Normal",
+        "text": "นี่เป็น weakness ทางสถิติที่เห็นชัดจาก manuscript"
+      },
+      {
+        "index": 182,
+        "style": "Normal",
+        "text": "Methods ระบุว่า"
+      },
+      {
+        "index": 183,
+        "style": "Normal",
+        "text": "2,000 bootstrap replicates"
+      },
+      {
+        "index": 184,
+        "style": "Normal",
+        "text": "two-sided p-values"
+      },
+      {
+        "index": 185,
+        "style": "Normal",
+        "text": "plus-one correction"
+      },
+      {
+        "index": 186,
+        "style": "Normal",
+        "text": "Benjamini–Hochberg FDR"
+      },
+      {
+        "index": 187,
+        "style": "Normal",
+        "text": "แต่ใน Results ไม่มีชุด p-values หรือ adjusted p-values ที่นำเสนออย่างเป็นรูปธรรม"
+      },
+      {
+        "index": 188,
+        "style": "Normal",
+        "text": "ขณะเดียวกัน manuscript ก็ยอมรับว่าคู่ทั้ง 60 ไม่ independent และผล network-wide เป็น descriptive"
+      },
+      {
+        "index": 189,
+        "style": "Normal",
+        "text": "จึงเกิดคำถามว่า"
+      },
+      {
+        "index": 190,
+        "style": "Normal",
+        "text": "แล้วเหตุใดต้องรายงาน p-value/FDR หากสุดท้ายไม่ได้ใช้ในการ infer network-wide superiority?"
+      },
+      {
+        "index": 191,
+        "style": "Normal",
+        "text": "ผมแนะนำให้แก้โดย “ลด inferential burden”"
+      },
+      {
+        "index": 192,
+        "style": "Normal",
+        "text": "บทความนี้ไม่จำเป็นต้องพยายามทำให้เป็น hypothesis-testing paper"
+      },
+      {
+        "index": 193,
+        "style": "Normal",
+        "text": "ทางเลือกที่ clean กว่าคือ"
+      },
+      {
+        "index": 194,
+        "style": "Normal",
+        "text": "paired bootstrap effect estimates"
+      },
+      {
+        "index": 195,
+        "style": "Normal",
+        "text": "median paired delta"
+      },
+      {
+        "index": 196,
+        "style": "Normal",
+        "text": "pair-level interval"
+      },
+      {
+        "index": 197,
+        "style": "Normal",
+        "text": "fraction favorable"
+      },
+      {
+        "index": 198,
+        "style": "Normal",
+        "text": "explicitly descriptive interpretation"
+      },
+      {
+        "index": 199,
+        "style": "Normal",
+        "text": "แล้วตัดประโยคเรื่อง p-values/FDR ออก หากไม่ได้ใช้จริง"
+      },
+      {
+        "index": 200,
+        "style": "Normal",
+        "text": "หรือถ้ายืนยันจะเก็บไว้ ต้อง รายงาน adjusted p-values จริง"
+      },
+      {
+        "index": 201,
+        "style": "Normal",
+        "text": "สำหรับบทความฉบับนี้ ผมเห็นว่าทางเลือกแรกเหมาะกว่าและสอดคล้องกับ logic ทั้งเรื่องของ manuscript มากกว่า"
+      },
+      {
+        "index": 202,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major"
+      },
+      {
+        "index": 204,
+        "style": "Normal",
+        "text": "7. Table 4 ต้องเปลี่ยนคำเรียกเรื่อง confidence interval"
+      },
+      {
+        "index": 205,
+        "style": "Normal",
+        "text": "Table 4 มีคำว่า “Median 95% interval” และ Methods พูดถึง 95% confidence interval แต่ note อธิบายภายหลังว่าเป็น"
+      },
+      {
+        "index": 206,
+        "style": "Normal",
+        "text": "medians of 60 pair-specific bootstrap limits, not a confidence interval for a network-wide effect."
+      },
+      {
+        "index": 207,
+        "style": "Normal",
+        "text": "นี่เป็นการเขียนที่ระมัดระวังแล้ว แต่ terminology ยังไม่คมที่สุด"
+      },
+      {
+        "index": 208,
+        "style": "Normal",
+        "text": "ควรใช้"
+      },
+      {
+        "index": 209,
+        "style": "Normal",
+        "text": "Median of pair-specific bootstrap 95% limits"
+      },
+      {
+        "index": 210,
+        "style": "Normal",
+        "text": "แทน"
+      },
+      {
+        "index": 211,
+        "style": "Normal",
+        "text": "Median 95% interval"
+      },
+      {
+        "index": 212,
+        "style": "Normal",
+        "text": "เพราะมันไม่ใช่ confidence interval ของ population/network effect"
+      },
+      {
+        "index": 213,
+        "style": "Normal",
+        "text": "นี่เป็นการแก้เล็กแต่มีความหมายทางสถิติสูง"
+      },
+      {
+        "index": 214,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Moderate"
+      },
+      {
+        "index": 216,
+        "style": "Normal",
+        "text": "8. นิยาม metric ยังไม่ครบ"
+      },
+      {
+        "index": 217,
+        "style": "Normal",
+        "text": "Methods นิยาม KGE, RMSE, q99 bias และ KS แต่ Table 3 ยังรายงาน"
+      },
+      {
+        "index": 218,
+        "style": "Normal",
+        "text": "PBIAS"
+      },
+      {
+        "index": 219,
+        "style": "Normal",
+        "text": "MAE"
+      },
+      {
+        "index": 220,
+        "style": "Normal",
+        "text": "monthly correlation"
+      },
+      {
+        "index": 221,
+        "style": "Normal",
+        "text": "monthly climatology correlation"
+      },
+      {
+        "index": 222,
+        "style": "Normal",
+        "text": "โดยไม่ได้ให้นิยามทางคณิตศาสตร์ทั้งหมดอย่างชัดเจน"
+      },
+      {
+        "index": 223,
+        "style": "Normal",
+        "text": "สำหรับ manuscript ที่ positioning เป็น methodological evaluation ควรให้นิยามทุก metric ที่ใช้ในการตัดสินผล"
+      },
+      {
+        "index": 224,
+        "style": "Normal",
+        "text": "โดยเฉพาะ"
+      },
+      {
+        "index": 225,
+        "style": "Normal",
+        "text": "PBIAS"
+      },
+      {
+        "index": 226,
+        "style": "Normal",
+        "text": "ต้องระบุว่า"
+      },
+      {
+        "index": 228,
+        "style": "Normal",
+        "text": "หรือ formulation ที่ผู้วิจัยใช้จริง"
+      },
+      {
+        "index": 229,
+        "style": "Normal",
+        "text": "MAE"
+      },
+      {
+        "index": 231,
+        "style": "Normal",
+        "text": "monthly climatology correlation"
+      },
+      {
+        "index": 232,
+        "style": "Normal",
+        "text": "ต้องอธิบายว่าคำนวณจาก"
+      },
+      {
+        "index": 233,
+        "style": "Normal",
+        "text": "12 climatological monthly means ต่อ station/model pair"
+      },
+      {
+        "index": 234,
+        "style": "Normal",
+        "text": "หรือเป็น correlation ของ 168 monthly records"
+      },
+      {
+        "index": 235,
+        "style": "Normal",
+        "text": "สองอย่างนี้ความหมายต่างกันมาก"
+      },
+      {
+        "index": 236,
+        "style": "Normal",
+        "text": "q99"
+      },
+      {
+        "index": 237,
+        "style": "Normal",
+        "text": "ควรระบุชัดว่า q99 ของ corrected/model และ observed ถูกคำนวณจาก wet-day samples ที่นิยามด้วย threshold เดียวกันหรือไม่ และ corrected wet-day occurrence ถูกนำมาพิจารณาก่อนหรือหลัง quantile calculation"
+      },
+      {
+        "index": 238,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major for reproducibility"
+      },
+      {
+        "index": 240,
+        "style": "Normal",
+        "text": "9. จุดอ่อนด้าน spatial reproducibility: ยังขาด Study-area map"
+      },
+      {
+        "index": 241,
+        "style": "Normal",
+        "text": "สำหรับงาน hydrometeorology ที่ใช้ 12 gauges ในจังหวัดเดียว จุดนี้ผมถือว่า ควรเพิ่มอย่างจริงจัง"
+      },
+      {
+        "index": 242,
+        "style": "Normal",
+        "text": "ปัจจุบัน manuscript มี station table และพิกัด แต่ไม่มีแผนที่แสดง"
+      },
+      {
+        "index": 243,
+        "style": "Normal",
+        "text": "จังหวัดประจวบคีรีขันธ์"
+      },
+      {
+        "index": 244,
+        "style": "Normal",
+        "text": "coastline"
+      },
+      {
+        "index": 245,
+        "style": "Normal",
+        "text": "Tenasserim Range"
+      },
+      {
+        "index": 246,
+        "style": "Normal",
+        "text": "ตำแหน่ง 12 stations"
+      },
+      {
+        "index": 247,
+        "style": "Normal",
+        "text": "model grid cells หรือ cell centers"
+      },
+      {
+        "index": 248,
+        "style": "Normal",
+        "text": "อาจแสดง shared grid-cell grouping ด้วย"
+      },
+      {
+        "index": 249,
+        "style": "Normal",
+        "text": "ขณะที่ manuscript เองให้ความสำคัญมากกับข้อเท็จจริงที่หลายสถานี share model grid cells"
+      },
+      {
+        "index": 250,
+        "style": "Normal",
+        "text": "ดังนั้น map จะช่วยทั้ง"
+      },
+      {
+        "index": 251,
+        "style": "Normal",
+        "text": "spatial reproducibility"
+      },
+      {
+        "index": 252,
+        "style": "Normal",
+        "text": "ทำให้เรื่อง coast–mountain geometry ที่ใช้ใน Discussion มีหลักฐานเชิงภาพ"
+      },
+      {
+        "index": 253,
+        "style": "Normal",
+        "text": "ทำให้เหตุผลเรื่อง grid mismatch เข้าใจง่ายขึ้น"
+      },
+      {
+        "index": 254,
+        "style": "Normal",
+        "text": "นี่ไม่ถึงกับทำให้ reject แต่สำหรับ Q3 manuscript จะสมบูรณ์ขึ้นมาก"
+      },
+      {
+        "index": 255,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Moderate แต่แนะนำ strongly"
+      },
+      {
+        "index": 257,
+        "style": "Normal",
+        "text": "10. ข้อมูล CMIP6 ยังไม่ reproducible เต็มระดับที่ manuscript อ้าง"
+      },
+      {
+        "index": 258,
+        "style": "Normal",
+        "text": "นี่เป็นประเด็นสำคัญ"
+      },
+      {
+        "index": 259,
+        "style": "Normal",
+        "text": "Manuscript ระบุว่า “complete CMIP6 facets” อยู่ใน Table 2 แต่เมื่อดู Table 2 จริง มี"
+      },
+      {
+        "index": 260,
+        "style": "Normal",
+        "text": "model"
+      },
+      {
+        "index": 261,
+        "style": "Normal",
+        "text": "institution"
+      },
+      {
+        "index": 262,
+        "style": "Normal",
+        "text": "variant"
+      },
+      {
+        "index": 263,
+        "style": "Normal",
+        "text": "grid"
+      },
+      {
+        "index": 264,
+        "style": "Normal",
+        "text": "resolution"
+      },
+      {
+        "index": 265,
+        "style": "Normal",
+        "text": "calendar"
+      },
+      {
+        "index": 266,
+        "style": "Normal",
+        "text": "days"
+      },
+      {
+        "index": 267,
+        "style": "Normal",
+        "text": "distinct series"
+      },
+      {
+        "index": 268,
+        "style": "Normal",
+        "text": "reference"
+      },
+      {
+        "index": 269,
+        "style": "Normal",
+        "text": "แต่ยังไม่มี metadata ที่เป็น CMIP6 data provenance แบบเต็ม เช่น"
+      },
+      {
+        "index": 270,
+        "style": "Normal",
+        "text": "source_id"
+      },
+      {
+        "index": 271,
+        "style": "Normal",
+        "text": "experiment_id"
+      },
+      {
+        "index": 272,
+        "style": "Normal",
+        "text": "table_id"
+      },
+      {
+        "index": 273,
+        "style": "Normal",
+        "text": "variant_label"
+      },
+      {
+        "index": 274,
+        "style": "Normal",
+        "text": "grid_label"
+      },
+      {
+        "index": 275,
+        "style": "Normal",
+        "text": "version/date"
+      },
+      {
+        "index": 276,
+        "style": "Normal",
+        "text": "ESGF dataset identifier หรือ DOI"
+      },
+      {
+        "index": 277,
+        "style": "Normal",
+        "text": "ข้อความจึงแรงกว่าหลักฐานที่ table ให้ไว้"
+      },
+      {
+        "index": 278,
+        "style": "Normal",
+        "text": "แก้ได้สองทาง"
+      },
+      {
+        "index": 279,
+        "style": "Normal",
+        "text": "ง่ายที่สุด:"
+      },
+      {
+        "index": 280,
+        "style": "Normal",
+        "text": "เปลี่ยนข้อความเป็น"
+      },
+      {
+        "index": 281,
+        "style": "Normal",
+        "text": "“The CMIP6 metadata used in the analysis are summarized in Table 2, while the exact derivative filenames and checksums are provided in the reproducibility manifest.”"
+      },
+      {
+        "index": 282,
+        "style": "Normal",
+        "text": "ดีกว่าการบอกว่า “complete facets” อยู่ใน Table 2 ทั้งที่จริงไม่ได้ครบ"
+      },
+      {
+        "index": 283,
+        "style": "Normal",
+        "text": "ดียิ่งกว่านั้นคือเพิ่ม Supplementary Table S1 ที่มี complete CMIP6 identifiers"
+      },
+      {
+        "index": 284,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Major/Moderate"
+      },
+      {
+        "index": 286,
+        "style": "Normal",
+        "text": "11. Data Availability ยังไม่ถึงระดับ reproducibility ที่ดีที่สุด"
+      },
+      {
+        "index": 287,
+        "style": "Normal",
+        "text": "ปัจจุบันระบุว่า code + manifest + metrics + diagnostics + figure scripts"
+      },
+      {
+        "index": 288,
+        "style": "Normal",
+        "text": "available from corresponding author upon reasonable request"
+      },
+      {
+        "index": 289,
+        "style": "Normal",
+        "text": "แต่ยังไม่มี public repository DOI"
+      },
+      {
+        "index": 290,
+        "style": "Normal",
+        "text": "สำหรับ Q3 ในปัจจุบัน จุดนี้อาจไม่ใช่ rejection issue แต่ reviewer ด้าน computational reproducibility มีโอกาสถาม"
+      },
+      {
+        "index": 291,
+        "style": "Normal",
+        "text": "ทางที่ดีที่สุดคือ:"
+      },
+      {
+        "index": 292,
+        "style": "Normal",
+        "text": "code → GitHub"
+      },
+      {
+        "index": 293,
+        "style": "Normal",
+        "text": "archived release → Zenodo/OSF/institutional repository"
+      },
+      {
+        "index": 294,
+        "style": "Normal",
+        "text": "DOI → ระบุใน manuscript"
+      },
+      {
+        "index": 295,
+        "style": "Normal",
+        "text": "raw gauge data → restricted ตามหน่วยงาน"
+      },
+      {
+        "index": 296,
+        "style": "Normal",
+        "text": "derived/non-sensitive data → public"
+      },
+      {
+        "index": 297,
+        "style": "Normal",
+        "text": "อย่างน้อยที่สุดควรทำ repository ของ code, manifest, derived metrics, tables และ figure-generation scripts แม้ไม่เปิด raw gauge observations"
+      },
+      {
+        "index": 298,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Moderate"
+      },
+      {
+        "index": 300,
+        "style": "Normal",
+        "text": "12. Discussion ดี แต่บางประโยคควรลดความเด็ดขาด"
+      },
+      {
+        "index": 301,
+        "style": "Normal",
+        "text": "เช่น"
+      },
+      {
+        "index": 302,
+        "style": "Normal",
+        "text": "“This rules out the uncorrected AIC penalty as the cause…”"
+      },
+      {
+        "index": 303,
+        "style": "Normal",
+        "text": "คำว่า rules out แรงเกินไปเล็กน้อย"
+      },
+      {
+        "index": 304,
+        "style": "Normal",
+        "text": "ผลที่เกิดขึ้นจริงคือ AICc ให้ selection เดิมทั้งหมด ดังนั้นเหมาะกว่าที่จะเขียนว่า"
+      },
+      {
+        "index": 305,
+        "style": "Normal",
+        "text": "“This indicates that the small-sample correction in AICc did not alter distribution selection for the present calibration samples.”"
+      },
+      {
+        "index": 306,
+        "style": "Normal",
+        "text": "เพียงเท่านี้ก็พอ"
+      },
+      {
+        "index": 307,
+        "style": "Normal",
+        "text": "เพราะ AIC/AICc sensitivity นี้บอกได้ว่า penalty correction ไม่ได้เปลี่ยนผลใน dataset นี้ แต่ไม่ได้ “rule out” ปัจจัยอื่น ๆ เชิงหลักการทั้งหมด"
+      },
+      {
+        "index": 308,
+        "style": "Normal",
+        "text": "ระดับความสำคัญ: Moderate"
+      },
+      {
+        "index": 310,
+        "style": "Normal",
+        "text": "13. ผลหลัก P monthly vs NP monthly ควรระวังคำว่า “best”"
+      },
+      {
+        "index": 311,
+        "style": "Normal",
+        "text": "นี่เป็นจุดที่ manuscript ทำได้ค่อนข้างดีแล้ว แต่ควรทำให้สม่ำเสมอทุกส่วน"
+      },
+      {
+        "index": 312,
+        "style": "Normal",
+        "text": "ตัวเลขเฉลี่ยเป็น"
+      },
+      {
+        "index": 313,
+        "style": "Normal",
+        "text": "P monthly KGE = 0.337"
+      },
+      {
+        "index": 314,
+        "style": "Normal",
+        "text": "NP monthly KGE = 0.329"
+      },
+      {
+        "index": 315,
+        "style": "Normal",
+        "text": "median paired KGE difference = 0.0002"
+      },
+      {
+        "index": 316,
+        "style": "Normal",
+        "text": "30 pairs favour each method"
+      },
+      {
+        "index": 317,
+        "style": "Normal",
+        "text": "ดังนั้นความแตกต่างเชิง aggregate มีขนาดเล็กมากเมื่อเทียบกับ variation ระหว่าง model-station pairs"
+      },
+      {
+        "index": 318,
+        "style": "Normal",
+        "text": "ดังนั้นคำที่เหมาะกว่า"
+      },
+      {
+        "index": 319,
+        "style": "Normal",
+        "text": "highest mean KGE"
+      },
+      {
+        "index": 320,
+        "style": "Normal",
+        "text": "และ"
+      },
+      {
+        "index": 321,
+        "style": "Normal",
+        "text": "lowest mean RMSE"
+      },
+      {
+        "index": 322,
+        "style": "Normal",
+        "text": "แทน"
+      },
+      {
+        "index": 323,
+        "style": "Normal",
+        "text": "best method"
+      },
+      {
+        "index": 324,
+        "style": "Normal",
+        "text": "โดยเฉพาะใน Abstract/Conclusion"
+      },
+      {
+        "index": 325,
+        "style": "Normal",
+        "text": "ซึ่งจริง ๆ manuscript ปัจจุบันใช้ wording ค่อนข้างดีอยู่แล้ว ควรรักษาระดับนี้ให้เหมือนกันทั้งบท"
+      },
+      {
+        "index": 327,
+        "style": "Normal",
+        "text": "14. Annual vs monthly finding เป็น contribution ที่ดี แต่ควรตีความให้ precise"
+      },
+      {
+        "index": 328,
+        "style": "Normal",
+        "text": "Manuscript พบว่า annual variants มี monthly RMSE/KGE แย่ลง ขณะที่ monthly variants ทำได้ดีขึ้น"
+      },
+      {
+        "index": 329,
+        "style": "Normal",
+        "text": "แต่ควรหลีกเลี่ยงการตีความว่า"
+      },
+      {
+        "index": 330,
+        "style": "Normal",
+        "text": "monthly calibration intrinsically superior"
+      },
+      {
+        "index": 331,
+        "style": "Normal",
+        "text": "โดยไม่เอ่ยว่าเป็นภายใต้ dataset นี้และภายใต้ annual-fallback design"
+      },
+      {
+        "index": 332,
+        "style": "Normal",
+        "text": "ประโยคที่ปลอดภัยกว่า:"
+      },
+      {
+        "index": 333,
+        "style": "Normal",
+        "text": "“For this coastal tropical dataset, month-wise stratification provided more consistent improvements in monthly validation metrics than annual pooling.”"
+      },
+      {
+        "index": 334,
+        "style": "Normal",
+        "text": "ประโยคนี้แข็งแรงและไม่ overgeneralize"
+      },
+      {
+        "index": 336,
+        "style": "Normal",
+        "text": "15. GEV ใช้เป็น general distribution candidate ได้ แต่ควรทำให้ explanation กระชับและชัด"
+      },
+      {
+        "index": 337,
+        "style": "Normal",
+        "text": "จุดนี้ผู้เขียนระมัดระวังดีแล้ว เพราะระบุว่าไม่ได้สมมติว่า daily wet-day rainfall เป็น block maximum และ GEV ถูกใช้ในฐานะ flexible whole-distribution candidate"
+      },
+      {
+        "index": 338,
+        "style": "Normal",
+        "text": "ผมแนะนำคงข้อความนี้ไว้ เพราะหากไม่อธิบาย reviewer EVT จะถามทันทีว่า"
+      },
+      {
+        "index": 339,
+        "style": "Normal",
+        "text": "Why GEV for non-block-maxima daily rainfall?"
+      },
+      {
+        "index": 340,
+        "style": "Normal",
+        "text": "ส่วนนี้ ผ่าน แต่เป็นจุดที่ควรรักษาไว้"
+      },
+      {
+        "index": 342,
+        "style": "Normal",
+        "text": "16. Figure/Table audit"
+      },
+      {
+        "index": 343,
+        "style": "Normal",
+        "text": "จากการตรวจทั้ง caption และตำแหน่งอ้างอิงในเนื้อหา พบจุดเล็กแต่ชัดเจน:"
+      },
+      {
+        "index": 344,
+        "style": "Normal",
+        "text": "Table 4 ยังไม่ได้ถูก cite ใน body อย่างชัดเจน"
+      },
+      {
+        "index": 345,
+        "style": "Normal",
+        "text": "พบ caption แต่ไม่พบการอ้างในข้อความลักษณะ"
+      },
+      {
+        "index": 346,
+        "style": "Normal",
+        "text": "“Table 4 shows…”"
+      },
+      {
+        "index": 347,
+        "style": "Normal",
+        "text": "ขณะที่ Table 4 มีผลสำคัญมาก เพราะเป็นหลักฐานเรื่อง bootstrap uncertainty"
+      },
+      {
+        "index": 348,
+        "style": "Normal",
+        "text": "ควรเพิ่มใน paragraph 3.2 เช่น"
+      },
+      {
+        "index": 349,
+        "style": "Normal",
+        "text": "“The paired bootstrap results further showed that…”"
+      },
+      {
+        "index": 350,
+        "style": "Normal",
+        "text": "แล้วตามด้วย “(Table 4)”"
+      },
+      {
+        "index": 351,
+        "style": "Normal",
+        "text": "Figure 4 ก็เช่นกัน"
+      },
+      {
+        "index": 352,
+        "style": "Normal",
+        "text": "มี caption แต่ไม่พบการเรียกใน body อย่างชัดเจนจาก text search"
+      },
+      {
+        "index": 353,
+        "style": "Normal",
+        "text": "ควรเรียก Figure 4 ใน paragraph ที่รายงาน favorable point changes"
+      },
+      {
+        "index": 354,
+        "style": "Normal",
+        "text": "นี่เป็น editorial correction ง่ายมาก แต่ควรทำก่อน submission"
+      },
+      {
+        "index": 356,
+        "style": "Normal",
+        "text": "17. สมการเป็น “submission blocker” ในไฟล์ปัจจุบัน"
+      },
+      {
+        "index": 357,
+        "style": "Normal",
+        "text": "จากการ render ไฟล์จริง หน้า Methods พบว่า สมการ (9) และ (10) มีปัญหาการแสดงผลของ mathematical glyphs ขณะที่ text extraction ยังพบสมการอยู่ตามโครงสร้าง แต่ visual rendering มีอักขระผิดรูป/หลุดตำแหน่ง"
+      },
+      {
+        "index": 358,
+        "style": "Normal",
+        "text": "เนื่องจาก manuscript นี้เป็นบทความ methodological paper ปัญหานี้ผมจัดเป็น"
+      },
+      {
+        "index": 359,
+        "style": "Normal",
+        "text": "Critical formatting defect"
+      },
+      {
+        "index": 360,
+        "style": "Normal",
+        "text": "ไม่ควรส่งไฟล์นี้โดยตรง"
+      },
+      {
+        "index": 361,
+        "style": "Normal",
+        "text": "ต้องเปิด Word แล้วสร้างสมการ 9–10 ใหม่ด้วย native Equation Editor หรือ OMML ที่ clean และ render/PDF ตรวจซ้ำ"
+      },
+      {
+        "index": 362,
+        "style": "Normal",
+        "text": "สมการ metric ที่เกี่ยวข้องคือ q99 relative bias และ KS statistic ซึ่งอยู่ใน Methods"
+      },
+      {
+        "index": 364,
+        "style": "Normal",
+        "text": "18. Formatting ยังไม่ใช่ final submission version"
+      },
+      {
+        "index": 365,
+        "style": "Normal",
+        "text": "ในไฟล์ปัจจุบันมี placeholder ชัดเจน:"
+      },
+      {
+        "index": 366,
+        "style": "Normal",
+        "text": "20XX"
+      },
+      {
+        "index": 367,
+        "style": "Normal",
+        "text": "XX(X)"
+      },
+      {
+        "index": 368,
+        "style": "Normal",
+        "text": "xx-xx"
+      },
+      {
+        "index": 369,
+        "style": "Normal",
+        "text": "https://doi.org/10.55164/ajstr.vxxix.xxxxxx"
+      },
+      {
+        "index": 370,
+        "style": "Normal",
+        "text": "ดังนั้น ถ้านี่เป็น journal template ที่ publisher จะเติมหลัง acceptance ก็ไม่เป็นปัญหา แต่ถ้าต้องส่งเป็น final manuscript ต้องตรวจ author guidelines ของวารสารเป้าหมายก่อน"
+      },
+      {
+        "index": 371,
+        "style": "Normal",
+        "text": "อีกเรื่องคือ heading styles ใน DOCX ยังไม่ได้จัดเป็น proper heading hierarchy และมี direct formatting จำนวนมาก จากมุม technical editing ควร normalize กับ journal template ก่อน upload"
+      },
+      {
+        "index": 372,
+        "style": "Normal",
+        "text": "นี่ไม่ใช่ methodological problem แต่ช่วยลด risk ของ submission-system parsing และ copyediting"
+      },
+      {
+        "index": 374,
+        "style": "Normal",
+        "text": "19. Reference list โดยภาพรวม “ผ่าน” แต่มีจุดควรตรวจ"
+      },
+      {
+        "index": 375,
+        "style": "Normal",
+        "text": "Reference backbone ถือว่าเหมาะกับบทความ:"
+      },
+      {
+        "index": 376,
+        "style": "Normal",
+        "text": "CMIP6"
+      },
+      {
+        "index": 377,
+        "style": "Normal",
+        "text": "QDM"
+      },
+      {
+        "index": 378,
+        "style": "Normal",
+        "text": "bias correction"
+      },
+      {
+        "index": 379,
+        "style": "Normal",
+        "text": "observational uncertainty"
+      },
+      {
+        "index": 380,
+        "style": "Normal",
+        "text": "extremes"
+      },
+      {
+        "index": 381,
+        "style": "Normal",
+        "text": "Southeast Asian precipitation"
+      },
+      {
+        "index": 382,
+        "style": "Normal",
+        "text": "AIC/AICc-related methodology"
+      },
+      {
+        "index": 383,
+        "style": "Normal",
+        "text": "KGE"
+      },
+      {
+        "index": 384,
+        "style": "Normal",
+        "text": "Pettitt"
+      },
+      {
+        "index": 385,
+        "style": "Normal",
+        "text": "FDR"
+      },
+      {
+        "index": 386,
+        "style": "Normal",
+        "text": "SciPy"
+      },
+      {
+        "index": 387,
+        "style": "Normal",
+        "text": "มี literature ใหม่ถึง 2025 เช่น Berg et al., Padulano et al., Song & Chung และ Gergel et al. ซึ่งช่วยให้ literature review ไม่เก่าเกินไป"
+      },
+      {
+        "index": 388,
+        "style": "Normal",
+        "text": "Ref. 27 ซึ่งเป็นงาน THAICID ปี 2025 ก็มีอยู่จริงและเกี่ยวข้องกับพื้นที่ศึกษา"
+      },
+      {
+        "index": 389,
+        "style": "Normal",
+        "text": "จุดที่ควรทำเพิ่มคือให้ reference/data source สำหรับ station inventory และ raw gauge provenance แข็งแรงกว่าใช้ proceedings paper เพียงตัวเดียว หากหน่วยงานมี canonical station metadata source"
+      },
+      {
+        "index": 391,
+        "style": "Normal",
+        "text": "20. ตารางภาพรวมความพร้อมสำหรับ Q3"
+      },
+      {
+        "index": 393,
+        "style": "Normal",
+        "text": "21. สิ่งที่ผมมองว่า “ไม่จำเป็นต้องทำใหม่”"
+      },
+      {
+        "index": 394,
+        "style": "Normal",
+        "text": "จากการตรวจ manuscript นี้ ไม่เห็นเหตุผลว่าต้องรื้อ research design แล้วเริ่มใหม่"
+      },
+      {
+        "index": 395,
+        "style": "Normal",
+        "text": "ไม่จำเป็นต้อง:"
+      },
+      {
+        "index": 396,
+        "style": "Normal",
+        "text": "เพิ่มสถานีทันที"
+      },
+      {
+        "index": 397,
+        "style": "Normal",
+        "text": "เพิ่มโมเดลทันที"
+      },
+      {
+        "index": 398,
+        "style": "Normal",
+        "text": "ทำ future SSP experiment เพื่อให้บทความนี้ผ่าน Q3"
+      },
+      {
+        "index": 399,
+        "style": "Normal",
+        "text": "เปลี่ยน QDM framework"
+      },
+      {
+        "index": 400,
+        "style": "Normal",
+        "text": "เพิ่มวิธี bias correction อีกหลายวิธีเพียงเพื่อให้ดูเยอะ"
+      },
+      {
+        "index": 401,
+        "style": "Normal",
+        "text": "ใช้ inferential model ที่ซับซ้อนเกินโจทย์"
+      },
+      {
+        "index": 402,
+        "style": "Normal",
+        "text": "งานมีขอบเขตที่ชัดแล้ว และข้อจำกัดเรื่องหนึ่งจังหวัด/12 stations/5 models ถูกระบุไว้ตรงไปตรงมา"
+      },
+      {
+        "index": 403,
+        "style": "Normal",
+        "text": "การเพิ่มการทดลองใหม่มากเกินไปอาจทำให้ manuscript หลุดจาก objective เดิม ซึ่งปัจจุบันค่อนข้างชัด"
+      },
+      {
+        "index": 405,
+        "style": "Normal",
+        "text": "22. ลำดับการแก้ที่ผมแนะนำก่อนส่งจริง"
+      },
+      {
+        "index": 406,
+        "style": "Normal",
+        "text": "ระดับ Critical"
+      },
+      {
+        "index": 407,
+        "style": "Normal",
+        "text": "1. แก้สมการ (9)–(10) ที่ render ผิด"
+      },
+      {
+        "index": 408,
+        "style": "Normal",
+        "text": "ระดับ Major"
+      },
+      {
+        "index": 409,
+        "style": "Normal",
+        "text": "2. ปรับ “independent validation” → independent temporal/observational holdout validation และอธิบาย target-period model CDF ของ QDM"
+      },
+      {
+        "index": 410,
+        "style": "Normal",
+        "text": "3. เปลี่ยนชื่อ monthly methods ให้สื่อว่าเป็น monthly + annual fallback และทำ fallback sensitivity"
+      },
+      {
+        "index": 411,
+        "style": "Normal",
+        "text": "4. ระบุ provenance และ prespecification ของ 5× cap"
+      },
+      {
+        "index": 412,
+        "style": "Normal",
+        "text": "5. แก้ scope ของ ratio clipping [0.2, 5.0]"
+      },
+      {
+        "index": 413,
+        "style": "Normal",
+        "text": "6. ตัดหรือรายงาน p/FDR ให้สอดคล้องกับ inferential framework จริง"
+      },
+      {
+        "index": 414,
+        "style": "Normal",
+        "text": "7. เพิ่มนิยาม PBIAS, MAE และ monthly climatology correlation อย่างชัดเจน"
+      },
+      {
+        "index": 415,
+        "style": "Normal",
+        "text": "8. แก้ข้อความเรื่อง CMIP6 facets ให้ตรงกับสิ่งที่ Table 2 แสดงจริง และเพิ่ม complete metadata ใน Supplement"
+      },
+      {
+        "index": 416,
+        "style": "Normal",
+        "text": "ระดับ Moderate"
+      },
+      {
+        "index": 417,
+        "style": "Normal",
+        "text": "9. เปลี่ยนชื่อ Table 4 interval ให้ไม่สื่อว่าเป็น network-wide CI"
+      },
+      {
+        "index": 418,
+        "style": "Normal",
+        "text": "10. เพิ่ม study-area/model-grid map"
+      },
+      {
+        "index": 419,
+        "style": "Normal",
+        "text": "11. เพิ่ม Table 4 และ Figure 4 ใน-text citation"
+      },
+      {
+        "index": 420,
+        "style": "Normal",
+        "text": "12. เปลี่ยน Data Availability จาก request-only ไปสู่ permanent repository เมื่อทำได้"
+      },
+      {
+        "index": 421,
+        "style": "Normal",
+        "text": "13. ลดคำว่า “rules out” และ “best” ในจุดที่หลักฐานรองรับเพียง descriptive superiority"
+      },
+      {
+        "index": 422,
+        "style": "Normal",
+        "text": "14. ปิด placeholder DOI/page/year และ normalize journal formatting"
+      },
+      {
+        "index": 424,
+        "style": "Normal",
+        "text": "23. บทสรุปในฐานะบรรณาธิการ"
+      },
+      {
+        "index": 425,
+        "style": "Normal",
+        "text": "ถ้าประเมินเฉพาะ คุณภาพทางวิชาการของงาน ผมให้ manuscript นี้อยู่ในระดับ Q3-competitive แล้ว"
+      },
+      {
+        "index": 426,
+        "style": "Normal",
+        "text": "แต่ถ้าประเมินคำถามว่า"
+      },
+      {
+        "index": 427,
+        "style": "Normal",
+        "text": "“ส่งวารสาร Q3 ได้ทันทีหรือยัง?”"
+      },
+      {
+        "index": 428,
+        "style": "Normal",
+        "text": "คำตอบคือ"
+      },
+      {
+        "index": 429,
+        "style": "Normal",
+        "text": "ยังไม่ควรส่งทันที"
+      },
+      {
+        "index": 430,
+        "style": "Normal",
+        "text": "เพราะปัญหาที่เหลือไม่ใช่เรื่อง “ผลวิจัยไม่พอ” แต่เป็นเรื่อง methodological precision, statistical reporting, reproducibility และ technical presentation ซึ่งเป็นสิ่งที่ reviewer Q3 สามารถหยิบขึ้นมาเป็น major revision ได้ง่าย"
+      },
+      {
+        "index": 431,
+        "style": "Normal",
+        "text": "โดยเฉพาะ 4 เรื่องที่ต้องปิดให้สนิทคือ"
+      },
+      {
+        "index": 432,
+        "style": "Normal",
+        "text": "(1) meaning of independent validation, (2) monthly fallback, (3) cap/clipping specification and possible tuning concern, (4) statistical inference/reporting."
+      },
+      {
+        "index": 433,
+        "style": "Normal",
+        "text": "เมื่อแก้ 4 กลุ่มนี้ พร้อมซ่อมสมการและ cross-reference ของ Table/Figure แล้ว ผมประเมินว่า manuscript จะขยับจาก “ยังไม่ควร submit” → “พร้อม submit Q3” ได้โดยไม่จำเป็นต้องเพิ่มการทดลองขนาดใหญ่"
+      },
+      {
+        "index": 434,
+        "style": "Normal",
+        "text": "ในเชิงเนื้อหา จุดที่แข็งที่สุดของบทความคือผลไม่ได้พยายามพิสูจน์ว่า parametric QDM ชนะ empirical QDM แบบสากล แต่กลับแสดงว่า seasonal stratification ให้ประโยชน์ที่สม่ำเสมอกว่า และ parametric advantage ขึ้นกับ threshold และ tail safeguard ซึ่งเป็นข้อค้นพบที่มีความน่าเชื่อถือกว่าและสอดคล้องกับข้อมูลในบทความเอง"
+      },
+      {
+        "index": 435,
+        "style": "Normal",
+        "text": "ขั้นต่อไปที่เหมาะที่สุดคือทำ “Q3 pre-submission audit แบบ line-by-line” โดยกำหนดทุกจุดเป็น PASS / REVISE / MUST FIX และระบุประโยคเดิม → ประโยคที่ควรแก้ → เหตุผลทางวิชาการ → ตำแหน่งหน้า/บรรทัด เพื่อปิด manuscript ก่อน upload submission system."
+      }
+    ],
+    "tables": [
+      {
+        "index": 1,
+        "rows": [
+          [
+            "กลุ่ม",
+            "สถานี",
+            "SDII",
+            "วันฝน/ปี",
+            "Max daily 34 ปี",
+            "Lag-1 ACF"
+          ],
+          [
+            "A",
+            "500001–4, 500201–2, 500301",
+            "11.1–13.1",
+            "80–124",
+            "152–299 mm",
+            "0.19–0.26"
+          ],
+          [
+            "B",
+            "500005–500009",
+            "5.1–6.5",
+            "179–236",
+            "54–68 mm (500008/9)",
+            "0.35–0.66"
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "rows": [
+          [
+            "",
+            "mean change",
+            "median delta",
+            "ต่างกัน"
+          ],
+          [
+            "P annual mRMSE",
+            "+7.52 mm",
+            "+0.73 mm",
+            "10×"
+          ],
+          [
+            "P annual mKGE",
+            "−0.077",
+            "−0.006",
+            "13×"
+          ],
+          [
+            "P monthly mRMSE",
+            "−11.14 mm",
+            "−11.07 mm",
+            "ตรงกัน"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "rows": [
+          [
+            "ลำดับ",
+            "งาน",
+            "ผลลัพธ์",
+            "เหตุผลที่ต้องทำก่อน"
+          ],
+          [
+            "1",
+            "วินิจฉัยข้อมูล 500005–500009",
+            "รายงานวินิจฉัย + ตัดสินใจ",
+            "กระทบตัวเลขทั้งฉบับ"
+          ],
+          [
+            "2",
+            "วินิจฉัย MLE ของ P3/GEV",
+            "ตาราง diagnostic",
+            "เปลี่ยนวิธี fit → ตารางเปลี่ยนหมด"
+          ],
+          [
+            "3",
+            "รัน NP safeguards + plain QM + KGE decomposition",
+            "Table 3, 5 ฉบับใหม่",
+            "ใช้ pipeline เดิม ต้นทุนต่ำ"
+          ],
+          [
+            "4",
+            "อธิบาย outlier ของ P annual + รายงาน BH-FDR",
+            "ย่อหน้าใหม่ใน §3.2–3.3",
+            "ปิดช่องว่างที่ reviewer จะจับ"
+          ],
+          [
+            "5",
+            "สร้างแผนที่พื้นที่ศึกษา + เติม elevation + แก้ Table 2",
+            "Figure ใหม่ + Table 2",
+            "ไม่กระทบผลวิเคราะห์ ทำคู่ขนานได้"
+          ],
+          [
+            "6",
+            "แก้ความสอดคล้องภายในและภาษา",
+            "ต้นฉบับที่ตัวเลขตรงกัน",
+            "ทำหลังตัวเลขนิ่ง"
+          ],
+          [
+            "7",
+            "จัดรูปแบบตาม AJSTR ทั้งชุด",
+            "ไฟล์ส่งจริง + title page แยก",
+            "ขั้นสุดท้าย"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "rows": [
+          [
+            "ประเด็น",
+            "สถานะ",
+            "ประเมิน"
+          ],
+          [
+            "Research question",
+            "ดีมาก",
+            "ผ่าน"
+          ],
+          [
+            "Novelty",
+            "ดี",
+            "ผ่าน Q3"
+          ],
+          [
+            "Introduction",
+            "ดี",
+            "minor revision"
+          ],
+          [
+            "Study design",
+            "ดีมาก",
+            "ผ่าน"
+          ],
+          [
+            "Fit–freeze–apply",
+            "แข็งแรง",
+            "จุดเด่น"
+          ],
+          [
+            "Independent holdout",
+            "ดี แต่ terminology ต้อง sharpen",
+            "แก้"
+          ],
+          [
+            "QDM formulation",
+            "ถูกทิศทาง",
+            "ผ่านหลังแก้สมการ"
+          ],
+          [
+            "Parametric fitting",
+            "ดี",
+            "minor/moderate"
+          ],
+          [
+            "AIC/AICc",
+            "ดี",
+            "ผ่าน แต่ soften wording"
+          ],
+          [
+            "Wet-day treatment",
+            "ดี",
+            "ผ่าน"
+          ],
+          [
+            "Monthly fallback",
+            "มีเหตุผล แต่ต้อง foreground",
+            "Major"
+          ],
+          [
+            "Tail cap",
+            "มี sensitivity ดี แต่ provenance ยังไม่ชัด",
+            "Major"
+          ],
+          [
+            "Ratio clipping",
+            "scope ยังไม่ชัด",
+            "Major/Moderate"
+          ],
+          [
+            "Metrics",
+            "ยังนิยามไม่ครบ",
+            "Major"
+          ],
+          [
+            "Bootstrap",
+            "แข็งแรง",
+            "ผ่าน"
+          ],
+          [
+            "p/FDR",
+            "over-specified vs reported results",
+            "Major"
+          ],
+          [
+            "Spatial dependence",
+            "ระวังดี",
+            "ผ่าน"
+          ],
+          [
+            "Results",
+            "สอดคล้อง Methods",
+            "ผ่าน"
+          ],
+          [
+            "Discussion",
+            "ดีและ cautious",
+            "minor revision"
+          ],
+          [
+            "Conclusion",
+            "ดี ไม่ overclaim",
+            "ผ่าน"
+          ],
+          [
+            "Figures",
+            "โดยรวมดี",
+            "ผ่านหลังแก้ cross-reference"
+          ],
+          [
+            "Tables",
+            "ดี",
+            "Table 4 citation ต้องเพิ่ม"
+          ],
+          [
+            "Study-area map",
+            "ยังขาด",
+            "แนะนำเพิ่ม"
+          ],
+          [
+            "Data provenance",
+            "ยังไม่เต็ม",
+            "Major/Moderate"
+          ],
+          [
+            "Reproducibility",
+            "ดีแต่ private-on-request",
+            "ควรปรับ"
+          ],
+          [
+            "Equations rendering",
+            "มี defect",
+            "Critical"
+          ],
+          [
+            "Journal formatting",
+            "ยังไม่ final",
+            "แก้ก่อน submission"
+          ]
+        ]
+      }
+    ],
+    "tracked_insertions": [],
+    "tracked_deletions": [],
+    "comments": []
+  }
+]

@@ -1,0 +1,28 @@
+# Locked exact dependencies for ETCCDI Chiang Mai Analysis
+# Generated during Final Q3 Audit
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+openpyxl==3.1.5
+statsmodels==0.15.0
+pymannkendall==1.4.3
+python-docx==1.2.0
+pyyaml==6.0.3
+contourpy==1.4.0
+cycler==0.12.1
+et-xmlfile==2.0.0
+fonttools==4.65.0
+formulaic==1.2.2
+interface-meta==2.0.1
+kiwisolver==1.5.1
+lxml==6.1.3
+narwhals==2.26.0
+packaging==26.3
+patsy==1.0.3
+pillow==12.3.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+wrapt==2.4.1

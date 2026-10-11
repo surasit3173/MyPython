@@ -1,0 +1,8 @@
+{
+  "_comment": "Which workbook sheet is which manuscript table in the AER version. Numbering differs from the workbook because the method-design and per-period performance sheets are supplementary here.",
+  "main": {
+    "1": "Table4_signal_bulk_quantile",
+    "2": "Table5_signal_extremes",
+    "3": "Table6_decomposition"
+  }
+}

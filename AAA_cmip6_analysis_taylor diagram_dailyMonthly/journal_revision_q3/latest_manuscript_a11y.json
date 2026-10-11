@@ -1,0 +1,20 @@
+{
+  "file": "D:\\วารสาร ASEAN J. Sci\\New paper\\AJSTR_QDM_CMIP6_Q2Q3_REVISED_FINAL (1).docx",
+  "counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "findings": [
+    {
+      "severity": "high",
+      "kind": "image_missing_alt",
+      "message": "Image missing alt text (descr/title empty)",
+      "context": {
+        "part": "word/document.xml",
+        "id": "1981460764",
+        "name": "Picture 4"
+      }
+    }
+  ]
+}

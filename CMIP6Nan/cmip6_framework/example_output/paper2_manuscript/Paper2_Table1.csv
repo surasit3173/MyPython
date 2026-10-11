@@ -1,0 +1,4 @@
+Method,Core purpose,Distribution treatment,Climate-signal property,Temporal reconstruction
+QM/EQM,Historical bias correction,Empirical marginal quantile mapping onto the observed calibration distribution,Not explicitly preserved,No
+DetQM,Bias correction with mean-signal preservation,"Target-period wet-day mean removed multiplicatively, quantile-mapped, then restored",Mean-signal oriented,No
+QDM,Bias correction with quantile-signal preservation,Observed calibration quantile multiplied by the model's own quantile-level change ratio,Quantile-signal oriented,No

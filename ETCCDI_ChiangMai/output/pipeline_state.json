@@ -1,0 +1,10 @@
+{
+  "station": "Chiang Mai",
+  "n_years_etccdi": 59,
+  "valid_years": 59,
+  "baseline_p95": 41.315,
+  "baseline_p99": 72.889,
+  "independent_verify_pass": true,
+  "reproducibility_pass": "True",
+  "overall_status": "PASS"
+}

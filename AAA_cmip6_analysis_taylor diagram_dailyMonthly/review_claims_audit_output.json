@@ -1,0 +1,864 @@
+{
+  "a": {
+    "path": "D:\\วารสาร APST\\New เพชรบุรี\\sent\\Observed and Projected Precipitation Extremes over Phetchaburi Province under CMIP6 SSP Scenarios.docx",
+    "size": 10634769,
+    "paragraph_words_all": 4454,
+    "table_words_all": 898,
+    "all_words": 5352,
+    "body_words_including_tables": 5352,
+    "reference_words": 0,
+    "reference_paragraphs": 0,
+    "tables": 5,
+    "table_shapes": [
+      [
+        14,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        23,
+        7
+      ]
+    ],
+    "table_first_rows": [
+      [
+        [
+          "Station ID",
+          "Latitude (°N)",
+          "Longitude (°E)",
+          "Elevation (m MSL)"
+        ],
+        [
+          "465001",
+          "13.0700",
+          "99.9700",
+          "5.74"
+        ]
+      ],
+      [
+        [
+          "Model",
+          "Institution/consortium",
+          "Country/region",
+          "Series used"
+        ],
+        [
+          "ACCESS-ESM1-5",
+          "CSIRO / ARCCSS",
+          "Australia",
+          "Historical 1995–2014; SSP2-4.5; SSP5-8.5"
+        ]
+      ],
+      [
+        [
+          "Index",
+          "Name",
+          "Operational definition",
+          "Unit"
+        ],
+        [
+          "PRCPTOT",
+          "Annual total wet-day precipitation",
+          "ΣRR for RR ≥ 1 mm",
+          "mm"
+        ]
+      ],
+      [
+        [
+          "Index",
+          "Unit",
+          "MK inc.",
+          "MK dec.",
+          "MK NS",
+          "BH inc.",
+          "BH dec.",
+          "Median Sen slope\n(per decade)"
+        ],
+        [
+          "PRCPTOT",
+          "mm",
+          "0",
+          "9",
+          "4",
+          "0",
+          "9",
+          "-164.88"
+        ]
+      ],
+      [
+        [
+          "Scenario",
+          "Index",
+          "Median (%)",
+          "IQR (%)",
+          "Range (%)",
+          "Positive/negative/zero",
+          "Positive/negative/zero"
+        ],
+        [
+          "SSP2-4.5",
+          "PRCPTOT",
+          "-2.5",
+          "-6.5 to 8.0",
+          "-12.3 to 16.8",
+          "3/4/0",
+          "3/4/0"
+        ]
+      ]
+    ],
+    "inline_shapes_api": 4,
+    "drawings_xml": 4,
+    "inlines_xml": 4,
+    "anchors_xml": 0,
+    "omath": 36,
+    "omath_para": 0,
+    "images": [
+      {
+        "name": "word/media/image1.png",
+        "format": "PNG",
+        "size": [
+          4962,
+          3494
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      {
+        "name": "word/media/image2.png",
+        "format": "PNG",
+        "size": [
+          8548,
+          4013
+        ],
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      {
+        "name": "word/media/image3.png",
+        "format": "PNG",
+        "size": [
+          8728,
+          5420
+        ],
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      {
+        "name": "word/media/image4.png",
+        "format": "PNG",
+        "size": [
+          5138,
+          2094
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    ],
+    "headings": [
+      [
+        7,
+        "1. Introduction",
+        "Heading 4"
+      ],
+      [
+        14,
+        "2. Materials and Methods",
+        "Heading 4"
+      ],
+      [
+        16,
+        "2.1 Study area, observations and model series",
+        "Normal"
+      ],
+      [
+        22,
+        "2.2 Annual precipitation indices and quality control",
+        "Normal"
+      ],
+      [
+        27,
+        "2.3 Trend inference and multiple testing",
+        "Normal"
+      ],
+      [
+        40,
+        "2.4 Future-change aggregation",
+        "Normal"
+      ],
+      [
+        49,
+        "2.5 Station-referenced IDW mapping",
+        "Normal"
+      ],
+      [
+        53,
+        "3. Results",
+        "Normal"
+      ],
+      [
+        55,
+        "3.1 Data completeness and observed trends",
+        "Normal"
+      ],
+      [
+        64,
+        "3.2 Near-term model changes",
+        "Normal"
+      ],
+      [
+        71,
+        "3.3 Within-window trend diagnostics",
+        "Normal"
+      ],
+      [
+        73,
+        "3.4 Spatial depiction of PRCPTOT change",
+        "Normal"
+      ],
+      [
+        78,
+        "4. Discussion",
+        "Normal"
+      ],
+      [
+        80,
+        "4.1 Declining wet-day precipitation totals and stronger daily intensity",
+        "Normal"
+      ],
+      [
+        83,
+        "4.2 Scenario dependence and inter-model spread",
+        "Normal"
+      ],
+      [
+        86,
+        "4.3 Statistical and spatial limitations",
+        "Normal"
+      ],
+      [
+        89,
+        "5. Conclusion",
+        "Normal"
+      ],
+      [
+        93,
+        "6. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process",
+        "Normal"
+      ],
+      [
+        96,
+        "7. Acknowledgements",
+        "Normal"
+      ],
+      [
+        100,
+        "8. Author Contributions",
+        "Normal"
+      ],
+      [
+        104,
+        "9. Conflicts of Interest",
+        "Normal"
+      ],
+      [
+        108,
+        "10. References",
+        "Normal"
+      ],
+      [
+        110,
+        "1. Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report. Cambridge: Cambridge University Press; 2021.",
+        "Normal"
+      ],
+      [
+        111,
+        "2. Zhang X, Alexander L, Hegerl GC, Jones P, Tank AK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870.",
+        "Normal"
+      ],
+      [
+        112,
+        "3. Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937–1958.",
+        "Normal"
+      ],
+      [
+        113,
+        "4. O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482.",
+        "Normal"
+      ],
+      [
+        114,
+        "5. Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153–168.",
+        "Normal"
+      ],
+      [
+        115,
+        "6. Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207. doi:10.3390/w16152207.",
+        "Normal"
+      ],
+      [
+        116,
+        "7. Gödek Hayal NP, Zaifoglu H, Yanmaz AM. Projecting precipitation extremes over Cyprus using CMIP6 climate scenarios. Nat Hazards. 2026;122:368. doi:10.1007/s11069-026-08119-4.",
+        "Normal"
+      ],
+      [
+        117,
+        "8. Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol. 2024;155(9):8703–8716. doi:10.1007/s00704-024-05150-y.",
+        "Normal"
+      ],
+      [
+        118,
+        "9. Madolli MJ, Gade SA, Tangdamrongsub N, Debnath S, Gupta V, Datta A, Himanshu SK. Non-stationarity and temporal dependence of seasonal and extreme rainfall in Thailand and their linkages with ENSO and IOD. Theor Appl Climatol. 2026;157(6). doi:10.1007/s00704-026-06315-7.",
+        "Normal"
+      ],
+      [
+        119,
+        "10. Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380. doi:10.1038/s41598-025-18217-1.",
+        "Normal"
+      ],
+      [
+        120,
+        "11. de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, Pereira MA, Mendes MCD, Baracho BBD, Jamjareegulgarn P. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501. doi:10.1038/s41598-025-86826-x.",
+        "Normal"
+      ],
+      [
+        121,
+        "12. Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232.",
+        "Normal"
+      ],
+      [
+        122,
+        "13. Limsakul A. Changes of daily rainfall intensity in Thailand from 1955 to 2019. Asia-Pac J Sci Technol. 2022;27(1):APST-27-01-12. doi:10.14456/apst.2022.12.",
+        "Normal"
+      ],
+      [
+        123,
+        "14. Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4.",
+        "Normal"
+      ],
+      [
+        124,
+        "15. Mann HB. Nonparametric tests against trend. Econometrica. 1945;13(3):245–259.",
+        "Normal"
+      ],
+      [
+        125,
+        "16. Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389.",
+        "Normal"
+      ],
+      [
+        126,
+        "17. Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289–300.",
+        "Normal"
+      ],
+      [
+        127,
+        "18. Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol. 1998;204(1–4):182–196.",
+        "Normal"
+      ],
+      [
+        128,
+        "19. Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201–218.",
+        "Normal"
+      ],
+      [
+        129,
+        "20. Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–524.",
+        "Normal"
+      ],
+      [
+        130,
+        "21. Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102.",
+        "Normal"
+      ],
+      [
+        131,
+        "22. Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile delta mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28:6938–6959.",
+        "Normal"
+      ],
+      [
+        132,
+        "23. Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211–220.",
+        "Normal"
+      ],
+      [
+        133,
+        "24. Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417. doi:10.1016/j.rineng.2024.102417.",
+        "Normal"
+      ],
+      [
+        134,
+        "25. Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500.",
+        "Normal"
+      ],
+      [
+        135,
+        "26. Prathom C, Champrasert P. General Circulation Model Downscaling Using Interpolation–Machine Learning Model Combination–Case Study: Thailand. Sustainability. 2023;15(12):9668. doi:10.3390/su15129668.",
+        "Normal"
+      ],
+      [
+        136,
+        "27. Muthuvel D, Qin X. Spatial concurrence risk of extreme precipitations in Southeast Asia under climate change using temporally dynamic complex networks. J Hydrol. 2026;664(Part B):134526. doi:10.1016/j.jhydrol.2025.134526.",
+        "Normal"
+      ],
+      [
+        137,
+        "28. Jiang Y, Ge F, Chen Q, Lin Z, Fraedrich K, Chen Z. How compound wind and precipitation extremes change over Southeast Asia: a comprehensive assessment from CMIP6 models. Atmos Sci Lett. 2025;26(2). doi:10.1002/asl.1293.",
+        "Normal"
+      ],
+      [
+        138,
+        "29. Singh AK, Roshni T, Singh V. Projected intensification of precipitation extremes in the Kosi Basin using CMIP6 models. Sci Rep. 2026;16:12565. doi:10.1038/s41598-026-43723-1.",
+        "Normal"
+      ],
+      [
+        139,
+        "30. Addisuu AA, Mengistu Tsidu G, Basupi LV. Improving daily CMIP6 precipitation in Southern Africa through bias correction—Part 2: representation of extreme precipitation. Climate. 2025;13(5):93. doi:10.3390/cli13050093.",
+        "Normal"
+      ]
+    ],
+    "hits": {
+      "R95p[^\\n]{0,100}": [
+        "R95p, and R99p at 10, 9, 7, 8, and 9 stations, respectively; 88 of 143 tests remained significant after ",
+        "R95p and R99p (annual precipitation above station-specific 95th and 99th wet-day thresholds). A wet day ",
+        "R95p and R99p are treated here as fixed-reference percentile indices; their implementation should not be",
+        "R95p",
+        "R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014 and retained for al",
+        "R95p and R99p increased at seven, eight and nine stations, respectively, in the primary test. Rx5day sho",
+        "R95p",
+        "R95p and R99p use station-specific fixed wet-day thresholds estimated from 1981–2014.",
+        "R95p, and R99p were +4.8%, +7.6%, +9.6%, and +59.0%, respectively. The wide R99p range is consistent wit",
+        "R95p, and R99p, indicates that projected changes are strongly model-dependent and should not be interpre",
+        "R95p",
+        "R95p",
+        "R95p, and R99p; this pattern may be influenced by the greater variability associated with multi-day extr"
+      ],
+      "4\\.4%": [],
+      "4\\.5%": [],
+      "Tebaldi[^\\n]{0,200}": [
+        "Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482."
+      ],
+      "4,862": [
+        "4,862"
+      ],
+      "60,060": [
+        "60,060"
+      ],
+      "30/143": [],
+      "14/143": [],
+      "93/143": [],
+      "88/143": [],
+      "elevation[^\\n]{0,180}": [
+        "elevations of the 13 rain-gauge stations in Phetchaburi Province.",
+        "Elevation (m MSL)",
+        "elevation setting of the 13 rain-gauge stations across Phetchaburi Province."
+      ],
+      "did not test[^\\n]{0,180}": [],
+      "not used[^\\n]{0,180}": [],
+      "IDW[^\\n]{0,180}": [
+        "IDW indicated broader negative PRCPTOT changes under SSP5-8.5 but represents spatial depiction rather than validated gridded projection. Overall, the results indicate declining wet-da",
+        "IDW mapping",
+        "IDW), a deterministic interpolator for irregularly spaced observations [20], was used to depict broad spatial contrast. For a map location x, the displayed field was:",
+        "IDW with a power parameter of 2. The resulting fields were masked to the Phetchaburi provincial boundary. These maps are descriptive spatial depictions of station-referenced changes a",
+        "IDW fields provide a spatial depiction of the station-referenced model-median PRCPTOT changes (Figure 4). Under SSP2-4.5, the northern and central areas are close to neutral or weakly",
+        "IDW provides a spatial depiction of station-referenced values. It cannot recover topographic or coastal gradients that are not represented by the station network and may extrapolate o"
+      ],
+      "convex hull[^\\n]{0,180}": [
+        "convex hull are treated as spatial extrapolation.",
+        "convex hull. The resulting surface depends on station density and boundary geometry [20]. It should therefore be interpreted as a depiction of broad spatial contrasts rather than as evidence "
+      ],
+      "not[^\\n]{0,60}validated[^\\n]{0,100}": [
+        "not interpreted as dynamically downscaled or independently validated gridded projections. Areas outside the station convex hull are treated as spatial extrapolation."
+      ]
+    }
+  },
+  "b": {
+    "path": "C:\\Users\\PC\\Downloads\\EnNRJ_Uttaradit_CMIP6_Precipitation_Extremes_Revised.docx",
+    "size": 5357282,
+    "paragraph_words_all": 4604,
+    "table_words_all": 860,
+    "all_words": 5464,
+    "body_words_including_tables": 4520,
+    "reference_words": 942,
+    "reference_paragraphs": 28,
+    "tables": 5,
+    "table_shapes": [
+      [
+        14,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        23,
+        6
+      ]
+    ],
+    "table_first_rows": [
+      [
+        [
+          "Station ID",
+          "Latitude (°N)",
+          "Longitude (°E)",
+          "Elevation (m MSL)"
+        ],
+        [
+          "351001",
+          "17.2300",
+          "100.1000",
+          "54.57"
+        ]
+      ],
+      [
+        [
+          "Model",
+          "Institution/consortium",
+          "Country/region",
+          "Member/grid",
+          "Data used"
+        ],
+        [
+          "ACCESS-ESM1-5",
+          "CSIRO and ARCCSS",
+          "Australia",
+          "r1i1p1f1 / gn",
+          "Baseline; SSP2-4.5; SSP5-8.5"
+        ]
+      ],
+      [
+        [
+          "Index",
+          "Name",
+          "Operational definition",
+          "Unit"
+        ],
+        [
+          "PRCPTOT",
+          "Annual total wet-day precipitation",
+          "Sum of RR on days with RR≥1 mm",
+          "mm"
+        ]
+      ],
+      [
+        [
+          "Index",
+          "Unit",
+          "MK inc.",
+          "MK dec.",
+          "MK NS",
+          "BH inc.",
+          "BH dec.",
+          "Median Sen slope/decade"
+        ],
+        [
+          "PRCPTOT",
+          "mm",
+          "0",
+          "0",
+          "13",
+          "0",
+          "0",
+          "-6.75"
+        ]
+      ],
+      [
+        [
+          "Scenario",
+          "Index",
+          "Median (%)",
+          "IQR (%)",
+          "Range (%)",
+          "Models +/−/0"
+        ],
+        [
+          "SSP2-4.5",
+          "PRCPTOT",
+          "2.9",
+          "-4.0 to 4.9",
+          "-5.4 to 18.1",
+          "4/3/0"
+        ]
+      ]
+    ],
+    "inline_shapes_api": 3,
+    "drawings_xml": 3,
+    "inlines_xml": 3,
+    "anchors_xml": 0,
+    "omath": 10,
+    "omath_para": 0,
+    "images": [
+      {
+        "name": "word/media/image1.png",
+        "format": "PNG",
+        "size": [
+          4962,
+          3494
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      {
+        "name": "word/media/image2.png",
+        "format": "PNG",
+        "size": [
+          7283,
+          5006
+        ],
+        "dpi": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      {
+        "name": "word/media/image3.png",
+        "format": "PNG",
+        "size": [
+          4242,
+          1901
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    ],
+    "headings": [
+      [
+        15,
+        "1. Introduction",
+        "Normal"
+      ],
+      [
+        21,
+        "2. Methodology",
+        "Normal"
+      ],
+      [
+        22,
+        "2.1 Study area and data",
+        "Normal"
+      ],
+      [
+        31,
+        "2.2 Precipitation indices and quality control",
+        "Normal"
+      ],
+      [
+        36,
+        "2.3 Trend inference and multiplicity",
+        "Normal"
+      ],
+      [
+        46,
+        "2.4 Projection-change aggregation",
+        "Normal"
+      ],
+      [
+        53,
+        "2.5 Spatial depiction",
+        "Normal"
+      ],
+      [
+        56,
+        "3. Results and Discussion",
+        "Normal"
+      ],
+      [
+        57,
+        "3.1 Data readiness and historical context",
+        "Normal"
+      ],
+      [
+        61,
+        "3.2 Projected changes across precipitation indices",
+        "Normal"
+      ],
+      [
+        69,
+        "3.3 Spatial pattern of projected PRCPTOT change",
+        "Normal"
+      ],
+      [
+        74,
+        "3.4 Within-window trend diagnostics",
+        "Normal"
+      ],
+      [
+        76,
+        "3.5 Discussion",
+        "Normal"
+      ],
+      [
+        78,
+        "3.6 Limitations and future research",
+        "Normal"
+      ],
+      [
+        80,
+        "4. Conclusions",
+        "Normal"
+      ],
+      [
+        83,
+        "5. Acknowledgments",
+        "Normal"
+      ],
+      [
+        85,
+        "6. Author Contributions",
+        "Normal"
+      ],
+      [
+        87,
+        "7. Declaration of Competing Interest",
+        "Normal"
+      ],
+      [
+        89,
+        "8. References",
+        "Normal"
+      ]
+    ],
+    "hits": {
+      "R95p[^\\n]{0,100}": [
+        "R95p",
+        "R95p and R99p directions. The observed period therefore provides local context but does not establish a ",
+        "R95p",
+        "R95p by 4.5%, but their ranges crossed zero. Under SSP5-8.5, median changes were −2.4% for SDII, −3.0% f",
+        "R95p. R50mm and R99p displayed particularly broad ranges because rare-event totals or counts can have sm",
+        "R95p",
+        "R95p"
+      ],
+      "4\\.4%": [
+        "4.4%",
+        "4.4%",
+        "4.4%",
+        "4.4%"
+      ],
+      "4\\.5%": [
+        "4.5%"
+      ],
+      "Tebaldi[^\\n]{0,200}": [
+        "Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482. doi:10.5194/gmd-9-3461-2016.",
+        "Tebaldi C, Debeire K, Eyring V, Fischer E, Fyfe J, Friedlingstein P, et al. Climate model projections from the Scenario Model Intercomparison Project (ScenarioMIP) of CMIP6. Earth Syst Dyn. 2021;12:253–293. "
+      ],
+      "4,862": [
+        "4,862"
+      ],
+      "60,060": [
+        "60,060"
+      ],
+      "30/143": [],
+      "14/143": [],
+      "93/143": [],
+      "88/143": [],
+      "elevation[^\\n]{0,180}": [
+        "elevation and upland settings. The available projections support a near-term comparison for 2021–2050, a period directly relevant to infrastructure and water-management decisions. However, ",
+        "elevations ranged from 54.57 to 427.85 m MSL. Coordinates used for analysis were read directly from the validated station input. Elevation was retained as descriptive metadata and did not e",
+        "Elevation (m MSL)",
+        "Elevation is supplied station metadata and was not used to calculate the indices, trends, changes, or IDW weights. Station names were not created because the analytical input identifies gau",
+        "elevation–change relationship. The maps should be used to identify where station-referenced ensemble medians differ, not to assign precise changes at ungauged locations."
+      ],
+      "did not test[^\\n]{0,180}": [
+        "did not test an elevation–change relationship. The maps should be used to identify where station-referenced ensemble medians differ, not to assign precise changes at ungauged locations."
+      ],
+      "not used[^\\n]{0,180}": [
+        "not used to calculate the indices, trends, changes, or IDW weights. Station names were not created because the analytical input identifies gauges by ID only.",
+        "not used to rank scenarios or claim ensemble robustness."
+      ],
+      "IDW[^\\n]{0,180}": [
+        "IDW maps depict station contrast, not gridded climate forecasts.",
+        "IDW); and (3) provide concise observational and future-window trend diagnostics without conflating them with baseline-to-future climatological change. The primary contribution is a tr",
+        "IDW calculations.",
+        "IDW weights. Station names were not created because the analytical input identifies gauges by ID only.",
+        "IDW with power p=2 was then applied using great-circle distances in kilometers (Equation 10), where zⱼ is the station value and dⱼ is its distance to an interpolation point (Shepard, ",
+        "IDW field under SSP2-4.5 was consequently positive across most of the province, with a localized negative pocket near station 351011. Under SSP5-8.5, weak positive values persisted ac",
+        "IDW distance rule, not by independent observations or model-grid validation. Topography may contribute to real rainfall gradients, but the present analysis did not test an elevation–c",
+        "IDW with power 2 was applied to station-level seven-model medians, and the same percentage scale was used in both panels. White areas outside the provincial boundary are masked. Areas",
+        "IDW represents geographic proximity only and cannot resolve orographic gradients, convective organization, or model physics absent from the station values. Future work should compare "
+      ],
+      "convex hull[^\\n]{0,180}": [
+        "convex hull, including the far northern part of the polygon, are spatial extrapolations. The maps are descriptive station-referenced depictions, not dynamically downscaled or independently va",
+        "convex hull. The continuous colors in those areas are therefore generated by the IDW distance rule, not by independent observations or model-grid validation. Topography may contribute to real",
+        "convex hull are extrapolations rather than independently validated gridded projections."
+      ],
+      "not[^\\n]{0,60}validated[^\\n]{0,100}": [
+        "not dynamically downscaled or independently validated continuous-resolution climate projections."
+      ]
+    }
+  },
+  "compare": {
+    "sequence_ratio_normalized_words": 0.17967888221595785,
+    "8gram_a": 4314,
+    "8gram_b": 3653,
+    "8gram_intersection": 170,
+    "8gram_jaccard": 0.021803257663203797,
+    "8gram_recall_a": 0.039406583217431616,
+    "8gram_recall_b": 0.046537092800437996,
+    "common_exact_normalized_paragraph_instances": 1,
+    "common_paragraph_samples": [
+      "office of water management and hydrology royal irrigation department dusit bangkok thailand"
+    ]
+  },
+  "a_ref_pars": [],
+  "b_ref_pars": [
+    "Alexander LV, Zhang X, Peterson TC, Caesar J, Gleason B, Klein Tank AMG, et al. Global observed changes in daily climate extremes of temperature and precipitation. J Geophys Res Atmos. 2006;111:D05109. doi:10.1029/2005JD006290.",
+    "Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Series B Stat Methodol. 1995;57(1):289–300. doi:10.1111/j.2517-6161.1995.tb02031.x.",
+    "Cannon AJ, Sobie SR, Murdock TQ. Bias correction of GCM precipitation by quantile mapping: how well do methods preserve changes in quantiles and extremes? J Clim. 2015;28(17):6938–6959. doi:10.1175/JCLI-D-14-00754.1.",
+    "Chaiwino W, Chaisee K, Oonariya C, Wongsaijai B. Analysis of long-term rainfall trend and extreme in upper northern Thailand. Sci Rep. 2025;15:33380. doi:10.1038/s41598-025-18217-1.",
+    "de Oliveira-Júnior JF, Mendes D, Porto HD, Cardoso KRA, Ferreira Neto JA, da Silva EBC, et al. Analysis of drought and extreme precipitation events in Thailand: trends, climate modeling, and implications for climate change adaptation. Sci Rep. 2025;15:4501. doi:10.1038/s41598-025-86826-x.",
+    "Eyring V, Bony S, Meehl GA, Senior CA, Stevens B, Stouffer RJ, et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci Model Dev. 2016;9:1937–1958. doi:10.5194/gmd-9-1937-2016.",
+    "Hamed KH, Rao AR. A modified Mann–Kendall trend test for autocorrelated data. J Hydrol. 1998;204(1–4):182–196. doi:10.1016/S0022-1694(97)00125-X.",
+    "Humphries UW, Waqas M, Hlaing PT, Dechpichai P, Wangwongchai A. Assessment of CMIP6 GCMs for selecting a suitable climate model for precipitation projections in Southern Thailand. Results Eng. 2024;23:102417. doi:10.1016/j.rineng.2024.102417.",
+    "Intergovernmental Panel on Climate Change. Climate change 2021: the physical science basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press; 2021. doi:10.1017/9781009157896.",
+    "Knutti R, Sedláček J, Sanderson BM, Lorenz R, Fischer EM, Eyring V. A climate model projection weighting scheme accounting for performance and interdependence. Geophys Res Lett. 2017;44(4):1909–1918. doi:10.1002/2016GL072012.",
+    "Kuinkel D, Promchote P, Upreti KR, Wang S-Y. Projected changes in precipitation extremes in Southern Thailand using CMIP6 models. Theor Appl Climatol. 2024;155:8703–8716. doi:10.1007/s00704-024-05150-y.",
+    "Madolli MJ, Gade SA, Gupta V, Chakraborty A, et al. A systematic review on rainfall patterns of Thailand: insights into variability and its relationship with ENSO and IOD. Earth-Sci Rev. 2025;264:105102. doi:10.1016/j.earscirev.2025.105102.",
+    "Mann HB. Nonparametric tests against trend. Econometrica. 1945;13(3):245–259. doi:10.2307/1907187.",
+    "Maraun D. Bias correcting climate change simulations—a critical review. Curr Clim Change Rep. 2016;2:211–220. doi:10.1007/s40641-016-0050-x.",
+    "Maraun D, Shepherd TG, Widmann M, Zappa G, Walton D, Gutiérrez JM, et al. Towards process-informed bias correction of climate change simulations. Nat Clim Chang. 2017;7:764–773. doi:10.1038/nclimate3418.",
+    "Nontikansak P, Shrestha S, Shanmugam MS, Loc HH, Virdis SGP. Rainfall extremes under climate change in the Pasak River Basin, Thailand. J Water Clim Change. 2022;13(10):3729–3746. doi:10.2166/wcc.2022.232.",
+    "O’Neill BC, Tebaldi C, van Vuuren DP, Eyring V, Friedlingstein P, Hurtt G, et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci Model Dev. 2016;9:3461–3482. doi:10.5194/gmd-9-3461-2016.",
+    "Riahi K, van Vuuren DP, Kriegler E, Edmonds J, O’Neill BC, Fujimori S, et al. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob Environ Change. 2017;42:153–168. doi:10.1016/j.gloenvcha.2016.05.009.",
+    "Sen PK. Estimates of the regression coefficient based on Kendall’s tau. J Am Stat Assoc. 1968;63(324):1379–1389. doi:10.1080/01621459.1968.10480934.",
+    "Shepard D. A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings of the 23rd ACM National Conference. New York: ACM; 1968. p. 517–524. doi:10.1145/800186.810616.",
+    "Sillmann J, Kharin VV, Zhang X, Zwiers FW, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 1. Model evaluation in the present climate. J Geophys Res Atmos. 2013;118(4):1716–1733. doi:10.1002/jgrd.50203.",
+    "Sillmann J, Kharin VV, Zwiers FW, Zhang X, Bronaugh D. Climate extremes indices in the CMIP5 multimodel ensemble: part 2. Future climate projections. J Geophys Res Atmos. 2013;118(6):2473–2493. doi:10.1002/jgrd.50188.",
+    "Tebaldi C, Debeire K, Eyring V, Fischer E, Fyfe J, Friedlingstein P, et al. Climate model projections from the Scenario Model Intercomparison Project (ScenarioMIP) of CMIP6. Earth Syst Dyn. 2021;12:253–293. doi:10.5194/esd-12-253-2021.",
+    "Try S, Qin X. Evaluation of future changes in climate extremes over Southeast Asia using downscaled CMIP6 GCM projections. Water. 2024;16:2207. doi:10.3390/w16152207.",
+    "Waqas M, Humphries UW. Artificial intelligence-driven precipitation downscaling and projections over Thailand using CMIP6 climate models. Big Earth Data. 2025;9(3):583–614. doi:10.1080/20964471.2025.2547500.",
+    "Yue S, Wang CY. The Mann–Kendall test modified by effective sample size to detect trend in serially correlated hydrological series. Water Resour Manag. 2004;18:201–218. doi:10.1023/B:WARM.0000043140.61082.60.",
+    "Zhang B, Song S, Wang H, Guo T, Ding Y. Evaluation of the performance of CMIP6 models in simulating extreme precipitation and its projected changes in global climate regions. Nat Hazards. 2024;121(2):1737–1763. doi:10.1007/s11069-024-06850-4.",
+    "Zhang X, Alexander L, Hegerl GC, Jones P, Tank AMGK, Peterson TC, et al. Indices for monitoring changes in extremes based on daily temperature and precipitation data. Wiley Interdiscip Rev Clim Change. 2011;2(6):851–870. doi:10.1002/wcc.147."
+  ]
+}

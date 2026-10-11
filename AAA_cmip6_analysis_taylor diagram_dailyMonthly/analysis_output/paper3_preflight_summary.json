@@ -1,0 +1,558 @@
+{
+  "csv_files": 44,
+  "observed_copies": 2,
+  "raw_cmip6_files": 21,
+  "legacy_bc_files": 21,
+  "models": [
+    "ACCESS-ESM1-5",
+    "CESM2",
+    "CanESM5",
+    "EC-Earth3",
+    "FGOALS-g3",
+    "MIROC6",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": [
+    "historical",
+    "ssp245",
+    "ssp585"
+  ],
+  "raw_model_scenario_pairs": 21,
+  "raw_files_with_internal_date_gaps": 0,
+  "raw_files_with_duplicate_dates": 0,
+  "raw_files_with_missing_values": 0,
+  "raw_files_with_tiny_negative_values": 5,
+  "raw_files_with_material_negative_values": 0,
+  "raw_files_with_trailing_empty_column": 21,
+  "raw_unique_series_min": 1,
+  "raw_unique_series_max": 5,
+  "coordinate_sheets": [
+    {
+      "sheet": "station_coordinates",
+      "rows": 128,
+      "columns": [
+        "NO",
+        "station",
+        "latitude",
+        "longitude",
+        "elevation (m.MSL.)"
+      ],
+      "duplicate_station_ids": 0,
+      "observed_station_coverage": 13,
+      "missing_lat": 0,
+      "missing_lon": 0
+    }
+  ],
+  "boundary_components": [
+    "boundary.dbf",
+    "boundary.prj",
+    "boundary.shp.shp",
+    "boundary.shx"
+  ],
+  "observed_qc_class_counts": {
+    "not_zero": 4866,
+    "confirmed_zero": 315,
+    "uncertain": 80,
+    "probable_missing": 43
+  },
+  "observed_probable_missing_station_months": [
+    {
+      "station": "351002",
+      "year": 1981,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 150.7,
+      "n_indicators": 5
+    },
+    {
+      "station": "351002",
+      "year": 1982,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 33.1,
+      "n_indicators": 3
+    },
+    {
+      "station": "351003",
+      "year": 1982,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 33.1,
+      "n_indicators": 4
+    },
+    {
+      "station": "351003",
+      "year": 1982,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 59.2,
+      "n_indicators": 4
+    },
+    {
+      "station": "351005",
+      "year": 1982,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 59.2,
+      "n_indicators": 4
+    },
+    {
+      "station": "351002",
+      "year": 1983,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 7.05,
+      "n_indicators": 2
+    },
+    {
+      "station": "351004",
+      "year": 1983,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 7.05,
+      "n_indicators": 2
+    },
+    {
+      "station": "351005",
+      "year": 1983,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 7.05,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 1983,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 25.75,
+      "n_indicators": 3
+    },
+    {
+      "station": "351005",
+      "year": 1983,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 25.75,
+      "n_indicators": 3
+    },
+    {
+      "station": "351003",
+      "year": 1984,
+      "month": 2,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 26.2,
+      "n_indicators": 3
+    },
+    {
+      "station": "351002",
+      "year": 1984,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 22.55,
+      "n_indicators": 4
+    },
+    {
+      "station": "351003",
+      "year": 1986,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 44.05,
+      "n_indicators": 4
+    },
+    {
+      "station": "351005",
+      "year": 1987,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 25.3,
+      "n_indicators": 3
+    },
+    {
+      "station": "351002",
+      "year": 1989,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 28.0,
+      "n_indicators": 3
+    },
+    {
+      "station": "351002",
+      "year": 1989,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 49.15,
+      "n_indicators": 4
+    },
+    {
+      "station": "351002",
+      "year": 1992,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 19.6,
+      "n_indicators": 3
+    },
+    {
+      "station": "351002",
+      "year": 1992,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 34.45,
+      "n_indicators": 3
+    },
+    {
+      "station": "351002",
+      "year": 1993,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 37.0,
+      "n_indicators": 4
+    },
+    {
+      "station": "351005",
+      "year": 1997,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 70.85,
+      "n_indicators": 4
+    },
+    {
+      "station": "351001",
+      "year": 1998,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 11.0,
+      "n_indicators": 2
+    },
+    {
+      "station": "351012",
+      "year": 1998,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 11.0,
+      "n_indicators": 2
+    },
+    {
+      "station": "351201",
+      "year": 1998,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 11.0,
+      "n_indicators": 3
+    },
+    {
+      "station": "351001",
+      "year": 1998,
+      "month": 4,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 46.6,
+      "n_indicators": 4
+    },
+    {
+      "station": "351005",
+      "year": 1999,
+      "month": 2,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 25.7,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 2000,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 26.85,
+      "n_indicators": 3
+    },
+    {
+      "station": "351005",
+      "year": 2000,
+      "month": 11,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 26.85,
+      "n_indicators": 3
+    },
+    {
+      "station": "351005",
+      "year": 2003,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 76.3,
+      "n_indicators": 3
+    },
+    {
+      "station": "351003",
+      "year": 2004,
+      "month": 2,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 22.85,
+      "n_indicators": 2
+    },
+    {
+      "station": "351004",
+      "year": 2004,
+      "month": 2,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 22.85,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 2004,
+      "month": 10,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 63.9,
+      "n_indicators": 4
+    },
+    {
+      "station": "351003",
+      "year": 2005,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 32.25,
+      "n_indicators": 3
+    },
+    {
+      "station": "351004",
+      "year": 2005,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 32.25,
+      "n_indicators": 3
+    },
+    {
+      "station": "351005",
+      "year": 2006,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 51.8,
+      "n_indicators": 3
+    },
+    {
+      "station": "351201",
+      "year": 2008,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 53.8,
+      "n_indicators": 4
+    },
+    {
+      "station": "351006",
+      "year": 2008,
+      "month": 8,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 50.1,
+      "n_indicators": 3
+    },
+    {
+      "station": "351006",
+      "year": 2009,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 32.1,
+      "n_indicators": 5
+    },
+    {
+      "station": "351004",
+      "year": 2011,
+      "month": 4,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 32.3,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 2011,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 53.15,
+      "n_indicators": 2
+    },
+    {
+      "station": "351201",
+      "year": 2011,
+      "month": 12,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 53.15,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 2013,
+      "month": 4,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 53.35,
+      "n_indicators": 4
+    },
+    {
+      "station": "351008",
+      "year": 2014,
+      "month": 2,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 15.75,
+      "n_indicators": 2
+    },
+    {
+      "station": "351002",
+      "year": 2014,
+      "month": 3,
+      "monthly_total_mm": 0.0,
+      "neighbour_median_mm": 25.4,
+      "n_indicators": 2
+    }
+  ],
+  "observed_primary_period_completeness_after_qc": {
+    "rainy_1995_2014": {
+      "station_seasons_total": 260,
+      "station_seasons_complete": 258,
+      "station_seasons_incomplete": 2,
+      "incomplete_examples": [
+        {
+          "season_id": "2004_RAIN",
+          "station": "351002",
+          "n_valid": 153,
+          "expected_days": 184
+        },
+        {
+          "season_id": "2008_RAIN",
+          "station": "351006",
+          "n_valid": 153,
+          "expected_days": 184
+        }
+      ]
+    },
+    "hot_dry_1995_2013": {
+      "station_seasons_total": 247,
+      "station_seasons_complete": 226,
+      "station_seasons_incomplete": 21,
+      "incomplete_examples": [
+        {
+          "season_id": "1997_98_HOT_DRY",
+          "station": "351001",
+          "n_valid": 120,
+          "expected_days": 181
+        },
+        {
+          "season_id": "1997_98_HOT_DRY",
+          "station": "351005",
+          "n_valid": 151,
+          "expected_days": 181
+        },
+        {
+          "season_id": "1997_98_HOT_DRY",
+          "station": "351012",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "1997_98_HOT_DRY",
+          "station": "351201",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "1998_99_HOT_DRY",
+          "station": "351005",
+          "n_valid": 153,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2000_01_HOT_DRY",
+          "station": "351002",
+          "n_valid": 151,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2000_01_HOT_DRY",
+          "station": "351005",
+          "n_valid": 151,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2002_03_HOT_DRY",
+          "station": "351005",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2003_04_HOT_DRY",
+          "station": "351003",
+          "n_valid": 153,
+          "expected_days": 182
+        },
+        {
+          "season_id": "2003_04_HOT_DRY",
+          "station": "351004",
+          "n_valid": 153,
+          "expected_days": 182
+        },
+        {
+          "season_id": "2005_06_HOT_DRY",
+          "station": "351003",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2005_06_HOT_DRY",
+          "station": "351004",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2005_06_HOT_DRY",
+          "station": "351005",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2007_08_HOT_DRY",
+          "station": "351201",
+          "n_valid": 151,
+          "expected_days": 182
+        },
+        {
+          "season_id": "2008_09_HOT_DRY",
+          "station": "351006",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2010_11_HOT_DRY",
+          "station": "351004",
+          "n_valid": 151,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2011_12_HOT_DRY",
+          "station": "351002",
+          "n_valid": 151,
+          "expected_days": 182
+        },
+        {
+          "season_id": "2011_12_HOT_DRY",
+          "station": "351201",
+          "n_valid": 151,
+          "expected_days": 182
+        },
+        {
+          "season_id": "2012_13_HOT_DRY",
+          "station": "351002",
+          "n_valid": 151,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2013_14_HOT_DRY",
+          "station": "351002",
+          "n_valid": 150,
+          "expected_days": 181
+        },
+        {
+          "season_id": "2013_14_HOT_DRY",
+          "station": "351008",
+          "n_valid": 153,
+          "expected_days": 181
+        }
+      ]
+    }
+  }
+}

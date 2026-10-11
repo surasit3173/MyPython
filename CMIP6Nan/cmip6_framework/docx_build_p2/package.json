@@ -1,0 +1,8 @@
+{
+  "name": "apst-manuscript-build",
+  "private": true,
+  "description": "Render the Paper 1 manuscript as an APST-formatted Word document",
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

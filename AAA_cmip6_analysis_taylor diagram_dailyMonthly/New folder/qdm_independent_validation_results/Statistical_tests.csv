@@ -1,0 +1,13 @@
+﻿scale,metric,preferred_direction,n_stations,median_station_delta,wilcoxon_statistic,p_value_one_sided,interpretation
+daily,RMSE,lower,12,2.094431863776328,63.0,0.9701304922723037,not significant
+daily,MAE,lower,12,0.08592620780499471,31.0,0.2651422984168048,not significant
+daily,abs_PBIAS,lower,12,-7.8800676374018135,8.0,0.0075111692765539,improved
+daily,r,higher,12,0.0062103073239793034,44.0,0.3474433011862367,not significant
+daily,NSE,higher,12,-0.6303909810158308,29.0,0.7836162096661077,not significant
+daily,KGE,higher,12,0.03884774759342274,69.0,0.009301464950567828,improved
+monthly,RMSE,lower,12,1.5937231857237606,28.0,0.19409320260413895,not significant
+monthly,MAE,lower,12,-2.0914344376124987,22.0,0.09116917709038426,not significant
+monthly,abs_PBIAS,lower,12,-7.880067637401813,8.0,0.0075111692765539,improved
+monthly,r,higher,12,0.06344767922701895,75.0,0.0023708840192034897,improved
+monthly,NSE,higher,12,-0.04698974268009348,50.0,0.19409320260413887,not significant
+monthly,KGE,higher,12,0.06317631886748348,66.0,0.017085236346114696,improved

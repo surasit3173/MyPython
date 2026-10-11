@@ -1,0 +1,40 @@
+{
+  "project": "CMIP6Uttaradit",
+  "run_id": "P2_PHASE5F_CORRECTED_ETCCDI_RERUN",
+  "timestamp_utc": "2026-09-09T01:01:48.095474Z",
+  "system": {
+    "python_version": "3.14.0",
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+  },
+  "provenance": {
+    "observed_csv": "Data_Uttaradit\\Observed_Rain_daily_198101_201412_Uttaradit.csv",
+    "observed_sha256": "1621f8f9c15884c3a4deb33c8bea0d070a1639b70790cfc8f0695e3ca4befbe2",
+    "coords_csv": "Data_Uttaradit\\station_coordinates_Uttaradit.csv",
+    "coords_sha256": "852ac008480f934f29d65f0ed7bbc2f563cc21c4915b346bb7fc26dd205872d1",
+    "config_yaml": "config\\config.yaml",
+    "config_sha256": "1747a2d7118c192ed4dcaffc9b22d230a11158c86018797a0f029bf90321a5b5",
+    "script": "C:\\MyPython\\CMIP6Uttaradit\\scripts\\rerun_phase5f_project2.py",
+    "script_sha256": "72b17e42f0213c4084c7a89634fda9b5f31078ede9437aec7799c308828f238b"
+  },
+  "methodological_parameters": {
+    "authoritative_baseline_period": [
+      1995,
+      2014
+    ],
+    "wet_day_threshold_mm": 1.0,
+    "indices_count": 11,
+    "observed_stations_count": 13,
+    "validation_gate_passed": true
+  },
+  "audit_findings": {
+    "qdm_provenance_status": "STOP / UNVERIFIED (Missing live raw -> BC transformation script)",
+    "uncertainty_decomposition_status": "UNSUPPORTED \u2014 REMOVE FROM MANUSCRIPT (No ANOVA engine in repository)"
+  },
+  "validation_status": "CONDITIONAL PASS / STOP (ETCCDI rerun passed; QDM & ANOVA unverified)",
+  "warnings": [
+    "QDM bias correction is pre-computed artifact only; no live transformation script present.",
+    "ANOVA variance decomposition percentages are unsupported by code."
+  ],
+  "errors": []
+}

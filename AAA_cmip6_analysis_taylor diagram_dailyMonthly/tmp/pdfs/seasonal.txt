@@ -1,0 +1,669 @@
+
+===== PAGE 1 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  1 | 14 
+Seasonal Rainfall Variability in Thailand and Its Relationship with 
+ENSO: Insights from ERA5 Reanalysis 
+Wanchalerm Chanalert [a], Sahussa Peengam [a], Jindarat Pariyothon [b]* and Nattayasorn Buriwan [a]  
+[a] Division of Basic and Medical Sciences, Faculty of Allied Health Sciences, Pathumthani University, Pathum Thani 
+12000, Thailand  
+[b]  Department of Social and Applied Science, College of Industrial Technology, King Mongkut's Un iversity of 
+Technology North Bangkok, Bangkok, 10800 Thailand 
+* Author for correspondence; e-mail: jindarat.p@cit.kmutnb.ac.th 
+ORCiD: https://orcid.org/0009-0009-3158-8955, https://orcid.org/0009-0003-7913-4668, https://orcid.org/0009-
+0000-1154-4044, https://orcid.org/0009-0009-0086-4785 
+GRAPHICAL ABSTRACT 
+ 
+ 
+ABSTRACT  
+Rainfall variability in Thailand is a critical factor for agriculture, water resources, and  disaster risk 
+management. The seasonal and regional impacts of the El Niño–Southern Oscillation (ENSO), a significant contributor 
+to interannual variability, remain inadequately characterized at the national scale. This study validates ERA5 monthly 
+precipitation data against observations from Thai Meteorological Department (TMD)  stations across four 
+representative regions and examines ENSO -related rainfall  anomalies from 1995 to 2024. The validation results 
+indicate that ERA5 effectively  reproduces seasonal cycles and interannual variability, with coefficients of  
+determination ranging from 0.80 to 0.87 for annual rainfall across all stations. Overall,  ERA5 demonstrates strong 
+performance in tropical regions, underscoring its suitability  for climate analysis. The climato logical results reveal 
+significant seasonal differences,  with the rainy season contributing the majority of annual rainfall. ENSO exerts  
+significant influence on Thai rainfall patterns. El Niño events are associated with  reduced precipitation, particularly  
+during summer and monsoon seasons, whereas La Niña events enhance rainfall, especially over the northeastern and 
+central regions. Although winter impacts are less pronounced, they remain evident in the southern  peninsula. These 
+Received: 3 April 2026           Revised: 29 May 2026           Accepted: 16 June 2026           Published:  7 July 2026 
+Citation: Chanalert W., Peengam S., Pariyothon J. and Buriwan N., Seasonal rainfall variability in Thailand and its relationship 
+with ENSO: Insights from ERA5 reanalysis . Chiang Mai Journal of Science , 2026; 53(4): e2026065. DOI 
+10.12982/CMJS.2026.065. 
+Copyright: ©2026 Author (s). This is an Open Access article distributed under the term of the Creative Commons Attribution 
+4.0 International License CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). 
+===== PAGE 2 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  2 | 14 
+findings confirm that ERA5 is a suitable dataset for examining the relationship between ENSO and rainfall in Thailand. 
+They also provide valuable  information for early warning systems, agricultural planning, and water resource  
+management.  
+ 
+Keywords: ERA5, ENSO, rainfall variability, Thailand, teleconnection 
+ 
+HIGHLIGHTS 
+• ERA5 precipitation shows strong agreement with TMD observations (R² = 0.80 –0.87), confirming its reliability 
+for rainfall analysis in Thailand. 
+• ENSO significantly modulates rainfall variability: El Niño is associated with reduced rainfall, while La Niña 
+enhances precipitation, especially in central and northeastern regions.  
+• Seasonal impacts are pronounced, with strongest ENSO influence during summer and monsoon, highlighting 
+implications for agriculture and water management. 
+ 
+1. INTRODUCTION  
+ Rainfall is a key component of Thailand's climate system. It influences agricultural planting decisions, water 
+resources management, and disaster preparedness. As rice is the country’s main crop, its production relies heavily on 
+seasonal rainfall, making a gricultural output particularly sensitive to ENSO related rainfall anomalies [1]. This makes 
+farming communities highly vulnerable to rainfall variability [2]. Alterations in the timing or amount of precipitation 
+can have profound impacts. For example, droughts reduce yields and threaten food security, whereas floods damage 
+urban areas and farmland, resulting in long -term social and economic costs. Understanding rainfall variability is 
+therefore not only a scientific challenge but also a practical necessity  for advancing sustainable development and 
+enhancing climate resilience [3, 4].  
+ The El Niño Southern Oscillation (ENSO) is a major driver of interannual climate variability, exerting a strong 
+influence on the Asian monsoon, particularly in Thailand [5]. El Niño events are typically associated with reduced 
+rainfall and heightened drought risk, whereas La Niña events increase rainfall and raise the likelihood of flooding. 
+Previous studies [6 -8] have documented these teleconnections; however, most have relie d on station -based 
+observations or low-resolution reanalysis data [9-11]. Although these methods yielded important insights, they were 
+inadequate for capturing spatial asymmetries and seasonal variability. Recent studies have begun to overcome these 
+limitations by employing high resolution reanalysis and model -based assessments. For instance, ENSO has been 
+shown to significantly modulates rainfall variability across northeastern Thailand, underscoring the importance of 
+spatially explicit analyses [12]. The ENSO–rainfall relationship is inherently dynamic, with variability in strength across 
+seasons and potential shifts under changing climate conditions [3, 13 -14]. ENSO is one of the dominant modes 
+influencing Thailand's year to year rainfall variability, alt hough other climate factors also play a role. Additionally, 
+these climate modes significantly modulate regional ocean dynamics, such as the South Java Current (SJC), which 
+exhibits varying degrees of sensitivity to IOD and ENSO across different seasons [15 ,16].  Similar findings were 
+reported by [17], who demonstrated that concurrent ENSO -IOD events can modify the intensity and spatial 
+distribution of monsoon rainfall across South and Southeast Asia. Previous studies have suggested that the Madden –
+Julian Os cillation (MJO) may contribute to sub -seasonal rainfall variability and intra -seasonal rainfall extremes in 
+Southeast Asia. Despite notable progress, significant gaps remain. Few studies have validated high -resolution 
+reanalysis products such as ERA5 (0.25°) for Thailand, and even fewer have systematically examined ENSO's seasonal 
+and regional impacts on rainfall [18,19]. As a result, it remains unclear how effectively reanalysis data represent 
+rainfall variability for applications in climate risk assessment and adaptation planning.  
+ This study addresses these gaps by validating ERA5 monthly precipitation against long -term records from four 
+Thai Meteorological Department (TMD) stations representing the country’s main regions, using a 30 -year dataset 
+(1995–2024). In addition, the study further examines ENSO related precipitation anomalies across Thailand’s seasonal 
+cycle. This integrated approach offers a comprehensive understanding of the ENSO–rainfall relationship over time and 
+space, highlighting regional differences and extreme events such as the 2011 floods and the 2015–2016 drought. The 
+findings provide both scientific contributions and practical insights for agriculture, water resource management, and 
+disaster risk reduction in Thailand. 
+ 
+ 
+ 
+ 
+===== PAGE 3 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  3 | 14 
+2. MATERIALS AND METHODS  
+2.1 Study Area  
+ Thailand is located in mainland Southeast Asia, extending from 4° to 21°N latitude and 96° to 106°E longitude, 
+and is strongly influenced by the Asian monsoon system. During the Southwest Monsoon (May to October), Th ailand 
+receives substantial rainfall, particularly along the western coast and eastern shores. In contrast, the Northeast 
+Monsoon (November to February) generally brings dry conditions across most of the country, although the southern 
+peninsula continues t o experience rainfall due to its coastal location. This monsoon -driven climate regime makes 
+Thailand an important setting for examining rainfall variability and its linkages with large -scale climate drivers. 
+ For ERA5 precipitation validation, four Thai Me teorological Department (TMD) stations were selected to 
+represent Thailand’s major climatic regions: Chiang Mai (18.77°N, 98.97°E) for the northern highlands, Ubon 
+Ratchathani (15.24°N, 104.87°E) for the northeastern plateau, Bangkok (13.66°N, 100.61°E) fo r the central plain, and 
+Phuket (8.10°N, 98.31°E) for the southern peninsula (Figure 1). These stations were selected because they provide 
+long-term, continuous rainfall observations and broad geographical coverage across Thailand’s principal climatic 
+zones. The objective of the validation was to assess the capability of ERA5 in reproducing large -scale regional rainfall 
+characteristics under different climatic regimes rather than localized precipitation variability. Although individual 
+stations may not fully represent subregional heterogeneity, including urban influences and local topographic effects, 
+the selected stations provide a practical basis for evaluating ERA5 performance at the national scale. The ERA5 product 
+is widely utilized in climate studies d ue to its high spatial resolution, although its precipitation performance requires 
+careful regional evaluation, particularly in tropical monsoon regions [20].  Although additional TMD stations are 
+available, the present study prioritized representative long -term stations with continuous observations to ensure 
+temporal consistency in ERA5 validation. 
+ 
+ 
+ 
+Figure 1. Location of the four Thai Meteorological Department (TMD) stations used in this study: Chiang Mai (northern 
+highlands), Ubon Ratchathani (northeastern plateau), Bangkok (central plain), and Phuket (southern peninsula).  
+ 
+ 
+ 
+ 
+
+===== PAGE 4 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  4 | 14 
+2.2 Data and Sources 
+ This study employed three primary datasets. The ERA5 reanalysis, a state-of-the-art product developed by the 
+European Centre for Medium -Range Weather Forecasts (ECMWF), provided monthly precipitation data. ERA5 offers 
+global atmospheric variables at a spatial resolution of 0.25° × 0.25° and was utilized in this study for the period   1995–
+2024 [21]. The dataset integrates multiple observational sources, including satellites, ground stations, ships, and 
+aircraft, into a sophisticated numerical weather predic tion system, thereby providing a geographically coherent and 
+temporally continuous record suitable for climatological analysis. To evaluate the accuracy of rainfall estimates from 
+ERA5, monthly rainfall data from ground -based weather stations operated by t he Thai Meteorological Department 
+(TMD) were utilized. Four representative stations were selected to capture Thailand’s major climatic regions: Chiang 
+Mai in the northern highlands, Ubon Ratchathani in the northeastern plateau, Bangkok in the central plain, and Phuket 
+in the southern peninsula. These locations were chosen because they reflect distinct rainfall regimes across the 
+country, thereby providing suitable benchmarks for validating and confirming ERA5 estimates.  
+ 
+ 
+ 
+Figure 2. Oceanic Niño Index (ONI) anomalies during 1995–2024. The red dashed line represents the El Niño threshold 
+(+0.5 °C), and the blue dashed line indicates the La Niña threshold (−0.5 °C). Positive anomalies above the red line 
+correspond to El Niño events (shaded in red), while neg ative anomalies below the blue line indicate La Niña events 
+(shaded in blue). 
+ 
+ The Oceanic Niño Index (ONI), which measures sea surface temperature anomalies (SSTAs) in the Niño 3.4 
+region (5°S–5°N, 120°W–170°W), was employed to identify ENSO phases. Acco rding to NOAA’s definition, an El Niño 
+event is characterized by five consecutive overlapping three-month running means of ONI values at or above +0.5 °C, 
+while a La Niña event is defined by values at or below −0.5 °C [22]. This threshold -based approach ensures that only 
+persistent warm or cool episodes are classified, while short -term fluctuations are excluded. For this study, ONI data 
+covering the period from 1995 to 2024 were obtained from NOAA’s Climate Monitoring website (National Centers for 
+Environmental Information (NCEI), n.d., https://www.ncei.noaa.gov/access/monitoring/enso/sst/). The ONI index for 
+this period is presented in Figure 2. Red shading indicates warm-phase events (El Niño), whereas blue shading denotes 
+cool-phase events (La Niña). Nota ble strong El Niño events occurred in 1997 –1998 and 2015 –2016, while strong La 
+Niña events were recorded in 1999–2000 and 2010–2011. These episodes serve as the basis for the composite rainfall 
+anomaly analysis discussed in Section 4.2.  ENSO classification  was performed separately for each season using 
+seasonal ONI values corresponding to the study periods (summer, rainy, and winter). Years with transitions between 
+ENSO phases were classified according to the prevailing seasonal ONI condition rather than an  annual classification, 
+thereby minimizing ambiguity associated with mid-year phase changes. 
+ 
+2.3 Analytical Framework 
+ The study examined climatological trends and the influence of ENSO on Thai precipitation across three 
+standard seasons, namely summer (February –May), rainy season (June –October), and winter (November –January), 
+
+===== PAGE 5 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  5 | 14 
+in line with recognized meteorological classif ications [3]. These seasonal classifications follow the operational 
+meteorological framework of the TMD and are widely used in climatological studies of Thailand because they better 
+reflect the country’s monsoon -driven rainfall regime than conventional bor eal seasonal classifications (e.g., DJF, 
+MAM, JJA, SON). ERA5 data spanning 1995 to 2024 were employed to examine long-term climate patterns. Composite 
+analysis was conducted to assess the impacts of El Niño and La Niña on rainfall. The Oceanic Niño Index (ONI) was 
+used to classify each year into one of three phases: El Niño, La Niña, or neutral. Rainfall anomalies for each ENSO 
+phase were calculated relative to neutral years and expressed in both absolute (millimeters) and percentage terms. 
+Composite analy sis was selected due to its widespread use and proven efficacy in climate science for isolating 
+relatively weak signals from background variability and for investigating the broader effects of teleconnections 
+[23,24]. 
+ To evaluate the statistical significa nce of ENSO -related precipitation anomalies, a one -sample t -test was 
+applied to precipitation anomaly fields relative to neutral -year climatology. Rainfall anomalies were calculated by 
+subtracting the neutral -year mean from El Niño and La Niña composites. Statistical significance was assessed at the 
+95% confidence level (p < 0.05). Significant grid cells are indicated by black stippling in the composite anomaly maps.  
+ 
+3. VALIDATION OF ERA5 PRECIPITATION DATA 
+ To assess the reliability of ERA5 precipitation for climatological and ENSO related analyses, the dataset was 
+validated against monthly rainfall records from four representative Thai Meteorological Department (TMD) stations: 
+Chiang Mai, Ubon Ratchathani, Bangkok, and Phuket [25]. These stations represen t Thailand’s principal climatic 
+regimes and therefore provide a robust benchmark for evaluating ERA5 performance. The station observations were 
+employed exclusively for validation, while the subsequent ENSO analysis was conducted using gridded ERA5 data 
+across the entire country. Three statistical indicators were applied root mean square error (RMSE), mean bias error 
+(MBE), and the coefficient of determination (R²) defined as follows: 
+ 
+      RMSE =  √
+1
+n ∑ (pE − pO)2n
+i=1      (1) 
+ 
+ 
+      MBE =  
+1
+n ∑ (pE − pO)n
+i=1       (2) 
+ 
+ 
+      R2 =  
+(∑ (pE−E̅)(pO−O̅)n
+i=1 )
+2
+∑ (pE−E̅)2 ∑ (pO−O̅)2n
+i=1
+n
+i=1
+     (3) 
+ 
+where pO denote observed rainfall and pE represent ERA5 estimates, O̅ and E̅ are their respective means, and 𝑛 is the 
+number of samples. These validation metrics have been extensively applied in climatological and hydrological model 
+evaluations [26-29]. In addition, the statistical significance of the relationship between ERA5 precipitation and station 
+observations was evaluated using Pearson correlation analysis. The significance of correlation c oefficients was 
+assessed using Student’s t-test, and correlations were considered statistically significant at the 95%  confidence level 
+(p < 0.05). Most seasonal and annual correlations were statistically significant, although some winter correlations did 
+not reach the 95% confidence level. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 6 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  6 | 14 
+ 
+ 
+ 
+Figure 3.  Scatter plots comparing monthly observed rainfall (TMD stations) and ERA5 precipitation for four 
+representative locations in Thailand (Bangkok, Chiang Mai, Ubon Ratchathani, and Phuket) during 1995–2024. Results 
+are presented for annual, winter, summer, and rainy seasons. 
+ 
+ The validation results (Figure 3 and Table 1) indicate that ERA5 effectively reproduces observed rainfall 
+variability. Annual R² values range from 0.80 to 0.87, with regression slopes between 0.72 and 0.79. These results 
+confirm that ERA5 reliably captures both seasonal and interannual precipitation variations across Thailand, consistent 
+with findings from other evaluations of ERA5 performance in monsoon -affected regions [30, 31]. Consistent biases 
+remain in the dataset: ERA5 tends to un derestimate rainfall in Bangkok, Ubon Ratchathani, and Phuket, particularly 
+during the rainy season, whereas in Chiang Mai it slightly overestimates rainfall, especially during summer and the 
+rainy season. Examining the seasonal patterns reveals distinct t rends. During the rainy season (June –October), the 
+model predictions align most closely with the observed data, with R² values reaching 0.90 in Ubon Ratchathani and 
+0.87 in Chiang Mai. These results indicate that ERA5 effectively captures large -scale monso on rainfall; however, it 
+performs less accurately in representing extreme precipitation events, where RMSE values often exceed 120 mm and 
+MBE values show large absolute magnitudes.  Previous studies have shown that ERA5  may exhibit a general wet bias 
+in tro pical regions while simultaneously underestimating extreme precipitation intensity, indicating that these 
+represent distinct aspects of model performance rather than contradictory behavior. The observed bias 
+characteristics suggest that ERA5 generally perf orms well in representing broad seasonal rainfall variability but may 
+exhibit reduced accuracy during periods of intense precipitation. Larger RMSE and MBE values likely reflect challenges 
+in reproducing localized rainfall intensity and short -term precipit ation extremes, which are common sources of 
+uncertainty in gridded reanalysis products. Nevertheless, the consistently strong correlations across stations indicate 
+that ERA5 remains suitable for investigating large -scale rainfall variability and ENSO -related precipitation patterns 
+over Thailand. This underestimation is particularly evident in coastal and northeastern regions, notably in Phuket and 
+Ubon Ratchathani [20, 32]. Conversely, ERA5 exhibits lower skill during the winter months (November–January), with 
+R² values decreasing to 0.41 in Ubon Ratchathani and 0.60 in Chiang Mai. This weaker winter performance may partly 
+
+===== PAGE 7 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  7 | 14 
+reflect the influence of sub-seasonal climate variability, including the Madden –Julian Oscillation (MJO), as suggested 
+by previous studies [33]. Since MJO activity was not explicitly examined in this study, its role should be interpreted as 
+a contextual explanation rather than a direct finding.  This interpretation is consistent with previous studies  
+highlighting the difficulty of reanalysis  datasets in resolving localized convective storms and northeast monsoon 
+surges [34]. Nevertheless, RMSE values are lowest in winter (<50 mm), primarily because overall precipitation during 
+this season is limited. 
+  
+   Table 1. Validation statistics (RMSE, MBE, R²) of ERA5 precipitation against TMD observations (1995 –2024). 
+ 
+Stations Seasons RMSE (mm) MBE (mm) R2 
+Chiang Mai Annual 67.80 3.78 0.80 
+Winter 33.25 -5.74 0.60 
+Summer 53.73 -21.31 0.86 
+Rainy 88.15 27.29 0.87 
+Bangkok Annual 89.16 -41.96 0.85 
+Winter 39.95 -11.47 0.72 
+Summer 59.17 -19.14 0.85 
+Rainy 121.47 -75.77 0.86 
+Ubon Ratchathani Annual 82.79 -19.86 0.87 
+Winter 26.60 5.50 0.41 
+Summer 53.20 -7.55 0.86 
+Rainy 113.77 -41.58 0.90 
+Phuket Annual 118.19 -43.57 0.85 
+Winter 79.81 -3.09 0.77 
+Summer 77.32 -17.33 0.87 
+Rainy 157.02 -87.68 0.91 
+All stations Annual 91.64 -25.59 0.84 
+Winter 50.89 -3.82 0.73 
+Summer 61.74 -16.30 0.85 
+Rainy 122.60 -44.43 0.84 
+RMSE, MBE, and R² are calculated following the definitions in Section 3. 
+ 
+ Regional contrasts further illustrate ERA5 biases. These regional differences likely reflect the varying ability of 
+ERA5 to reproduce precipitation across contrasting climatic settings. In particular, rainfall associated with coastal 
+convection, localized monsoon surges, and intense short -duration precipitation may contribute to larger biases in 
+coastal and tropical regions such as Phuket, whereas broader monsoon -driven rainfall tends to be reproduced more 
+consistently. In Bangkok, annual rainfall amounts are often inaccurately estimated, with a mean bias of approximately 
+−41.96 mm. Chiang Mai demonstrates strong performance during the rainy season (R² = 0.87) but considerably weaker 
+skill in winter. The slight overestimati on observed in Chiang Mai may reflect the known wet bias of ERA5 in 
+mountainous tropical environments. Differences between point -based station observations and the 0.25° gridded 
+ERA5 representation, together with orographic enhancement within the ERA5 grid  cell, may contribute to this 
+discrepancy. Ubon Ratchathani exhibits the strongest overall agreement, with an R² value of 0.90 during the rainy 
+season, although this is accompanied by substantial overestimation. In contrast, Phuket shows the largest season al 
+errors, with an RMSE of 157 mm during the rainy season, indicating that ERA5 struggles to capture extreme rainfall 
+events associated with monsoon surges and tropical storms. These differences are consistent with previous studies 
+on ERA5 and ERA5 -Land, which have noted that although these datasets provide reliable climate information, bias 
+adjustments are necessary when applying them to hydrological or impact studies [19, 35].  
+ In summary, ERA5 is a valuable dataset for analyzing climatological rainfall p atterns and ENSO related 
+variability in Thailand. Its performance is seasonally dependent highest during the rainy season and lowest in winter 
+and spatially variable, with slight overestimation in the northern region (Chiang Mai) and underestimation in the  
+central, northeastern, and southern regions. In this study, ERA5 was primarily employed to examine rainfall variability 
+and ENSO related anomalies, for which its relative performance is adequate without bias correction. Nevertheless, 
+the presence of syste matic biases indicates that bias adjustment methods (e.g., quantile mapping) are essential for 
+===== PAGE 8 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  8 | 14 
+applications requiring absolute rainfall estimates, such as hydrological modeling, flood risk assessment, and water 
+balance analysis. 
+ 
+4. RESULTS AND DISCUSSION 
+4.1 Rainfall Climatology over Thailand 
+ The 30 years ERA5 climatology (1995 –2024) reveals that rainfall in Thailand is highly seasonal and exhibits 
+substantial spatial variability across the country. This pattern is primarily driven by the Asian monsoon sy stem, while 
+geographical and maritime influences also play important roles. Figure 4 presents the spatial distribution of annual 
+and seasonal precipitation, and Table 2 summarizes the key statistics for all variables included in the dataset. Most 
+areas receiving more than 1,400 – 1,600 mm of annual rainfall are located along the Tenasserim mountain range on 
+both the western and eastern coasts. These spatial patterns are consistent with the influence of southwest monsoon 
+circulation and regional topographic effects reported in previous studies.  The northern highlands also experience 
+substantial annual rainfall, as the region’s complex terrain intensifies convective activity. Conversely, the central plain 
+and northeastern plateau are considerably drier, receiv ing only about 1,000 –1,200 mm of rainfall annually, as the 
+surrounding mountain ranges create a pronounced rain shadow effect. In contrast, the southern peninsula 
+experiences persistently high rainfall throughout the year due to its exposure to both the An daman Sea and the Gulf 
+of Thailand. This spatial pattern is consistent with findings from terrestrial analyses [6, 8] and recent satellite-derived 
+climatologies [5, 36]. Seasonal variations are pronounced. During winter, most of Thailand receives substanti ally less 
+rainfall, typically below 200 mm in total, as the northeast monsoon transports cool, dry continental air masses. 
+However, the southern region, particularly along the Gulf of Thailand coast, continues to experience elevated rainfall 
+because moistu re is advected from the South China Sea a mechanism consistent with [7], who highlighted the 
+influence of northeast monsoon surges in sustaining wet conditions in the far south.  
+ From February to May, the climate in Thailand undergoes a transitional period . In the northern and 
+northeastern regions, rainfall remains modest (typically below 400 mm) but begins to increase as the southwest 
+monsoon approaches. During this time, most precipitation still falls along the coastal areas, while the southern 
+peninsula continues to experience higher rainfall throughout the year due to its constant exposure to maritime 
+influences. Recent climatological studies [37] have identified similar transitional trends. The rainy season exhibits the 
+most pronounced precipitation, wi th totals exceeding 1,200 to 1,600 mm in several regions. This peak occurs when 
+the southwest monsoon becomes fully established, transporting abundant moisture from the Andaman Sea and the 
+Indian Ocean across mainland Thailand. Heavy rainfall is particular ly common in northern and western Thailand, as 
+well as along the eastern seaboard, where orographic uplift further intensifies precipitation. These findings are 
+consistent with satellite -based studies [5, 36], which demonstrated how monsoon circulation int eracts with 
+orographic features to produce substantial rainfall. During this period, more than 70% of Thailand’s annual 
+precipitation occurs, underscoring the monsoon’s critical role in the nation’s hydrological cycle.  
+ 
+ 
+ 
+Figure 4.  Spatial distribution of mean annual and seasonal rainfall over Thailand during 1995 –2024 from ERA5 
+reanalysis. Panels show summer (a), rainy (b), winter (c), and annual rainfall (d). 
+ 
+ 
+ 
+ 
+
+===== PAGE 9 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  9 | 14 
+ 
+Table 2. Seasonal and annual precipitation in Thailand under ENSO phases (1995–2024). 
+Season/Annual El Niño (mm) Neutral (mm) La Niña (mm) 
+Summer (Feb–May) 278.1 379.2 501.7 
+Rainy (Jun–Oct) 1207.2 1351.0 1331.4 
+Winter (Nov–Jan) 148.1 125.0 145.6 
+Annual Total 1792.8 1817.3 1918.2 
+ 
+ Overall, the climatological analysis reveals a monsoon dominated rainfall regime characterized by a prolonged 
+dry season during winter and early summer, followed by an intense rainy season that contributes the majority of 
+annual precipitation. By integrating high -resolution reanalysi s data with ground -based observations, the present 
+results not only confirm the fundamental seasonal and spatial characteristics of Thailand’s rainfall but also highlight 
+the mechanisms monsoonal circulation, orographic lifting, coastal orientation, and ra in-shadow effects that govern 
+its variability. The agreement between ERA5 data and ground -based observations, as demonstrated in Section 3, 
+reinforces the reliability of ERA5 in capturing Thailand’s spatial and seasonal rainfall patterns. This baseline 
+climatological information, derived from ERA5 and validated against station data, provides a robust foundation for 
+analyzing interannual variations and assessing the influence of ENSO on rainfall across different seasons. Having 
+established the baseline climatology of Thailand’s rainfall, the subsequent analysis explores how ENSO phases modify 
+these seasonal and spatial patterns, with particular emphasis on the asymmetric impacts of El Niño and La Niña events. 
+ 
+4.2 ENSO Influence on Rainfall over Thailand 
+ ENSO exerts a profound influence on rainfall variability across Thailand, although its magnitude and spatial 
+manifestation vary by season. Composite anomaly maps (Figure 5) and domain averaged statistics reveal the 
+asymmetric impacts of El Niño and La Niña on precipitation patterns, reinforcing ENSO’s important role in modulating 
+interannual hydrological variability in the region. 
+ Summer exhibits a strong ENSO influence, with El Niño and La Niña events generating contrasting rainfall 
+anomalies. During El Niño summers, widespread rainfall deficits exceeding −200 mm are observed, whereas La Niña 
+summers produce surpluses of +200 to +300 mm (Figure 5a). Statistically significant anomalies are widespread across 
+northern, western, and southern Thailand, indicati ng a robust ENSO influence during the summer season. This 
+pronounced asymmetry underscores ENSO’s critical role in determining pre -monsoon water availability and has 
+important implications for agricultural planning and water-resource management. These findings are consistent with 
+earlier station-based analyses [6, 38] and more recent regional assessments [5].  
+During the rainy season, the fully developed southwest monsoon is strongly modulated by ENSO. In El Niño years, 
+rainfall across much of Thailand decre ases substantially, resulting in widespread deficits exceeding −200 mm (Figure 
+5b). By contrast, La Niña intensifies rainfall, particularly in the central and northeastern regions and along the eastern 
+seaboard, with anomalies exceeding +200 mm. Although d omain-averaged rainfall during La Niña years is slightly 
+lower than neutral conditions (Table 2), spatial composites reveal pronounced regional rainfall enhancement, 
+particularly across central and northeastern Thailand. This discrepancy indicates that spa tially heterogeneous 
+responses may be masked in nationwide averages. Significant anomalies are observed across broad areas of Thailand, 
+suggesting that ENSO exerts a widespread influence during the rainy season, affecting large parts of Thailand despite 
+regional variability in anomaly magnitude. These findings highlight that ENSO exerts its most pronounced and spatially 
+extensive influence during the rainy season. In winter, ENSO’s influence is comparatively weaker and more localized. 
+Most of Thailand remains relatively dry regardless of ENSO phase, although the southern peninsula exhibits a distinct 
+signal: La Niña enhances rainfall along the Gulf of Thailand coast, whereas El Niño suppresses it (Figure 5c). Statistical 
+significance is spatially limited dur ing winter, indicating a weaker and less consistent ENSO signal compared with 
+summer and rainy seasons. This regional effect aligns with the northeast monsoon’s interaction with ENSO related 
+anomalies [3]. At the annual scale, ENSO’s contrasting impacts re main pronounced. El Niño years are characterized 
+by widespread negative rainfall anomalies, whereas La Niña years exhibit positive anomalies over much of Thailand 
+(Figure 5d). Significant annual anomalies are particularly evident across northern, western, and central Thailand, 
+reflecting the cumulative seasonal influence of ENSO on annual rainfall totals. This cumulative pattern highlights ENSO 
+as an important large-scale influence on Thailand’s annual rainfall totals. Collectively, these findings demonstrate that 
+ENSO exerts a pronounced seasonal influence on Thailand’s rainfall. Its impacts vary substantially, with El Niño 
+typically associated with reduced rainfall and La Niña increasing rainfall across many regions of Thailand. These 
+===== PAGE 10 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  10 | 14 
+contrasting effects p resent distinct challenges for agriculture, water -resource management, and disaster 
+preparedness across the country. 
+ 
+ 
+ 
+Figure 5.  Composite precipitation anomalies associated with ENSO phases across Thailand relative to neutral 
+conditions. Panels show summer (a), rainy (b), winter (c), and annual precipitation anomalies  (d). Within each panel, 
+the upper map corresponds to La Niña conditions and the lower map corresponds to El Niño conditions. Positive 
+anomalies (blue shading) indicate wetter-than-normal conditions, whereas negative anomalies (red shading) indicate 
+drier-than-normal conditions. Black stippling denotes statistically significant precipitation anomalies at the 95% 
+confidence level (p < 0.05) based on one-sample t-tests relative to neutral-year climatology. 
+ 
+ Although ENSO is the primary focus of this study, other climate modes such as the IOD may also contribute to 
+rainfall variability in Thailand through interactions with ENSO, as suggested by previous studies [15 –17]. However, 
+these interactions were not explicitly examined in the present analysis and should be investigated in future work.  
+ The comparatively weaker ERA5 performance during winter may partly reflect the influence of sub -seasonal 
+climate variability, including the Madden –Julian Oscillation (MJO), as suggested by previous studies [33]. Since MJO 
+activity was not explicitly analyzed in this study, its contribution should be interpreted as a contextual explanation 
+rather than a direct finding. Future studies incorporating sub -seasonal climate variability may further improve 
+understanding of winter rainfall behavior in Thailand. These results indicate that ENSO exerts the most significant 
+influence on Thailand ’s rainfall patterns throughout the year. El Niño  is typically associated wi th reduced rainfall, 
+whereas La Niña is associated with increased rainfall across many regions of Thailand. These contrasting effects pose 
+considerable challenges for farmers, water resource managers, and disaster-preparedness authorities. The validation 
+results presented in Section 3 demonstrate that ERA5 effectively captures both seasonal cycles and interannual 
+variability, confirming its reliability for climate assessment applications. From a practical perspective, these findings 
+ 
+ (a) 
+ (b) 
+ (c) 
+ (d) 
+===== PAGE 11 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  11 | 14 
+highlight the importance of integrating multi scale climate information particularly ENSO indicators into early warning 
+systems to strengthen Thailand’s climate resilience. 
+ 
+5. CONCLUSIONS 
+ This research advances previous validation and analytical frameworks by providing a comprehensive evaluation 
+of Thailand’s rainfall climatology and ENSO-related variability over the past three decades. The analysis examines the 
+reliability of ERA5 precipitation data and quantifies the season-specific impacts of ENSO on regional rainfall patterns. 
+These results enhance our understanding of ERA5’s performance as a climate dataset, clarify seasonal and spatial 
+rainfall variability in Thailand, and support climate risk management by characterizing ENSO -related hydroclimatic 
+fluctuations. Validation against four representative Thai Meteorological Department (TMD) stations indicates that 
+ERA5 effectively reproduces both the seasonal cycle and interannual variability of rainfall with moderate to high 
+accuracy. Ubon Ratchathani exhibited the highest agreement, with annual R² reaching 0.87, corresponding to regions 
+where monsoon circulation is most pronounced. In contrast, the southern peninsula showed lower agreement due to 
+complex coastal and orographic influences. Overall, biases remained minor relative  to seasonal totals, reaffirming 
+ERA5’s suitability for climatological assessments and ENSO teleconnection analyses in Thailand.  
+ The 30 years climatological baseline derived from ERA5 indicates that Thailand’s rainfall is predominantly 
+governed by the monsoon season. More than 70% of the annual precipitation occurs during the rainy season, which 
+follows a prolonged dry period spanning winter and early summer. Distinct spatial contrasts were clearly represented, 
+with enhanced rainfall along the Tenasserim Range and the eastern seaboard resulting from orographic uplift, and 
+reduced totals across the central plain and northeastern plateau due to rain -shadow effects. These features 
+correspond closely with both ground -based observations and satellite-derived datasets, confirming ERA5’s reliability 
+for regional climate analysis. The El Niño Southern Oscillation (ENSO) emerged as one of the dominant modes 
+influencing interannual rainfall variability, with El Niño events generally associated with decreased precipit ation, 
+particularly during the summer and rainy seasons. Conversely, La Niña events produced enhanced rainfall, particularly 
+over the northeastern, central, and southern peninsular regions. Although annual totals exhibited relatively modest 
+differences, seasonal anomalies were more pronounced: Table 2 indicates that summer rainfall during La Niña years 
+was substantially higher than during El Niño years, reflecting strong seasonal ENSO modulation, while rainy -season 
+deficits during El Niño exceeded −200 mm a cross much of the country. Winter effects were comparatively weaker 
+overall but remained evident in the southern peninsula, where La Niña enhanced rainfall associated with the 
+northeast monsoon. By integrating detailed meteorological data with observational evidence, this study advances the 
+understanding of how ENSO influences rainfall dynamics across Thailand. The results reaffirm well -established ENSO 
+teleconnections and add value by providing a seasonally explicit, countrywide perspective on rainfall variability across 
+Thailand. These contributions strengthen the empirical foundation for applying ENSO related climate information in 
+Thailand and across Southeast Asia.  Despite the strengths of the present analysis, several limitations should be 
+acknowledged. ERA5 validation was conducted using four representative TMD stations selected to reflect Thailand ’s 
+principal climatic regions and provide long-term observational consistency. Although this approach supports regional-
+scale assessment, localized rainfall variability associated with urbanization, topographic complexity, and mesoscale 
+atmospheric processes may not be fully represented by a single station within each region. Future studies 
+incorporating denser observational networks would further improve ERA5  evaluation across Thailand.  In practical 
+terms, the study underscores the importance of integrating ENSO patterns into agricultural planning, water -resource 
+management, and disaster preparedness strategies. Seasonal forecasts that account for ENSO variabi lity can help 
+farmers anticipate dry spells, enable water managers to regulate reservoirs more effectively, and allow policymakers 
+to issue timely flood warnings. Thailand can enhance its preparedness for climate change and safeguard food security, 
+economic stability, and community wellbeing. These findings are directly applicable to weather-forecasting operations 
+and can inform national strategies for climate change adaptation. Moreover, the results provide deeper insight into 
+ENSO’s influence on rainfall across Southeast Asia, highlighting the value of regional collaboration in managing climate 
+risks and strengthening adaptive capacity. 
+ 
+ACKNOWLEDGEMENTS 
+ This research was financially supported by Pathumthani  University (PTU), Thailand. The authors gratefully 
+acknowledge the university’s funding and institutional support, which made this study possible. We also extend our 
+sincere appreciation to the Thai Meteorological Department (TMD) for providing rainfall s tation data and to the 
+European Centre for Medium-Range Weather Forecasts (ECMWF) for granting access to the ERA5 reanalysis dataset.  
+ 
+===== PAGE 12 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  12 | 14 
+AUTHOR CONTRIBUTIONS 
+ Wanchalerm Chanalert  was responsible for the conceptualization, methodology, data curation, all data 
+analysis, and the writing of the original draft preparation. Jindarat Pariyothon  (Corresponding Author) was 
+responsible for the overall conceptualization, methodology review, writing review and editing, and supervision of the 
+research. Sahussa Peengam handled software utilization and data visualization. Nattayasorn Buriwan performed the 
+data validation and formal analysis. All authors read and approved the final manuscript.  
+ 
+CONFLICT OF INTEREST STATEMENT 
+ The authors declare that they have no conflict of interest/competing interests.  
+ 
+DECLARATION OF USE OF GENERATIVE AI 
+ The authors used ChatGPT (Open AI) to improve the manuscript's English language and clarity. All AI-generated 
+content was reviewed and edited by the authors, who take full responsibility for the final text.  
+ 
+FUNDING 
+ This research was financially supported by  Pathumthani University under R esearch (Grant Agreement No. 
+RIC67006). 
+ 
+REFERENCES 
+[1] Limsakul A. and Singhruck P., Impacts of El Niño -Southern Oscillation (ENSO) on rice production in Thailand 
+during 1961–2016. Environment and Natural Resources Journal , 2019; 17(4): 30–42. DOI 
+10.32526/ennrj.17.4.2019.29. 
+[2] Palakit K., Lumyai P. and Duangsathaporn K., Influence of climate on the growth of teak ( Tectona grandis Linn. 
+f.) at a non -native distributed site in northeastern Thailand. Chiang Mai Journal of Science , 2019; 46(6): 1113-
+1128. 
+[3] Limsakul A. and Singhruck P., Long -term trends and variability of total and extreme precipitation in Thailand. 
+Atmospheric Research, 2016; 169: 301–317. DOI 10.1016/j.atmosres.2015.10.015. 
+[4] Tammadid W., Nantasom K., Sirksiri W., Vanitchung S., Promjittiphong C., Limsakul A., et al., Future projections 
+of precipitation and temperature in northeast, Thailand using bias-corrected global climate models. Chiang Mai 
+Journal of Science, 2023; 50(4): e2023041. DOI 10.12982/CMJS.2023.041. 
+[5] Xu L., Zhang T., Wang A., Yu W. and Yang S., Variations of summer extreme and total precipitation over Southeast 
+Asia and associated  atmospheric and oceanic features.  Journal of Climate , 2022;  35(19): 6395 -6409. DOI 
+10.1175/JCLI-D-21-1020.1. 
+[6] Singhrattna N., Rajagopalan B., Clark M. and Kumar K., Interannual and interdecadal variability of Thailand 
+summer monsoon rainfall. Journal of Climate, 2005; 18(11): 1697–1708. DOI 10.1175/JCLI3364.1. 
+[7] Räsänen T.A., Männikkö M., Ihalainen M. and Kummu M., On the spatial and temporal variability of ENSO 
+precipitation and drought teleconnection in mainland Southeast Asia. Climate of the Past, 2016; 12(9): 1889–
+1905. DOI 10.5194/cp-12-1889-2016. 
+[8] Limsakul A., Limjirakan S. and Suthamanuswong B., Spatio -temporal changes in total annual rainfall and the 
+annual number of rainy days in Thailand. Applied Environmental Research, 2007; 29(2): 1–21. 
+[9] Chansaengkrachang N. and Khom-ngoen T., The influence of ENSO on rainfall variability in Thailand. Thai Journal 
+of Agricultural Science, 2011; 44(2): 101–110. 
+[10] Srisuwan A. and Suksamran S., An analysis of relationship between rainfall and ENSO events in Thailand. Journal 
+of Meteorological and Hydrological Research in Thailand, 2014; 9(1): 45-56. 
+[11] Nanthachai T. and Pongsakul P., Influence of El Niño-Southern Oscillation on precipitation variability in northeast 
+Thailand. Journal of Sustainable Energy & Environment, 2020; 5: 37–42. 
+[12] De Silva Y.K., Babel M.S., Abatan A.A., Khadka D. and Shanmugasundaram J., Evaluation of ENSO in CMIP5 and 
+CMIP6 models and its significance in the rainfall in northeast Thailand. Theoretical and Applied Climatology , 
+2023; 154(3): 881-906. DOI 10.1007/s00704-023-04585-z. 
+[13] Abatan A.A., Collins M., Babel M.S., Khadka D. and De Silva Y.K., Sub-seasonal to seasonal drivers of dry extreme 
+rainfall events over northeast Thailand.  Frontiers in Climate , 2023;  4: 1031226.  DOI 
+10.3389/fclim.2022.1031226. 
+===== PAGE 13 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  13 | 14 
+[14] Lee R.W., Woolnough S.J., Charlton-Perez A.J. and Vitart F., ENSO modulation of MJO teleconnections to the 
+North Atlantic and Europe.  Geophysical Research Lett ers, 2019; 46(22): 13535 -13545. DOI 
+10.1029/2019GL084683. 
+[15] Wijaya Y.J., Wisha U.J., Rejeki H.A. and Ismunarti D.H., Variability of the South Java Current from 1993 to 2021, 
+and its relationship to ENSO and IOD events.  Asia-Pacific Journal of Atmospheri c Sciences, 2024; 60(1): 65-79. 
+DOI 10.1007/s13143-023-00336-2. 
+[16] Devkota B., Manomaiphiboon K., Trinuruk P., Trang H.T. and Paton C., Offshore winds in the Gulf of Thailand: 
+Climatology, wind energy potential, stochastic persistence, tropical cyclone influence, and teleconnection. Asia-
+Pacific Journal of Atmospheric Sciences, 2022; 58(3): 315-331. DOI 10.1007/s13143-021-00259-w. 
+[17] Prasanna K., Chowdary J.S., Naidu C.V., Gnanaseelan C. and Parekh A., Diversity in ENSO remote connection to 
+northeast mo nsoon rainfall in observations and CMIP5 models. Theoretical and Applied Climatology , 2020; 
+141(3–4): 827–839. DOI 10.1007/s00704-020-03208-1. 
+[18] Gebre T., Abraha Z., Zenebe A. and Zeweld W., Precipitation variability and its teleconnection with the global SST 
+and ENSO indices in the food -insecure rural areas of Tigray. Theoretical and Applied Climatology , 2024; 155(3): 
+1699-1711. DOI 10.1007/s00704-023-04717-5. 
+[19] Xie Y., Wang J., Wan X. and Lyu Y., Assessing the monthly performance of daily precipitation products over 
+Southeast Asia using the gauge -based analysis.  Plos One, 2025;  20(3): e0319477.  DOI 
+10.1371/journal.pone.0319477. 
+[20] Lavers D.A., Simmons A., Vamborg F. and Rodwell M.J., An evaluation of ERA5 precipitation for climate 
+monitoring. Quarterly Journal of the Royal Meteorological Society , 2022; 148(748): 315 2–3165. DOI 
+10.1002/qj.4351. 
+[21] Hersbach H., Bell B., Berrisford P., Hirahara S., Horányi A., Muñoz -Sabater J., et al., The ERA5 global reanalysis. 
+Quarterly Journal of the Royal Meteorological Society, 2020; 146(730): 1999–2049. DOI 10.1002/qj.3803. 
+[22] Lindsey R. , Climate variability: Oceanic Niño Index. NOAA Climate.gov.; Available at: www.climate.gov/news -
+features/understanding-climate/climate-variability-oceanic-nino-index. (Accessed on 24 June 2026).  
+[23] Chen C., Sahany S., Moise A.F., Chua X.R., Hassim M.E., Lim G., et al., ENSO –rainfall teleconnection over the 
+maritime continent enhances and shifts eastward under warming.  Journal of Climate, 2023; 36(14): 4635-4663. 
+DOI 10.1175/JCLI-D-23-0036.1. 
+[24]   Welhouse L.J., Composite analysis of the effects of ENSO events on climate variables. Journal of Climate, 2016; 
+29(5): 1797–1808. DOI 10.1175/JCLI-D-15-0108.1. 
+[25] Chotamonsak C., Salathe E.P., Kreasuwan J. and Chantara S., Evaluation of precipitation simulations over 
+Thailand using a WRF regional climate model. Chiang Mai Journal of Science, 2012; 39(4): 623-638. 
+[26] Legates D.R. and McCabe G.J., Evaluating the use of “goodness-of-fit” measures in hydrologic and hydroclimatic 
+model validation. Water Resources Research, 1999; 35(1): 233–241. DOI 10.1029/1998WR900018. 
+[27] Willmott C.J. and Matsuura K., Advantages of the mean absolute error (MAE) over the root mean square error 
+(RMSE) in assessing average model performance. Climate Research, 2005; 30(1): 79–82. DOI 10.3354/cr030079. 
+[28] Krause P., Boyle D.P. and Bäse F., Comparison of different efficiency criteria for hydrological model assessment. 
+Advances in Geosciences, 2005; 5: 89–97. DOI 10.5194/adgeo-5-89-2005. 
+[29] Chai T. and Draxler R.R., Root mean square error (RMSE) or mean absolute error (MAE)? – Arguments against 
+avoiding RMSE in the literature. Geoscientific Model Development, 2014; 7(3): 1247–1250. DOI 10.5194/gmd-7-
+1247-2014. 
+[30] Jiao D., Xu N., Yang F. and Xu K., Evaluation of spatial-temporal variation performance of ERA5 precipitation data 
+in China. Scientific Reports, 2021; 11: 17956. DOI 10.1038/s41598-021-97432-y. 
+[31] Jiang Q., Li W., Fan Z., He X., Sun W., Chen S., et al., Evaluation of the ERA5 reanalysis precipitation dataset over 
+Chinese mainland. Journal of Hydrology, 2021; 595: 125660. DOI 10.1016/j.jhydrol.2020.125660. 
+[32] Chen Y., Teo F.Y., Wong S.Y., Chan A., Weng C. and Falconer R.A., Monsoonal extreme rainfall in Southeast Asia: 
+A review. Water, 2025; 17(1): 5. DOI 10.3390/w17010005. 
+[33] Da Silva N.A. and Matthews A.J., Impact of the Madden –Julian Oscillation on extreme precipitation over the 
+western maritime continent and Southeast Asia. Quarterly Journal of the Royal Meteorological Society , 2021; 
+147(739): 3434-3453. DOI 10.1002/qj.4136. 
+[34] Wu G., Lv P., Mao Y. and Wang K., ERA5 precipitation over China: Better relative hourly and daily distribution 
+than absolute values. Journal of Climate, 2024; 37(5): 1581-1596. DOI 10.1175/JCLI-D-23-0302.1.  
+===== PAGE 14 =====
+         Chiang Mai Journal of Science                                                                                    Chiang Mai J. Sci., 2026; 53(4): e2026065                           
+      Faculty of Science, Chiang Mai University                                                                                                                      DOI 10.12982/CMJS.2026.065 
+           ISSN: 0125-2526                                                                                                                                                                                 TYPE: Research Article 
+Chiang Mai Journal of Science  P a g e  14 | 14 
+[35] Gomis-Cebolla J., Rattayova V., Salazar -Galán S. and Francés F., Evaluation of ERA5 and ERA5 -land reanalysis 
+precipitation datasets over Spain (1951 –2020). Atmospheric Research , 2023; 284: 106606. 
+10.1016/j.atmosres.2023.106606.  
+[36] Raghavan S.V., Liu J., Nguyen N.S., Vu M.T. and Liong S.Y., Assessment of CMIP5 historical simulations of rainfall 
+over Southeast Asia. Theoretical and Applied Climatology, 2018; 132: 989–1002. DOI 10.1007/s00704-017-2111-z. 
+[37] Lin S., Dong B., Yang S., He S. and Hu Y., Causes of diverse impacts of ENSO on the Southeast Asian summer 
+monsoon in CMIP6 models. Journal of Climate, 2024; 37(2): 419-438. DOI 10.1175/JCLI-D-23-0303.1.  
+[38] Räsänen T. A. and Kummu M., Spatiotemporal influences of ENSO on precipitation and flood pulse in the Mekong 
+River Basin. Journal of Hydrology, 2013; 476: 154-168. DOI 10.1016/j.jhydrol.2012.10.028. 

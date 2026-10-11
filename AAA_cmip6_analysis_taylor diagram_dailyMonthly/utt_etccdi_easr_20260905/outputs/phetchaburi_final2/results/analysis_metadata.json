@@ -1,0 +1,59 @@
+{
+  "script_version": "2.1.0-portable",
+  "execution_timestamp_utc": "2026-09-05T17:13:24.873313+00:00",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "openpyxl": "3.1.5"
+  },
+  "input_path": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\phetchaburi_data\\CSV_Phetchaburi - Prachuap Khiri Khan",
+  "output_path": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\outputs\\phetchaburi_final2",
+  "configuration": {
+    "obs_start": 1981,
+    "obs_end": 2014,
+    "baseline_start": 1995,
+    "baseline_end": 2014,
+    "future_start": 2021,
+    "future_end": 2050,
+    "alpha": 0.05,
+    "min_trend_n": 10,
+    "annual_completeness": 0.9,
+    "wet_day_threshold_mm": 1.0,
+    "r10_threshold_mm": 10.0,
+    "r20_threshold_mm": 20.0,
+    "r50_threshold_mm": 50.0,
+    "p95": 95.0,
+    "p99": 99.0,
+    "idw_power": 2.0
+  },
+  "models": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "EC-Earth3",
+    "FGOALS-g3",
+    "MIROC6",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": {
+    "ssp245": "SSP2-4.5",
+    "ssp585": "SSP5-8.5"
+  },
+  "method": "Standard Mann-Kendall plus Yue-Wang 2004 detrended ESS MMK and Sen slope",
+  "province_name": "Phetchaburi",
+  "observed_period": "1981-2014",
+  "baseline_period": "1995-2014",
+  "future_period": "2021-2050",
+  "coordinate_file": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\phetchaburi_data\\CSV_Phetchaburi - Prachuap Khiri Khan\\station_coordinates.csv",
+  "observed_file": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\phetchaburi_data\\CSV_Phetchaburi - Prachuap Khiri Khan\\Observed_Rain_daily_198101_201412_Phetchaburi.csv",
+  "boundary_file_for_maps": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\utt_etccdi_easr_20260905\\phetchaburi_data\\CSV_Phetchaburi - Prachuap Khiri Khan\\39_amarea_phetchaburi.shp",
+  "station_count": 13,
+  "run_mode": "full_analysis",
+  "observed_trend_rows": 143,
+  "future_trend_rows": 2002,
+  "future_change_rows": 2002
+}

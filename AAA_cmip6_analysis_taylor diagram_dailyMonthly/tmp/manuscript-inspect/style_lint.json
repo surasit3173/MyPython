@@ -1,0 +1,168 @@
+{
+  "input": "D:\\\u0e27\u0e32\u0e23\u0e2a\u0e32\u0e23 ASEP\\SENT\\Rainfall Occurrence\u2013Intensity Heterogeneity and Its Implications for Provincial Extreme Rainfall Design.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 573,
+  "direct_paragraph_formatting_paragraphs": 644,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 5,
+      "text": "Abstract",
+      "style": "Normal"
+    },
+    {
+      "para_index": 10,
+      "text": "1 INTRODUCTION",
+      "style": "Normal"
+    },
+    {
+      "para_index": 16,
+      "text": "2 MATERIALS AND METHODS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 72,
+      "text": "3 RESULTS AND DISCUSSION",
+      "style": "Normal"
+    },
+    {
+      "para_index": 121,
+      "text": "4 CONCLUSIONS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 128,
+      "text": "5 ACKNOWLEDGMENTS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 130,
+      "text": "6 AUTHOR CONTRIBUTIONS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 132,
+      "text": "7 CONFLICTS OF INTEREST",
+      "style": "Normal"
+    },
+    {
+      "para_index": 134,
+      "text": "8 DECLARATION OF GENERATIVE AI",
+      "style": "Normal"
+    },
+    {
+      "para_index": 136,
+      "text": "REFERENCES",
+      "style": "Normal"
+    },
+    {
+      "para_index": 157,
+      "text": "Station",
+      "style": "Normal"
+    },
+    {
+      "para_index": 158,
+      "text": "Lat. (\u00b0N)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 159,
+      "text": "Long. (\u00b0E)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 160,
+      "text": "Elev. (m)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 161,
+      "text": "P (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 162,
+      "text": "W (d)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 163,
+      "text": "S (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 164,
+      "text": "Max. daily (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 282,
+      "text": "Station",
+      "style": "Normal"
+    },
+    {
+      "para_index": 283,
+      "text": "AICc Gumbel",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Rainfall Occurrence\u2013Intensity Heterogeneity and Its Implications for Provincial Extreme Rainfall Design",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "Abstract",
+        "style": "Normal"
+      },
+      {
+        "para_index": 10,
+        "text": "1 INTRODUCTION",
+        "style": "Normal"
+      },
+      {
+        "para_index": 11,
+        "text": "Culverts, roadside drains, farm ponds, and small-scale irrigation structures are sized from a design rainfall: the rainf",
+        "style": "Normal"
+      },
+      {
+        "para_index": 12,
+        "text": "Two things can make a provincial value unrepresentative, and they are not the same. The first is that rainfall extremes ",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Rainfall Occurrence\u2013Intensity Heterogeneity and Its Implications for Provincial ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Abstract",
+        "style": "Normal"
+      },
+      {
+        "para_index": 8,
+        "run_text": "Keywords:",
+        "style": "Normal"
+      },
+      {
+        "para_index": 10,
+        "run_text": "1 INTRODUCTION",
+        "style": "Normal"
+      },
+      {
+        "para_index": 16,
+        "run_text": "2 MATERIALS AND METHODS",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

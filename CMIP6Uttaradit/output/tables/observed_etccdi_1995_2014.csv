@@ -1,0 +1,12 @@
+Index,Description,Units,Network_Mean,Min,Max,SD
+PRCPTOT,Annual total precipitation on wet days (P >= 1.0 mm),mm,1098.88,930.26,1366.07,108.84
+SDII,Simple daily intensity index (annual wet-day mean),mm/day,10.27,5.12,13.83,3.23
+Rx1day,Annual maximum 1-day precipitation,mm,74.39,28.96,113.92,28.44
+Rx5day,Annual maximum consecutive 5-day precipitation,mm,137.46,79.45,193.37,37.03
+CDD,Maximum consecutive dry days (P < 1.0 mm),days,50.23,34.94,70.12,11.83
+CWD,Maximum consecutive wet days (P >= 1.0 mm),days,30.34,7.38,86.06,26.46
+R10mm,Annual count of heavy precipitation days (P >= 10 mm),days,30.14,25.18,40.26,3.94
+R20mm,Annual count of very heavy precipitation days (P >= 20 mm),days,11.86,2.12,18.82,5.48
+R50mm,Annual count of extremely heavy precipitation days (P >= 50 mm),days,2.03,0.06,3.68,1.26
+R95p,Precipitation on very wet days (> 95th percentile),mm,282.88,200.14,487.6,73.97
+R99p,Precipitation on extremely wet days (> 99th percentile),mm,95.14,56.41,176.27,32.31

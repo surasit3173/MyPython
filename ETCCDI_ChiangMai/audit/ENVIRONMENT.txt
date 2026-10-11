@@ -1,0 +1,20 @@
+======================================================================
+SYSTEM & ENVIRONMENT MANIFEST
+======================================================================
+Python Version: 3.12.13
+OS: Linux x86_64
+Raw CSV File: data/raw/Observed_Rain_daily_complete_1961_2019_327501_wmo48327_ChiangMai.csv
+Raw CSV SHA-256: 0a9e0e4e797049d44730a5fa9274f2e552d21ac99240588097a34ba4cb95d35b
+
+Locked Package Dependencies:
+- pandas == 3.0.6
+- numpy == 2.5.3
+- scipy == 1.18.1
+- matplotlib == 3.11.2
+- seaborn == 0.13.2
+- openpyxl == 3.1.5
+- statsmodels == 0.15.0
+- pymannkendall == 1.4.3
+- python-docx == 1.2.0
+- pyyaml == 6.0.3
+======================================================================

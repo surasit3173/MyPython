@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "status": "finalized",
+  "run_id": "prachuap-khiri-khan_e8bf031b3ba0",
+  "area_name": "Prachuap Khiri Khan",
+  "method_definitions": {
+    "primary_dependence_aware": "HR-MMK-3",
+    "sensitivity_methods": [
+      "MK",
+      "PW-MK",
+      "TFPW-MK"
+    ],
+    "multiplicity": "BH within station period-by-method families; network across periods within method",
+    "network_estand": "equal-weight gauge-network mean, not a spatial areal mean",
+    "bootstrap": "circular residual moving blocks reconstructed on the original year coordinates",
+    "fdr": "mean replicate FDP V/max(R,1); under the complete null this equals FWER"
+  },
+  "parameters": {
+    "area_name": "Prachuap Khiri Khan",
+    "rainfall_path": "../data/observed_rain_daily.csv",
+    "station_metadata_path": "../data/station_coordinates.csv",
+    "input_layout": "wide",
+    "date_columns": [
+      "YEAR",
+      "MONTH",
+      "DAY"
+    ],
+    "date_column": "date",
+    "station_column": "station_id",
+    "value_column": "rain_mm",
+    "metadata_station_column": "station",
+    "latitude_column": "latitude",
+    "longitude_column": "longitude",
+    "elevation_column": "elevation (m.MSL.)",
+    "wet_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dry_months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "completeness_threshold": 1.0,
+    "alpha": 0.05,
+    "hr_max_lag": 3,
+    "acf_alpha": 0.05,
+    "bootstrap_reps": 2000,
+    "bootstrap_block_length": 3,
+    "monte_carlo_reps": 10000,
+    "fdr_reps": 5000,
+    "seed": 42,
+    "phi_levels": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "standardized_slopes": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "fdr_phi": 0.4,
+    "fdr_spatial_rho": 0.3,
+    "station_weighting": "equal",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S002216949700125X",
+      "https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2517-6161.1995.tb02031.x",
+      "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2001WR000861"
+    ]
+  },
+  "inputs": {
+    "config": {
+      "path": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\pkk_trend_toolkit_v5\\configs\\prachuap.json",
+      "sha256": "227ff87c358d1818ebc5a3b7a8e2082c77f4c0d7efc1edbe1e4a9af4d5182889"
+    },
+    "rainfall": {
+      "path": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\pkk_trend_toolkit_v5\\data\\observed_rain_daily.csv",
+      "sha256": "abdec5e39458b3441bcce139517b3eacc8855f85f2ec5e6ce06e295a280e31ed"
+    },
+    "station_metadata": {
+      "path": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\pkk_trend_toolkit_v5\\data\\station_coordinates.csv",
+      "sha256": "7ce23dbb323bd98229cef7f419078d595b00e61dfbe96a18f8f61a6666bcb179"
+    }
+  },
+  "counts": {
+    "stations": 12,
+    "station_days": 149016,
+    "complete_station_periods": {
+      "annual": 408,
+      "wet": 408,
+      "dry": 396
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "outputs": {
+    "Article_1_Method_Comparison.docx": {
+      "sha256": "fd033bbac2ceef59a879a245032134bf9225cc231a754b01585dcbeb2eae97a9",
+      "bytes": 379874
+    },
+    "Article_2_Prachuap_Rainfall_Trends.docx": {
+      "sha256": "5b0c294d8c9744b751a3253dbd6a7dd6ac2af7e5c2eac768c4be45a2eb00b27d",
+      "bytes": 486648
+    },
+    "figures/network_trends.png": {
+      "sha256": "50c7451aeb30d08f2beae1cb2822af6dba2aba7ed53a27ff5dc66ced3112baa9",
+      "bytes": 291322
+    },
+    "figures/simulation_fdr.png": {
+      "sha256": "976ae72ae85187392bc5eb7338df73186ff458fb7f06af84655972bb2c2e591e",
+      "bytes": 52860
+    },
+    "figures/simulation_power.png": {
+      "sha256": "e9fb7e5f33101073e32abc1badfbdaea5ec11639854f70a92024575df339ecd5",
+      "bytes": 151910
+    },
+    "figures/simulation_type_i.png": {
+      "sha256": "415aa1e618c1f6d5b07bff74dc9907b602a3bca20a156a212e0ebc5d61171781",
+      "bytes": 155704
+    },
+    "figures/station_locations.png": {
+      "sha256": "78a1618ef49b28428e595480053cc682916286e508aefa5bd14ac2967abbeda8",
+      "bytes": 99939
+    },
+    "figures/station_slope_intervals.png": {
+      "sha256": "98050db0dbc684d42113f5f017d3aa59cb2b20182d2e31fe2f386d6e29b38eb3",
+      "bytes": 91719
+    },
+    "Prachuap_Rainfall_Trend_Results.xlsx": {
+      "sha256": "55a840dbeaee81644d9f715596f8191e8e9b469346be667ecf655bd060f68d68",
+      "bytes": 46755
+    },
+    "Prachuap_Rainfall_Trend_Results.xlsx.inspect.ndjson": {
+      "sha256": "f9d1bcf5f49bf6338b029b9df31b2f5c952acfed19dc19a3a5e6e77c7c386cab",
+      "bytes": 2502757
+    },
+    "tables/bootstrap_ci.csv": {
+      "sha256": "a8d7a3122072bfbbb516c7511fbda1a3882f3835bfd3225620fd4f234b4c4af9",
+      "bytes": 3190
+    },
+    "tables/data_quality.csv": {
+      "sha256": "b9c0e80ac5425e5f9d15958e1a836d3fe58770d6b87f856619889fac74add292",
+      "bytes": 564
+    },
+    "tables/fdr_simulation.csv": {
+      "sha256": "5a96493d7553019133e042d294fb3745b18c980e9055e64c50ea3f778279efb9",
+      "bytes": 558
+    },
+    "tables/method_simulation.csv": {
+      "sha256": "0d40c0df3ac939544eaf6357c7f2e7f847a1fb23e339f392d058302a1a9a60e8",
+      "bytes": 8047
+    },
+    "tables/network_results.csv": {
+      "sha256": "880d830e605ce7d36c20bdcf8b847c515e9e663af52c25de4154cfcfe7aceb77",
+      "bytes": 2358
+    },
+    "tables/network_series.csv": {
+      "sha256": "aca74158c83e0776602fb9b5bc62df1a2bd2bce39985a90200ca00603afedc2b",
+      "bytes": 2678
+    },
+    "tables/period_totals.csv": {
+      "sha256": "679f6cc9d0a992f87ddd9b12457c3a6f08dae382a94e29b07b0d735d66d69aaa",
+      "bytes": 82152
+    },
+    "tables/station_metadata.csv": {
+      "sha256": "477196b6478dbe262d4f309ec8eedcc743879107eb26e694f5c385d001cae576",
+      "bytes": 329
+    },
+    "tables/station_results.csv": {
+      "sha256": "9fec1ef6a7ba9be397552d54d35853fb88caff8861cd836b4a50f9c220825ac1",
+      "bytes": 27933
+    },
+    "validation/Article_1_Method_Comparison.pdf": {
+      "sha256": "f0184b719a869edf134fb017ae64e8de24c36462ae7b15af5463700d6d44f6a6",
+      "bytes": 497773
+    },
+    "validation/Article_2_Prachuap_Rainfall_Trends.pdf": {
+      "sha256": "a4840e2bc4074af89855bd5811bccdfe2473e096eda8f433e1b8cd68d3130b0c",
+      "bytes": 692872
+    },
+    "validation/artifact_validation.json": {
+      "sha256": "4691fe4fd24eb8927d0bf28c356b4fb6b967c62298017a5550f7932c3987d0f4",
+      "bytes": 5296
+    },
+    "validation/docx_1_rendered/page-1.png": {
+      "sha256": "5564be3762db45c9f59bc255c3588cb622d3f2903e16ad89ea893bb8ec04fe29",
+      "bytes": 324101
+    },
+    "validation/docx_1_rendered/page-2.png": {
+      "sha256": "2c50a3deb1901cfe197fbaac22b1e25d1e05450694a7d50af28a06337fda42e4",
+      "bytes": 156064
+    },
+    "validation/docx_1_rendered/page-3.png": {
+      "sha256": "6260c539bd2c126f1907cca10d6e8c6a03a8ca1e4a8f2c95c8228dfbfdf2af6d",
+      "bytes": 198065
+    },
+    "validation/docx_1_rendered/page-4.png": {
+      "sha256": "e28481497374166803d65a65410d03784d281410241b2cce49b5133d3bae6fdc",
+      "bytes": 282773
+    },
+    "validation/docx_2_rendered/page-1.png": {
+      "sha256": "8ab8145c8ba0417198a860f376f68d893ad0f28dbe0e10bb87c739590824d7b3",
+      "bytes": 232794
+    },
+    "validation/docx_2_rendered/page-2.png": {
+      "sha256": "a2ac41bd106bae9f8d199e6289a9ab67507cf0e75af4ca990b422ed2b52b1710",
+      "bytes": 190526
+    },
+    "validation/docx_2_rendered/page-3.png": {
+      "sha256": "8b34d746ed06e7fc89ae4266a5f2766e3ecaacaca29330b9c962cc508d7b3818",
+      "bytes": 238485
+    },
+    "validation/docx_2_rendered/page-4.png": {
+      "sha256": "9c15219e38adfc41188e90b689d256d535fa7649f18de54e01544ca2093e304f",
+      "bytes": 276710
+    },
+    "validation/docx_2_rendered/page-5.png": {
+      "sha256": "e6580fd5be7e0100d16b93b7e26008eb0048fbd8d5d309062f467d580579aca3",
+      "bytes": 185182
+    },
+    "validation/independent_checks.json": {
+      "sha256": "19f3501b48a9afc672c30f067ce8099d26ac00179289cfca52efb8195a6a7f76",
+      "bytes": 3301
+    },
+    "validation/workbook_formula_errors.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    "validation/workbook_inspection.txt": {
+      "sha256": "a116246527305df4ca9797330d8c48824242f65bf0dab1e9d3e8105bff79754d",
+      "bytes": 9960
+    },
+    "validation/workbook_previews/bootstrap_ci.png": {
+      "sha256": "8abb45c946dc798a6b32ab0ba8801cdcbc51fa9aa44dd23318d3fa8733629ae8",
+      "bytes": 177899
+    },
+    "validation/workbook_previews/data_quality.png": {
+      "sha256": "4c3fb132d10a964b3837142c0598da8bad27cb7c9110973ef7ff677a6838ea5b",
+      "bytes": 39889
+    },
+    "validation/workbook_previews/fdr_simulation.png": {
+      "sha256": "411221733bc3c9745ed4a2bb2f788a66a04077ea92726570c9e946185776c10f",
+      "bytes": 46803
+    },
+    "validation/workbook_previews/method_simulation.png": {
+      "sha256": "11ee9726dbccc924b880cf230c3e2678f4627cecef93512351936bbe885ff547",
+      "bytes": 398139
+    },
+    "validation/workbook_previews/network_results.png": {
+      "sha256": "95bc6502c650bceeb626308cdf795ae854f071ff8f4e266c0c478ed5215ce4d3",
+      "bytes": 97317
+    },
+    "validation/workbook_previews/sources.png": {
+      "sha256": "ec8d4915ec294d0cef82e71f1bc03f431b1b855684fb4dc9bd39750da845d049",
+      "bytes": 55556
+    },
+    "validation/workbook_previews/station_results.png": {
+      "sha256": "2a45ab9682b97e7062342bf034a2761bc013a72ee7034e706ecc1ae102dfd91d",
+      "bytes": 1156513
+    },
+    "validation/workbook_previews/summary.png": {
+      "sha256": "5a64cde2cd5720a723bde573034ff9e979e41949ac6911bb874dc5bdc0744de9",
+      "bytes": 68344
+    }
+  },
+  "validation": {
+    "artifact_verdict": "confirmed",
+    "checks_passed": 51,
+    "independent_verdict": "confirmed",
+    "docx_rendering": "Canonical renderer unavailable because LibreOffice soffice was absent; Microsoft Word 2024 PDF export plus Poppler page rasterization was used and every page was visually inspected."
+  }
+}

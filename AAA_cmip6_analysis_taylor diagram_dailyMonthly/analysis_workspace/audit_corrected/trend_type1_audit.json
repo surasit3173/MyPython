@@ -1,0 +1,12 @@
+{
+  "seed": 20260829,
+  "n": 20,
+  "replicates": 2000,
+  "ar1_phi": 0.6,
+  "nominal_alpha": 0.05,
+  "false_positive_rate": {
+    "MK": 0.2245,
+    "Hamed-Rao": 0.227,
+    "TFPW-MK": 0.2665
+  }
+}

@@ -1,0 +1,10 @@
+IDW Power (p): 2.0
+Search Neighborhood: Global (all 13 stations)
+Grid Resolution: 0.005 degrees (~500 m)
+Coordinate Reference System (CRS): WGS 84 (EPSG:4326)
+Provincial Clipping: Natural Earth Thailand Administrative Polygon (Uttaradit)
+LOOCV Mean Absolute Error (MAE): 98.03 mm
+LOOCV Root Mean Square Error (RMSE): 131.26 mm
+LOOCV Mean Bias Error (MBE): -3.21 mm
+Network Mean Annual Precipitation: 1139.81 mm
+Relative MAE: 8.60%

@@ -1,0 +1,12 @@
+xarray
+fsspec
+gcsfs
+zarr<3
+cftime
+netCDF4
+h5netcdf
+dask[array]
+nbformat
+nbclient
+jupyter
+bottleneck

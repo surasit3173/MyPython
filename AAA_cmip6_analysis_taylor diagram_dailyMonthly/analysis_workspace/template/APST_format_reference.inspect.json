@@ -1,0 +1,5915 @@
+{
+  "source": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\analysis_workspace\\template\\APST_format_reference.docx",
+  "sha256": "587388a7c2b6b35978d14caebdddcdb11f6ceb3ffdd56f17c8e90e4a596ff1bc",
+  "paragraph_count": 100,
+  "table_count": 1,
+  "inline_shape_count": 1,
+  "sections": [
+    {
+      "index": 0,
+      "page_width_in": 8.2688,
+      "page_height_in": 11.6944,
+      "top_margin_in": 1.0,
+      "bottom_margin_in": 1.0,
+      "left_margin_in": 1.0,
+      "right_margin_in": 1.0,
+      "header_distance_in": 0.4924,
+      "footer_distance_in": 1.0,
+      "different_first_page": false,
+      "header_text": "",
+      "footer_text": ""
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "text": "Title (Time New Roman, Font 12, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Title ",
+          "font": null,
+          "size_pt": 12.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 12, Bold)",
+          "font": null,
+          "size_pt": 12.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "1st author name1, 2nd author name1, * and Last author name1 (Time New Roman, Font 10)",
+      "style": "Normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "1",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "st",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " author name",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "1",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ", 2",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "nd",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " author name",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "1,",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "*",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " and Last author name",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "1",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "1 Affiliation (Time New Roman, Font 10)",
+      "style": "Normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "1 ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Affiliation (Time New Roman, Font 10)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "*Corresponding author: Please_fill_in@email.",
+      "style": "Normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "*",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Corresponding author",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ": ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Please_fill_in@email",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "",
+      "style": "No Spacing",
+      "alignment": "right",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 5,
+      "text": "",
+      "style": "Normal",
+      "alignment": "justify",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 6,
+      "text": "Abstract",
+      "style": "Normal",
+      "alignment": "justify",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Abstract",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "Abstract must be written in Time New Roman, font 10. Abstract should not exceed 250 words.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Abstract must be written in Time New Roman, font 10. Abstract should not exceed 250 words.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 9,
+      "text": "Keywords: A maximum of 4-11 words, In alphabetical order, Separated by comma “,”. (Time New Roman, font 10, upper case at the beginning of each keyword)",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Keywords:",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "A maximum of",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "4-11",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " words, ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "In",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " alphabetical order",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ",",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Separated by comma “,”. (Time New Roman, font 10, upper case at the beginning of each keyword)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "",
+      "style": "No Spacing",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 11,
+      "text": "1. Introduction (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "1. Introduction (Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 13,
+      "text": "This document is a Microsoft Word template. Please do not use other templates. The author(s) must strictly follow instructions so as to maintain the journal's high standard.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1875,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "This document is a Microsoft Word template.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Please do not use other templates.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The author(s) must strictly follow instructions so as to maintain the journal's high standard.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "The text must be typed in word format size A4 not more than 15 pages with top, bottom, left and right margin of 1 inch from the border. It should be typed in a single column and a double space. Time New Roman, point 10 for contents. International System of Units (SI) is used for the metric system. Authors full and last name. The middle name should be abbreviated to the initial letter accompanied by a full stop \" \". Join each author’s name by the symbol “,” and the last author with “and”. The pages should be numbered at the top right hand corner consecutively.  The manuscript has to be divided into three parts. The first part includes the title, name of the author, abstract, and keywords.  The second part is the main body of the paper , which includes references and nomenclature.  The body of the article may consist of the following sessions.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1875,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "The ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "text",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " must be type",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "d",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " in word format size A4 not more than 15 pages with top, bottom, left and right margin of 1 inch from the border. ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "It should be typed in a single column and ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "a ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "double",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " space. Time",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " New Roman, point 10 for contents.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "International System of Units (SI) is used for the metric system. ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Authors full and last name.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The middle name should be abbreviated to the initial letter accompanied by a full stop \" \".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Join each author’s name by the symbol “,” and the last author with “and”.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "pages should be numbered at the top ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "right hand",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " corner consecutively.  The manuscript has to be divided into three parts.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The first part includes the title, name of the author, abstract, and keywords.  The second part is the main body of the ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "paper ,",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " which includes references and nomenclature.  The body of the article may consist of the following sessions.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "Introduction",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Introduction",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "Materials and methods",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Materials and methods",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "Results (Results and discussion can be written in one section or separately.)  ",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Results",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Results and discussion can be written in one section or separately.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ")",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "Discussion",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Discussion",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "Conclusion",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Conclusion",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "Ethical approval (if any)",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Ethical approval (if any)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "Acknowledgements",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Acknowledgement",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "s",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "Conflicts of interest",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Conflicts of inter",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "e",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "st",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "References",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4375,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "References",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "The last part is the appendix (if necessary).  This section should include a large table or figure that can not reduce the scale or size.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "The last part is the appendix (if necessary).",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "This section should include a large table or figure that ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "can not",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " reduce the scale or size.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 26,
+      "text": "The main text of the article must be written in Time New Roman, font 10, and double spacing of 12 points.  The font size, line spacing, and margin of the template must not be changed.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "The main text of the article must be written in Time New Roman, font 10, and ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "double",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " spacing",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " of 12 points.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The font size, line spacing, and margin of the template must not be changed.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 28,
+      "text": "References should be listed at the end of the paper and arranged in order. ",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "References should be listed at the end of the paper and arranged in order. ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 30,
+      "text": "References should be cited in the main text by numerals in a square bracket [No.]. For example:",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "References should be cited in the main text by numerals in a square bracket [",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "No.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "].",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " For example:",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "Citation less than 3 lists i.e. [1,2], [3], [7,11]",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Citation less than 3 lists i.e. [1,2], [3], [7,11]",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "Citation have 3 lists or more i.e. [4-6], [8,13,15], [11,17-19], [12,13,20]",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Citation ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "have",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " 3 lists or more i.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "e. [4-6], [8,13,15], [11,17-19], [12,13,20]",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 34,
+      "text": "2. Section (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "2. Section ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 36,
+      "text": "2.1 Subsection (Time New Roman, Font 10, Italic)",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "2",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": "1 ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": "Subsection",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Italic)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 38,
+      "text": "The second part consisting of the paper body must be edited in single column format. Figures and tables should be located at the top or bottom of each page.  Clear original figures in black and white are to be used.  Equations should be numbered consecutively throughout the paper and located at the right margin as shown in Equation (1) below. Figures and tables should be placed at the top or at the bottom of each column as shown in Figure. 1 and Table 1. The term \"Table\" should be followed by a bold typed number.  Use the table function of Microsoft Word. Avoid vertical lines and unnecessary horizontal lines. The term \"Figure\" should be followed by a bold typed number.  Symbols, nomenclatures, abbreviations and units should match the figures and text used.  The legends of the figure should not be more than 200 words.  Composite figures should be used (A), (B), (C), etc. and font Time New Roman to label must be show on top left of the figure.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1875,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "The second part consisting of the paper body must be edited in ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "single",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " column format. ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Figures and tables should be located at the top or bottom of each page.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Clear original figures in black and white are to be used.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Equations should be numbered consecutively throughout the paper and located at the right margin as ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "shown ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "in Eq",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "uation",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " (1) below. Figures and tables should be placed at the top or at the bottom of each column as ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "shown ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "in Fig",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "ure",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". 1 and ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Table 1.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The term \"Table\" should be followed by a bold typed number.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Use the table function of Microsoft Word. Avoid vertical lines and unnecessary horizontal lines. ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " term \"Figure\" should be followed by a bold typed number.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Symbols, nomenclatures, abbreviations and units should match the figures and text used.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The legends of the figure should not be more than 200 words.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Composite figures should be used (A), (B), (C), etc. and font Time New ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "R",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "oman to label must be show on top left of the figure.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 40,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 41,
+      "text": "Table 1 The process yield and physical properties of the microcapsules.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Table ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "1",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The process yield and physical properties of the microcapsules",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 43,
+      "text": "",
+      "style": "Normal",
+      "alignment": "center",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "",
+          "font": "Times New Roman",
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "text": "",
+      "style": "Normal",
+      "alignment": "center",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 45,
+      "text": "Figure 1 Micrograph of the microcapsules with different Gac aril concentrations, in which M = maltodextrin, = gelatin, and B = β-carotene.",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Fig",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "ure",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "1",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Micrograph of the microcapsules with different Gac aril concentrations, in which M ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "= ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "maltodextrin, ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "= ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "gelatin, and B ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "= ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "β",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "carotene",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "text": "",
+      "style": "Normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 47,
+      "text": "3. Conclusion (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "3. Conclusion ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 49,
+      "text": "Clarity of all figures is of the utmost importance.  If the final version is not prepared in a format or does not include all the details, the publication process will be delayed.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1972,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Clarity of all figures is of the utmost importance.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "If the final version is not prepared in a format or does not include all the details, the publication process will be delayed.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1972,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 51,
+      "text": "4. Ethical Approval",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "4.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Ethical ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Approval",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "text": "Ethical approval is needed. If the manuscript contains studies with human participants or animals by any of the authors, please include the name of the granting organization and the approval reference number. The ethical approval section shall follow the conclusions section.  After the declaration of the ethics is added to the manuscript, please submit it as a new submission.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1972,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Ethical approval is needed. If the manuscript contains studies with human participants or animals by any of the authors, please include the name of the granting organization and the approval reference number. The ethical ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "approval section shall follow the conclusions section.  After the declaration of the ethics is added to the manuscript, please submit it as a new submission.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1972,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 54,
+      "text": "5. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "5. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 56,
+      "text": "Authors are required to disclose their utilization of generative AI and AI-assisted technologies in their manuscript preparation process. Authors should employ the following statement format: \"During the preparation of this work the author(s) used [NAME TOOL/SERVICE] in order to [REASON]. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.\" It is important to note that this declaration requirement does not extend to the use of fundamental writing assistance tools such as grammar checkers, spelling validators, or reference management software. In cases where no generative AI or AI-assisted technologies were employed, authors may omit this declaration section entirely.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1972,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Authors are required to disclose their utilization of generative AI and AI-assisted technologies in their manuscript preparation process",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Authors should employ the following statement format: \"",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "During the preparation of this work the author(s) used [NAME TOOL/SERVICE] in order to [REASON]. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.\"",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " It is important to note that this declaration requirement does not extend to the use of fundamental writing assistance tools such as grammar checkers, spelling validators, or reference management software. In cases where no generative AI or AI-assisted technologies were employed, authors may omit this declaration section entirely.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.0986,
+      "left_indent_in": 0.0986,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 58,
+      "text": "6. Acknowledgements (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "6. ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Acknowledgements ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "text": "",
+      "style": "Normal",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 60,
+      "text": "This work supported by Research Program supported by the Department of Education and Technology (program name), Country Name.  Please also include the Grant number.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1875,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "This work supported by Research Program supported by the Department of Education and Technology (program name), Country Name.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Please also include the Grant number.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": 0.1875,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 62,
+      "text": "7. Author Contributions (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "7. Author Contributions ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "text": "      Please clearly identifies each author's specific contributions to the work using standardized terminology. For each author, specify their contributions using the appropriate categories from the CRediT (Contributor Roles Taxonomy) system. Multiple categories may be assigned to a single author. Purpose and Benefits",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "      ",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Please clearly identifies each author's specific contributions to the work using standardized terminology.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "For each author, specify their contributions using the appropriate categories from the CRediT (Contributor Roles Taxonomy) system. Multiple categories may be assigned to a single author. Purpose and Benefits",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "text": "This requirement serves to:",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "This requirement serves to:",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "text": "Provide clear recognition for all forms of scholarly contribution",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Provide clear recognition for all forms of scholarly contribution",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "text": "Enhance transparency in collaborative research",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Enhance transparency in collaborative research",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "text": "Support fair evaluation of individual contributions",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Support fair evaluation of individual contributions",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "text": "Align with international best practices in scholarly publishing",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Align with international best practices in scholarly publishing",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "text": "Facilitate more accurate assessment of research productivity",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Facilitate more accurate assessment of ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "research",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " productivity",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 71,
+      "text": "Complete Contributors Taxonomy List:",
+      "style": "Heading 2",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.4014,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Complete Contributors Taxonomy List:",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "text": "Conceptualization - Ideas; formulation or evolution of overarching research goals and aims",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Conceptualization",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Ideas; formulation or evolution of overarching research goals and aims",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "text": "Data curation - Management activities to annotate (produce metadata), scrub data and maintain research data for initial use and later re-use",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Data curation",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Management activities to annotate (produce metadata), scrub data and maintain research data for initial use and later re-use",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "text": "Formal analysis - Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Formal analysis",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "text": "Funding acquisition - Acquisition of financial support for the project leading to this publication",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Funding acquisition",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Acquisition of financial support for the project leading to this publication",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "text": "Investigation - Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Investigation",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "text": "Methodology - Development or design of methodology; creation of models",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Methodology",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Development or design of methodology; creation of models",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "text": "Project administration - Management and coordination responsibility for the research activity planning and execution",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Project administration",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Management and coordination responsibility for the research activity planning and execution",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "text": "Resources - Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Resources",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "text": "Software - Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Software",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "text": "Supervision - Oversight and leadership responsibility for research activity planning and execution, including external mentorship to the core team",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Supervision",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Oversight and leadership responsibility for research activity planning and execution, including external mentorship to the core team",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "text": "Validation - Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Validation",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "text": "Visualization - Preparation, creation and/or presentation of the published work, specifically visualization/data presentation",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Visualization",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Preparation, creation and/or presentation of the published work, specifically visualization/data presentation",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "text": "Writing – original draft - Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Writing – original draft",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "text": "Writing – review & editing - Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Writing – review & editing",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " - Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "text": "Example Format:",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Example Format:",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "text": "Smith, JA.: Conceptualization, Methodology, Writing – original draft, Supervision; Johnson, JB.: Investigation, Formal analysis, Data curation, Writing – review & editing; Brown, MC. : Software, Visualization, Writing – review & editing; Wilson, SD.: Resources, Funding acquisition, Project administration",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.5,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Smith",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ", JA.",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ": Conceptualization, Methodology, Writing – original draft, Supervision",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "; ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Johnson",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ", JB.",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ": Investigation, Formal analysis, Data curation, Writing – review & editing",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "; ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Brown",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ", ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "MC. ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ":",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Software, Visualization, Writing – review & editing",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "; ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Wilson",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ", SD.",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ": Resources, Funding acquisition, Project administration",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "text": "",
+      "style": "whitespace-normal",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": null,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 89,
+      "text": "8. References (Time New Roman, Font 10, Bold)",
+      "style": "Heading 4",
+      "alignment": null,
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": null,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "8",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "References ",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(Time New Roman, Font 10, Bold)",
+          "font": null,
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 91,
+      "text": "References should be in the Vancouver style, and only in English. Please ensure that all references in the text are also included in the reference list.  Use the Arabic number in parentheses after the statement.  The maximum number of references shall not exceed 35 articles for Full Length Original Article/Research Article), and 50 articles for Review Article. “Unpublished observations” and “personal communications” are not allowed to be the references. The journal abbreviation can be checked from https:/www.ncbi.nlm.nih.gov /nlmcatalog/journals",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "References should be in the Vancouver style, and only in English.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Please ensure that all references in the text are also included in the reference list.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Use the Arabic number in parentheses after the statement.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The maximum number of references ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "shall not exceed 35 articles for Full Length ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Original Article/",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Research Article), ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "and 50 ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "articles for Review Article.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "“Unpublished observations” and “personal communications” are not allowed to be the references.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "The ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "journal abbreviation can be checked from https:/www.ncbi.nlm.nih.gov /",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "nlmcatalog",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "/journals",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "text": "",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": null,
+      "left_indent_in": 0.0,
+      "right_indent_in": null,
+      "runs": []
+    },
+    {
+      "index": 93,
+      "text": "Vuong LT. Underutilized β-carotene-rich crops of Vietnam. Food and Nutr Bull. 2000;21(2):173-181. ",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Vuong LT",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Underutilized β",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "carotene",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "rich crops of Vietnam",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Food and ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Nutr",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Bull",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". 2000;",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "21",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(2)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ":",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "173",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "181",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "text": "Chan R, Lok K, Woo J. Prostate cancer and vegetable consumption. Mol Nutr Food Res. 2009;53(2): 201-216.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Chan R, Lok K, Woo J",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Prostate cancer and vegetable consumption",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Mol ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": 3
+        },
+        {
+          "text": "Nu",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": 3
+        },
+        {
+          "text": "tr",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": 3
+        },
+        {
+          "text": " Food Res",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": 3
+        },
+        {
+          "text": ". 2009;",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "53",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(2)",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ":",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "201",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "216",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "text": "Choi JG, Kang OH, Brice OO, Lee YS, Chae HS, Oh YC, et al. Antibacterial activity of Ecklonia cava against methicillin-resistant Staphylococcus aureus and Salmonella spp. Foodborne Pathog Dis. 2010;7(4):435-441. ",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Choi JG, Kang OH, Brice OO, Lee YS, Chae HS, Oh YC, et al",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Antibacterial activity of ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Ecklonia",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " cava",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " against methicillin",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "resistant ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " and ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Salmonella",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "spp",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Foodborne ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Pathog",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " Dis. 2010",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ";",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "7(4):435",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "441",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "text": "FAO. Composition of Meat [Internet]. 2019 [cited 2019 Feb 14]. Available from  http://www.fao.org/ag /againfo/themes/en/meat/backgr_composition.html.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "FAO. Composition of Meat [Internet]. 2019 [cited 2019 Feb 14]. Available from  ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "text": "OECD. Meat consumption (indicator) [Internet]. 2019 [cited 2019 Feb 14]. Available from https://data. oecd.org/agroutput/meat-consumption.htm.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "OECD. Meat consumption (indicator) [Internet]. 2019 [cited 2019 Feb 14]. Available from https://data. oecd.org/agroutput/meat-consumption.htm.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "text": "Amsler CD. Algal Chemical Ecology. Vol 468. Berlin: Springer; 2008.Eom SH. Anti-MRSA (methicillin-resistant Staphylococcus aureus) substance isolated from Eisenia bicyclis and its action mechanism [Dissertation]. Busan: Pukyong National University; 2012.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "Amsler CD. Algal Chemical Ecology. Vol",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "468",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Berlin:",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Springer; 2008.Eom SH. Anti",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "MRSA ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "(",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "methicillin",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "resistant ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": ") ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "substance isolated from ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Eisenia ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": "bicyclis",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": true,
+          "underline": null
+        },
+        {
+          "text": " and its action mechanism [Dissertation]",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ". ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Busan: ",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Pukyong",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " National University",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ";",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " 2012.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "text": "World Health Organization. A global brief on vector-borne diseases. Geneva: WHO; 2014.",
+      "style": "List Paragraph",
+      "alignment": "THAI_JUSTIFY (9)",
+      "keep_with_next": null,
+      "keep_together": null,
+      "page_break_before": null,
+      "widow_control": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 2.0,
+      "first_line_indent_in": -0.3125,
+      "left_indent_in": 0.3125,
+      "right_indent_in": null,
+      "runs": [
+        {
+          "text": "World Health Organization",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": ".",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " A global brief on vector",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "-",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "borne diseases. Geneva: WHO; 2014.",
+          "font": "Times New Roman",
+          "size_pt": 10.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "name": "Normal",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Calibri",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.15
+    },
+    {
+      "name": "Heading 1",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 177800
+    },
+    {
+      "name": "Heading 2",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 6.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 3",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times",
+      "size_pt": null,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 6.0,
+      "space_after_pt": 6.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 4",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 5",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 13.0,
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 6",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": null,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 7",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 8",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Heading 9",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Arial",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Default Paragraph Font",
+      "type": "CHARACTER (2)",
+      "base_style": null,
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Normal Table",
+      "type": "TABLE (3)",
+      "base_style": null,
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Header",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "หัวกระดาษ อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Footer",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "ท้ายกระดาษ อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Balloon Text",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Tahoma",
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "ข้อความบอลลูน อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Tahoma",
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Intense Emphasis",
+      "type": "CHARACTER (2)",
+      "base_style": null,
+      "font": null,
+      "size_pt": null,
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "annotation reference",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "annotation text",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "ข้อความข้อคิดเห็น อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Calibri",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "annotation subject",
+      "type": "PARAGRAPH (1)",
+      "base_style": "annotation text",
+      "font": null,
+      "size_pt": null,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "ชื่อเรื่องของข้อคิดเห็น อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "ข้อความข้อคิดเห็น อักขระ",
+      "font": "Calibri",
+      "size_pt": 10.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Els-footnote",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 127000
+    },
+    {
+      "name": "footnote reference",
+      "type": "CHARACTER (2)",
+      "base_style": null,
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "No Spacing",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Calibri",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Els-Abstract-text",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "bold": null,
+      "italic": null,
+      "alignment": "justify",
+      "space_before_pt": null,
+      "space_after_pt": 11.0,
+      "line_spacing": 139700
+    },
+    {
+      "name": "Els-Abstract-head",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 9.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": 11.0,
+      "line_spacing": 139700
+    },
+    {
+      "name": "Els-2ndorder-head",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": 12.0,
+      "line_spacing": 152400
+    },
+    {
+      "name": "Els-3rdorder-head",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": 12.0,
+      "space_after_pt": null,
+      "line_spacing": 152400
+    },
+    {
+      "name": "Els-4thorder-head",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": true,
+      "alignment": "justify",
+      "space_before_pt": 12.0,
+      "space_after_pt": null,
+      "line_spacing": 152400
+    },
+    {
+      "name": "Els-1storder-head",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 24.0,
+      "space_after_pt": 12.0,
+      "line_spacing": 152400
+    },
+    {
+      "name": "Els-body-text",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": null,
+      "alignment": "justify",
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 152400
+    },
+    {
+      "name": "Els-numlist",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Els-body-text",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": "left",
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "List Paragraph",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Emphasis",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "apple-converted-space",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Hyperlink",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "line number",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Body Text",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": 6.0,
+      "line_spacing": null
+    },
+    {
+      "name": "เนื้อความ อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Calibri",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Body Text First Indent",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Body Text",
+      "font": "Arial",
+      "size_pt": 9.0,
+      "bold": null,
+      "italic": null,
+      "alignment": "justify",
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 127000
+    },
+    {
+      "name": "เยื้องย่อหน้าแรกของเนื้อความ อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "เนื้อความ อักขระ",
+      "font": "Arial",
+      "size_pt": 9.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Placeholder Text",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Title",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Arial",
+      "size_pt": 16.0,
+      "bold": true,
+      "italic": null,
+      "alignment": "center",
+      "space_before_pt": 12.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 127000
+    },
+    {
+      "name": "ชื่อเรื่อง อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Arial",
+      "size_pt": 16.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "envelope address",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Arial",
+      "size_pt": 9.0,
+      "bold": null,
+      "italic": null,
+      "alignment": "center",
+      "space_before_pt": 3.0,
+      "space_after_pt": 3.0,
+      "line_spacing": 127000
+    },
+    {
+      "name": "Revision",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "Calibri",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Unresolved Mention1",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Default",
+      "type": "PARAGRAPH (1)",
+      "base_style": null,
+      "font": "CM R 10",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Unresolved Mention2",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Normal (Web)",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 5.0,
+      "space_after_pt": 5.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Table Grid",
+      "type": "TABLE (3)",
+      "base_style": "Normal Table",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "หัวเรื่อง 1 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 2 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 3 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times",
+      "size_pt": null,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 4 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 5 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times New Roman",
+      "size_pt": 13.0,
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 6 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times New Roman",
+      "size_pt": null,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 7 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 8 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "หัวเรื่อง 9 อักขระ",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": "Arial",
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "page number",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "p1",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Helvetica",
+      "size_pt": 7.5,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Bibliography",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": 12.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "long_text1",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Unresolved Mention3",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "Unresolved Mention4",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "제목2",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": true,
+      "alignment": "center",
+      "space_before_pt": 1.0,
+      "space_after_pt": null,
+      "line_spacing": 127000
+    },
+    {
+      "name": "제목2 Char",
+      "type": "CHARACTER (2)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 8.0,
+      "bold": null,
+      "italic": true,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "스타일 제목 2 + 단락 뒤: 0.3 줄",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Heading 2",
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": null,
+      "italic": false,
+      "alignment": null,
+      "space_before_pt": 0.0,
+      "space_after_pt": 5.4,
+      "line_spacing": null
+    },
+    {
+      "name": "스타일 제목 2 + 단락 뒤: 0.3 줄 Char",
+      "type": "CHARACTER (2)",
+      "base_style": null,
+      "font": "Times New Roman",
+      "size_pt": 10.0,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    },
+    {
+      "name": "whitespace-normal",
+      "type": "PARAGRAPH (1)",
+      "base_style": "Normal",
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": null,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": 5.0,
+      "space_after_pt": 5.0,
+      "line_spacing": 1.0
+    },
+    {
+      "name": "Strong",
+      "type": "CHARACTER (2)",
+      "base_style": "Default Paragraph Font",
+      "font": null,
+      "size_pt": null,
+      "bold": true,
+      "italic": null,
+      "alignment": null,
+      "space_before_pt": null,
+      "space_after_pt": null,
+      "line_spacing": null
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": 10,
+      "cols": 6,
+      "style": "Table Grid",
+      "cells": [
+        [
+          "Carriers ",
+          "Samples",
+          "Gac concentrations (% w/v)",
+          "Moisture contents (%)",
+          "Aw",
+          "Process yields (%)"
+        ],
+        [
+          "Maltodextrin",
+          "M1",
+          "12.5",
+          "4.42+0.84b",
+          "0.31+0.01ab",
+          "61.72+2.16ab"
+        ],
+        [
+          "",
+          "M2",
+          "16.7",
+          "3.92+1.12a",
+          "0.30+0.01ab",
+          "65.33+1.63b"
+        ],
+        [
+          "",
+          "M3",
+          "25.0",
+          "3.24+1.13a",
+          "0.27+0.01a",
+          "69.44+1.48b"
+        ],
+        [
+          "Gelatin",
+          "G1",
+          "11.1",
+          "5.98+1.46c",
+          "0.40+0.01c",
+          "51.69+3.52a"
+        ],
+        [
+          "",
+          "G2",
+          "20.0",
+          "5.53+1.08c",
+          "0.34+0.01b",
+          "53.30+2.59a"
+        ],
+        [
+          "",
+          "G3",
+          "33.3",
+          "4.80+1.29c",
+          "0.30+0.01ab",
+          "54.19+1.07a"
+        ],
+        [
+          "β-cyclodextrin",
+          "B1",
+          "11.1",
+          "5.96+1.29c",
+          "0.40+0.01c",
+          "68.28+0.17b"
+        ],
+        [
+          "",
+          "B2",
+          "20.0",
+          "5.78+1.66c",
+          "0.36+0.01b",
+          "78.38+1.87c"
+        ],
+        [
+          "",
+          "B3",
+          "33.3",
+          "5.10+1.02bc",
+          "0.31+0.02ab",
+          "75.30+2.38c"
+        ]
+      ]
+    }
+  ],
+  "inline_shapes": [
+    {
+      "index": 0,
+      "width_in": 5.5,
+      "height_in": 2.1397,
+      "type": "WD_INLINE_SHAPE_TYPE.PICTURE"
+    }
+  ],
+  "package_parts": [
+    {
+      "name": "[Content_Types].xml",
+      "bytes": 2514,
+      "sha256": "515d2efa6ac252782052ed84e1ac0e723376743f42d2d14f951dd5a4a8cd43b0"
+    },
+    {
+      "name": "_rels/.rels",
+      "bytes": 741,
+      "sha256": "12ef8be97ca54249641dd124b1a85a65fc67168781ae0ba2b0a406e923cd6569"
+    },
+    {
+      "name": "word/document.xml",
+      "bytes": 214523,
+      "sha256": "eb762336ec2d7d57d730fe7e45ae7797afb33837eae4db3a7a8e8f22efdd75d0"
+    },
+    {
+      "name": "word/_rels/document.xml.rels",
+      "bytes": 2090,
+      "sha256": "ee0ab28727ce61cee95bdb24fc0c44a0903c786d555cc0a536fb1b0f8c387904"
+    },
+    {
+      "name": "word/footnotes.xml",
+      "bytes": 3172,
+      "sha256": "50226073d0cef9a5af52510159898828f7e06cf07c0e86fc317975da0302cbfa"
+    },
+    {
+      "name": "word/endnotes.xml",
+      "bytes": 3166,
+      "sha256": "75f0ade5c4bc5724aa2f2b5e87e8e211fb17b00ced5899ad2419ea0b5b10a163"
+    },
+    {
+      "name": "word/header1.xml",
+      "bytes": 4182,
+      "sha256": "9cd18f090b6faf529fabce411d294164b7807678fdb0dbe2c156e83e4e3494e4"
+    },
+    {
+      "name": "word/header2.xml",
+      "bytes": 3456,
+      "sha256": "0042219198a68ebe89c66a88d4b8daad51efcc2b30dc23fac562457b716202dd"
+    },
+    {
+      "name": "word/header3.xml",
+      "bytes": 4373,
+      "sha256": "85dbe1508ffe8c8338499d1b742c66f06bc45f4f95246fe28d5f863c5e0ddb8d"
+    },
+    {
+      "name": "word/media/image1.png",
+      "bytes": 171786,
+      "sha256": "cb1c9e312c5970628b9da69715807bd896b726a74dc1f6fd42dd62b556af2b38"
+    },
+    {
+      "name": "word/webextensions/taskpanes.xml",
+      "bytes": 368,
+      "sha256": "78bce2b2a76445c24a6973632edbcc932e735d74648db09b0ffbd272d45f5827"
+    },
+    {
+      "name": "word/webextensions/webextension1.xml",
+      "bytes": 446,
+      "sha256": "3b8965d7675a69ac0b28cb66063f15c5a6afd1021adb985785eb9473acd6d13d"
+    },
+    {
+      "name": "word/theme/theme1.xml",
+      "bytes": 6992,
+      "sha256": "bf4992e3fa7832e5c68fdbc4ec5189c8e5d347fef03c5ba2522ad704bde5078f"
+    },
+    {
+      "name": "word/webextensions/_rels/taskpanes.xml.rels",
+      "bytes": 284,
+      "sha256": "c2d95a9c9ac08613ee7ca29c3dd011b148435586f7b86d43312c57805ffa8706"
+    },
+    {
+      "name": "word/settings.xml",
+      "bytes": 43776,
+      "sha256": "dbadbf020986461b052e05beb2f3d848a9caf2db4fd646d4f357ad821bae21be"
+    },
+    {
+      "name": "customXml/item1.xml",
+      "bytes": 270,
+      "sha256": "c8092edbb672f8c93f1d5ef66539a6f169462ba8738b785b59cc5d96f4aca59a"
+    },
+    {
+      "name": "customXml/itemProps1.xml",
+      "bytes": 341,
+      "sha256": "9532db34a8fbf4e9d0c13a1fe630a5368ac3452ba014da173cb97af1caf048a3"
+    },
+    {
+      "name": "word/numbering.xml",
+      "bytes": 97737,
+      "sha256": "680b6df1db8a924d1ad631d46acec818bff58ec8597cdf544aaaea72a4efb79f"
+    },
+    {
+      "name": "word/styles.xml",
+      "bytes": 59127,
+      "sha256": "d424c5b56c7c369144c8a513441491a28339aca96b2b5dba5d699f5062ac2bf0"
+    },
+    {
+      "name": "word/webSettings.xml",
+      "bytes": 2698,
+      "sha256": "8713fcfaf2e11ab554c0fe8f5fc4baf24d3a6b96e1e7e4486b21302a62ce7175"
+    },
+    {
+      "name": "word/fontTable.xml",
+      "bytes": 5706,
+      "sha256": "7ae8c5d5486fcfb2f24d75bf46bfea92337e17faf0fb7aab2da3b95b736266a3"
+    },
+    {
+      "name": "docProps/core.xml",
+      "bytes": 806,
+      "sha256": "de15fb07db5b3997977f2653abdbb50c08abe26444fbe5e4da684785de07df50"
+    },
+    {
+      "name": "docProps/app.xml",
+      "bytes": 1148,
+      "sha256": "c2cb8924e08b01666243204b8c484a7e3da9044dc52024a84a2fd17892c338b3"
+    },
+    {
+      "name": "customXml/_rels/item1.xml.rels",
+      "bytes": 296,
+      "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+    }
+  ]
+}

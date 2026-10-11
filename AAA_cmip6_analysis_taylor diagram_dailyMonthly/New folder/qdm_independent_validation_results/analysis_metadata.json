@@ -1,0 +1,34 @@
+{
+  "input_dir": "D:\\ClaudeWork\\AAA_cmip6_analysis_taylor diagram_dailyMonthly",
+  "observed_file": "D:\\ClaudeWork\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\Observed_Rain_daily_198101_201412_Prachuap Khiri Khan.csv",
+  "calibration_period": [
+    "1981-01-01",
+    "2000-12-31"
+  ],
+  "validation_period": [
+    "2001-01-01",
+    "2014-12-31"
+  ],
+  "models": [
+    "ACCESS-ESM1-5",
+    "CESM2",
+    "CanESM5",
+    "EC-Earth3",
+    "MIROC6"
+  ],
+  "stations": [
+    "500001",
+    "500002",
+    "500003",
+    "500004",
+    "500005",
+    "500006",
+    "500007",
+    "500008",
+    "500009",
+    "500201",
+    "500202",
+    "500301"
+  ],
+  "qdm_note": "Principal QDM series were recomputed from observed and raw CMIP6 calibration data only. Provided bc_pr_day files were inventoried but not used for principal independent-validation metrics."
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_ACCESS-ESM1-5_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 331398,
+    "sha256": "6c78bf48acfba6e7a3ef8bd3444ecefc4f0353f58c4cdb167658bb61fb5c55f3"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_CanESM5_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 325190,
+    "sha256": "af11ab07d180b01fbdd4a2cd02f50a07834154add9ce6c2d4388632c111fd89d"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_CESM2_r11i1p1f1_1981-2014.csv.gz",
+    "bytes": 329983,
+    "sha256": "122307e763ba3d7d4e63a0e1643abd19f25c0bae96e07d96cd4ef70ac99f0d4a"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_EC-Earth3_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 330537,
+    "sha256": "b839af85688dad6827982f87ce354a905310fe81451cb8ac2f8e615105e09277"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_FGOALS-g3_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 331969,
+    "sha256": "cbd3eb68641866efdd22c17192aa1ab2f1802087015056b818457189017fb69a"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_MIROC6_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 330924,
+    "sha256": "c44af293a56ead356677750466e9c36aa914e86543325f22105782cad258256e"
+  },
+  {
+    "path": "output\\crossfit_qdm_daily\\qdm_crossfit_MRI-ESM2-0_r1i1p1f1_1981-2014.csv.gz",
+    "bytes": 330986,
+    "sha256": "28a1b0720c12f8eed8bb53aa4f000a2260139735e243772d53b532197e3efc3b"
+  },
+  {
+    "path": "output\\crossfit_qdm_diagnostics.csv",
+    "bytes": 835021,
+    "sha256": "9855ca36e836ae0cb404b57b26c363c3d704eeb50bdabd25986cacc409cd4d88"
+  },
+  {
+    "path": "output\\enso_asymmetry_primary.csv",
+    "bytes": 9327,
+    "sha256": "587f7b7c3f67315a6fa628382296bba0e27b5643a6bd3b244b39a666e83fc88d"
+  },
+  {
+    "path": "output\\enso_episode_catalog_models.csv",
+    "bytes": 17352,
+    "sha256": "22fec2ad77b6c6c2ab04e51386bb1b11d079d4ad153a70670d1c7457aa0ca17c"
+  },
+  {
+    "path": "output\\enso_episode_catalog_observed.csv",
+    "bytes": 5435,
+    "sha256": "9184c49ba54d68e4dc971a9bf39231de44efe1f442c15efab477e34e3f5a5171"
+  },
+  {
+    "path": "output\\enso_phase_sample_sizes.csv",
+    "bytes": 4394,
+    "sha256": "de50fbca75d4cbf20a19387680adf6a54c15149f1b25794bfb32a0e26726cf4b"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_01_ENSO_classification.pdf",
+    "bytes": 44580,
+    "sha256": "85a0f627583138020b25512b9b39e4ea0cc5a30203123fc4cdca6eee226c2c4c"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_01_ENSO_classification.png",
+    "bytes": 352394,
+    "sha256": "5264fd68ff96d0a55aa320ace1ac7dc3c788df5fc7a69af44c4ea7cc7e7788a8"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_02_observed_responses.pdf",
+    "bytes": 39366,
+    "sha256": "0bc7ed38be823f8005db5e7c83bee8164182f3355813b8e2ae907e08185f5311"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_02_observed_responses.png",
+    "bytes": 186229,
+    "sha256": "368222fe5e8a23978badf2519b1e9d02ae3ff2344d69407276daaaf6af375e86"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_03_raw_qdm_comparison.pdf",
+    "bytes": 45978,
+    "sha256": "8da418f432589a2be212f58bb9433c44cf31b52f2502086df88029e32f549f71"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_03_raw_qdm_comparison.png",
+    "bytes": 301311,
+    "sha256": "2c45ecdb7690b0f362d5975f9cf6f12adda4db080f015585bd006bd8fcc78575"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_04_preservation_asymmetry.pdf",
+    "bytes": 49331,
+    "sha256": "3cbfac7dfa74fa268a67ff0d27baa8667a0f04b34438d4f13329215fbf042be3"
+  },
+  {
+    "path": "output\\figures\\Paper3_Figure_04_preservation_asymmetry.png",
+    "bytes": 413332,
+    "sha256": "a75840b90a05e35f58a80e17928c81583ee23a2a147572bb4d990cde69f5e80f"
+  },
+  {
+    "path": "output\\figures\\Paper3_FIGURE_INDEX.csv",
+    "bytes": 1192,
+    "sha256": "e7ea3663b180cbe8ac865a477ccd6a03b280939c8408b9ec25ccfd2d4cf12ca2"
+  },
+  {
+    "path": "output\\grid_signature_primary_responses.csv",
+    "bytes": 80420,
+    "sha256": "25cc03a5f7a82d11148f998152a1ca19182f588083f1d7c9a92dcaf0e07d5434"
+  },
+  {
+    "path": "output\\manuscript_numerical_audit.csv",
+    "bytes": 8878,
+    "sha256": "53293dcfc418167a7e0f5d3757bf7b907a0592818fe7a98cc86e5809c60ed690"
+  },
+  {
+    "path": "output\\model_primary_responses.csv",
+    "bytes": 18291,
+    "sha256": "a31623aad413cb04e678a48eb04ef5bf98734929a46ec692fe313cbd64abf7c0"
+  },
+  {
+    "path": "output\\observed_oni_monthly_frozen.csv",
+    "bytes": 34448,
+    "sha256": "ca88315308063a536609deba74079d97b8bf6178029d3e7104abdfc97baa3767"
+  },
+  {
+    "path": "output\\observed_percentile_thresholds.json",
+    "bytes": 968,
+    "sha256": "27724f8e07af6a8062126471629ff9d4004271d073cd23d0741ec26de31c2935"
+  },
+  {
+    "path": "output\\observed_qc_common365.csv.gz",
+    "bytes": 156650,
+    "sha256": "4d1670570986604928f6684903a4b39757531f0d7dbde2dc84857a7a7f339f0d"
+  },
+  {
+    "path": "output\\observed_station_primary_responses.csv",
+    "bytes": 24425,
+    "sha256": "6c71ddc96329dc4904eb435536c91ca4fe1dca93bf7da218bc667a8902b4c140"
+  },
+  {
+    "path": "output\\observed_zero_qc_diagnostics.csv",
+    "bytes": 530498,
+    "sha256": "b441ffdc3f515b992ad78fc0f3f0e2c15baeee9e77598b8f9560f05d5cb12fcd"
+  },
+  {
+    "path": "output\\observed_zero_qc_summary.csv",
+    "bytes": 137,
+    "sha256": "73965e4a6f52d15f468caf6e5ac55603d4aa14282aec628e14c027d451c46d50"
+  },
+  {
+    "path": "output\\PAPER3_ACCEPTANCE_GATES.csv",
+    "bytes": 612,
+    "sha256": "664902f835e672bbc3d1296b8da4d8ee453d18b3172863fd7be60a1d5ff9be1a"
+  },
+  {
+    "path": "output\\paper3_run_manifest.json",
+    "bytes": 698,
+    "sha256": "8d399b503a66b039426257389bb204d4eff8bfd16879f8f53fbc519406757e66"
+  },
+  {
+    "path": "output\\primary_response_summary.csv",
+    "bytes": 11322,
+    "sha256": "3105fcecfe2ff3b0b5f6766d45a9a401ea3a228ee5d5ebf3edc6d7eda04e0d12"
+  },
+  {
+    "path": "output\\qdm_enso_signal_preservation.csv",
+    "bytes": 4092,
+    "sha256": "42c4c5c50c78a69282a80720780d8955ed71dcfaed267778317c3b3880d45377"
+  },
+  {
+    "path": "output\\rainfall_input_provenance.csv",
+    "bytes": 3101,
+    "sha256": "8e8bf321dbd34d82ac44312e77671d91d4446777feeff339e3fbfde61ac55d4a"
+  },
+  {
+    "path": "output\\raw_grid_signatures.csv",
+    "bytes": 4744,
+    "sha256": "86049411cc5700c7b351b3985274c4d84724aea8a2628f45dbadedab494e03d3"
+  },
+  {
+    "path": "output\\response_numerical_audit.csv",
+    "bytes": 4055,
+    "sha256": "a4a88dc65478fe6531218ea74c08f24e44720bae08f3bf4b0541d265b9ccbafa"
+  },
+  {
+    "path": "output\\season_classification_models.csv",
+    "bytes": 107044,
+    "sha256": "bbaee45aeebb97a97a1a527b0c60d0dff20c29a74d8d0744c42c255169ebce45"
+  },
+  {
+    "path": "output\\season_classification_observed.csv",
+    "bytes": 14245,
+    "sha256": "a1ef8ed7e5d459319533b40f2899917ad26310ce6a76ff3c2dd703ad483e5e5d"
+  },
+  {
+    "path": "output\\seasonal_metrics_all.csv.gz",
+    "bytes": 822757,
+    "sha256": "d6e34166c558595eb88d635940c958848ab2f81b89a5ee8c68db988cb7f2cf93"
+  },
+  {
+    "path": "output\\seasonal_metrics_long.csv.gz",
+    "bytes": 1561314,
+    "sha256": "0265d039be522cfcb1b55afd9412a927015ebca7ae579cb83ae87196b85e558c"
+  },
+  {
+    "path": "output\\tables\\Paper3_SUPPLEMENTARY_Tables.xlsx",
+    "bytes": 1067779,
+    "sha256": "23e0192dabeff7d06fa5d407a11c07d0c9653e616f39ecb5a2a9efb8adcb1794"
+  },
+  {
+    "path": "output\\tables\\Paper3_Table_01_ENSO_samples.csv",
+    "bytes": 654,
+    "sha256": "4e57e3af445672c2dc88cb833187798adcbc5379b595deb8be1598d2b130bedf"
+  },
+  {
+    "path": "output\\tables\\Paper3_Table_02_primary_responses.csv",
+    "bytes": 1852,
+    "sha256": "789ea69f480ab362df1414717b10e37a4903505e1e59c36dcaefa248de8346a0"
+  },
+  {
+    "path": "output\\tables\\Paper3_Table_03_preservation_asymmetry.csv",
+    "bytes": 941,
+    "sha256": "ebe856bda5716faea9782ea56c66245a3993ccc60fa236a8115adc0f66c733e3"
+  },
+  {
+    "path": "output\\tables\\Paper3_TABLE_INDEX.csv",
+    "bytes": 44,
+    "sha256": "f64ab206a21b1ffb1ab1060c3e31d04ef8a45305608a381e78e6be8e3d495318"
+  }
+]

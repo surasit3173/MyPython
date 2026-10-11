@@ -1,0 +1,13 @@
+{
+  "project": "CMIP6PrachuapKhiriKhan",
+  "target": "Q2-Q3",
+  "mode": "MANUSCRIPT_FINALIZATION",
+  "execution_spec": "C:\\MyPython\\CMIP6PrachuapKhiriKhan\\PROJECT1_PrachuapKhiriKhan_Antigravity_Execution_Spec.md",
+  "constraints": {
+    "analysis_locked": true,
+    "rerun_analysis": false,
+    "modify_statistical_pipeline": false,
+    "fabricate_evidence": false,
+    "fail_closed_on_conflict": true
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\Rainfall Occurrence-Intensity Heterogeneity_AER_Submission.docx",
+  "fonts_by_char_count": {
+    "Times New Roman": 28274
+  },
+  "direct_run_formatting_runs": 597,
+  "direct_paragraph_formatting_paragraphs": 651,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 2,
+      "text": "Surasit Punyawansiri1,*",
+      "style": "Normal"
+    },
+    {
+      "para_index": 5,
+      "text": "Abstract",
+      "style": "Normal"
+    },
+    {
+      "para_index": 157,
+      "text": "Station",
+      "style": "Normal"
+    },
+    {
+      "para_index": 158,
+      "text": "Lat. (\u00b0N)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 159,
+      "text": "Long. (\u00b0E)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 160,
+      "text": "Elev. (m)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 161,
+      "text": "P (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 162,
+      "text": "W (d)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 163,
+      "text": "S (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 164,
+      "text": "Max. daily (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 282,
+      "text": "Station",
+      "style": "Normal"
+    },
+    {
+      "para_index": 283,
+      "text": "AICc Gumbel",
+      "style": "Normal"
+    },
+    {
+      "para_index": 284,
+      "text": "AICc GEV",
+      "style": "Normal"
+    },
+    {
+      "para_index": 285,
+      "text": "AICc LP3",
+      "style": "Normal"
+    },
+    {
+      "para_index": 286,
+      "text": "\u0394AICc",
+      "style": "Normal"
+    },
+    {
+      "para_index": 287,
+      "text": "Akaike weight",
+      "style": "Normal"
+    },
+    {
+      "para_index": 288,
+      "text": "Selected",
+      "style": "Normal"
+    },
+    {
+      "para_index": 380,
+      "text": "T (yr)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 381,
+      "text": "Min. (mm)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 382,
+      "text": "Max. (mm)",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Rainfall Occurrence-Intensity Heterogeneity and Its Implications for Provincial Extreme Rainfall Design",
+        "style": "Title"
+      },
+      {
+        "para_index": 2,
+        "text": "Surasit Punyawansiri1,*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "1 Office of Water Management and Hydrology, Royal Irrigation Department, 811 Samsen Road, Dusit, Bangkok 10300, Thailand",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "*Corresponding author. E-mail: Surasit.pu@ku.th",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "Abstract",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Rainfall Occurrence-Intensity Heterogeneity and Its Implications for Provincial ",
+        "style": "Title"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Surasit Punyawansiri",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "1,*",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "1",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": " Office of Water Management and Hydrology, Royal Irrigation Department, 811 Sams",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

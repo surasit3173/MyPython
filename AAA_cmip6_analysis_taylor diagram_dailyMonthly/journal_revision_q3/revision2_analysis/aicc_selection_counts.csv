@@ -1,0 +1,13 @@
+criterion,method,side,distribution,count
+AICc,QDM_P_annual,obs,pearson3,55
+AICc,QDM_P_annual,obs,lognorm,5
+AICc,QDM_P_annual,mod,pearson3,45
+AICc,QDM_P_annual,mod,genextreme,15
+AICc,QDM_P_monthly,obs,pearson3,610
+AICc,QDM_P_monthly,obs,genextreme,5
+AICc,QDM_P_monthly,obs,lognorm,5
+AICc,QDM_P_monthly,mod,pearson3,496
+AICc,QDM_P_monthly,mod,genextreme,106
+AICc,QDM_P_monthly,mod,lognorm,12
+AICc,QDM_P_monthly,mod,gamma,3
+AICc,QDM_P_monthly,mod,weibull_min,3

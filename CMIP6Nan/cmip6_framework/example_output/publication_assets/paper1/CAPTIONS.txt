@@ -1,0 +1,19 @@
+Table 1. Configuration of the seven CMIP6 models. "Distinct series" is the number of different daily series the 13 analysed gauges receive from that model, that is the number of native grid cells effectively serving the province.
+
+Table 2. Calibration-period (1981–2002) mean absolute bias, defined by Equation (2), of raw and QDM-corrected CMIP6 daily precipitation against gauge observations, averaged over 13 gauges and 7 models. Marginal-distribution performance only; this table does not imply correction of temporal sequencing or multi-day persistence. Signed biases and the full metric set are given in Supplementary Table S2.
+
+Table 3. Independent validation (2003–2014) of QDM-corrected CMIP6 precipitation against observations, using parameters fitted on 1981–2002 and frozen. Mean absolute bias as defined by Equation (2), averaged over 13 gauges and 7 models. Signed biases are given in Supplementary Table S3 and the homogeneity sensitivity in Supplementary Table S4.
+
+Table 4. Projected change for 2021–2050 relative to each model's own bias-corrected baseline (1995–2014), from Equation (3). For each scenario the ensemble median, the inter-model interquartile range and the agreement fraction are given, with a flag for agreement of at least 0.80. Indices marked "diagnostic" depend on the ordering of wet and dry days, which quantile mapping does not correct (Section 3.2).
+
+Figure 1. Location of Uttaradit Province in Thailand (inset) and the 13 rain gauges used in this study, over terrain elevation. The provincial boundary is shown in black.
+
+Figure 2. Mean absolute bias of raw and QDM-corrected CMIP6 daily precipitation against gauge observations over the calibration period 1981–2002. The dotted divider separates statistics primarily controlled by the marginal daily distribution from sequence-dependent and multi-day statistics that are not explicitly reconstructed by quantile mapping.
+
+Figure 3. As Figure 2, for the independent validation period 2003–2014 using parameters fitted on 1981–2002 and frozen. Axes are identical to Figure 2 to allow direct comparison. CDD is the only index for which the corrected bias exceeds the raw bias.
+
+Figure 4. Projected change in precipitation characteristics for 2021–2050 relative to each model's own bias-corrected baseline (1995–2014). Bars are ensemble medians and whiskers denote the inter-model interquartile range, which represents inter-model spread and not a confidence interval. The number beneath each bar is the inter-model agreement fraction; bold marks agreement of at least 0.80, and those bars are filled solid.
+
+Figure 5. As Figure 4, for the extreme-rainfall indices: (a) intensity and threshold indices and (b) tail and persistence indices. CDD, CWD and Rx5day depend on the ordering of wet and dry days, which quantile mapping does not correct; they are drawn as open hatched bars and are reported as diagnostics rather than as corrected projections.
+
+Figure 6. Ensemble median change in annual precipitation for 2021–2050 relative to each model's own bias-corrected baseline. The shaded surface is an inverse-distance-weighted interpolation between the 13 gauges, clipped to the verified provincial boundary; the gauges themselves are drawn on top, sized by the inter-model agreement fraction, with filled symbols for agreement of at least 0.80 and open symbols below it.

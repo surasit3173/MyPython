@@ -1,0 +1,81 @@
+{
+  "input": "C:\\MyPython\\AAA_cmip6_analysis_taylor diagram_dailyMonthly\\journal_revision_20260910\\journal_template.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 8,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "Submission Preparation Checklist",
+      "style": "Normal"
+    },
+    {
+      "para_index": 9,
+      "text": "Author Guidelines",
+      "style": "Normal"
+    },
+    {
+      "para_index": 13,
+      "text": "1. Manuscript format",
+      "style": "Normal"
+    },
+    {
+      "para_index": 16,
+      "text": "2. Figures, Tables and Equations",
+      "style": "Normal"
+    },
+    {
+      "para_index": 20,
+      "text": "3. Acknowledgements",
+      "style": "Normal"
+    },
+    {
+      "para_index": 22,
+      "text": "4. References",
+      "style": "Normal"
+    },
+    {
+      "para_index": 25,
+      "text": "5. Biographies",
+      "style": "Normal"
+    },
+    {
+      "para_index": 27,
+      "text": "Privacy Statement",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Submission Preparation Checklist",
+        "style": "Normal"
+      },
+      {
+        "para_index": 9,
+        "run_text": "Author Guidelines",
+        "style": "Normal"
+      },
+      {
+        "para_index": 13,
+        "run_text": "1. Manuscript format",
+        "style": "Normal"
+      },
+      {
+        "para_index": 16,
+        "run_text": "2. Figures, Tables and Equations",
+        "style": "Normal"
+      },
+      {
+        "para_index": 20,
+        "run_text": "3. Acknowledgements",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

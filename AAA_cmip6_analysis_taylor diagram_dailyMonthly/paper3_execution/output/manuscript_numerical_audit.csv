@@ -1,0 +1,106 @@
+check,pass,expected,actual
+"Table2 OBSERVED ('RAINY', 'PRCPTOT', 'EL_NINO')",True,"-7.2 [-18.8, 4.4]","-7.2 [-18.8, 4.4]"
+"Table2 RAW ('RAINY', 'PRCPTOT', 'EL_NINO')",True,"-12.2 [-23.8, 1.0]","-12.2 [-23.8, 1.0]"
+"Table2 QDM ('RAINY', 'PRCPTOT', 'EL_NINO')",True,"-14.5 [-25.1, -1.4]","-14.5 [-25.1, -1.4]"
+"Table2 q ('RAINY', 'PRCPTOT', 'EL_NINO')",True,0.471,0.471
+"Table2 OBSERVED ('RAINY', 'PRCPTOT', 'LA_NINA')",True,"2.7 [-10.2, 17.3]","2.7 [-10.2, 17.3]"
+"Table2 RAW ('RAINY', 'PRCPTOT', 'LA_NINA')",True,"-10.0 [-20.0, 3.0]","-10.0 [-20.0, 3.0]"
+"Table2 QDM ('RAINY', 'PRCPTOT', 'LA_NINA')",True,"-15.0 [-26.3, -1.1]","-15.0 [-26.3, -1.1]"
+"Table2 q ('RAINY', 'PRCPTOT', 'LA_NINA')",True,0.790,0.790
+"Table2 OBSERVED ('RAINY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-0.1 [-12.3, 2.8]","-0.1 [-12.3, 2.8]"
+"Table2 RAW ('RAINY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-4.4 [-10.8, 3.2]","-4.4 [-10.8, 3.2]"
+"Table2 QDM ('RAINY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-7.0 [-12.4, -1.7]","-7.0 [-12.4, -1.7]"
+"Table2 q ('RAINY', 'wet_day_frequency_pct', 'EL_NINO')",True,0.980,0.980
+"Table2 OBSERVED ('RAINY', 'wet_day_frequency_pct', 'LA_NINA')",True,"-2.4 [-9.6, 6.3]","-2.4 [-9.6, 6.3]"
+"Table2 RAW ('RAINY', 'wet_day_frequency_pct', 'LA_NINA')",True,"-6.8 [-11.8, 0.3]","-6.8 [-11.8, 0.3]"
+"Table2 QDM ('RAINY', 'wet_day_frequency_pct', 'LA_NINA')",True,"-4.7 [-8.2, -0.8]","-4.7 [-8.2, -0.8]"
+"Table2 q ('RAINY', 'wet_day_frequency_pct', 'LA_NINA')",True,0.647,0.647
+"Table2 OBSERVED ('RAINY', 'Rx1day', 'EL_NINO')",True,"-24.3 [-40.1, 3.0]","-24.3 [-40.1, 3.0]"
+"Table2 RAW ('RAINY', 'Rx1day', 'EL_NINO')",True,"-12.7 [-32.3, 2.7]","-12.7 [-32.3, 2.7]"
+"Table2 QDM ('RAINY', 'Rx1day', 'EL_NINO')",True,"-5.7 [-35.4, 9.7]","-5.7 [-35.4, 9.7]"
+"Table2 q ('RAINY', 'Rx1day', 'EL_NINO')",True,0.433,0.433
+"Table2 OBSERVED ('RAINY', 'Rx1day', 'LA_NINA')",True,"0.5 [-26.8, 35.8]","0.5 [-26.8, 35.8]"
+"Table2 RAW ('RAINY', 'Rx1day', 'LA_NINA')",True,"-12.9 [-28.2, 4.6]","-12.9 [-28.2, 4.6]"
+"Table2 QDM ('RAINY', 'Rx1day', 'LA_NINA')",True,"-28.3 [-41.9, 0.5]","-28.3 [-41.9, 0.5]"
+"Table2 q ('RAINY', 'Rx1day', 'LA_NINA')",True,0.980,0.980
+"Table2 OBSERVED ('RAINY', 'CDD', 'EL_NINO')",True,"17.9 [-6.7, 41.0]","17.9 [-6.7, 41.0]"
+"Table2 RAW ('RAINY', 'CDD', 'EL_NINO')",True,"13.1 [-2.0, 41.0]","13.1 [-2.0, 41.0]"
+"Table2 QDM ('RAINY', 'CDD', 'EL_NINO')",True,"11.9 [-4.1, 25.3]","11.9 [-4.1, 25.3]"
+"Table2 q ('RAINY', 'CDD', 'EL_NINO')",True,0.433,0.433
+"Table2 OBSERVED ('RAINY', 'CDD', 'LA_NINA')",True,"-5.8 [-19.0, 14.3]","-5.8 [-19.0, 14.3]"
+"Table2 RAW ('RAINY', 'CDD', 'LA_NINA')",True,"16.2 [4.0, 45.6]","16.2 [4.0, 45.6]"
+"Table2 QDM ('RAINY', 'CDD', 'LA_NINA')",True,"3.4 [-5.1, 21.9]","3.4 [-5.1, 21.9]"
+"Table2 q ('RAINY', 'CDD', 'LA_NINA')",True,0.711,0.711
+"Table2 OBSERVED ('HOT_DRY', 'PRCPTOT', 'EL_NINO')",True,"-28.7 [-55.5, 6.1]","-28.7 [-55.5, 6.1]"
+"Table2 RAW ('HOT_DRY', 'PRCPTOT', 'EL_NINO')",True,"-10.4 [-27.8, 7.2]","-10.4 [-27.8, 7.2]"
+"Table2 QDM ('HOT_DRY', 'PRCPTOT', 'EL_NINO')",True,"14.4 [-28.6, 42.9]","14.4 [-28.6, 42.9]"
+"Table2 q ('HOT_DRY', 'PRCPTOT', 'EL_NINO')",True,0.433,0.433
+"Table2 OBSERVED ('HOT_DRY', 'PRCPTOT', 'LA_NINA')",True,"13.3 [-15.6, 58.0]","13.3 [-15.6, 58.0]"
+"Table2 RAW ('HOT_DRY', 'PRCPTOT', 'LA_NINA')",True,"-0.4 [-13.9, 29.4]","-0.4 [-13.9, 29.4]"
+"Table2 QDM ('HOT_DRY', 'PRCPTOT', 'LA_NINA')",True,"20.3 [-16.6, 68.7]","20.3 [-16.6, 68.7]"
+"Table2 q ('HOT_DRY', 'PRCPTOT', 'LA_NINA')",True,0.709,0.709
+"Table2 OBSERVED ('HOT_DRY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-10.4 [-34.7, 18.1]","-10.4 [-34.7, 18.1]"
+"Table2 RAW ('HOT_DRY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-4.8 [-14.0, 2.5]","-4.8 [-14.0, 2.5]"
+"Table2 QDM ('HOT_DRY', 'wet_day_frequency_pct', 'EL_NINO')",True,"-1.7 [-17.6, 11.7]","-1.7 [-17.6, 11.7]"
+"Table2 q ('HOT_DRY', 'wet_day_frequency_pct', 'EL_NINO')",True,0.711,0.711
+"Table2 OBSERVED ('HOT_DRY', 'wet_day_frequency_pct', 'LA_NINA')",True,"33.0 [0.0, 53.1]","33.0 [0.0, 53.1]"
+"Table2 RAW ('HOT_DRY', 'wet_day_frequency_pct', 'LA_NINA')",True,"4.7 [-6.3, 12.6]","4.7 [-6.3, 12.6]"
+"Table2 QDM ('HOT_DRY', 'wet_day_frequency_pct', 'LA_NINA')",True,"11.5 [-2.2, 32.3]","11.5 [-2.2, 32.3]"
+"Table2 q ('HOT_DRY', 'wet_day_frequency_pct', 'LA_NINA')",True,0.433,0.433
+"Table2 OBSERVED ('HOT_DRY', 'Rx1day', 'EL_NINO')",True,"-27.2 [-48.2, 4.2]","-27.2 [-48.2, 4.2]"
+"Table2 RAW ('HOT_DRY', 'Rx1day', 'EL_NINO')",True,"-17.1 [-27.6, 18.3]","-17.1 [-27.6, 18.3]"
+"Table2 QDM ('HOT_DRY', 'Rx1day', 'EL_NINO')",True,"-2.1 [-28.5, 62.6]","-2.1 [-28.5, 62.6]"
+"Table2 q ('HOT_DRY', 'Rx1day', 'EL_NINO')",True,0.433,0.433
+"Table2 OBSERVED ('HOT_DRY', 'Rx1day', 'LA_NINA')",True,"-12.6 [-29.1, 29.3]","-12.6 [-29.1, 29.3]"
+"Table2 RAW ('HOT_DRY', 'Rx1day', 'LA_NINA')",True,"6.2 [-21.6, 35.0]","6.2 [-21.6, 35.0]"
+"Table2 QDM ('HOT_DRY', 'Rx1day', 'LA_NINA')",True,"23.0 [-24.3, 80.7]","23.0 [-24.3, 80.7]"
+"Table2 q ('HOT_DRY', 'Rx1day', 'LA_NINA')",True,0.681,0.681
+"Table2 OBSERVED ('HOT_DRY', 'CDD', 'EL_NINO')",True,"-9.6 [-27.9, 15.5]","-9.6 [-27.9, 15.5]"
+"Table2 RAW ('HOT_DRY', 'CDD', 'EL_NINO')",True,"4.8 [-11.2, 25.3]","4.8 [-11.2, 25.3]"
+"Table2 QDM ('HOT_DRY', 'CDD', 'EL_NINO')",True,"13.3 [-2.8, 29.3]","13.3 [-2.8, 29.3]"
+"Table2 q ('HOT_DRY', 'CDD', 'EL_NINO')",True,0.711,0.711
+"Table2 OBSERVED ('HOT_DRY', 'CDD', 'LA_NINA')",True,"-18.5 [-36.9, 9.2]","-18.5 [-36.9, 9.2]"
+"Table2 RAW ('HOT_DRY', 'CDD', 'LA_NINA')",True,"-3.9 [-17.4, 6.2]","-3.9 [-17.4, 6.2]"
+"Table2 QDM ('HOT_DRY', 'CDD', 'LA_NINA')",True,"0.6 [-14.8, 17.9]","0.6 [-14.8, 17.9]"
+"Table2 q ('HOT_DRY', 'CDD', 'LA_NINA')",True,0.433,0.433
+"Table3 category ('RAINY', 'PRCPTOT', 'EL_NINO')",True,PRESERVED,PRESERVED
+"Table3 category ('RAINY', 'PRCPTOT', 'LA_NINA')",True,AMPLIFIED,AMPLIFIED
+"Table3 asymmetry ('OBSERVED', 'RAINY', 'PRCPTOT')",True,-3.5,-3.5
+"Table3 asymmetry ('RAW', 'RAINY', 'PRCPTOT')",True,-23.4,-23.4
+"Table3 asymmetry ('QDM', 'RAINY', 'PRCPTOT')",True,-28.0,-28.0
+"Table3 category ('RAINY', 'wet_day_frequency_pct', 'EL_NINO')",True,INDETERMINATE,INDETERMINATE
+"Table3 category ('RAINY', 'wet_day_frequency_pct', 'LA_NINA')",True,ATTENUATED,ATTENUATED
+"Table3 asymmetry ('OBSERVED', 'RAINY', 'wet_day_frequency_pct')",True,-6.1,-6.1
+"Table3 asymmetry ('RAW', 'RAINY', 'wet_day_frequency_pct')",True,-12.2,-12.2
+"Table3 asymmetry ('QDM', 'RAINY', 'wet_day_frequency_pct')",True,-10.6,-10.6
+"Table3 category ('RAINY', 'Rx1day', 'EL_NINO')",True,ATTENUATED,ATTENUATED
+"Table3 category ('RAINY', 'Rx1day', 'LA_NINA')",True,AMPLIFIED,AMPLIFIED
+"Table3 asymmetry ('OBSERVED', 'RAINY', 'Rx1day')",True,-23.0,-23.0
+"Table3 asymmetry ('RAW', 'RAINY', 'Rx1day')",True,-26.4,-26.4
+"Table3 asymmetry ('QDM', 'RAINY', 'Rx1day')",True,-34.6,-34.6
+"Table3 category ('RAINY', 'CDD', 'EL_NINO')",True,PRESERVED,PRESERVED
+"Table3 category ('RAINY', 'CDD', 'LA_NINA')",True,ATTENUATED,ATTENUATED
+"Table3 asymmetry ('OBSERVED', 'RAINY', 'CDD')",True,8.8,8.8
+"Table3 asymmetry ('RAW', 'RAINY', 'CDD')",True,22.8,22.8
+"Table3 asymmetry ('QDM', 'RAINY', 'CDD')",True,7.6,7.6
+"Table3 category ('HOT_DRY', 'PRCPTOT', 'EL_NINO')",True,REVERSED,REVERSED
+"Table3 category ('HOT_DRY', 'PRCPTOT', 'LA_NINA')",True,INDETERMINATE,INDETERMINATE
+"Table3 asymmetry ('OBSERVED', 'HOT_DRY', 'PRCPTOT')",True,-15.1,-15.1
+"Table3 asymmetry ('RAW', 'HOT_DRY', 'PRCPTOT')",True,-8.3,-8.3
+"Table3 asymmetry ('QDM', 'HOT_DRY', 'PRCPTOT')",True,52.7,52.7
+"Table3 category ('HOT_DRY', 'wet_day_frequency_pct', 'EL_NINO')",True,INDETERMINATE,INDETERMINATE
+"Table3 category ('HOT_DRY', 'wet_day_frequency_pct', 'LA_NINA')",True,INDETERMINATE,INDETERMINATE
+"Table3 asymmetry ('OBSERVED', 'HOT_DRY', 'wet_day_frequency_pct')",True,15.5,15.5
+"Table3 asymmetry ('RAW', 'HOT_DRY', 'wet_day_frequency_pct')",True,0.4,0.4
+"Table3 asymmetry ('QDM', 'HOT_DRY', 'wet_day_frequency_pct')",True,8.8,8.8
+"Table3 category ('HOT_DRY', 'Rx1day', 'EL_NINO')",True,ATTENUATED,ATTENUATED
+"Table3 category ('HOT_DRY', 'Rx1day', 'LA_NINA')",True,AMPLIFIED,AMPLIFIED
+"Table3 asymmetry ('OBSERVED', 'HOT_DRY', 'Rx1day')",True,-23.9,-23.9
+"Table3 asymmetry ('RAW', 'HOT_DRY', 'Rx1day')",True,15.7,15.7
+"Table3 asymmetry ('QDM', 'HOT_DRY', 'Rx1day')",True,20.9,20.9
+"Table3 category ('HOT_DRY', 'CDD', 'EL_NINO')",True,INDETERMINATE,INDETERMINATE
+"Table3 category ('HOT_DRY', 'CDD', 'LA_NINA')",True,INDETERMINATE,INDETERMINATE
+"Table3 asymmetry ('OBSERVED', 'HOT_DRY', 'CDD')",True,-24.4,-24.4
+"Table3 asymmetry ('RAW', 'HOT_DRY', 'CDD')",True,1.0,1.0
+"Table3 asymmetry ('QDM', 'HOT_DRY', 'CDD')",True,6.4,6.4
+Abstract preservation counts,True,"{'INDETERMINATE_RAW_NEAR_ZERO': 6, 'ATTENUATED': 4, 'AMPLIFIED': 3, 'PRESERVED': 2, 'REVERSED': 1}","preserved only 2 of 16 signals, attenuated 4, amplified 3, reversed 1"

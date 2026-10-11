@@ -1,0 +1,97 @@
+study:
+  area: Uttaradit
+  country: Thailand
+  analysis_period: [1981, 2014]
+  station_count_expected: 13
+
+paths:
+  observed: inputs/dataUttaradit/Observed_Rain_daily_198101_201412_Uttaradit.csv
+  coordinates: inputs/dataUttaradit/station_coordinates.xlsx
+  cmip6_raw: inputs/dataUttaradit/GCM raindata
+  observed_oni_html: inputs/enso/noaa_cpc_oni_ersstv6_2026-09-01.html
+  model_nino34_csv: inputs/enso/model_nino34_monthly_1981-2014.csv
+  model_nino34_manifest: inputs/enso/model_nino34_source_manifest.json
+  output: output
+
+enso:
+  observed_source: NOAA_CPC_ONI
+  observed_index: ONI
+  observed_version: ERSSTv6 historical ONI table frozen 2026-09-01
+  observed_url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v6/
+  threshold_c: 0.5
+  persistence_seasons: 5
+  classification_rule: strict_majority_persistent_episode_membership
+  excluded_class: TRANSITION_UNCLASSIFIED
+  minimum_seasons_for_composite: 3
+
+seasons:
+  rainy:
+    label: Rainy season
+    months: [5, 6, 7, 8, 9, 10]
+    cross_year: false
+  hot_dry:
+    label: Hot/dry season
+    start_month: 11
+    end_month: 4
+    cross_year: true
+
+calendar:
+  common_calendar: 365_day
+  leap_day_action: drop
+  missing_day_action: exclude_incomplete_station_season
+
+observed_qc:
+  wet_day_mm: 1.0
+  neighbour_median_mm: 20.0
+  neighbour_wet_mm: 5.0
+  neighbour_frac: 0.80
+  own_clim_mm: 20.0
+  zero_run_days: 45
+  annual_deficit_frac: 0.60
+  confirmed_dry_clim_mm: 5.0
+  min_indicators: 2
+  classes_set_to_missing: [probable_missing]
+
+bias_correction:
+  method: blocked_cross_fitted_multiplicative_qdm
+  wet_day_threshold_mm: 1.0
+  frequency_adaptation: true
+  plotting_position: hazen_midrank
+  interpolation: linear
+  extrapolation: constant_ratio
+  group_by_month: true
+  min_wet_days_per_month: 30
+  sparse_month_fallback: adjacent_3_month_pool
+  climate_year_blocks:
+    - [1981, 1985]
+    - [1986, 1990]
+    - [1991, 1995]
+    - [1996, 2000]
+    - [2001, 2005]
+    - [2006, 2010]
+    - [2011, 2014]
+
+metrics:
+  wet_day_threshold_mm: 1.0
+  percentile_reference: [1981, 2010]
+  primary: [PRCPTOT, wet_day_frequency_pct, Rx1day, CDD]
+  secondary: [Rx5day, CWD, R10mm, R20mm, R50mm, R95p, R99p, q50, q90, q95, q99]
+
+statistics:
+  phase_estimator_within_station: mean
+  regional_estimator: median
+  ensemble_estimator: median
+  bootstrap_repetitions: 5000
+  permutation_repetitions: 4999
+  confidence_level: 0.95
+  multiplicity: benjamini_hochberg_across_primary_tests
+  seed: 20260830
+
+preservation:
+  near_zero_response_pct: 5.0
+  preserved_magnitude_ratio: [0.8, 1.2]
+
+figures:
+  dpi: 600
+  font_family: [Times New Roman, DejaVu Serif, serif]
+  main_figure_count: 4

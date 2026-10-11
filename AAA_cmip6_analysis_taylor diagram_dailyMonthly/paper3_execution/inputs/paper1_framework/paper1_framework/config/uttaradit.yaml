@@ -1,0 +1,77 @@
+# =============================================================================
+# CMIP6 bias-correction framework — area configuration
+#
+# TO RE-USE FOR ANOTHER PROVINCE: copy this file, change `area` and `paths`.
+# Nothing in src/ or scripts/ contains an area name, a station id, or a year.
+# =============================================================================
+
+area:
+  name: Uttaradit
+  country: Thailand
+  # Gate F: how to find this area in an ADM1 dataset.
+  adm1_name: Uttaradit          # unit name as it appears in the source
+  country_iso3: THA
+  # Independent area reference for the plausibility check (state its origin).
+  reference_area_km2: 7838.6    # commonly cited provincial area, Thailand
+  # Stations are resolved as: observed-file columns  n  coordinate-table ids.
+  # Leave `stations: null` for automatic resolution (recommended).
+  stations: null
+
+paths:
+  observed: data/observed/Observed_Rain_daily_198101_201412_Uttaradit.csv
+  cmip6_raw: data/cmip6_raw          # searched recursively for pr_day_*.csv
+  gis: data/gis
+  output: output
+
+periods:
+  calibration: [1981, 2002]          # parameters are fitted here and FROZEN
+  validation:  [2003, 2014]          # strictly out-of-sample, never refitted
+  baseline:    [1995, 2014]          # model-consistent future reference
+  # A single 30-year near-future window. Every statistic is recomputed from the
+  # daily bias-corrected series over these years; it is never an average of
+  # shorter windows.
+  future:
+    Near: [2021, 2050]
+
+scenarios: [ssp245, ssp585]
+
+# null = use every model discovered in cmip6_raw
+models: null
+
+bias_correction:
+  wet_day_threshold_mm: 1.0          # WMO wet day; used identically by all methods
+  frequency_adaptation: true         # match model wet-day frequency to observed
+  plotting_position: hazen           # (i+0.5)/n  -> quantile estimation convention
+  interpolation: linear              # within the calibration quantile range
+  extrapolation: constant_ratio      # outside it; never clipped, always counted
+  min_wet_days: 30                   # refuse to fit a station-model below this
+  methods: [qm, detqm, qdm]
+
+indices:
+  percentile_reference: calibration  # base period for R95p / R99p thresholds
+  set: [PRCPTOT, PRCPTOT_wet, PRCPTOT_dry, SDII, Rx1day, Rx5day, R10mm, R20mm, R50mm,
+        CDD, CWD, R95p, R99p, wet_day_pct, q50, q90, q95, q99]
+
+ensemble:
+  agreement_threshold: 0.80          # AR6-style; applied to the CONTINUOUS fraction
+  spread: iqr
+
+observed_qc:
+  wet_day_mm: 1.0
+  neighbour_median_mm: 20.0
+  neighbour_wet_mm: 5.0
+  neighbour_frac: 0.80
+  own_clim_mm: 20.0
+  zero_run_days: 45
+  annual_deficit_frac: 0.60
+  confirmed_dry_clim_mm: 5.0
+  min_indicators: 2
+  # `probable missing` additionally REQUIRES a neighbour-based contradiction.
+
+figures:
+  dpi: 600
+  single_column_in: 3.5
+  double_column_in: 7.2
+  font_family: [Times New Roman, DejaVu Serif, serif]
+
+seed: 20260830

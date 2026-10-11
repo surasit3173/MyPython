@@ -1,0 +1,80 @@
+{
+  "input": "D:\\\u0e27\u0e32\u0e23\u0e2a\u0e32\u0e23 APST\\Updated-APST-format-September-16-2025.docx",
+  "fonts_by_char_count": {
+    "Times New Roman": 7405
+  },
+  "direct_run_formatting_runs": 632,
+  "direct_paragraph_formatting_paragraphs": 159,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 7,
+      "text": "Abstract",
+      "style": "Normal"
+    },
+    {
+      "para_index": 52,
+      "text": "4. Ethical Approval",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Title (Time New Roman, Font 12, Bold)",
+        "style": "Heading 4"
+      },
+      {
+        "para_index": 2,
+        "text": "1st author name1, 2nd author name1, * and Last author name1 (Time New Roman, Font 10)",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "1 Affiliation (Time New Roman, Font 10)",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "*Corresponding author: Please_fill_in@email.",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "",
+        "style": "No Spacing"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Title ",
+        "style": "Heading 4"
+      },
+      {
+        "para_index": 1,
+        "run_text": "(Time New Roman, Font 12, Bold)",
+        "style": "Heading 4"
+      },
+      {
+        "para_index": 2,
+        "run_text": "1",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "st",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": " author name",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

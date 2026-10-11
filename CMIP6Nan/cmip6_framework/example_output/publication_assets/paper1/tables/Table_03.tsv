@@ -1,0 +1,3 @@
+Simulation	wet_day_pct |bias| (%)	PRCPTOT |bias| (%)	SDII |bias| (%)	q95 |bias| (%)	Rx1day |bias| (%)	Rx5day |bias| (%)	CDD |bias| (%)	CWD |bias| (%)
+Raw CMIP6	67.22	38.45	44.08	47.95	47.38	35.63	48.43	83.19
+QDM-corrected	28.62	15.82	27.37	33.69	26.85	31.52	49.84	38.73

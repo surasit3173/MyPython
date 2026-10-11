@@ -1,0 +1,33 @@
+{
+  "observed_start": "1981-01-01",
+  "observed_end": "2014-12-31",
+  "station_count": 13,
+  "model_count": 7,
+  "scenario_count": 2,
+  "annual_rows": 417274,
+  "baseline": "1995-2014",
+  "windows": {
+    "Near-term": [
+      2021,
+      2040
+    ],
+    "Mid-term": [
+      2041,
+      2060
+    ],
+    "Long-term": [
+      2081,
+      2100
+    ]
+  },
+  "sign_reversals": 25,
+  "classification_changes": 37,
+  "change_signal_sign_preserved_fraction": 0.6688311688311688,
+  "median_abs_change_difference_pp": 12.056409865900704,
+  "tfpw_self_test_type1_phi06": 0.383,
+  "notes": [
+    "TFPW p-values excluded from confirmatory manuscript claims.",
+    "R50mm relative changes treated as denominator-sensitive.",
+    "Bias-correction calibration/provenance not independently reproducible from supplied files."
+  ]
+}

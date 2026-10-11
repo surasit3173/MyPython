@@ -1,0 +1,673 @@
+PATH: C:\MyPython\AAA_cmip6_analysis_taylor diagram_dailyMonthly\Rainfall Occurrence-Intensity Heterogeneity_AER_Submission.docx
+SHA256: 8441c3b966dbdae8e02827e7b769421661377dfbaf0958d28d9a3cc67167f56d
+SECTIONS: [{"index": 0, "start_type": "NEW_PAGE (2)", "page_width_in": 8.5, "page_height_in": 11.0, "orientation": "PORTRAIT (0)", "top_margin_in": 1.0, "bottom_margin_in": 1.0, "left_margin_in": 1.0, "right_margin_in": 1.0, "header_distance_in": 0.5, "footer_distance_in": 0.5, "gutter_in": 0.0, "different_first_page": false, "columns": {"num": "1", "space_twips": "720", "equal_width": null, "separator": null, "items": []}}]
+PARAGRAPHS: 155 TABLES: 5 MEDIA: 4
+
+=== BODY PARAGRAPHS ===
+P0000 [Title] Rainfall Occurrence-Intensity Heterogeneity and Its Implications for Provincial Extreme Rainfall Design
+P0001 [Normal] Surasit Punyawansiri1,*
+P0002 [Normal] 1 Office of Water Management and Hydrology, Royal Irrigation Department, 811 Samsen Road, Dusit, Bangkok 10300, Thailand
+P0003 [Normal] *Corresponding author. E-mail: Surasit.pu@ku.th
+P0004 [Normal] Abstract
+P0005 [Normal] Provincial drainage design may rely on a single design rainfall even when rainfall occurrence and intensity vary among gauges. We analyzed daily rainfall from 13 gauges in Uttaradit Province during 1981-2014. Each record was described by mean annual rainfall, wet-day count, and mean wet-day intensity. Annual maxima were fitted with Gumbel, generalized extreme value, and log-Pearson type III distributions; the lowest small-sample corrected Akaike information criterion determined the selected model. Return-level uncertainty was estimated with 2,000 bootstrap resamples under fixed and reselected models. Between-gauge return levels varied by factors of 3.83 at 2 years and 12.53 at 100 years, compared with median within-gauge distribution ratios of 1.09 and 1.56. Mean wet-day intensity correlated with return level at 0.73 for 2 years and 0.48 for 100 years. At 100 years, median relative 95% interval width was 145.9% with model selection fixed and 217.7% with model reselection; the gauge-specific ratio of these widths ranged from 0.71 to 10.25. The provincial mean fell below the local 100-year estimate at five gauges, with a maximum shortfall of 65.3%. Spatial heterogeneity therefore exceeded sensitivity to the three candidate distributions, while long-period uncertainty depended strongly on model-selection stability. Local gauge estimates and their uncertainty intervals should be preferred when records are available.
+P0006 [Normal] 
+P0007 [Normal] Keywords: design rainfall; extreme-value analysis; model uncertainty; rainfall intensity; spatial heterogeneity; Uttaradit
+P0008 [Normal] 
+P0009 [Heading 1] 1 Introduction
+P0010 [Normal] Design rainfall, the depth with annual exceedance probability 1/T for return period T, determines the capacity and failure risk of culverts, drains, farm ponds, and small irrigation structures. Projects without nearby gauges often apply one value across an administrative area, although its site-level representativeness is rarely tested.
+P0011 [Normal] A provincial value can be unrepresentative for two reasons. Rainfall extremes vary spatially, and each gauge estimate is uncertain when the return period exceeds the available record. Design practice must therefore distinguish between-gauge heterogeneity from uncertainty caused by extrapolation [1].
+P0012 [Normal] Rainfall records also differ in occurrence and intensity. Similar annual totals may arise from few intense wet days or many light wet days, a structure commonly described with daily rainfall indices [2, 3]. Whether this pre-fit structure explains design rainfall determines whether a simple network descriptor can support ungauged locations.
+P0013 [Normal] Thai studies report long-term variability and trends in total and extreme precipitation [3, 4], within regional [5] and global [6] evidence. Extreme-value theory [7-9], regional frequency analysis in Thailand [10], and Thai intensity-duration-frequency studies [11] provide methods for translating rainfall records into design quantities. However, no distribution is uniformly preferred for daily rainfall maxima [12], and long-return-period uncertainty may exceed differences among fitted models [1]. Few studies compare spatial variation, distributional sensitivity, and sampling uncertainty within one province on a common scale.
+P0014 [Normal] This study therefore (i) quantifies how design rainfall differs among 13 gauges and across return periods, (ii) tests whether annual total, wet-day frequency, and wet-day intensity are associated with return levels and their uncertainty, and (iii) measures the site-level error from applying one provincial value. All gauges remain in the primary analysis; sensitivity scenarios examine how network composition affects the reported range.
+P0015 [Heading 1] 2 Materials and methods
+P0016 [Heading 2] 2.1 Study area and data
+P0017 [Normal] Uttaradit Province lies in northern Thailand between approximately 17.2-18.1 degrees N and 100.0-101.1 degrees E. Daily rainfall from 1 January 1981 to 31 December 2014 was obtained from the Royal Irrigation Department and the Thai Meteorological Department for 13 gauges at elevations of 55-428 m above mean sea level. All gauges contain numeric daily totals for all 12,418 days, with no negative values or missing-value codes. Record length and completeness therefore do not explain between-gauge differences. The agencies' quality-control procedures were not documented in the supplied files; Section 2.11 describes targeted artifact checks. Table 1 summarizes the stations and records.
+P0018 [Normal] Table 1 Characteristics of 13 rain gauges in Uttaradit Province and occurrence-intensity descriptors for 1981-2014. P, W, and S are defined in Equations (1)-(3).
+P0019 [Heading 2] 2.2 Description of each record
+P0020 [Normal] A wet day was defined as a day with at least 1.0 mm at every gauge. The mean annual total (P), mean wet-day count (W), and mean wet-day intensity (S) were calculated as follows:
+P0021 [Normal] 		(1)
+P0022 [Normal] where x(t) is daily depth, n is the number of days, and N(y) is the number of years. Mean wet-day count was calculated as
+P0023 [Normal] 	(2)
+P0024 [Normal] where I is the indicator function. Mean wet-day intensity was calculated as
+P0025 [Normal] 		(3)
+P0026 [Normal] Because P includes days below 1.0 mm while W and S do not, W x S was 0.58-3.31% below P across the records. The definition of S follows the Expert Team on Climate Change Detection and Indices [2].
+P0027 [Heading 2] 2.3 Annual maximum series
+P0028 [Normal] For each gauge and calendar year, annual maximum daily depth was defined as
+P0029 [Normal] 		(4)
+P0030 [Normal] Years with at least 300 recorded days were retained. Every gauge-year met this criterion, yielding 442 station-years (13 gauges x 34 years).
+P0031 [Heading 2] 2.4 Distributions fitted
+P0032 [Normal] Three distributions commonly used in engineering [13] were fitted to each annual maximum series by maximum likelihood. The Gumbel distribution [7] is
+P0033 [Normal] 		(5)
+P0034 [Normal] where mu and sigma are location and scale. The generalized extreme value (GEV) distribution [8] adds shape parameter xi:
+P0035 [Normal] 		(6)
+P0036 [Normal] The GEV reduces to the Gumbel distribution as xi approaches zero. The log-Pearson type III (LP3) distribution was fitted by maximum likelihood to z = ln(x) using the SciPy skewness, location, and scale parameterization. Its log-likelihood on the original scale includes the transformation Jacobian:
+P0037 [Normal] 		(7)
+P0038 [Normal] Return levels from the LP3 model were calculated on the logarithmic scale and exponentiated.
+P0039 [Normal] Models were compared at each gauge with the small-sample corrected Akaike information criterion (AICc) [14, 15]:
+P0040 [Normal] 		(8)
+P0041 [Normal] where k is the number of fitted parameters, n = 34, and L is the maximized likelihood. Equation (7) places the LP3 likelihood on the same scale as the other models. The uncorrected criterion selected the same model at all gauges. We report the gap to the second-ranked model (Delta AICc) and normalized Akaike weights. The Kolmogorov-Smirnov statistic was calculated descriptively as
+P0042 [Normal] 		(9)
+P0043 [Normal] where F(n) is the empirical distribution function. No p-value was assigned because parameters were estimated from the same sample. The model with the lowest AICc was used for return-level estimation; the other models were retained for sensitivity analysis.
+P0044 [Heading 2] 2.5 Return levels and uncertainty
+P0045 [Normal] The design rainfall for return period T is the quantile with annual exceedance probability 1/T:
+P0046 [Normal] 		(10)
+P0047 [Normal] Equation (10) was evaluated for T = 2, 5, 10, 25, 50, and 100 years. In each of 2,000 bootstrap replicates, the 34 annual maxima were resampled with replacement [16]. The fixed-selection bootstrap refitted the model selected from the original record. The selection-inclusive bootstrap refitted all three models and reselected by AICc within each replicate. Both procedures assume independent annual maxima. The 2.5th and 97.5th percentiles formed the interval, whose relative width was
+P0048 [Normal] 		(11)
+P0049 [Normal] A value of 100% means that the full interval width equals the point estimate. This is resampling variability, not prediction error.
+P0050 [Heading 2] 2.6 Comparison of spread
+P0051 [Normal] Three ratios placed spatial, distributional, and resampling spread on comparable relative scales. Between-gauge spread was
+P0052 [Normal] 		(12)
+P0053 [Normal] where i indexes the 13 gauges. Within-gauge spread across candidate distributions d was
+P0054 [Normal] 		(13)
+P0055 [Normal] The median of Equation (11) represented resampling spread. These ratios are comparisons, not additive components of variance.
+P0056 [Heading 2] 2.7 Association between record structure and design estimate
+P0057 [Normal] Spearman rank correlations related P, W, and S to R(T), w(T), and the GEV shape parameter xi. GEV shape was estimated at every gauge, regardless of the selected model, because shape parameters from the three distributions are not comparable. For ranks a(i) and b(i),
+P0058 [Normal] 		(14)
+P0059 [Normal] with n = 13. These descriptive rank associations do not imply a mechanism.
+P0060 [Heading 2] 2.8 Provincial representation error
+P0061 [Normal] One provincial value R(p)(T) was calculated as the mean, median, 75th percentile, or 90th percentile of the 13 gauge estimates. Its relative error at gauge i was
+P0062 [Normal] 		(15)
+P0063 [Normal] Negative values indicate a provincial estimate below the local estimate; positive values indicate the reverse. The two cases were counted separately.
+P0064 [Heading 2] 2.9 Diagnostics of annual maxima
+P0065 [Normal] Stationary frequency analysis assumes independent annual maxima from one distribution. Dependence was examined with lag-one autocorrelation and the Ljung-Box statistic over five lags. Temporal stability was assessed with the Mann-Kendall test and Theil-Sen slope. These diagnostics qualify the stationary results; they do not fit dependent or nonstationary models. Two-sided significance was assessed at 5%.
+P0066 [Heading 2] 2.10 Software and reproducibility
+P0067 [Normal] Calculations used Python 3.12.3 with NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.2, Matplotlib 3.10.8, statsmodels 0.15.0, and pymannkendall 1.4.3. Distributions were fitted with scipy.stats.gumbel_r, scipy.stats.genextreme, and scipy.stats.pearson3. SciPy's GEV shape c was reported as xi = -c. Bootstrap seeds were 0 for fixed selection and 2024 for selection-inclusive analysis. Scripts, configuration, and result tables are available from the corresponding author on request.
+P0068 [Heading 2] 2.11 Sensitivity scenarios and artifact checks
+P0069 [Normal] Because two gauges had substantially lower S than the others, sensitivity analyses considered all 13 gauges, exclusion of the two lowest-S gauges, and exclusion of the five lowest-S gauges. These scenarios are not corrections and do not define a quality threshold.
+P0070 [Normal] Three checks assessed whether unusual occurrence-intensity records showed recording artifacts: terminal-digit frequencies among wet-day values, a chi-square test of wet-day counts by weekday, and rainfall recorded at each gauge on the 50 days when the other 12 gauges were wettest on average.
+P0071 [Heading 1] 3 Results and discussion
+P0072 [Heading 2] 3.1 Occurrence-intensity structure
+P0073 [Normal] The 13 records differed more in rainfall occurrence and intensity than in annual total (Table 1; Figure 1). Annual totals ranged from 944 to 1,376 mm (factor 1.46), wet-day counts from 79 to 229 d yr-1 (factor 2.91), and S from 5.11 to 13.06 mm (factor 2.56). Wet-day count and S were strongly inversely correlated (rho = -0.978), so their variation largely offset in annual totals.
+P0074 [Normal] Record maxima ranged from 54.2 to 298.5 mm (factor 5.51). Gauges 351009 and 351010 recorded no day above 100 mm despite annual totals of 1,206 and 1,177 mm, whereas four gauges recorded more than 20 such days.
+P0075 [Normal] 
+P0076 [Normal] Figure 1 Occurrence-intensity structure of the 13 records: (a) annual total versus wet-day count, (b) wet-day intensity versus wet-day count, and (c) record maximum versus wet-day intensity.
+P0077 [Heading 2] 3.2 Distribution selection
+P0078 [Normal] AICc selected LP3 at six gauges, Gumbel at five, and GEV at two (Table 2). The uncorrected criterion produced the same selections.
+P0079 [Normal] Model separation was generally weak. Selected-model Akaike weights ranged from 0.43 to 0.99 (median 0.54), and 11 gauges had a second-ranked model within 2 AICc units. Gauge 351003 was the only case with clear support (weight 0.990; gap 9.65). Selection counts therefore identify the first-ranked model rather than an unequivocal distribution.
+P0080 [Normal] Table 2 AICc values, separation from the second-ranked model, selected-model Akaike weight, and selected distribution at each gauge.
+P0081 [Heading 2] 3.3 Spatial and distributional spread
+P0082 [Normal] Between-gauge differences increased with return period (Table 3; Figure 2). The ratio of maximum to minimum return level rose from 3.83 at 2 years to 5.56 at 10 years, 7.67 at 25 years, and 12.53 at 100 years; the 100-year estimates ranged from 57.8 to 724.7 mm.
+P0083 [Normal] Median within-gauge spread across the three models increased from a factor of 1.09 at 2 years to 1.56 at 100 years. Thus, spatial spread exceeded model spread by approximately 3.5 times at 2 years and eight times at 100 years. This comparison applies only to these gauges and candidate distributions.
+P0084 [Normal] Table 3 Return-level spread and bootstrap interval width by return period, followed by sensitivity scenarios for network composition.
+P0085 [Normal] 
+P0086 [Normal] Figure 2 Gauge-specific design rainfall and 95% fixed-selection bootstrap intervals. Color identifies the selected distribution; both axes are logarithmic.
+P0087 [Heading 2] 3.4 Associations with record structure
+P0088 [Normal] Mean wet-day intensity was positively associated with return level, whereas wet-day count was negatively associated; both relationships weakened at longer return periods (Table 4). Correlation between S and return level declined from 0.73 at 2 years to 0.48 at 100 years; the corresponding values for wet-day count were -0.80 and -0.45. Mean annual total had weaker associations (-0.40 to -0.54).
+P0089 [Normal] None of the three descriptors was associated with bootstrap interval width (correlations -0.19 to 0.19) or GEV shape (-0.22 to 0.06; p = 0.47-0.86).
+P0090 [Normal] Gauge-level results confirm that low S did not imply low design rainfall. Gauge 351009 had the lowest S but a higher 100-year estimate than 351010, and gauge 351007 combined low S with a much higher estimate than 351003. These unadjusted correlations across 13 gauges are descriptive.
+P0091 [Normal] Table 4 Spearman correlations between occurrence-intensity descriptors and return level, relative interval width, and GEV shape across 13 gauges.
+P0092 [Heading 2] 3.5 Bootstrap spread of return levels
+P0093 [Normal] Under fixed model selection, median relative interval width increased from 30.8% at 2 years to 44.5% at 10 years, 75.0% at 25 years, and 145.9% at 100 years (Table 3; Figure 3). At 100 years, seven gauges exceeded 100%, with widths from 12.5% to 343.6%.
+P0094 [Normal] With model reselection, median width reached 39.6%, 57.6%, 113.0%, and 217.7% at the same return periods, and 10 gauges exceeded 100% at 100 years. The selection-inclusive to fixed-width ratio ranged from 0.71 to 10.25 at 100 years, although its median was 1.11.
+P0095 [Normal] The largest increases occurred where selection was least stable. At gauge 351012, near-equal support for Gumbel and LP3 widened the interval from 44.3% to 454.0%; gauge 351004 widened from 39.2% to 318.1%. Reselection narrowed intervals at gauges 351006 and 351007. The modal bootstrap choice matched the full-record choice at 12 gauges; 351004 was the exception.
+P0096 [Normal] These intervals describe variation produced by resampling 34 annual maxima. They exclude prediction error, bias, distributions outside the candidate set, nonstationarity, and regionalization. A 100-year value without an interval therefore conveys more precision than these records support.
+P0097 [Normal] 
+P0098 [Normal] Figure 3 Spatial, distributional, and bootstrap spread across return periods: (a) between-gauge and within-gauge ratios, (b) median relative interval widths, and (c) selection-inclusive to fixed-width ratios.
+P0099 [Heading 2] 3.6 Error from a provincial design value
+P0100 [Normal] At 100 years, the provincial mean was 251.8 mm and fell below five local estimates by as much as 65.3%; it exceeded eight by as much as 335.3%. Median absolute error was 25.8% (Table 5). At 25 years, the mean was 162.2 mm, with four gauges below by up to 55.7% and nine above by up to 240.2%.
+P0101 [Normal] Alternative provincial statistics shifted rather than removed the imbalance (Figure 4). The median reduced maximum overestimation but left six gauges below their local values. The 90th percentile left only two below, but maximum overestimation rose to 486.1% and median absolute error to 53.2%. At 100 years, median representation error (25.8%) remained smaller than median fixed-selection interval width (145.9%); these measures are not additive.
+P0102 [Normal] Table 5 Provincial representation error at 25- and 100-year return periods for four provincial statistics.
+P0103 [Normal] 
+P0104 [Normal] Figure 4 Gauge-level representation error at a 100-year return period for four provincial statistics. Negative values indicate underestimation relative to the local estimate.
+P0105 [Heading 2] 3.7 Sensitivity to gauge exclusion
+P0106 [Normal] Excluding the two lowest-S gauges reduced the 100-year between-gauge ratio from 12.53 to 4.70 and raised the network mean from 251.8 to 285.3 mm. Excluding the five lowest-S gauges left the ratio unchanged and raised the mean to 290.3 mm (Table 3).
+P0107 [Normal] The unchanged ratio shows that S did not identify the gauges defining the range. The scenarios demonstrate sensitivity to network composition but do not establish that any excluded record is erroneous.
+P0108 [Heading 2] 3.8 Independence and stationarity
+P0109 [Normal] Diagnostics supported independence and stationarity at most gauges but flagged several departures. Lag-one autocorrelation ranged from -0.344 to +0.492. Ljung-Box tests were significant at gauges 351006, 351007, and 351201. Mann-Kendall tests identified a decrease of 2.226 mm yr-1 at 351003 and increases of 1.307, 1.111, and 0.670 mm yr-1 at 351004, 351007, and 351006, respectively.
+P0110 [Normal] Gauges 351006 and 351007 were flagged by both diagnostics, suggesting that temporal change may contribute to serial association. Gauge 351003 had the strongest trend but no significant serial dependence (Ljung-Box p = 0.24), so the tests are not interchangeable.
+P0111 [Normal] No gauge was excluded on this basis. Instead, the diagnostics qualify the stationary return levels, especially because gauges 351003 and 351007 help define the low and high ends of the design range. Nonstationary models provide an alternative when temporal stability is untenable [17], but were not fitted here.
+P0112 [Heading 2] 3.9 Checks on unusual records
+P0113 [Normal] Terminal-zero frequencies ranged from 10.1% to 18.0%, and terminal-five frequencies from 9.4% to 14.1%; the two lowest-S gauges lay within both ranges. Weekday wet-day tests gave p = 0.29-0.998 at all gauges, including 0.997 and 0.998 at the two lowest-S gauges.
+P0114 [Normal] On the 50 days when the other gauges were wettest on average, gauges 351009 and 351010 recorded medians of 21.2 and 20.4 mm and exceeded 20 mm on 58% and 54% of days. Four gauges with higher S had lower medians, including 5.3 mm at gauge 351002.
+P0115 [Normal] The checks found no evidence of the examined artifacts: coarse rounding, weekday-linked observation, or systematic failure to register network rainfall. Rainfall records alone cannot identify the cause of the unusual structure; instrument, exposure, and siting histories were unavailable.
+P0116 [Heading 2] 3.10 Implications for design practice
+P0117 [Normal] Three implications follow. First, local gauge estimates should be preferred because a provincial value produced a median 100-year error of about 25% and site shortfalls above 50%. Second, intervals should accompany long-return-period estimates: seven gauges had fixed-selection widths above 100%, and changing among three distributions did not remove the dominant sampling spread. Longer records or regional frequency analysis [18] may increase effective information if regional homogeneity is established. Third, unusual occurrence-intensity structure alone is insufficient grounds for exclusion because the most unusual records passed all three artifact checks.
+P0118 [Heading 2] 3.11 Limitations
+P0119 [Normal] The analysis used 13 gauges across a topographically varied province and did not interpolate between them. Thirty-four years provide limited support for 100-year quantiles. Results apply only to daily annual maxima and the three fitted distributions [9, 12]. Independent resampling does not preserve serial dependence, so intervals at three flagged gauges require additional caution; block resampling could address this assumption. Nonparametric bootstrap performance for extremes can also be sensitive to sample size [19]. Fixed selection omits model-selection uncertainty, whereas the second bootstrap includes reselection within the candidate set. The 39 rank correlations were unadjusted for multiple comparisons and are descriptive. All return levels remain stationary-model estimates conditional on 1981-2014.
+P0120 [Heading 1] 4 Conclusions
+P0121 [Normal] Analysis of 13 gauges in Uttaradit Province produced four main conclusions.
+P0122 [Normal] Spatial heterogeneity exceeded sensitivity to distribution choice and increased with return period: between-gauge ratios rose from 3.83 at 2 years to 12.53 at 100 years, compared with a median within-gauge ratio of 1.56 at 100 years.
+P0123 [Normal] Occurrence-intensity structure explained shorter-period estimates better than the upper tail. Correlation between wet-day intensity and return level declined from 0.73 at 2 years to 0.48 at 100 years, and record descriptors did not explain interval width or GEV shape.
+P0124 [Normal] Long-period estimates were weakly constrained. Median 100-year interval width was 145.9% under fixed selection and 217.7% with reselection; the gauge-specific ratio between them ranged from 0.71 to 10.25.
+P0125 [Normal] The provincial mean fell below five local 100-year estimates by as much as 65.3%, while no alternative provincial statistic removed both underestimation and overestimation.
+P0126 [Normal] These stationary results are conditional on 1981-2014, three candidate distributions, and independent resampling. Design practice should therefore use local records where available, report uncertainty intervals, and avoid excluding gauges solely because their occurrence-intensity structure is unusual.
+P0127 [Heading 1] 5 Acknowledgements
+P0128 [Normal] The author thanks the Royal Irrigation Department and the Thai Meteorological Department for providing the rain-gauge records. No external funding was received.
+P0129 [Heading 1] 6 Author contributions
+P0130 [Normal] S.P.: conceptualization, methodology, software, formal analysis, data curation, visualization, writing-original draft, and writing-review and editing. The author approved the submitted manuscript.
+P0131 [Heading 1] 7 Conflict of interest
+P0132 [Normal] The author declares no conflict of interest.
+P0133 [Heading 1] 8 Declaration of the use of generative AI and AI-assisted technologies
+P0134 [Normal] During preparation of this manuscript, the author used OpenAI Codex (OpenAI, accessed September 2026) for language editing and document formatting. All AI-assisted revisions were critically reviewed, verified, and revised by the author. The author accepts full responsibility for the published work.
+P0135 [Heading 1] References
+P0136 [Normal] [1] Serinaldi, F., Kilsby, C.G. Stationarity is undead: Uncertainty dominates the distribution of extremes. Advances in Water Resources, 2015, 77, 17-36. https://doi.org/10.1016/j.advwatres.2014.12.013
+P0137 [Normal] [2] Zhang, X., Alexander, L., Hegerl, G.C., Jones, P., Klein Tank, A., Peterson, T.C., ..., Zwiers, F.W. Indices for monitoring changes in extremes based on daily temperature and precipitation data. WIREs Climate Change, 2011, 2(6), 851-870. https://doi.org/10.1002/wcc.147
+P0138 [Normal] [3] Limjirakan, S., Limsakul, A., Sriburi, T. Trends in temperature and rainfall extreme changes in Bangkok Metropolitan Area. Applied Environmental Research, 2010, 32(1), 31-48.
+P0139 [Normal] [4] Limsakul, A., Singhruck, P. Long-term trends and variability of total and extreme precipitation in Thailand. Atmospheric Research, 2016, 169, 301-317. https://doi.org/10.1016/j.atmosres.2015.10.015
+P0140 [Normal] [5] Manton, M.J., Della-Marta, P.M., Haylock, M.R., Hennessy, K.J., Nicholls, N., Chambers, L.E., ..., Yee, D. Trends in extreme daily rainfall and temperature in Southeast Asia and the South Pacific: 1961-1998. International Journal of Climatology, 2001, 21(3), 269-284. https://doi.org/10.1002/joc.610
+P0141 [Normal] [6] Alexander, L.V., Zhang, X., Peterson, T.C., Caesar, J., Gleason, B., Klein Tank, A.M.G., ..., Vazquez-Aguirre, J.L. Global observed changes in daily climate extremes of temperature and precipitation. Journal of Geophysical Research: Atmospheres, 2006, 111(D5), D05109. https://doi.org/10.1029/2005JD006290
+P0142 [Normal] [7] Gumbel, E.J. Statistics of extremes. New York, NY, USA: Columbia University Press, 1958.
+P0143 [Normal] [8] Coles, S. An introduction to statistical modeling of extreme values. London, UK: Springer, 2001. https://doi.org/10.1007/978-1-4471-3675-0
+P0144 [Normal] [9] Katz, R.W., Parlange, M.B., Naveau, P. Statistics of extremes in hydrology. Advances in Water Resources, 2002, 25(8-12), 1287-1304. https://doi.org/10.1016/S0309-1708(02)00056-8
+P0145 [Normal] [10] Prahadchai, T., Busababodhin, P., Park, J.-S. Regional flood frequency analysis of extreme rainfall in Thailand, based on L-moments. Communications for Statistical Applications and Methods, 2024, 31(1), 37-53. https://doi.org/10.29220/CSAM.2024.31.1.037
+P0146 [Normal] [11] Yamoat, N., Hanchoowong, R., Yamoad, O., Chaimoon, N., Kangrang, A. Estimation of regional intensity-duration-frequency relationships of extreme rainfall by simple scaling in Thailand. Journal of Water and Climate Change, 2023, 14(3), 796-810. https://doi.org/10.2166/wcc.2023.430
+P0147 [Normal] [12] Papalexiou, S.M., Koutsoyiannis, D. Battle of extreme value distributions: A global survey on extreme daily rainfall. Water Resources Research, 2013, 49(1), 187-201. https://doi.org/10.1029/2012WR012557
+P0148 [Normal] [13] Kite, G.W. Frequency and risk analyses in hydrology. Littleton, CO, USA: Water Resources Publications, 1977.
+P0149 [Normal] [14] Akaike, H. A new look at the statistical model identification. IEEE Transactions on Automatic Control, 1974, 19(6), 716-723. https://doi.org/10.1109/TAC.1974.1100705
+P0150 [Normal] [15] Burnham, K.P., Anderson, D.R. Model selection and multimodel inference: A practical information-theoretic approach. 2nd ed. New York, NY, USA: Springer, 2002. https://doi.org/10.1007/b97636
+P0151 [Normal] [16] Efron, B., Tibshirani, R.J. An introduction to the bootstrap. New York, NY, USA: Chapman and Hall, 1993. https://doi.org/10.1007/978-1-4899-4541-9
+P0152 [Normal] [17] Cheng, L., AghaKouchak, A. Nonstationary precipitation intensity-duration-frequency curves for infrastructure design in a changing climate. Scientific Reports, 2014, 4, 7093. https://doi.org/10.1038/srep07093
+P0153 [Normal] [18] Hosking, J.R.M., Wallis, J.R. Regional frequency analysis: An approach based on L-moments. Cambridge, UK: Cambridge University Press, 1997. https://doi.org/10.1017/CBO9780511529443
+P0154 [Normal] [19] Kysely, J. A cautionary note on the use of nonparametric bootstrap for estimating uncertainties in extreme-value models. Journal of Applied Meteorology and Climatology, 2008, 47(12), 3236-3251. https://doi.org/10.1175/2008JAMC1763.1
+
+=== TABLES ===
+TABLE 0 style=Normal Table rows=14 cols=9
+  R0C0: No.
+  R0C1: Station
+  R0C2: Lat. (°N)
+  R0C3: Long. (°E)
+  R0C4: Elev. (m)
+  R0C5: P (mm)
+  R0C6: W (d)
+  R0C7: S (mm)
+  R0C8: Max. daily (mm)
+  R1C0: 1
+  R1C1: 351001
+  R1C2: 17.23
+  R1C3: 100.1
+  R1C4: 55
+  R1C5: 997
+  R1C6: 80
+  R1C7: 12.37
+  R1C8: 259.6
+  R2C0: 2
+  R2C1: 351002
+  R2C2: 17.42
+  R2C3: 100.13
+  R2C4: 62
+  R2C5: 984
+  R2C6: 81
+  R2C7: 12.03
+  R2C8: 170
+  R3C0: 3
+  R3C1: 351003
+  R3C2: 17.67
+  R3C3: 100.68
+  R3C4: 372
+  R3C5: 1,376
+  R3C6: 123
+  R3C7: 11.09
+  R3C8: 155
+  R4C0: 4
+  R4C1: 351004
+  R4C2: 17.65
+  R4C3: 100.38
+  R4C4: 116
+  R4C5: 1,100
+  R4C6: 84
+  R4C7: 13.06
+  R4C8: 181.3
+  R5C0: 5
+  R5C1: 351005
+  R5C2: 17.6
+  R5C3: 100.05
+  R5C4: 81
+  R5C5: 1,106
+  R5C6: 96
+  R5C7: 11.42
+  R5C8: 152
+  R6C0: 6
+  R6C1: 351006
+  R6C2: 17.92
+  R6C3: 100.88
+  R6C4: 349
+  R6C5: 1,147
+  R6C6: 175
+  R6C7: 6.36
+  R6C8: 143.5
+  R7C0: 7
+  R7C1: 351007
+  R7C2: 18.02
+  R7C3: 101.07
+  R7C4: 428
+  R7C5: 1,203
+  R7C6: 182
+  R7C7: 6.45
+  R7C8: 201.1
+  R8C0: 8
+  R8C1: 351008
+  R8C2: 17.47
+  R8C3: 100.37
+  R8C4: 82
+  R8C5: 1,134
+  R8C6: 178
+  R8C7: 6.17
+  R8C8: 176.6
+  R9C0: 9
+  R9C1: 351009
+  R9C2: 17.75
+  R9C3: 100.28
+  R9C4: 95
+  R9C5: 1,206
+  R9C6: 229
+  R9C7: 5.11
+  R9C8: 68
+  R10C0: 10
+  R10C1: 351010
+  R10C2: 17.9
+  R10C3: 100.82
+  R10C4: 215
+  R10C5: 1,177
+  R10C6: 220
+  R10C7: 5.18
+  R10C8: 54.2
+  R11C0: 11
+  R11C1: 351011
+  R11C2: 17.56
+  R11C3: 100.11
+  R11C4: 65
+  R11C5: 1,108
+  R11C6: 90
+  R11C7: 12.13
+  R11C8: 296.9
+  R12C0: 12
+  R12C1: 351012
+  R12C2: 17.75
+  R12C3: 100.92
+  R12C4: 415
+  R12C5: 944
+  R12C6: 79
+  R12C7: 11.83
+  R12C8: 298.5
+  R13C0: 13
+  R13C1: 351201
+  R13C2: 17.62
+  R13C3: 100.1
+  R13C4: 67
+  R13C5: 1,065
+  R13C6: 93
+  R13C7: 11.35
+  R13C8: 226
+TABLE 1 style=Normal Table rows=14 cols=7
+  R0C0: Station
+  R0C1: AICc Gumbel
+  R0C2: AICc GEV
+  R0C3: AICc LP3
+  R0C4: ΔAICc
+  R0C5: Akaike weight
+  R0C6: Selected
+  R1C0: 351001
+  R1C1: 354.4
+  R1C2: 351.4
+  R1C3: 351.1
+  R1C4: 0.3
+  R1C5: 0.488
+  R1C6: LP3
+  R2C0: 351002
+  R2C1: 320.4
+  R2C2: 322.8
+  R2C3: 322.8
+  R2C4: 2.39
+  R2C5: 0.624
+  R2C6: Gumbel
+  R3C0: 351003
+  R3C1: 355.4
+  R3C2: 353.1
+  R3C3: 343.4
+  R3C4: 9.65
+  R3C5: 0.99
+  R3C6: LP3
+  R4C0: 351004
+  R4C1: 340.1
+  R4C2: 341.7
+  R4C3: 340.8
+  R4C4: 0.62
+  R4C5: 0.454
+  R4C6: Gumbel
+  R5C0: 351005
+  R5C1: 320.4
+  R5C2: 322.3
+  R5C3: 322.1
+  R5C4: 1.64
+  R5C5: 0.543
+  R5C6: Gumbel
+  R6C0: 351006
+  R6C1: 309.9
+  R6C2: 291.3
+  R6C3: 291.6
+  R6C4: 0.31
+  R6C5: 0.539
+  R6C6: GEV
+  R7C0: 351007
+  R7C1: 327.7
+  R7C2: 303.3
+  R7C3: 304.1
+  R7C4: 0.76
+  R7C5: 0.594
+  R7C6: GEV
+  R8C0: 351008
+  R8C1: 333.9
+  R8C2: 333.2
+  R8C3: 332.4
+  R8C4: 0.82
+  R8C5: 0.473
+  R8C6: LP3
+  R9C0: 351009
+  R9C1: 251.8
+  R9C2: 249.8
+  R9C3: 249.5
+  R9C4: 0.28
+  R9C5: 0.456
+  R9C6: LP3
+  R10C0: 351010
+  R10C1: 249.3
+  R10C2: 250.3
+  R10C3: 249.9
+  R10C4: 0.59
+  R10C5: 0.426
+  R10C6: Gumbel
+  R11C0: 351011
+  R11C1: 376.5
+  R11C2: 375.1
+  R11C3: 373.4
+  R11C4: 1.69
+  R11C5: 0.609
+  R11C6: LP3
+  R12C0: 351012
+  R12C1: 365.4
+  R12C2: 436.3
+  R12C3: 366
+  R12C4: 0.57
+  R12C5: 0.57
+  R12C6: Gumbel
+  R13C0: 351201
+  R13C1: 342.2
+  R13C2: 339.1
+  R13C3: 338.6
+  R13C4: 0.52
+  R13C5: 0.518
+  R13C6: LP3
+TABLE 2 style=Normal Table rows=13 cols=10
+  R0C0: T (yr)
+  R0C1: Min. (mm)
+  R0C2: Max. (mm)
+  R0C3: Gauge ratio
+  R0C4: Dist. ratio
+  R0C5: Fixed (%)
+  R0C6: Selection (%)
+  R0C7: Ratio range
+  R0C8: Scenario
+  R0C9: n
+  R1C0: 2
+  R1C1: 26.1
+  R1C2: 99.9
+  R1C3: 3.83
+  R1C4: 1.09
+  R1C5: 30.8
+  R1C6: 39.6
+  R1C7: 1.00–2.09
+  R1C8: 
+  R1C9: 
+  R2C0: 5
+  R2C1: 35.3
+  R2C2: 153.8
+  R2C3: 4.35
+  R2C4: 1.01
+  R2C5: 38.7
+  R2C6: 40.4
+  R2C7: 0.98–1.24
+  R2C8: 
+  R2C9: 
+  R3C0: 10
+  R3C1: 40.8
+  R3C2: 226.6
+  R3C3: 5.56
+  R3C4: 1.08
+  R3C5: 44.5
+  R3C6: 57.6
+  R3C7: 0.93–1.54
+  R3C8: 
+  R3C9: 
+  R4C0: 25
+  R4C1: 47.7
+  R4C2: 365.8
+  R4C3: 7.67
+  R4C4: 1.25
+  R4C5: 75
+  R4C6: 113
+  R4C7: 0.85–3.65
+  R4C8: 
+  R4C9: 
+  R5C0: 50
+  R5C1: 52.8
+  R5C2: 517.2
+  R5C3: 9.8
+  R5C4: 1.39
+  R5C5: 108.4
+  R5C6: 160.8
+  R5C7: 0.78–6.17
+  R5C8: 
+  R5C9: 
+  R6C0: 100
+  R6C1: 57.8
+  R6C2: 724.7
+  R6C3: 12.53
+  R6C4: 1.56
+  R6C5: 145.9
+  R6C6: 217.7
+  R6C7: 0.71–10.25
+  R6C8: 
+  R6C9: 
+  R7C0: 25
+  R7C1: 47.7
+  R7C2: 365.8
+  R7C3: 7.67
+  R7C4: 
+  R7C5: 
+  R7C6: 
+  R7C7: 
+  R7C8: A
+  R7C9: 13
+  R8C0: 100
+  R8C1: 57.8
+  R8C2: 724.7
+  R8C3: 12.53
+  R8C4: 
+  R8C5: 
+  R8C6: 
+  R8C7: 
+  R8C8: A
+  R8C9: 13
+  R9C0: 25
+  R9C1: 118.2
+  R9C2: 365.8
+  R9C3: 3.1
+  R9C4: 
+  R9C5: 
+  R9C6: 
+  R9C7: 
+  R9C8: B
+  R9C9: 11
+  R10C0: 100
+  R10C1: 154.1
+  R10C2: 724.7
+  R10C3: 4.7
+  R10C4: 
+  R10C5: 
+  R10C6: 
+  R10C7: 
+  R10C8: B
+  R10C9: 11
+  R11C0: 25
+  R11C1: 132.2
+  R11C2: 365.8
+  R11C3: 2.77
+  R11C4: 
+  R11C5: 
+  R11C6: 
+  R11C7: 
+  R11C8: C
+  R11C9: 8
+  R12C0: 100
+  R12C1: 154.1
+  R12C2: 724.7
+  R12C3: 4.7
+  R12C4: 
+  R12C5: 
+  R12C6: 
+  R12C7: 
+  R12C8: C
+  R12C9: 8
+TABLE 3 style=Normal Table rows=14 cols=5
+  R0C0: Property
+  R0C1: T (yr)
+  R0C2: P
+  R0C3: W
+  R0C4: S
+  R1C0: Return level R(T)
+  R1C1: 2
+  R1C2: -0.489
+  R1C3: -0.802
+  R1C4: 0.731
+  R2C0: 
+  R2C1: 5
+  R2C2: -0.473
+  R2C3: -0.769
+  R2C4: 0.736
+  R3C0: 
+  R3C1: 10
+  R3C2: -0.544
+  R3C3: -0.775
+  R3C4: 0.736
+  R4C0: 
+  R4C1: 25
+  R4C2: -0.516
+  R4C3: -0.698
+  R4C4: 0.703
+  R5C0: 
+  R5C1: 50
+  R5C2: -0.412
+  R5C3: -0.527
+  R5C4: 0.533
+  R6C0: 
+  R6C1: 100
+  R6C2: -0.396
+  R6C3: -0.451
+  R6C4: 0.484
+  R7C0: Interval width w(T)
+  R7C1: 2
+  R7C2: -0.027
+  R7C3: -0.269
+  R7C4: 0.264
+  R8C0: 
+  R8C1: 5
+  R8C2: 0.055
+  R8C3: 0.088
+  R8C4: -0.055
+  R9C0: 
+  R9C1: 10
+  R9C2: 0.038
+  R9C3: 0.104
+  R9C4: -0.055
+  R10C0: 
+  R10C1: 25
+  R10C2: 0.093
+  R10C3: 0.192
+  R10C4: -0.154
+  R11C0: 
+  R11C1: 50
+  R11C2: 0.082
+  R11C3: 0.17
+  R11C4: -0.115
+  R12C0: 
+  R12C1: 100
+  R12C2: 0.077
+  R12C3: 0.176
+  R12C4: -0.121
+  R13C0: GEV shape ξ
+  R13C1: –
+  R13C2: -0.22
+  R13C3: -0.165
+  R13C4: 0.055
+TABLE 4 style=Normal Table rows=9 cols=8
+  R0C0: T (yr)
+  R0C1: Statistic
+  R0C2: Value (mm)
+  R0C3: Gauges below
+  R0C4: Gauges above
+  R0C5: Worst below (%)
+  R0C6: Worst above (%)
+  R0C7: Median |error| (%)
+  R1C0: 25
+  R1C1: Mean
+  R1C2: 162.2
+  R1C3: 4
+  R1C4: 9
+  R1C5: -55.7
+  R1C6: 240.2
+  R1C7: 22.7
+  R2C0: 25
+  R2C1: Median
+  R2C2: 151.2
+  R2C3: 6
+  R2C4: 6
+  R2C5: -58.7
+  R2C6: 217.1
+  R2C7: 23.9
+  R3C0: 25
+  R3C1: 75th percentile
+  R3C2: 198.7
+  R3C3: 3
+  R3C4: 9
+  R3C5: -45.7
+  R3C6: 316.9
+  R3C7: 35.3
+  R4C0: 25
+  R4C1: 90th percentile
+  R4C2: 222.4
+  R4C3: 2
+  R4C4: 11
+  R4C5: -39.2
+  R4C6: 366.5
+  R4C7: 47.1
+  R5C0: 100
+  R5C1: Mean
+  R5C2: 251.8
+  R5C3: 5
+  R5C4: 8
+  R5C5: -65.3
+  R5C6: 335.3
+  R5C7: 25.8
+  R6C0: 100
+  R6C1: Median
+  R6C2: 236.3
+  R6C3: 6
+  R6C4: 6
+  R6C5: -67.4
+  R6C6: 308.6
+  R6C7: 30.4
+  R7C0: 100
+  R7C1: 75th percentile
+  R7C2: 302.8
+  R7C3: 3
+  R7C4: 9
+  R7C5: -58.2
+  R7C6: 423.5
+  R7C7: 50.6
+  R8C0: 100
+  R8C1: 90th percentile
+  R8C2: 339
+  R8C3: 2
+  R8C4: 11
+  R8C5: -53.2
+  R8C6: 486.1
+  R8C7: 53.2
+
+=== HEADERS FOOTERS ===
+footer-0 P0000 [Normal] 1
+
+=== STYLE USAGE ===
+Normal: 129
+Heading 2: 22
+Heading 1: 9
+Title: 1

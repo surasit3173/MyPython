@@ -1,0 +1,10 @@
+,N_stations,N_iterations,Correction,phi,FDR_MK,FDR_MMK,FDR_PW,FDR_TFPW
+0,10,2000,Benjamini-Hochberg (1995),0.0,0.0047,0.0,0.0018,0.0032
+1,10,2000,Benjamini-Hochberg (1995),0.1,0.0091,0.0,0.0018,0.0093
+2,10,2000,Benjamini-Hochberg (1995),0.2,0.0186,0.0,0.001,0.0207
+3,10,2000,Benjamini-Hochberg (1995),0.3,0.0368,0.0,0.0014,0.0435
+4,10,2000,Benjamini-Hochberg (1995),0.4,0.0658,0.0,0.0008,0.0856
+5,10,2000,Benjamini-Hochberg (1995),0.5,0.1176,0.0,0.0005,0.1623
+6,10,2000,Benjamini-Hochberg (1995),0.6,0.1698,0.0,0.0008,0.2596
+7,10,2000,Benjamini-Hochberg (1995),0.7,0.2742,0.0,0.0014,0.4085
+8,10,2000,Benjamini-Hochberg (1995),0.8,0.4028,0.0,0.0012,0.5645

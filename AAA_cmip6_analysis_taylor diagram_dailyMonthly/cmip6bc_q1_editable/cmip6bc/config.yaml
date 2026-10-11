@@ -1,0 +1,112 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  cmip6bc — configuration
+#  ย้ายไปใช้พื้นที่อื่น: แก้เฉพาะไฟล์นี้ ไม่ต้องแตะโค้ด
+# ═══════════════════════════════════════════════════════════════════════════
+
+project:
+  id: "ID1558"
+  title: "QDM bias correction of CMIP6 daily rainfall — split-sample design"
+
+region:
+  name: "Prachuap Khiri Khan"
+  # tag ใช้กรองไฟล์ในโฟลเดอร์เดียวกันที่มีหลายพื้นที่ปนกัน
+  # ตั้งเป็น null เพื่อรับทุกไฟล์ที่ตรง pattern
+  tag: "Prachuap_Khiri_Khan"
+
+paths:
+  data_dir: "./data"
+  station_meta: "./data/stations.csv"
+  # ไฟล์ override สำหรับ metadata ที่ตรวจสอบย้อนกลับได้ (ไม่แก้ต้นฉบับ)
+  station_meta_verified: "./data/station_metadata_verified.csv"
+  out_dir: "./out"
+
+discovery:
+  # regex ต้องมี named group ชื่อ 'model'
+  observed_glob: "*Observed*.csv"
+  raw_glob: "pr_*.csv"
+  raw_model_regex: "^pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_"
+  # ชุด bias-corrected เดิม (fit เต็มช่วง) เก็บไว้เปรียบเทียบเท่านั้น
+  legacy_bc_glob: "bc_pr_*.csv"
+  legacy_bc_model_regex: "^bc_pr_day_(?P<model>.+?)_(?:historical|ssp\\d+|amip)_"
+
+time:
+  # คอลัมน์เวลาในไฟล์ CSV
+  year_col: "YEAR"
+  month_col: "MONTH"
+  day_col: "DAY"
+
+periods:
+  calibration: [1981, 2000]   # ใช้ประมาณค่า transfer function เท่านั้น
+  validation:  [2001, 2014]   # ห้ามใช้ observation ช่วงนี้ในการ fit เด็ดขาด
+
+data:
+  wet_threshold_mm: 1.0
+  # ค่าที่ประกาศว่าเป็น missing — ถูก mask ก่อน แล้วจึงค่อย clip ค่าลบ
+  nodata_values: [-99, -999, -9999, -9.99e20, 9.99e20, 1.0e20,
+                  1.15031e38, 1.70141e38]
+  negative_handling: "clip_to_zero"
+  # ค่าลบที่ลึกกว่านี้ถือว่าผิดปกติจริง จะหยุดและรายงาน ไม่ clip เงียบ ๆ
+  negative_tolerance_mm: 0.1
+  unit_autodetect: true
+  # ถ้า 99.9th percentile ต่ำกว่าค่านี้ ถือว่าหน่วยเป็น kg m-2 s-1
+  flux_detect_threshold: 1.0e-3
+  flux_to_mmday: 86400.0
+
+qdm:
+  # primary = วิธีหลัก · sensitivity = วิธีที่ใช้ตรวจความคงทนของข้อสรุป
+  # monthly fit และ freeze แยกเดือน ไม่ใช่ fit รวมแล้วแบ่งผลภายหลัง
+  grouping:
+    primary: "annual"
+    sensitivity: "monthly"
+  n_quantiles: 100
+  # frequency adaptation: ปรับ threshold ฝั่งแบบจำลองให้ wet-day frequency
+  # ในช่วง calibration ตรงกับข้อมูลตรวจวัด — เป็น design property
+  # threshold ถูก freeze แล้วนำไปใช้กับ validation โดยไม่ประมาณใหม่
+  frequency_adaptation: true
+  tail_extrapolation: "constant"
+  # เพดานอัตราส่วน delta กันหางระเบิด (log ทุกครั้งที่ชน)
+  max_delta_ratio: 5.0
+  min_delta_ratio: 0.2
+  min_wet_days_calibration: 30
+  # ผลิตชุด EQM (transfer function แช่แข็ง ไม่มี delta) เป็น benchmark
+  emit_eqm: true
+  # หางบน: null = ไม่จำกัด (ผลหลัก — รายงานค่า extrapolated ตามจริง)
+  upper_tail_cap_factor: null
+  # ใช้เฉพาะการวิเคราะห์ความไว: เพดาน = factor x ค่าสูงสุดที่ตรวจวัดได้ช่วง calibration
+  sensitivity_cap_factor: 1.5
+
+data_quality_control:
+  # เกณฑ์คุณภาพข้อมูลมาตรฐานที่ใช้คัดสถานีก่อนการวิเคราะห์
+  max_missing_pct: 5.0
+  homogeneity:
+    pettitt_alpha: 0.05
+  # ลักษณะของบันทึกต่อไปนี้ถูกคำนวณและรายงานเพื่อความโปร่งใส
+  # แต่ไม่ได้ใช้เป็นเกณฑ์คัดสถานีออก
+  report_record_characteristics: true
+
+seasons:
+  method: "climatological_annual_cycle"
+  smoothing: "rolling_30day"
+  wet_definition: "longest_contiguous_above_annual_mean"
+  min_duration_days: 90
+
+reproducibility:
+  random_seed: 42
+
+evaluate:
+  # station sets: primary = ทุกสถานี; sensitivity runs change correction settings,
+  # not station quality classes
+  station_set: "all"   # ใช้ทุกสถานีที่ผ่าน QC เป็นเครือข่ายวิเคราะห์
+  bootstrap:
+    n_replicates: 2000
+    block: "year"        # moving-block ระดับปี ป้องกัน autocorrelation รายวัน
+  fdr_alpha: 0.05
+  quantiles_reported: [0.50, 0.90, 0.95, 0.99]
+
+figures:
+  # ลำดับการค้นหาฟอนต์ — บนเครื่องที่มี Cordia New จะถูกเลือกก่อนเสมอ
+  # Garuda คือฟอนต์คู่เทียบ metric-compatible ของ Cordia New บนลินุกซ์
+  font_family: ["Cordia New", "Garuda", "Waree", "DejaVu Sans"]
+  base_font_pt: 11.0        # Cordia New มีขนาดตัวอักษรต่อ em เล็ก จึงตั้งฐานสูงกว่าปกติ
+  width_mm: 160             # เท่ากับความกว้างคอลัมน์ของวารสาร จึงวางได้ 1:1 ไม่ถูกย่อ
+  dpi: 600
