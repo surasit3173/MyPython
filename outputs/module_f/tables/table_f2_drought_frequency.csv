@@ -1,0 +1,421 @@
+timescale,stncode,station,category,count,frequency_pct,n_total
+1,352201,Nong Khai,Extremely dry,11,3.16,348
+1,352201,Nong Khai,Severely dry,8,2.30,348
+1,352201,Nong Khai,Moderately dry,18,5.17,348
+1,352201,Nong Khai,Near normal,230,66.09,348
+1,352201,Nong Khai,Moderately wet,71,20.40,348
+1,352201,Nong Khai,Severely wet,9,2.59,348
+1,352201,Nong Khai,Extremely wet,1,0.29,348
+1,353201,Loei,Extremely dry,12,3.45,348
+1,353201,Loei,Severely dry,1,0.29,348
+1,353201,Loei,Moderately dry,3,0.86,348
+1,353201,Loei,Near normal,266,76.44,348
+1,353201,Loei,Moderately wet,64,18.39,348
+1,353201,Loei,Severely wet,1,0.29,348
+1,353201,Loei,Extremely wet,1,0.29,348
+1,356201,Sakon Nakhon,Extremely dry,9,2.59,348
+1,356201,Sakon Nakhon,Severely dry,9,2.59,348
+1,356201,Sakon Nakhon,Moderately dry,14,4.02,348
+1,356201,Sakon Nakhon,Near normal,234,67.24,348
+1,356201,Sakon Nakhon,Moderately wet,71,20.40,348
+1,356201,Sakon Nakhon,Severely wet,11,3.16,348
+1,356201,Sakon Nakhon,Extremely wet,0,0.00,348
+1,357201,Nakhon Phanom,Extremely dry,10,2.87,348
+1,357201,Nakhon Phanom,Severely dry,8,2.30,348
+1,357201,Nakhon Phanom,Moderately dry,17,4.89,348
+1,357201,Nakhon Phanom,Near normal,265,76.15,348
+1,357201,Nakhon Phanom,Moderately wet,44,12.64,348
+1,357201,Nakhon Phanom,Severely wet,3,0.86,348
+1,357201,Nakhon Phanom,Extremely wet,1,0.29,348
+1,381201,Khon Kaen,Extremely dry,12,3.45,348
+1,381201,Khon Kaen,Severely dry,2,0.57,348
+1,381201,Khon Kaen,Moderately dry,3,0.86,348
+1,381201,Khon Kaen,Near normal,232,66.67,348
+1,381201,Khon Kaen,Moderately wet,90,25.86,348
+1,381201,Khon Kaen,Severely wet,8,2.30,348
+1,381201,Khon Kaen,Extremely wet,1,0.29,348
+1,383201,Mukdahan,Extremely dry,11,3.16,348
+1,383201,Mukdahan,Severely dry,3,0.86,348
+1,383201,Mukdahan,Moderately dry,9,2.59,348
+1,383201,Mukdahan,Near normal,250,71.84,348
+1,383201,Mukdahan,Moderately wet,71,20.40,348
+1,383201,Mukdahan,Severely wet,4,1.15,348
+1,383201,Mukdahan,Extremely wet,0,0.00,348
+1,387401,Kosum Phisai,Extremely dry,12,3.45,348
+1,387401,Kosum Phisai,Severely dry,0,0.00,348
+1,387401,Kosum Phisai,Moderately dry,0,0.00,348
+1,387401,Kosum Phisai,Near normal,250,71.84,348
+1,387401,Kosum Phisai,Moderately wet,86,24.71,348
+1,387401,Kosum Phisai,Severely wet,0,0.00,348
+1,387401,Kosum Phisai,Extremely wet,0,0.00,348
+1,403201,Chaiyaphum,Extremely dry,12,3.45,348
+1,403201,Chaiyaphum,Severely dry,0,0.00,348
+1,403201,Chaiyaphum,Moderately dry,4,1.15,348
+1,403201,Chaiyaphum,Near normal,222,63.79,348
+1,403201,Chaiyaphum,Moderately wet,110,31.61,348
+1,403201,Chaiyaphum,Severely wet,0,0.00,348
+1,403201,Chaiyaphum,Extremely wet,0,0.00,348
+1,405201,Roi Et,Extremely dry,11,3.16,348
+1,405201,Roi Et,Severely dry,3,0.86,348
+1,405201,Roi Et,Moderately dry,3,0.86,348
+1,405201,Roi Et,Near normal,254,72.99,348
+1,405201,Roi Et,Moderately wet,76,21.84,348
+1,405201,Roi Et,Severely wet,1,0.29,348
+1,405201,Roi Et,Extremely wet,0,0.00,348
+1,407501,Ubon Ratchathani,Extremely dry,10,2.87,348
+1,407501,Ubon Ratchathani,Severely dry,5,1.44,348
+1,407501,Ubon Ratchathani,Moderately dry,9,2.59,348
+1,407501,Ubon Ratchathani,Near normal,227,65.23,348
+1,407501,Ubon Ratchathani,Moderately wet,93,26.72,348
+1,407501,Ubon Ratchathani,Severely wet,3,0.86,348
+1,407501,Ubon Ratchathani,Extremely wet,1,0.29,348
+1,431201,Nakhon Ratchasima,Extremely dry,11,3.16,348
+1,431201,Nakhon Ratchasima,Severely dry,3,0.86,348
+1,431201,Nakhon Ratchasima,Moderately dry,5,1.44,348
+1,431201,Nakhon Ratchasima,Near normal,283,81.32,348
+1,431201,Nakhon Ratchasima,Moderately wet,44,12.64,348
+1,431201,Nakhon Ratchasima,Severely wet,2,0.57,348
+1,431201,Nakhon Ratchasima,Extremely wet,0,0.00,348
+1,431401,Chok Chai,Extremely dry,12,3.45,348
+1,431401,Chok Chai,Severely dry,2,0.57,348
+1,431401,Chok Chai,Moderately dry,2,0.57,348
+1,431401,Chok Chai,Near normal,251,72.13,348
+1,431401,Chok Chai,Moderately wet,81,23.28,348
+1,431401,Chok Chai,Severely wet,0,0.00,348
+1,431401,Chok Chai,Extremely wet,0,0.00,348
+1,432201,Surin,Extremely dry,11,3.16,348
+1,432201,Surin,Severely dry,5,1.44,348
+1,432201,Surin,Moderately dry,4,1.15,348
+1,432201,Surin,Near normal,256,73.56,348
+1,432201,Surin,Moderately wet,69,19.83,348
+1,432201,Surin,Severely wet,2,0.57,348
+1,432201,Surin,Extremely wet,1,0.29,348
+1,432401,Tha Tum,Extremely dry,11,3.16,348
+1,432401,Tha Tum,Severely dry,2,0.57,348
+1,432401,Tha Tum,Moderately dry,5,1.44,348
+1,432401,Tha Tum,Near normal,231,66.38,348
+1,432401,Tha Tum,Moderately wet,98,28.16,348
+1,432401,Tha Tum,Severely wet,1,0.29,348
+1,432401,Tha Tum,Extremely wet,0,0.00,348
+1,436401,Nang Rong,Extremely dry,11,3.16,348
+1,436401,Nang Rong,Severely dry,2,0.57,348
+1,436401,Nang Rong,Moderately dry,5,1.44,348
+1,436401,Nang Rong,Near normal,237,68.10,348
+1,436401,Nang Rong,Moderately wet,93,26.72,348
+1,436401,Nang Rong,Severely wet,0,0.00,348
+1,436401,Nang Rong,Extremely wet,0,0.00,348
+3,352201,Nong Khai,Extremely dry,10,2.89,346
+3,352201,Nong Khai,Severely dry,6,1.73,346
+3,352201,Nong Khai,Moderately dry,21,6.07,346
+3,352201,Nong Khai,Near normal,224,64.74,346
+3,352201,Nong Khai,Moderately wet,76,21.97,346
+3,352201,Nong Khai,Severely wet,9,2.60,346
+3,352201,Nong Khai,Extremely wet,0,0.00,346
+3,353201,Loei,Extremely dry,10,3.15,317
+3,353201,Loei,Severely dry,2,0.63,317
+3,353201,Loei,Moderately dry,8,2.52,317
+3,353201,Loei,Near normal,233,73.50,317
+3,353201,Loei,Moderately wet,61,19.24,317
+3,353201,Loei,Severely wet,3,0.95,317
+3,353201,Loei,Extremely wet,0,0.00,317
+3,356201,Sakon Nakhon,Extremely dry,8,2.78,288
+3,356201,Sakon Nakhon,Severely dry,4,1.39,288
+3,356201,Sakon Nakhon,Moderately dry,7,2.43,288
+3,356201,Sakon Nakhon,Near normal,191,66.32,288
+3,356201,Sakon Nakhon,Moderately wet,75,26.04,288
+3,356201,Sakon Nakhon,Severely wet,2,0.69,288
+3,356201,Sakon Nakhon,Extremely wet,1,0.35,288
+3,357201,Nakhon Phanom,Extremely dry,8,2.52,317
+3,357201,Nakhon Phanom,Severely dry,11,3.47,317
+3,357201,Nakhon Phanom,Moderately dry,13,4.10,317
+3,357201,Nakhon Phanom,Near normal,234,73.82,317
+3,357201,Nakhon Phanom,Moderately wet,43,13.56,317
+3,357201,Nakhon Phanom,Severely wet,7,2.21,317
+3,357201,Nakhon Phanom,Extremely wet,1,0.32,317
+3,381201,Khon Kaen,Extremely dry,12,3.47,346
+3,381201,Khon Kaen,Severely dry,1,0.29,346
+3,381201,Khon Kaen,Moderately dry,4,1.16,346
+3,381201,Khon Kaen,Near normal,248,71.68,346
+3,381201,Khon Kaen,Moderately wet,79,22.83,346
+3,381201,Khon Kaen,Severely wet,2,0.58,346
+3,381201,Khon Kaen,Extremely wet,0,0.00,346
+3,383201,Mukdahan,Extremely dry,10,3.47,288
+3,383201,Mukdahan,Severely dry,4,1.39,288
+3,383201,Mukdahan,Moderately dry,4,1.39,288
+3,383201,Mukdahan,Near normal,195,67.71,288
+3,383201,Mukdahan,Moderately wet,74,25.69,288
+3,383201,Mukdahan,Severely wet,1,0.35,288
+3,383201,Mukdahan,Extremely wet,0,0.00,288
+3,387401,Kosum Phisai,Extremely dry,12,3.47,346
+3,387401,Kosum Phisai,Severely dry,0,0.00,346
+3,387401,Kosum Phisai,Moderately dry,5,1.45,346
+3,387401,Kosum Phisai,Near normal,214,61.85,346
+3,387401,Kosum Phisai,Moderately wet,113,32.66,346
+3,387401,Kosum Phisai,Severely wet,2,0.58,346
+3,387401,Kosum Phisai,Extremely wet,0,0.00,346
+3,403201,Chaiyaphum,Extremely dry,12,3.47,346
+3,403201,Chaiyaphum,Severely dry,0,0.00,346
+3,403201,Chaiyaphum,Moderately dry,0,0.00,346
+3,403201,Chaiyaphum,Near normal,248,71.68,346
+3,403201,Chaiyaphum,Moderately wet,86,24.86,346
+3,403201,Chaiyaphum,Severely wet,0,0.00,346
+3,403201,Chaiyaphum,Extremely wet,0,0.00,346
+3,405201,Roi Et,Extremely dry,11,3.18,346
+3,405201,Roi Et,Severely dry,3,0.87,346
+3,405201,Roi Et,Moderately dry,6,1.73,346
+3,405201,Roi Et,Near normal,232,67.05,346
+3,405201,Roi Et,Moderately wet,91,26.30,346
+3,405201,Roi Et,Severely wet,3,0.87,346
+3,405201,Roi Et,Extremely wet,0,0.00,346
+3,407501,Ubon Ratchathani,Extremely dry,10,3.15,317
+3,407501,Ubon Ratchathani,Severely dry,3,0.95,317
+3,407501,Ubon Ratchathani,Moderately dry,12,3.79,317
+3,407501,Ubon Ratchathani,Near normal,205,64.67,317
+3,407501,Ubon Ratchathani,Moderately wet,82,25.87,317
+3,407501,Ubon Ratchathani,Severely wet,5,1.58,317
+3,407501,Ubon Ratchathani,Extremely wet,0,0.00,317
+3,431201,Nakhon Ratchasima,Extremely dry,12,3.47,346
+3,431201,Nakhon Ratchasima,Severely dry,0,0.00,346
+3,431201,Nakhon Ratchasima,Moderately dry,0,0.00,346
+3,431201,Nakhon Ratchasima,Near normal,232,67.05,346
+3,431201,Nakhon Ratchasima,Moderately wet,102,29.48,346
+3,431201,Nakhon Ratchasima,Severely wet,0,0.00,346
+3,431201,Nakhon Ratchasima,Extremely wet,0,0.00,346
+3,431401,Chok Chai,Extremely dry,12,3.47,346
+3,431401,Chok Chai,Severely dry,0,0.00,346
+3,431401,Chok Chai,Moderately dry,0,0.00,346
+3,431401,Chok Chai,Near normal,255,73.70,346
+3,431401,Chok Chai,Moderately wet,79,22.83,346
+3,431401,Chok Chai,Severely wet,0,0.00,346
+3,431401,Chok Chai,Extremely wet,0,0.00,346
+3,432201,Surin,Extremely dry,12,3.47,346
+3,432201,Surin,Severely dry,2,0.58,346
+3,432201,Surin,Moderately dry,3,0.87,346
+3,432201,Surin,Near normal,231,66.76,346
+3,432201,Surin,Moderately wet,97,28.03,346
+3,432201,Surin,Severely wet,1,0.29,346
+3,432201,Surin,Extremely wet,0,0.00,346
+3,432401,Tha Tum,Extremely dry,13,3.76,346
+3,432401,Tha Tum,Severely dry,0,0.00,346
+3,432401,Tha Tum,Moderately dry,2,0.58,346
+3,432401,Tha Tum,Near normal,218,63.01,346
+3,432401,Tha Tum,Moderately wet,107,30.92,346
+3,432401,Tha Tum,Severely wet,6,1.73,346
+3,432401,Tha Tum,Extremely wet,0,0.00,346
+3,436401,Nang Rong,Extremely dry,12,3.47,346
+3,436401,Nang Rong,Severely dry,0,0.00,346
+3,436401,Nang Rong,Moderately dry,0,0.00,346
+3,436401,Nang Rong,Near normal,190,54.91,346
+3,436401,Nang Rong,Moderately wet,144,41.62,346
+3,436401,Nang Rong,Severely wet,0,0.00,346
+3,436401,Nang Rong,Extremely wet,0,0.00,346
+6,352201,Nong Khai,Extremely dry,7,2.46,285
+6,352201,Nong Khai,Severely dry,6,2.11,285
+6,352201,Nong Khai,Moderately dry,16,5.61,285
+6,352201,Nong Khai,Near normal,191,67.02,285
+6,352201,Nong Khai,Moderately wet,64,22.46,285
+6,352201,Nong Khai,Severely wet,1,0.35,285
+6,352201,Nong Khai,Extremely wet,0,0.00,285
+6,353201,Loei,Extremely dry,10,3.18,314
+6,353201,Loei,Severely dry,3,0.96,314
+6,353201,Loei,Moderately dry,1,0.32,314
+6,353201,Loei,Near normal,226,71.97,314
+6,353201,Loei,Moderately wet,72,22.93,314
+6,353201,Loei,Severely wet,2,0.64,314
+6,353201,Loei,Extremely wet,0,0.00,314
+6,356201,Sakon Nakhon,Extremely dry,9,3.52,256
+6,356201,Sakon Nakhon,Severely dry,0,0.00,256
+6,356201,Sakon Nakhon,Moderately dry,4,1.56,256
+6,356201,Sakon Nakhon,Near normal,174,67.97,256
+6,356201,Sakon Nakhon,Moderately wet,67,26.17,256
+6,356201,Sakon Nakhon,Severely wet,2,0.78,256
+6,356201,Sakon Nakhon,Extremely wet,0,0.00,256
+6,357201,Nakhon Phanom,Extremely dry,11,3.21,343
+6,357201,Nakhon Phanom,Severely dry,5,1.46,343
+6,357201,Nakhon Phanom,Moderately dry,27,7.87,343
+6,357201,Nakhon Phanom,Near normal,231,67.35,343
+6,357201,Nakhon Phanom,Moderately wet,54,15.74,343
+6,357201,Nakhon Phanom,Severely wet,11,3.21,343
+6,357201,Nakhon Phanom,Extremely wet,4,1.17,343
+6,381201,Khon Kaen,Extremely dry,11,3.50,314
+6,381201,Khon Kaen,Severely dry,0,0.00,314
+6,381201,Khon Kaen,Moderately dry,0,0.00,314
+6,381201,Khon Kaen,Near normal,227,72.29,314
+6,381201,Khon Kaen,Moderately wet,76,24.20,314
+6,381201,Khon Kaen,Severely wet,0,0.00,314
+6,381201,Khon Kaen,Extremely wet,0,0.00,314
+6,383201,Mukdahan,Extremely dry,11,3.21,343
+6,383201,Mukdahan,Severely dry,3,0.87,343
+6,383201,Mukdahan,Moderately dry,6,1.75,343
+6,383201,Mukdahan,Near normal,224,65.31,343
+6,383201,Mukdahan,Moderately wet,96,27.99,343
+6,383201,Mukdahan,Severely wet,3,0.87,343
+6,383201,Mukdahan,Extremely wet,0,0.00,343
+6,387401,Kosum Phisai,Extremely dry,12,3.50,343
+6,387401,Kosum Phisai,Severely dry,0,0.00,343
+6,387401,Kosum Phisai,Moderately dry,0,0.00,343
+6,387401,Kosum Phisai,Near normal,254,74.05,343
+6,387401,Kosum Phisai,Moderately wet,77,22.45,343
+6,387401,Kosum Phisai,Severely wet,0,0.00,343
+6,387401,Kosum Phisai,Extremely wet,0,0.00,343
+6,403201,Chaiyaphum,Extremely dry,12,3.50,343
+6,403201,Chaiyaphum,Severely dry,0,0.00,343
+6,403201,Chaiyaphum,Moderately dry,0,0.00,343
+6,403201,Chaiyaphum,Near normal,265,77.26,343
+6,403201,Chaiyaphum,Moderately wet,66,19.24,343
+6,403201,Chaiyaphum,Severely wet,0,0.00,343
+6,403201,Chaiyaphum,Extremely wet,0,0.00,343
+6,405201,Roi Et,Extremely dry,11,3.21,343
+6,405201,Roi Et,Severely dry,3,0.87,343
+6,405201,Roi Et,Moderately dry,6,1.75,343
+6,405201,Roi Et,Near normal,222,64.72,343
+6,405201,Roi Et,Moderately wet,95,27.70,343
+6,405201,Roi Et,Severely wet,5,1.46,343
+6,405201,Roi Et,Extremely wet,1,0.29,343
+6,407501,Ubon Ratchathani,Extremely dry,12,3.50,343
+6,407501,Ubon Ratchathani,Severely dry,3,0.87,343
+6,407501,Ubon Ratchathani,Moderately dry,6,1.75,343
+6,407501,Ubon Ratchathani,Near normal,248,72.30,343
+6,407501,Ubon Ratchathani,Moderately wet,65,18.95,343
+6,407501,Ubon Ratchathani,Severely wet,6,1.75,343
+6,407501,Ubon Ratchathani,Extremely wet,3,0.87,343
+6,431201,Nakhon Ratchasima,Extremely dry,12,3.50,343
+6,431201,Nakhon Ratchasima,Severely dry,0,0.00,343
+6,431201,Nakhon Ratchasima,Moderately dry,0,0.00,343
+6,431201,Nakhon Ratchasima,Near normal,224,65.31,343
+6,431201,Nakhon Ratchasima,Moderately wet,107,31.20,343
+6,431201,Nakhon Ratchasima,Severely wet,0,0.00,343
+6,431201,Nakhon Ratchasima,Extremely wet,0,0.00,343
+6,431401,Chok Chai,Extremely dry,12,3.50,343
+6,431401,Chok Chai,Severely dry,0,0.00,343
+6,431401,Chok Chai,Moderately dry,0,0.00,343
+6,431401,Chok Chai,Near normal,239,69.68,343
+6,431401,Chok Chai,Moderately wet,92,26.82,343
+6,431401,Chok Chai,Severely wet,0,0.00,343
+6,431401,Chok Chai,Extremely wet,0,0.00,343
+6,432201,Surin,Extremely dry,12,3.50,343
+6,432201,Surin,Severely dry,3,0.87,343
+6,432201,Surin,Moderately dry,1,0.29,343
+6,432201,Surin,Near normal,290,84.55,343
+6,432201,Surin,Moderately wet,35,10.20,343
+6,432201,Surin,Severely wet,1,0.29,343
+6,432201,Surin,Extremely wet,1,0.29,343
+6,432401,Tha Tum,Extremely dry,13,3.79,343
+6,432401,Tha Tum,Severely dry,2,0.58,343
+6,432401,Tha Tum,Moderately dry,7,2.04,343
+6,432401,Tha Tum,Near normal,269,78.43,343
+6,432401,Tha Tum,Moderately wet,47,13.70,343
+6,432401,Tha Tum,Severely wet,1,0.29,343
+6,432401,Tha Tum,Extremely wet,4,1.17,343
+6,436401,Nang Rong,Extremely dry,12,3.50,343
+6,436401,Nang Rong,Severely dry,0,0.00,343
+6,436401,Nang Rong,Moderately dry,0,0.00,343
+6,436401,Nang Rong,Near normal,220,64.14,343
+6,436401,Nang Rong,Moderately wet,111,32.36,343
+6,436401,Nang Rong,Severely wet,0,0.00,343
+6,436401,Nang Rong,Extremely wet,0,0.00,343
+12,352201,Nong Khai,Extremely dry,0,0.00,56
+12,352201,Nong Khai,Severely dry,4,7.14,56
+12,352201,Nong Khai,Moderately dry,7,12.50,56
+12,352201,Nong Khai,Near normal,35,62.50,56
+12,352201,Nong Khai,Moderately wet,7,12.50,56
+12,352201,Nong Khai,Severely wet,3,5.36,56
+12,352201,Nong Khai,Extremely wet,0,0.00,56
+12,353201,Loei,Extremely dry,12,3.56,337
+12,353201,Loei,Severely dry,0,0.00,337
+12,353201,Loei,Moderately dry,0,0.00,337
+12,353201,Loei,Near normal,245,72.70,337
+12,353201,Loei,Moderately wet,80,23.74,337
+12,353201,Loei,Severely wet,0,0.00,337
+12,353201,Loei,Extremely wet,0,0.00,337
+12,356201,Sakon Nakhon,Extremely dry,12,3.56,337
+12,356201,Sakon Nakhon,Severely dry,0,0.00,337
+12,356201,Sakon Nakhon,Moderately dry,0,0.00,337
+12,356201,Sakon Nakhon,Near normal,162,48.07,337
+12,356201,Sakon Nakhon,Moderately wet,163,48.37,337
+12,356201,Sakon Nakhon,Severely wet,0,0.00,337
+12,356201,Sakon Nakhon,Extremely wet,0,0.00,337
+12,357201,Nakhon Phanom,Extremely dry,11,3.26,337
+12,357201,Nakhon Phanom,Severely dry,9,2.67,337
+12,357201,Nakhon Phanom,Moderately dry,36,10.68,337
+12,357201,Nakhon Phanom,Near normal,222,65.88,337
+12,357201,Nakhon Phanom,Moderately wet,38,11.28,337
+12,357201,Nakhon Phanom,Severely wet,14,4.15,337
+12,357201,Nakhon Phanom,Extremely wet,7,2.08,337
+12,381201,Khon Kaen,Extremely dry,12,3.56,337
+12,381201,Khon Kaen,Severely dry,0,0.00,337
+12,381201,Khon Kaen,Moderately dry,0,0.00,337
+12,381201,Khon Kaen,Near normal,220,65.28,337
+12,381201,Khon Kaen,Moderately wet,105,31.16,337
+12,381201,Khon Kaen,Severely wet,0,0.00,337
+12,381201,Khon Kaen,Extremely wet,0,0.00,337
+12,383201,Mukdahan,Extremely dry,12,3.56,337
+12,383201,Mukdahan,Severely dry,0,0.00,337
+12,383201,Mukdahan,Moderately dry,0,0.00,337
+12,383201,Mukdahan,Near normal,195,57.86,337
+12,383201,Mukdahan,Moderately wet,130,38.58,337
+12,383201,Mukdahan,Severely wet,0,0.00,337
+12,383201,Mukdahan,Extremely wet,0,0.00,337
+12,387401,Kosum Phisai,Extremely dry,12,3.56,337
+12,387401,Kosum Phisai,Severely dry,0,0.00,337
+12,387401,Kosum Phisai,Moderately dry,0,0.00,337
+12,387401,Kosum Phisai,Near normal,254,75.37,337
+12,387401,Kosum Phisai,Moderately wet,71,21.07,337
+12,387401,Kosum Phisai,Severely wet,0,0.00,337
+12,387401,Kosum Phisai,Extremely wet,0,0.00,337
+12,403201,Chaiyaphum,Extremely dry,12,3.56,337
+12,403201,Chaiyaphum,Severely dry,0,0.00,337
+12,403201,Chaiyaphum,Moderately dry,0,0.00,337
+12,403201,Chaiyaphum,Near normal,227,67.36,337
+12,403201,Chaiyaphum,Moderately wet,98,29.08,337
+12,403201,Chaiyaphum,Severely wet,0,0.00,337
+12,403201,Chaiyaphum,Extremely wet,0,0.00,337
+12,405201,Roi Et,Extremely dry,12,3.56,337
+12,405201,Roi Et,Severely dry,0,0.00,337
+12,405201,Roi Et,Moderately dry,0,0.00,337
+12,405201,Roi Et,Near normal,234,69.44,337
+12,405201,Roi Et,Moderately wet,91,27.00,337
+12,405201,Roi Et,Severely wet,0,0.00,337
+12,405201,Roi Et,Extremely wet,0,0.00,337
+12,407501,Ubon Ratchathani,Extremely dry,12,3.56,337
+12,407501,Ubon Ratchathani,Severely dry,0,0.00,337
+12,407501,Ubon Ratchathani,Moderately dry,0,0.00,337
+12,407501,Ubon Ratchathani,Near normal,245,72.70,337
+12,407501,Ubon Ratchathani,Moderately wet,80,23.74,337
+12,407501,Ubon Ratchathani,Severely wet,0,0.00,337
+12,407501,Ubon Ratchathani,Extremely wet,0,0.00,337
+12,431201,Nakhon Ratchasima,Extremely dry,12,3.56,337
+12,431201,Nakhon Ratchasima,Severely dry,0,0.00,337
+12,431201,Nakhon Ratchasima,Moderately dry,0,0.00,337
+12,431201,Nakhon Ratchasima,Near normal,212,62.91,337
+12,431201,Nakhon Ratchasima,Moderately wet,113,33.53,337
+12,431201,Nakhon Ratchasima,Severely wet,0,0.00,337
+12,431201,Nakhon Ratchasima,Extremely wet,0,0.00,337
+12,431401,Chok Chai,Extremely dry,12,3.56,337
+12,431401,Chok Chai,Severely dry,0,0.00,337
+12,431401,Chok Chai,Moderately dry,0,0.00,337
+12,431401,Chok Chai,Near normal,227,67.36,337
+12,431401,Chok Chai,Moderately wet,98,29.08,337
+12,431401,Chok Chai,Severely wet,0,0.00,337
+12,431401,Chok Chai,Extremely wet,0,0.00,337
+12,432201,Surin,Extremely dry,12,3.56,337
+12,432201,Surin,Severely dry,0,0.00,337
+12,432201,Surin,Moderately dry,0,0.00,337
+12,432201,Surin,Near normal,227,67.36,337
+12,432201,Surin,Moderately wet,98,29.08,337
+12,432201,Surin,Severely wet,0,0.00,337
+12,432201,Surin,Extremely wet,0,0.00,337
+12,432401,Tha Tum,Extremely dry,12,3.56,337
+12,432401,Tha Tum,Severely dry,0,0.00,337
+12,432401,Tha Tum,Moderately dry,0,0.00,337
+12,432401,Tha Tum,Near normal,231,68.55,337
+12,432401,Tha Tum,Moderately wet,94,27.89,337
+12,432401,Tha Tum,Severely wet,0,0.00,337
+12,432401,Tha Tum,Extremely wet,0,0.00,337
+12,436401,Nang Rong,Extremely dry,12,3.56,337
+12,436401,Nang Rong,Severely dry,0,0.00,337
+12,436401,Nang Rong,Moderately dry,0,0.00,337
+12,436401,Nang Rong,Near normal,228,67.66,337
+12,436401,Nang Rong,Moderately wet,97,28.78,337
+12,436401,Nang Rong,Severely wet,0,0.00,337
+12,436401,Nang Rong,Extremely wet,0,0.00,337

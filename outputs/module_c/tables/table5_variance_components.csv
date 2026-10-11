@@ -1,0 +1,3 @@
+variable,var_observed,var_trend,var_seasonal,var_residual,pct_trend,pct_seasonal,pct_trend_seas,pct_residual
+ETo,336.992,9.456,268.308,56.153,2.806,79.619,83.654,16.663
+Precipitation,11180.317,160.493,9526.134,1462.865,1.435,85.205,86.827,13.084

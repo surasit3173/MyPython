@@ -1,0 +1,16 @@
+stncode,year,month,variable,value,reason
+381201,1987,2,sun,0.5,range
+405201,2007,6,sun,0.0,range
+405201,2007,7,sun,0.0,range
+405201,2007,8,sun,0.0,range
+405201,2007,9,sun,0.0,range
+407501,1987,9,sun,0.4,range
+353201,1981,9,tmin,22.1,robust_z=-5.4
+357201,1979,10,tmin,19.4,robust_z=-5.2
+353201,1987,7,rh,67.0,robust_z=-5.2
+353201,1993,8,rh,72.0,robust_z=-5.4
+357201,1986,1,rh,60.0,robust_z=-5.1
+432201,2002,12,rh,73.0,robust_z=5.1
+405201,1994,2,sun,5.4,robust_z=-6.5
+381201,1994,8,pan,1.7,robust_z=-5.1
+381201,1999,1,wind_raw,0.7000000000000001,robust_z=-5.2

@@ -1,0 +1,436 @@
+stncode,station,year,precip,class
+352201,Nong Khai,1979,2286.95,Dry
+352201,Nong Khai,1980,2625.19,Very wet
+352201,Nong Khai,1981,2642.24,Very wet
+352201,Nong Khai,1982,2471.87,Wet
+352201,Nong Khai,1983,2321.91,Normal
+352201,Nong Khai,1984,2485.68,Wet
+352201,Nong Khai,1985,2179.17,Dry
+352201,Nong Khai,1986,2560.87,Wet
+352201,Nong Khai,1987,2090.99,Dry
+352201,Nong Khai,1988,2337.28,Normal
+352201,Nong Khai,1989,2356.21,Normal
+352201,Nong Khai,1990,2408.31,Wet
+352201,Nong Khai,1991,1996.45,Very dry
+352201,Nong Khai,1992,2134.18,Dry
+352201,Nong Khai,1993,2009.09,Very dry
+352201,Nong Khai,1994,2703.09,Very wet
+352201,Nong Khai,1995,2640.74,Very wet
+352201,Nong Khai,1996,2311.53,Normal
+352201,Nong Khai,1997,2393.51,Normal
+352201,Nong Khai,1998,1837.46,Very dry
+352201,Nong Khai,1999,2310.09,Dry
+352201,Nong Khai,2000,2559.39,Wet
+352201,Nong Khai,2001,2565.86,Very wet
+352201,Nong Khai,2002,2638.99,Very wet
+352201,Nong Khai,2003,1925.59,Very dry
+352201,Nong Khai,2004,1962.75,Very dry
+352201,Nong Khai,2005,2451.99,Wet
+352201,Nong Khai,2006,2025.89,Very dry
+352201,Nong Khai,2007,2063.66,Dry
+353201,Loei,1979,1431.27,Normal
+353201,Loei,1980,1559.61,Very wet
+353201,Loei,1981,1346.40,Dry
+353201,Loei,1982,1476.18,Wet
+353201,Loei,1983,1502.34,Wet
+353201,Loei,1984,1422.44,Normal
+353201,Loei,1985,1255.49,Very dry
+353201,Loei,1986,1458.96,Wet
+353201,Loei,1987,1396.64,Normal
+353201,Loei,1988,1387.57,Dry
+353201,Loei,1989,1463.77,Wet
+353201,Loei,1990,1519.73,Very wet
+353201,Loei,1991,1251.07,Very dry
+353201,Loei,1992,1467.41,Wet
+353201,Loei,1993,1062.61,Very dry
+353201,Loei,1994,1605.17,Very wet
+353201,Loei,1995,1398.67,Normal
+353201,Loei,1996,1493.99,Wet
+353201,Loei,1997,1245.35,Very dry
+353201,Loei,1998,1320.41,Dry
+353201,Loei,1999,1747.35,Very wet
+353201,Loei,2000,1632.95,Very wet
+353201,Loei,2001,1377.63,Dry
+353201,Loei,2002,1618.73,Very wet
+353201,Loei,2003,1201.89,Very dry
+353201,Loei,2004,1341.14,Dry
+353201,Loei,2005,1259.51,Very dry
+353201,Loei,2006,1380.68,Dry
+353201,Loei,2007,1430.65,Normal
+356201,Sakon Nakhon,1979,2020.57,Very wet
+356201,Sakon Nakhon,1980,1784.76,Wet
+356201,Sakon Nakhon,1981,2055.64,Very wet
+356201,Sakon Nakhon,1982,1792.79,Wet
+356201,Sakon Nakhon,1983,1584.48,Normal
+356201,Sakon Nakhon,1984,1817.93,Wet
+356201,Sakon Nakhon,1985,1435.79,Very dry
+356201,Sakon Nakhon,1986,1821.88,Very wet
+356201,Sakon Nakhon,1987,1531.80,Dry
+356201,Sakon Nakhon,1988,1457.09,Very dry
+356201,Sakon Nakhon,1989,1922.35,Very wet
+356201,Sakon Nakhon,1990,1803.29,Wet
+356201,Sakon Nakhon,1991,1512.74,Dry
+356201,Sakon Nakhon,1992,1690.99,Normal
+356201,Sakon Nakhon,1993,1350.39,Very dry
+356201,Sakon Nakhon,1994,1583.29,Dry
+356201,Sakon Nakhon,1995,1741.39,Wet
+356201,Sakon Nakhon,1996,1620.80,Normal
+356201,Sakon Nakhon,1997,1480.71,Dry
+356201,Sakon Nakhon,1998,1189.26,Very dry
+356201,Sakon Nakhon,1999,1709.68,Normal
+356201,Sakon Nakhon,2000,1954.38,Very wet
+356201,Sakon Nakhon,2001,1796.87,Wet
+356201,Sakon Nakhon,2002,1906.52,Very wet
+356201,Sakon Nakhon,2003,1426.47,Very dry
+356201,Sakon Nakhon,2004,1472.69,Dry
+356201,Sakon Nakhon,2005,1482.65,Dry
+356201,Sakon Nakhon,2006,1441.66,Very dry
+356201,Sakon Nakhon,2007,1676.20,Normal
+357201,Nakhon Phanom,1979,2602.25,Very wet
+357201,Nakhon Phanom,1980,2385.07,Normal
+357201,Nakhon Phanom,1981,3253.58,Very wet
+357201,Nakhon Phanom,1982,2583.60,Very wet
+357201,Nakhon Phanom,1983,2108.64,Very dry
+357201,Nakhon Phanom,1984,2538.33,Wet
+357201,Nakhon Phanom,1985,2418.06,Wet
+357201,Nakhon Phanom,1986,2622.89,Very wet
+357201,Nakhon Phanom,1987,2293.59,Dry
+357201,Nakhon Phanom,1988,2044.99,Very dry
+357201,Nakhon Phanom,1989,2392.12,Normal
+357201,Nakhon Phanom,1990,2655.81,Very wet
+357201,Nakhon Phanom,1991,2167.84,Dry
+357201,Nakhon Phanom,1992,2290.19,Dry
+357201,Nakhon Phanom,1993,2236.36,Dry
+357201,Nakhon Phanom,1994,2486.92,Wet
+357201,Nakhon Phanom,1995,2455.51,Wet
+357201,Nakhon Phanom,1996,2288.95,Dry
+357201,Nakhon Phanom,1997,2294.91,Dry
+357201,Nakhon Phanom,1998,1695.42,Very dry
+357201,Nakhon Phanom,1999,2298.85,Normal
+357201,Nakhon Phanom,2000,2546.34,Wet
+357201,Nakhon Phanom,2001,2579.00,Wet
+357201,Nakhon Phanom,2002,3052.72,Very wet
+357201,Nakhon Phanom,2003,1997.34,Very dry
+357201,Nakhon Phanom,2004,2122.22,Very dry
+357201,Nakhon Phanom,2005,2408.46,Normal
+357201,Nakhon Phanom,2006,1972.19,Very dry
+357201,Nakhon Phanom,2007,2369.32,Normal
+381201,Khon Kaen,1979,1409.54,Wet
+381201,Khon Kaen,1980,1419.17,Wet
+381201,Khon Kaen,1981,1169.85,Very dry
+381201,Khon Kaen,1982,1380.32,Normal
+381201,Khon Kaen,1983,1426.13,Wet
+381201,Khon Kaen,1984,1376.95,Normal
+381201,Khon Kaen,1985,1219.31,Dry
+381201,Khon Kaen,1986,1272.11,Dry
+381201,Khon Kaen,1987,1415.19,Wet
+381201,Khon Kaen,1988,1457.55,Wet
+381201,Khon Kaen,1989,1460.72,Very wet
+381201,Khon Kaen,1990,1264.22,Dry
+381201,Khon Kaen,1991,1407.84,Wet
+381201,Khon Kaen,1992,1343.26,Normal
+381201,Khon Kaen,1993,1081.98,Very dry
+381201,Khon Kaen,1994,1253.37,Dry
+381201,Khon Kaen,1995,1330.77,Normal
+381201,Khon Kaen,1996,1478.48,Very wet
+381201,Khon Kaen,1997,1101.97,Very dry
+381201,Khon Kaen,1998,1125.90,Very dry
+381201,Khon Kaen,1999,1474.49,Very wet
+381201,Khon Kaen,2000,1612.22,Very wet
+381201,Khon Kaen,2001,1340.11,Normal
+381201,Khon Kaen,2002,1565.33,Very wet
+381201,Khon Kaen,2003,1235.36,Dry
+381201,Khon Kaen,2004,1109.67,Very dry
+381201,Khon Kaen,2005,1071.04,Very dry
+381201,Khon Kaen,2006,1256.64,Dry
+381201,Khon Kaen,2007,1491.28,Very wet
+383201,Mukdahan,1979,2079.16,Very wet
+383201,Mukdahan,1980,2047.49,Very wet
+383201,Mukdahan,1981,2156.48,Very wet
+383201,Mukdahan,1982,1759.00,Wet
+383201,Mukdahan,1983,1488.30,Dry
+383201,Mukdahan,1984,1944.90,Wet
+383201,Mukdahan,1985,1474.23,Very dry
+383201,Mukdahan,1986,1964.04,Very wet
+383201,Mukdahan,1987,1563.93,Normal
+383201,Mukdahan,1988,1464.03,Very dry
+383201,Mukdahan,1989,1814.66,Wet
+383201,Mukdahan,1990,1979.74,Very wet
+383201,Mukdahan,1991,1525.90,Dry
+383201,Mukdahan,1992,1670.99,Normal
+383201,Mukdahan,1993,1301.68,Very dry
+383201,Mukdahan,1994,1525.17,Dry
+383201,Mukdahan,1995,1526.66,Normal
+383201,Mukdahan,1996,1578.32,Normal
+383201,Mukdahan,1997,1502.30,Dry
+383201,Mukdahan,1998,1270.45,Very dry
+383201,Mukdahan,1999,1655.34,Normal
+383201,Mukdahan,2000,1852.51,Wet
+383201,Mukdahan,2001,1796.94,Wet
+383201,Mukdahan,2002,2032.31,Very wet
+383201,Mukdahan,2003,1454.75,Very dry
+383201,Mukdahan,2004,1502.07,Dry
+383201,Mukdahan,2005,1375.14,Very dry
+383201,Mukdahan,2006,1517.64,Dry
+383201,Mukdahan,2007,1707.04,Wet
+387401,Kosum Phisai,1979,1397.65,Very wet
+387401,Kosum Phisai,1980,1347.27,Wet
+387401,Kosum Phisai,1981,1134.22,Dry
+387401,Kosum Phisai,1982,1330.19,Wet
+387401,Kosum Phisai,1983,1364.83,Wet
+387401,Kosum Phisai,1984,1198.33,Dry
+387401,Kosum Phisai,1985,1120.93,Dry
+387401,Kosum Phisai,1986,1235.01,Normal
+387401,Kosum Phisai,1987,1236.48,Normal
+387401,Kosum Phisai,1988,1307.84,Wet
+387401,Kosum Phisai,1989,1361.05,Wet
+387401,Kosum Phisai,1990,1376.26,Very wet
+387401,Kosum Phisai,1991,1277.69,Normal
+387401,Kosum Phisai,1992,1225.70,Normal
+387401,Kosum Phisai,1993,940.14,Very dry
+387401,Kosum Phisai,1994,1171.39,Dry
+387401,Kosum Phisai,1995,1260.14,Normal
+387401,Kosum Phisai,1996,1352.72,Wet
+387401,Kosum Phisai,1997,1020.23,Very dry
+387401,Kosum Phisai,1998,1038.84,Very dry
+387401,Kosum Phisai,1999,1419.27,Very wet
+387401,Kosum Phisai,2000,1565.71,Very wet
+387401,Kosum Phisai,2001,1165.48,Dry
+387401,Kosum Phisai,2002,1494.50,Very wet
+387401,Kosum Phisai,2003,1086.72,Very dry
+387401,Kosum Phisai,2004,1009.87,Very dry
+387401,Kosum Phisai,2005,1054.53,Very dry
+387401,Kosum Phisai,2006,1199.66,Dry
+387401,Kosum Phisai,2007,1455.57,Very wet
+403201,Chaiyaphum,1979,1254.84,Wet
+403201,Chaiyaphum,1980,1534.81,Very wet
+403201,Chaiyaphum,1981,890.04,Very dry
+403201,Chaiyaphum,1982,1220.01,Normal
+403201,Chaiyaphum,1983,1278.45,Wet
+403201,Chaiyaphum,1984,1085.33,Dry
+403201,Chaiyaphum,1985,1249.65,Wet
+403201,Chaiyaphum,1986,1033.32,Very dry
+403201,Chaiyaphum,1987,1265.07,Wet
+403201,Chaiyaphum,1988,1186.22,Normal
+403201,Chaiyaphum,1989,1138.13,Dry
+403201,Chaiyaphum,1990,1188.28,Normal
+403201,Chaiyaphum,1991,1350.11,Very wet
+403201,Chaiyaphum,1992,914.77,Very dry
+403201,Chaiyaphum,1993,939.41,Very dry
+403201,Chaiyaphum,1994,1087.80,Dry
+403201,Chaiyaphum,1995,1262.72,Wet
+403201,Chaiyaphum,1996,1327.84,Very wet
+403201,Chaiyaphum,1997,1123.77,Dry
+403201,Chaiyaphum,1998,1116.29,Dry
+403201,Chaiyaphum,1999,1344.99,Very wet
+403201,Chaiyaphum,2000,1585.18,Very wet
+403201,Chaiyaphum,2001,1095.89,Dry
+403201,Chaiyaphum,2002,1286.32,Very wet
+403201,Chaiyaphum,2003,1138.94,Normal
+403201,Chaiyaphum,2004,845.09,Very dry
+403201,Chaiyaphum,2005,949.08,Very dry
+403201,Chaiyaphum,2006,1208.49,Normal
+403201,Chaiyaphum,2007,1248.35,Wet
+405201,Roi Et,1979,1482.79,Wet
+405201,Roi Et,1980,1652.21,Very wet
+405201,Roi Et,1981,1407.72,Normal
+405201,Roi Et,1982,1556.01,Very wet
+405201,Roi Et,1983,1430.74,Wet
+405201,Roi Et,1984,1362.60,Dry
+405201,Roi Et,1985,1294.64,Dry
+405201,Roi Et,1986,1425.36,Wet
+405201,Roi Et,1987,1285.54,Dry
+405201,Roi Et,1988,1422.13,Normal
+405201,Roi Et,1989,1483.96,Wet
+405201,Roi Et,1990,1594.76,Very wet
+405201,Roi Et,1991,1240.87,Very dry
+405201,Roi Et,1992,1292.77,Dry
+405201,Roi Et,1993,1145.28,Very dry
+405201,Roi Et,1994,1395.87,Normal
+405201,Roi Et,1995,1416.76,Normal
+405201,Roi Et,1996,1453.32,Wet
+405201,Roi Et,1997,1207.82,Very dry
+405201,Roi Et,1998,1228.30,Very dry
+405201,Roi Et,1999,1478.47,Wet
+405201,Roi Et,2000,1755.78,Very wet
+405201,Roi Et,2001,1364.28,Normal
+405201,Roi Et,2002,1620.03,Very wet
+405201,Roi Et,2003,1253.00,Dry
+405201,Roi Et,2004,1157.68,Very dry
+405201,Roi Et,2005,1108.40,Very dry
+405201,Roi Et,2006,1299.25,Dry
+405201,Roi Et,2007,1511.83,Very wet
+407501,Ubon Ratchathani,1979,1721.89,Very wet
+407501,Ubon Ratchathani,1980,2129.34,Very wet
+407501,Ubon Ratchathani,1981,1791.85,Very wet
+407501,Ubon Ratchathani,1982,1621.75,Normal
+407501,Ubon Ratchathani,1983,1602.60,Normal
+407501,Ubon Ratchathani,1984,1616.04,Normal
+407501,Ubon Ratchathani,1985,1550.53,Dry
+407501,Ubon Ratchathani,1986,2091.59,Very wet
+407501,Ubon Ratchathani,1987,1463.44,Very dry
+407501,Ubon Ratchathani,1988,1664.13,Wet
+407501,Ubon Ratchathani,1989,1640.25,Wet
+407501,Ubon Ratchathani,1990,1910.10,Very wet
+407501,Ubon Ratchathani,1991,1488.23,Dry
+407501,Ubon Ratchathani,1992,1573.99,Dry
+407501,Ubon Ratchathani,1993,1487.86,Very dry
+407501,Ubon Ratchathani,1994,1578.10,Dry
+407501,Ubon Ratchathani,1995,1464.13,Very dry
+407501,Ubon Ratchathani,1996,1698.12,Wet
+407501,Ubon Ratchathani,1997,1657.41,Wet
+407501,Ubon Ratchathani,1998,1354.46,Very dry
+407501,Ubon Ratchathani,1999,1585.88,Normal
+407501,Ubon Ratchathani,2000,1827.38,Very wet
+407501,Ubon Ratchathani,2001,1508.23,Dry
+407501,Ubon Ratchathani,2002,1704.68,Wet
+407501,Ubon Ratchathani,2003,1497.00,Dry
+407501,Ubon Ratchathani,2004,1370.51,Very dry
+407501,Ubon Ratchathani,2005,1348.15,Very dry
+407501,Ubon Ratchathani,2006,1596.13,Normal
+407501,Ubon Ratchathani,2007,1718.80,Wet
+431201,Nakhon Ratchasima,1979,971.23,Normal
+431201,Nakhon Ratchasima,1980,1125.41,Wet
+431201,Nakhon Ratchasima,1981,859.61,Very dry
+431201,Nakhon Ratchasima,1982,884.90,Very dry
+431201,Nakhon Ratchasima,1983,1034.90,Wet
+431201,Nakhon Ratchasima,1984,883.98,Very dry
+431201,Nakhon Ratchasima,1985,1013.53,Normal
+431201,Nakhon Ratchasima,1986,961.36,Normal
+431201,Nakhon Ratchasima,1987,1017.19,Normal
+431201,Nakhon Ratchasima,1988,1121.64,Wet
+431201,Nakhon Ratchasima,1989,900.83,Dry
+431201,Nakhon Ratchasima,1990,1146.51,Very wet
+431201,Nakhon Ratchasima,1991,1082.66,Wet
+431201,Nakhon Ratchasima,1992,808.55,Very dry
+431201,Nakhon Ratchasima,1993,801.53,Very dry
+431201,Nakhon Ratchasima,1994,896.17,Dry
+431201,Nakhon Ratchasima,1995,1113.12,Wet
+431201,Nakhon Ratchasima,1996,1162.04,Very wet
+431201,Nakhon Ratchasima,1997,942.27,Dry
+431201,Nakhon Ratchasima,1998,898.13,Dry
+431201,Nakhon Ratchasima,1999,1235.15,Very wet
+431201,Nakhon Ratchasima,2000,1321.42,Very wet
+431201,Nakhon Ratchasima,2001,951.47,Dry
+431201,Nakhon Ratchasima,2002,1158.34,Very wet
+431201,Nakhon Ratchasima,2003,963.63,Normal
+431201,Nakhon Ratchasima,2004,848.76,Very dry
+431201,Nakhon Ratchasima,2005,899.16,Dry
+431201,Nakhon Ratchasima,2006,1093.54,Wet
+431201,Nakhon Ratchasima,2007,1140.13,Very wet
+431401,Chok Chai,1979,858.97,Very dry
+431401,Chok Chai,1980,1061.86,Wet
+431401,Chok Chai,1981,876.30,Very dry
+431401,Chok Chai,1982,850.56,Very dry
+431401,Chok Chai,1983,935.05,Dry
+431401,Chok Chai,1984,890.83,Dry
+431401,Chok Chai,1985,1147.63,Wet
+431401,Chok Chai,1986,939.89,Dry
+431401,Chok Chai,1987,1033.61,Normal
+431401,Chok Chai,1988,1175.16,Very wet
+431401,Chok Chai,1989,901.58,Dry
+431401,Chok Chai,1990,1172.39,Very wet
+431401,Chok Chai,1991,1050.40,Normal
+431401,Chok Chai,1992,853.84,Very dry
+431401,Chok Chai,1993,772.16,Very dry
+431401,Chok Chai,1994,919.53,Dry
+431401,Chok Chai,1995,1146.91,Wet
+431401,Chok Chai,1996,1152.27,Very wet
+431401,Chok Chai,1997,983.17,Normal
+431401,Chok Chai,1998,870.83,Very dry
+431401,Chok Chai,1999,1322.66,Very wet
+431401,Chok Chai,2000,1194.27,Very wet
+431401,Chok Chai,2001,1096.05,Wet
+431401,Chok Chai,2002,1205.85,Very wet
+431401,Chok Chai,2003,954.00,Normal
+431401,Chok Chai,2004,884.52,Dry
+431401,Chok Chai,2005,942.48,Normal
+431401,Chok Chai,2006,1139.92,Wet
+431401,Chok Chai,2007,1144.46,Wet
+432201,Surin,1979,1198.80,Dry
+432201,Surin,1980,1672.57,Very wet
+432201,Surin,1981,1145.89,Dry
+432201,Surin,1982,1183.26,Dry
+432201,Surin,1983,1410.21,Very wet
+432201,Surin,1984,1143.29,Very dry
+432201,Surin,1985,1335.90,Wet
+432201,Surin,1986,1277.85,Normal
+432201,Surin,1987,1343.36,Wet
+432201,Surin,1988,1243.87,Normal
+432201,Surin,1989,1337.77,Wet
+432201,Surin,1990,1338.00,Wet
+432201,Surin,1991,1134.55,Very dry
+432201,Surin,1992,1208.85,Normal
+432201,Surin,1993,1102.83,Very dry
+432201,Surin,1994,1196.87,Dry
+432201,Surin,1995,1284.15,Normal
+432201,Surin,1996,1454.62,Very wet
+432201,Surin,1997,1175.62,Dry
+432201,Surin,1998,1096.63,Very dry
+432201,Surin,1999,1466.51,Very wet
+432201,Surin,2000,1731.07,Very wet
+432201,Surin,2001,1314.19,Wet
+432201,Surin,2002,1366.28,Wet
+432201,Surin,2003,1167.39,Dry
+432201,Surin,2004,1125.98,Very dry
+432201,Surin,2005,1061.46,Very dry
+432201,Surin,2006,1237.61,Normal
+432201,Surin,2007,1368.88,Very wet
+432401,Tha Tum,1979,1395.01,Wet
+432401,Tha Tum,1980,1845.41,Very wet
+432401,Tha Tum,1981,1406.66,Wet
+432401,Tha Tum,1982,1290.47,Dry
+432401,Tha Tum,1983,1469.89,Wet
+432401,Tha Tum,1984,1252.91,Very dry
+432401,Tha Tum,1985,1389.35,Normal
+432401,Tha Tum,1986,1499.85,Very wet
+432401,Tha Tum,1987,1264.28,Dry
+432401,Tha Tum,1988,1362.23,Normal
+432401,Tha Tum,1989,1436.57,Wet
+432401,Tha Tum,1990,1625.62,Very wet
+432401,Tha Tum,1991,1214.41,Very dry
+432401,Tha Tum,1992,1268.72,Dry
+432401,Tha Tum,1993,1228.44,Very dry
+432401,Tha Tum,1994,1324.46,Dry
+432401,Tha Tum,1995,1293.08,Dry
+432401,Tha Tum,1996,1527.10,Very wet
+432401,Tha Tum,1997,1331.45,Normal
+432401,Tha Tum,1998,1207.31,Very dry
+432401,Tha Tum,1999,1434.58,Wet
+432401,Tha Tum,2000,1785.34,Very wet
+432401,Tha Tum,2001,1259.69,Dry
+432401,Tha Tum,2002,1591.24,Very wet
+432401,Tha Tum,2003,1211.77,Very dry
+432401,Tha Tum,2004,1373.16,Normal
+432401,Tha Tum,2005,1028.51,Very dry
+432401,Tha Tum,2006,1359.84,Normal
+432401,Tha Tum,2007,1415.96,Wet
+436401,Nang Rong,1979,902.23,Dry
+436401,Nang Rong,1980,1194.76,Very wet
+436401,Nang Rong,1981,804.85,Very dry
+436401,Nang Rong,1982,868.61,Very dry
+436401,Nang Rong,1983,1046.56,Wet
+436401,Nang Rong,1984,974.69,Dry
+436401,Nang Rong,1985,1101.93,Wet
+436401,Nang Rong,1986,943.63,Dry
+436401,Nang Rong,1987,992.44,Normal
+436401,Nang Rong,1988,1060.60,Wet
+436401,Nang Rong,1989,1001.44,Normal
+436401,Nang Rong,1990,1086.63,Wet
+436401,Nang Rong,1991,1036.55,Normal
+436401,Nang Rong,1992,879.72,Very dry
+436401,Nang Rong,1993,837.02,Very dry
+436401,Nang Rong,1994,924.69,Dry
+436401,Nang Rong,1995,1131.13,Very wet
+436401,Nang Rong,1996,1241.04,Very wet
+436401,Nang Rong,1997,984.90,Normal
+436401,Nang Rong,1998,910.59,Dry
+436401,Nang Rong,1999,1312.92,Very wet
+436401,Nang Rong,2000,1310.62,Very wet
+436401,Nang Rong,2001,1024.62,Normal
+436401,Nang Rong,2002,1128.37,Very wet
+436401,Nang Rong,2003,935.18,Dry
+436401,Nang Rong,2004,857.08,Very dry
+436401,Nang Rong,2005,901.69,Very dry
+436401,Nang Rong,2006,1079.29,Wet
+436401,Nang Rong,2007,1083.28,Wet

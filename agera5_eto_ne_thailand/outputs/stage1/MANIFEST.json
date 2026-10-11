@@ -1,0 +1,37 @@
+{
+  "project": "AgERA5 v2.0 ETo evaluation, Northeast Thailand",
+  "pipeline_version": "1.0.0",
+  "stage": "stage1",
+  "created_utc": "2026-10-05T12:08:58+00:00",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "xarray": "2026.9.0",
+    "matplotlib": "3.10.8"
+  },
+  "config_sha256": "e4fbe12aee021088998b86862113e885d2009649f8652de033b1e41510bcdad2",
+  "outputs": [
+    "stage1/tables/qc_rejections.csv",
+    "stage1/tables/completeness_after_qc.csv",
+    "stage1/tables/completeness_after_wind_masking.csv",
+    "stage1/tables/homogeneity_screening.csv",
+    "stage1/tables/wind_masking_actions.csv",
+    "stage1/tables/wind_screening_final.csv",
+    "stage1/tables/reference_annual_summary.csv",
+    "stage1/tables/reference_monthly_sensitivity.csv",
+    "stage1/tables/reference_other_sensitivity.csv",
+    "stage1/station_reference_ensemble_masked.csv",
+    "stage1/station_reference_ensemble_unmasked.csv",
+    "stage1/station_monthly_clean_masked.csv",
+    "stage1/figures/fig_wind_homogeneity.png",
+    "stage1/figures/fig_wind_homogeneity.pdf",
+    "stage1/figures/fig_reference_envelope.png",
+    "stage1/figures/fig_reference_envelope.pdf",
+    "stage1/figures/fig_reference_sensitivity.png",
+    "stage1/figures/fig_reference_sensitivity.pdf"
+  ],
+  "qc_rejected_values": 15,
+  "wind_masking_actions": 4
+}

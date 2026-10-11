@@ -1,0 +1,60 @@
+# AgERA5 v2.0 ETo evaluation, Northeast Thailand - analysis configuration (v1.0.0)
+paths:
+  raw_dir: data/raw
+  coords_file: station_coords15sta.csv
+  out_dir: outputs
+
+period:            # full calendar years overlapping AgERA5 (starts 1979); TMD archive ends Oct 2008
+  start_year: 1979
+  end_year: 2007
+
+stations:          # elevation_m: fill from TMD/WMO OSCAR metadata; null -> reference.assumed_elevation_m (flagged)
+  - {code: 353201, name: Loei,             elevation_m: null, wind_label: "เลย จ.เลย"}
+  - {code: 356201, name: Sakon Nakhon,     elevation_m: null, wind_label: "สกลนคร จ.สกลนคร"}
+  - {code: 357201, name: Nakhon Phanom,    elevation_m: null, wind_label: "นครพนม จ.นครพนม"}
+  - {code: 381201, name: Khon Kaen,        elevation_m: null, wind_label: "ขอนแก่น จ.ขอนแก่น"}
+  - {code: 405201, name: Roi Et,           elevation_m: null, wind_label: "ร้อยเอ็ด จ.ร้อยเอ็ด"}
+  - {code: 407501, name: Ubon Ratchathani, elevation_m: null, wind_label: "อุบลราชธานี (ศูนย์ฯ) จ.อุบลราชธานี"}
+  - {code: 432201, name: Surin,            elevation_m: null, wind_label: "สุรินทร์ จ.สุรินทร์"}
+
+reference:
+  assumed_elevation_m: 150.0      # used only when elevation_m is null; sensitivity reported (0 vs 300 m)
+  anemometer_height_m: 10.0       # WMO synoptic standard; not confirmed for these stations
+  wind_units: ["m s-1", "knot"]   # archive unit undocumented -> both propagated
+  angstrom_sets: ["FAO56", "GloverMcCulloch"]
+  wind_break_q: 0.05              # BH-FDR threshold for relative SNHT break on wind
+  wind_break_min_shift_pct: 25.0  # act only on large shifts; smaller ones are flagged
+
+qc:
+  robust_z_limit: 5.0
+
+seasons:           # monthly approximation of the TMD seasonal calendar
+  hot: [3, 4, 5]
+  rainy: [6, 7, 8, 9, 10]
+  cool: [11, 12, 1, 2]
+
+statistics:
+  alpha: 0.05
+  bootstrap_n: 2000
+  bootstrap_block_months: 12
+  seed: 20261005
+
+agera5:
+  dataset: sis-agrometeorological-indicators
+  version: "2_0"
+  area: [18.6, 101.2, 14.4, 105.4]   # N, W, S, E - covers the seven stations with a 0.3 deg margin
+  download_dir: data/agera5_raw
+  extract_file: data/agera5_station_daily.csv
+  # (variable, statistic) pairs. Verify names once with "Show API request code" on the CDS download page.
+  requests:
+    tmax: {variable: 2m_temperature, statistic: 24_hour_maximum}
+    tmin: {variable: 2m_temperature, statistic: 24_hour_minimum}
+    vp:   {variable: vapour_pressure, statistic: 24_hour_mean}
+    u10:  {variable: 10m_wind_speed, statistic: 24_hour_mean}
+    rs:   {variable: solar_radiation_flux, statistic: null}
+    eto:  {variable: reference_evapotranspiration, statistic: null}
+    pr:   {variable: precipitation_flux, statistic: null}
+
+water_balance:     # reference-crop (Kc = 1) net irrigation requirement, monthly
+  effective_rain: usda_scs          # FAO CROPWAT USDA-SCS monthly method
+  dry_season_months: [11, 12, 1, 2, 3, 4]

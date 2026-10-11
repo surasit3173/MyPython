@@ -1,0 +1,8 @@
+test,pct_change_mean_eto
+elevation 0 m vs 150 m,-0.24514019818375754
+elevation 300 m vs 150 m,0.2450200533858693
+monthly G (FAO-56 Eq. 43/44) vs G = 0,0.003734382308540063
+unmasked vs masked wind (knot|FAO56),0.6198651185687964
+unmasked vs masked wind (knot|GloverMcCulloch),0.588010668972383
+unmasked vs masked wind (ms-1|FAO56),0.8199713832532929
+unmasked vs masked wind (ms-1|GloverMcCulloch),0.7756250133232445

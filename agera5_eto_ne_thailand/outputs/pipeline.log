@@ -1,0 +1,5 @@
+2026-10-05 12:08:49,137 INFO etoeval.data: QC rejected 15 values
+2026-10-05 12:08:52,963 INFO etoeval.reference: Wind break masked: 381201 after 1999 (shift 133.3%)
+2026-10-05 12:08:53,394 INFO etoeval.reference: Wind break masked: 356201 after 1998 (shift -32.4%)
+2026-10-05 12:08:53,867 INFO etoeval.reference: Wind break masked: 432201 after 2002 (shift -30.1%)
+2026-10-05 12:08:54,373 INFO etoeval.reference: Wind break masked: 405201 after 1992 (shift -37.0%)
