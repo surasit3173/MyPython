@@ -1,0 +1,4 @@
+scenario,n_gauges,min_RL_100,max_RL_100,mean_RL_100,gauge_ratio_100,mean_representation_error_pct
+Scenario A (n=13),13,47.8,724.9,215.1,15.17,108.46
+Scenario B (n=11),11,57.8,724.9,245.4,12.53,76.87
+Scenario C (n=8),8,162.5,724.9,301.3,4.46,40.22

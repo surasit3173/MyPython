@@ -1,0 +1,14 @@
+station,canonical_selected,canonical_AICc_gumbel,canonical_AICc_gev,canonical_AICc_lp3,canonical_RL_100,status,notes
+351001,LP3,354.41,351.37,351.07,339.05,REGENERATED,Reconciled against canonical full-record implementation
+351002,Gumbel,320.41,322.83,322.81,162.54,REGENERATED,Reconciled against canonical full-record implementation
+351003,LP3,355.45,353.11,346.13,154.05,REGENERATED,Reconciled against canonical full-record implementation
+351004,Gumbel,340.13,341.66,340.75,200.99,REGENERATED,Reconciled against canonical full-record implementation
+351005,Gumbel,320.45,322.27,322.09,166.71,REGENERATED,Reconciled against canonical full-record implementation
+351006,GEV,309.9,291.31,291.62,49.64,REGENERATED,Reconciled against canonical full-record implementation
+351007,GEV,327.73,303.31,304.07,47.79,REGENERATED,Reconciled against canonical full-record implementation
+351008,LP3,333.94,333.17,332.35,242.1,REGENERATED,Reconciled against canonical full-record implementation
+351009,LP3,251.77,249.79,249.51,77.15,REGENERATED,Reconciled against canonical full-record implementation
+351010,Gumbel,249.32,250.33,249.91,57.84,REGENERATED,Reconciled against canonical full-record implementation
+351011,LP3,376.53,375.13,373.45,711.33,REGENERATED,Reconciled against canonical full-record implementation
+351012,Gumbel,365.41,366.81,365.98,271.34,REGENERATED,Reconciled against canonical full-record implementation
+351201,LP3,342.22,339.1,338.58,302.89,REGENERATED,Reconciled against canonical full-record implementation
