@@ -1,0 +1,5 @@
+classification,station_months,daily_values_set_missing
+not_zero,4506,0
+confirmed_zero,265,0
+uncertain,78,0
+probable_missing,47,1432

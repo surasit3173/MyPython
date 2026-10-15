@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -41,10 +42,7 @@ class ENSOClassificationTests(unittest.TestCase):
 
     def test_noaa_v6_table_is_parsed_to_centred_months(self):
         """Catches a shifted ONI season-to-month mapping or wrong table selection."""
-        path = (
-            r"C:\MyPython\AAA_cmip6_analysis_taylor diagram_dailyMonthly"
-            r"\paper3_execution\inputs\enso\noaa_cpc_oni_ersstv6_2026-09-01.html"
-        )
+        path = Path(__file__).resolve().parents[1] / "inputs" / "enso" / "noaa_cpc_oni_ersstv6_2026-09-01.html"
         parsed = parse_noaa_oni_html(path)
         row = parsed.loc[parsed.date == pd.Timestamp("1982-10-01")].iloc[0]
 

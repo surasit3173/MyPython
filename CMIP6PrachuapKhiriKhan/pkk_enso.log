@@ -1,0 +1,85 @@
+INFERENCE_DONE OBSERVED RAINY PRCPTOT
+INFERENCE_DONE OBSERVED RAINY wet_day_frequency_pct
+INFERENCE_DONE OBSERVED RAINY Rx1day
+INFERENCE_DONE OBSERVED RAINY CDD
+INFERENCE_DONE OBSERVED RAINY Rx5day
+INFERENCE_DONE OBSERVED RAINY CWD
+INFERENCE_DONE OBSERVED RAINY R10mm
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: divide by zero encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: divide by zero encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+INFERENCE_DONE OBSERVED RAINY R20mm
+INFERENCE_DONE OBSERVED HOT_DRY PRCPTOT
+INFERENCE_DONE OBSERVED HOT_DRY wet_day_frequency_pct
+INFERENCE_DONE OBSERVED HOT_DRY Rx1day
+INFERENCE_DONE OBSERVED HOT_DRY CDD
+INFERENCE_DONE OBSERVED HOT_DRY Rx5day
+INFERENCE_DONE OBSERVED HOT_DRY CWD
+INFERENCE_DONE OBSERVED HOT_DRY R10mm
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: divide by zero encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: divide by zero encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: invalid value encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: invalid value encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+INFERENCE_DONE OBSERVED HOT_DRY R20mm
+INFERENCE_DONE RAW RAINY PRCPTOT
+INFERENCE_DONE RAW RAINY wet_day_frequency_pct
+INFERENCE_DONE RAW RAINY Rx1day
+INFERENCE_DONE RAW RAINY CDD
+INFERENCE_DONE RAW RAINY Rx5day
+INFERENCE_DONE RAW RAINY CWD
+INFERENCE_DONE RAW RAINY R10mm
+INFERENCE_DONE RAW RAINY R20mm
+INFERENCE_DONE RAW HOT_DRY PRCPTOT
+INFERENCE_DONE RAW HOT_DRY wet_day_frequency_pct
+INFERENCE_DONE RAW HOT_DRY Rx1day
+INFERENCE_DONE RAW HOT_DRY CDD
+INFERENCE_DONE RAW HOT_DRY Rx5day
+INFERENCE_DONE RAW HOT_DRY CWD
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: divide by zero encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: divide by zero encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: invalid value encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+INFERENCE_DONE RAW HOT_DRY R10mm
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: divide by zero encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: divide by zero encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: invalid value encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: invalid value encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+INFERENCE_DONE RAW HOT_DRY R20mm
+INFERENCE_DONE QDM RAINY PRCPTOT
+INFERENCE_DONE QDM RAINY wet_day_frequency_pct
+INFERENCE_DONE QDM RAINY Rx1day
+INFERENCE_DONE QDM RAINY CDD
+INFERENCE_DONE QDM RAINY Rx5day
+INFERENCE_DONE QDM RAINY CWD
+INFERENCE_DONE QDM RAINY R10mm
+INFERENCE_DONE QDM RAINY R20mm
+INFERENCE_DONE QDM HOT_DRY PRCPTOT
+INFERENCE_DONE QDM HOT_DRY wet_day_frequency_pct
+INFERENCE_DONE QDM HOT_DRY Rx1day
+INFERENCE_DONE QDM HOT_DRY CDD
+INFERENCE_DONE QDM HOT_DRY Rx5day
+INFERENCE_DONE QDM HOT_DRY CWD
+INFERENCE_DONE QDM HOT_DRY R10mm
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:55: RuntimeWarning: divide by zero encountered in divide
+  el_pct = np.where(eligible_el & safe_neutral, 100.0 * el_abs / neutral, np.nan)
+/app/AAA_cmip6_analysis_taylor diagram_dailyMonthly/paper3_execution/src/paper3core/inference.py:56: RuntimeWarning: divide by zero encountered in divide
+  la_pct = np.where(eligible_la & safe_neutral, 100.0 * la_abs / neutral, np.nan)
+INFERENCE_DONE QDM HOT_DRY R20mm
+/app/CMIP6PrachuapKhiriKhan/scripts/run_pkk_enso.py:471: PerformanceWarning: indexing past lexsort depth may impact performance.
+  set(raw_models.loc[key].index).intersection(qdm_models.loc[key].index)
+/app/CMIP6PrachuapKhiriKhan/scripts/run_pkk_enso.py:473: PerformanceWarning: indexing past lexsort depth may impact performance.
+  raw_signs = np.sign(raw_models.loc[key].loc[common_models, "response_pct"].to_numpy(float))
+/app/CMIP6PrachuapKhiriKhan/scripts/run_pkk_enso.py:474: PerformanceWarning: indexing past lexsort depth may impact performance.
+  qdm_signs = np.sign(qdm_models.loc[key].loc[common_models, "response_pct"].to_numpy(float))
+PRACHUAP_ENSO_ANALYSIS_COMPLETE mode=full output=/app/CMIP6PrachuapKhiriKhan/pkk_enso_output
