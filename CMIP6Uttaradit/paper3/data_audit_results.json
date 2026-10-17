@@ -1,0 +1,270 @@
+{
+  "project": "CMIP6Uttaradit/paper3",
+  "station_count": 13,
+  "station_inventory_pass": true,
+  "stations": [
+    "351001",
+    "351002",
+    "351003",
+    "351004",
+    "351005",
+    "351006",
+    "351007",
+    "351008",
+    "351009",
+    "351010",
+    "351011",
+    "351012",
+    "351201"
+  ],
+  "observed_date_continuity_pass": true,
+  "observed_total_days": 12418,
+  "observed_start_date": "1981-01-01",
+  "observed_end_date": "2014-12-31",
+  "observed_missing_per_station": {
+    "351001": 0,
+    "351002": 0,
+    "351003": 0,
+    "351004": 0,
+    "351005": 0,
+    "351006": 0,
+    "351007": 0,
+    "351008": 0,
+    "351009": 0,
+    "351010": 0,
+    "351011": 0,
+    "351012": 0,
+    "351201": 0
+  },
+  "model_inventory": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "EC-Earth3",
+    "FGOALS-g3",
+    "MIROC6",
+    "MRI-ESM2-0"
+  ],
+  "scenarios": [
+    "historical",
+    "ssp245",
+    "ssp585"
+  ],
+  "gcm_audit": {
+    "ACCESS-ESM1-5": {
+      "exists": true,
+      "files": {
+        "pr_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_ACCESS-ESM1-5_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_ACCESS-ESM1-5_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_ACCESS-ESM1-5_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "CanESM5": {
+      "exists": true,
+      "files": {
+        "pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CanESM5_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_CanESM5_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CanESM5_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CanESM5_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_CanESM5_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "CESM2": {
+      "exists": true,
+      "files": {
+        "pr_day_CESM2_ssp585_r11i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_CESM2_ssp245_r11i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CESM2_ssp245_r11i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_CESM2_ssp585_r11i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_CESM2_historical_r11i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "EC-Earth3": {
+      "exists": true,
+      "files": {
+        "pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_EC-Earth3_ssp585_r1i1p1f1_gr_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_EC-Earth3_ssp245_r1i1p1f1_gr_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_EC-Earth3_ssp245_r1i1p1f1_gr_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_EC-Earth3_historical_r1i1p1f1_gr_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_EC-Earth3_ssp585_r1i1p1f1_gr_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "FGOALS-g3": {
+      "exists": true,
+      "files": {
+        "bc_pr_day_FGOALS-g3_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_FGOALS-g3_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_FGOALS-g3_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_FGOALS-g3_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_FGOALS-g3_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_FGOALS-g3_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "MIROC6": {
+      "exists": true,
+      "files": {
+        "pr_day_MIROC6_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MIROC6_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_MIROC6_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_MIROC6_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MIROC6_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    },
+    "MRI-ESM2-0": {
+      "exists": true,
+      "files": {
+        "pr_day_MRI-ESM2-0_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MRI-ESM2-0_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_MRI-ESM2-0_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MRI-ESM2-0_historical_r1i1p1f1_gn_19810101-20141231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "pr_day_MRI-ESM2-0_ssp245_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        },
+        "bc_pr_day_MRI-ESM2-0_ssp585_r1i1p1f1_gn_20150101-21001231_63sta.csv": {
+          "rows_sample": 5,
+          "utt_stations_present": true
+        }
+      }
+    }
+  },
+  "baseline_periods": {
+    "calibration": "1981-2002",
+    "validation": "2003-2014",
+    "primary_enso_overlap": "1995-2014"
+  },
+  "seasons": {
+    "rainy": "May-October",
+    "hot_dry": "November-April (cross-year)"
+  },
+  "units": "mm/day",
+  "wet_day_threshold_mm": 1.0,
+  "audit_status": "PASS"
+}

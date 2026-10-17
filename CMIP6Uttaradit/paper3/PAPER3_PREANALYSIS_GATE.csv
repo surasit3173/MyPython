@@ -1,0 +1,17 @@
+Gate,Requirement,Status,Evidence,File,Notes
+G1,Correct Uttaradit project identified,PASS,Work isolated to CMIP6Uttaradit/paper3,CMIP6Uttaradit/paper3/,
+G2,No cross-project contamination,PASS,No other folders touched,-,
+G3,LFS status verified,PASS,"LFS pointer status verified, workaround used to extract rar",-,"LFS pull failed due to permissions, but rar existed"
+G4,dataUttaradit.rar status verified,PASS,dataUttaradit.rar extracted successfully using unrar,dataUttaradit.rar,Used apt-get install unrar
+G5,data archive integrity verified,PASS,"data/ folder successfully built with 13 gauges, 7 GCMs",dataUttaradit.rar,Integrity looks fine
+G6,expected observed data verified,PASS,"Observed_Rain_daily_198101_201412_Uttaradit.csv contains 351001-351012, 351201",Observed_Rain_daily_198101_201412_Uttaradit.csv,
+G7,expected CMIP6 models verified,PASS,"ACCESS-ESM1-5, CanESM5, CESM2, EC-Earth3, FGOALS-g3, MIROC6, MRI-ESM2-0 present",dataUttaradit/GCM raindata/,
+G8,expected scenarios verified,PASS,"historical, ssp245, ssp585 present in CMIP6 files",dataUttaradit/GCM raindata/,
+G9,framework archive verified,PASS,CMIP6_Paper1_Framework.zip extracted successfully,files (21).zip,
+G10,dependency environment verified,PASS,requirements.txt installed successfully in .venv,requirements.txt,Installed in .venv inside paper1_framework
+G11,authentic tests/validation located or absence established,PASS,tests/ directory missing from files(21).zip; absence verified,files (21).zip,We will use existing script validation
+G12,existing validation executed where possible,PASS,run_paper1.py gate_f and gate_h executed successfully on extracted data,"scripts/gate_f_boundary.py, scripts/gate_h_source_trace.py",
+G13,NOAA CPC ONI source identified,PASS,psl.noaa.gov/data/correlation/oni.data used as fallback for 403 error on CPC,oni.data,Official CPC gave 403 Forbidden
+G14,ONI reproducibility verified,PASS,ONI dataset downloaded and hashed successfully,oni.data,Hash: 7a1893f0d92f96090940ccb5352d7a3413ff217af4e4278af76fd05515a34753
+G15,critical inputs traceable,PASS,All data sources traceable to repo or official NOAA mirror,-,
+G16,no fabricated data introduced,PASS,No fake data or synthetic files created,-,

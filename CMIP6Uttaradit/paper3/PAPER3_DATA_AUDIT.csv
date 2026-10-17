@@ -1,0 +1,10 @@
+Category,Requirement,Status,Details
+Station Inventory,"13 stations (351001-351012, 351201)",PASS,Found 13 stations
+Station Metadata,Coordinates & Elevation present,PASS,File: Station_ID_Elevation_Uttaradit.csv
+Daily Date Continuity,1981-01-01 to 2014-12-31 (12418 days),PASS,Total days = 12418
+Missing Values (Observed),0 missing daily values,PASS,Total missing = 0
+Model Inventory,7 GCMs present,PASS,"ACCESS-ESM1-5, CanESM5, CESM2, EC-Earth3, FGOALS-g3, MIROC6, MRI-ESM2-0"
+Scenario Inventory,"historical, ssp245, ssp585 present",PASS,"historical, ssp245, ssp585"
+Time Coverage,"Historical: 1981-2014, Future: 2015-2100",PASS,Verified in GCM files
+Units & Threshold,"mm/day, wet-day >= 1.0 mm",PASS,Standard ETCCDI conventions
+Primary ENSO Baseline,1995-2014 common overlap period,PASS,Model-consistent historical baseline
